@@ -551,3 +551,19 @@ mark { background: #F6DFA8; color: inherit; border-radius: 4px; padding: 0 2px; 
 /* 稽核修正 */
 .brand { min-height: 44px; }
 .review-list p, .exam-review p, .mistake p, .feedback p { overflow-wrap: anywhere; }
+
+/* 作答回饋：固定在畫面底部，不用往下滑 */
+.feedback-sheet { position: fixed; left: var(--sp-3); right: var(--sp-3); z-index: 40; max-width: 616px; margin: 0 auto;
+  bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom) + var(--sp-2));
+  max-height: 48vh; overflow-y: auto; background: var(--c-card); border-radius: var(--radius-lg);
+  box-shadow: 0 -4px 24px rgba(59, 42, 30, .18); padding: var(--sp-2); animation: sheet-up .22s var(--ease) both; }
+.feedback-sheet .feedback { margin-top: 0; }
+.feedback-sheet .btn--block { margin-top: var(--sp-2); }
+@keyframes sheet-up { from { transform: translateY(16px); opacity: 0; } to { transform: none; opacity: 1; } }
+.auto-next { height: 4px; border-radius: var(--radius-pill); background: var(--c-good-bg); overflow: hidden; margin-top: var(--sp-2); }
+.auto-next > span { display: block; height: 100%; background: var(--c-good); transform-origin: left; animation: auto-next linear forwards; }
+@keyframes auto-next { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+/* 練習題預留底部空間，避免被回饋卡蓋住的內容無法看到 */
+.player:has(.feedback-sheet) .player__body { margin-bottom: 40vh; }
+/* 提示訊息改到上方，避免蓋住底部的作答回饋與按鈕 */
+.toast-root { bottom: auto; top: calc(64px + env(safe-area-inset-top) + var(--sp-2)); }

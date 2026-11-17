@@ -67,6 +67,7 @@ try:
 
         # ---- 1. 全新使用者 ----
         page.goto(BASE); ready(page)
+        page.wait_for_selector('[data-testid=diagnosis-cta]', timeout=10000)
         check('首頁顯示「開始程度診斷」', page.is_visible('[data-testid=diagnosis-cta]'))
         check('診斷前沒有今日安排', page.locator('[data-testid=plan-list]').count() == 0)
         page.goto(BASE + '#/worlds'); page.wait_for_selector('[data-testid=world-list]')

@@ -71,7 +71,7 @@ function stepHTML(step, ctx) {
           </li>`).join('')}</ul>`;
     }
     case 'practice':
-      return t + (step.intro ? `<p class="muted">${escapeHTML(step.intro)}</p>` : '') + '<p class="q__count" data-role="qcount"></p><div data-role="question"></div><div data-role="feedback"></div>';
+      return t + (step.intro ? `<p class="muted">${escapeHTML(step.intro)}</p>` : '') + '<p class="q__count" data-role="qcount"></p><div data-role="question"></div>';
     default:
       return t;
   }
@@ -80,6 +80,8 @@ function stepHTML(step, ctx) {
 export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records, exitLabel = '⏸ 暫停並離開', hooks }) {
   let state = initial;
   let busy = false;
+  let autoTimer = null;
+  const AUTO_NEXT_MS = 1100; // 答對後自動前往下一題的時間
 
   outlet.innerHTML = `
     <div class="player" data-testid="player">
@@ -94,6 +96,7 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
         <button type="button" class="btn btn--ghost" data-act="back">上一步</button>
         <button type="button" class="btn btn--primary" data-act="next">下一步</button>
       </div>
+      <div data-role="feedback"></div>
     </div>`;
 
   const body = outlet.querySelector('[data-role="body"]');
@@ -108,6 +111,9 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
     const step = E.currentStep(lesson, state);
     stepEl.textContent = E.stepLabel(lesson, state);
     bar.style.width = `${Math.round(((state.stepIndex + 1) / lesson.steps.length) * 100)}%`;
+    const sheet = outlet.querySelector('[data-role="feedback"]');
+    sheet.innerHTML = '';
+    sheet.classList.remove('feedback-sheet');
     body.innerHTML = stepHTML(step, { lesson, state, wordsMap, records });
     body.dataset.kind = step.kind;
     backBtn.hidden = !E.canGoBack(lesson, state);
@@ -143,20 +149,27 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
     await hooks.onAnswer?.(q, result.correct, answer);
     await save();
     busy = false;
-    showFeedback(result);
+    showFeedback(result, { auto: result.correct });
   }
 
-  function showFeedback(result) {
-    const fb = body.querySelector('[data-role="feedback"]');
-    fb.innerHTML = feedbackHTML(result) + '<button type="button" class="btn btn--primary btn--block" data-act="continue">繼續</button>';
+  // 解析固定浮在畫面底部，不用往下滑；答對會自動前往下一題，答錯等使用者看完解析按「繼續」
+  function showFeedback(result, { auto = false } = {}) {
+    // 放在卡片外面：卡片有動畫，放在裡面會讓 fixed 定位跟著卡片跑
+    const fb = outlet.querySelector('[data-role="feedback"]');
+    fb.classList.add('feedback-sheet');
+    fb.innerHTML = feedbackHTML(result) +
+      (auto ? `<div class="auto-next" aria-hidden="true"><span style="animation-duration:${AUTO_NEXT_MS}ms"></span></div>` : '') +
+      '<button type="button" class="btn btn--primary btn--block" data-act="continue">繼續</button>';
     backBtn.hidden = true;
     const cont = fb.querySelector('[data-act="continue"]');
     cont.addEventListener('click', goNext);
     cont.focus({ preventScroll: true });
-    fb.scrollIntoView?.({ block: 'nearest', behavior: 'smooth' });
+    clearTimeout(autoTimer);
+    if (auto) autoTimer = setTimeout(() => { if (fb.isConnected && fb.classList.contains('feedback-sheet')) goNext(); }, AUTO_NEXT_MS);
   }
 
   async function goNext() {
+    clearTimeout(autoTimer);
     if (busy) return;
     busy = true;
     try {
@@ -180,6 +193,7 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
     paint();
   });
   outlet.querySelector('[data-act="exit"]').addEventListener('click', async () => {
+    clearTimeout(autoTimer);
     await save();
     hooks.onExit?.(state);
   });
