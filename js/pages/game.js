@@ -226,8 +226,13 @@ export async function render({ outlet, db, query, settings }) {
       <div class="player" data-testid="game-spell">
         <div class="player__head"><a class="btn btn--ghost btn--sm" href="#/games">離開</a><span class="player__step" data-role="info"></span></div>
         <section class="card" data-role="card"></section>
+        <div data-role="fb"></div>
       </div>`;
     const card = outlet.querySelector('[data-role="card"]');
+    // 作答結果固定在畫面底部（放在卡片外面，fixed 定位才會以畫面為準）
+    const sheet = outlet.querySelector('[data-role="fb"]');
+    let autoTimer = null;
+    cleanups.push(() => clearTimeout(autoTimer));
     const info = outlet.querySelector('[data-role="info"]');
 
     function round() {
@@ -235,6 +240,9 @@ export async function render({ outlet, db, query, settings }) {
       const tiles = spellTiles(w.en);
       const picked = [];
       info.textContent = `第 ${idx + 1} / ${queue.length} 題`;
+      clearTimeout(autoTimer);
+      sheet.innerHTML = '';
+      sheet.classList.remove('feedback-sheet');
       card.innerHTML = `
         <h1 class="step__title">${game.icon} ${game.name}</h1>
         <img class="q__img" src="${escapeHTML(w.image)}" alt="題目圖片" width="120" height="120">
@@ -244,8 +252,7 @@ export async function render({ outlet, db, query, settings }) {
         <div class="btn-row">
           <button type="button" class="btn btn--ghost" data-act="clear">清除</button>
           <button type="button" class="btn btn--primary" data-act="check" disabled>確認</button>
-        </div>
-        <div data-role="fb"></div>`;
+        </div>`;
       const slots = card.querySelector('[data-role="slots"]');
       const checkBtn = card.querySelector('[data-act="check"]');
       let done = false;
@@ -285,16 +292,24 @@ export async function render({ outlet, db, query, settings }) {
           if (!retried.has(w.id)) { retried.add(w.id); queue.push(w); }
         }
         await record(w.id, correct, text);
-        card.querySelector('[data-role="fb"]').innerHTML = `
+        sheet.classList.add('feedback-sheet');
+        sheet.innerHTML = `
           <div class="feedback ${correct ? 'feedback--good' : 'feedback--bad'}">
             <p class="feedback__title">${correct ? '✅ 拼對了！' : '❌ 差一點'}</p>
-            ${correct ? '' : `<p>正確拼法：<strong class="en">${escapeHTML(w.en)}</strong>（${escapeHTML(w.ipa)}）</p><p class="feedback__next">🔁 這個字等一下會再出現一次。</p>`}
+            ${correct ? '' : `<p>你拼的：<span class="en">${escapeHTML(text)}</span></p><p>正確拼法：<strong class="en">${escapeHTML(w.en)}</strong>（${escapeHTML(w.ipa)}）</p><p class="feedback__next">🔁 這個字等一下會再出現一次。</p>`}
           </div>
+          ${correct ? '<div class="auto-next" aria-hidden="true"><span style="animation-duration:1100ms"></span></div>' : ''}
           <button type="button" class="btn btn--primary btn--block" data-act="next">${idx + 1 < queue.length ? '下一題' : '看結果'}</button>`;
-        card.querySelector('[data-act="next"]').addEventListener('click', () => {
+        let moved = false;
+        const goNext = () => {
+          if (moved) return;
+          moved = true;
+          clearTimeout(autoTimer);
           idx += 1;
-          if (idx < queue.length) round(); else finish(firstTry, missedHTML(missed));
-        });
+          if (idx < queue.length) round(); else { sheet.innerHTML = ''; sheet.classList.remove('feedback-sheet'); finish(firstTry, missedHTML(missed)); }
+        };
+        sheet.querySelector('[data-act="next"]').addEventListener('click', goNext);
+        if (correct) autoTimer = setTimeout(goNext, 1100);
       });
     }
     round();

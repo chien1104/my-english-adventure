@@ -78,7 +78,10 @@ def play_game_perfect(p, gid):
             tiles = p.eval_on_selector_all('[data-tile]', 'els => els.map(e => [e.dataset.tile, e.textContent])'); used = set()
             for ch in w['en']:
                 tid = next(t for t, c in tiles if c == ch and t not in used); used.add(tid); p.click(f'[data-tile="{tid}"]')
-            p.click('[data-act=check]'); p.wait_for_selector('.feedback'); p.click('[data-act=next]'); p.wait_for_timeout(40)
+            p.click('[data-act=check]'); p.wait_for_selector('.feedback')
+            try: p.click('.feedback-sheet [data-act=next]', timeout=1500)
+            except Exception: pass  # 拼對會自動下一題
+            p.wait_for_timeout(60)
     p.wait_for_selector('[data-testid=game-result]')
 
 try:

@@ -144,6 +144,7 @@ try:
         (sel) => new Promise((resolve) => {
           const el = document.querySelectorAll(sel.q)[sel.i];
           if (!el) return resolve('missing');
+          if (el.disabled) return resolve('ok');  // 隨機題目重新載入後，同位置可能是停用的按鈕
           const hash = location.hash; const before = window.__played.length;
           let mutated = false;
           const mo = new MutationObserver(() => { mutated = true; }); mo.observe(document.body, { subtree: true, childList: true, attributes: true, characterData: true });

@@ -194,7 +194,9 @@ try:
             if not first_wrong_done:
                 check('拼錯顯示正確拼法並會再出現', '正確拼法' in page.inner_text('.feedback') and '再出現' in page.inner_text('.feedback'))
                 first_wrong_done = True
-            page.click('[data-act=next]'); page.wait_for_timeout(60); rounds += 1
+            try: page.click('.feedback-sheet [data-act=next]', timeout=1500)
+            except Exception: pass  # 拼對會自動下一題
+            page.wait_for_timeout(150); rounds += 1
         page.wait_for_selector('[data-testid=game-result]')
         check('拼字共 6 題（5 題＋1 題補練），一次答對 4 題', rounds == 6 and page.inner_text('[data-testid=game-score]') == '4', f'{rounds} {page.inner_text("[data-testid=game-score]")}')
 
