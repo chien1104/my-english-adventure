@@ -1,0 +1,293 @@
+{
+  "id": "life-3",
+  "world": "life-island",
+  "order": 3,
+  "type": "dialogue",
+  "title": "問路",
+  "titleEn": "Asking for Directions",
+  "minutes": 12,
+  "summary": "學會問地點、聽懂左轉右轉和距離。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "這一課學什麼",
+      "body": [
+        "在國外迷路時，先說 Excuse me（不好意思），再問 Where is…?（…在哪裡？）。",
+        "聽回答時抓三個重點：直走或轉彎、在什麼旁邊、要走多久。"
+      ]
+    },
+    {
+      "kind": "dialogue",
+      "title": "聽聽看這段對話",
+      "scene": "場景：在街上",
+      "audio": "assets/audio/lessons/life-3/dialogue.mp3",
+      "lines": [
+        {
+          "speaker": "你",
+          "side": "left",
+          "en": "Excuse me. Where is the train station?",
+          "zh": "不好意思，請問火車站在哪裡？",
+          "audio": "assets/audio/lessons/life-3/d1.mp3"
+        },
+        {
+          "speaker": "路人",
+          "side": "right",
+          "en": "Go straight and turn left at the second corner.",
+          "zh": "直走，在第二個路口左轉。",
+          "audio": "assets/audio/lessons/life-3/d2.mp3"
+        },
+        {
+          "speaker": "你",
+          "side": "left",
+          "en": "Is it far from here?",
+          "zh": "離這裡遠嗎？",
+          "audio": "assets/audio/lessons/life-3/d3.mp3"
+        },
+        {
+          "speaker": "路人",
+          "side": "right",
+          "en": "No. It's about five minutes on foot.",
+          "zh": "不遠，走路大約五分鐘。",
+          "audio": "assets/audio/lessons/life-3/d4.mp3"
+        },
+        {
+          "speaker": "你",
+          "side": "left",
+          "en": "Is it next to the bank?",
+          "zh": "在銀行旁邊嗎？",
+          "audio": "assets/audio/lessons/life-3/d5.mp3"
+        },
+        {
+          "speaker": "路人",
+          "side": "right",
+          "en": "Yes, it's right next to the bank.",
+          "zh": "對，就在銀行旁邊。",
+          "audio": "assets/audio/lessons/life-3/d6.mp3"
+        },
+        {
+          "speaker": "你",
+          "side": "left",
+          "en": "Thank you so much!",
+          "zh": "非常謝謝你！",
+          "audio": "assets/audio/lessons/life-3/d7.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "examples",
+      "title": "重點句子",
+      "items": [
+        {
+          "en": "Excuse me. Where is the station?",
+          "zh": "不好意思，車站在哪裡？",
+          "highlight": "Where",
+          "audio": "assets/audio/lessons/life-3/p1.mp3"
+        },
+        {
+          "en": "Go straight.",
+          "zh": "直走。",
+          "highlight": "straight",
+          "audio": "assets/audio/lessons/life-3/p2.mp3"
+        },
+        {
+          "en": "Turn left at the corner.",
+          "zh": "在路口左轉。",
+          "highlight": "left",
+          "audio": "assets/audio/lessons/life-3/p3.mp3"
+        },
+        {
+          "en": "It's next to the bank.",
+          "zh": "在銀行旁邊。",
+          "highlight": "next",
+          "audio": "assets/audio/lessons/life-3/p4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出最適合的答案。有 ▶ 的題目要先聽。",
+      "questions": [
+        {
+          "id": "l3-where-a",
+          "group": "l3-where",
+          "type": "choice",
+          "prompt": "你想問廁所在哪裡，要怎麼說？",
+          "options": [
+            "Excuse me. What is the restroom?",
+            "Excuse me. Where is the restroom?",
+            "Excuse me. When is the restroom?"
+          ],
+          "answer": "Excuse me. Where is the restroom?",
+          "explanation": "問地點用 Where。restroom 是公共廁所。"
+        },
+        {
+          "id": "l3-left-a",
+          "group": "l3-left",
+          "type": "choice",
+          "prompt": "聽音檔：對方要你怎麼走？",
+          "options": [
+            "在路口左轉",
+            "在路口右轉",
+            "一直直走"
+          ],
+          "answer": "在路口左轉",
+          "explanation": "Turn left at the corner. 在路口左轉。",
+          "audio": "assets/audio/lessons/life-3/l3-left-a.mp3"
+        },
+        {
+          "id": "l3-straight-a",
+          "group": "l3-straight",
+          "type": "choice",
+          "prompt": "「直走」的英文是？",
+          "options": [
+            "Go street.",
+            "Go strong.",
+            "Go straight."
+          ],
+          "answer": "Go straight.",
+          "explanation": "直走是 go straight；street 是街道。"
+        },
+        {
+          "id": "l3-far-a",
+          "group": "l3-far",
+          "type": "choice",
+          "prompt": "聽音檔：走路要多久？",
+          "options": [
+            "大約 5 分鐘",
+            "大約 15 分鐘",
+            "大約 50 分鐘"
+          ],
+          "answer": "大約 5 分鐘",
+          "explanation": "It's about five minutes on foot. on foot 是走路。",
+          "audio": "assets/audio/lessons/life-3/l3-far-a.mp3"
+        },
+        {
+          "id": "l3-next-a",
+          "group": "l3-next",
+          "type": "choice",
+          "prompt": "聽音檔：書店在哪裡？",
+          "options": [
+            "在銀行旁邊",
+            "在銀行對面",
+            "在銀行樓上"
+          ],
+          "answer": "在銀行旁邊",
+          "explanation": "The bookstore is next to the bank. next to 是在…旁邊。",
+          "audio": "assets/audio/lessons/life-3/l3-next-a.mp3"
+        }
+      ],
+      "similar": [
+        {
+          "id": "l3-where-b",
+          "group": "l3-where",
+          "type": "choice",
+          "prompt": "你想問博物館在哪裡，要怎麼說？",
+          "options": [
+            "Who is the museum?",
+            "How is the museum?",
+            "Where is the museum?"
+          ],
+          "answer": "Where is the museum?",
+          "explanation": "問地點用 Where。"
+        },
+        {
+          "id": "l3-left-b",
+          "group": "l3-left",
+          "type": "choice",
+          "prompt": "聽音檔：對方要你怎麼走？",
+          "options": [
+            "在銀行左轉",
+            "在銀行右轉",
+            "在銀行停下來"
+          ],
+          "answer": "在銀行右轉",
+          "explanation": "Turn right at the bank. 在銀行右轉。",
+          "audio": "assets/audio/lessons/life-3/l3-left-b.mp3"
+        },
+        {
+          "id": "l3-straight-b",
+          "group": "l3-straight",
+          "type": "choice",
+          "prompt": "聽音檔：對方要你怎麼走？",
+          "options": [
+            "直走兩個街區",
+            "走兩分鐘",
+            "左轉兩次"
+          ],
+          "answer": "直走兩個街區",
+          "explanation": "Go straight for two blocks. block 是街區。",
+          "audio": "assets/audio/lessons/life-3/l3-straight-b.mp3"
+        },
+        {
+          "id": "l3-far-b",
+          "group": "l3-far",
+          "type": "choice",
+          "prompt": "聽音檔：到那裡要多久？",
+          "options": [
+            "走路大約 10 分鐘",
+            "搭公車大約 10 分鐘",
+            "搭公車大約 2 分鐘"
+          ],
+          "answer": "搭公車大約 10 分鐘",
+          "explanation": "It's about ten minutes by bus. by bus 是搭公車。",
+          "audio": "assets/audio/lessons/life-3/l3-far-b.mp3"
+        },
+        {
+          "id": "l3-next-b",
+          "group": "l3-next",
+          "type": "choice",
+          "prompt": "「在郵局旁邊」的英文是？",
+          "options": [
+            "It's next to the post office.",
+            "It's next the post office.",
+            "It's next on the post office."
+          ],
+          "answer": "It's next to the post office.",
+          "explanation": "在…旁邊是 next to，to 不能省略。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "排句子、寫寫看。",
+      "questions": [
+        {
+          "id": "l3-ord",
+          "group": "l3-ord",
+          "type": "order",
+          "prompt": "把單字排成正確的句子",
+          "zh": "車站在哪裡？",
+          "tokens": [
+            "the",
+            "Where",
+            "station",
+            "is"
+          ],
+          "answer": [
+            "Where",
+            "is",
+            "the",
+            "station"
+          ],
+          "punct": "?",
+          "explanation": "問地點：Where is the station?"
+        },
+        {
+          "id": "l3-type",
+          "group": "l3-type",
+          "type": "type",
+          "prompt": "「右轉」的英文是 turn ___，空格填什麼？",
+          "hint": "r 開頭，5 個字母",
+          "answer": "right",
+          "explanation": "右轉 turn right，左轉 turn left。"
+        }
+      ]
+    }
+  ]
+}

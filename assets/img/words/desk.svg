@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="desk">
+<title>desk</title>
+<circle cx="60" cy="60" r="56" fill="#F4ECDF"/>
+<ellipse cx="60" cy="98" rx="30" ry="4" fill="#E6D8C6"/>
+<rect x="18" y="50" width="84" height="10" rx="2" fill="#B9774F" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M24 60v32M96 60v32" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="62" y="60" width="30" height="24" fill="#C9A27E" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M70 72h14" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="30" y="36" width="22" height="14" rx="2" fill="#FFFFFF" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M70 50c0-8 4-12 10-12s10 4 10 12" fill="#8DAA6B" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

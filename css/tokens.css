@@ -1,0 +1,46 @@
+/* 設計變數：奶茶色、米白色、暖棕色 */
+:root {
+  --c-cream: #FBF7F0;        /* 米白：頁面底色 */
+  --c-cream-2: #F4ECDF;
+  --c-milktea: #C9A27E;      /* 奶茶：主色 */
+  --c-milktea-soft: #EAD9C4;
+  --c-brown: #7A5236;        /* 暖棕：強調、按鈕 */
+  --c-brown-deep: #4E3424;
+  --c-ink: #3B2A1E;          /* 主要文字 */
+  --c-ink-soft: #7C6858;     /* 次要文字 */
+  --c-line: #E6D8C6;
+  --c-card: #FFFDF9;
+  --c-gold: #E2B865;
+
+  --c-good: #4F7A4A;
+  --c-good-bg: #E7F0E1;
+  --c-warn: #9A6418;
+  --c-warn-bg: #FBEFD9;
+  --c-bad: #A23E2E;
+  --c-bad-bg: #F8E3DE;
+
+  --font-zh: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC", system-ui, sans-serif;
+  --font-en: ui-rounded, "SF Pro Rounded", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  --fs-xs: 0.78rem;
+  --fs-sm: 0.88rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.2rem;
+  --fs-xl: 1.6rem;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+
+  --shadow-card: 0 2px 0 rgba(122, 82, 54, 0.06), 0 8px 24px rgba(122, 82, 54, 0.08);
+  --tabbar-h: 64px;
+  --ease: cubic-bezier(.2, .8, .2, 1);
+}

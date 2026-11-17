@@ -1,0 +1,238 @@
+{
+  "id": "biz-2",
+  "world": "business-city",
+  "order": 2,
+  "type": "reading",
+  "title": "商務 Email 入門",
+  "titleEn": "Business Email",
+  "minutes": 12,
+  "summary": "看懂商務 email 的固定格式和常用句。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "商務 email 的格式",
+      "body": [
+        "多益和工作上最常讀到的就是 email。",
+        "商務 email 有固定格式：稱呼、目的、請求、結尾。學會幾個固定句子，就能看懂大部分的 email。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "固定句型",
+      "body": [
+        "這些句子幾乎每封商務 email 都會出現："
+      ],
+      "table": {
+        "head": [
+          "部分",
+          "常見寫法",
+          "中文"
+        ],
+        "rows": [
+          [
+            "稱呼",
+            "Dear Ms. Chen,",
+            "親愛的陳小姐"
+          ],
+          [
+            "目的",
+            "I am writing to ask about...",
+            "我寫信是想詢問…"
+          ],
+          [
+            "請求",
+            "Could you please...?",
+            "可以請您…嗎？"
+          ],
+          [
+            "感謝",
+            "Thank you for your help.",
+            "謝謝您的幫忙。"
+          ],
+          [
+            "結尾",
+            "Best regards,",
+            "敬上"
+          ]
+        ]
+      },
+      "tip": "Ms. 用在女性（不管已婚未婚），Mr. 用在男性。"
+    },
+    {
+      "kind": "passage",
+      "title": "Email 範例",
+      "en": "Dear Ms. Chen,\nI am writing to ask about the meeting next week. Could you please send me the schedule? I would also like to know the room number.\nThank you for your help.\nBest regards,\nKevin Lin",
+      "zh": "親愛的陳小姐：\n我寫信是想詢問下週的會議。可以請您寄行程表給我嗎？我也想知道會議室的號碼。\n謝謝您的幫忙。\n敬上\nKevin Lin",
+      "notes": [
+        {
+          "en": "I am writing to",
+          "zh": "我寫信是為了"
+        },
+        {
+          "en": "Could you please",
+          "zh": "可以請您"
+        },
+        {
+          "en": "I would like to know",
+          "zh": "我想知道"
+        },
+        {
+          "en": "Best regards",
+          "zh": "敬上"
+        }
+      ],
+      "audio": "assets/audio/lessons/biz-2/email.mp3"
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "可以回上一步重看 email。",
+      "questions": [
+        {
+          "id": "b2-purpose-a",
+          "group": "b2-purpose",
+          "type": "choice",
+          "prompt": "Kevin 寫信的目的是什麼？",
+          "options": [
+            "取消會議",
+            "詢問下週的會議",
+            "邀請陳小姐吃飯"
+          ],
+          "answer": "詢問下週的會議",
+          "explanation": "I am writing to ask about the meeting next week. 寫信詢問下週的會議。"
+        },
+        {
+          "id": "b2-dear-a",
+          "group": "b2-dear",
+          "type": "choice",
+          "prompt": "email 開頭稱呼女性主管陳小姐，要怎麼寫？",
+          "options": [
+            "Dear Ms. Chen,",
+            "Hi Chen girl,",
+            "To Chen Ms.,"
+          ],
+          "answer": "Dear Ms. Chen,",
+          "explanation": "正式稱呼：Dear ＋ Ms./Mr. ＋ 姓氏。"
+        },
+        {
+          "id": "b2-request-a",
+          "group": "b2-request",
+          "type": "choice",
+          "prompt": "禮貌地請對方寄檔案，哪一句最好？",
+          "options": [
+            "Send me file now.",
+            "You send file?",
+            "Could you please send me the file?"
+          ],
+          "answer": "Could you please send me the file?",
+          "explanation": "Could you please…? 是最常用的禮貌請求。"
+        },
+        {
+          "id": "b2-to-a",
+          "group": "b2-to",
+          "type": "choice",
+          "prompt": "選出適合填入空格的字",
+          "options": [
+            "to",
+            "for",
+            "at"
+          ],
+          "answer": "to",
+          "explanation": "I am writing to ＋ 動詞原形：寫信是為了做某事。",
+          "sentence": "I am writing ___ ask about your prices.",
+          "zh": "我寫信是想詢問貴公司的價格。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "b2-purpose-b",
+          "group": "b2-purpose",
+          "type": "choice",
+          "prompt": "Kevin 請陳小姐寄什麼？",
+          "options": [
+            "報告",
+            "會議室鑰匙",
+            "行程表"
+          ],
+          "answer": "行程表",
+          "explanation": "Could you please send me the schedule? 請寄行程表。"
+        },
+        {
+          "id": "b2-dear-b",
+          "group": "b2-dear",
+          "type": "choice",
+          "prompt": "email 結尾的「敬上」常寫成？",
+          "options": [
+            "See you,",
+            "Best regards,",
+            "Hello,"
+          ],
+          "answer": "Best regards,",
+          "explanation": "正式結尾：Best regards,"
+        },
+        {
+          "id": "b2-request-b",
+          "group": "b2-request",
+          "type": "choice",
+          "prompt": "Kevin 還想知道什麼？",
+          "options": [
+            "會議室號碼",
+            "會議的價格",
+            "陳小姐的電話"
+          ],
+          "answer": "會議室號碼",
+          "explanation": "I would also like to know the room number. 也想知道會議室號碼。"
+        },
+        {
+          "id": "b2-to-b",
+          "group": "b2-to",
+          "type": "choice",
+          "prompt": "選出適合填入空格的字",
+          "options": [
+            "thanks",
+            "thank",
+            "thanking"
+          ],
+          "answer": "thank",
+          "explanation": "Thank you for ＋ 名詞：謝謝你的…。",
+          "sentence": "___ you for your help.",
+          "zh": "謝謝您的幫忙。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "排出禮貌的請求句。",
+      "questions": [
+        {
+          "id": "b2-ord",
+          "group": "b2-ord",
+          "type": "order",
+          "prompt": "把單字排成正確的句子",
+          "zh": "可以請您寄給我嗎？",
+          "tokens": [
+            "send",
+            "you",
+            "please",
+            "it",
+            "Could"
+          ],
+          "answer": [
+            "Could",
+            "you",
+            "please",
+            "send",
+            "it"
+          ],
+          "punct": "?",
+          "explanation": "Could you please ＋ 動詞原形？"
+        }
+      ]
+    }
+  ]
+}

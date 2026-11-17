@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="printer">
+<title>printer</title>
+<circle cx="60" cy="60" r="56" fill="#F4ECDF"/>
+<ellipse cx="60" cy="98" rx="30" ry="4" fill="#E6D8C6"/>
+<rect x="38" y="24" width="44" height="22" rx="2" fill="#FFFFFF" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="24" y="44" width="72" height="32" rx="6" fill="#8E9AAF" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="36" y="66" width="48" height="28" rx="2" fill="#FFFFFF" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M44 76h28M44 84h20" stroke="#C9A27E" stroke-width="3" stroke-linecap="round"/>
+<circle cx="84" cy="54" r="3" fill="#7FA36E"/>
+</svg>

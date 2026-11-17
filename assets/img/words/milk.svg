@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="milk">
+<title>milk</title>
+<circle cx="60" cy="60" r="56" fill="#F4ECDF"/>
+<ellipse cx="60" cy="98" rx="30" ry="4" fill="#E6D8C6"/>
+<path d="M42 40l8-14h20l8 14v54H42z" fill="#FFFFFF" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M42 40h36" fill="none" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M50 26v-4h20v4" fill="#FFFFFF" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M42 60h36v20H42z" fill="#8DB3D9" stroke="#4E3424" stroke-width="3" stroke-linejoin="round"/>
+<path d="M54 70c2-4 6-4 6 0s4 4 6 0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+</svg>

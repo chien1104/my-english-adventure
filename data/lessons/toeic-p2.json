@@ -1,0 +1,282 @@
+{
+  "id": "toeic-p2",
+  "world": "toeic-camp",
+  "order": 2,
+  "type": "toeic-listen",
+  "title": "Part 2 應答問題",
+  "titleEn": "Question-Response",
+  "minutes": 12,
+  "summary": "聽懂疑問詞，選出合理的回答。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Part 2 是什麼",
+      "body": [
+        "Part 2 會聽到一個問題或句子，接著聽 3 個回答，選出最適合的回答。題目和選項都不會印出來。",
+        "最重要的是聽清楚開頭的疑問詞：Where 問地點、When 問時間、Who 問人、How 問方式或狀況。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "疑問詞對應的答案",
+      "body": [
+        "先抓開頭的字，就能刪掉大部分的錯誤選項："
+      ],
+      "table": {
+        "head": [
+          "疑問詞",
+          "問什麼",
+          "合理的回答"
+        ],
+        "rows": [
+          [
+            "Where",
+            "地點",
+            "On the second floor."
+          ],
+          [
+            "When",
+            "時間",
+            "At three o'clock."
+          ],
+          [
+            "Who",
+            "人",
+            "Mr. Brown did."
+          ],
+          [
+            "How",
+            "方式、狀況",
+            "By bus. ／ It was great."
+          ],
+          [
+            "Can／Do／Is…",
+            "是不是、可不可以",
+            "Sure. ／ Yes, here you are."
+          ]
+        ]
+      },
+      "tip": "陷阱：選項裡出現和題目「發音很像」或「同一個字」的，常常是錯的。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Where is the meeting room? — It's on the second floor.",
+          "zh": "會議室在哪裡？——在二樓。",
+          "highlight": "Where",
+          "audio": "assets/audio/toeic/p2-ex1.mp3"
+        },
+        {
+          "en": "When does the store open? — At nine a.m.",
+          "zh": "店幾點開？——早上九點。",
+          "highlight": "When",
+          "audio": "assets/audio/toeic/p2-ex2.mp3"
+        },
+        {
+          "en": "How do you get to work? — I usually take the train.",
+          "zh": "你怎麼去上班？——我通常搭火車。",
+          "highlight": "How",
+          "audio": "assets/audio/toeic/p2-ex3.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "按 ▶ 聽題目和三個選項，再選答案。",
+      "questions": [
+        {
+          "id": "p2-where-a",
+          "group": "p2-where",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Where 問地點，回答「在二樓」最合理。(C) 用發音相近的 meet 當陷阱。\n逐字稿：Where is the meeting room?（會議室在哪裡？）　(A) It's on the second floor.（在二樓）　(B) At two o'clock.（兩點）　(C) Yes, I'll meet him.（是的，我會跟他見面）",
+          "audio": "assets/audio/toeic/p2-where-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p2-when-a",
+          "group": "p2-when",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "When 問時間，回答時間「早上九點」。\n逐字稿：When does the store open?（這家店幾點開？）　(A) It's next to the bank.（在銀行旁邊）　(B) At nine a.m.（早上九點）　(C) A new store.（一家新店）",
+          "audio": "assets/audio/toeic/p2-when-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p2-who-a",
+          "group": "p2-who",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "Who 問人，回答人名。(A) 是地點，(B) 是時間。\n逐字稿：Who is going to the conference?（誰要去參加研討會？）　(A) In Tokyo.（在東京）　(B) Next Monday.（下週一）　(C) Ms. Park is.（朴小姐要去）",
+          "audio": "assets/audio/toeic/p2-who-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p2-how-a",
+          "group": "p2-how",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "How 問方式，回答交通方式。\n逐字稿：How do you get to work?（你怎麼去上班？）　(A) I usually take the train.（我通常搭火車）　(B) Yes, I work here.（是的，我在這裡工作）　(C) At the office.（在辦公室）",
+          "audio": "assets/audio/toeic/p2-how-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p2-yn-a",
+          "group": "p2-yn",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "請求要回答可以或不行。(C) 主詞是 he 而且是過去式，不合理。\n逐字稿：Can you send me the report today?（你今天可以把報告寄給我嗎？）　(A) It's a long report.（這份報告很長）　(B) Sure, I'll do it this afternoon.（當然，我下午就寄）　(C) Yes, he sent it.（是的，他寄了）",
+          "audio": "assets/audio/toeic/p2-yn-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p2-where-b",
+          "group": "p2-where",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Where 問地點，回答「在櫃台」。\n逐字稿：Where can I buy a ticket?（我可以在哪裡買票？）　(A) At the counter over there.（在那邊的櫃台）　(B) Ten dollars.（十美元）　(C) Yes, I bought it.（是的，我買了）",
+          "audio": "assets/audio/toeic/p2-where-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p2-when-b",
+          "group": "p2-when",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "When 問時間，回答「十點半」。\n逐字稿：When will the meeting start?（會議什麼時候開始？）　(A) In room three.（在三號會議室）　(B) It's a long meeting.（這是個很長的會議）　(C) At ten thirty.（十點半）",
+          "audio": "assets/audio/toeic/p2-when-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p2-who-b",
+          "group": "p2-who",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Who 問人，回答「金先生」。\n逐字稿：Who wrote this email?（這封 email 是誰寫的？）　(A) Mr. Kim did.（金先生寫的）　(B) Yesterday morning.（昨天早上）　(C) To the manager.（寄給經理）",
+          "audio": "assets/audio/toeic/p2-who-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p2-how-b",
+          "group": "p2-how",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "How was…? 是問感想，不是問交通方式，所以 (A) 是陷阱。\n逐字稿：How was your trip to Japan?（你的日本之旅怎麼樣？）　(A) By plane.（搭飛機）　(B) It was great, thanks.（很棒，謝謝）　(C) Next week.（下週）",
+          "audio": "assets/audio/toeic/p2-how-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p2-yn-b",
+          "group": "p2-yn",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Do you have…? 回答 Yes, here you are.（有，給你）。\n逐字稿：Do you have a pen?（你有筆嗎？）　(A) Yes, here you are.（有，給你）　(B) I have a meeting.（我有個會議）　(C) It's open.（它是開著的）",
+          "audio": "assets/audio/toeic/p2-yn-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：選出問句",
+      "intro": "看中文，選出正確的英文問句。",
+      "questions": [
+        {
+          "id": "p2-ext-1",
+          "group": "p2-ext-1",
+          "type": "choice",
+          "prompt": "「這家店幾點開？」英文怎麼問？",
+          "options": [
+            "Where does the store open?",
+            "When does the store open?",
+            "Who does the store open?"
+          ],
+          "answer": "When does the store open?",
+          "explanation": "問時間用 When。"
+        },
+        {
+          "id": "p2-ext-2",
+          "group": "p2-ext-2",
+          "type": "choice",
+          "prompt": "「你怎麼去上班？」英文怎麼問？",
+          "options": [
+            "How do you get to work?",
+            "Who do you get to work?",
+            "Where do you get to work?"
+          ],
+          "answer": "How do you get to work?",
+          "explanation": "問方式用 How。"
+        }
+      ]
+    }
+  ]
+}

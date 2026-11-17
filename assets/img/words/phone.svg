@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="phone">
+<title>phone</title>
+<circle cx="60" cy="60" r="56" fill="#F4ECDF"/>
+<ellipse cx="60" cy="98" rx="30" ry="4" fill="#E6D8C6"/>
+<rect x="40" y="20" width="40" height="76" rx="8" fill="#5A4636" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="45" y="30" width="30" height="52" rx="3" fill="#BFDDF0"/>
+<circle cx="60" cy="89" r="3" fill="#C9A27E"/>
+<path d="M54 25h12" stroke="#C9A27E" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="50" y="40" width="8" height="8" rx="2" fill="#F2CC5B"/><rect x="62" y="40" width="8" height="8" rx="2" fill="#D9644A"/>
+<rect x="50" y="52" width="8" height="8" rx="2" fill="#7FA36E"/><rect x="62" y="52" width="8" height="8" rx="2" fill="#8DB3D9"/>
+</svg>

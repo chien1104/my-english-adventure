@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="manager">
+<title>manager</title>
+<circle cx="60" cy="60" r="56" fill="#F4ECDF"/>
+<ellipse cx="60" cy="98" rx="30" ry="4" fill="#E6D8C6"/>
+<circle cx="60" cy="42" r="16" fill="#F2C9A0" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M44 38c2-12 30-14 32 0-6-4-24-4-32 0z" fill="#4E3424"/>
+<path d="M30 96c2-20 14-30 30-30s28 10 30 30z" fill="#4A5A7A" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M52 66l8 8 8-8" fill="#FFFFFF" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 74l-4 18h8z" fill="#D9644A" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

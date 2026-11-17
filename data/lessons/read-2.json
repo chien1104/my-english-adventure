@@ -1,0 +1,227 @@
+{
+  "id": "read-2",
+  "world": "listen-academy",
+  "order": 2,
+  "type": "reading",
+  "title": "公告與通知",
+  "titleEn": "Notices",
+  "minutes": 12,
+  "summary": "看懂公告：什麼事、什麼時候、在哪裡。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "怎麼讀公告",
+      "body": [
+        "生活和工作中常看到英文公告：設施關閉、活動通知、時間變更。",
+        "讀公告的秘訣：先找「什麼事」、「什麼時候」、「在哪裡」，不需要每個字都看懂。",
+        "這一課有兩篇短公告，都可以先聽再讀。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "title": "公告一：游泳池",
+      "en": "NOTICE\nThe swimming pool will be closed for cleaning from Monday, June 3, to Wednesday, June 5. It will open again on Thursday at 8 a.m. We are sorry for any trouble.",
+      "zh": "公告\n游泳池將於 6 月 3 日（星期一）至 6 月 5 日（星期三）關閉清潔，星期四早上 8 點重新開放。造成不便，敬請見諒。",
+      "notes": [
+        {
+          "en": "be closed",
+          "zh": "關閉"
+        },
+        {
+          "en": "cleaning",
+          "zh": "清潔"
+        },
+        {
+          "en": "open again",
+          "zh": "重新開放"
+        },
+        {
+          "en": "trouble",
+          "zh": "麻煩、不便"
+        }
+      ],
+      "audio": "assets/audio/lessons/read-2/notice1.mp3"
+    },
+    {
+      "kind": "passage",
+      "title": "公告二：圖書館特賣",
+      "en": "Dear Members,\nOur library is having a book sale this Saturday from 10 a.m. to 4 p.m. All books are only two dollars. Please come and bring your friends!\nCity Library",
+      "zh": "親愛的會員：\n本館這個星期六上午 10 點到下午 4 點舉辦書籍特賣，所有書都只要 2 美元。歡迎帶朋友一起來！\n市立圖書館",
+      "notes": [
+        {
+          "en": "member",
+          "zh": "會員"
+        },
+        {
+          "en": "book sale",
+          "zh": "書籍特賣"
+        },
+        {
+          "en": "bring",
+          "zh": "帶來"
+        }
+      ],
+      "audio": "assets/audio/lessons/read-2/notice2.mp3"
+    },
+    {
+      "kind": "practice",
+      "title": "閱讀理解",
+      "intro": "可以回上一步重看公告。",
+      "questions": [
+        {
+          "id": "r2-why-a",
+          "group": "r2-why",
+          "type": "choice",
+          "prompt": "游泳池為什麼關閉？",
+          "options": [
+            "修理",
+            "清潔",
+            "放假"
+          ],
+          "answer": "清潔",
+          "explanation": "closed for cleaning：因為清潔而關閉。",
+          "sentence": "Why will the pool be closed?"
+        },
+        {
+          "id": "r2-day-a",
+          "group": "r2-day",
+          "type": "choice",
+          "prompt": "特賣會在哪一天？",
+          "options": [
+            "星期六",
+            "星期日",
+            "星期五"
+          ],
+          "answer": "星期六",
+          "explanation": "a book sale this Saturday：這個星期六。",
+          "sentence": "When is the book sale?"
+        },
+        {
+          "id": "r2-price-a",
+          "group": "r2-price",
+          "type": "choice",
+          "prompt": "每本書多少錢？",
+          "options": [
+            "10 美元",
+            "2 美元",
+            "4 美元"
+          ],
+          "answer": "2 美元",
+          "explanation": "All books are only two dollars. 每本都只要 2 美元。",
+          "sentence": "How much is each book?"
+        },
+        {
+          "id": "r2-time-a",
+          "group": "r2-time",
+          "type": "choice",
+          "prompt": "特賣會幾點結束？",
+          "options": [
+            "上午 10 點",
+            "下午 2 點",
+            "下午 4 點"
+          ],
+          "answer": "下午 4 點",
+          "explanation": "from 10 a.m. to 4 p.m.：從上午 10 點到下午 4 點。",
+          "sentence": "What time does the sale end?"
+        }
+      ],
+      "similar": [
+        {
+          "id": "r2-why-b",
+          "group": "r2-why",
+          "type": "choice",
+          "prompt": "游泳池哪一天重新開放？",
+          "options": [
+            "星期一",
+            "星期四",
+            "星期三"
+          ],
+          "answer": "星期四",
+          "explanation": "It will open again on Thursday. 星期四重新開放。",
+          "sentence": "When will the pool open again?"
+        },
+        {
+          "id": "r2-day-b",
+          "group": "r2-day",
+          "type": "choice",
+          "prompt": "游泳池從哪一天開始關閉？",
+          "options": [
+            "6 月 3 日",
+            "6 月 5 日",
+            "6 月 8 日"
+          ],
+          "answer": "6 月 3 日",
+          "explanation": "from Monday, June 3：從 6 月 3 日開始。",
+          "sentence": "When does the closing start?"
+        },
+        {
+          "id": "r2-price-b",
+          "group": "r2-price",
+          "type": "choice",
+          "prompt": "這則圖書館公告是寫給誰的？",
+          "options": [
+            "會員",
+            "員工",
+            "作家"
+          ],
+          "answer": "會員",
+          "explanation": "Dear Members：寫給會員。",
+          "sentence": "Who is the notice for?"
+        },
+        {
+          "id": "r2-time-b",
+          "group": "r2-time",
+          "type": "choice",
+          "prompt": "游泳池重新開放的時間是？",
+          "options": [
+            "晚上 8 點",
+            "早上 10 點",
+            "早上 8 點"
+          ],
+          "answer": "早上 8 點",
+          "explanation": "on Thursday at 8 a.m.：星期四早上 8 點。",
+          "sentence": "What time will the pool open?"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：聽力",
+      "intro": "聽音檔，回答問題。",
+      "questions": [
+        {
+          "id": "r2-l1",
+          "group": "r2-l1",
+          "type": "choice",
+          "prompt": "聽音檔：博物館什麼時候休館？",
+          "options": [
+            "星期日",
+            "星期一",
+            "每天"
+          ],
+          "answer": "星期一",
+          "explanation": "The museum will be closed on Monday. 博物館星期一休館。",
+          "audio": "assets/audio/lessons/read-2/l1.mp3"
+        },
+        {
+          "id": "r2-l2",
+          "group": "r2-l2",
+          "type": "choice",
+          "prompt": "聽音檔：會議幾點開始？",
+          "options": [
+            "2:30",
+            "3:30",
+            "2:13"
+          ],
+          "answer": "2:30",
+          "explanation": "The meeting will start at two thirty. two thirty 是 2 點 30 分。",
+          "audio": "assets/audio/lessons/read-2/l2.mp3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "id": "vocab-3",
+  "world": "word-village",
+  "order": 3,
+  "type": "vocab",
+  "title": "繽紛的顏色",
+  "titleEn": "Colors",
+  "summary": "認識 8 個常用顏色，並學會「顏色＋名詞」。",
+  "minutes": 10,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "這一課要學什麼",
+      "body": [
+        "顏色是描述東西最常用的字：紅色的蘋果、藍色的天空。",
+        "這一課有 8 個顏色。顏色可以放在名詞前面，例如 a red apple（一顆紅色的蘋果）；也可以放在 be 動詞後面，例如 The sky is blue.（天空是藍色的）。",
+        "例句會用到前兩課學過的單字，順便複習。"
+      ]
+    },
+    {
+      "kind": "words",
+      "title": "認識單字",
+      "wordIds": [
+        "red",
+        "blue",
+        "yellow",
+        "green",
+        "white",
+        "black",
+        "pink",
+        "brown"
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "看顏色或看字，選出正確答案。",
+      "questions": [
+        {
+          "id": "v3-red-a",
+          "group": "red",
+          "wordId": "red",
+          "type": "choice",
+          "prompt": "這是什麼顏色？",
+          "image": "red",
+          "options": [
+            "pink",
+            "red",
+            "brown"
+          ],
+          "answer": "red",
+          "explanation": "red /rɛd/ 是紅色。pink 是粉紅色，brown 是咖啡色。"
+        },
+        {
+          "id": "v3-blue-a",
+          "group": "blue",
+          "wordId": "blue",
+          "type": "choice",
+          "prompt": "blue 的中文是？",
+          "sentence": "blue",
+          "options": [
+            "綠色（的）",
+            "藍色（的）",
+            "黑色（的）"
+          ],
+          "answer": "藍色（的）",
+          "explanation": "blue /blu/ 是藍色，The sky is blue. 天空是藍色的。"
+        },
+        {
+          "id": "v3-yellow-a",
+          "group": "yellow",
+          "wordId": "yellow",
+          "type": "choice",
+          "prompt": "這是什麼顏色？",
+          "image": "yellow",
+          "options": [
+            "yellow",
+            "white",
+            "green"
+          ],
+          "answer": "yellow",
+          "explanation": "yellow /ˈjɛloʊ/ 是黃色，香蕉就是 yellow。"
+        },
+        {
+          "id": "v3-green-a",
+          "group": "green",
+          "wordId": "green",
+          "type": "choice",
+          "prompt": "選出適合填入空格的單字",
+          "sentence": "I drink ___ tea.",
+          "zh": "我喝綠茶。",
+          "options": [
+            "green",
+            "pink",
+            "black"
+          ],
+          "answer": "green",
+          "explanation": "綠茶是 green tea，green 是綠色。"
+        },
+        {
+          "id": "v3-white-a",
+          "group": "white",
+          "wordId": "white",
+          "type": "choice",
+          "prompt": "white 的中文是？",
+          "sentence": "white",
+          "options": [
+            "黃色（的）",
+            "粉紅色（的）",
+            "白色（的）"
+          ],
+          "answer": "白色（的）",
+          "explanation": "white /waɪt/ 是白色，h 不發音。"
+        },
+        {
+          "id": "v3-black-a",
+          "group": "black",
+          "wordId": "black",
+          "type": "choice",
+          "prompt": "這是什麼顏色？",
+          "image": "black",
+          "options": [
+            "brown",
+            "blue",
+            "black"
+          ],
+          "answer": "black",
+          "explanation": "black /blæk/ 是黑色。"
+        },
+        {
+          "id": "v3-pink-a",
+          "group": "pink",
+          "wordId": "pink",
+          "type": "choice",
+          "prompt": "pink 的中文是？",
+          "sentence": "pink",
+          "options": [
+            "粉紅色（的）",
+            "紅色（的）",
+            "咖啡色（的）；棕色（的）"
+          ],
+          "answer": "粉紅色（的）",
+          "explanation": "pink /pɪŋk/ 是粉紅色；紅色是 red。"
+        },
+        {
+          "id": "v3-brown-a",
+          "group": "brown",
+          "wordId": "brown",
+          "type": "choice",
+          "prompt": "這是什麼顏色？",
+          "image": "brown",
+          "options": [
+            "red",
+            "brown",
+            "yellow"
+          ],
+          "answer": "brown",
+          "explanation": "brown /braʊn/ 是咖啡色、棕色。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "v3-red-b",
+          "group": "red",
+          "wordId": "red",
+          "type": "choice",
+          "prompt": "「紅色」的英文是？",
+          "options": [
+            "brown",
+            "pink",
+            "red"
+          ],
+          "answer": "red",
+          "explanation": "紅色是 red：r-e-d。"
+        },
+        {
+          "id": "v3-blue-b",
+          "group": "blue",
+          "wordId": "blue",
+          "type": "choice",
+          "prompt": "這是什麼顏色？",
+          "image": "blue",
+          "options": [
+            "blue",
+            "green",
+            "black"
+          ],
+          "answer": "blue",
+          "explanation": "這是 blue（藍色）。"
+        },
+        {
+          "id": "v3-yellow-b",
+          "group": "yellow",
+          "wordId": "yellow",
+          "type": "choice",
+          "prompt": "yellow 的中文是？",
+          "sentence": "yellow",
+          "options": [
+            "白色（的）",
+            "黃色（的）",
+            "綠色（的）"
+          ],
+          "answer": "黃色（的）",
+          "explanation": "yellow 是黃色。"
+        },
+        {
+          "id": "v3-green-b",
+          "group": "green",
+          "wordId": "green",
+          "type": "choice",
+          "prompt": "這是什麼顏色？",
+          "image": "green",
+          "options": [
+            "yellow",
+            "blue",
+            "green"
+          ],
+          "answer": "green",
+          "explanation": "這是 green（綠色）。"
+        },
+        {
+          "id": "v3-white-b",
+          "group": "white",
+          "wordId": "white",
+          "type": "choice",
+          "prompt": "選出適合填入空格的單字",
+          "sentence": "The milk is ___.",
+          "zh": "牛奶是白色的。",
+          "options": [
+            "black",
+            "white",
+            "red"
+          ],
+          "answer": "white",
+          "explanation": "牛奶是白色的，白色是 white。"
+        },
+        {
+          "id": "v3-black-b",
+          "group": "black",
+          "wordId": "black",
+          "type": "choice",
+          "prompt": "「黑色」的英文是？",
+          "options": [
+            "black",
+            "brown",
+            "blue"
+          ],
+          "answer": "black",
+          "explanation": "黑色是 black：b-l-a-c-k。"
+        },
+        {
+          "id": "v3-pink-b",
+          "group": "pink",
+          "wordId": "pink",
+          "type": "choice",
+          "prompt": "這是什麼顏色？",
+          "image": "pink",
+          "options": [
+            "red",
+            "pink",
+            "white"
+          ],
+          "answer": "pink",
+          "explanation": "這是 pink（粉紅色），比 red 淡。"
+        },
+        {
+          "id": "v3-brown-b",
+          "group": "brown",
+          "wordId": "brown",
+          "type": "choice",
+          "prompt": "brown 的中文是？",
+          "sentence": "brown",
+          "options": [
+            "咖啡色（的）；棕色（的）",
+            "黑色（的）",
+            "紅色（的）"
+          ],
+          "answer": "咖啡色（的）；棕色（的）",
+          "explanation": "brown 是咖啡色、棕色，The door is brown. 門是咖啡色的。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：拼拼看",
+      "intro": "看中文，輸入英文單字。不用管大小寫。",
+      "questions": [
+        {
+          "id": "v3-spell-red",
+          "group": "spell-red",
+          "wordId": "red",
+          "type": "type",
+          "prompt": "「紅色」的英文怎麼拼？",
+          "hint": "r _ _（3 個字母）",
+          "answer": "red",
+          "explanation": "red：r-e-d。"
+        },
+        {
+          "id": "v3-spell-blue",
+          "group": "spell-blue",
+          "wordId": "blue",
+          "type": "type",
+          "prompt": "「藍色」的英文怎麼拼？",
+          "hint": "b _ _ _（4 個字母）",
+          "answer": "blue",
+          "explanation": "blue：b-l-u-e，最後有一個 e。"
+        },
+        {
+          "id": "v3-order-1",
+          "group": "v3-order-1",
+          "type": "order",
+          "prompt": "把單字排成正確的句子",
+          "zh": "我有一顆紅色的蘋果。",
+          "tokens": [
+            "red",
+            "apple",
+            "I",
+            "a",
+            "have"
+          ],
+          "answer": [
+            "I",
+            "have",
+            "a",
+            "red",
+            "apple"
+          ],
+          "punct": ".",
+          "explanation": "顏色放在名詞前面：a red apple。red 是子音開頭，所以用 a。"
+        }
+      ]
+    }
+  ]
+}

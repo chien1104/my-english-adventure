@@ -1,0 +1,140 @@
+[
+  {
+    "id": "red",
+    "en": "red",
+    "zh": "紅色（的）",
+    "pos": "adj.",
+    "posZh": "形容詞／名詞",
+    "ipa": "/rɛd/",
+    "level": 1,
+    "topic": "colors",
+    "image": "assets/img/words/red.svg",
+    "audio": "assets/audio/words/red.mp3",
+    "example": {
+      "en": "My bag is red.",
+      "zh": "我的包包是紅色的。"
+    },
+    "note": "顏色放在名詞前面：a red apple（一顆紅色的蘋果）。",
+    "exampleAudio": "assets/audio/sentences/red.mp3"
+  },
+  {
+    "id": "blue",
+    "en": "blue",
+    "zh": "藍色（的）",
+    "pos": "adj.",
+    "posZh": "形容詞／名詞",
+    "ipa": "/blu/",
+    "level": 1,
+    "topic": "colors",
+    "image": "assets/img/words/blue.svg",
+    "audio": "assets/audio/words/blue.mp3",
+    "example": {
+      "en": "The sky is blue.",
+      "zh": "天空是藍色的。"
+    },
+    "exampleAudio": "assets/audio/sentences/blue.mp3"
+  },
+  {
+    "id": "yellow",
+    "en": "yellow",
+    "zh": "黃色（的）",
+    "pos": "adj.",
+    "posZh": "形容詞／名詞",
+    "ipa": "/ˈjɛloʊ/",
+    "level": 1,
+    "topic": "colors",
+    "image": "assets/img/words/yellow.svg",
+    "audio": "assets/audio/words/yellow.mp3",
+    "example": {
+      "en": "I like yellow flowers.",
+      "zh": "我喜歡黃色的花。"
+    },
+    "exampleAudio": "assets/audio/sentences/yellow.mp3"
+  },
+  {
+    "id": "green",
+    "en": "green",
+    "zh": "綠色（的）",
+    "pos": "adj.",
+    "posZh": "形容詞／名詞",
+    "ipa": "/ɡrin/",
+    "level": 1,
+    "topic": "colors",
+    "image": "assets/img/words/green.svg",
+    "audio": "assets/audio/words/green.mp3",
+    "example": {
+      "en": "I drink green tea.",
+      "zh": "我喝綠茶。"
+    },
+    "exampleAudio": "assets/audio/sentences/green.mp3"
+  },
+  {
+    "id": "white",
+    "en": "white",
+    "zh": "白色（的）",
+    "pos": "adj.",
+    "posZh": "形容詞／名詞",
+    "ipa": "/waɪt/",
+    "level": 1,
+    "topic": "colors",
+    "image": "assets/img/words/white.svg",
+    "audio": "assets/audio/words/white.mp3",
+    "example": {
+      "en": "The milk is white.",
+      "zh": "牛奶是白色的。"
+    },
+    "note": "white 的 h 不發音，唸 /waɪt/。",
+    "exampleAudio": "assets/audio/sentences/white.mp3"
+  },
+  {
+    "id": "black",
+    "en": "black",
+    "zh": "黑色（的）",
+    "pos": "adj.",
+    "posZh": "形容詞／名詞",
+    "ipa": "/blæk/",
+    "level": 1,
+    "topic": "colors",
+    "image": "assets/img/words/black.svg",
+    "audio": "assets/audio/words/black.mp3",
+    "example": {
+      "en": "My phone is black.",
+      "zh": "我的手機是黑色的。"
+    },
+    "exampleAudio": "assets/audio/sentences/black.mp3"
+  },
+  {
+    "id": "pink",
+    "en": "pink",
+    "zh": "粉紅色（的）",
+    "pos": "adj.",
+    "posZh": "形容詞／名詞",
+    "ipa": "/pɪŋk/",
+    "level": 1,
+    "topic": "colors",
+    "image": "assets/img/words/pink.svg",
+    "audio": "assets/audio/words/pink.mp3",
+    "example": {
+      "en": "She has a pink chair.",
+      "zh": "她有一張粉紅色的椅子。"
+    },
+    "exampleAudio": "assets/audio/sentences/pink.mp3"
+  },
+  {
+    "id": "brown",
+    "en": "brown",
+    "zh": "咖啡色（的）；棕色（的）",
+    "pos": "adj.",
+    "posZh": "形容詞／名詞",
+    "ipa": "/braʊn/",
+    "level": 1,
+    "topic": "colors",
+    "image": "assets/img/words/brown.svg",
+    "audio": "assets/audio/words/brown.mp3",
+    "example": {
+      "en": "The door is brown.",
+      "zh": "這扇門是咖啡色的。"
+    },
+    "exampleAudio": "assets/audio/sentences/brown.mp3"
+  }
+]

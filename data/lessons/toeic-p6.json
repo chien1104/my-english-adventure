@@ -1,0 +1,200 @@
+{
+  "id": "toeic-p6",
+  "world": "toeic-camp",
+  "order": 6,
+  "type": "toeic",
+  "title": "Part 6 段落填空",
+  "titleEn": "Text Completion",
+  "minutes": 15,
+  "summary": "讀 email 和公告，選出空格的字或句子。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Part 6 是什麼",
+      "body": [
+        "Part 6 是一篇短文（email、公告），挖 4 個空格。有的考文法、有的考單字，還有一題要選一整個句子。",
+        "秘訣：不要只看空格那一句，要看前後文。時間（yesterday、next week）會決定用過去式還是未來式。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "三種題型",
+      "body": [
+        "看到選項就知道是哪一種："
+      ],
+      "table": {
+        "head": [
+          "題型",
+          "選項長相",
+          "怎麼解"
+        ],
+        "rows": [
+          [
+            "文法題",
+            "will be／was／is",
+            "看主詞和時間"
+          ],
+          [
+            "連接詞題",
+            "if／but／so",
+            "看前後兩句的關係"
+          ],
+          [
+            "句子題",
+            "四個完整句子",
+            "看上下句，選意思接得上的"
+          ]
+        ]
+      },
+      "tip": "Please ＋ 動詞原形；can ＋ 動詞原形，這兩個規則 Part 6 很常考。"
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "每題都會顯示整篇文章，看到第幾個空格就作答那一格。",
+      "questions": [
+        {
+          "id": "p6-a1",
+          "group": "p6-a1",
+          "type": "choice",
+          "prompt": "第 1 個空格要填什麼？",
+          "options": [
+            "held",
+            "will be held",
+            "holding",
+            "holds"
+          ],
+          "answer": "will be held",
+          "explanation": "派對在 12 月 20 日，還沒發生，用未來被動 will be held（將被舉辦）。",
+          "text": "To: All Staff\nSubject: Office Party\n\nOur end-of-year party (1)______ on Friday, December 20, at 6 p.m. It will be in the main meeting room. Food and drinks (2)______ provided. Please tell Jenny in the HR department (3)______ you can come. (4)______ We hope to see you all there!"
+        },
+        {
+          "id": "p6-a2",
+          "group": "p6-a2",
+          "type": "choice",
+          "prompt": "第 2 個空格要填什麼？",
+          "options": [
+            "is",
+            "was",
+            "will be",
+            "being"
+          ],
+          "answer": "will be",
+          "explanation": "食物和飲料「將被提供」：will be provided。",
+          "text": "To: All Staff\nSubject: Office Party\n\nOur end-of-year party (1)______ on Friday, December 20, at 6 p.m. It will be in the main meeting room. Food and drinks (2)______ provided. Please tell Jenny in the HR department (3)______ you can come. (4)______ We hope to see you all there!"
+        },
+        {
+          "id": "p6-a3",
+          "group": "p6-a3",
+          "type": "choice",
+          "prompt": "第 3 個空格要填什麼？",
+          "options": [
+            "if",
+            "but",
+            "so",
+            "because"
+          ],
+          "answer": "if",
+          "explanation": "tell Jenny if you can come：告訴 Jenny 你「是否」能來。",
+          "text": "To: All Staff\nSubject: Office Party\n\nOur end-of-year party (1)______ on Friday, December 20, at 6 p.m. It will be in the main meeting room. Food and drinks (2)______ provided. Please tell Jenny in the HR department (3)______ you can come. (4)______ We hope to see you all there!"
+        },
+        {
+          "id": "p6-a4",
+          "group": "p6-a4",
+          "type": "choice",
+          "prompt": "第 4 個空格要填什麼？",
+          "options": [
+            "The party was a great success.",
+            "Please reply by December 15.",
+            "Our office is closed on Sundays."
+          ],
+          "answer": "Please reply by December 15.",
+          "explanation": "前一句請大家回覆能不能來，接「請在 12 月 15 日前回覆」最合理。派對還沒辦，不能說 was a great success。",
+          "text": "To: All Staff\nSubject: Office Party\n\nOur end-of-year party (1)______ on Friday, December 20, at 6 p.m. It will be in the main meeting room. Food and drinks (2)______ provided. Please tell Jenny in the HR department (3)______ you can come. (4)______ We hope to see you all there!"
+        },
+        {
+          "id": "p6-b1",
+          "group": "p6-b1",
+          "type": "choice",
+          "prompt": "第 5 個空格要填什麼？",
+          "options": [
+            "will be",
+            "is being",
+            "was",
+            "be"
+          ],
+          "answer": "will be",
+          "explanation": "3 月 3 日還沒到，用未來式 will be closed。",
+          "text": "Dear Customers,\n\nOur store (5)______ closed on Sunday, March 3, for repairs. We will open again on Monday at 9 a.m. During the repairs, you can still (6)______ products on our website. (7)______ Thank you for your understanding."
+        },
+        {
+          "id": "p6-b2",
+          "group": "p6-b2",
+          "type": "choice",
+          "prompt": "第 6 個空格要填什麼？",
+          "options": [
+            "orders",
+            "order",
+            "ordering",
+            "ordered"
+          ],
+          "answer": "order",
+          "explanation": "can 後面接動詞原形：can order（可以訂購）。",
+          "text": "Dear Customers,\n\nOur store (5)______ closed on Sunday, March 3, for repairs. We will open again on Monday at 9 a.m. During the repairs, you can still (6)______ products on our website. (7)______ Thank you for your understanding."
+        },
+        {
+          "id": "p6-b3",
+          "group": "p6-b3",
+          "type": "choice",
+          "prompt": "第 7 個空格要填什麼？",
+          "options": [
+            "Please bring your own bag.",
+            "We opened the store in 2010.",
+            "We are sorry for any trouble."
+          ],
+          "answer": "We are sorry for any trouble.",
+          "explanation": "公告關店維修，接著道歉「造成不便很抱歉」，再接 Thank you for your understanding.",
+          "text": "Dear Customers,\n\nOur store (5)______ closed on Sunday, March 3, for repairs. We will open again on Monday at 9 a.m. During the repairs, you can still (6)______ products on our website. (7)______ Thank you for your understanding."
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：關鍵字",
+      "intro": "公告和 email 常見的字。",
+      "questions": [
+        {
+          "id": "p6-ext-1",
+          "group": "p6-ext-1",
+          "type": "choice",
+          "prompt": "be provided 是什麼意思？",
+          "options": [
+            "被提供",
+            "被購買",
+            "被取消"
+          ],
+          "answer": "被提供",
+          "explanation": "provide 是提供，be provided 是被提供。"
+        },
+        {
+          "id": "p6-ext-2",
+          "group": "p6-ext-2",
+          "type": "choice",
+          "prompt": "repairs 是什麼意思？",
+          "options": [
+            "搬家",
+            "特價",
+            "維修"
+          ],
+          "answer": "維修",
+          "explanation": "closed for repairs：因為維修而關閉。"
+        }
+      ]
+    }
+  ]
+}

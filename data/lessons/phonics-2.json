@@ -1,0 +1,364 @@
+{
+  "id": "phonics-2",
+  "world": "alphabet-forest",
+  "order": 2,
+  "type": "phonics",
+  "title": "短母音 e、u",
+  "titleEn": "Short Vowels e, u",
+  "minutes": 10,
+  "summary": "再學兩個短母音，五個短母音就全部學會了。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "這一課學什麼",
+      "body": [
+        "上一課學了 a、i、o，這一課學最後兩個短母音：e 和 u。",
+        "e 和 a 聽起來有點像，u 和 o 也有點像，多聽幾次比較差別。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "兩個短母音",
+      "body": [
+        "注意嘴巴張開的大小："
+      ],
+      "table": {
+        "head": [
+          "字母",
+          "短母音",
+          "例字"
+        ],
+        "rows": [
+          [
+            "e",
+            "/ɛ/ 嘴巴微開，比 a /æ/ 小",
+            "bed、pen、red"
+          ],
+          [
+            "u",
+            "/ʌ/ 短促放鬆，像輕輕的「ㄜ」",
+            "cup、bus、sun"
+          ]
+        ]
+      },
+      "tip": "比較看看：bad /æ/ 和 bed /ɛ/、cap /æ/ 和 cup /ʌ/。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "bed",
+          "zh": "床　/bɛd/",
+          "audio": "assets/audio/phonics/bed.mp3"
+        },
+        {
+          "en": "pen",
+          "zh": "筆　/pɛn/",
+          "audio": "assets/audio/phonics/pen.mp3"
+        },
+        {
+          "en": "red",
+          "zh": "紅色　/rɛd/",
+          "audio": "assets/audio/phonics/red.mp3"
+        },
+        {
+          "en": "cup",
+          "zh": "杯子　/kʌp/",
+          "audio": "assets/audio/phonics/cup.mp3"
+        },
+        {
+          "en": "bus",
+          "zh": "公車　/bʌs/",
+          "audio": "assets/audio/phonics/bus.mp3"
+        },
+        {
+          "en": "sun",
+          "zh": "太陽　/sʌn/",
+          "audio": "assets/audio/phonics/sun.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "把聲音拼起來",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "b",
+              "label": "/b/"
+            },
+            {
+              "text": "e",
+              "label": "/ɛ/"
+            },
+            {
+              "text": "d",
+              "label": "/d/"
+            }
+          ],
+          "zh": "b-e-d → bed（床）"
+        },
+        {
+          "parts": [
+            {
+              "text": "s",
+              "label": "/s/"
+            },
+            {
+              "text": "u",
+              "label": "/ʌ/"
+            },
+            {
+              "text": "n",
+              "label": "/n/"
+            }
+          ],
+          "zh": "s-u-n → sun（太陽）"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "先聽，再選。可以重複播放。",
+      "questions": [
+        {
+          "id": "ph2-bed",
+          "group": "ph2-e",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "bad",
+            "bed",
+            "bud"
+          ],
+          "answer": "bed",
+          "explanation": "bed /bɛd/（床）中間是 e /ɛ/；bad 是 /æ/，bud 是 /ʌ/。",
+          "audio": "assets/audio/phonics/bed.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph2-cup",
+          "group": "ph2-u",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "cap",
+            "cop",
+            "cup"
+          ],
+          "answer": "cup",
+          "explanation": "cup /kʌp/（杯子）中間是 u /ʌ/；cap 是 /æ/。",
+          "audio": "assets/audio/phonics/cup.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph2-pen",
+          "group": "ph2-e2",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "pen",
+            "pan",
+            "pin"
+          ],
+          "answer": "pen",
+          "explanation": "pen /pɛn/（筆）；pan 是平底鍋，pin 是別針。",
+          "audio": "assets/audio/phonics/pen.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph2-sun",
+          "group": "ph2-u2",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "sin",
+            "sun",
+            "sand"
+          ],
+          "answer": "sun",
+          "explanation": "sun /sʌn/（太陽）中間是 u /ʌ/。",
+          "audio": "assets/audio/phonics/sun.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph2-red",
+          "group": "ph2-e3",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "e",
+            "u",
+            "a"
+          ],
+          "answer": "e",
+          "explanation": "red（紅色）：r-e-d。",
+          "sentence": "r _ d",
+          "zh": "紅色"
+        },
+        {
+          "id": "ph2-cup2",
+          "group": "ph2-u3",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "e",
+            "u",
+            "a"
+          ],
+          "answer": "u",
+          "explanation": "cup（杯子）：c-u-p。cap 是帽子。",
+          "sentence": "c _ p",
+          "zh": "杯子"
+        }
+      ],
+      "similar": [
+        {
+          "id": "ph2-red2",
+          "group": "ph2-e",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "rid",
+            "red",
+            "rod"
+          ],
+          "answer": "red",
+          "explanation": "red /rɛd/（紅色）中間是 e /ɛ/。",
+          "audio": "assets/audio/phonics/red.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph2-nut",
+          "group": "ph2-u",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "net",
+            "not",
+            "nut"
+          ],
+          "answer": "nut",
+          "explanation": "nut /nʌt/（堅果）中間是 u /ʌ/；net 是網子。",
+          "audio": "assets/audio/phonics/nut.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph2-ten",
+          "group": "ph2-e2",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "tin",
+            "ten",
+            "tan"
+          ],
+          "answer": "ten",
+          "explanation": "ten /tɛn/（十）中間是 e /ɛ/。",
+          "audio": "assets/audio/phonics/ten.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph2-run",
+          "group": "ph2-u2",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "run",
+            "ran",
+            "rain"
+          ],
+          "answer": "run",
+          "explanation": "run /rʌn/（跑）中間是 u /ʌ/；ran 是 /æ/。",
+          "audio": "assets/audio/phonics/run.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph2-bed2",
+          "group": "ph2-e3",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "e",
+            "u",
+            "a"
+          ],
+          "answer": "e",
+          "explanation": "bed（床）：b-e-d。",
+          "sentence": "b _ d",
+          "zh": "床"
+        },
+        {
+          "id": "ph2-sun2",
+          "group": "ph2-u3",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "e",
+            "u",
+            "a"
+          ],
+          "answer": "u",
+          "explanation": "sun（太陽）：s-u-n。",
+          "sentence": "s _ n",
+          "zh": "太陽"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：聽寫",
+      "intro": "聽音檔，把單字拼出來。",
+      "questions": [
+        {
+          "id": "ph2-sp-bed",
+          "group": "ph2-sp-bed",
+          "type": "type",
+          "prompt": "聽音檔，拼出你聽到的單字",
+          "audio": "assets/audio/phonics/bed.mp3",
+          "audioLabel": "▶ 播放單字",
+          "hint": "3 個字母，b 開頭",
+          "answer": "bed",
+          "explanation": "bed：b-e-d。"
+        },
+        {
+          "id": "ph2-sp-sun",
+          "group": "ph2-sp-sun",
+          "type": "type",
+          "prompt": "聽音檔，拼出你聽到的單字",
+          "audio": "assets/audio/phonics/sun.mp3",
+          "audioLabel": "▶ 播放單字",
+          "hint": "3 個字母，s 開頭",
+          "answer": "sun",
+          "explanation": "sun：s-u-n。"
+        },
+        {
+          "id": "ph2-sp-pen",
+          "group": "ph2-sp-pen",
+          "type": "type",
+          "prompt": "聽音檔，拼出你聽到的單字",
+          "audio": "assets/audio/phonics/pen.mp3",
+          "audioLabel": "▶ 播放單字",
+          "hint": "3 個字母，p 開頭",
+          "answer": "pen",
+          "explanation": "pen：p-e-n。"
+        }
+      ]
+    }
+  ]
+}

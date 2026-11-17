@@ -1,0 +1,193 @@
+{
+  "id": "toeic-p4",
+  "world": "toeic-camp",
+  "order": 4,
+  "type": "toeic-listen",
+  "title": "Part 4 簡短獨白",
+  "titleEn": "Talks",
+  "minutes": 15,
+  "summary": "聽廣播和電話留言，抓時間、地點、原因。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Part 4 是什麼",
+      "body": [
+        "Part 4 是一個人說話：機場廣播、電話留言、會議宣布等，每段有 3 題，題目印在題本上。",
+        "秘訣和 Part 3 一樣：先看題目再聽。特別注意時間、地點、數字和原因（because of…）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "常見的獨白類型",
+      "body": [
+        "開頭第一句通常就告訴你是哪一種："
+      ],
+      "table": {
+        "head": [
+          "類型",
+          "開頭常聽到",
+          "常考"
+        ],
+        "rows": [
+          [
+            "廣播",
+            "Attention, passengers.",
+            "延誤原因、新時間、登機門"
+          ],
+          [
+            "電話留言",
+            "Hi, this is… from…",
+            "誰打來、為什麼、要你做什麼"
+          ],
+          [
+            "導覽、會議",
+            "Welcome to…／Good morning, everyone.",
+            "說話者身分、行程、注意事項"
+          ]
+        ]
+      },
+      "tip": "聽到 because of 後面就是原因；聽到 Could you…? Please… 就是要你做的事。"
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再按 ▶ 聽。每段有 3 題。",
+      "questions": [
+        {
+          "id": "p4-t1-q1",
+          "group": "p4-t1-q1",
+          "type": "choice",
+          "prompt": "這段廣播最可能在哪裡聽到？",
+          "options": [
+            "At an airport",
+            "On a bus",
+            "In a hotel"
+          ],
+          "answer": "At an airport",
+          "explanation": "passengers、flight、gate 都表示在機場。\n逐字稿：Attention, passengers. Flight 205 to Tokyo will leave thirty minutes late because of bad weather. The new departure time is 3:30 p.m. Please wait near Gate 12. Thank you.",
+          "sentence": "Where is this announcement probably heard?",
+          "audio": "assets/audio/toeic/p4-talk1.mp3",
+          "audioLabel": "▶ 播放廣播"
+        },
+        {
+          "id": "p4-t1-q2",
+          "group": "p4-t1-q2",
+          "type": "choice",
+          "prompt": "班機為什麼會延誤？",
+          "options": [
+            "Because the pilot is sick",
+            "Because of bad weather",
+            "Because of a problem with the plane"
+          ],
+          "answer": "Because of bad weather",
+          "explanation": "because of bad weather：因為天氣不好。\n逐字稿：Attention, passengers. Flight 205 to Tokyo will leave thirty minutes late because of bad weather. The new departure time is 3:30 p.m. Please wait near Gate 12. Thank you.",
+          "sentence": "Why will the flight be late?",
+          "audio": "assets/audio/toeic/p4-talk1.mp3",
+          "audioLabel": "▶ 播放廣播"
+        },
+        {
+          "id": "p4-t1-q3",
+          "group": "p4-t1-q3",
+          "type": "choice",
+          "prompt": "班機幾點出發？",
+          "options": [
+            "3:00 p.m.",
+            "2:05 p.m.",
+            "3:30 p.m."
+          ],
+          "answer": "3:30 p.m.",
+          "explanation": "The new departure time is 3:30 p.m. 205 是班機號碼，不是時間。\n逐字稿：Attention, passengers. Flight 205 to Tokyo will leave thirty minutes late because of bad weather. The new departure time is 3:30 p.m. Please wait near Gate 12. Thank you.",
+          "sentence": "What time will the flight leave?",
+          "audio": "assets/audio/toeic/p4-talk1.mp3",
+          "audioLabel": "▶ 播放廣播"
+        },
+        {
+          "id": "p4-t2-q1",
+          "group": "p4-t2-q1",
+          "type": "choice",
+          "prompt": "說話者是誰？",
+          "options": [
+            "A doctor",
+            "A clinic worker",
+            "A patient"
+          ],
+          "answer": "A clinic worker",
+          "explanation": "Tom from Green Dental Clinic，而且他說 The doctor is not available，所以他是診所人員，不是醫生。\n逐字稿：Hi, this is Tom from Green Dental Clinic. I'm calling about your appointment tomorrow at 10 a.m. The doctor is not available in the morning. Could you come at 2 p.m. instead? Please call us back at 555-0123. Thanks.",
+          "sentence": "Who is the speaker?",
+          "audio": "assets/audio/toeic/p4-talk2.mp3",
+          "audioLabel": "▶ 播放留言"
+        },
+        {
+          "id": "p4-t2-q2",
+          "group": "p4-t2-q2",
+          "type": "choice",
+          "prompt": "說話者請聽者做什麼？",
+          "options": [
+            "Come at a different time",
+            "Cancel the appointment",
+            "Pay the bill"
+          ],
+          "answer": "Come at a different time",
+          "explanation": "Could you come at 2 p.m. instead? 請改下午兩點來。\n逐字稿：Hi, this is Tom from Green Dental Clinic. I'm calling about your appointment tomorrow at 10 a.m. The doctor is not available in the morning. Could you come at 2 p.m. instead? Please call us back at 555-0123. Thanks.",
+          "sentence": "What does the speaker ask the listener to do?",
+          "audio": "assets/audio/toeic/p4-talk2.mp3",
+          "audioLabel": "▶ 播放留言"
+        },
+        {
+          "id": "p4-t2-q3",
+          "group": "p4-t2-q3",
+          "type": "choice",
+          "prompt": "原本約的是幾點？",
+          "options": [
+            "2 p.m.",
+            "10 a.m.",
+            "12 p.m."
+          ],
+          "answer": "10 a.m.",
+          "explanation": "your appointment tomorrow at 10 a.m. 原本是早上十點，改到下午兩點。\n逐字稿：Hi, this is Tom from Green Dental Clinic. I'm calling about your appointment tomorrow at 10 a.m. The doctor is not available in the morning. Could you come at 2 p.m. instead? Please call us back at 555-0123. Thanks.",
+          "sentence": "What time was the original appointment?",
+          "audio": "assets/audio/toeic/p4-talk2.mp3",
+          "audioLabel": "▶ 播放留言"
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：關鍵字",
+      "intro": "這些字在 Part 4 很常出現。",
+      "questions": [
+        {
+          "id": "p4-ext-1",
+          "group": "p4-ext-1",
+          "type": "choice",
+          "prompt": "departure time 是什麼意思？",
+          "options": [
+            "抵達時間",
+            "出發時間",
+            "休息時間"
+          ],
+          "answer": "出發時間",
+          "explanation": "departure 是出發；arrival 是抵達。"
+        },
+        {
+          "id": "p4-ext-2",
+          "group": "p4-ext-2",
+          "type": "choice",
+          "prompt": "appointment 是什麼意思？",
+          "options": [
+            "預約",
+            "會議室",
+            "帳單"
+          ],
+          "answer": "預約",
+          "explanation": "appointment 是預約、約診。"
+        }
+      ]
+    }
+  ]
+}

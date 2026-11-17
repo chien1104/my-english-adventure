@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="bed">
+<title>bed</title>
+<circle cx="60" cy="60" r="56" fill="#F4ECDF"/>
+<ellipse cx="60" cy="98" rx="30" ry="4" fill="#E6D8C6"/>
+<path d="M22 50v42M98 66v26" fill="none" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M22 70h76v14H22z" fill="#C9A27E" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M22 70c0-6 4-10 10-10h66v10z" fill="#FFFFFF" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="26" y="52" width="22" height="12" rx="6" fill="#F4ECDF" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M50 60h48v10H50z" fill="#8DB3D9" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

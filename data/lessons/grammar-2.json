@@ -1,0 +1,342 @@
+{
+  "id": "grammar-2",
+  "world": "grammar-castle",
+  "order": 2,
+  "type": "grammar",
+  "title": "一個：a 還是 an？",
+  "titleEn": "a / an",
+  "summary": "學會在一個東西前面放 a 或 an。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "中文說「一顆蘋果」、「一本書」，英文會在名詞前面放 a 或 an，意思就是「一個」。",
+        "a 和 an 意思完全一樣，差別只在於後面那個字的「開頭發音」。",
+        "這一課只學怎麼選 a 或 an。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "看後面單字的開頭聲音："
+      ],
+      "table": {
+        "head": [
+          "後面的字開頭是",
+          "用",
+          "例子"
+        ],
+        "rows": [
+          [
+            "母音的聲音（通常是 a、e、i、o、u 開頭）",
+            "an",
+            "an apple、an egg"
+          ],
+          [
+            "其他聲音（子音）",
+            "a",
+            "a book、a banana"
+          ]
+        ]
+      },
+      "tip": "重點是「聲音」不是字母。例如 hour 的 h 不發音，開頭聽起來是母音，所以說 an hour。"
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "I have a book.",
+          "zh": "我有一本書。",
+          "highlight": "a",
+          "audio": "assets/audio/lessons/grammar-2/ex1.mp3"
+        },
+        {
+          "en": "She eats an apple.",
+          "zh": "她吃一顆蘋果。",
+          "highlight": "an",
+          "audio": "assets/audio/lessons/grammar-2/ex2.mp3"
+        },
+        {
+          "en": "He has a key.",
+          "zh": "他有一把鑰匙。",
+          "highlight": "a",
+          "audio": "assets/audio/lessons/grammar-2/ex3.mp3"
+        },
+        {
+          "en": "I want an egg.",
+          "zh": "我想要一顆蛋。",
+          "highlight": "an",
+          "audio": "assets/audio/lessons/grammar-2/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "She",
+              "label": "主詞"
+            },
+            {
+              "text": "eats",
+              "label": "動作（吃）"
+            },
+            {
+              "text": "an",
+              "label": "一個"
+            },
+            {
+              "text": "apple.",
+              "label": "母音開頭的名詞"
+            }
+          ],
+          "zh": "apple 開頭是母音 a 的聲音，所以用 an"
+        },
+        {
+          "parts": [
+            {
+              "text": "I",
+              "label": "主詞"
+            },
+            {
+              "text": "have",
+              "label": "動作（有）"
+            },
+            {
+              "text": "a",
+              "label": "一個"
+            },
+            {
+              "text": "book.",
+              "label": "子音開頭的名詞"
+            }
+          ],
+          "zh": "book 開頭是子音 b 的聲音，所以用 a"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "I eat a apple.",
+          "right": "I eat an apple.",
+          "why": "apple 是母音開頭，要用 an。"
+        },
+        {
+          "wrong": "I have an book.",
+          "right": "I have a book.",
+          "why": "book 是子音開頭，要用 a。"
+        },
+        {
+          "wrong": "I have phone.",
+          "right": "I have a phone.",
+          "why": "一個可數的東西，前面不能什麼都不放，要加 a 或 an。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選 a 或 an。",
+      "questions": [
+        {
+          "id": "g2-a-1",
+          "group": "g2-a",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "I want ___ banana.",
+          "zh": "我想要一根香蕉。",
+          "options": [
+            "a",
+            "an"
+          ],
+          "answer": "a",
+          "explanation": "banana 開頭是子音 b 的聲音，用 a。"
+        },
+        {
+          "id": "g2-an-1",
+          "group": "g2-an",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "I eat ___ egg.",
+          "zh": "我吃一顆蛋。",
+          "options": [
+            "a",
+            "an"
+          ],
+          "answer": "an",
+          "explanation": "egg 開頭是母音 e 的聲音，用 an。"
+        },
+        {
+          "id": "g2-a-2",
+          "group": "g2-a2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "It is ___ window.",
+          "zh": "那是一扇窗戶。",
+          "options": [
+            "an",
+            "a"
+          ],
+          "answer": "a",
+          "explanation": "window 開頭是子音 w 的聲音，用 a。"
+        },
+        {
+          "id": "g2-an-2",
+          "group": "g2-an2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "I have ___ orange.",
+          "zh": "我有一顆柳橙。",
+          "options": [
+            "a",
+            "an"
+          ],
+          "answer": "an",
+          "explanation": "orange（柳橙）開頭是母音 o 的聲音，用 an。"
+        },
+        {
+          "id": "g2-pick-1",
+          "group": "g2-pick",
+          "type": "choice",
+          "prompt": "哪一句是正確的？",
+          "zh": "我有一支手機。",
+          "options": [
+            "I have phone.",
+            "I have a phone.",
+            "I have an phone."
+          ],
+          "answer": "I have a phone.",
+          "explanation": "一支手機要加「一個」，phone 開頭是子音 /f/ 的聲音，所以用 a phone。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "g2-a-1b",
+          "group": "g2-a",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "This is ___ clock.",
+          "zh": "這是一個時鐘。",
+          "options": [
+            "an",
+            "a"
+          ],
+          "answer": "a",
+          "explanation": "clock 開頭是子音 c（/k/）的聲音，用 a。"
+        },
+        {
+          "id": "g2-an-1b",
+          "group": "g2-an",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "He wants ___ apple.",
+          "zh": "他想要一顆蘋果。",
+          "options": [
+            "an",
+            "a"
+          ],
+          "answer": "an",
+          "explanation": "apple 開頭是母音 a 的聲音，用 an。"
+        },
+        {
+          "id": "g2-a-2b",
+          "group": "g2-a2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "She has ___ bed.",
+          "zh": "她有一張床。",
+          "options": [
+            "a",
+            "an"
+          ],
+          "answer": "a",
+          "explanation": "bed 開頭是子音 b 的聲音，用 a。"
+        },
+        {
+          "id": "g2-an-2b",
+          "group": "g2-an2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "It is ___ umbrella.",
+          "zh": "那是一把雨傘。",
+          "options": [
+            "an",
+            "a"
+          ],
+          "answer": "an",
+          "explanation": "umbrella（雨傘）開頭是母音 u 的聲音 /ʌ/，用 an。"
+        },
+        {
+          "id": "g2-pick-1b",
+          "group": "g2-pick",
+          "type": "choice",
+          "prompt": "哪一句是正確的？",
+          "zh": "她有一顆蛋。",
+          "options": [
+            "She has a egg.",
+            "She has egg.",
+            "She has an egg."
+          ],
+          "answer": "She has an egg.",
+          "explanation": "egg 是母音開頭，要用 an，而且不能省略。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：挑戰題",
+      "intro": "用學到的規則挑戰一下。",
+      "questions": [
+        {
+          "id": "g2-order-1",
+          "group": "g2-order-1",
+          "type": "order",
+          "prompt": "把單字排成正確的句子",
+          "zh": "我吃一顆蘋果。",
+          "tokens": [
+            "apple",
+            "eat",
+            "I",
+            "an"
+          ],
+          "answer": [
+            "I",
+            "eat",
+            "an",
+            "apple"
+          ],
+          "punct": ".",
+          "explanation": "主詞 I ＋ 動作 eat ＋ an apple（apple 母音開頭用 an）。"
+        },
+        {
+          "id": "g2-hour",
+          "group": "g2-hour",
+          "type": "choice",
+          "prompt": "挑戰：選出正確答案",
+          "sentence": "I will be back in ___ hour.",
+          "zh": "我一個小時後回來。",
+          "options": [
+            "a",
+            "an"
+          ],
+          "answer": "an",
+          "explanation": "hour 的 h 不發音，開頭聽起來是母音 /aʊ/，所以用 an hour。記得：看聲音，不是看字母。"
+        }
+      ]
+    }
+  ]
+}

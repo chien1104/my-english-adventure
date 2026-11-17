@@ -1,0 +1,300 @@
+{
+  "id": "life-2",
+  "world": "life-island",
+  "order": 2,
+  "type": "dialogue",
+  "title": "逛街買東西",
+  "titleEn": "Shopping",
+  "minutes": 12,
+  "summary": "學會問價錢、問尺寸、試穿和決定購買。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "這一課學什麼",
+      "body": [
+        "買東西時最常用的四句話：多少錢、有沒有別的尺寸、可以試穿嗎、我要買這個。",
+        "另外要特別注意數字：13 和 30、14 和 40 聽起來很像，這一課會練習分辨。"
+      ]
+    },
+    {
+      "kind": "dialogue",
+      "title": "聽聽看這段對話",
+      "scene": "場景：在服飾店",
+      "audio": "assets/audio/lessons/life-2/dialogue.mp3",
+      "lines": [
+        {
+          "speaker": "店員",
+          "side": "left",
+          "en": "Hi, can I help you?",
+          "zh": "你好，需要幫忙嗎？",
+          "audio": "assets/audio/lessons/life-2/d1.mp3"
+        },
+        {
+          "speaker": "你",
+          "side": "right",
+          "en": "Yes. How much is this jacket?",
+          "zh": "是的，這件外套多少錢？",
+          "audio": "assets/audio/lessons/life-2/d2.mp3"
+        },
+        {
+          "speaker": "店員",
+          "side": "left",
+          "en": "It's forty dollars.",
+          "zh": "四十美元。",
+          "audio": "assets/audio/lessons/life-2/d3.mp3"
+        },
+        {
+          "speaker": "你",
+          "side": "right",
+          "en": "Do you have it in a smaller size?",
+          "zh": "有小一點的尺寸嗎？",
+          "audio": "assets/audio/lessons/life-2/d4.mp3"
+        },
+        {
+          "speaker": "店員",
+          "side": "left",
+          "en": "Yes, here you are.",
+          "zh": "有的，給你。",
+          "audio": "assets/audio/lessons/life-2/d5.mp3"
+        },
+        {
+          "speaker": "你",
+          "side": "right",
+          "en": "Can I try it on?",
+          "zh": "我可以試穿嗎？",
+          "audio": "assets/audio/lessons/life-2/d6.mp3"
+        },
+        {
+          "speaker": "店員",
+          "side": "left",
+          "en": "Sure. The fitting room is over there.",
+          "zh": "當然，試衣間在那邊。",
+          "audio": "assets/audio/lessons/life-2/d7.mp3"
+        },
+        {
+          "speaker": "你",
+          "side": "right",
+          "en": "It fits well. I'll take it.",
+          "zh": "很合身，我要買這件。",
+          "audio": "assets/audio/lessons/life-2/d8.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "examples",
+      "title": "重點句子",
+      "items": [
+        {
+          "en": "How much is this?",
+          "zh": "這個多少錢？",
+          "highlight": "much",
+          "audio": "assets/audio/lessons/life-2/p1.mp3"
+        },
+        {
+          "en": "Do you have it in a smaller size?",
+          "zh": "有小一點的尺寸嗎？",
+          "highlight": "size",
+          "audio": "assets/audio/lessons/life-2/p2.mp3"
+        },
+        {
+          "en": "Can I try it on?",
+          "zh": "我可以試穿嗎？",
+          "highlight": "try",
+          "audio": "assets/audio/lessons/life-2/p3.mp3"
+        },
+        {
+          "en": "I'll take it.",
+          "zh": "我要買這個。",
+          "highlight": "take",
+          "audio": "assets/audio/lessons/life-2/p4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出最適合的說法。有 ▶ 的題目要先聽。",
+      "questions": [
+        {
+          "id": "l2-price-a",
+          "group": "l2-price",
+          "type": "choice",
+          "prompt": "你想問價錢，要怎麼說？",
+          "options": [
+            "How many is this?",
+            "How much is this?",
+            "What is this money?"
+          ],
+          "answer": "How much is this?",
+          "explanation": "問價錢用 How much…？；How many 是問「幾個」。"
+        },
+        {
+          "id": "l2-try-a",
+          "group": "l2-try",
+          "type": "choice",
+          "prompt": "你想試穿，要怎麼說？",
+          "options": [
+            "Can I try it on?",
+            "Can I take it on?",
+            "Can I try it in?"
+          ],
+          "answer": "Can I try it on?",
+          "explanation": "試穿是 try on，東西放中間：try it on。"
+        },
+        {
+          "id": "l2-buy-a",
+          "group": "l2-buy",
+          "type": "choice",
+          "prompt": "決定要買了，要怎麼說？",
+          "options": [
+            "I'll try it.",
+            "I'll help it.",
+            "I'll take it."
+          ],
+          "answer": "I'll take it.",
+          "explanation": "I'll take it. 在購物時是「我要買這個」。"
+        },
+        {
+          "id": "l2-num-a",
+          "group": "l2-num",
+          "type": "choice",
+          "prompt": "聽音檔：店員說多少錢？",
+          "options": [
+            "14 美元",
+            "40 美元",
+            "4 美元"
+          ],
+          "answer": "40 美元",
+          "explanation": "It's forty dollars. 是 40。forty 重音在前面，fourteen（14）重音在後面。",
+          "audio": "assets/audio/lessons/life-2/l2-num-a.mp3"
+        },
+        {
+          "id": "l2-size-a",
+          "group": "l2-size",
+          "type": "choice",
+          "prompt": "聽音檔：客人想要什麼？",
+          "options": [
+            "小一點的尺寸",
+            "別的顏色",
+            "便宜一點的"
+          ],
+          "answer": "小一點的尺寸",
+          "explanation": "Do you have it in a smaller size? 是問有沒有小一點的尺寸。",
+          "audio": "assets/audio/lessons/life-2/l2-size-a.mp3"
+        }
+      ],
+      "similar": [
+        {
+          "id": "l2-price-b",
+          "group": "l2-price",
+          "type": "choice",
+          "prompt": "聽音檔：客人在問什麼？",
+          "options": [
+            "鞋子的尺寸",
+            "鞋子的價錢",
+            "鞋子的顏色"
+          ],
+          "answer": "鞋子的價錢",
+          "explanation": "How much are these shoes? 是問鞋子多少錢。",
+          "audio": "assets/audio/lessons/life-2/l2-price-b.mp3"
+        },
+        {
+          "id": "l2-try-b",
+          "group": "l2-try",
+          "type": "choice",
+          "prompt": "聽音檔：客人想做什麼？",
+          "options": [
+            "試穿牛仔褲",
+            "買牛仔褲",
+            "退貨"
+          ],
+          "answer": "試穿牛仔褲",
+          "explanation": "Can I try these jeans on? 是問可以試穿這件牛仔褲嗎。",
+          "audio": "assets/audio/lessons/life-2/l2-try-b.mp3"
+        },
+        {
+          "id": "l2-buy-b",
+          "group": "l2-buy",
+          "type": "choice",
+          "prompt": "聽音檔：客人最後決定怎麼做？",
+          "options": [
+            "不買了",
+            "買下來",
+            "換尺寸"
+          ],
+          "answer": "買下來",
+          "explanation": "It fits well. I'll take it. 很合身，我要買。",
+          "audio": "assets/audio/lessons/life-2/l2-buy-b.mp3"
+        },
+        {
+          "id": "l2-num-b",
+          "group": "l2-num",
+          "type": "choice",
+          "prompt": "聽音檔：店員說多少錢？",
+          "options": [
+            "30 美元",
+            "3 美元",
+            "13 美元"
+          ],
+          "answer": "13 美元",
+          "explanation": "It's thirteen dollars. 是 13。thirteen 重音在後面，thirty（30）重音在前面。",
+          "audio": "assets/audio/lessons/life-2/l2-num-b.mp3"
+        },
+        {
+          "id": "l2-size-b",
+          "group": "l2-size",
+          "type": "choice",
+          "prompt": "你想要大一點的尺寸，要怎麼說？",
+          "options": [
+            "Do you have it in a bigger size?",
+            "Do you have it in a big money?",
+            "Are you a bigger size?"
+          ],
+          "answer": "Do you have it in a bigger size?",
+          "explanation": "問尺寸：Do you have it in a bigger／smaller size?"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "排句子、寫寫看。",
+      "questions": [
+        {
+          "id": "l2-ord",
+          "group": "l2-ord",
+          "type": "order",
+          "prompt": "把單字排成正確的句子",
+          "zh": "這個多少錢？",
+          "tokens": [
+            "is",
+            "How",
+            "this",
+            "much"
+          ],
+          "answer": [
+            "How",
+            "much",
+            "is",
+            "this"
+          ],
+          "punct": "?",
+          "explanation": "問價錢：How much is this?"
+        },
+        {
+          "id": "l2-type",
+          "group": "l2-type",
+          "type": "type",
+          "prompt": "「試穿」的片語是 try it ___，空格填什麼？",
+          "hint": "2 個字母",
+          "answer": "on",
+          "explanation": "試穿：try it on。"
+        }
+      ]
+    }
+  ]
+}

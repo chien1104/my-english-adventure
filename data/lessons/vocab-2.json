@@ -1,0 +1,326 @@
+{
+  "id": "vocab-2",
+  "world": "word-village",
+  "order": 2,
+  "type": "vocab",
+  "title": "我的家",
+  "titleEn": "At Home",
+  "summary": "認識 8 個家裡常見的物品。",
+  "minutes": 10,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "這一課要學什麼",
+      "body": [
+        "這一課學家裡隨處可見的東西：床、椅子、門、窗戶、書、手機、鑰匙、時鐘。",
+        "這 8 個都是可數名詞，一個的時候前面可以加 a，例如 a bed、a key。",
+        "學完後，看到家裡的東西可以試著用英文說出來，會記得更牢。"
+      ]
+    },
+    {
+      "kind": "words",
+      "title": "認識單字",
+      "wordIds": [
+        "bed",
+        "chair",
+        "door",
+        "window",
+        "book",
+        "phone",
+        "key",
+        "clock"
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "看圖或看字，選出正確答案。",
+      "questions": [
+        {
+          "id": "v2-bed-a",
+          "group": "bed",
+          "wordId": "bed",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "bed",
+          "options": [
+            "chair",
+            "bed",
+            "door"
+          ],
+          "answer": "bed",
+          "explanation": "bed /bɛd/ 是「床」。"
+        },
+        {
+          "id": "v2-chair-a",
+          "group": "chair",
+          "wordId": "chair",
+          "type": "choice",
+          "prompt": "chair 的中文是？",
+          "sentence": "chair",
+          "options": [
+            "床",
+            "窗戶",
+            "椅子"
+          ],
+          "answer": "椅子",
+          "explanation": "chair /tʃɛr/ 是「椅子」。開頭的 ch 唸 /tʃ/，和 chicken 的開頭一樣。"
+        },
+        {
+          "id": "v2-door-a",
+          "group": "door",
+          "wordId": "door",
+          "type": "choice",
+          "prompt": "選出適合填入空格的單字",
+          "sentence": "Please close the ___.",
+          "zh": "請關門。",
+          "options": [
+            "phone",
+            "door",
+            "clock"
+          ],
+          "answer": "door",
+          "explanation": "中文是「關門」，門是 door。close the door 就是關門。"
+        },
+        {
+          "id": "v2-window-a",
+          "group": "window",
+          "wordId": "window",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "window",
+          "options": [
+            "window",
+            "door",
+            "clock"
+          ],
+          "answer": "window",
+          "explanation": "window /ˈwɪndoʊ/ 是「窗戶」。"
+        },
+        {
+          "id": "v2-book-a",
+          "group": "book",
+          "wordId": "book",
+          "type": "choice",
+          "prompt": "book 的中文是？",
+          "sentence": "book",
+          "options": [
+            "鑰匙",
+            "書",
+            "手機；電話"
+          ],
+          "answer": "書",
+          "explanation": "book /bʊk/ 是「書」。oo 在這裡唸短音 /ʊ/。"
+        },
+        {
+          "id": "v2-phone-a",
+          "group": "phone",
+          "wordId": "phone",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "phone",
+          "options": [
+            "book",
+            "key",
+            "phone"
+          ],
+          "answer": "phone",
+          "explanation": "phone /foʊn/ 是「手機；電話」。ph 唸 /f/。"
+        },
+        {
+          "id": "v2-key-a",
+          "group": "key",
+          "wordId": "key",
+          "type": "choice",
+          "prompt": "選出適合填入空格的單字",
+          "sentence": "I can't find my ___.",
+          "zh": "我找不到我的鑰匙。",
+          "options": [
+            "key",
+            "window",
+            "bed"
+          ],
+          "answer": "key",
+          "explanation": "中文是「鑰匙」，所以填 key。"
+        },
+        {
+          "id": "v2-clock-a",
+          "group": "clock",
+          "wordId": "clock",
+          "type": "choice",
+          "prompt": "clock 的中文是？",
+          "sentence": "clock",
+          "options": [
+            "鑰匙",
+            "椅子",
+            "時鐘"
+          ],
+          "answer": "時鐘",
+          "explanation": "clock /klɑk/ 是「時鐘」，通常掛在牆上或放在桌上。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "v2-bed-b",
+          "group": "bed",
+          "wordId": "bed",
+          "type": "choice",
+          "prompt": "bed 的中文是？",
+          "sentence": "bed",
+          "options": [
+            "床",
+            "門",
+            "書"
+          ],
+          "answer": "床",
+          "explanation": "bed 是「床」，go to bed 是去睡覺。"
+        },
+        {
+          "id": "v2-chair-b",
+          "group": "chair",
+          "wordId": "chair",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "chair",
+          "options": [
+            "door",
+            "clock",
+            "chair"
+          ],
+          "answer": "chair",
+          "explanation": "可以坐的是 chair（椅子）。"
+        },
+        {
+          "id": "v2-door-b",
+          "group": "door",
+          "wordId": "door",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "door",
+          "options": [
+            "window",
+            "door",
+            "bed"
+          ],
+          "answer": "door",
+          "explanation": "有門把的是 door（門）。"
+        },
+        {
+          "id": "v2-window-b",
+          "group": "window",
+          "wordId": "window",
+          "type": "choice",
+          "prompt": "「窗戶」的英文是？",
+          "options": [
+            "book",
+            "key",
+            "window"
+          ],
+          "answer": "window",
+          "explanation": "窗戶是 window：w-i-n-d-o-w。"
+        },
+        {
+          "id": "v2-book-b",
+          "group": "book",
+          "wordId": "book",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "book",
+          "options": [
+            "book",
+            "phone",
+            "chair"
+          ],
+          "answer": "book",
+          "explanation": "這是一本 book（書）。"
+        },
+        {
+          "id": "v2-phone-b",
+          "group": "phone",
+          "wordId": "phone",
+          "type": "choice",
+          "prompt": "phone 的中文是？",
+          "sentence": "phone",
+          "options": [
+            "時鐘",
+            "手機；電話",
+            "床"
+          ],
+          "answer": "手機；電話",
+          "explanation": "phone 是「手機；電話」。"
+        },
+        {
+          "id": "v2-key-b",
+          "group": "key",
+          "wordId": "key",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "key",
+          "options": [
+            "clock",
+            "phone",
+            "key"
+          ],
+          "answer": "key",
+          "explanation": "用來開門的是 key（鑰匙）。"
+        },
+        {
+          "id": "v2-clock-b",
+          "group": "clock",
+          "wordId": "clock",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "clock",
+          "options": [
+            "clock",
+            "window",
+            "phone"
+          ],
+          "answer": "clock",
+          "explanation": "有指針、看時間的是 clock（時鐘）。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：拼拼看",
+      "intro": "看中文，輸入英文單字。不用管大小寫。",
+      "questions": [
+        {
+          "id": "v2-spell-bed",
+          "group": "spell-bed",
+          "wordId": "bed",
+          "type": "type",
+          "prompt": "「床」的英文怎麼拼？",
+          "hint": "b _ _（3 個字母）",
+          "answer": "bed",
+          "explanation": "bed：b-e-d。"
+        },
+        {
+          "id": "v2-spell-door",
+          "group": "spell-door",
+          "wordId": "door",
+          "type": "type",
+          "prompt": "「門」的英文怎麼拼？",
+          "hint": "d _ _ _（4 個字母）",
+          "answer": "door",
+          "explanation": "door：d-o-o-r，中間有兩個 o。"
+        },
+        {
+          "id": "v2-spell-book",
+          "group": "spell-book",
+          "wordId": "book",
+          "type": "type",
+          "prompt": "「書」的英文怎麼拼？",
+          "hint": "b _ _ _（4 個字母）",
+          "answer": "book",
+          "explanation": "book：b-o-o-k，中間有兩個 o。"
+        }
+      ]
+    }
+  ]
+}

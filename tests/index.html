@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>自動測試｜My English Adventure</title>
+  <style>
+    body { font-family: "PingFang TC", "Noto Sans TC", system-ui, sans-serif; background: #FBF7F0; color: #3B2A1E; padding: 16px; max-width: 720px; margin: auto; }
+    h1 { color: #4E3424; font-size: 1.3rem; }
+    .summary { font-weight: 700; font-size: 1.1rem; padding: 10px 14px; border-radius: 12px; }
+    .summary.pass { background: #E7F0E1; color: #4F7A4A; }
+    .summary.fail { background: #F8E3DE; color: #A23E2E; }
+    ul { list-style: none; padding: 0; }
+    li { padding: 8px 0; border-bottom: 1px dashed #E6D8C6; font-size: .92rem; }
+    li.fail small { color: #A23E2E; }
+  </style>
+</head>
+<body>
+  <h1>自動測試</h1>
+  <p>測試使用獨立的暫存資料庫，不會影響你的學習資料。</p>
+  <div id="out">執行中…</div>
+  <p><a href="../index.html">← 回到 App</a></p>
+  <script type="module">
+    import { run } from './runner.js';
+    import './db.test.js';
+    import './settings.test.js';
+    import './router.test.js';
+    import './storage-status.test.js';
+    import './engine.test.js';
+    import './progress.test.js';
+    import './content.test.js';
+    import './sync.test.js';
+    import './mistakes.test.js';
+    import './games.test.js';
+    import './gamify.test.js';
+    import './backup.test.js';
+    run(document.getElementById('out'));
+  </script>
+</body>
+</html>

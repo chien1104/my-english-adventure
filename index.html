@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F7F1E8">
+  <meta name="description" content="My English Adventure：從基礎重新建立英文能力，挑戰 TOEIC 550。">
+  <title>My English Adventure</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="英文冒險">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">跳到主要內容</a>
+
+  <header class="topbar">
+    <a class="brand" href="#/home" aria-label="My English Adventure 首頁">
+      <img src="assets/icons/favicon.svg" alt="" width="28" height="28">
+      <span class="brand__text">My English Adventure</span>
+    </a>
+    <div class="topbar__right">
+      <a id="save-indicator" class="save-indicator" href="#/settings?section=data" hidden>檢查中…</a>
+      <a class="icon-link" href="#/settings" aria-label="設定">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v2.5M12 18.5V21M3 12h2.5M18.5 12H21M5.6 5.6l1.8 1.8M16.6 16.6l1.8 1.8M5.6 18.4l1.8-1.8M16.6 7.4l1.8-1.8"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <noscript><section class="card"><p>請開啟 JavaScript 才能使用 My English Adventure。</p></section></noscript>
+    <p class="boot">載入中…</p>
+  </main>
+
+  <nav class="tabbar" aria-label="主要導覽">
+    <a class="tabbar__link" href="#/home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.5 12 5l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5h-5v5H5a1 1 0 0 1-1-1z"/></svg>
+      <span>首頁</span>
+    </a>
+    <a class="tabbar__link" href="#/worlds">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 9 4.5l6 2 5.5-2v13l-5.5 2-6-2-5.5 2z M9 4.5v13 M15 6.5v13"/></svg>
+      <span>世界</span>
+    </a>
+    <a class="tabbar__link" href="#/words">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5h5.5a2 2 0 0 1 2 2V20a1.6 1.6 0 0 0-1.6-1.6H5z M19 4.5h-4.5a2 2 0 0 0-2 2V20a1.6 1.6 0 0 1 1.6-1.6H19z"/></svg>
+      <span>單字</span>
+    </a>
+    <a class="tabbar__link" href="#/games">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10a4 4 0 0 1 4 4v2a3 3 0 0 1-5.4 1.8L14.5 14h-5l-1.1 1.8A3 3 0 0 1 3 14v-2a4 4 0 0 1 4-4z M7.5 10.5v3 M6 12h3 M15.5 11.5h.01 M17.5 13h.01"/></svg>
+      <span>遊戲</span>
+    </a>
+    <a class="tabbar__link" href="#/mistakes">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5h10.5a1.5 1.5 0 0 1 1.5 1.5v15l-3-2-3 2-3-2-3 2V5A1.5 1.5 0 0 1 6 3.5z M9 8.5l4 4 M13 8.5l-4 4"/></svg>
+      <span>錯題</span>
+    </a>
+  </nav>
+
+  <div id="update-banner" class="update-banner" hidden role="status">
+    <span>有新版本可以更新，學習資料會完整保留。</span>
+    <button type="button" class="btn btn--primary btn--sm" data-act="apply-update">立即更新</button>
+  </div>
+
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

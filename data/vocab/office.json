@@ -1,0 +1,141 @@
+[
+  {
+    "id": "computer",
+    "en": "computer",
+    "zh": "電腦",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/kəmˈpjutər/",
+    "level": 2,
+    "topic": "office",
+    "image": "assets/img/words/computer.svg",
+    "audio": "assets/audio/words/computer.mp3",
+    "example": {
+      "en": "My computer is very slow today.",
+      "zh": "我的電腦今天很慢。"
+    },
+    "exampleAudio": "assets/audio/sentences/computer.mp3"
+  },
+  {
+    "id": "printer",
+    "en": "printer",
+    "zh": "印表機",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/ˈprɪntər/",
+    "level": 2,
+    "topic": "office",
+    "image": "assets/img/words/printer.svg",
+    "audio": "assets/audio/words/printer.mp3",
+    "example": {
+      "en": "The printer is out of paper.",
+      "zh": "印表機沒紙了。"
+    },
+    "note": "out of paper：沒有紙了。",
+    "exampleAudio": "assets/audio/sentences/printer.mp3"
+  },
+  {
+    "id": "desk",
+    "en": "desk",
+    "zh": "書桌；辦公桌",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/dɛsk/",
+    "level": 2,
+    "topic": "office",
+    "image": "assets/img/words/desk.svg",
+    "audio": "assets/audio/words/desk.mp3",
+    "example": {
+      "en": "Please put the files on my desk.",
+      "zh": "請把文件放在我的桌上。"
+    },
+    "exampleAudio": "assets/audio/sentences/desk.mp3"
+  },
+  {
+    "id": "meeting",
+    "en": "meeting",
+    "zh": "會議",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/ˈmitɪŋ/",
+    "level": 2,
+    "topic": "office",
+    "image": "assets/img/words/meeting.svg",
+    "audio": "assets/audio/words/meeting.mp3",
+    "example": {
+      "en": "We have a meeting at ten.",
+      "zh": "我們十點有一場會議。"
+    },
+    "exampleAudio": "assets/audio/sentences/meeting.mp3"
+  },
+  {
+    "id": "email",
+    "en": "email",
+    "zh": "電子郵件",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/ˈimeɪl/",
+    "level": 2,
+    "topic": "office",
+    "image": "assets/img/words/email.svg",
+    "audio": "assets/audio/words/email.mp3",
+    "example": {
+      "en": "I will send you an email.",
+      "zh": "我會寄一封電子郵件給你。"
+    },
+    "note": "email 開頭是母音的聲音，所以說 an email。",
+    "exampleAudio": "assets/audio/sentences/email.mp3"
+  },
+  {
+    "id": "manager",
+    "en": "manager",
+    "zh": "經理",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/ˈmænɪdʒər/",
+    "level": 2,
+    "topic": "office",
+    "image": "assets/img/words/manager.svg",
+    "audio": "assets/audio/words/manager.mp3",
+    "example": {
+      "en": "She is the manager of our team.",
+      "zh": "她是我們團隊的經理。"
+    },
+    "exampleAudio": "assets/audio/sentences/manager.mp3"
+  },
+  {
+    "id": "report",
+    "en": "report",
+    "zh": "報告",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/rɪˈpɔrt/",
+    "level": 2,
+    "topic": "office",
+    "image": "assets/img/words/report.svg",
+    "audio": "assets/audio/words/report.mp3",
+    "example": {
+      "en": "Please finish the report by Friday.",
+      "zh": "請在星期五前完成報告。"
+    },
+    "exampleAudio": "assets/audio/sentences/report.mp3"
+  },
+  {
+    "id": "schedule",
+    "en": "schedule",
+    "zh": "行程表；時間表",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/ˈskɛdʒul/",
+    "level": 2,
+    "topic": "office",
+    "image": "assets/img/words/schedule.svg",
+    "audio": "assets/audio/words/schedule.mp3",
+    "example": {
+      "en": "Let me check my schedule.",
+      "zh": "讓我看一下我的行程表。"
+    },
+    "note": "這是美式發音；英式常唸 /ˈʃɛdjuːl/。",
+    "exampleAudio": "assets/audio/sentences/schedule.mp3"
+  }
+]

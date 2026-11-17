@@ -1,0 +1,301 @@
+{
+  "id": "life-1",
+  "world": "life-island",
+  "order": 1,
+  "type": "dialogue",
+  "requires": [
+    "vocab-1",
+    "grammar-1"
+  ],
+  "title": "在餐廳點餐",
+  "titleEn": "Ordering Food",
+  "minutes": 12,
+  "summary": "學會點餐、點飲料、內用外帶和結帳。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "這一課學什麼",
+      "body": [
+        "出國旅遊、在餐廳吃飯，最常用到的就是點餐英文。",
+        "這一課先聽一段完整的點餐對話，再學 4 個最常用的句子。",
+        "每一句都可以按 ▶ 聽，跟著唸幾次效果最好。"
+      ]
+    },
+    {
+      "kind": "dialogue",
+      "title": "聽聽看這段對話",
+      "scene": "場景：在一家咖啡餐廳",
+      "audio": "assets/audio/lessons/life-1/dialogue.mp3",
+      "lines": [
+        {
+          "speaker": "店員",
+          "side": "left",
+          "en": "Hi! Are you ready to order?",
+          "zh": "你好！準備好點餐了嗎？",
+          "audio": "assets/audio/lessons/life-1/d1.mp3"
+        },
+        {
+          "speaker": "你",
+          "side": "right",
+          "en": "Yes. Can I have a chicken sandwich, please?",
+          "zh": "好的，可以給我一份雞肉三明治嗎？",
+          "audio": "assets/audio/lessons/life-1/d2.mp3"
+        },
+        {
+          "speaker": "店員",
+          "side": "left",
+          "en": "Sure. Anything to drink?",
+          "zh": "好的。要喝點什麼嗎？",
+          "audio": "assets/audio/lessons/life-1/d3.mp3"
+        },
+        {
+          "speaker": "你",
+          "side": "right",
+          "en": "An iced tea, please.",
+          "zh": "一杯冰茶，謝謝。",
+          "audio": "assets/audio/lessons/life-1/d4.mp3"
+        },
+        {
+          "speaker": "店員",
+          "side": "left",
+          "en": "For here or to go?",
+          "zh": "內用還是外帶？",
+          "audio": "assets/audio/lessons/life-1/d5.mp3"
+        },
+        {
+          "speaker": "你",
+          "side": "right",
+          "en": "For here, please.",
+          "zh": "內用，謝謝。",
+          "audio": "assets/audio/lessons/life-1/d6.mp3"
+        },
+        {
+          "speaker": "店員",
+          "side": "left",
+          "en": "Okay. That's eight dollars.",
+          "zh": "好的，一共八美元。",
+          "audio": "assets/audio/lessons/life-1/d7.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "examples",
+      "title": "重點句子",
+      "items": [
+        {
+          "en": "Can I have a sandwich, please?",
+          "zh": "可以給我一份三明治嗎？（點餐萬用句）",
+          "highlight": "Can",
+          "audio": "assets/audio/lessons/life-1/p1.mp3"
+        },
+        {
+          "en": "Anything to drink?",
+          "zh": "要喝點什麼嗎？",
+          "highlight": "drink",
+          "audio": "assets/audio/lessons/life-1/p2.mp3"
+        },
+        {
+          "en": "For here or to go?",
+          "zh": "內用還是外帶？",
+          "highlight": "here",
+          "audio": "assets/audio/lessons/life-1/p3.mp3"
+        },
+        {
+          "en": "Can I get the check, please?",
+          "zh": "可以幫我結帳嗎？",
+          "highlight": "check",
+          "audio": "assets/audio/lessons/life-1/p4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出最適合的說法。有 ▶ 的題目要先聽。",
+      "questions": [
+        {
+          "id": "l1-togo-a",
+          "group": "l1-togo",
+          "type": "choice",
+          "prompt": "店員這樣問，你想外帶，要怎麼回答？",
+          "options": [
+            "To go, please.",
+            "Yes, I am.",
+            "Eight dollars."
+          ],
+          "answer": "To go, please.",
+          "explanation": "For here or to go? 是問內用還是外帶。內用回答 For here，外帶回答 To go。",
+          "sentence": "For here or to go?"
+        },
+        {
+          "id": "l1-drink-a",
+          "group": "l1-drink",
+          "type": "choice",
+          "prompt": "店員這樣問，哪一個回答最適合？",
+          "options": [
+            "A sandwich, please.",
+            "A coffee, please.",
+            "To go, please."
+          ],
+          "answer": "A coffee, please.",
+          "explanation": "Anything to drink? 是問要喝什麼，要回答飲料。sandwich 是吃的。",
+          "sentence": "Anything to drink?"
+        },
+        {
+          "id": "l1-order-a",
+          "group": "l1-order",
+          "type": "choice",
+          "prompt": "你想點一杯咖啡，要怎麼說？",
+          "options": [
+            "Can I have a coffee, please?",
+            "Can I have coffee to me?",
+            "I am a coffee."
+          ],
+          "answer": "Can I have a coffee, please?",
+          "explanation": "點餐萬用句：Can I have ＋ 餐點, please?"
+        },
+        {
+          "id": "l1-check-a",
+          "group": "l1-check",
+          "type": "choice",
+          "prompt": "吃完了想結帳，要怎麼說？",
+          "options": [
+            "Can I get the menu, please?",
+            "Can I get the check, please?",
+            "Are you ready to order?"
+          ],
+          "answer": "Can I get the check, please?",
+          "explanation": "結帳是 the check；menu 是菜單。"
+        },
+        {
+          "id": "l1-price-a",
+          "group": "l1-price",
+          "type": "choice",
+          "prompt": "聽音檔：店員說多少錢？",
+          "options": [
+            "8 美元",
+            "18 美元",
+            "80 美元"
+          ],
+          "answer": "8 美元",
+          "explanation": "That's eight dollars. 是 8 美元。eighteen 是 18，eighty 是 80。",
+          "audio": "assets/audio/lessons/life-1/l1-price-a.mp3"
+        }
+      ],
+      "similar": [
+        {
+          "id": "l1-togo-b",
+          "group": "l1-togo",
+          "type": "choice",
+          "prompt": "聽音檔：店員問了什麼？哪一個回答最適合？",
+          "options": [
+            "Yes. Can I have a salad, please?",
+            "For here, please.",
+            "It's eight dollars."
+          ],
+          "answer": "Yes. Can I have a salad, please?",
+          "explanation": "店員問 Are you ready to order?（準備好點餐了嗎？），所以要回答 Yes 並點餐。",
+          "audio": "assets/audio/lessons/life-1/l1-togo-b.mp3"
+        },
+        {
+          "id": "l1-drink-b",
+          "group": "l1-drink",
+          "type": "choice",
+          "prompt": "聽音檔：哪一個回答最適合？",
+          "options": [
+            "Orange juice, please.",
+            "Chicken, please.",
+            "For here."
+          ],
+          "answer": "Orange juice, please.",
+          "explanation": "店員問 What would you like to drink?（想喝什麼？），要回答飲料：orange juice 柳橙汁。",
+          "audio": "assets/audio/lessons/life-1/l1-drink-b.mp3"
+        },
+        {
+          "id": "l1-order-b",
+          "group": "l1-order",
+          "type": "choice",
+          "prompt": "你想點一份沙拉（salad），要怎麼說？",
+          "options": [
+            "Can you have a salad?",
+            "Can I have a salad, please?",
+            "Salad me, please."
+          ],
+          "answer": "Can I have a salad, please?",
+          "explanation": "Can I have ＋ 餐點, please? 是我想要；Can you have 變成問對方。"
+        },
+        {
+          "id": "l1-check-b",
+          "group": "l1-check",
+          "type": "choice",
+          "prompt": "聽音檔：這位客人想做什麼？",
+          "options": [
+            "點餐",
+            "看菜單",
+            "結帳"
+          ],
+          "answer": "結帳",
+          "explanation": "Can I get the check, please? 是請店員結帳。",
+          "audio": "assets/audio/lessons/life-1/l1-check-b.mp3"
+        },
+        {
+          "id": "l1-price-b",
+          "group": "l1-price",
+          "type": "choice",
+          "prompt": "聽音檔：店員說多少錢？",
+          "options": [
+            "50 美元",
+            "15 美元",
+            "5 美元"
+          ],
+          "answer": "15 美元",
+          "explanation": "That's fifteen dollars. 是 15 美元。fifteen 重音在後面，fifty（50）重音在前面。",
+          "audio": "assets/audio/lessons/life-1/l1-price-b.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "排句子、寫寫看。",
+      "questions": [
+        {
+          "id": "l1-ord",
+          "group": "l1-ord",
+          "type": "order",
+          "prompt": "把單字排成正確的句子",
+          "zh": "可以給我一杯咖啡嗎？",
+          "tokens": [
+            "coffee",
+            "I",
+            "a",
+            "Can",
+            "have"
+          ],
+          "answer": [
+            "Can",
+            "I",
+            "have",
+            "a",
+            "coffee"
+          ],
+          "punct": "?",
+          "explanation": "Can I have ＋ a coffee？"
+        },
+        {
+          "id": "l1-type",
+          "group": "l1-type",
+          "type": "type",
+          "prompt": "「外帶」的英文怎麼說？（兩個字）",
+          "hint": "t _  g _",
+          "answer": "to go",
+          "explanation": "外帶是 to go；內用是 for here。"
+        }
+      ]
+    }
+  ]
+}

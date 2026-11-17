@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="chair">
+<title>chair</title>
+<circle cx="60" cy="60" r="56" fill="#F4ECDF"/>
+<ellipse cx="60" cy="98" rx="30" ry="4" fill="#E6D8C6"/>
+<path d="M42 24h12v40H42z" fill="#C9A27E" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M42 62h40v10H42z" fill="#B9774F" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M46 72v22M78 72v22M54 72v16M70 72v16" fill="none" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

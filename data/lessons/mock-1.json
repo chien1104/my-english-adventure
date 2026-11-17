@@ -1,0 +1,379 @@
+{
+  "id": "mock-1",
+  "world": "hall-550",
+  "order": 1,
+  "type": "exam",
+  "title": "迷你模擬考 A",
+  "titleEn": "Mini Mock Test A",
+  "minutes": 20,
+  "timeLimit": 1200,
+  "requires": [
+    "toeic-p1",
+    "toeic-p2",
+    "toeic-p3",
+    "toeic-p4",
+    "toeic-p5-1",
+    "toeic-p6",
+    "toeic-p7"
+  ],
+  "summary": "七大題型各 3 題，限時 20 分鐘，交卷後才看答案。",
+  "steps": [
+    {
+      "kind": "practice",
+      "title": "模擬考",
+      "questions": [
+        {
+          "id": "m-p1-1",
+          "group": "m-p1-1",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) The laptop is open.\n逐字稿：(A) A plant is on the floor.（植物在地上）　(B) The laptop is open.（筆電是打開的）　(C) A woman is typing.（一名女子在打字）　(D) The chair is broken.（椅子壞了）",
+          "scene": "assets/img/scenes/desk.svg",
+          "audio": "assets/audio/toeic/m-p1-1.mp3",
+          "audioLabel": "▶ 播放 4 個句子",
+          "part": 1
+        },
+        {
+          "id": "m-p1-2",
+          "group": "m-p1-2",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) Books are arranged on a shelf.\n逐字稿：(A) Books are arranged on a shelf.（書排放在書架上）　(B) A clock is lying on the shelf.（時鐘倒放在書架上）　(C) A man is reading a book.（一名男子在看書）　(D) The shelf is being painted.（書架正在被油漆）",
+          "scene": "assets/img/scenes/shelf.svg",
+          "audio": "assets/audio/toeic/m-p1-2.mp3",
+          "audioLabel": "▶ 播放 4 個句子",
+          "part": 1
+        },
+        {
+          "id": "m-p1-3",
+          "group": "m-p1-3",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) A bicycle is next to a tree.\n逐字稿：(A) Children are playing.（小孩在玩）　(B) A bicycle is next to a tree.（腳踏車在樹旁邊）　(C) A bench is being repaired.（長椅正在被修理）　(D) A dog is running.（一隻狗在跑）",
+          "scene": "assets/img/scenes/park.svg",
+          "audio": "assets/audio/toeic/m-p1-3.mp3",
+          "audioLabel": "▶ 播放 4 個句子",
+          "part": 1
+        },
+        {
+          "id": "m-p2-1",
+          "group": "m-p2-1",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Where 問地點，回答「放在儲藏室」。\n逐字稿：Where should I put these boxes?（這些箱子要放在哪裡？）　(A) In the storage room, please.（請放在儲藏室）　(B) Yes, they are heavy.（對，它們很重）　(C) Twelve boxes.（十二個箱子）",
+          "audio": "assets/audio/toeic/m-p2-1.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m-p2-2",
+          "group": "m-p2-2",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "When 問時間，due 是到期，回答「星期四下午前」。\n逐字稿：When is the report due?（報告什麼時候要交？）　(A) Mr. Lee wrote it.（李先生寫的）　(B) By Thursday afternoon.（星期四下午前）　(C) In the report.（在報告裡）",
+          "audio": "assets/audio/toeic/m-p2-2.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m-p2-3",
+          "group": "m-p2-3",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "回答要不要喝。(C) copies 和 coffee 發音相近，是陷阱。\n逐字稿：Would you like some coffee?（要喝點咖啡嗎？）　(A) The coffee shop is closed.（咖啡店關了）　(B) No, thanks. I just had some.（不用了，謝謝，我剛喝過）　(C) Yes, I made copies.（是的，我影印了）",
+          "audio": "assets/audio/toeic/m-p2-3.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m-p3-1",
+          "group": "m-p3-1",
+          "type": "choice",
+          "prompt": "女子最可能是誰？",
+          "options": [
+            "A restaurant employee",
+            "A hotel guest",
+            "A taxi driver"
+          ],
+          "answer": "A restaurant employee",
+          "explanation": "男子打電話訂位（book a table），女子幫他查座位，是餐廳員工。\n逐字稿：M: Hi, I'm calling to book a table for four people this Saturday evening.　W: Sure. What time would you like to come?　M: Around seven, please. And could we sit by the window?　W: Let me check. Yes, a window table is available.",
+          "sentence": "Who most likely is the woman?",
+          "audio": "assets/audio/toeic/mock-conv.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m-p3-2",
+          "group": "m-p3-2",
+          "type": "choice",
+          "prompt": "會有幾個人來？",
+          "options": [
+            "Two",
+            "Four",
+            "Seven"
+          ],
+          "answer": "Four",
+          "explanation": "a table for four people：四個人。seven 是時間。\n逐字稿：M: Hi, I'm calling to book a table for four people this Saturday evening.　W: Sure. What time would you like to come?　M: Around seven, please. And could we sit by the window?　W: Let me check. Yes, a window table is available.",
+          "sentence": "How many people will come?",
+          "audio": "assets/audio/toeic/mock-conv.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m-p3-3",
+          "group": "m-p3-3",
+          "type": "choice",
+          "prompt": "男子要求什麼？",
+          "options": [
+            "A cheaper menu",
+            "A later time",
+            "A table by the window"
+          ],
+          "answer": "A table by the window",
+          "explanation": "could we sit by the window? 想坐靠窗。\n逐字稿：M: Hi, I'm calling to book a table for four people this Saturday evening.　W: Sure. What time would you like to come?　M: Around seven, please. And could we sit by the window?　W: Let me check. Yes, a window table is available.",
+          "sentence": "What does the man ask for?",
+          "audio": "assets/audio/toeic/mock-conv.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m-p4-1",
+          "group": "m-p4-1",
+          "type": "choice",
+          "prompt": "說話者最可能是誰？",
+          "options": [
+            "A tour guide",
+            "A painter",
+            "A security guard"
+          ],
+          "answer": "A tour guide",
+          "explanation": "Welcome to the museum、today's tour、please follow me：導覽員。\n逐字稿：Good morning, everyone. Welcome to the City Art Museum. Today's tour will take about one hour. We will start on the second floor with paintings from Europe. Please do not take photos inside the museum. Now, please follow me.",
+          "sentence": "Who most likely is the speaker?",
+          "audio": "assets/audio/toeic/mock-talk.mp3",
+          "audioLabel": "▶ 播放獨白",
+          "part": 4
+        },
+        {
+          "id": "m-p4-2",
+          "group": "m-p4-2",
+          "type": "choice",
+          "prompt": "導覽要多久？",
+          "options": [
+            "About two hours",
+            "About one hour",
+            "About thirty minutes"
+          ],
+          "answer": "About one hour",
+          "explanation": "The tour will take about one hour.\n逐字稿：Good morning, everyone. Welcome to the City Art Museum. Today's tour will take about one hour. We will start on the second floor with paintings from Europe. Please do not take photos inside the museum. Now, please follow me.",
+          "sentence": "How long will the tour take?",
+          "audio": "assets/audio/toeic/mock-talk.mp3",
+          "audioLabel": "▶ 播放獨白",
+          "part": 4
+        },
+        {
+          "id": "m-p4-3",
+          "group": "m-p4-3",
+          "type": "choice",
+          "prompt": "聽眾被要求不要做什麼？",
+          "options": [
+            "Talk loudly",
+            "Eat food",
+            "Take photos"
+          ],
+          "answer": "Take photos",
+          "explanation": "Please do not take photos inside the museum.\n逐字稿：Good morning, everyone. Welcome to the City Art Museum. Today's tour will take about one hour. We will start on the second floor with paintings from Europe. Please do not take photos inside the museum. Now, please follow me.",
+          "sentence": "What are listeners asked not to do?",
+          "audio": "assets/audio/toeic/mock-talk.mp3",
+          "audioLabel": "▶ 播放獨白",
+          "part": 4
+        },
+        {
+          "id": "m-p5-1",
+          "group": "m-p5-1",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "answer": "are",
+          "explanation": "主詞 the new employees 是複數，用 are。",
+          "sentence": "The new employees ___ very friendly.",
+          "part": 5
+        },
+        {
+          "id": "m-p5-2",
+          "group": "m-p5-2",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "options": [
+            "a",
+            "an",
+            "many",
+            "few"
+          ],
+          "answer": "an",
+          "explanation": "email 是單數、母音開頭，用 an。many／few 後面要接複數 emails。",
+          "sentence": "Please send ___ email to all customers.",
+          "part": 5
+        },
+        {
+          "id": "m-p5-3",
+          "group": "m-p5-3",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "options": [
+            "go",
+            "going",
+            "goes",
+            "gone"
+          ],
+          "answer": "goes",
+          "explanation": "usually 表示習慣，主詞 Ms. Wang 是第三人稱單數，用 goes。",
+          "sentence": "Ms. Wang usually ___ to work by train.",
+          "part": 5
+        },
+        {
+          "id": "m-p6-1",
+          "group": "m-p6-1",
+          "type": "choice",
+          "prompt": "第 1 個空格要填什麼？",
+          "options": [
+            "sends",
+            "was sent",
+            "is sending",
+            "send"
+          ],
+          "answer": "was sent",
+          "explanation": "yesterday 表示過去，包裹「被寄出」：was sent。",
+          "text": "Dear Mr. Brown,\n\nThank you for your order. Your package (1)______ yesterday, and it will arrive in two or three days. If you have any questions, please (2)______ us at 555-0198. (3)______\n\nBest regards,\nOnline Shop Team",
+          "part": 6
+        },
+        {
+          "id": "m-p6-2",
+          "group": "m-p6-2",
+          "type": "choice",
+          "prompt": "第 2 個空格要填什麼？",
+          "options": [
+            "call",
+            "calls",
+            "calling",
+            "called"
+          ],
+          "answer": "call",
+          "explanation": "please 後面接動詞原形：please call us。",
+          "text": "Dear Mr. Brown,\n\nThank you for your order. Your package (1)______ yesterday, and it will arrive in two or three days. If you have any questions, please (2)______ us at 555-0198. (3)______\n\nBest regards,\nOnline Shop Team",
+          "part": 6
+        },
+        {
+          "id": "m-p6-3",
+          "group": "m-p6-3",
+          "type": "choice",
+          "prompt": "第 3 個空格要填什麼？",
+          "options": [
+            "Your package is too heavy.",
+            "Thank you for shopping with us.",
+            "We do not sell books."
+          ],
+          "answer": "Thank you for shopping with us.",
+          "explanation": "信的結尾前，感謝顧客購物最自然。",
+          "text": "Dear Mr. Brown,\n\nThank you for your order. Your package (1)______ yesterday, and it will arrive in two or three days. If you have any questions, please (2)______ us at 555-0198. (3)______\n\nBest regards,\nOnline Shop Team",
+          "part": 6
+        },
+        {
+          "id": "m-p7-1",
+          "group": "m-p7-1",
+          "type": "choice",
+          "prompt": "這則公告是關於什麼？",
+          "options": [
+            "A gym closing",
+            "A price increase",
+            "A new class"
+          ],
+          "answer": "A new class",
+          "explanation": "New Yoga Class：新的瑜珈課。",
+          "sentence": "What is the notice about?",
+          "text": "Riverside Gym — New Yoga Class!\nStarting May 1, we will offer a yoga class every Tuesday and Thursday from 7 p.m. to 8 p.m. The class is free for gym members. Non-members can join for $10 per class. Sign up at the front desk.",
+          "part": 7
+        },
+        {
+          "id": "m-p7-2",
+          "group": "m-p7-2",
+          "type": "choice",
+          "prompt": "課程在什麼時候？",
+          "options": [
+            "Tuesdays and Thursdays",
+            "Every weekend",
+            "Every morning"
+          ],
+          "answer": "Tuesdays and Thursdays",
+          "explanation": "every Tuesday and Thursday from 7 p.m. to 8 p.m.",
+          "sentence": "When is the class held?",
+          "text": "Riverside Gym — New Yoga Class!\nStarting May 1, we will offer a yoga class every Tuesday and Thursday from 7 p.m. to 8 p.m. The class is free for gym members. Non-members can join for $10 per class. Sign up at the front desk.",
+          "part": 7
+        },
+        {
+          "id": "m-p7-3",
+          "group": "m-p7-3",
+          "type": "choice",
+          "prompt": "會員上課要多少錢？",
+          "options": [
+            "$10 per class",
+            "It is free.",
+            "$8 per class"
+          ],
+          "answer": "It is free.",
+          "explanation": "The class is free for gym members. 會員免費，非會員才是 10 美元。",
+          "sentence": "How much does the class cost for gym members?",
+          "text": "Riverside Gym — New Yoga Class!\nStarting May 1, we will offer a yoga class every Tuesday and Thursday from 7 p.m. to 8 p.m. The class is free for gym members. Non-members can join for $10 per class. Sign up at the front desk.",
+          "part": 7
+        }
+      ],
+      "similar": []
+    }
+  ]
+}

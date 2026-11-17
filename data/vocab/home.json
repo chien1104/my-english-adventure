@@ -1,0 +1,138 @@
+[
+  {
+    "id": "bed",
+    "en": "bed",
+    "zh": "床",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/bɛd/",
+    "level": 1,
+    "topic": "home",
+    "image": "assets/img/words/bed.svg",
+    "audio": "assets/audio/words/bed.mp3",
+    "example": {
+      "en": "My bed is very soft.",
+      "zh": "我的床很軟。"
+    },
+    "exampleAudio": "assets/audio/sentences/bed.mp3"
+  },
+  {
+    "id": "chair",
+    "en": "chair",
+    "zh": "椅子",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/tʃɛr/",
+    "level": 1,
+    "topic": "home",
+    "image": "assets/img/words/chair.svg",
+    "audio": "assets/audio/words/chair.mp3",
+    "example": {
+      "en": "Please sit on the chair.",
+      "zh": "請坐在椅子上。"
+    },
+    "exampleAudio": "assets/audio/sentences/chair.mp3"
+  },
+  {
+    "id": "door",
+    "en": "door",
+    "zh": "門",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/dɔr/",
+    "level": 1,
+    "topic": "home",
+    "image": "assets/img/words/door.svg",
+    "audio": "assets/audio/words/door.mp3",
+    "example": {
+      "en": "Please close the door.",
+      "zh": "請關門。"
+    },
+    "exampleAudio": "assets/audio/sentences/door.mp3"
+  },
+  {
+    "id": "window",
+    "en": "window",
+    "zh": "窗戶",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/ˈwɪndoʊ/",
+    "level": 1,
+    "topic": "home",
+    "image": "assets/img/words/window.svg",
+    "audio": "assets/audio/words/window.mp3",
+    "example": {
+      "en": "Open the window, please.",
+      "zh": "請打開窗戶。"
+    },
+    "exampleAudio": "assets/audio/sentences/window.mp3"
+  },
+  {
+    "id": "book",
+    "en": "book",
+    "zh": "書",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/bʊk/",
+    "level": 1,
+    "topic": "home",
+    "image": "assets/img/words/book.svg",
+    "audio": "assets/audio/words/book.mp3",
+    "example": {
+      "en": "This book is very interesting.",
+      "zh": "這本書很有趣。"
+    },
+    "exampleAudio": "assets/audio/sentences/book.mp3"
+  },
+  {
+    "id": "phone",
+    "en": "phone",
+    "zh": "手機；電話",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/foʊn/",
+    "level": 1,
+    "topic": "home",
+    "image": "assets/img/words/phone.svg",
+    "audio": "assets/audio/words/phone.mp3",
+    "example": {
+      "en": "Where is my phone?",
+      "zh": "我的手機在哪裡？"
+    },
+    "exampleAudio": "assets/audio/sentences/phone.mp3"
+  },
+  {
+    "id": "key",
+    "en": "key",
+    "zh": "鑰匙",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/ki/",
+    "level": 1,
+    "topic": "home",
+    "image": "assets/img/words/key.svg",
+    "audio": "assets/audio/words/key.mp3",
+    "example": {
+      "en": "I can't find my key.",
+      "zh": "我找不到我的鑰匙。"
+    },
+    "exampleAudio": "assets/audio/sentences/key.mp3"
+  },
+  {
+    "id": "clock",
+    "en": "clock",
+    "zh": "時鐘",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/klɑk/",
+    "level": 1,
+    "topic": "home",
+    "image": "assets/img/words/clock.svg",
+    "audio": "assets/audio/words/clock.mp3",
+    "example": {
+      "en": "The clock is on the wall.",
+      "zh": "時鐘在牆上。"
+    },
+    "exampleAudio": "assets/audio/sentences/clock.mp3"
+  }
+]

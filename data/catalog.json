@@ -1,0 +1,36 @@
+{
+  "contentVersion": "2026.11.17-full",
+  "diagnosis": "data/diagnosis.json",
+  "vocab": [
+    "data/vocab/breakfast.json",
+    "data/vocab/home.json",
+    "data/vocab/colors.json",
+    "data/vocab/office.json"
+  ],
+  "lessons": [
+    "data/lessons/vocab-1.json",
+    "data/lessons/vocab-2.json",
+    "data/lessons/vocab-3.json",
+    "data/lessons/grammar-1.json",
+    "data/lessons/grammar-2.json",
+    "data/lessons/grammar-3.json",
+    "data/lessons/phonics-1.json",
+    "data/lessons/phonics-2.json",
+    "data/lessons/phonics-3.json",
+    "data/lessons/life-1.json",
+    "data/lessons/life-2.json",
+    "data/lessons/life-3.json",
+    "data/lessons/read-1.json",
+    "data/lessons/read-2.json",
+    "data/lessons/biz-1.json",
+    "data/lessons/biz-2.json",
+    "data/lessons/toeic-p1.json",
+    "data/lessons/toeic-p2.json",
+    "data/lessons/toeic-p3.json",
+    "data/lessons/toeic-p4.json",
+    "data/lessons/toeic-p5-1.json",
+    "data/lessons/toeic-p6.json",
+    "data/lessons/toeic-p7.json",
+    "data/lessons/mock-1.json"
+  ]
+}

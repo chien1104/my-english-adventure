@@ -1,0 +1,144 @@
+[
+  {
+    "id": "apple",
+    "en": "apple",
+    "zh": "蘋果",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/ˈæpəl/",
+    "level": 1,
+    "topic": "breakfast",
+    "image": "assets/img/words/apple.svg",
+    "audio": "assets/audio/words/apple.mp3",
+    "example": {
+      "en": "I eat an apple every day.",
+      "zh": "我每天吃一顆蘋果。"
+    },
+    "note": "apple 是母音開頭，前面用 an：an apple。",
+    "exampleAudio": "assets/audio/sentences/apple.mp3"
+  },
+  {
+    "id": "banana",
+    "en": "banana",
+    "zh": "香蕉",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/bəˈnænə/",
+    "level": 1,
+    "topic": "breakfast",
+    "image": "assets/img/words/banana.svg",
+    "audio": "assets/audio/words/banana.mp3",
+    "example": {
+      "en": "This banana is yellow.",
+      "zh": "這根香蕉是黃色的。"
+    },
+    "exampleAudio": "assets/audio/sentences/banana.mp3"
+  },
+  {
+    "id": "bread",
+    "en": "bread",
+    "zh": "麵包",
+    "pos": "n.",
+    "posZh": "名詞（不可數）",
+    "ipa": "/brɛd/",
+    "level": 1,
+    "topic": "breakfast",
+    "image": "assets/img/words/bread.svg",
+    "audio": "assets/audio/words/bread.mp3",
+    "example": {
+      "en": "I have bread for breakfast.",
+      "zh": "我早餐吃麵包。"
+    },
+    "note": "bread 不可數，不說 a bread；可以說 some bread 或 a piece of bread（一片麵包）。",
+    "exampleAudio": "assets/audio/sentences/bread.mp3"
+  },
+  {
+    "id": "egg",
+    "en": "egg",
+    "zh": "雞蛋；蛋",
+    "pos": "n.",
+    "posZh": "名詞（可數）",
+    "ipa": "/ɛɡ/",
+    "level": 1,
+    "topic": "breakfast",
+    "image": "assets/img/words/egg.svg",
+    "audio": "assets/audio/words/egg.mp3",
+    "example": {
+      "en": "Can I have an egg, please?",
+      "zh": "可以給我一顆蛋嗎？"
+    },
+    "note": "egg 是母音開頭，前面用 an：an egg。",
+    "exampleAudio": "assets/audio/sentences/egg.mp3"
+  },
+  {
+    "id": "milk",
+    "en": "milk",
+    "zh": "牛奶",
+    "pos": "n.",
+    "posZh": "名詞（不可數）",
+    "ipa": "/mɪlk/",
+    "level": 1,
+    "topic": "breakfast",
+    "image": "assets/img/words/milk.svg",
+    "audio": "assets/audio/words/milk.mp3",
+    "example": {
+      "en": "The milk is cold.",
+      "zh": "牛奶是冰的。"
+    },
+    "note": "milk 不可數；一杯牛奶說 a glass of milk。",
+    "exampleAudio": "assets/audio/sentences/milk.mp3"
+  },
+  {
+    "id": "coffee",
+    "en": "coffee",
+    "zh": "咖啡",
+    "pos": "n.",
+    "posZh": "名詞（通常不可數）",
+    "ipa": "/ˈkɔfi/",
+    "level": 1,
+    "topic": "breakfast",
+    "image": "assets/img/words/coffee.svg",
+    "audio": "assets/audio/words/coffee.mp3",
+    "example": {
+      "en": "I drink coffee in the morning.",
+      "zh": "我早上喝咖啡。"
+    },
+    "note": "在咖啡店點餐時，可以說 a coffee 表示「一杯咖啡」。",
+    "exampleAudio": "assets/audio/sentences/coffee.mp3"
+  },
+  {
+    "id": "water",
+    "en": "water",
+    "zh": "水",
+    "pos": "n.",
+    "posZh": "名詞（不可數）",
+    "ipa": "/ˈwɔtər/",
+    "level": 1,
+    "topic": "breakfast",
+    "image": "assets/img/words/water.svg",
+    "audio": "assets/audio/words/water.mp3",
+    "example": {
+      "en": "Can I have some water?",
+      "zh": "可以給我一些水嗎？"
+    },
+    "note": "water 不可數；一杯水說 a glass of water。",
+    "exampleAudio": "assets/audio/sentences/water.mp3"
+  },
+  {
+    "id": "tea",
+    "en": "tea",
+    "zh": "茶",
+    "pos": "n.",
+    "posZh": "名詞（通常不可數）",
+    "ipa": "/ti/",
+    "level": 1,
+    "topic": "breakfast",
+    "image": "assets/img/words/tea.svg",
+    "audio": "assets/audio/words/tea.mp3",
+    "example": {
+      "en": "My mom likes green tea.",
+      "zh": "我媽媽喜歡綠茶。"
+    },
+    "exampleAudio": "assets/audio/sentences/tea.mp3"
+  }
+]

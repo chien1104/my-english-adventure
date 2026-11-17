@@ -1,0 +1,384 @@
+{
+  "id": "grammar-1",
+  "world": "grammar-castle",
+  "order": 1,
+  "type": "grammar",
+  "title": "be 動詞：am / is / are",
+  "titleEn": "The Verb \"be\"",
+  "summary": "學會用 am、is、are 說「我是…」「她很…」。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "be 動詞有點像中文的「是」，用來介紹「某人是什麼」或「某人怎麼樣」。",
+        "例如「我是學生」、「她很開心」。中文說「她很開心」時沒有「是」，但英文一定要放 be 動詞：She is happy.",
+        "這一課只學一件事：主詞不同，be 動詞就要換成 am、is 或 are。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "看主詞決定用哪一個，記住這三組就夠了："
+      ],
+      "table": {
+        "head": [
+          "主詞",
+          "be 動詞",
+          "例子"
+        ],
+        "rows": [
+          [
+            "I（我）",
+            "am",
+            "I am"
+          ],
+          [
+            "he／she／it，或一個人、一件東西",
+            "is",
+            "She is、Tom is"
+          ],
+          [
+            "you／we／they，或兩個以上",
+            "are",
+            "We are、Tom and Amy are"
+          ]
+        ]
+      },
+      "tip": "you 就算只指一個人，也要用 are：You are kind."
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "I am a student.",
+          "zh": "我是學生。",
+          "highlight": "am",
+          "audio": "assets/audio/lessons/grammar-1/ex1.mp3"
+        },
+        {
+          "en": "She is my sister.",
+          "zh": "她是我的姊姊。",
+          "highlight": "is",
+          "audio": "assets/audio/lessons/grammar-1/ex2.mp3"
+        },
+        {
+          "en": "We are friends.",
+          "zh": "我們是朋友。",
+          "highlight": "are",
+          "audio": "assets/audio/lessons/grammar-1/ex3.mp3"
+        },
+        {
+          "en": "It is hot today.",
+          "zh": "今天很熱。",
+          "highlight": "is",
+          "audio": "assets/audio/lessons/grammar-1/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "She",
+              "label": "主詞（誰）"
+            },
+            {
+              "text": "is",
+              "label": "be 動詞"
+            },
+            {
+              "text": "my sister.",
+              "label": "說明（是什麼）"
+            }
+          ],
+          "zh": "她 ＋ 是 ＋ 我的姊姊"
+        },
+        {
+          "parts": [
+            {
+              "text": "They",
+              "label": "主詞（誰）"
+            },
+            {
+              "text": "are",
+              "label": "be 動詞"
+            },
+            {
+              "text": "happy.",
+              "label": "說明（怎麼樣）"
+            }
+          ],
+          "zh": "他們 ＋ （很）＋ 開心"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "I is a student.",
+          "right": "I am a student.",
+          "why": "主詞是 I，一定要配 am。"
+        },
+        {
+          "wrong": "They is happy.",
+          "right": "They are happy.",
+          "why": "They 是兩個人以上，要用 are。"
+        },
+        {
+          "wrong": "She happy.",
+          "right": "She is happy.",
+          "why": "中文說「她很開心」沒有「是」，但英文不能省略 be 動詞。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出正確的 be 動詞。",
+      "questions": [
+        {
+          "id": "g1-i-a",
+          "group": "g1-i",
+          "type": "choice",
+          "prompt": "選出正確的 be 動詞",
+          "sentence": "I ___ tired.",
+          "zh": "我很累。",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "am",
+          "explanation": "主詞是 I，be 動詞固定用 am。"
+        },
+        {
+          "id": "g1-he-a",
+          "group": "g1-single",
+          "type": "choice",
+          "prompt": "選出正確的 be 動詞",
+          "sentence": "He ___ a teacher.",
+          "zh": "他是老師。",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "is",
+          "explanation": "主詞是 he（他），一個人，用 is。"
+        },
+        {
+          "id": "g1-they-a",
+          "group": "g1-plural",
+          "type": "choice",
+          "prompt": "選出正確的 be 動詞",
+          "sentence": "They ___ my classmates.",
+          "zh": "他們是我的同學。",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "are",
+          "explanation": "主詞是 they（他們），兩個人以上，用 are。"
+        },
+        {
+          "id": "g1-you-a",
+          "group": "g1-you",
+          "type": "choice",
+          "prompt": "選出正確的 be 動詞",
+          "sentence": "You ___ very kind.",
+          "zh": "你人很好。",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "are",
+          "explanation": "主詞是 you。就算 you 只指一個人，也要用 are。"
+        },
+        {
+          "id": "g1-thing-a",
+          "group": "g1-thing",
+          "type": "choice",
+          "prompt": "選出正確的 be 動詞",
+          "sentence": "The coffee ___ hot.",
+          "zh": "這杯咖啡很燙。",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "is",
+          "explanation": "主詞是 the coffee，一樣東西，用 is。"
+        },
+        {
+          "id": "g1-missing-a",
+          "group": "g1-missing",
+          "type": "choice",
+          "prompt": "哪一句是正確的？",
+          "zh": "她很開心。",
+          "options": [
+            "She happy.",
+            "She are happy.",
+            "She is happy."
+          ],
+          "answer": "She is happy.",
+          "explanation": "英文不能省略 be 動詞，主詞 she 要配 is，所以是 She is happy."
+        }
+      ],
+      "similar": [
+        {
+          "id": "g1-i-b",
+          "group": "g1-i",
+          "type": "choice",
+          "prompt": "選出正確的 be 動詞",
+          "sentence": "I ___ from Taiwan.",
+          "zh": "我來自台灣。",
+          "options": [
+            "is",
+            "am",
+            "are"
+          ],
+          "answer": "am",
+          "explanation": "只要主詞是 I，就用 am。"
+        },
+        {
+          "id": "g1-he-b",
+          "group": "g1-single",
+          "type": "choice",
+          "prompt": "選出正確的 be 動詞",
+          "sentence": "My father ___ a cook.",
+          "zh": "我爸爸是廚師。",
+          "options": [
+            "are",
+            "is",
+            "am"
+          ],
+          "answer": "is",
+          "explanation": "my father 是一個人，就像 he，用 is。"
+        },
+        {
+          "id": "g1-they-b",
+          "group": "g1-plural",
+          "type": "choice",
+          "prompt": "選出正確的 be 動詞",
+          "sentence": "Tom and Amy ___ friends.",
+          "zh": "Tom 和 Amy 是朋友。",
+          "options": [
+            "is",
+            "am",
+            "are"
+          ],
+          "answer": "are",
+          "explanation": "Tom and Amy 是兩個人，用 are。"
+        },
+        {
+          "id": "g1-you-b",
+          "group": "g1-you",
+          "type": "choice",
+          "prompt": "選出正確的 be 動詞",
+          "sentence": "You ___ late again.",
+          "zh": "你又遲到了。",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "answer": "are",
+          "explanation": "you 永遠配 are，不管是一個人還是很多人。"
+        },
+        {
+          "id": "g1-thing-b",
+          "group": "g1-thing",
+          "type": "choice",
+          "prompt": "選出正確的 be 動詞",
+          "sentence": "This book ___ new.",
+          "zh": "這本書是新的。",
+          "options": [
+            "are",
+            "am",
+            "is"
+          ],
+          "answer": "is",
+          "explanation": "this book 是一樣東西，用 is。"
+        },
+        {
+          "id": "g1-missing-b",
+          "group": "g1-missing",
+          "type": "choice",
+          "prompt": "哪一句是正確的？",
+          "zh": "我們很餓。",
+          "options": [
+            "We are hungry.",
+            "We is hungry.",
+            "We hungry."
+          ],
+          "answer": "We are hungry.",
+          "explanation": "主詞 we（我們）要配 are，而且 be 動詞不能省略。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：排排看",
+      "intro": "依序點選單字，組成正確的句子。",
+      "questions": [
+        {
+          "id": "g1-order-1",
+          "group": "g1-order-1",
+          "type": "order",
+          "prompt": "把單字排成正確的句子",
+          "zh": "我是學生。",
+          "tokens": [
+            "student",
+            "am",
+            "a",
+            "I"
+          ],
+          "answer": [
+            "I",
+            "am",
+            "a",
+            "student"
+          ],
+          "punct": ".",
+          "explanation": "句子順序：主詞 I ＋ be 動詞 am ＋ 說明 a student。"
+        },
+        {
+          "id": "g1-order-2",
+          "group": "g1-order-2",
+          "type": "order",
+          "prompt": "把單字排成正確的句子",
+          "zh": "今天很冷。",
+          "tokens": [
+            "cold",
+            "today",
+            "It",
+            "is"
+          ],
+          "answer": [
+            "It",
+            "is",
+            "cold",
+            "today"
+          ],
+          "punct": ".",
+          "explanation": "說天氣用 It is，再接 cold（冷）和 today（今天）。"
+        }
+      ]
+    }
+  ]
+}

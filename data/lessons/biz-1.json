@@ -1,0 +1,323 @@
+{
+  "id": "biz-1",
+  "world": "business-city",
+  "order": 1,
+  "type": "vocab",
+  "requires": [
+    "vocab-2",
+    "grammar-2"
+  ],
+  "title": "辦公室常用字",
+  "titleEn": "Office Words",
+  "minutes": 10,
+  "summary": "8 個職場和多益最常出現的單字。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "這一課要學什麼",
+      "body": [
+        "多益的題目大多是職場情境：開會、寄 email、交報告、看行程表。",
+        "這一課的 8 個單字在多益裡出現的頻率非常高，學會了讀題目會輕鬆很多。"
+      ]
+    },
+    {
+      "kind": "words",
+      "title": "認識單字",
+      "wordIds": [
+        "computer",
+        "printer",
+        "desk",
+        "meeting",
+        "email",
+        "manager",
+        "report",
+        "schedule"
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "看圖或看字，選出正確答案。",
+      "questions": [
+        {
+          "id": "b1-computer-a",
+          "group": "computer",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "options": [
+            "printer",
+            "computer",
+            "desk"
+          ],
+          "answer": "computer",
+          "explanation": "computer /kəmˈpjutər/ 是電腦，重音在中間。",
+          "wordId": "computer",
+          "image": "computer"
+        },
+        {
+          "id": "b1-printer-a",
+          "group": "printer",
+          "type": "choice",
+          "prompt": "printer 的中文是？",
+          "options": [
+            "印表機",
+            "電腦",
+            "報告"
+          ],
+          "answer": "印表機",
+          "explanation": "printer 是印表機，print 是列印。",
+          "wordId": "printer",
+          "sentence": "printer"
+        },
+        {
+          "id": "b1-meeting-a",
+          "group": "meeting",
+          "type": "choice",
+          "prompt": "選出適合填入空格的單字",
+          "options": [
+            "report",
+            "meeting",
+            "printer"
+          ],
+          "answer": "meeting",
+          "explanation": "「開會」：have a meeting。",
+          "wordId": "meeting",
+          "sentence": "We have a ___ at ten.",
+          "zh": "我們十點有一場會議。"
+        },
+        {
+          "id": "b1-email-a",
+          "group": "email",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "options": [
+            "email",
+            "schedule",
+            "report"
+          ],
+          "answer": "email",
+          "explanation": "email 是電子郵件。",
+          "wordId": "email",
+          "image": "email"
+        },
+        {
+          "id": "b1-manager-a",
+          "group": "manager",
+          "type": "choice",
+          "prompt": "manager 的中文是？",
+          "options": [
+            "員工",
+            "客戶",
+            "經理"
+          ],
+          "answer": "經理",
+          "explanation": "manager /ˈmænɪdʒər/ 是經理。",
+          "wordId": "manager",
+          "sentence": "manager"
+        },
+        {
+          "id": "b1-report-a",
+          "group": "report",
+          "type": "choice",
+          "prompt": "選出適合填入空格的單字",
+          "options": [
+            "desk",
+            "email",
+            "report"
+          ],
+          "answer": "report",
+          "explanation": "「完成報告」：finish the report。",
+          "wordId": "report",
+          "sentence": "Please finish the ___ by Friday.",
+          "zh": "請在星期五前完成報告。"
+        },
+        {
+          "id": "b1-schedule-a",
+          "group": "schedule",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "options": [
+            "schedule",
+            "computer",
+            "manager"
+          ],
+          "answer": "schedule",
+          "explanation": "schedule 是行程表、時間表。",
+          "wordId": "schedule",
+          "image": "schedule"
+        },
+        {
+          "id": "b1-desk-a",
+          "group": "desk",
+          "type": "choice",
+          "prompt": "desk 的中文是？",
+          "options": [
+            "書桌；辦公桌",
+            "椅子",
+            "會議"
+          ],
+          "answer": "書桌；辦公桌",
+          "explanation": "desk 是書桌、辦公桌。",
+          "wordId": "desk",
+          "sentence": "desk"
+        }
+      ],
+      "similar": [
+        {
+          "id": "b1-computer-b",
+          "group": "computer",
+          "type": "choice",
+          "prompt": "「電腦」的英文是？",
+          "options": [
+            "printer",
+            "manager",
+            "computer"
+          ],
+          "answer": "computer",
+          "explanation": "電腦是 computer。",
+          "wordId": "computer"
+        },
+        {
+          "id": "b1-printer-b",
+          "group": "printer",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "options": [
+            "printer",
+            "desk",
+            "email"
+          ],
+          "answer": "printer",
+          "explanation": "這是 printer（印表機）。",
+          "wordId": "printer",
+          "image": "printer"
+        },
+        {
+          "id": "b1-meeting-b",
+          "group": "meeting",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "options": [
+            "report",
+            "meeting",
+            "schedule"
+          ],
+          "answer": "meeting",
+          "explanation": "一群人圍著桌子討論是 meeting（會議）。",
+          "wordId": "meeting",
+          "image": "meeting"
+        },
+        {
+          "id": "b1-email-b",
+          "group": "email",
+          "type": "choice",
+          "prompt": "選出適合填入空格的單字",
+          "options": [
+            "email",
+            "desk",
+            "printer"
+          ],
+          "answer": "email",
+          "explanation": "「寄電子郵件」：send an email。",
+          "wordId": "email",
+          "sentence": "I will send you an ___.",
+          "zh": "我會寄一封電子郵件給你。"
+        },
+        {
+          "id": "b1-manager-b",
+          "group": "manager",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "options": [
+            "computer",
+            "manager",
+            "meeting"
+          ],
+          "answer": "manager",
+          "explanation": "打領帶的主管：manager（經理）。",
+          "wordId": "manager",
+          "image": "manager"
+        },
+        {
+          "id": "b1-report-b",
+          "group": "report",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "options": [
+            "report",
+            "email",
+            "schedule"
+          ],
+          "answer": "report",
+          "explanation": "有圖表的文件：report（報告）。",
+          "wordId": "report",
+          "image": "report"
+        },
+        {
+          "id": "b1-schedule-b",
+          "group": "schedule",
+          "type": "choice",
+          "prompt": "schedule 的中文是？",
+          "options": [
+            "報告",
+            "行程表；時間表",
+            "電子郵件"
+          ],
+          "answer": "行程表；時間表",
+          "explanation": "schedule 是行程表、時間表。",
+          "wordId": "schedule",
+          "sentence": "schedule"
+        },
+        {
+          "id": "b1-desk-b",
+          "group": "desk",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "options": [
+            "desk",
+            "printer",
+            "computer"
+          ],
+          "answer": "desk",
+          "explanation": "這是 desk（辦公桌）。",
+          "wordId": "desk",
+          "image": "desk"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：拼拼看",
+      "intro": "看中文，輸入英文單字。",
+      "questions": [
+        {
+          "id": "b1-sp-desk",
+          "group": "b1-sp-desk",
+          "wordId": "desk",
+          "type": "type",
+          "prompt": "「辦公桌」的英文怎麼拼？",
+          "hint": "d _ _ _（4 個字母）",
+          "answer": "desk",
+          "explanation": "desk：d-e-s-k。"
+        },
+        {
+          "id": "b1-sp-email",
+          "group": "b1-sp-email",
+          "wordId": "email",
+          "type": "type",
+          "prompt": "「電子郵件」的英文怎麼拼？",
+          "hint": "e _ _ _ _（5 個字母）",
+          "answer": "email",
+          "accept": [
+            "e-mail"
+          ],
+          "explanation": "email：e-m-a-i-l，也可以寫成 e-mail。"
+        }
+      ]
+    }
+  ]
+}

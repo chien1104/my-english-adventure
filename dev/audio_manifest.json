@@ -1,0 +1,2329 @@
+{
+ "assets/audio/words/apple.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "apple"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ˈæpəl/"
+ },
+ "assets/audio/sentences/apple.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I eat an apple every day."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/banana.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "banana"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/bəˈnænə/"
+ },
+ "assets/audio/sentences/banana.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "This banana is yellow."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/bread.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "bread"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/brɛd/"
+ },
+ "assets/audio/sentences/bread.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I have bread for breakfast."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/egg.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "egg"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ɛɡ/"
+ },
+ "assets/audio/sentences/egg.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Can I have an egg, please?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/milk.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "milk"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/mɪlk/"
+ },
+ "assets/audio/sentences/milk.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The milk is cold."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/coffee.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "coffee"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ˈkɔfi/"
+ },
+ "assets/audio/sentences/coffee.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I drink coffee in the morning."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/water.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "water"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ˈwɔtər/"
+ },
+ "assets/audio/sentences/water.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Can I have some water?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/tea.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "tea"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ti/"
+ },
+ "assets/audio/sentences/tea.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "My mom likes green tea."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/bed.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "bed"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/bɛd/"
+ },
+ "assets/audio/sentences/bed.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "My bed is very soft."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/chair.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "chair"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/tʃɛr/"
+ },
+ "assets/audio/sentences/chair.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Please sit on the chair."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/door.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "door"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/dɔr/"
+ },
+ "assets/audio/sentences/door.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Please close the door."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/window.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "window"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ˈwɪndoʊ/"
+ },
+ "assets/audio/sentences/window.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Open the window, please."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/book.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "book"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/bʊk/"
+ },
+ "assets/audio/sentences/book.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "This book is very interesting."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/phone.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "phone"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/foʊn/"
+ },
+ "assets/audio/sentences/phone.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Where is my phone?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/key.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "key"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ki/"
+ },
+ "assets/audio/sentences/key.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I can't find my key."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/clock.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "clock"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/klɑk/"
+ },
+ "assets/audio/sentences/clock.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The clock is on the wall."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/red.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "red"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/rɛd/"
+ },
+ "assets/audio/sentences/red.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "My bag is red."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/blue.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "blue"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/blu/"
+ },
+ "assets/audio/sentences/blue.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The sky is blue."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/yellow.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "yellow"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ˈjɛloʊ/"
+ },
+ "assets/audio/sentences/yellow.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I like yellow flowers."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/green.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "green"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ɡrin/"
+ },
+ "assets/audio/sentences/green.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I drink green tea."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/white.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "white"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/waɪt/"
+ },
+ "assets/audio/sentences/white.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The milk is white."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/black.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "black"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/blæk/"
+ },
+ "assets/audio/sentences/black.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "My phone is black."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/pink.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "pink"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/pɪŋk/"
+ },
+ "assets/audio/sentences/pink.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "She has a pink chair."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/brown.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "brown"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/braʊn/"
+ },
+ "assets/audio/sentences/brown.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The door is brown."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/computer.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "computer"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/kəmˈpjutər/"
+ },
+ "assets/audio/sentences/computer.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "My computer is very slow today."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/printer.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "printer"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ˈprɪntər/"
+ },
+ "assets/audio/sentences/printer.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The printer is out of paper."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/desk.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "desk"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/dɛsk/"
+ },
+ "assets/audio/sentences/desk.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Please put the files on my desk."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/meeting.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "meeting"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ˈmitɪŋ/"
+ },
+ "assets/audio/sentences/meeting.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "We have a meeting at ten."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/email.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "email"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ˈimeɪl/"
+ },
+ "assets/audio/sentences/email.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I will send you an email."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/manager.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "manager"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ˈmænɪdʒər/"
+ },
+ "assets/audio/sentences/manager.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "She is the manager of our team."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/report.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "report"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/rɪˈpɔrt/"
+ },
+ "assets/audio/sentences/report.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Please finish the report by Friday."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/words/schedule.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "schedule"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ˈskɛdʒul/"
+ },
+ "assets/audio/sentences/schedule.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Let me check my schedule."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-1/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I am a student."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-1/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "She is my sister."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-1/ex3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "We are friends."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-1/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "It is hot today."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-2/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I have a book."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-2/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "She eats an apple."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-2/ex3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "He has a key."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-2/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "I want an egg."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-3/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I have two books."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-3/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "She eats three apples."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-3/ex3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "He has two boxes."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-3/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "I see two buses."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-1/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The meeting is at 3 p.m."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-1/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "All employees are welcome."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-1/ex3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Please send me an email."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-1/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Mr. Lee has three meetings today."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/phonics/cat.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "cat"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/kæt/"
+ },
+ "assets/audio/phonics/map.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "map"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/mæp/"
+ },
+ "assets/audio/phonics/pig.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "pig"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/pɪɡ/"
+ },
+ "assets/audio/phonics/big.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "big"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/bɪɡ/"
+ },
+ "assets/audio/phonics/hot.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "hot"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/hɑt/"
+ },
+ "assets/audio/phonics/dog.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "dog"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/dɑɡ/"
+ },
+ "assets/audio/phonics/hat.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "hat"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/hæt/"
+ },
+ "assets/audio/phonics/sit.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "sit"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/sɪt/"
+ },
+ "assets/audio/phonics/bed.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "bed"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/bɛd/"
+ },
+ "assets/audio/phonics/pen.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "pen"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/pɛn/"
+ },
+ "assets/audio/phonics/red.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "red"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/rɛd/"
+ },
+ "assets/audio/phonics/cup.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "cup"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/kʌp/"
+ },
+ "assets/audio/phonics/bus.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "bus"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/bʌs/"
+ },
+ "assets/audio/phonics/sun.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "sun"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/sʌn/"
+ },
+ "assets/audio/phonics/nut.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "nut"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/nʌt/"
+ },
+ "assets/audio/phonics/ten.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "ten"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/tɛn/"
+ },
+ "assets/audio/phonics/run.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "run"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/rʌn/"
+ },
+ "assets/audio/phonics/ship.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "ship"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ʃɪp/"
+ },
+ "assets/audio/phonics/fish.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "fish"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/fɪʃ/"
+ },
+ "assets/audio/phonics/chair.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "chair"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/tʃɛr/"
+ },
+ "assets/audio/phonics/lunch.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "lunch"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/lʌntʃ/"
+ },
+ "assets/audio/phonics/three.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "three"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/θri/"
+ },
+ "assets/audio/phonics/thank.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "thank"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/θæŋk/"
+ },
+ "assets/audio/phonics/shop.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "shop"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/ʃɑp/"
+ },
+ "assets/audio/phonics/chin.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "chin"
+   ]
+  ],
+  "kind": "word",
+  "ipa": "/tʃɪn/"
+ },
+ "assets/audio/lessons/life-1/d1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Hi! Are you ready to order?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/d2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Yes. Can I have a chicken sandwich, please?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/d3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Sure. Anything to drink?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/d4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "An iced tea, please."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/d5.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "For here or to go?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/d6.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "For here, please."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/d7.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Okay. That's eight dollars."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/dialogue.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Hi! Are you ready to order?"
+   ],
+   [
+    "am_michael",
+    "Yes. Can I have a chicken sandwich, please?"
+   ],
+   [
+    "af_heart",
+    "Sure. Anything to drink?"
+   ],
+   [
+    "am_michael",
+    "An iced tea, please."
+   ],
+   [
+    "af_heart",
+    "For here or to go?"
+   ],
+   [
+    "am_michael",
+    "For here, please."
+   ],
+   [
+    "af_heart",
+    "Okay. That's eight dollars."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/p1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Can I have a sandwich, please?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/p2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Anything to drink?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/p3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "For here or to go?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/p4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Can I get the check, please?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/l1-price-a.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "That's eight dollars."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/l1-togo-b.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Are you ready to order?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/l1-drink-b.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "What would you like to drink?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/l1-check-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Can I get the check, please?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-1/l1-price-b.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "That's fifteen dollars."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/d1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Hi, can I help you?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/d2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Yes. How much is this jacket?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/d3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "It's forty dollars."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/d4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Do you have it in a smaller size?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/d5.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Yes, here you are."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/d6.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Can I try it on?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/d7.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Sure. The fitting room is over there."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/d8.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "It fits well. I'll take it."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/dialogue.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Hi, can I help you?"
+   ],
+   [
+    "am_michael",
+    "Yes. How much is this jacket?"
+   ],
+   [
+    "af_heart",
+    "It's forty dollars."
+   ],
+   [
+    "am_michael",
+    "Do you have it in a smaller size?"
+   ],
+   [
+    "af_heart",
+    "Yes, here you are."
+   ],
+   [
+    "am_michael",
+    "Can I try it on?"
+   ],
+   [
+    "af_heart",
+    "Sure. The fitting room is over there."
+   ],
+   [
+    "am_michael",
+    "It fits well. I'll take it."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/p1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "How much is this?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/p2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Do you have it in a smaller size?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/p3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Can I try it on?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/p4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "I'll take it."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/l2-num-a.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "It's forty dollars."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/l2-size-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Do you have it in a smaller size?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/l2-price-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "How much are these shoes?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/l2-try-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Can I try these jeans on?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/l2-buy-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "It fits well. I'll take it."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-2/l2-num-b.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "It's thirteen dollars."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/d1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Excuse me. Where is the train station?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/d2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Go straight and turn left at the second corner."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/d3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Is it far from here?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/d4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "No. It's about five minutes on foot."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/d5.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Is it next to the bank?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/d6.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Yes, it's right next to the bank."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/d7.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Thank you so much!"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/dialogue.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Excuse me. Where is the train station?"
+   ],
+   [
+    "am_michael",
+    "Go straight and turn left at the second corner."
+   ],
+   [
+    "af_heart",
+    "Is it far from here?"
+   ],
+   [
+    "am_michael",
+    "No. It's about five minutes on foot."
+   ],
+   [
+    "af_heart",
+    "Is it next to the bank?"
+   ],
+   [
+    "am_michael",
+    "Yes, it's right next to the bank."
+   ],
+   [
+    "af_heart",
+    "Thank you so much!"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/p1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Excuse me. Where is the station?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/p2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Go straight."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/p3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Turn left at the corner."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/p4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "It's next to the bank."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/l3-left-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Turn left at the corner."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/l3-far-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "It's about five minutes on foot."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/l3-next-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "The bookstore is next to the bank."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/l3-left-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Turn right at the bank."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/l3-straight-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Go straight for two blocks."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/life-3/l3-far-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "It's about ten minutes by bus."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/read-1/passage.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Amy is an office worker in Taipei. She gets up at seven every morning. She drinks a cup of coffee and eats some bread for breakfast. Then she takes the bus to work. Amy works from nine to six. After work, she goes to the gym. She goes to bed at eleven."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/read-1/l1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "She goes to the gym after work."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/read-1/l2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "He gets up at six every day."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/read-2/notice1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Notice. The swimming pool will be closed for cleaning from Monday, June third, to Wednesday, June fifth. It will open again on Thursday at eight a.m. We are sorry for any trouble."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/read-2/notice2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Dear Members, our library is having a book sale this Saturday from ten a.m. to four p.m. All books are only two dollars. Please come and bring your friends! City Library."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/read-2/l1.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "The museum will be closed on Monday."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/read-2/l2.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The meeting will start at two thirty."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/biz-2/email.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Dear Ms. Chen, I am writing to ask about the meeting next week. Could you please send me the schedule? I would also like to know the room number. Thank you for your help. Best regards, Kevin Lin"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "A laptop is on the desk."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A bag is under the chair."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-ex3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "A plant is next to the laptop."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A clock is on the wall."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-desk-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A laptop is on the desk."
+   ],
+   [
+    "am_michael",
+    "B. A man is using a phone."
+   ],
+   [
+    "am_michael",
+    "C. The desk is empty."
+   ],
+   [
+    "am_michael",
+    "D. A cat is sleeping."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-shelf-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The shelf is empty."
+   ],
+   [
+    "am_michael",
+    "B. Some books are on the shelf."
+   ],
+   [
+    "am_michael",
+    "C. A clock is on the floor."
+   ],
+   [
+    "am_michael",
+    "D. A woman is reading."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-room-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The chairs are stacked."
+   ],
+   [
+    "am_michael",
+    "B. A man is drawing on the whiteboard."
+   ],
+   [
+    "am_michael",
+    "C. Some cups are on the table."
+   ],
+   [
+    "am_michael",
+    "D. The room is full of people."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-park-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A car is on the road."
+   ],
+   [
+    "am_michael",
+    "B. People are sitting on the bench."
+   ],
+   [
+    "am_michael",
+    "C. The tree has no leaves."
+   ],
+   [
+    "am_michael",
+    "D. A bicycle is parked next to a tree."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-desk-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The chair is on the desk."
+   ],
+   [
+    "am_michael",
+    "B. A plant is next to the laptop."
+   ],
+   [
+    "am_michael",
+    "C. The laptop is closed."
+   ],
+   [
+    "am_michael",
+    "D. A lamp is on the floor."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-shelf-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A clock is on the wall."
+   ],
+   [
+    "am_michael",
+    "B. The books are on the floor."
+   ],
+   [
+    "am_michael",
+    "C. A man is carrying boxes."
+   ],
+   [
+    "am_michael",
+    "D. The window is open."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-room-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Two people are talking."
+   ],
+   [
+    "am_michael",
+    "B. The cups are broken."
+   ],
+   [
+    "am_michael",
+    "C. The whiteboard is on the floor."
+   ],
+   [
+    "am_michael",
+    "D. Nobody is in the room."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-park-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A man is riding a bicycle."
+   ],
+   [
+    "am_michael",
+    "B. A bench is near the tree."
+   ],
+   [
+    "am_michael",
+    "C. It is raining."
+   ],
+   [
+    "am_michael",
+    "D. The bicycle is on the bench."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-ext1.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A plant is next to the computer."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p1-ext2.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "A bag is under the chair."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-ex1.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Where is the meeting room?"
+   ],
+   [
+    "af_heart",
+    "It's on the second floor."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "When does the store open?"
+   ],
+   [
+    "af_heart",
+    "At nine a.m."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-ex3.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "How do you get to work?"
+   ],
+   [
+    "af_heart",
+    "I usually take the train."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-where-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Where is the meeting room?"
+   ],
+   [
+    "af_heart",
+    "A. It's on the second floor."
+   ],
+   [
+    "af_heart",
+    "B. At two o'clock."
+   ],
+   [
+    "af_heart",
+    "C. Yes, I'll meet him."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-when-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "When does the store open?"
+   ],
+   [
+    "af_heart",
+    "A. It's next to the bank."
+   ],
+   [
+    "af_heart",
+    "B. At nine a.m."
+   ],
+   [
+    "af_heart",
+    "C. A new store."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-who-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Who is going to the conference?"
+   ],
+   [
+    "af_heart",
+    "A. In Tokyo."
+   ],
+   [
+    "af_heart",
+    "B. Next Monday."
+   ],
+   [
+    "af_heart",
+    "C. Ms. Park is."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-how-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "How do you get to work?"
+   ],
+   [
+    "af_heart",
+    "A. I usually take the train."
+   ],
+   [
+    "af_heart",
+    "B. Yes, I work here."
+   ],
+   [
+    "af_heart",
+    "C. At the office."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-yn-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Can you send me the report today?"
+   ],
+   [
+    "af_heart",
+    "A. It's a long report."
+   ],
+   [
+    "af_heart",
+    "B. Sure, I'll do it this afternoon."
+   ],
+   [
+    "af_heart",
+    "C. Yes, he sent it."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-where-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Where can I buy a ticket?"
+   ],
+   [
+    "af_heart",
+    "A. At the counter over there."
+   ],
+   [
+    "af_heart",
+    "B. Ten dollars."
+   ],
+   [
+    "af_heart",
+    "C. Yes, I bought it."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-when-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "When will the meeting start?"
+   ],
+   [
+    "af_heart",
+    "A. In room three."
+   ],
+   [
+    "af_heart",
+    "B. It's a long meeting."
+   ],
+   [
+    "af_heart",
+    "C. At ten thirty."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-who-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Who wrote this email?"
+   ],
+   [
+    "af_heart",
+    "A. Mr. Kim did."
+   ],
+   [
+    "af_heart",
+    "B. Yesterday morning."
+   ],
+   [
+    "af_heart",
+    "C. To the manager."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-how-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "How was your trip to Japan?"
+   ],
+   [
+    "af_heart",
+    "A. By plane."
+   ],
+   [
+    "af_heart",
+    "B. It was great, thanks."
+   ],
+   [
+    "af_heart",
+    "C. Next week."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p2-yn-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Do you have a pen?"
+   ],
+   [
+    "af_heart",
+    "A. Yes, here you are."
+   ],
+   [
+    "af_heart",
+    "B. I have a meeting."
+   ],
+   [
+    "af_heart",
+    "C. It's open."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p3-conv1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Hi, I'd like to return this printer. It doesn't work."
+   ],
+   [
+    "am_michael",
+    "I'm sorry to hear that. Do you have your receipt?"
+   ],
+   [
+    "af_heart",
+    "Yes, here it is. I bought it last Friday."
+   ],
+   [
+    "am_michael",
+    "Okay. Would you like a new one or your money back?"
+   ],
+   [
+    "af_heart",
+    "A new one, please."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p3-conv2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Good morning, Lisa. Are you ready for the meeting with the client?"
+   ],
+   [
+    "bf_emma",
+    "Almost. But the projector in Room A isn't working."
+   ],
+   [
+    "am_michael",
+    "Let's use Room B, then. I'll tell the client."
+   ],
+   [
+    "bf_emma",
+    "Great. I'll move our things there now."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p4-talk1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Attention, passengers. Flight two oh five to Tokyo will leave thirty minutes late because of bad weather. The new departure time is three thirty p.m. Please wait near Gate twelve. Thank you."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p4-talk2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Hi, this is Tom from Green Dental Clinic. I'm calling about your appointment tomorrow at ten a.m. The doctor is not available in the morning. Could you come at two p.m. instead? Please call us back at five five five, zero one two three. Thanks."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/mock-conv.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Hi, I'm calling to book a table for four people this Saturday evening."
+   ],
+   [
+    "af_heart",
+    "Sure. What time would you like to come?"
+   ],
+   [
+    "am_michael",
+    "Around seven, please. And could we sit by the window?"
+   ],
+   [
+    "af_heart",
+    "Let me check. Yes, a window table is available."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/mock-talk.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Good morning, everyone. Welcome to the City Art Museum. Today's tour will take about one hour. We will start on the second floor with paintings from Europe. Please do not take photos inside the museum. Now, please follow me."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m-p1-1.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A plant is on the floor."
+   ],
+   [
+    "am_michael",
+    "B. The laptop is open."
+   ],
+   [
+    "am_michael",
+    "C. A woman is typing."
+   ],
+   [
+    "am_michael",
+    "D. The chair is broken."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m-p1-2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Books are arranged on a shelf."
+   ],
+   [
+    "am_michael",
+    "B. A clock is lying on the shelf."
+   ],
+   [
+    "am_michael",
+    "C. A man is reading a book."
+   ],
+   [
+    "am_michael",
+    "D. The shelf is being painted."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m-p1-3.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Children are playing."
+   ],
+   [
+    "am_michael",
+    "B. A bicycle is next to a tree."
+   ],
+   [
+    "am_michael",
+    "C. A bench is being repaired."
+   ],
+   [
+    "am_michael",
+    "D. A dog is running."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m-p2-1.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Where should I put these boxes?"
+   ],
+   [
+    "af_heart",
+    "A. In the storage room, please."
+   ],
+   [
+    "af_heart",
+    "B. Yes, they are heavy."
+   ],
+   [
+    "af_heart",
+    "C. Twelve boxes."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m-p2-2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "When is the report due?"
+   ],
+   [
+    "af_heart",
+    "A. Mr. Lee wrote it."
+   ],
+   [
+    "af_heart",
+    "B. By Thursday afternoon."
+   ],
+   [
+    "af_heart",
+    "C. In the report."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m-p2-3.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Would you like some coffee?"
+   ],
+   [
+    "af_heart",
+    "A. The coffee shop is closed."
+   ],
+   [
+    "af_heart",
+    "B. No, thanks. I just had some."
+   ],
+   [
+    "af_heart",
+    "C. Yes, I made copies."
+   ]
+  ],
+  "kind": "sentence"
+ }
+}

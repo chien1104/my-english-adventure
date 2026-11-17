@@ -1,0 +1,216 @@
+{
+  "id": "read-1",
+  "world": "listen-academy",
+  "order": 1,
+  "type": "reading",
+  "requires": [
+    "vocab-1",
+    "grammar-1"
+  ],
+  "title": "Amy 的一天",
+  "titleEn": "Amy's Day",
+  "minutes": 12,
+  "summary": "先聽後讀一篇短文，練習抓重點。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "怎麼練習",
+      "body": [
+        "這一課練習「聽」和「讀」同一篇短文。",
+        "建議順序：先按 ▶ 聽一次，不看中文；再讀一次英文；最後才看中文確認。",
+        "短文用的都是現在簡單式，說每天的習慣。主詞是 she 時，動詞要加 s：she gets、she drinks。"
+      ]
+    },
+    {
+      "kind": "passage",
+      "title": "短文：Amy 的一天",
+      "en": "Amy is an office worker in Taipei. She gets up at seven every morning. She drinks a cup of coffee and eats some bread for breakfast. Then she takes the bus to work. Amy works from nine to six. After work, she goes to the gym. She goes to bed at eleven.",
+      "zh": "Amy 是台北的上班族。她每天早上七點起床。她早餐喝一杯咖啡、吃一些麵包。然後她搭公車去上班。Amy 從九點工作到六點。下班後，她去健身房。她十一點睡覺。",
+      "notes": [
+        {
+          "en": "get up",
+          "zh": "起床"
+        },
+        {
+          "en": "take the bus",
+          "zh": "搭公車"
+        },
+        {
+          "en": "after work",
+          "zh": "下班後"
+        },
+        {
+          "en": "gym",
+          "zh": "健身房"
+        },
+        {
+          "en": "go to bed",
+          "zh": "去睡覺"
+        }
+      ],
+      "audio": "assets/audio/lessons/read-1/passage.mp3"
+    },
+    {
+      "kind": "practice",
+      "title": "閱讀理解",
+      "intro": "可以回上一步重看短文。",
+      "questions": [
+        {
+          "id": "r1-up-a",
+          "group": "r1-time",
+          "type": "choice",
+          "prompt": "Amy 每天幾點起床？",
+          "options": [
+            "7 點",
+            "9 點",
+            "11 點"
+          ],
+          "answer": "7 點",
+          "explanation": "She gets up at seven every morning. 她每天七點起床。",
+          "sentence": "What time does Amy get up?"
+        },
+        {
+          "id": "r1-bus-a",
+          "group": "r1-how",
+          "type": "choice",
+          "prompt": "Amy 怎麼去上班？",
+          "options": [
+            "By train.",
+            "By bus.",
+            "On foot."
+          ],
+          "answer": "By bus.",
+          "explanation": "Then she takes the bus to work. 她搭公車上班。",
+          "sentence": "How does Amy go to work?"
+        },
+        {
+          "id": "r1-gym-a",
+          "group": "r1-after",
+          "type": "choice",
+          "prompt": "Amy 下班後做什麼？",
+          "options": [
+            "She goes to bed.",
+            "She drinks coffee.",
+            "She goes to the gym."
+          ],
+          "answer": "She goes to the gym.",
+          "explanation": "After work, she goes to the gym. 下班後去健身房。",
+          "sentence": "What does Amy do after work?"
+        },
+        {
+          "id": "r1-gram-a",
+          "group": "r1-gram",
+          "type": "choice",
+          "prompt": "選出正確的動詞",
+          "options": [
+            "drink",
+            "drinks",
+            "drinking"
+          ],
+          "answer": "drinks",
+          "explanation": "主詞 she，現在簡單式動詞要加 s：drinks。",
+          "sentence": "She ___ a cup of coffee every morning.",
+          "zh": "她每天早上喝一杯咖啡。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "r1-up-b",
+          "group": "r1-time",
+          "type": "choice",
+          "prompt": "Amy 幾點睡覺？",
+          "options": [
+            "6 點",
+            "11 點",
+            "7 點"
+          ],
+          "answer": "11 點",
+          "explanation": "She goes to bed at eleven. 她十一點睡覺。",
+          "sentence": "What time does Amy go to bed?"
+        },
+        {
+          "id": "r1-bus-b",
+          "group": "r1-how",
+          "type": "choice",
+          "prompt": "Amy 早餐吃什麼？",
+          "options": [
+            "An egg.",
+            "A banana.",
+            "Bread."
+          ],
+          "answer": "Bread.",
+          "explanation": "She eats some bread for breakfast. 早餐吃麵包。",
+          "sentence": "What does Amy eat for breakfast?"
+        },
+        {
+          "id": "r1-gym-b",
+          "group": "r1-after",
+          "type": "choice",
+          "prompt": "Amy 工作到幾點？",
+          "options": [
+            "6 點",
+            "9 點",
+            "7 點"
+          ],
+          "answer": "6 點",
+          "explanation": "Amy works from nine to six. 從九點工作到六點。",
+          "sentence": "When does Amy finish work?"
+        },
+        {
+          "id": "r1-gram-b",
+          "group": "r1-gram",
+          "type": "choice",
+          "prompt": "選出正確的動詞",
+          "options": [
+            "take",
+            "taking",
+            "takes"
+          ],
+          "answer": "takes",
+          "explanation": "主詞 she，動詞加 s：takes。",
+          "sentence": "She ___ the bus to work.",
+          "zh": "她搭公車去上班。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：聽力",
+      "intro": "聽音檔，選出正確的中文。",
+      "questions": [
+        {
+          "id": "r1-l1",
+          "group": "r1-l1",
+          "type": "choice",
+          "prompt": "聽音檔，選出正確的中文",
+          "options": [
+            "她下班後去睡覺。",
+            "她下班後去健身房。",
+            "她上班前去健身房。"
+          ],
+          "answer": "她下班後去健身房。",
+          "explanation": "She goes to the gym after work. after work 是下班後。",
+          "audio": "assets/audio/lessons/read-1/l1.mp3"
+        },
+        {
+          "id": "r1-l2",
+          "group": "r1-l2",
+          "type": "choice",
+          "prompt": "聽音檔，選出正確的中文",
+          "options": [
+            "他每天六點起床。",
+            "他每天七點起床。",
+            "他每天六點睡覺。"
+          ],
+          "answer": "他每天六點起床。",
+          "explanation": "He gets up at six every day. get up 是起床。",
+          "audio": "assets/audio/lessons/read-1/l2.mp3"
+        }
+      ]
+    }
+  ]
+}

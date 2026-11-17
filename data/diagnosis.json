@@ -1,0 +1,36 @@
+{
+  "id": "diagnosis-v1",
+  "title": "英文程度診斷",
+  "minutes": 5,
+  "sections": [
+    { "id": "vocab", "title": "單字", "threshold": 4 },
+    { "id": "grammar", "title": "文法", "threshold": 4 },
+    { "id": "reading", "title": "閱讀", "threshold": 2 }
+  ],
+  "passages": {
+    "library": { "en": "Notice: The City Library is closed on Sundays. It opens at 9:00 a.m. and closes at 6:00 p.m. from Monday to Saturday.", "label": "公告" },
+    "email": { "en": "Hi Ken,\nPlease send me the sales report by Friday.\nThanks,\nAmy", "label": "Email" }
+  },
+  "questions": [
+    { "id": "d-v1", "section": "vocab", "type": "choice", "prompt": "這個單字的中文是？", "sentence": "apple", "options": ["香蕉", "蘋果", "麵包", "雞蛋"], "answer": "蘋果", "explanation": "apple 是蘋果。" },
+    { "id": "d-v2", "section": "vocab", "type": "choice", "prompt": "這個單字的中文是？", "sentence": "Monday", "options": ["星期日", "星期三", "星期一", "星期五"], "answer": "星期一", "explanation": "Monday 是星期一。" },
+    { "id": "d-v3", "section": "vocab", "type": "choice", "prompt": "這個單字的中文是？", "sentence": "teacher", "options": ["學生", "醫生", "廚師", "老師"], "answer": "老師", "explanation": "teacher 是老師。" },
+    { "id": "d-v4", "section": "vocab", "type": "choice", "prompt": "這個單字的中文是？", "sentence": "expensive", "options": ["昂貴的", "便宜的", "漂亮的", "困難的"], "answer": "昂貴的", "explanation": "expensive 是昂貴的；便宜的是 cheap。" },
+    { "id": "d-v5", "section": "vocab", "type": "choice", "prompt": "這個單字的中文是？", "sentence": "borrow", "options": ["歸還", "購買", "（向別人）借", "販賣"], "answer": "（向別人）借", "explanation": "borrow 是向別人借；借給別人是 lend。" },
+
+    { "id": "d-g1", "section": "grammar", "type": "choice", "prompt": "選出正確答案填入空格", "sentence": "I ___ a student.", "options": ["is", "am", "are", "be"], "answer": "am", "explanation": "主詞 I 配 am。" },
+    { "id": "d-g2", "section": "grammar", "type": "choice", "prompt": "選出正確答案填入空格", "sentence": "She ___ coffee every morning.", "options": ["drink", "drinking", "drinks", "is drink"], "answer": "drinks", "explanation": "every morning 表示習慣，用現在簡單式；主詞 she 動詞要加 s。" },
+    { "id": "d-g3", "section": "grammar", "type": "choice", "prompt": "選出正確答案填入空格", "sentence": "There ___ two books on the desk.", "options": ["is", "am", "be", "are"], "answer": "are", "explanation": "two books 是複數，用 There are。" },
+    { "id": "d-g4", "section": "grammar", "type": "choice", "prompt": "選出正確答案填入空格", "sentence": "He didn't ___ to work yesterday.", "options": ["go", "went", "goes", "going"], "answer": "go", "explanation": "didn't 後面接原形動詞 go。" },
+    { "id": "d-g5", "section": "grammar", "type": "choice", "prompt": "選出正確答案填入空格", "sentence": "Look! The children ___ in the park now.", "options": ["play", "plays", "played", "are playing"], "answer": "are playing", "explanation": "Look! 和 now 表示正在發生，用現在進行式 are playing。" },
+
+    { "id": "d-r1", "section": "reading", "type": "choice", "passage": "library", "prompt": "圖書館哪一天休館？", "sentence": "When is the library closed?", "options": ["On Mondays", "On Saturdays", "On Sundays", "Every day"], "answer": "On Sundays", "explanation": "公告寫 closed on Sundays（星期日休館）。" },
+    { "id": "d-r2", "section": "reading", "type": "choice", "passage": "library", "prompt": "星期一圖書館幾點關門？", "sentence": "What time does the library close on Monday?", "options": ["9:00 a.m.", "12:00 p.m.", "6:00 p.m.", "It doesn't open."], "answer": "6:00 p.m.", "explanation": "星期一到星期六 closes at 6:00 p.m.（晚上 6 點關門）。" },
+    { "id": "d-r3", "section": "reading", "type": "choice", "passage": "email", "prompt": "Amy 希望 Ken 做什麼？", "options": ["星期五去開會", "打電話給客戶", "在星期五前寄銷售報告給她", "買星期五的車票"], "answer": "在星期五前寄銷售報告給她", "explanation": "send me the sales report by Friday ＝ 在星期五前把銷售報告寄給我。" }
+  ],
+  "levels": [
+    { "min": 0, "max": 4, "id": "restart", "label": "從頭重建", "message": "沒關係，很多人都是從這裡重新開始。我們會從最基本的生活單字和 be 動詞慢慢來，每次只學一點點。" },
+    { "min": 5, "max": 9, "id": "basic", "label": "基礎恢復中", "message": "你還記得一些基礎！先用單字村莊和文法城堡把基本功補穩，再往下一個世界前進。" },
+    { "min": 10, "max": 13, "id": "solid", "label": "基礎穩固", "message": "基礎不錯！達標的世界會直接開放全部課程，你可以挑想加強的部分學。" }
+  ]
+}

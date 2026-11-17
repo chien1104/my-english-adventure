@@ -1,0 +1,325 @@
+{
+  "id": "vocab-1",
+  "world": "word-village",
+  "order": 1,
+  "type": "vocab",
+  "title": "早餐桌上",
+  "titleEn": "At Breakfast",
+  "summary": "認識 8 個早餐常見的食物與飲料。",
+  "minutes": 10,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "這一課要學什麼",
+      "body": [
+        "早餐是每天都會遇到的場景，先從這裡開始最容易記住。",
+        "這一課有 8 個單字：4 種食物、4 種飲料。每個單字都有圖片、音標和例句。",
+        "看完單字卡後會有小練習。答錯沒關係，系統會再出一題類似的讓你練習。"
+      ]
+    },
+    {
+      "kind": "words",
+      "title": "認識單字",
+      "wordIds": [
+        "apple",
+        "banana",
+        "bread",
+        "egg",
+        "milk",
+        "coffee",
+        "water",
+        "tea"
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "看圖或看字，選出正確答案。",
+      "questions": [
+        {
+          "id": "v1-apple-a",
+          "group": "apple",
+          "wordId": "apple",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "apple",
+          "options": [
+            "banana",
+            "apple",
+            "egg"
+          ],
+          "answer": "apple",
+          "explanation": "apple /ˈæpəl/ 是「蘋果」。banana 是香蕉，egg 是雞蛋。"
+        },
+        {
+          "id": "v1-banana-a",
+          "group": "banana",
+          "wordId": "banana",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "banana",
+          "options": [
+            "banana",
+            "bread",
+            "tea"
+          ],
+          "answer": "banana",
+          "explanation": "banana /bəˈnænə/ 是「香蕉」，重音在中間的 na。"
+        },
+        {
+          "id": "v1-bread-a",
+          "group": "bread",
+          "wordId": "bread",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "bread",
+          "options": [
+            "milk",
+            "tea",
+            "bread"
+          ],
+          "answer": "bread",
+          "explanation": "bread /brɛd/ 是「麵包」。ea 在這裡唸短音 /ɛ/，和 bed 的母音一樣。"
+        },
+        {
+          "id": "v1-egg-a",
+          "group": "egg",
+          "wordId": "egg",
+          "type": "choice",
+          "prompt": "egg 的中文是？",
+          "sentence": "egg",
+          "options": [
+            "蘋果",
+            "雞蛋；蛋",
+            "麵包"
+          ],
+          "answer": "雞蛋；蛋",
+          "explanation": "egg 是「雞蛋」。因為是母音開頭，一顆蛋要說 an egg。"
+        },
+        {
+          "id": "v1-milk-a",
+          "group": "milk",
+          "wordId": "milk",
+          "type": "choice",
+          "prompt": "milk 的中文是？",
+          "sentence": "milk",
+          "options": [
+            "咖啡",
+            "水",
+            "牛奶"
+          ],
+          "answer": "牛奶",
+          "explanation": "milk /mɪlk/ 是「牛奶」。coffee 是咖啡，water 是水。"
+        },
+        {
+          "id": "v1-coffee-a",
+          "group": "coffee",
+          "wordId": "coffee",
+          "type": "choice",
+          "prompt": "選出適合填入空格的單字",
+          "sentence": "I drink ___ in the morning.",
+          "zh": "我早上喝咖啡。",
+          "options": [
+            "coffee",
+            "bread",
+            "egg"
+          ],
+          "answer": "coffee",
+          "explanation": "中文是「喝咖啡」，所以填 coffee。bread 和 egg 是吃的，不能用 drink（喝）。"
+        },
+        {
+          "id": "v1-water-a",
+          "group": "water",
+          "wordId": "water",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "water",
+          "options": [
+            "milk",
+            "water",
+            "coffee"
+          ],
+          "answer": "water",
+          "explanation": "water /ˈwɔtər/ 是「水」。透明的是水，白色的是牛奶。"
+        },
+        {
+          "id": "v1-tea-a",
+          "group": "tea",
+          "wordId": "tea",
+          "type": "choice",
+          "prompt": "tea 的中文是？",
+          "sentence": "tea",
+          "options": [
+            "茶",
+            "咖啡",
+            "牛奶"
+          ],
+          "answer": "茶",
+          "explanation": "tea /ti/ 是「茶」，green tea 是綠茶。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "v1-apple-b",
+          "group": "apple",
+          "wordId": "apple",
+          "type": "choice",
+          "prompt": "apple 的中文是？",
+          "sentence": "apple",
+          "options": [
+            "香蕉",
+            "雞蛋；蛋",
+            "蘋果"
+          ],
+          "answer": "蘋果",
+          "explanation": "apple 是「蘋果」。可以想成 an apple a day（一天一蘋果）。"
+        },
+        {
+          "id": "v1-banana-b",
+          "group": "banana",
+          "wordId": "banana",
+          "type": "choice",
+          "prompt": "「香蕉」的英文是？",
+          "options": [
+            "apple",
+            "banana",
+            "bread"
+          ],
+          "answer": "banana",
+          "explanation": "香蕉是 banana：b-a-n-a-n-a，三個 a。"
+        },
+        {
+          "id": "v1-bread-b",
+          "group": "bread",
+          "wordId": "bread",
+          "type": "choice",
+          "prompt": "「麵包」的英文是？",
+          "options": [
+            "bread",
+            "egg",
+            "water"
+          ],
+          "answer": "bread",
+          "explanation": "麵包是 bread。注意拼字是 b-r-e-a-d。"
+        },
+        {
+          "id": "v1-egg-b",
+          "group": "egg",
+          "wordId": "egg",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "egg",
+          "options": [
+            "apple",
+            "bread",
+            "egg"
+          ],
+          "answer": "egg",
+          "explanation": "這是 egg（雞蛋）。"
+        },
+        {
+          "id": "v1-milk-b",
+          "group": "milk",
+          "wordId": "milk",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "milk",
+          "options": [
+            "water",
+            "milk",
+            "tea"
+          ],
+          "answer": "milk",
+          "explanation": "這是一盒 milk（牛奶）。"
+        },
+        {
+          "id": "v1-coffee-b",
+          "group": "coffee",
+          "wordId": "coffee",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "coffee",
+          "options": [
+            "tea",
+            "water",
+            "coffee"
+          ],
+          "answer": "coffee",
+          "explanation": "深咖啡色、冒著熱氣的是 coffee（咖啡）。"
+        },
+        {
+          "id": "v1-water-b",
+          "group": "water",
+          "wordId": "water",
+          "type": "choice",
+          "prompt": "選出適合填入空格的單字",
+          "sentence": "Can I have some ___?",
+          "zh": "可以給我一些水嗎？",
+          "options": [
+            "water",
+            "apple",
+            "banana"
+          ],
+          "answer": "water",
+          "explanation": "中文是「一些水」，所以填 water。water 不可數，所以可以用 some water。"
+        },
+        {
+          "id": "v1-tea-b",
+          "group": "tea",
+          "wordId": "tea",
+          "type": "choice",
+          "prompt": "這是什麼？",
+          "image": "tea",
+          "options": [
+            "coffee",
+            "tea",
+            "milk"
+          ],
+          "answer": "tea",
+          "explanation": "杯子旁邊掛著茶包標籤，這是 tea（茶）。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：拼拼看",
+      "intro": "看中文，輸入英文單字。不用管大小寫。",
+      "questions": [
+        {
+          "id": "v1-spell-apple",
+          "group": "spell-apple",
+          "wordId": "apple",
+          "type": "type",
+          "prompt": "「蘋果」的英文怎麼拼？",
+          "hint": "a _ _ _ _（5 個字母）",
+          "answer": "apple",
+          "explanation": "apple：a-p-p-l-e，中間有兩個 p。"
+        },
+        {
+          "id": "v1-spell-milk",
+          "group": "spell-milk",
+          "wordId": "milk",
+          "type": "type",
+          "prompt": "「牛奶」的英文怎麼拼？",
+          "hint": "m _ _ _（4 個字母）",
+          "answer": "milk",
+          "explanation": "milk：m-i-l-k。"
+        },
+        {
+          "id": "v1-spell-egg",
+          "group": "spell-egg",
+          "wordId": "egg",
+          "type": "type",
+          "prompt": "「雞蛋」的英文怎麼拼？",
+          "hint": "e _ _（3 個字母）",
+          "answer": "egg",
+          "explanation": "egg：e-g-g，後面有兩個 g。"
+        }
+      ]
+    }
+  ]
+}

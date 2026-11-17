@@ -1,0 +1,356 @@
+{
+  "id": "phonics-3",
+  "world": "alphabet-forest",
+  "order": 3,
+  "type": "phonics",
+  "title": "子音組合 sh、ch、th",
+  "titleEn": "sh, ch, th",
+  "minutes": 10,
+  "summary": "兩個字母合在一起，變成一個新的聲音。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "這一課學什麼",
+      "body": [
+        "有些子音兩個字母一起出現時，會變成一個新的聲音。",
+        "最常見的三組是 sh、ch、th。學會它們，ship、chair、three 這些常用字就能唸對。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "三個子音組合",
+      "body": [
+        "先聽例字，注意開頭或結尾的聲音："
+      ],
+      "table": {
+        "head": [
+          "組合",
+          "聲音",
+          "例字"
+        ],
+        "rows": [
+          [
+            "sh",
+            "/ʃ/ 嘴唇往前噘，送出長長的氣，像叫人「噓」安靜",
+            "ship、fish、shop"
+          ],
+          [
+            "ch",
+            "/tʃ/ 舌頭先頂住再放開，比 sh 短促",
+            "chair、chip、lunch"
+          ],
+          [
+            "th",
+            "/θ/ 舌尖輕放在上下牙齒之間吹氣",
+            "three、thank、bath"
+          ]
+        ]
+      },
+      "tip": "th 不要唸成 s 或 f：three 不是 sree，也不是 free。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "ship",
+          "zh": "船　/ʃɪp/",
+          "audio": "assets/audio/phonics/ship.mp3"
+        },
+        {
+          "en": "fish",
+          "zh": "魚　/fɪʃ/",
+          "audio": "assets/audio/phonics/fish.mp3"
+        },
+        {
+          "en": "chair",
+          "zh": "椅子　/tʃɛr/",
+          "audio": "assets/audio/phonics/chair.mp3"
+        },
+        {
+          "en": "lunch",
+          "zh": "午餐　/lʌntʃ/",
+          "audio": "assets/audio/phonics/lunch.mp3"
+        },
+        {
+          "en": "three",
+          "zh": "三　/θri/",
+          "audio": "assets/audio/phonics/three.mp3"
+        },
+        {
+          "en": "thank",
+          "zh": "感謝　/θæŋk/",
+          "audio": "assets/audio/phonics/thank.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "把聲音拼起來",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "sh",
+              "label": "/ʃ/"
+            },
+            {
+              "text": "i",
+              "label": "/ɪ/"
+            },
+            {
+              "text": "p",
+              "label": "/p/"
+            }
+          ],
+          "zh": "sh-i-p → ship（船）"
+        },
+        {
+          "parts": [
+            {
+              "text": "ch",
+              "label": "/tʃ/"
+            },
+            {
+              "text": "i",
+              "label": "/ɪ/"
+            },
+            {
+              "text": "p",
+              "label": "/p/"
+            }
+          ],
+          "zh": "ch-i-p → chip（洋芋片）"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "先聽，再選。可以重複播放。",
+      "questions": [
+        {
+          "id": "ph3-ship",
+          "group": "ph3-sh",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "ship",
+            "chip",
+            "sip"
+          ],
+          "answer": "ship",
+          "explanation": "ship /ʃɪp/（船）開頭是 sh /ʃ/。chip 開頭是 ch /tʃ/。",
+          "audio": "assets/audio/phonics/ship.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph3-chair",
+          "group": "ph3-ch",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "share",
+            "chair",
+            "hair"
+          ],
+          "answer": "chair",
+          "explanation": "chair /tʃɛr/（椅子）開頭是 ch /tʃ/；share 開頭是 sh /ʃ/。",
+          "audio": "assets/audio/phonics/chair.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph3-three",
+          "group": "ph3-th",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "tree",
+            "free",
+            "three"
+          ],
+          "answer": "three",
+          "explanation": "three /θri/（三）開頭是 th /θ/；tree 是樹，free 是免費。",
+          "audio": "assets/audio/phonics/three.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph3-fish",
+          "group": "ph3-sh2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "answer": "sh",
+          "explanation": "fish（魚）：f-i-sh，結尾是 sh /ʃ/。",
+          "sentence": "fi _ _",
+          "zh": "魚"
+        },
+        {
+          "id": "ph3-lunch",
+          "group": "ph3-ch2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "answer": "ch",
+          "explanation": "lunch（午餐）：l-u-n-ch，結尾是 ch /tʃ/。",
+          "sentence": "lun _ _",
+          "zh": "午餐"
+        },
+        {
+          "id": "ph3-thank",
+          "group": "ph3-th2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "answer": "th",
+          "explanation": "thank（感謝）：th-a-n-k，開頭是 th /θ/。",
+          "sentence": "_ _ ank",
+          "zh": "感謝"
+        }
+      ],
+      "similar": [
+        {
+          "id": "ph3-shop",
+          "group": "ph3-sh",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "chop",
+            "shop",
+            "top"
+          ],
+          "answer": "shop",
+          "explanation": "shop /ʃɑp/（商店）開頭是 sh /ʃ/；chop 是切。",
+          "audio": "assets/audio/phonics/shop.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph3-chin",
+          "group": "ph3-ch",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "chin",
+            "shin",
+            "thin"
+          ],
+          "answer": "chin",
+          "explanation": "chin /tʃɪn/（下巴）開頭是 ch /tʃ/；thin 是瘦的。",
+          "audio": "assets/audio/phonics/chin.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph3-thank2",
+          "group": "ph3-th",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "tank",
+            "thank",
+            "sank"
+          ],
+          "answer": "thank",
+          "explanation": "thank /θæŋk/（感謝）開頭是 th /θ/；tank 是坦克、水槽。",
+          "audio": "assets/audio/phonics/thank.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph3-dish",
+          "group": "ph3-sh2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "answer": "sh",
+          "explanation": "dish（盤子）：d-i-sh。",
+          "sentence": "di _ _",
+          "zh": "盤子"
+        },
+        {
+          "id": "ph3-each",
+          "group": "ph3-ch2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "answer": "ch",
+          "explanation": "each（每一個）：ea-ch。",
+          "sentence": "ea _ _",
+          "zh": "每一個"
+        },
+        {
+          "id": "ph3-bath",
+          "group": "ph3-th2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "answer": "th",
+          "explanation": "bath（洗澡）：b-a-th。",
+          "sentence": "ba _ _",
+          "zh": "洗澡"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：聽寫",
+      "intro": "聽音檔，把單字拼出來。",
+      "questions": [
+        {
+          "id": "ph3-sp-fish",
+          "group": "ph3-sp-fish",
+          "type": "type",
+          "prompt": "聽音檔，拼出你聽到的單字",
+          "audio": "assets/audio/phonics/fish.mp3",
+          "audioLabel": "▶ 播放單字",
+          "hint": "4 個字母，f 開頭",
+          "answer": "fish",
+          "explanation": "fish：f-i-sh。"
+        },
+        {
+          "id": "ph3-sp-ship",
+          "group": "ph3-sp-ship",
+          "type": "type",
+          "prompt": "聽音檔，拼出你聽到的單字",
+          "audio": "assets/audio/phonics/ship.mp3",
+          "audioLabel": "▶ 播放單字",
+          "hint": "4 個字母，s 開頭",
+          "answer": "ship",
+          "explanation": "ship：sh-i-p。"
+        }
+      ]
+    }
+  ]
+}

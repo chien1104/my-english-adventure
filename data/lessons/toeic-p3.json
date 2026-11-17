@@ -1,0 +1,199 @@
+{
+  "id": "toeic-p3",
+  "world": "toeic-camp",
+  "order": 3,
+  "type": "toeic-listen",
+  "title": "Part 3 簡短對話",
+  "titleEn": "Conversations",
+  "minutes": 15,
+  "summary": "聽兩人對話，回答地點、問題和下一步。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Part 3 是什麼",
+      "body": [
+        "Part 3 會聽一段兩到三人的對話，每段對話有 3 題。考試時題目和選項會印在題本上。",
+        "秘訣：聽之前先看題目，知道要聽「在哪裡、什麼問題、接下來做什麼」。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "常見問法",
+      "body": [
+        "這三種問法幾乎每段對話都會出現："
+      ],
+      "table": {
+        "head": [
+          "題目",
+          "中文",
+          "要聽什麼"
+        ],
+        "rows": [
+          [
+            "Where most likely are the speakers?",
+            "說話者最可能在哪裡？",
+            "關鍵字：receipt → 商店"
+          ],
+          [
+            "What is the problem?",
+            "發生了什麼問題？",
+            "doesn't work、late、broken"
+          ],
+          [
+            "What will the woman do next?",
+            "女子接下來會做什麼？",
+            "最後一兩句的 I'll…"
+          ]
+        ]
+      },
+      "tip": "答案常常是對話內容「換句話說」，例如 doesn't work 換成 is broken。"
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再按 ▶ 聽對話。每段對話有 3 題。",
+      "questions": [
+        {
+          "id": "p3-c1-q1",
+          "group": "p3-c1-q1",
+          "type": "choice",
+          "prompt": "說話者最可能在哪裡？",
+          "options": [
+            "In a store",
+            "In a restaurant",
+            "At a train station"
+          ],
+          "answer": "In a store",
+          "explanation": "退貨（return）、收據（receipt）都表示在商店。\n逐字稿：W: Hi, I'd like to return this printer. It doesn't work.　M: I'm sorry to hear that. Do you have your receipt?　W: Yes, here it is. I bought it last Friday.　M: Okay. Would you like a new one or your money back?　W: A new one, please.",
+          "sentence": "Where most likely are the speakers?",
+          "audio": "assets/audio/toeic/p3-conv1.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "p3-c1-q2",
+          "group": "p3-c1-q2",
+          "type": "choice",
+          "prompt": "發生了什麼問題？",
+          "options": [
+            "The receipt is lost.",
+            "The printer does not work.",
+            "The store is closed."
+          ],
+          "answer": "The printer does not work.",
+          "explanation": "It doesn't work. 印表機壞了。\n逐字稿：W: Hi, I'd like to return this printer. It doesn't work.　M: I'm sorry to hear that. Do you have your receipt?　W: Yes, here it is. I bought it last Friday.　M: Okay. Would you like a new one or your money back?　W: A new one, please.",
+          "sentence": "What is the problem?",
+          "audio": "assets/audio/toeic/p3-conv1.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "p3-c1-q3",
+          "group": "p3-c1-q3",
+          "type": "choice",
+          "prompt": "女子想要什麼？",
+          "options": [
+            "Her money back",
+            "A different color",
+            "A new printer"
+          ],
+          "answer": "A new printer",
+          "explanation": "A new one, please. 她要換一台新的。\n逐字稿：W: Hi, I'd like to return this printer. It doesn't work.　M: I'm sorry to hear that. Do you have your receipt?　W: Yes, here it is. I bought it last Friday.　M: Okay. Would you like a new one or your money back?　W: A new one, please.",
+          "sentence": "What does the woman want?",
+          "audio": "assets/audio/toeic/p3-conv1.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "p3-c2-q1",
+          "group": "p3-c2-q1",
+          "type": "choice",
+          "prompt": "說話者最可能在哪裡工作？",
+          "options": [
+            "In an office",
+            "In a hospital",
+            "At a restaurant"
+          ],
+          "answer": "In an office",
+          "explanation": "和客戶（client）開會、會議室，表示在辦公室。\n逐字稿：M: Good morning, Lisa. Are you ready for the meeting with the client?　W: Almost. But the projector in Room A isn't working.　M: Let's use Room B, then. I'll tell the client.　W: Great. I'll move our things there now.",
+          "sentence": "Where most likely do the speakers work?",
+          "audio": "assets/audio/toeic/p3-conv2.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "p3-c2-q2",
+          "group": "p3-c2-q2",
+          "type": "choice",
+          "prompt": "發生了什麼問題？",
+          "options": [
+            "The client is late.",
+            "Room B is too small.",
+            "A projector is not working."
+          ],
+          "answer": "A projector is not working.",
+          "explanation": "The projector in Room A isn't working. 投影機壞了。\n逐字稿：M: Good morning, Lisa. Are you ready for the meeting with the client?　W: Almost. But the projector in Room A isn't working.　M: Let's use Room B, then. I'll tell the client.　W: Great. I'll move our things there now.",
+          "sentence": "What is the problem?",
+          "audio": "assets/audio/toeic/p3-conv2.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "p3-c2-q3",
+          "group": "p3-c2-q3",
+          "type": "choice",
+          "prompt": "女子接下來會做什麼？",
+          "options": [
+            "Move things to Room B",
+            "Call the client",
+            "Fix the projector"
+          ],
+          "answer": "Move things to Room B",
+          "explanation": "I'll move our things there now. there 指 Room B。打給客戶的是男子。\n逐字稿：M: Good morning, Lisa. Are you ready for the meeting with the client?　W: Almost. But the projector in Room A isn't working.　M: Let's use Room B, then. I'll tell the client.　W: Great. I'll move our things there now.",
+          "sentence": "What will the woman do next?",
+          "audio": "assets/audio/toeic/p3-conv2.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：換句話說",
+      "intro": "多益很愛換句話說，練習看看。",
+      "questions": [
+        {
+          "id": "p3-ext-1",
+          "group": "p3-ext-1",
+          "type": "choice",
+          "prompt": "It doesn't work. 換句話說是哪一句？",
+          "options": [
+            "It is broken.",
+            "It is new.",
+            "It is cheap."
+          ],
+          "answer": "It is broken.",
+          "explanation": "doesn't work（不能用）＝ is broken（壞了）。"
+        },
+        {
+          "id": "p3-ext-2",
+          "group": "p3-ext-2",
+          "type": "choice",
+          "prompt": "money back 是什麼意思？",
+          "options": [
+            "退款",
+            "找零",
+            "借錢"
+          ],
+          "answer": "退款",
+          "explanation": "get your money back：拿回你的錢，也就是退款。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="apple">
+<title>apple</title>
+<circle cx="60" cy="60" r="56" fill="#F4ECDF"/>
+<ellipse cx="60" cy="98" rx="30" ry="4" fill="#E6D8C6"/>
+<path d="M60 44c-9-7-29-6-33 11-4 18 8 38 21 40 6 1 9-2 12-2s6 3 12 2c13-2 25-22 21-40-4-17-24-18-33-11z" fill="#D9644A" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 44c0-8 2-13 6-17" fill="none" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M66 32c5-6 13-7 17-4-3 6-11 8-17 4z" fill="#8DAA6B" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M40 58c1-5 4-8 8-9" fill="none" stroke="#F7C9B8" stroke-width="3" stroke-linecap="round"/>
+</svg>

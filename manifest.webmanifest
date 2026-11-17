@@ -1,0 +1,17 @@
+{
+  "name": "My English Adventure",
+  "short_name": "英文冒險",
+  "description": "從基礎重新建立英文能力，挑戰 TOEIC 550。",
+  "lang": "zh-Hant",
+  "start_url": "./index.html#/home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF7F0",
+  "theme_color": "#F7F1E8",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

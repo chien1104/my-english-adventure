@@ -1,0 +1,368 @@
+{
+  "id": "phonics-1",
+  "world": "alphabet-forest",
+  "order": 1,
+  "type": "phonics",
+  "title": "短母音 a、i、o",
+  "titleEn": "Short Vowels a, i, o",
+  "minutes": 10,
+  "summary": "學會字母的「聲音」，看到單字就能試著唸出來。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "什麼是自然發音",
+      "body": [
+        "英文字母有「名字」也有「聲音」。例如字母 a 的名字唸 /eɪ/，但在 cat 裡發的是短短的 /æ/。",
+        "學會字母的聲音，看到沒學過的字也能試著唸出來，這叫做「自然發音（Phonics）」。",
+        "這一課先學三個短母音：a、i、o。每個單字都可以按 ▶ 聽發音，跟著唸效果最好。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "三個短母音",
+      "body": [
+        "先聽例字，注意中間母音的聲音："
+      ],
+      "table": {
+        "head": [
+          "字母",
+          "短母音",
+          "例字"
+        ],
+        "rows": [
+          [
+            "a",
+            "/æ/ 嘴巴張大，嘴角往兩邊拉",
+            "cat、hat、map"
+          ],
+          [
+            "i",
+            "/ɪ/ 短而放鬆，比中文「一」短",
+            "sit、pig、big"
+          ],
+          [
+            "o",
+            "/ɑ/ 嘴巴張大，聲音從喉嚨出來",
+            "hot、dog、box"
+          ]
+        ]
+      },
+      "tip": "「子音＋母音＋子音」的短字（像 c-a-t），中間的母音通常發短母音。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "cat",
+          "zh": "貓　/kæt/",
+          "audio": "assets/audio/phonics/cat.mp3"
+        },
+        {
+          "en": "map",
+          "zh": "地圖　/mæp/",
+          "audio": "assets/audio/phonics/map.mp3"
+        },
+        {
+          "en": "pig",
+          "zh": "豬　/pɪɡ/",
+          "audio": "assets/audio/phonics/pig.mp3"
+        },
+        {
+          "en": "big",
+          "zh": "大的　/bɪɡ/",
+          "audio": "assets/audio/phonics/big.mp3"
+        },
+        {
+          "en": "hot",
+          "zh": "熱的　/hɑt/",
+          "audio": "assets/audio/phonics/hot.mp3"
+        },
+        {
+          "en": "dog",
+          "zh": "狗　/dɑɡ/",
+          "audio": "assets/audio/phonics/dog.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "把聲音拼起來",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "c",
+              "label": "/k/"
+            },
+            {
+              "text": "a",
+              "label": "/æ/"
+            },
+            {
+              "text": "t",
+              "label": "/t/"
+            }
+          ],
+          "zh": "c-a-t → cat（貓）"
+        },
+        {
+          "parts": [
+            {
+              "text": "p",
+              "label": "/p/"
+            },
+            {
+              "text": "i",
+              "label": "/ɪ/"
+            },
+            {
+              "text": "g",
+              "label": "/ɡ/"
+            }
+          ],
+          "zh": "p-i-g → pig（豬）"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "先聽，再選。可以重複播放。",
+      "questions": [
+        {
+          "id": "ph1-hat",
+          "group": "ph1-a",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "hat",
+            "hit",
+            "hot"
+          ],
+          "answer": "hat",
+          "explanation": "hat /hæt/（帽子）中間是短母音 a /æ/；hit 是 /ɪ/，hot 是 /ɑ/。",
+          "audio": "assets/audio/phonics/hat.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph1-sit",
+          "group": "ph1-i",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "sat",
+            "sit",
+            "set"
+          ],
+          "answer": "sit",
+          "explanation": "sit /sɪt/（坐）中間是短母音 i /ɪ/。",
+          "audio": "assets/audio/phonics/sit.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph1-hot",
+          "group": "ph1-o",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "hut",
+            "hat",
+            "hot"
+          ],
+          "answer": "hot",
+          "explanation": "hot /hɑt/（熱的）中間是短母音 o /ɑ/。",
+          "audio": "assets/audio/phonics/hot.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph1-cat",
+          "group": "ph1-a2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "a",
+            "i",
+            "o"
+          ],
+          "answer": "a",
+          "explanation": "cat（貓）：c-a-t，中間是 a /æ/。",
+          "sentence": "c _ t",
+          "zh": "貓"
+        },
+        {
+          "id": "ph1-pig",
+          "group": "ph1-i2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "a",
+            "i",
+            "o"
+          ],
+          "answer": "i",
+          "explanation": "pig（豬）：p-i-g，中間是 i /ɪ/。",
+          "sentence": "p _ g",
+          "zh": "豬"
+        },
+        {
+          "id": "ph1-box",
+          "group": "ph1-o2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "a",
+            "i",
+            "o"
+          ],
+          "answer": "o",
+          "explanation": "box（箱子）：b-o-x，中間是 o /ɑ/。",
+          "sentence": "b _ x",
+          "zh": "箱子"
+        }
+      ],
+      "similar": [
+        {
+          "id": "ph1-map",
+          "group": "ph1-a",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "mop",
+            "map",
+            "mat"
+          ],
+          "answer": "map",
+          "explanation": "map /mæp/（地圖）；mop 是拖把，mat 是墊子。",
+          "audio": "assets/audio/phonics/map.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph1-big",
+          "group": "ph1-i",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "bag",
+            "bog",
+            "big"
+          ],
+          "answer": "big",
+          "explanation": "big /bɪɡ/（大的）中間是 i /ɪ/；bag 是 /æ/。",
+          "audio": "assets/audio/phonics/big.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph1-dog",
+          "group": "ph1-o",
+          "type": "choice",
+          "prompt": "聽音檔，選出你聽到的單字",
+          "options": [
+            "dog",
+            "dig",
+            "dug"
+          ],
+          "answer": "dog",
+          "explanation": "dog /dɑɡ/（狗）中間是 o /ɑ/；dig 是 /ɪ/，dug 是 /ʌ/。",
+          "audio": "assets/audio/phonics/dog.mp3",
+          "audioLabel": "▶ 播放單字",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "ph1-hat2",
+          "group": "ph1-a2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "a",
+            "i",
+            "o"
+          ],
+          "answer": "a",
+          "explanation": "hat（帽子）：h-a-t。hit 是打，hot 是熱的。",
+          "sentence": "h _ t",
+          "zh": "帽子"
+        },
+        {
+          "id": "ph1-big2",
+          "group": "ph1-i2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "a",
+            "i",
+            "o"
+          ],
+          "answer": "i",
+          "explanation": "big（大的）：b-i-g。bag 是袋子。",
+          "sentence": "b _ g",
+          "zh": "大的"
+        },
+        {
+          "id": "ph1-hot2",
+          "group": "ph1-o2",
+          "type": "choice",
+          "prompt": "看中文，選出缺少的字母",
+          "options": [
+            "a",
+            "i",
+            "o"
+          ],
+          "answer": "o",
+          "explanation": "hot（熱的）：h-o-t。",
+          "sentence": "h _ t",
+          "zh": "熱的"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：聽寫",
+      "intro": "聽音檔，把單字拼出來。",
+      "questions": [
+        {
+          "id": "ph1-sp-cat",
+          "group": "ph1-sp-cat",
+          "type": "type",
+          "prompt": "聽音檔，拼出你聽到的單字",
+          "audio": "assets/audio/phonics/cat.mp3",
+          "audioLabel": "▶ 播放單字",
+          "hint": "3 個字母，c 開頭",
+          "answer": "cat",
+          "explanation": "cat：c-a-t。"
+        },
+        {
+          "id": "ph1-sp-dog",
+          "group": "ph1-sp-dog",
+          "type": "type",
+          "prompt": "聽音檔，拼出你聽到的單字",
+          "audio": "assets/audio/phonics/dog.mp3",
+          "audioLabel": "▶ 播放單字",
+          "hint": "3 個字母，d 開頭",
+          "answer": "dog",
+          "explanation": "dog：d-o-g。"
+        },
+        {
+          "id": "ph1-sp-pig",
+          "group": "ph1-sp-pig",
+          "type": "type",
+          "prompt": "聽音檔，拼出你聽到的單字",
+          "audio": "assets/audio/phonics/pig.mp3",
+          "audioLabel": "▶ 播放單字",
+          "hint": "3 個字母，p 開頭",
+          "answer": "pig",
+          "explanation": "pig：p-i-g。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "toeic-p1",
+  "world": "toeic-camp",
+  "order": 1,
+  "type": "toeic-listen",
+  "title": "Part 1 照片描述",
+  "titleEn": "Photographs",
+  "minutes": 12,
+  "requires": [
+    "grammar-1",
+    "grammar-2",
+    "grammar-3"
+  ],
+  "summary": "看照片、聽四個句子，選出正確的描述。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Part 1 是什麼",
+      "body": [
+        "Part 1 會給你一張照片，播放 4 個英文句子，選出最符合照片的一句。考試時句子不會印出來，只能用聽的。",
+        "解題重點：先看照片有哪些「東西」、在「哪裡」，再注意位置的說法：on、under、next to。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "位置的說法",
+      "body": [
+        "Part 1 最常考東西在哪裡："
+      ],
+      "table": {
+        "head": [
+          "說法",
+          "意思",
+          "例句"
+        ],
+        "rows": [
+          [
+            "on",
+            "在…上面",
+            "A laptop is on the desk."
+          ],
+          [
+            "under",
+            "在…下面",
+            "A bag is under the chair."
+          ],
+          [
+            "next to",
+            "在…旁邊",
+            "A plant is next to the laptop."
+          ],
+          [
+            "on the wall",
+            "在牆上",
+            "A clock is on the wall."
+          ]
+        ]
+      },
+      "tip": "句子裡提到照片中「沒有」的人或東西，就可以直接刪掉。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "A laptop is on the desk.",
+          "zh": "筆電在桌上。",
+          "highlight": "on",
+          "audio": "assets/audio/toeic/p1-ex1.mp3"
+        },
+        {
+          "en": "A bag is under the chair.",
+          "zh": "包包在椅子下面。",
+          "highlight": "under",
+          "audio": "assets/audio/toeic/p1-ex2.mp3"
+        },
+        {
+          "en": "A plant is next to the laptop.",
+          "zh": "植物在筆電旁邊。",
+          "highlight": "next",
+          "audio": "assets/audio/toeic/p1-ex3.mp3"
+        },
+        {
+          "en": "A clock is on the wall.",
+          "zh": "時鐘在牆上。",
+          "highlight": "wall",
+          "audio": "assets/audio/toeic/p1-ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看照片，再按 ▶ 聽 4 個句子。",
+      "questions": [
+        {
+          "id": "p1-desk-a",
+          "group": "p1-desk",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) A laptop is on the desk.\n逐字稿：(A) A laptop is on the desk.（筆電在桌上）　(B) A man is using a phone.（一名男子在用手機）　(C) The desk is empty.（桌上是空的）　(D) A cat is sleeping.（一隻貓在睡覺）",
+          "scene": "assets/img/scenes/desk.svg",
+          "audio": "assets/audio/toeic/p1-desk-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p1-shelf-a",
+          "group": "p1-shelf",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) Some books are on the shelf.\n逐字稿：(A) The shelf is empty.（書架是空的）　(B) Some books are on the shelf.（書架上有一些書）　(C) A clock is on the floor.（時鐘在地上）　(D) A woman is reading.（一名女子在看書）",
+          "scene": "assets/img/scenes/shelf.svg",
+          "audio": "assets/audio/toeic/p1-shelf-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p1-room-a",
+          "group": "p1-room",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "正確答案 (C) Some cups are on the table.\n逐字稿：(A) The chairs are stacked.（椅子疊起來了）　(B) A man is drawing on the whiteboard.（一名男子在白板上畫畫）　(C) Some cups are on the table.（桌上有一些杯子）　(D) The room is full of people.（房間裡擠滿了人）",
+          "scene": "assets/img/scenes/meeting-room.svg",
+          "audio": "assets/audio/toeic/p1-room-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p1-park-a",
+          "group": "p1-park",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "D",
+          "explanation": "正確答案 (D) A bicycle is parked next to a tree.\n逐字稿：(A) A car is on the road.（路上有一輛車）　(B) People are sitting on the bench.（有人坐在長椅上）　(C) The tree has no leaves.（樹沒有葉子）　(D) A bicycle is parked next to a tree.（一輛腳踏車停在樹旁邊）",
+          "scene": "assets/img/scenes/park.svg",
+          "audio": "assets/audio/toeic/p1-park-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p1-desk-b",
+          "group": "p1-desk",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) A plant is next to the laptop.\n逐字稿：(A) The chair is on the desk.（椅子在桌上）　(B) A plant is next to the laptop.（植物在筆電旁邊）　(C) The laptop is closed.（筆電是關著的）　(D) A lamp is on the floor.（檯燈在地上）",
+          "scene": "assets/img/scenes/desk.svg",
+          "audio": "assets/audio/toeic/p1-desk-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p1-shelf-b",
+          "group": "p1-shelf",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) A clock is on the wall.\n逐字稿：(A) A clock is on the wall.（時鐘在牆上）　(B) The books are on the floor.（書在地上）　(C) A man is carrying boxes.（一名男子在搬箱子）　(D) The window is open.（窗戶是開著的）",
+          "scene": "assets/img/scenes/shelf.svg",
+          "audio": "assets/audio/toeic/p1-shelf-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p1-room-b",
+          "group": "p1-room",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "D",
+          "explanation": "正確答案 (D) Nobody is in the room.\n逐字稿：(A) Two people are talking.（兩個人在說話）　(B) The cups are broken.（杯子破了）　(C) The whiteboard is on the floor.（白板在地上）　(D) Nobody is in the room.（房間裡沒有人）",
+          "scene": "assets/img/scenes/meeting-room.svg",
+          "audio": "assets/audio/toeic/p1-room-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p1-park-b",
+          "group": "p1-park",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) A bench is near the tree.\n逐字稿：(A) A man is riding a bicycle.（一名男子在騎腳踏車）　(B) A bench is near the tree.（長椅在樹附近）　(C) It is raining.（正在下雨）　(D) The bicycle is on the bench.（腳踏車在長椅上）",
+          "scene": "assets/img/scenes/park.svg",
+          "audio": "assets/audio/toeic/p1-park-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：聽位置",
+      "intro": "聽音檔，選出正確的中文。",
+      "questions": [
+        {
+          "id": "p1-ext-1",
+          "group": "p1-ext-1",
+          "type": "choice",
+          "prompt": "聽音檔，選出正確的意思",
+          "options": [
+            "電腦上面有一盆植物",
+            "電腦旁邊有一盆植物",
+            "電腦下面有一盆植物"
+          ],
+          "answer": "電腦旁邊有一盆植物",
+          "explanation": "A plant is next to the computer. next to 是在…旁邊。",
+          "audio": "assets/audio/toeic/p1-ext1.mp3"
+        },
+        {
+          "id": "p1-ext-2",
+          "group": "p1-ext-2",
+          "type": "choice",
+          "prompt": "聽音檔，選出正確的意思",
+          "options": [
+            "椅子下面有一個包包",
+            "椅子上面有一個包包",
+            "椅子旁邊有一個包包"
+          ],
+          "answer": "椅子下面有一個包包",
+          "explanation": "A bag is under the chair. under 是在…下面。",
+          "audio": "assets/audio/toeic/p1-ext2.mp3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "id": "grammar-3",
+  "world": "grammar-castle",
+  "order": 3,
+  "type": "grammar",
+  "title": "兩個以上：名詞加 s 或 es",
+  "titleEn": "Plural Nouns",
+  "summary": "學會把「一個」變成「很多個」。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "中文說「一本書」、「兩本書」，「書」這個字不會變。",
+        "英文不一樣：兩個以上的東西，名詞後面要加 s 或 es，這叫做「複數」。",
+        "這一課只學最常用的兩條規則。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "看名詞的最後一個字母："
+      ],
+      "table": {
+        "head": [
+          "名詞結尾",
+          "怎麼變",
+          "例子"
+        ],
+        "rows": [
+          [
+            "大部分的名詞",
+            "加 s",
+            "book → books、key → keys"
+          ],
+          [
+            "s、x、sh、ch 結尾",
+            "加 es",
+            "bus → buses、box → boxes、dish → dishes、watch → watches"
+          ]
+        ]
+      },
+      "tip": "一個的時候用 a／an，兩個以上就不用 a／an：a book → two books。"
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "I have two books.",
+          "zh": "我有兩本書。",
+          "highlight": "books",
+          "audio": "assets/audio/lessons/grammar-3/ex1.mp3"
+        },
+        {
+          "en": "She eats three apples.",
+          "zh": "她吃三顆蘋果。",
+          "highlight": "apples",
+          "audio": "assets/audio/lessons/grammar-3/ex2.mp3"
+        },
+        {
+          "en": "He has two boxes.",
+          "zh": "他有兩個箱子。",
+          "highlight": "boxes",
+          "audio": "assets/audio/lessons/grammar-3/ex3.mp3"
+        },
+        {
+          "en": "I see two buses.",
+          "zh": "我看到兩台公車。",
+          "highlight": "buses",
+          "audio": "assets/audio/lessons/grammar-3/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "two",
+              "label": "數量（兩個）"
+            },
+            {
+              "text": "book",
+              "label": "名詞"
+            },
+            {
+              "text": "+ s",
+              "label": "大部分加 s"
+            }
+          ],
+          "zh": "two books ＝ 兩本書"
+        },
+        {
+          "parts": [
+            {
+              "text": "two",
+              "label": "數量（兩個）"
+            },
+            {
+              "text": "box",
+              "label": "x 結尾"
+            },
+            {
+              "text": "+ es",
+              "label": "加 es"
+            }
+          ],
+          "zh": "two boxes ＝ 兩個箱子"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "I have two book.",
+          "right": "I have two books.",
+          "why": "兩本以上，book 要加 s。"
+        },
+        {
+          "wrong": "He has two boxs.",
+          "right": "He has two boxes.",
+          "why": "box 是 x 結尾，要加 es。"
+        },
+        {
+          "wrong": "I have a books.",
+          "right": "I have a book.",
+          "why": "a 是「一個」，後面不能接複數。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出正確的名詞形式。",
+      "questions": [
+        {
+          "id": "g3-s-a",
+          "group": "g3-s",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "I have two ___.",
+          "zh": "我有兩本書。",
+          "options": [
+            "book",
+            "books",
+            "bookes"
+          ],
+          "answer": "books",
+          "explanation": "兩本書是複數，book 是大部分的名詞，加 s 變成 books。"
+        },
+        {
+          "id": "g3-x-a",
+          "group": "g3-x",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "He has two ___.",
+          "zh": "他有兩個箱子。",
+          "options": [
+            "boxs",
+            "box",
+            "boxes"
+          ],
+          "answer": "boxes",
+          "explanation": "box 是 x 結尾，複數要加 es：boxes。"
+        },
+        {
+          "id": "g3-ch-a",
+          "group": "g3-ch",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "I want three ___.",
+          "zh": "我想要三支手錶。",
+          "options": [
+            "watches",
+            "watchs",
+            "watch"
+          ],
+          "answer": "watches",
+          "explanation": "watch（手錶）是 ch 結尾，複數加 es：watches。"
+        },
+        {
+          "id": "g3-one-a",
+          "group": "g3-one",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "I eat an ___.",
+          "zh": "我吃一顆蘋果。",
+          "options": [
+            "apples",
+            "apple"
+          ],
+          "answer": "apple",
+          "explanation": "an 是「一個」，後面用單數 apple，不加 s。"
+        },
+        {
+          "id": "g3-pick-a",
+          "group": "g3-pick",
+          "type": "choice",
+          "prompt": "哪一句是正確的？",
+          "zh": "我有兩個杯子。",
+          "options": [
+            "I have two cup.",
+            "I have a cups.",
+            "I have two cups."
+          ],
+          "answer": "I have two cups.",
+          "explanation": "兩個杯子是複數，cup 加 s 變成 cups，而且前面不能有 a。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "g3-s-b",
+          "group": "g3-s",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "She has three ___.",
+          "zh": "她有三把鑰匙。",
+          "options": [
+            "keys",
+            "key",
+            "keyes"
+          ],
+          "answer": "keys",
+          "explanation": "key 是大部分的名詞，直接加 s：keys。"
+        },
+        {
+          "id": "g3-x-b",
+          "group": "g3-x",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "I see two ___.",
+          "zh": "我看到兩台公車。",
+          "options": [
+            "bus",
+            "buses",
+            "buss"
+          ],
+          "answer": "buses",
+          "explanation": "bus 是 s 結尾，複數加 es：buses。"
+        },
+        {
+          "id": "g3-ch-b",
+          "group": "g3-ch",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "We need four ___.",
+          "zh": "我們需要四個盤子。",
+          "options": [
+            "dish",
+            "dishs",
+            "dishes"
+          ],
+          "answer": "dishes",
+          "explanation": "dish（盤子）是 sh 結尾，複數加 es：dishes。"
+        },
+        {
+          "id": "g3-one-b",
+          "group": "g3-one",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "sentence": "She has a ___.",
+          "zh": "她有一支手機。",
+          "options": [
+            "phone",
+            "phones"
+          ],
+          "answer": "phone",
+          "explanation": "a 是「一個」，後面用單數 phone。"
+        },
+        {
+          "id": "g3-pick-b",
+          "group": "g3-pick",
+          "type": "choice",
+          "prompt": "哪一句是正確的？",
+          "zh": "他有三個箱子。",
+          "options": [
+            "He has three boxes.",
+            "He has three boxs.",
+            "He has three box."
+          ],
+          "answer": "He has three boxes.",
+          "explanation": "三個箱子是複數，box 是 x 結尾，要加 es：boxes。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：自己寫寫看",
+      "intro": "輸入名詞的複數形式，或把單字排成句子。",
+      "questions": [
+        {
+          "id": "g3-type-box",
+          "group": "g3-type-box",
+          "type": "type",
+          "prompt": "box（箱子）的複數怎麼寫？",
+          "hint": "x 結尾",
+          "answer": "boxes",
+          "explanation": "x 結尾加 es：box → boxes。"
+        },
+        {
+          "id": "g3-type-chair",
+          "group": "g3-type-chair",
+          "type": "type",
+          "prompt": "chair（椅子）的複數怎麼寫？",
+          "hint": "大部分的名詞",
+          "answer": "chairs",
+          "explanation": "chair 是大部分的名詞，直接加 s：chairs。"
+        },
+        {
+          "id": "g3-order-1",
+          "group": "g3-order-1",
+          "type": "order",
+          "prompt": "把單字排成正確的句子",
+          "zh": "我有兩把鑰匙。",
+          "tokens": [
+            "keys",
+            "two",
+            "have",
+            "I"
+          ],
+          "answer": [
+            "I",
+            "have",
+            "two",
+            "keys"
+          ],
+          "punct": ".",
+          "explanation": "主詞 I ＋ have ＋ 數量 two ＋ 複數名詞 keys。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "id": "toeic-p7",
+  "world": "toeic-camp",
+  "order": 7,
+  "type": "toeic",
+  "title": "Part 7 閱讀理解",
+  "titleEn": "Reading Comprehension",
+  "minutes": 15,
+  "summary": "讀廣告和簡訊，先看題目再找答案。",
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "Part 7 是什麼",
+      "body": [
+        "Part 7 是閱讀理解：廣告、email、公告、簡訊對話等，每篇有 2～5 題。",
+        "秘訣：先看題目，再回文章找關鍵字。遇到 What is true…? 要一個一個選項對照文章。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "常見問法",
+      "body": [
+        "看懂題目在問什麼，就成功一半："
+      ],
+      "table": {
+        "head": [
+          "題目",
+          "中文",
+          "去哪裡找"
+        ],
+        "rows": [
+          [
+            "What is the purpose of…?",
+            "…的目的是什麼？",
+            "通常在第一、二句"
+          ],
+          [
+            "What is true about…?",
+            "關於…哪一項正確？",
+            "逐一對照選項"
+          ],
+          [
+            "How should people…?",
+            "人們應該怎麼…？",
+            "找 please、to apply 等字"
+          ]
+        ]
+      },
+      "tip": "答案常是文章的「換句話說」：Saturday and Sunday ＝ on weekends。"
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "每題都會顯示文章，看完題目再回文章找答案。",
+      "questions": [
+        {
+          "id": "p7-a1",
+          "group": "p7-a1",
+          "type": "choice",
+          "prompt": "咖啡店在徵什麼工作？",
+          "options": [
+            "A full-time cook",
+            "A part-time server",
+            "A manager"
+          ],
+          "answer": "A part-time server",
+          "explanation": "We are looking for a part-time server. 徵兼職服務生。",
+          "sentence": "What job is the café offering?",
+          "text": "Sunny Café — Now Hiring!\nWe are looking for a part-time server.\n• Hours: Saturday and Sunday, 8 a.m. to 2 p.m.\n• Pay: $15 per hour\n• Experience is helpful but not necessary.\nTo apply, please send your résumé to jobs@sunnycafe.com by April 10."
+        },
+        {
+          "id": "p7-a2",
+          "group": "p7-a2",
+          "type": "choice",
+          "prompt": "服務生什麼時候上班？",
+          "options": [
+            "On weekends",
+            "On weekdays",
+            "Every evening"
+          ],
+          "answer": "On weekends",
+          "explanation": "Saturday and Sunday 換句話說就是 on weekends（週末）。",
+          "sentence": "When will the server work?",
+          "text": "Sunny Café — Now Hiring!\nWe are looking for a part-time server.\n• Hours: Saturday and Sunday, 8 a.m. to 2 p.m.\n• Pay: $15 per hour\n• Experience is helpful but not necessary.\nTo apply, please send your résumé to jobs@sunnycafe.com by April 10."
+        },
+        {
+          "id": "p7-a3",
+          "group": "p7-a3",
+          "type": "choice",
+          "prompt": "關於這份工作，哪一項正確？",
+          "options": [
+            "The pay is $50 per hour.",
+            "The job starts at 2 p.m.",
+            "Experience is not necessary."
+          ],
+          "answer": "Experience is not necessary.",
+          "explanation": "Experience is helpful but not necessary. 經驗有幫助但不是必要。時薪是 15 美元，上班時間是早上 8 點到下午 2 點。",
+          "sentence": "What is true about the job?",
+          "text": "Sunny Café — Now Hiring!\nWe are looking for a part-time server.\n• Hours: Saturday and Sunday, 8 a.m. to 2 p.m.\n• Pay: $15 per hour\n• Experience is helpful but not necessary.\nTo apply, please send your résumé to jobs@sunnycafe.com by April 10."
+        },
+        {
+          "id": "p7-a4",
+          "group": "p7-a4",
+          "type": "choice",
+          "prompt": "應徵的人該怎麼做？",
+          "options": [
+            "By calling the café",
+            "By sending a résumé by email",
+            "By visiting the café on April 10"
+          ],
+          "answer": "By sending a résumé by email",
+          "explanation": "send your résumé to jobs@sunnycafe.com：寄履歷到 email 信箱。",
+          "sentence": "How should people apply?",
+          "text": "Sunny Café — Now Hiring!\nWe are looking for a part-time server.\n• Hours: Saturday and Sunday, 8 a.m. to 2 p.m.\n• Pay: $15 per hour\n• Experience is helpful but not necessary.\nTo apply, please send your résumé to jobs@sunnycafe.com by April 10."
+        },
+        {
+          "id": "p7-b1",
+          "group": "p7-b1",
+          "type": "choice",
+          "prompt": "Mike 為什麼會晚到？",
+          "options": [
+            "His train is late.",
+            "He is sick.",
+            "He has a client meeting."
+          ],
+          "answer": "His train is late.",
+          "explanation": "my train is late：他的火車誤點。",
+          "sentence": "Why will Mike be late?",
+          "text": "Mike (9:15): Hi Sarah, my train is late. I'll be at the office around 10:00.\nSarah (9:17): No problem. The client meeting is at 10:30, so you have time.\nMike (9:18): Great. Could you print the sales report for me?\nSarah (9:20): Sure. I'll put it on your desk."
+        },
+        {
+          "id": "p7-b2",
+          "group": "p7-b2",
+          "type": "choice",
+          "prompt": "和客戶的會議幾點？",
+          "options": [
+            "10:00",
+            "9:15",
+            "10:30"
+          ],
+          "answer": "10:30",
+          "explanation": "The client meeting is at 10:30. 10:00 是 Mike 到公司的時間。",
+          "sentence": "What time is the client meeting?",
+          "text": "Mike (9:15): Hi Sarah, my train is late. I'll be at the office around 10:00.\nSarah (9:17): No problem. The client meeting is at 10:30, so you have time.\nMike (9:18): Great. Could you print the sales report for me?\nSarah (9:20): Sure. I'll put it on your desk."
+        },
+        {
+          "id": "p7-b3",
+          "group": "p7-b3",
+          "type": "choice",
+          "prompt": "Sarah 會做什麼？",
+          "options": [
+            "Call the client",
+            "Print a report",
+            "Pick Mike up at the station"
+          ],
+          "answer": "Print a report",
+          "explanation": "Mike 請她印業務報告，她回答 Sure。",
+          "sentence": "What will Sarah do?",
+          "text": "Mike (9:15): Hi Sarah, my train is late. I'll be at the office around 10:00.\nSarah (9:17): No problem. The client meeting is at 10:30, so you have time.\nMike (9:18): Great. Could you print the sales report for me?\nSarah (9:20): Sure. I'll put it on your desk."
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：關鍵字",
+      "intro": "徵人廣告常見的字。",
+      "questions": [
+        {
+          "id": "p7-ext-1",
+          "group": "p7-ext-1",
+          "type": "choice",
+          "prompt": "résumé 是什麼意思？",
+          "options": [
+            "履歷",
+            "收據",
+            "菜單"
+          ],
+          "answer": "履歷",
+          "explanation": "résumé（也寫 resume）是履歷。"
+        },
+        {
+          "id": "p7-ext-2",
+          "group": "p7-ext-2",
+          "type": "choice",
+          "prompt": "part-time 是什麼意思？",
+          "options": [
+            "全職",
+            "兼職",
+            "加班"
+          ],
+          "answer": "兼職",
+          "explanation": "part-time 兼職；full-time 全職。"
+        }
+      ]
+    }
+  ]
+}

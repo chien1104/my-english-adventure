@@ -1,0 +1,352 @@
+{
+  "id": "toeic-p5-1",
+  "world": "toeic-camp",
+  "order": 5,
+  "type": "toeic",
+  "title": "Part 5 入門：先找主詞",
+  "titleEn": "TOEIC Part 5 Basics",
+  "summary": "用學過的 be 動詞、a/an、複數，挑戰職場句子的多益單句填空。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "多益 Part 5 是什麼",
+      "body": [
+        "多益閱讀的 Part 5 叫「單句填空」：一個句子挖一個空格，從 4 個選項選出正確答案。",
+        "句子多半是職場情境，例如開會、辦公室、員工、客戶。看起來很難，其實很多題考的就是你學過的基礎文法。",
+        "這一課用你學過的三個規則來解題：be 動詞、a / an、名詞複數。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "三步驟解題法",
+      "body": [
+        "遇到文法題，照這三步走，不用整句都看懂："
+      ],
+      "table": {
+        "head": [
+          "步驟",
+          "做什麼",
+          "例子"
+        ],
+        "rows": [
+          [
+            "1. 看選項",
+            "選項長得很像 → 考文法",
+            "is / are / am / be"
+          ],
+          [
+            "2. 找主詞",
+            "空格前面的「誰」或「什麼」",
+            "The meeting ___"
+          ],
+          [
+            "3. 套規則",
+            "一個 → is；兩個以上 → are",
+            "The meeting is"
+          ]
+        ]
+      },
+      "tip": "主詞前面常常有修飾的字，例如 Our new office 的主詞其實是 office（一個），所以用 is。"
+    },
+    {
+      "kind": "examples",
+      "title": "職場例句",
+      "items": [
+        {
+          "en": "The meeting is at 3 p.m.",
+          "zh": "會議在下午三點。",
+          "highlight": "is",
+          "audio": "assets/audio/lessons/toeic-p5-1/ex1.mp3"
+        },
+        {
+          "en": "All employees are welcome.",
+          "zh": "歡迎所有員工參加。",
+          "highlight": "are",
+          "audio": "assets/audio/lessons/toeic-p5-1/ex2.mp3"
+        },
+        {
+          "en": "Please send me an email.",
+          "zh": "請寄一封電子郵件給我。",
+          "highlight": "an",
+          "audio": "assets/audio/lessons/toeic-p5-1/ex3.mp3"
+        },
+        {
+          "en": "Mr. Lee has three meetings today.",
+          "zh": "李先生今天有三場會議。",
+          "highlight": "meetings",
+          "audio": "assets/audio/lessons/toeic-p5-1/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "Our new office",
+              "label": "主詞：office（一個）"
+            },
+            {
+              "text": "is",
+              "label": "be 動詞"
+            },
+            {
+              "text": "near the station.",
+              "label": "說明（在哪裡）"
+            }
+          ],
+          "zh": "我們的新辦公室在車站附近"
+        },
+        {
+          "parts": [
+            {
+              "text": "All employees",
+              "label": "主詞：employees（很多人）"
+            },
+            {
+              "text": "are",
+              "label": "be 動詞"
+            },
+            {
+              "text": "welcome.",
+              "label": "說明"
+            }
+          ],
+          "zh": "歡迎所有員工"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "常見陷阱",
+      "items": [
+        {
+          "wrong": "Our new office are near the station.",
+          "right": "Our new office is near the station.",
+          "why": "主詞是 office（一個），不是被 new 或 our 影響，要用 is。"
+        },
+        {
+          "wrong": "Please send me a email.",
+          "right": "Please send me an email.",
+          "why": "email 開頭是母音的聲音，要用 an。"
+        },
+        {
+          "wrong": "She has two meeting today.",
+          "right": "She has two meetings today.",
+          "why": "two 後面的名詞要用複數，加 s。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習：多益單句填空",
+      "intro": "照三步驟：看選項、找主詞、套規則。",
+      "questions": [
+        {
+          "id": "t1-be-a",
+          "group": "t1-be-single",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "The meeting ___ at 3 p.m. today.",
+          "zh": "今天的會議在下午三點。",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "answer": "is",
+          "explanation": "主詞是 the meeting（一場會議），用 is。"
+        },
+        {
+          "id": "t1-be2-a",
+          "group": "t1-be-plural",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "All employees ___ welcome to join the party.",
+          "zh": "歡迎所有員工參加派對。",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "answer": "are",
+          "explanation": "主詞是 all employees（所有員工，很多人），用 are。"
+        },
+        {
+          "id": "t1-an-a",
+          "group": "t1-an",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "Please send me ___ email by Friday.",
+          "zh": "請在星期五前寄一封電子郵件給我。",
+          "options": [
+            "a",
+            "an"
+          ],
+          "answer": "an",
+          "explanation": "email 開頭是母音 /i/ 的聲音，用 an。"
+        },
+        {
+          "id": "t1-pl-a",
+          "group": "t1-plural",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "Mr. Lee has three ___ today.",
+          "zh": "李先生今天有三場會議。",
+          "options": [
+            "meeting",
+            "meetings",
+            "meetinges",
+            "a meeting"
+          ],
+          "answer": "meetings",
+          "explanation": "three 後面接複數，meeting 加 s 變 meetings。"
+        },
+        {
+          "id": "t1-mod-a",
+          "group": "t1-modifier",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "Our new office ___ near the station.",
+          "zh": "我們的新辦公室在車站附近。",
+          "options": [
+            "are",
+            "be",
+            "is",
+            "am"
+          ],
+          "answer": "is",
+          "explanation": "主詞是 office（一間），our 和 new 只是修飾，用 is。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "t1-be-b",
+          "group": "t1-be-single",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "Ms. Chen ___ the manager of the sales team.",
+          "zh": "陳小姐是業務團隊的經理。",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "answer": "is",
+          "explanation": "主詞是 Ms. Chen（一個人），用 is。"
+        },
+        {
+          "id": "t1-be2-b",
+          "group": "t1-be-plural",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "The new computers ___ in the meeting room.",
+          "zh": "新電腦在會議室裡。",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "answer": "are",
+          "explanation": "主詞是 computers（很多台電腦），用 are。"
+        },
+        {
+          "id": "t1-an-b",
+          "group": "t1-an",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "She is ___ excellent designer.",
+          "zh": "她是一位很優秀的設計師。",
+          "options": [
+            "an",
+            "a"
+          ],
+          "answer": "an",
+          "explanation": "看空格後面的第一個字 excellent，開頭是母音 /ɛ/ 的聲音，所以用 an。"
+        },
+        {
+          "id": "t1-pl-b",
+          "group": "t1-plural",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "We need two more ___ for the event.",
+          "zh": "這場活動我們還需要兩張椅子。",
+          "options": [
+            "chair",
+            "chairs",
+            "chaires",
+            "a chair"
+          ],
+          "answer": "chairs",
+          "explanation": "two 後面接複數，chair 加 s 變 chairs。"
+        },
+        {
+          "id": "t1-mod-b",
+          "group": "t1-modifier",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "The small boxes on the desk ___ for you.",
+          "zh": "桌上的小箱子是給你的。",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "answer": "are",
+          "explanation": "主詞是 boxes（很多個箱子），on the desk 只是說明位置，用 are。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益挑戰題",
+      "intro": "主詞和空格離比較遠，先把主詞找出來。",
+      "questions": [
+        {
+          "id": "t1-ext-1",
+          "group": "t1-ext-1",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "The reports from the sales team ___ on your desk.",
+          "zh": "業務團隊的報告在你桌上。",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "answer": "are",
+          "explanation": "主詞是 reports（很多份報告），from the sales team 是修飾，用 are。"
+        },
+        {
+          "id": "t1-ext-2",
+          "group": "t1-ext-2",
+          "type": "choice",
+          "prompt": "選出最適合的答案",
+          "sentence": "The manager of the two offices ___ very busy.",
+          "zh": "這兩間辦公室的經理非常忙。",
+          "options": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "answer": "is",
+          "explanation": "主詞是 manager（一位經理），of the two offices 是修飾，不要被 offices 騙了，用 is。"
+        }
+      ]
+    }
+  ]
+}

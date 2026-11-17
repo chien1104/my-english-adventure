@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="email">
+<title>email</title>
+<circle cx="60" cy="60" r="56" fill="#F4ECDF"/>
+<ellipse cx="60" cy="98" rx="30" ry="4" fill="#E6D8C6"/>
+<rect x="22" y="34" width="76" height="52" rx="6" fill="#FFFFFF" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M24 38l36 28 36-28" fill="none" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="88" cy="34" r="12" fill="#D9644A" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M84 34h8M88 30v8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="computer">
+<title>computer</title>
+<circle cx="60" cy="60" r="56" fill="#F4ECDF"/>
+<ellipse cx="60" cy="98" rx="30" ry="4" fill="#E6D8C6"/>
+<rect x="24" y="28" width="72" height="48" rx="5" fill="#5A4636" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="30" y="34" width="60" height="36" rx="2" fill="#BFDDF0"/>
+<path d="M52 76l-4 14h24l-4-14" fill="#C9A27E" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M42 92h36" stroke="#4E3424" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M38 46h24M38 54h32M38 62h18" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+</svg>
