@@ -1,0 +1,101 @@
+# NGSL 801-900
+husband|n.|丈夫|gen|Her husband is a chef.|她先生是主廚。
+access|n./v.|使用權；進入|off|You need a card to access the building.|你需要一張卡才能進入大樓。
+movement|n.|動作；運動|gen|The dance has quick movements.|這支舞的動作很快。
+treat|v./n.|對待；請客；治療|din|Lunch is my treat.|午餐我請客。
+identify|v.|辨認；確認|gen|Can you identify the problem?|你能找出問題嗎？
+loss|n.|損失|fin|The company had a loss last year.|公司去年虧損了。
+shall|aux.|（提議）……好嗎；將|gen|Shall we start?|我們開始好嗎？
+modern|adj.|現代的|fac|The office is very modern.|辦公室很現代化。
+pressure|n.|壓力|hr|I work well under pressure.|我在壓力下也能表現得很好。
+bus|n.|公車|trn|I take the bus to work.|我搭公車上班。
+treatment|n.|治療；對待|hlt|The treatment takes two weeks.|這個治療需要兩週。
+yourself|pron.|你自己|gen|Help yourself to some food.|請自己拿東西吃。
+supply|n./v.|供應；用品|off|We need more office supplies.|我們需要更多辦公用品。
+village|n.|村莊|gen|She grew up in a small village.|她在一個小村莊長大。
+worth|adj.|值得的；值……錢|gen|The museum is worth a visit.|這間博物館值得一去。
+natural|adj.|自然的；天然的|gen|This juice is all natural.|這種果汁是全天然的。
+express|v./adj.|表達；快速的|trn|Take the express train.|搭快車。
+indicate|v.|指出；顯示|gen|The chart indicates a rise in sales.|圖表顯示銷售上升。
+attend|v.|參加；出席|mtg|Will you attend the meeting?|你會參加會議嗎？
+brother|n.|兄弟|gen|My brother lives in Canada.|我哥哥住在加拿大。
+investment|n.|投資|fin|This is a good investment.|這是一項好的投資。
+score|n.|分數|gen|My TOEIC score is 550.|我的多益分數是 550 分。
+organize|v.|組織；整理|mtg|Who is organizing the party?|誰在籌辦派對？
+trip|n.|旅行；出差|trv|I'm going on a business trip.|我要去出差。
+beyond|prep.|超出；在……的那邊|gen|The town is just beyond the bridge.|小鎮就在橋的另一邊。
+sleep|v./n.|睡覺|hlt|I didn't sleep well.|我沒睡好。
+fish|n.|魚|din|I'll have the fish, please.|我要魚。
+promise|v./n.|承諾|gen|I promise to call you.|我保證會打給你。
+potential|adj./n.|潛在的；潛力|biz|We met some potential customers.|我們見了幾位潛在客戶。
+energy|n.|能量；精力|gen|I have no energy today.|我今天沒有精神。
+trouble|n.|麻煩|gen|I'm having trouble with my computer.|我的電腦出了點問題。
+relation|n.|關係（常用複數）|biz|She works in public relations.|她從事公關工作。
+touch|v./n.|觸摸；聯絡（keep in touch）|gen|Let's keep in touch.|我們保持聯絡吧。
+file|n./v.|檔案；歸檔|off|Please save the file.|請儲存這個檔案。
+middle|n.|中間|gen|There is a table in the middle of the room.|房間中間有一張桌子。
+bar|n.|酒吧；條|din|Let's meet at the hotel bar.|我們在飯店酒吧見面。
+suffer|v.|受苦；遭受|hlt|She suffers from back pain.|她背痛很嚴重。
+strategy|n.|策略|biz|We need a new sales strategy.|我們需要新的銷售策略。
+deep|adj.|深的|gen|The lake is very deep.|這座湖很深。
+except|prep.|除了|gen|The store is open every day except Monday.|這家店除了星期一每天都營業。
+clean|adj./v.|乾淨的；打掃|fac|Please keep the kitchen clean.|請保持廚房乾淨。
+tend|v.|傾向於|gen|Prices tend to rise in summer.|夏天價格往往會上漲。
+advance|n./v.|進步；（in advance）事先|trv|Please book in advance.|請事先預訂。
+fill|v.|填滿；填寫|off|Please fill in the blanks.|請填空。
+star|n.|星星；明星|gen|The hotel has five stars.|這家飯店是五星級的。
+network|n.|網路；人脈|off|The network is down.|網路斷了。
+generally|adv.|一般而言|gen|I generally get up at six.|我通常六點起床。
+operation|n.|運作；手術|hlt|He needs an operation.|他需要動手術。
+match|n./v.|比賽；搭配|shp|This tie matches your shirt.|這條領帶和你的襯衫很搭。
+avoid|v.|避免|trn|Leave early to avoid traffic.|早點出發以避開車潮。
+seat|n.|座位|trv|Is this seat taken?|這個位子有人坐嗎？
+throw|v.|丟；扔|gen|Don't throw trash on the street.|不要在街上亂丟垃圾。
+task|n.|任務；工作|off|I have many tasks today.|我今天有很多工作。
+normal|adj.|正常的|gen|Everything is normal.|一切都正常。
+goal|n.|目標|gen|My goal is to get 550 on the TOEIC.|我的目標是多益考到 550 分。
+associate|v./n.|聯想；同事|gen|I associate summer with the beach.|我會把夏天聯想到海灘。
+blue|adj.|藍色的|gen|The sky is blue.|天空是藍色的。
+positive|adj.|正面的；肯定的|gen|We got positive feedback.|我們得到了正面的回饋。
+option|n.|選項|gen|There are three options.|有三個選項。
+box|n.|盒子；箱子|log|Put the books in the box.|把書放進箱子裡。
+huge|adj.|巨大的|gen|The new mall is huge.|新的購物中心非常大。
+message|n.|訊息；留言|off|Can I take a message?|需要我幫你留言嗎？
+instance|n.|例子（for instance 例如）|gen|For instance, you can take the bus.|例如，你可以搭公車。
+style|n.|風格；款式|shp|I like the style of this jacket.|我喜歡這件夾克的款式。
+refer|v.|提到；參考；轉介|gen|Please refer to page 3.|請參考第三頁。
+cold|adj./n.|冷的；感冒|hlt|I have a cold.|我感冒了。
+push|v.|推|gen|Push the door to open it.|推門就能打開。
+quarter|n.|四分之一；一季；十五分鐘|fin|Sales grew in the second quarter.|第二季銷售成長了。
+assume|v.|假設；認為|gen|I assume you know him.|我想你認識他吧。
+baby|n.|嬰兒|gen|The baby is sleeping.|寶寶在睡覺。
+successful|adj.|成功的|biz|The event was successful.|活動很成功。
+sing|v.|唱歌|gen|She likes to sing.|她喜歡唱歌。
+doubt|n./v.|懷疑|gen|I doubt he will come.|我懷疑他會來。
+competition|n.|競爭；比賽|biz|There is a lot of competition in this market.|這個市場競爭很激烈。
+theory|n.|理論|gen|In theory, it should work.|理論上應該行得通。
+propose|v.|提議|mtg|I propose a new plan.|我提議一個新計畫。
+reference|n.|參考；推薦人|hr|Please give us two references.|請提供兩位推薦人。
+argument|n.|爭論；論點|gen|They had an argument.|他們吵了一架。
+adult|n.|成人|trv|Tickets are ten dollars for adults.|成人票十美元。
+fly|v.|飛；搭飛機|trv|I fly to Tokyo next week.|我下星期飛東京。
+document|n.|文件|off|Please sign this document.|請簽這份文件。
+pattern|n.|模式；圖案|gen|I like the pattern on this shirt.|我喜歡這件襯衫的圖案。
+application|n.|申請；應用程式|hr|Please fill out the job application.|請填寫工作申請表。
+hot|adj.|熱的；辣的|din|Be careful. The soup is hot.|小心，湯很燙。
+obviously|adv.|顯然地|gen|Obviously, he was tired.|顯然他累了。
+unclear|adj.|不清楚的|gen|The instructions are unclear.|說明不清楚。
+bill|n.|帳單；鈔票|fin|I need to pay the phone bill.|我需要繳電話費。
+search|v./n.|搜尋|gen|Search for the file on your computer.|在你的電腦上搜尋這個檔案。
+separate|adj./v.|分開的；分開|shp|Can we have separate checks?|我們可以分開結帳嗎？
+central|adj.|中央的；主要的|gen|The hotel is in a central location.|飯店位在市中心。
+career|n.|職業生涯|hr|I want a career in sales.|我想從事業務工作。
+anyway|adv.|無論如何；總之|gen|Thanks anyway.|還是謝謝你。
+speech|n.|演講|mtg|He gave a speech at the meeting.|他在會議上發表演講。
+dog|n.|狗|gen|I walk my dog every morning.|我每天早上遛狗。
+officer|n.|警官；主管|gen|The police officer helped us.|警察幫了我們。
+throughout|prep.|遍及；在整個……期間|gen|It rained throughout the day.|雨下了一整天。
+oil|n.|油；石油|din|Cook the vegetables in a little oil.|用一點油炒蔬菜。
+dress|n./v.|洋裝；穿衣|shp|She bought a new dress.|她買了一件新洋裝。
+profit|n.|利潤|fin|We made a good profit this year.|我們今年獲利不錯。
+guess|v.|猜|gen|Guess what happened!|猜猜發生了什麼事！

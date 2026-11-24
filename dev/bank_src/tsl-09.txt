@@ -1,0 +1,101 @@
+# TSL 801-900
+stapler|n.|釘書機|off|Can I borrow your stapler?|可以借我你的釘書機嗎？
+streamline|v.|使精簡；使更有效率|biz|We streamlined the ordering process.|我們簡化了訂購流程。
+substantially|adv.|大幅地；相當多地|fin|Costs increased substantially.|成本大幅增加。
+teller|n.|銀行櫃員|fin|Ask the bank teller for help.|請銀行櫃員幫忙。
+tidy|adj.|整齊的|off|Keep your desk tidy.|保持桌面整齊。
+toll|n.|通行費|trn|You have to pay a toll on this road.|這條路要付通行費。
+toner|n.|碳粉|off|The printer needs new toner.|印表機需要換新的碳粉。
+urgently|adv.|緊急地|off|We urgently need more staff.|我們急需更多人手。
+walkway|n.|走道；人行道|fac|The walkway connects the two buildings.|走道連接兩棟大樓。
+absorb|v.|吸收|gen|This towel absorbs water quickly.|這條毛巾吸水很快。
+administer|v.|管理；執行|off|She administers the training program.|她負責管理培訓計畫。
+ample|adj.|充足的|fac|There is ample parking.|有充足的停車位。
+antique|n.|古董|shp|He collects antiques.|他收藏古董。
+bean|n.|豆子|din|This coffee uses beans from Brazil.|這款咖啡使用巴西的咖啡豆。
+browse|v.|瀏覽；隨便看看|shp|I'm just browsing, thanks.|我只是隨便看看，謝謝。
+bye|int.|再見|gen|Bye, see you tomorrow!|再見，明天見！
+careless|adj.|粗心的|gen|It was a careless mistake.|那是一個粗心的錯誤。
+collector|n.|收藏家；收集者|gen|He is a stamp collector.|他是集郵家。
+conform|v.|符合；遵守|log|The product conforms to safety standards.|這項產品符合安全標準。
+congestion|n.|（交通）壅塞|trn|There is heavy congestion downtown.|市中心交通很擁擠。
+contradiction|n.|矛盾|gen|There is a contradiction in his story.|他的說法有矛盾。
+contrary|n.|（on the contrary）相反地|gen|On the contrary, I liked it a lot.|相反地，我非常喜歡。
+diploma|n.|畢業證書；文憑|hr|She has a diploma in nursing.|她有護理文憑。
+distributor|n.|經銷商|biz|We are the local distributor of their products.|我們是他們產品的當地經銷商。
+dive|v.|潛水；跳水|trv|We went diving in Kenting.|我們去墾丁潛水。
+energetic|adj.|精力充沛的|hr|She is an energetic speaker.|她是一位活力十足的講者。
+environmentally|adv.|在環境方面|log|We use environmentally friendly packaging.|我們使用環保包裝。
+escalator|n.|手扶梯|fac|Take the escalator to the second floor.|搭手扶梯到二樓。
+exotic|adj.|異國的；奇特的|trv|We tried some exotic fruit.|我們吃了一些異國水果。
+fabric|n.|布料|shp|This fabric is soft and light.|這種布料又軟又輕。
+generalization|n.|概括；籠統的說法|gen|That is too much of a generalization.|那樣說太籠統了。
+guidance|n.|指導；輔導|hr|Thank you for your guidance.|謝謝你的指導。
+gum|n.|口香糖|shp|Please don't chew gum in class.|上課請不要嚼口香糖。
+hesitant|adj.|猶豫的|gen|She was hesitant to ask for help.|她不太敢開口求助。
+indicator|n.|指標；跡象|fin|Sales are a key indicator of success.|銷售是成功的重要指標。
+individually|adv.|個別地|shp|Each item is wrapped individually.|每件商品都單獨包裝。
+junior|adj.|資淺的；初級的|hr|He is a junior accountant.|他是初級會計師。
+lifestyle|n.|生活方式|hlt|Exercise is part of a healthy lifestyle.|運動是健康生活的一部分。
+likewise|adv.|同樣地|gen|Nice to meet you. Likewise.|很高興認識你。我也是。
+morale|n.|士氣|hr|Staff morale is high this year.|今年員工士氣很高。|/məˈræl/
+orchestra|n.|管弦樂團|gen|The orchestra will play tonight.|管弦樂團今晚會演出。
+organizational|adj.|組織的|hr|She has good organizational skills.|她有很好的組織能力。
+outlook|n.|前景；展望|fin|The economic outlook is good.|經濟前景很好。
+physics|n.|物理學|gen|He studied physics in college.|他大學念物理。
+pole|n.|柱子；竿子|fac|A sign is hanging on the pole.|柱子上掛著一個標誌。
+puzzle|n.|謎題；拼圖|gen|The kids are doing a puzzle.|孩子們在玩拼圖。
+reflexive|adj.|（文法）反身的|gen|"Myself" is a reflexive pronoun.|「myself」是反身代名詞。
+snowy|adj.|下雪的|gen|It was a snowy day.|那天下著雪。
+steak|n.|牛排|din|How would you like your steak?|你的牛排要幾分熟？
+sticker|n.|貼紙|shp|Put a price sticker on each box.|在每個盒子上貼價格貼紙。
+telecommunication|n.|電信（常用複數）|biz|She works in telecommunications.|她在電信業工作。
+timely|adj.|及時的|biz|Thank you for your timely reply.|謝謝你及時回覆。
+uncomfortable|adj.|不舒服的|gen|These chairs are uncomfortable.|這些椅子坐起來不舒服。
+amenity|n.|設施（常用複數）|trv|The hotel has many amenities.|這家飯店有很多設施。
+approximate|adj.|大約的|fin|What is the approximate cost?|大約要花多少錢？
+await|v.|等待|gen|We await your reply.|我們等候你的回覆。
+barbecue|n.|烤肉|din|We had a barbecue in the backyard.|我們在後院烤肉。
+beginner|n.|初學者|gen|This class is for beginners.|這堂課是給初學者的。
+biology|n.|生物學|gen|She teaches biology.|她教生物。
+blanket|n.|毯子|trv|Can I have another blanket?|可以再給我一條毯子嗎？
+chairperson|n.|主席|mtg|The chairperson opened the meeting.|主席宣布會議開始。
+charitable|adj.|慈善的|fin|We support charitable groups.|我們支持慈善團體。
+checkup|n.|健康檢查|hlt|I go for a checkup every year.|我每年做一次健康檢查。
+cooler|n.|保冷箱；冷卻器|din|Put the drinks in the cooler.|把飲料放進保冷箱。
+crane|n.|起重機|log|A crane is lifting the boxes.|起重機正在吊起箱子。
+dealership|n.|（汽車）經銷商|trn|I bought my car at a dealership.|我在汽車經銷商買了車。
+dependable|adj.|可靠的|hr|She is a dependable worker.|她是一位可靠的員工。
+disconnect|v.|切斷；斷線|off|The call was disconnected.|電話斷線了。
+dispose|v.|（dispose of）丟棄；處理|fac|Dispose of batteries carefully.|小心處理廢電池。
+disrupt|v.|擾亂；中斷|trn|The storm disrupted flights.|暴風雨打亂了航班。
+dynamic|adj.|充滿活力的|hr|We are a young and dynamic team.|我們是年輕又有活力的團隊。
+enthusiastically|adv.|熱情地|gen|The crowd clapped enthusiastically.|觀眾熱烈地鼓掌。
+freelance|adj.|自由接案的|hr|He is a freelance designer.|他是自由接案的設計師。
+grill|v.|燒烤|din|We grilled fish for dinner.|我們晚餐烤魚。
+habitual|adj.|習慣性的|gen|He is a habitual late riser.|他習慣晚起。
+internationally|adv.|國際地|biz|The brand is known internationally.|這個品牌在國際上很有名。
+invaluable|adj.|非常寶貴的|hr|Your help was invaluable.|你的幫忙非常寶貴。
+messenger|n.|送信人；信差|log|A messenger brought the documents.|信差送來了文件。
+paperback|n.|平裝書|shp|The paperback is cheaper.|平裝本比較便宜。
+rebate|n.|退款；折扣|shp|You get a 10-dollar rebate.|你可以拿到十美元的退款。
+recur|v.|再發生；復發|gen|Call us if the problem recurs.|如果問題再發生請打電話給我們。
+reproduce|v.|複製；再現|off|Do not reproduce this document.|請勿複製這份文件。
+spray|v.|噴灑|fac|He is spraying water on the plants.|他正在對植物噴水。
+staple|v.|用釘書機釘|off|Please staple these pages together.|請把這幾頁釘在一起。
+strategic|adj.|策略性的|biz|We made a strategic decision.|我們做了一個策略性的決定。
+stripe|n.|條紋|shp|I like the shirt with blue stripes.|我喜歡那件藍色條紋的襯衫。
+teen|n.|青少年|gen|The program is for teens.|這個活動是給青少年的。
+tempt|v.|吸引；誘惑|shp|The low price tempted me to buy it.|低價吸引我買下它。
+timer|n.|計時器|din|Set the timer for ten minutes.|把計時器設定十分鐘。
+unload|v.|卸貨|log|Workers are unloading the truck.|工人正在卸貨。
+unusually|adv.|異常地；格外|gen|It is unusually cold today.|今天格外冷。
+vacate|v.|空出；搬出|fac|Please vacate the room by noon.|請在中午前退房。
+whale|n.|鯨魚|trv|We went on a whale-watching tour.|我們參加了賞鯨行程。
+wisely|adv.|明智地|fin|Spend your money wisely.|聰明地花錢。
+amateur|adj.|業餘的|gen|He is an amateur photographer.|他是業餘攝影師。
+ambassador|n.|大使|biz|She is the brand ambassador.|她是品牌大使。
+anew|adv.|重新|gen|Let's start anew tomorrow.|明天我們重新開始吧。
+architectural|adj.|建築的|fac|The building is an architectural wonder.|這棟大樓是建築奇觀。
+attain|v.|達到；獲得|biz|We attained our sales goal.|我們達成了銷售目標。
+balloon|n.|氣球|gen|The room was full of balloons.|房間裡滿是氣球。

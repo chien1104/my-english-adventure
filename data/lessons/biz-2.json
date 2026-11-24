@@ -1,7 +1,7 @@
 {
   "id": "biz-2",
-  "world": "business-city",
-  "order": 2,
+  "world": "part6",
+  "order": 1,
   "type": "reading",
   "title": "商務 Email 入門",
   "titleEn": "Business Email",
@@ -242,5 +242,9 @@
         }
       ]
     }
+  ],
+  "requires": [
+    "vocab-2",
+    "grammar-2"
   ]
 }

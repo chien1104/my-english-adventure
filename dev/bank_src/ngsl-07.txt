@@ -1,0 +1,101 @@
+# NGSL 601-700
+particularly|adv.|特別；尤其|gen|I particularly like the dessert.|我特別喜歡這道甜點。
+wife|n.|妻子|gen|This is my wife, Lisa.|這是我太太麗莎。
+sport|n.|運動|gen|What sports do you play?|你做什麼運動？
+prepare|v.|準備|mtg|I need to prepare for the meeting.|我需要為會議做準備。
+discuss|v.|討論|mtg|Let's discuss this tomorrow.|我們明天再討論這件事。
+response|n.|回應；回覆|off|Thank you for your quick response.|謝謝你迅速的回覆。
+voice|n.|聲音|gen|She has a beautiful voice.|她的聲音很好聽。
+piece|n.|一片；一件|din|Can I have a piece of cake?|可以給我一塊蛋糕嗎？
+finish|v.|完成；結束|gen|I'll finish the work today.|我今天會完成這份工作。
+suppose|v.|猜想；（be supposed to）應該|gen|The bus is supposed to arrive at five.|公車應該五點到。
+apply|v.|申請；應用|hr|I applied for a new job.|我應徵了一份新工作。
+president|n.|總統；總裁|biz|She is the president of the company.|她是公司的總裁。
+fire|n./v.|火；火災；開除|gen|There was a fire in the kitchen.|廚房發生了火災。
+compare|v.|比較|shp|Compare the prices before you buy.|買之前先比較價格。
+court|n.|法院；球場|gen|They play tennis on the court.|他們在球場上打網球。
+police|n.|警察|gen|Call the police!|打電話報警！
+store|n./v.|商店；儲存|shp|The store opens at ten.|這家店十點開門。
+poor|adj.|貧窮的；差的|gen|The sound quality is poor.|音質很差。
+knowledge|n.|知識|hr|She has a lot of knowledge about computers.|她對電腦很有研究。
+laugh|v.|笑|gen|Everyone laughed at the joke.|大家都被那個笑話逗笑了。
+arm|n.|手臂|hlt|I hurt my arm.|我的手臂受傷了。
+heart|n.|心；心臟|hlt|Exercise is good for your heart.|運動對心臟有益。
+source|n.|來源|gen|What is the source of this information?|這個資訊的來源是什麼？
+employee|n.|員工|hr|The company has 200 employees.|這家公司有兩百名員工。
+manage|v.|管理；設法做到|hr|She manages the store.|她管理這家店。
+simply|adv.|簡單地；只是|gen|Simply click here.|只要點這裡就好。
+bank|n.|銀行|fin|I need to go to the bank.|我需要去銀行。
+firm|n./adj.|公司；堅定的|biz|He works for a law firm.|他在一家律師事務所工作。
+cell|n.|細胞；（cell phone）手機|gen|Call me on my cell phone.|打我的手機。
+article|n.|文章|gen|I read an article about health.|我讀了一篇關於健康的文章。
+fast|adj./adv.|快的；快速地|gen|He walks very fast.|他走路很快。
+attack|n./v.|攻擊|gen|The attack happened at night.|攻擊發生在晚上。
+foreign|adj.|外國的|gen|Do you speak any foreign languages?|你會說任何外語嗎？
+surprise|n./v.|驚喜；使驚訝|gen|We planned a surprise party.|我們策劃了一場驚喜派對。
+feature|n.|特色；功能|shp|This phone has many new features.|這支手機有很多新功能。
+factor|n.|因素|gen|Price is an important factor.|價格是一個重要的因素。
+pretty|adv./adj.|相當；漂亮的|gen|The test was pretty easy.|考試相當簡單。
+recently|adv.|最近|gen|I recently moved to Taichung.|我最近搬到台中。
+affect|v.|影響|gen|The rain affected our plans.|下雨影響了我們的計畫。
+drop|v./n.|掉落；下降|fin|Prices dropped last month.|上個月價格下跌了。
+recent|adj.|最近的|gen|Here is a recent photo.|這是一張最近的照片。
+relate|v.|有關聯（be related to）|gen|This question is related to the last one.|這題和上一題有關。
+official|adj./n.|正式的；官員|gen|This is the official website.|這是官方網站。
+financial|adj.|財務的|fin|We need financial advice.|我們需要財務建議。
+miss|v.|錯過；想念|trn|I missed the bus.|我錯過了公車。
+art|n.|藝術|gen|I like modern art.|我喜歡現代藝術。
+campaign|n.|活動；宣傳活動|biz|We started a new ad campaign.|我們開始了一個新的廣告活動。
+private|adj.|私人的|gen|This is a private room.|這是私人房間。
+pause|v./n.|暫停|gen|Pause the video, please.|請把影片暫停。
+everyone|pron.|每個人|gen|Hello, everyone!|大家好！
+forget|v.|忘記|gen|Don't forget your umbrella.|別忘了你的雨傘。
+page|n.|頁|gen|Turn to page five.|翻到第五頁。
+worry|v.|擔心|gen|Don't worry. It's OK.|別擔心，沒關係。
+summer|n.|夏天|gen|We go to the beach in summer.|我們夏天會去海邊。
+drink|v./n.|喝；飲料|din|What would you like to drink?|你想喝什麼？
+opinion|n.|意見|mtg|What is your opinion?|你的意見是什麼？
+park|n./v.|公園；停車|trn|You can't park here.|你不能在這裡停車。
+represent|v.|代表|biz|She represents our company.|她代表我們公司。
+key|n./adj.|鑰匙；關鍵的|gen|This is the key point.|這是關鍵重點。
+inside|adv./prep.|在裡面|gen|Let's go inside.|我們進去裡面吧。
+manager|n.|經理|hr|I'd like to speak to the manager.|我想和經理談談。
+international|adj.|國際的|trv|This is an international flight.|這是國際航班。
+contain|v.|包含|din|This drink contains sugar.|這種飲料含有糖。
+notice|v./n.|注意到；通知|off|Did you notice the change?|你有注意到這個改變嗎？
+wonder|v.|想知道|gen|I wonder if you can help me.|不知道你能不能幫我。
+nature|n.|自然；本質|gen|I love being in nature.|我喜歡待在大自然裡。
+structure|n.|結構|gen|The building has a strong structure.|這棟大樓的結構很堅固。
+section|n.|部分；區域|gen|Read the first section.|閱讀第一部分。
+myself|pron.|我自己|gen|I made it myself.|這是我自己做的。
+exactly|adv.|確切地；正是|gen|That's exactly right.|完全正確。
+plant|n./v.|植物；工廠；種植|log|He works at a car plant.|他在汽車工廠工作。
+paint|v./n.|油漆；畫|fac|They are painting the wall.|他們正在油漆牆壁。
+worker|n.|工人；員工|log|The workers are wearing helmets.|工人們戴著安全帽。
+press|v./n.|按；新聞界|gen|Press the green button.|按下綠色按鈕。
+whatever|pron.|無論什麼|gen|Order whatever you like.|你喜歡什麼就點什麼。
+necessary|adj.|必要的|gen|Is it necessary to book?|需要預約嗎？
+region|n.|地區|gen|This region is famous for tea.|這個地區以茶聞名。
+growth|n.|成長|biz|The company had strong growth this year.|公司今年成長強勁。
+evening|n.|傍晚；晚上|gen|Good evening!|晚安！（晚上好）
+influence|n./v.|影響|gen|My teacher had a big influence on me.|我的老師對我影響很大。
+respect|n./v.|尊重|hr|We respect each other.|我們互相尊重。
+various|adj.|各種的|shp|We sell various kinds of tea.|我們販售各種茶。
+catch|v.|抓住；趕上|trn|I need to catch the 8:00 train.|我要趕上八點的火車。
+thus|adv.|因此|gen|Sales rose, thus profits grew.|銷售成長，因此利潤增加。
+skill|n.|技能|hr|Computer skills are important.|電腦技能很重要。
+attempt|n./v.|嘗試|gen|He passed the test on his first attempt.|他第一次就通過了考試。
+son|n.|兒子|gen|My son is ten years old.|我兒子十歲。
+simple|adj.|簡單的|gen|The question is simple.|這個問題很簡單。
+medium|adj./n.|中等的；媒介|din|I'd like a medium coffee.|我要一杯中杯咖啡。
+average|adj./n.|平均的；平均|gen|The average age is 30.|平均年齡是三十歲。
+stock|n.|庫存；股票|shp|This item is out of stock.|這件商品缺貨。
+management|n.|管理；資方|hr|Management approved the plan.|管理階層核准了這個計畫。
+character|n.|個性；角色；字元|gen|She has a strong character.|她個性很堅強。
+bed|n.|床|trv|The room has two beds.|房間有兩張床。
+hit|v.|打；撞|trn|The car hit a tree.|車子撞到一棵樹。
+establish|v.|建立；設立|biz|The company was established in 1990.|這家公司成立於 1990 年。
+indeed|adv.|確實；的確|gen|It was indeed a good idea.|那確實是個好主意。
+final|adj.|最後的|gen|This is the final question.|這是最後一題。
+economy|n.|經濟|fin|The economy is growing.|經濟正在成長。
+fit|v./adj.|適合；合身；健康的|shp|These shoes don't fit.|這雙鞋不合腳。

@@ -21,7 +21,7 @@ D = json.load(open(os.path.join(ROOT, 'data/diagnosis.json')))
 for q in D['questions']: Q[q['id']] = q
 for f in glob.glob(os.path.join(ROOT, 'data/vocab/*.json')):
     for w in json.load(open(f)): WORDS[w['id']] = w
-BY_IMG = {w['image']: w for w in WORDS.values()}
+BY_IMG = {w['image']: w for w in WORDS.values() if w.get('image')}
 
 results, errors = [], []
 def check(name, cond, detail=''): results.append((name, bool(cond), detail))
@@ -88,7 +88,7 @@ try:
             else: page.click('[data-act=skip]')
             page.wait_for_timeout(20)
         page.wait_for_selector('[data-testid=diagnosis-result]')
-        page.goto(BASE + '#/world?id=word-village'); page.wait_for_selector('[data-testid=lesson-list]')
+        page.goto(BASE + '#/world?id=words'); page.wait_for_selector('[data-testid=lesson-list]')
         check('單字診斷達標：單字村莊 3 課全部開放', page.locator('[data-testid^=start-vocab]').count() == 3)
 
         # 有音檔才顯示按鈕

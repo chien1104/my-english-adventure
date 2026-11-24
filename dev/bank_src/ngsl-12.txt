@@ -1,0 +1,101 @@
+# NGSL 1101-1200
+nobody|pron.|沒有人|gen|Nobody answered the phone.|沒有人接電話。
+examine|v.|檢查；審查|hlt|The doctor examined my eyes.|醫生檢查了我的眼睛。
+lay|v.|放置；鋪|gen|Lay the papers on the desk.|把文件放在桌上。
+speed|n.|速度|trn|Please slow down your speed.|請放慢速度。
+politics|n.|政治|gen|I'm not interested in politics.|我對政治沒興趣。
+reply|v./n.|回覆|off|Please reply by Friday.|請在星期五前回覆。
+display|n./v.|展示；陳列|shp|The new phones are on display.|新手機正在展示中。
+transfer|v./n.|轉帳；轉調；轉乘|fin|I transferred the money yesterday.|我昨天轉帳了。
+perfect|adj.|完美的|gen|Your English is perfect.|你的英文很完美。
+slightly|adv.|稍微|gen|The price is slightly higher.|價格稍微高一點。
+overall|adj./adv.|整體的；整體來說|gen|Overall, the trip was great.|整體來說，這趟旅行很棒。
+intend|v.|打算|gen|I intend to stay for a week.|我打算待一個星期。
+user|n.|使用者|off|Enter your user name.|輸入你的使用者名稱。
+respond|v.|回應；回覆|off|Please respond to the email.|請回覆這封電子郵件。
+dinner|n.|晚餐|din|What's for dinner?|晚餐吃什麼？
+slow|adj.|慢的|gen|The Internet is slow today.|今天網路很慢。
+regular|adj.|定期的；一般的|shp|She is a regular customer.|她是常客。
+physical|adj.|身體的；實體的|hlt|I have a physical checkup every year.|我每年做一次身體檢查。
+apart|adv.|分開；相隔|gen|The two offices are far apart.|兩間辦公室相隔很遠。
+suit|n./v.|西裝；適合|shp|He is wearing a black suit.|他穿著黑色西裝。
+federal|adj.|聯邦的|gen|He works for the federal government.|他在聯邦政府工作。
+reveal|v.|揭露|biz|The company revealed its new logo.|公司公開了新商標。
+percentage|n.|百分比|fin|What percentage of customers are happy?|有多少百分比的顧客感到滿意？
+peace|n.|和平；寧靜|gen|I want some peace and quiet.|我想要一點寧靜。
+status|n.|狀態；地位|log|Check the status of your order.|查看你的訂單狀態。
+crime|n.|犯罪|gen|Crime is low in this area.|這一區犯罪率很低。
+decline|v./n.|下降；婉拒|fin|Sales declined last month.|上個月銷售下滑了。
+decade|n.|十年|gen|I have lived here for a decade.|我在這裡住了十年。
+launch|v./n.|推出；發表|biz|We will launch a new product in June.|我們六月將推出新產品。
+warn|v.|警告|gen|I warned you about the rain.|我提醒過你會下雨。
+consumer|n.|消費者|biz|Consumers want lower prices.|消費者希望價格更低。
+favor|n.|幫忙；恩惠|gen|Can you do me a favor?|你可以幫我一個忙嗎？
+dry|adj./v.|乾的；弄乾|gen|Keep the box dry.|保持箱子乾燥。
+partner|n.|夥伴；合夥人|biz|He is my business partner.|他是我的事業夥伴。
+institution|n.|機構|gen|Banks are financial institutions.|銀行是金融機構。
+spot|n./v.|地點；發現|gen|This is a nice spot for a picnic.|這是野餐的好地點。
+horse|n.|馬|gen|She can ride a horse.|她會騎馬。
+eventually|adv.|最後；終於|gen|Eventually, we found the hotel.|最後我們找到了飯店。
+heat|n./v.|熱；加熱|din|Heat the soup for two minutes.|把湯加熱兩分鐘。
+excite|v.|使興奮（be excited）|gen|I'm excited about the trip.|我對這趟旅行感到很興奮。
+reader|n.|讀者|biz|The magazine has many readers.|這本雜誌有很多讀者。
+importance|n.|重要性|gen|Don't forget the importance of sleep.|別忘了睡眠的重要性。
+distance|n.|距離|trn|What is the distance to the airport?|到機場的距離是多少？
+guide|n./v.|導遊；指南；引導|trv|Our guide spoke English.|我們的導遊說英文。
+grant|n./v.|補助金；給予|fin|We got a grant for the project.|我們為這個專案拿到了補助金。
+taxi|n.|計程車|trn|Let's take a taxi.|我們搭計程車吧。
+feed|v.|餵|gen|Don't feed the animals.|不要餵動物。
+pain|n.|疼痛|hlt|I have a pain in my back.|我的背很痛。
+sector|n.|部門；產業|biz|He works in the public sector.|他在公部門工作。
+mistake|n.|錯誤|gen|Sorry, it was my mistake.|抱歉，是我的錯。
+ensure|v.|確保|gen|Please ensure the door is locked.|請確保門鎖好。
+satisfy|v.|使滿意|shp|We want to satisfy our customers.|我們想讓顧客滿意。
+chief|adj./n.|主要的；首長|biz|He is the chief financial officer.|他是財務長。
+cool|adj.|涼爽的；酷的|gen|It's cool in the evening.|晚上很涼爽。
+expert|n.|專家|gen|She is an expert in marketing.|她是行銷專家。
+wave|v./n.|揮手；波浪|gen|She waved goodbye.|她揮手道別。
+south|n./adv.|南方|trv|We drove south to Kenting.|我們往南開到墾丁。
+labor|n.|勞動；勞工|hr|Labor costs are high.|人工成本很高。
+surface|n.|表面|gen|Clean the surface with a cloth.|用布擦拭表面。
+library|n.|圖書館|gen|I study at the library.|我在圖書館讀書。
+excellent|adj.|優秀的；極好的|gen|You did an excellent job.|你做得非常好。
+edge|n.|邊緣|gen|Don't stand near the edge.|不要站在邊緣附近。
+camp|n./v.|營地；露營|gen|We went to a summer camp.|我們去參加夏令營。
+audience|n.|觀眾；聽眾|mtg|The audience clapped.|觀眾鼓掌了。
+lift|v./n.|舉起；搭便車|gen|Can you help me lift this box?|你可以幫我抬這個箱子嗎？
+procedure|n.|程序；步驟|off|Follow the safety procedure.|遵照安全程序。
+email|n./v.|電子郵件；寄電子郵件|off|I'll email you the details.|我會用電子郵件把細節寄給你。
+global|adj.|全球的|biz|We are a global company.|我們是一家全球化的公司。
+struggle|v./n.|努力；掙扎|gen|I struggle to wake up early.|我很難早起。
+advertise|v.|登廣告|biz|We advertise on social media.|我們在社群媒體上打廣告。
+select|v.|選擇|shp|Select a size and color.|選擇尺寸和顏色。
+surround|v.|圍繞|gen|The house is surrounded by trees.|房子被樹木環繞。
+extent|n.|程度；範圍|gen|To some extent, I agree.|某種程度上我同意。
+river|n.|河流|gen|We walked along the river.|我們沿著河邊散步。
+annual|adj.|每年的；年度的|fin|Our annual meeting is in May.|我們的年度會議在五月。
+fully|adv.|完全地|gen|The hotel is fully booked.|飯店全部訂滿了。
+contrast|n.|對比|gen|In contrast, the second plan is cheaper.|相較之下，第二個計畫比較便宜。
+roll|v./n.|滾動；捲；麵包捲|din|I had a roll and coffee.|我吃了一個小麵包配咖啡。
+reality|n.|現實|gen|In reality, it was harder.|事實上，那比較難。
+photograph|n.|照片|gen|Photographs are not allowed here.|這裡禁止拍照。
+artist|n.|藝術家|gen|She is a famous artist.|她是一位知名的藝術家。
+conflict|n.|衝突|mtg|I have a schedule conflict.|我的時間撞期了。
+entire|adj.|整個的|gen|I read the entire book.|我讀完了整本書。
+presence|n.|出席；存在|mtg|Your presence is requested.|敬請出席。
+crowd|n.|人群|gen|There was a big crowd at the station.|車站有一大群人。
+corner|n.|角落；轉角|trn|The bank is on the corner.|銀行在轉角。
+gas|n.|汽油；瓦斯|trn|We need to stop for gas.|我們需要停下來加油。
+shift|n./v.|輪班；轉移|hr|I work the night shift.|我上夜班。
+net|adj./n.|淨的；網|fin|What is the net profit?|淨利是多少？
+category|n.|類別|gen|Choose a category.|選擇一個類別。
+secretary|n.|祕書|off|Ask my secretary for an appointment.|請向我的祕書預約。
+defense|n.|防禦；國防|gen|He works for the defense department.|他在國防部門工作。
+quick|adj.|快的|gen|Can I ask a quick question?|我可以快速問一個問題嗎？
+cook|v./n.|煮；廚師|din|I cook dinner every night.|我每天晚上煮晚餐。
+spread|v.|散布；塗抹|gen|The news spread quickly.|消息很快就傳開了。
+nuclear|adj.|核能的|gen|The country has nuclear power plants.|這個國家有核電廠。
+scale|n.|規模；秤|gen|This is a large-scale project.|這是一個大規模的專案。
+driver|n.|司機；駕駛|trn|The bus driver was friendly.|公車司機很友善。
+ball|n.|球|gen|The kids are playing with a ball.|孩子們在玩球。
+cry|v.|哭；喊叫|gen|The baby is crying.|寶寶在哭。

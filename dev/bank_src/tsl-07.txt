@@ -1,0 +1,101 @@
+# TSL 601-700
+clip|n.|迴紋針；夾子；短片|off|Use a paper clip to hold the pages.|用迴紋針把這幾頁夾住。
+comply|v.|遵守；服從|hr|All factories must comply with safety rules.|所有工廠都必須遵守安全規定。
+diner|n.|用餐者；小餐館|din|The diners enjoyed the meal.|用餐的客人很喜歡這頓飯。
+duplicate|n.|副本；複製品|off|Please keep a duplicate of the receipt.|請保留收據的副本。
+eager|adj.|渴望的；熱切的|hr|She is eager to learn.|她很渴望學習。
+economist|n.|經濟學家|fin|The economist expects prices to rise.|經濟學家預測物價會上漲。
+embassy|n.|大使館|trv|Apply for a visa at the embassy.|到大使館申請簽證。
+fasten|v.|繫緊；扣上|trv|Please fasten your seat belt.|請繫好安全帶。
+harmful|adj.|有害的|hlt|Smoking is harmful to your health.|吸菸有害健康。
+informative|adj.|提供資訊的；有益的|mtg|The talk was very informative.|這場演講很有收穫。
+institute|n.|機構；學院|gen|She works at a research institute.|她在一間研究機構工作。
+kit|n.|一套工具；套件|hlt|Where is the first-aid kit?|急救箱在哪裡？
+locally|adv.|在當地|din|We use locally grown vegetables.|我們使用當地種植的蔬菜。
+mentor|n.|導師；指導者|hr|My mentor helped me a lot.|我的導師幫了我很多。
+nominate|v.|提名|hr|She was nominated for the award.|她被提名角逐這個獎。
+opt|v.|選擇|gen|Many workers opt to work from home.|許多員工選擇在家工作。
+parade|n.|遊行|gen|The parade starts at noon.|遊行在中午開始。
+physician|n.|醫師|hlt|Ask your physician before taking this.|服用前請先詢問你的醫師。
+polish|v.|擦亮；潤飾|off|Please polish the report before Friday.|請在星期五前把報告修飾好。
+postage|n.|郵資|log|How much is the postage?|郵資是多少？
+recreational|adj.|娛樂的；休閒的|gen|The park has recreational activities.|公園裡有休閒活動。
+rehearse|v.|排練；預演|mtg|Let's rehearse the presentation.|我們來預演一下簡報吧。
+removal|n.|移除；清除|fac|Trash removal is on Tuesday.|星期二收垃圾。
+satisfactory|adj.|令人滿意的|biz|The results were satisfactory.|結果令人滿意。
+seasonal|adj.|季節性的|hr|We hire seasonal workers in summer.|我們夏天會僱用季節性員工。
+separately|adv.|分開地|shp|These items are sold separately.|這些商品分開販售。
+turnover|n.|營業額；人員流動率|hr|The company has a high staff turnover.|這家公司員工流動率很高。
+unnecessary|adj.|不必要的|gen|Avoid unnecessary costs.|避免不必要的開支。
+accordingly|adv.|因此；相應地|gen|Plans changed, so we acted accordingly.|計畫改了，所以我們跟著調整。
+apple|n.|蘋果|din|I eat an apple every day.|我每天吃一顆蘋果。
+applicable|adj.|適用的|gen|Fill in all applicable boxes.|填寫所有適用的欄位。
+auction|n.|拍賣|shp|The painting was sold at an auction.|這幅畫在拍賣會上賣出。
+balcony|n.|陽台|fac|The room has a small balcony.|房間有一個小陽台。
+basement|n.|地下室|fac|The parking lot is in the basement.|停車場在地下室。
+beforehand|adv.|事先；預先|gen|Please call beforehand.|請事先打電話。
+culinary|adj.|烹飪的|din|She went to culinary school.|她念過烹飪學校。
+documentary|n.|紀錄片|gen|We watched a documentary about the ocean.|我們看了一部關於海洋的紀錄片。
+downturn|n.|（經濟）衰退|fin|Sales fell during the downturn.|景氣衰退期間銷售下滑。
+earthquake|n.|地震|gen|There was a small earthquake last night.|昨晚有一場小地震。
+elegant|adj.|優雅的；高雅的|shp|This is an elegant dress.|這是一件優雅的洋裝。
+excessive|adj.|過多的；過度的|gen|Excessive noise is not allowed.|不允許過大的噪音。
+generic|adj.|通用的；無品牌的|hlt|Generic drugs are cheaper.|學名藥比較便宜。
+jazz|n.|爵士樂|gen|There is live jazz on Fridays.|星期五有現場爵士樂表演。
+lifetime|n.|一生；終身|shp|This bag has a lifetime warranty.|這個包包享有終身保固。
+massage|n.|按摩|hlt|I had a massage at the spa.|我在水療中心做了按摩。
+maximize|v.|使最大化|biz|We want to maximize profits.|我們想讓利潤最大化。
+mild|adj.|溫和的；溫暖的|gen|The weather is mild today.|今天天氣溫和。
+ongoing|adj.|進行中的|off|The project is ongoing.|這個專案正在進行中。
+periodically|adv.|定期地|log|Check the machine periodically.|定期檢查機器。
+pie|n.|派（點心）|din|I'd like a piece of apple pie.|我要一片蘋果派。
+plug|v.|插上插頭（plug in）|off|Plug in the laptop before the meeting.|開會前先把筆電接上電源。
+recruitment|n.|招募|hr|Recruitment starts in March.|招募三月開始。
+referee|n.|裁判|gen|The referee stopped the game.|裁判暫停了比賽。
+referral|n.|推薦；轉介|hr|I got the job through a referral.|我是經由推薦得到這份工作的。
+renowned|adj.|有名的；著名的|din|The restaurant is renowned for its soup.|這家餐廳以湯聞名。
+runner|n.|跑者|hlt|Many runners joined the race.|很多跑者參加了比賽。
+sock|n.|襪子|shp|I bought three pairs of socks.|我買了三雙襪子。
+spam|n.|垃圾郵件|off|The email went to my spam folder.|那封信跑到我的垃圾郵件匣。
+surf|v.|衝浪；上網瀏覽|gen|I like to surf in the summer.|我夏天喜歡去衝浪。
+timetable|n.|時刻表|trn|Check the bus timetable.|查看公車時刻表。
+vase|n.|花瓶|fac|There are flowers in the vase.|花瓶裡有花。
+aboard|adv.|在（船、飛機、車）上|trv|Welcome aboard!|歡迎登機！
+advancement|n.|晉升；進步|hr|This job offers chances for advancement.|這份工作有晉升的機會。
+advertiser|n.|廣告商|biz|The magazine has many advertisers.|這本雜誌有很多廣告商。
+alternatively|adv.|或者；另外|gen|Alternatively, you can pay online.|或者，你也可以線上付款。
+amuse|v.|逗樂；使開心|gen|The show amused the children.|這個表演逗得孩子們很開心。
+attorney|n.|律師|gen|Please talk to your attorney.|請和你的律師談談。
+authorization|n.|授權；許可|off|You need authorization to enter.|你需要授權才能進入。
+campus|n.|校園；園區|gen|The company has a large campus.|這家公司有一個很大的園區。
+candy|n.|糖果|shp|The kids want some candy.|孩子們想要糖果。
+certify|v.|證明；認證|hr|She is certified to teach English.|她有教英文的證照。
+checkout|n.|結帳台；退房|shp|Please pay at the checkout.|請到結帳台付款。
+chemistry|n.|化學|gen|He teaches chemistry.|他教化學。
+circulation|n.|發行量；流通|biz|The newspaper has a large circulation.|這份報紙的發行量很大。
+concierge|n.|（飯店）服務台人員|trv|Ask the concierge for a taxi.|請飯店服務台幫你叫計程車。|/ˌkɑnsiˈɛrʒ/
+consent|n.|同意；許可|gen|We need your written consent.|我們需要你的書面同意。
+consistently|adv.|一貫地；始終如一地|biz|Our sales have been consistently high.|我們的銷售一直都很好。
+cookie|n.|餅乾|din|Would you like a cookie?|你要來片餅乾嗎？
+deck|n.|甲板；露台|trv|Let's go up to the deck.|我們上甲板去吧。
+descriptive|adj.|描述性的|gen|Write a descriptive title.|寫一個描述清楚的標題。
+detach|v.|拆下；撕下|off|Detach this part and mail it back.|撕下這一部分寄回來。
+documentation|n.|證明文件；說明文件|off|Please send the required documentation.|請寄送所需的證明文件。
+entrepreneur|n.|企業家；創業者|biz|She is a young entrepreneur.|她是一位年輕的創業家。
+exceptional|adj.|傑出的；特殊的|hr|She did an exceptional job.|她的工作表現非常傑出。
+familiarize|v.|使熟悉|hr|Please familiarize yourself with the rules.|請熟悉一下這些規定。
+hotline|n.|服務專線；熱線|shp|Call our customer hotline.|撥打我們的客服專線。
+intonation|n.|語調|gen|Listen to the speaker's intonation.|注意說話者的語調。
+invention|n.|發明|biz|The phone was a great invention.|電話是一項偉大的發明。
+irritate|v.|激怒；刺激|gen|Loud music irritates me.|大聲的音樂讓我很煩。
+locker|n.|置物櫃|fac|Put your bag in the locker.|把包包放進置物櫃。
+overlook|v.|忽略；俯瞰|gen|The hotel overlooks the sea.|這家飯店可以俯瞰大海。
+patent|n.|專利|biz|The company holds a patent on the design.|這家公司擁有這項設計的專利。
+payable|adj.|應支付的|fin|The bill is payable by May 1.|這張帳單須在五月一日前付清。
+preliminary|adj.|初步的|biz|Here are the preliminary results.|這是初步的結果。
+salesman|n.|男銷售員|biz|The salesman showed us the car.|男業務員帶我們看車。
+sauna|n.|三溫暖；桑拿|hlt|The gym has a sauna.|健身房有三溫暖。
+smoothly|adv.|順利地|mtg|The event went smoothly.|活動進行得很順利。
+sunshine|n.|陽光|gen|Enjoy the sunshine!|好好享受陽光吧！
+tow|v.|拖吊|trn|My car was towed away.|我的車被拖吊了。
+translator|n.|翻譯員|off|We hired a translator.|我們請了一位翻譯。

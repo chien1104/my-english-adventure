@@ -262,22 +262,31 @@ export async function render({ outlet, db, settings, query, refreshIndicator }) 
         if ((k === 'audio' || k === 'exampleAudio') && typeof v === 'string' && !v.startsWith('data:')) all.add(v); else walk(v);
       }
     };
-    walk(await db.getAll('vocab')); walk(await db.getAll('lessons'));
+    const vocab = await db.getAll('vocab');
+    const reviews = new Map((await db.getAll('reviews')).map((r) => [r.wordId, r]));
+    walk(await db.getAll('lessons'));
+    walk(vocab.filter((w) => !w.list || (reviews.get(w.id) && reviews.get(w.id).status !== 'new')));
+    const basic = [...all];
+    walk(vocab);
     const srcs = [...all];
     if (!srcs.length || !(await hasAudio(srcs[0]))) { audioBox.innerHTML = ''; return; }
     const missing = Math.max(0, srcs.length - st.audio);
+    const mb = (n) => Math.max(1, Math.round(n * 0.009)); // 平均每個音檔約 9 KB
     audioBox.innerHTML = missing
-      ? `<div class="btn-row"><button type="button" class="btn btn--ghost" data-act="dl-audio" data-testid="dl-audio">下載全部音檔（${srcs.length} 個，約 4 MB）</button></div><p class="hint" data-role="dl-progress">下載後，單字發音、例句、對話和多益聽力都能離線播放。沒下載的音檔也會在第一次播放時自動存起來。</p>`
+      ? `<div class="btn-row">
+          <button type="button" class="btn btn--ghost" data-act="dl-audio" data-set="basic" data-testid="dl-audio">下載課程與學過的單字（${basic.length} 個，約 ${mb(basic.length)} MB）</button>
+          <button type="button" class="btn btn--ghost" data-act="dl-audio" data-set="all" data-testid="dl-audio-all">下載全部音檔（${srcs.length} 個，約 ${mb(srcs.length)} MB）</button>
+        </div><p class="hint" data-role="dl-progress">下載後就能離線播放。全部音檔包含整個多益單字庫，建議連 Wi-Fi 再下載。沒下載的音檔也會在第一次播放時自動存起來。</p>`
       : '<p class="status-line status-line--good" data-testid="dl-done">✅ 全部音檔都已下載，可以離線播放</p>';
     if (!missing) return;
-    audioBox.querySelector('[data-act="dl-audio"]').addEventListener('click', async (e) => {
-      e.target.disabled = true;
+    audioBox.querySelectorAll('[data-act="dl-audio"]').forEach((btn) => btn.addEventListener('click', async () => {
+      audioBox.querySelectorAll('[data-act="dl-audio"]').forEach((b) => { b.disabled = true; });
       const prog = audioBox.querySelector('[data-role="dl-progress"]');
-      const r = await downloadAudio(srcs, (d, n) => { prog.textContent = `下載中 ${d} / ${n}`; });
+      const r = await downloadAudio(btn.dataset.set === 'all' ? srcs : basic, (d, n) => { prog.textContent = `下載中 ${d} / ${n}`; });
       prog.textContent = r.failed ? `完成，${r.failed} 個下載失敗，可以稍後再試一次。` : `完成！${r.done} 個音檔已存到這台裝置。`;
       clearAudioCache();
       await paintOffline();
-    });
+    }));
   }
   paintOffline();
 

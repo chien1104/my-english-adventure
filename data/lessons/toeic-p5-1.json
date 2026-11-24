@@ -1,7 +1,7 @@
 {
   "id": "toeic-p5-1",
-  "world": "toeic-camp",
-  "order": 5,
+  "world": "part5",
+  "order": 1,
   "type": "toeic",
   "title": "Part 5 入門：先找主詞",
   "titleEn": "TOEIC Part 5 Basics",
@@ -348,5 +348,10 @@
         }
       ]
     }
+  ],
+  "requires": [
+    "grammar-1",
+    "grammar-2",
+    "grammar-3"
   ]
 }

@@ -1,0 +1,101 @@
+# NGSL 301-400
+control|v./n.|控制；管理|gen|You can control the lights with your phone.|你可以用手機控制燈光。
+already|adv.|已經|gen|I have already eaten.|我已經吃過了。
+concern|n./v.|擔心；關心的事|gen|Thank you for your concern.|謝謝你的關心。
+product|n.|產品|biz|This is our newest product.|這是我們最新的產品。
+lose|v.|遺失；輸掉|gen|Don't lose your ticket.|不要弄丟你的票。
+story|n.|故事；（建築）樓層|gen|Tell me a story.|講個故事給我聽。
+almost|adv.|幾乎|gen|I'm almost ready.|我差不多準備好了。
+continue|v.|繼續|gen|Please continue.|請繼續。
+stand|v.|站|gen|People are standing in line.|人們在排隊。
+whole|adj.|整個的|gen|I worked the whole day.|我工作了一整天。
+yet|adv.|還（沒）；尚未|gen|I haven't finished yet.|我還沒做完。
+rate|n.|比率；費用|fin|What is the room rate?|房價是多少？
+care|n./v.|照顧；在乎|hlt|Take care of yourself.|照顧好自己。
+expect|v.|預期；期待|gen|We expect the package tomorrow.|我們預計包裹明天到。
+effect|n.|效果；影響|gen|The medicine had a good effect.|這個藥效果很好。
+sort|n./v.|種類；分類|off|Please sort the files by date.|請依日期整理檔案。
+ever|adv.|曾經|gen|Have you ever been to Japan?|你去過日本嗎？
+anything|pron.|任何事物|gen|Do you need anything?|你需要什麼東西嗎？
+cause|v./n.|造成；原因|gen|The rain caused a delay.|下雨造成了延誤。
+fall|v./n.|落下；跌倒；秋天|gen|Be careful not to fall.|小心不要跌倒。
+deal|n./v.|交易；處理（deal with）|biz|I'll deal with the problem.|我會處理這個問題。
+water|n.|水|din|Can I have some water?|可以給我一些水嗎？
+send|v.|寄送|off|Please send me the file.|請把檔案寄給我。
+allow|v.|允許|gen|Pets are not allowed.|不允許攜帶寵物。
+soon|adv.|很快|gen|See you soon.|待會見。
+watch|v./n.|觀看；手錶|gen|I watch TV after dinner.|我晚餐後看電視。
+base|n./v.|基礎；以……為基地|biz|The company is based in Taipei.|這家公司總部設在台北。
+probably|adv.|大概；可能|gen|It will probably rain.|大概會下雨。
+suggest|v.|建議|gen|I suggest we leave early.|我建議我們早點出發。
+past|n./prep.|過去；經過|gen|It's ten past three.|現在三點十分。
+power|n.|電力；力量|fac|The power went out.|停電了。
+test|n./v.|測驗；檢查|gen|I have an English test tomorrow.|我明天有英文考試。
+visit|v./n.|拜訪；參觀|trv|We visited the museum.|我們參觀了博物館。
+center|n.|中心|gen|The hotel is in the city center.|飯店在市中心。
+grow|v.|成長；種植|biz|Our business is growing.|我們的生意在成長。
+nothing|pron.|沒有東西|gen|There is nothing in the box.|箱子裡什麼都沒有。
+return|v./n.|回來；歸還|shp|I want to return this shirt.|我想退還這件襯衫。
+mother|n.|母親|gen|My mother is a teacher.|我媽媽是老師。
+walk|v./n.|走路；散步|gen|I walk to work.|我走路上班。
+matter|n./v.|事情；要緊|gen|It doesn't matter.|沒關係。
+mind|n./v.|心思；介意|gen|Do you mind if I sit here?|你介意我坐這裡嗎？
+value|n.|價值|shp|This bag is good value for money.|這個包包很划算。
+office|n.|辦公室|off|My office is on the fifth floor.|我的辦公室在五樓。
+record|n./v.|紀錄；記錄|off|Keep a record of your expenses.|記錄你的開支。
+stay|v.|停留；住|trv|We stayed at a small hotel.|我們住在一家小飯店。
+force|n./v.|力量；強迫|gen|The rain forced us to stay inside.|下雨逼得我們待在室內。
+stop|v.|停止|gen|The bus stops here.|公車停在這裡。
+several|det.|幾個|gen|I called him several times.|我打給他好幾次了。
+light|n./adj.|燈；光；輕的|gen|Turn on the light.|把燈打開。
+develop|v.|發展；開發|biz|We are developing a new app.|我們正在開發一個新的應用程式。
+remember|v.|記得|gen|I don't remember his name.|我不記得他的名字。
+bit|n.|一點點（a bit）|gen|I'm a bit tired.|我有點累。
+share|v.|分享；共用|gen|We share an office.|我們共用一間辦公室。
+real|adj.|真的；真實的|gen|Is this real leather?|這是真皮嗎？
+answer|n./v.|答案；回答|gen|What is the answer?|答案是什麼？
+sit|v.|坐|gen|Please sit here.|請坐這裡。
+figure|n.|數字；人物|fin|The sales figures look good.|銷售數字看起來不錯。
+letter|n.|信；字母|off|I wrote a letter to the manager.|我寫了一封信給經理。
+decide|v.|決定|gen|I decided to take the job.|我決定接受這份工作。
+language|n.|語言|gen|How many languages do you speak?|你會說幾種語言？
+subject|n.|主題；科目|off|What is the subject of the email?|這封信的主旨是什麼？
+class|n.|課；班級|gen|My English class is on Monday.|我的英文課在星期一。
+development|n.|發展；開發|biz|She works in product development.|她從事產品開發。
+town|n.|城鎮|gen|I grew up in a small town.|我在一個小鎮長大。
+half|n.|一半|gen|I'll be there in half an hour.|我半小時後到。
+minute|n.|分鐘|gen|Please wait a minute.|請稍等一下。
+food|n.|食物|din|The food here is cheap.|這裡的食物很便宜。
+break|n./v.|休息；打破|off|Let's take a short break.|我們休息一下吧。
+clear|adj.|清楚的；晴朗的|gen|Is that clear?|這樣清楚嗎？
+future|n.|未來|gen|What are your plans for the future?|你對未來有什麼計畫？
+either|det./adv.|兩者之一；也（不）|gen|You can take either bus.|兩班公車你都可以搭。
+ago|adv.|……以前|gen|I came here two years ago.|我兩年前來到這裡。
+per|prep.|每|shp|It costs ten dollars per person.|每人十美元。
+remain|v.|保持；剩下|gen|Please remain seated.|請留在座位上。
+top|n./adj.|頂端；最好的|gen|Put it on the top shelf.|把它放在最上層的架子。
+among|prep.|在……之中|gen|She is popular among her coworkers.|她在同事之間很受歡迎。
+win|v.|贏；獲得|gen|I hope our team will win.|我希望我們隊會贏。
+color|n.|顏色|shp|What color do you want?|你想要什麼顏色？
+involve|v.|涉及；包含|hr|The job involves a lot of travel.|這份工作需要經常出差。
+reach|v.|到達；聯絡上|gen|You can reach me by phone.|你可以打電話聯絡我。
+social|adj.|社會的；社交的|gen|I use social media every day.|我每天使用社群媒體。
+period|n.|期間；句點|gen|The sale is for a short period.|特價只有短短一段期間。
+across|prep.|穿過；在對面|gen|The bank is across the street.|銀行在對街。
+note|n.|筆記；便條|off|I left a note on your desk.|我在你桌上留了便條。
+history|n.|歷史|gen|I like reading about history.|我喜歡閱讀歷史。
+create|v.|創造；建立|gen|Create a new password.|建立一組新密碼。
+drive|v.|開車|trn|Can you drive?|你會開車嗎？
+along|prep.|沿著|gen|We walked along the river.|我們沿著河邊散步。
+type|n./v.|類型；打字|gen|What type of room do you want?|你想要哪一種房型？
+sound|n./v.|聲音；聽起來|gen|That sounds great!|聽起來很棒！
+eye|n.|眼睛|gen|Close your eyes.|閉上眼睛。
+music|n.|音樂|gen|I listen to music on the train.|我在火車上聽音樂。
+game|n.|遊戲；比賽|gen|Let's watch the game tonight.|我們今晚一起看比賽吧。
+political|adj.|政治的|gen|They talked about political news.|他們談論政治新聞。
+free|adj.|免費的；有空的|gen|Are you free tomorrow?|你明天有空嗎？
+receive|v.|收到|off|Did you receive my email?|你收到我的電子郵件了嗎？
+moment|n.|片刻；時刻|gen|Just a moment, please.|請稍等一下。
+sale|n.|銷售；特價|shp|These shoes are on sale.|這雙鞋在特價。
+policy|n.|政策；規定|hr|Please read our return policy.|請閱讀我們的退貨規定。
+further|adj./adv.|進一步的；更遠|gen|For further information, visit our website.|欲知更多資訊，請上我們的網站。

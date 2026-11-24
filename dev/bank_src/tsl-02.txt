@@ -1,0 +1,101 @@
+# TSL 101-200
+electrical|adj.|電的；電氣的|log|The electrical system needs to be checked.|電氣系統需要檢查。
+airplane|n.|飛機|trv|The airplane landed on time.|飛機準時降落。
+assignment|n.|任務；指派的工作|off|My new assignment starts next week.|我的新任務下星期開始。
+exit|n.|出口|fac|The exit is on your left.|出口在你的左邊。
+attendee|n.|出席者；與會者|mtg|Each attendee will get a name tag.|每位與會者都會拿到名牌。
+cruise|n.|郵輪之旅|trv|They went on a cruise to Japan.|他們搭郵輪去日本旅行。
+birthday|n.|生日|gen|Today is my mother's birthday.|今天是我媽媽的生日。
+café|n.|咖啡館|din|Let's meet at the café near the station.|我們在車站附近的咖啡館見面吧。|/kæˈfeɪ/
+comprehension|n.|理解力|gen|This is a reading comprehension test.|這是一份閱讀理解測驗。
+mall|n.|購物中心|shp|The new mall opens on Saturday.|新的購物中心星期六開幕。
+medication|n.|藥物|hlt|Take this medication after meals.|飯後服用這個藥。
+recycle|v.|回收；再利用|fac|Please recycle your paper and bottles.|請回收你的紙張和瓶子。
+renew|v.|更新；續約|shp|I need to renew my membership.|我需要續辦會員。
+tenant|n.|房客；租戶|fac|The new tenant moves in next month.|新房客下個月搬進來。
+sandwich|n.|三明治|din|I had a sandwich for lunch.|我午餐吃了一個三明治。
+departure|n.|出發；離開|trv|Please arrive one hour before departure.|請在出發前一小時抵達。
+mini|adj.|迷你的；小型的|gen|There is a mini fridge in the room.|房間裡有一台迷你冰箱。
+fitness|n.|健身；健康|hlt|The hotel has a fitness center.|這家飯店有健身中心。
+inconvenience|n.|不便；麻煩|gen|We are sorry for the inconvenience.|造成不便，我們很抱歉。
+banquet|n.|宴會|mtg|The awards banquet is on Friday night.|頒獎宴會在星期五晚上。
+closet|n.|衣櫃；壁櫥|fac|Hang your coat in the closet.|把你的外套掛在衣櫃裡。
+unreal|adj.|不真實的；難以置信的|gen|The view from the top was unreal.|從頂端看出去的景色美得不真實。
+distractor|n.|（考題的）誘答選項|gen|Two of the answers are distractors.|其中兩個答案是誘答選項。|/dɪˈstræktər/
+expire|v.|到期；失效|shp|My credit card expires next month.|我的信用卡下個月到期。
+folder|n.|資料夾|off|Put the papers in the blue folder.|把文件放進藍色資料夾。
+photocopy|n.|影印本|off|Please make a photocopy of this page.|請把這一頁影印一份。
+renovate|v.|翻修；整修|fac|They will renovate the old building.|他們將翻修那棟舊大樓。
+sunny|adj.|晴朗的|gen|It will be sunny tomorrow.|明天會是晴天。
+calendar|n.|行事曆；月曆|off|I put the meeting on my calendar.|我把會議記在行事曆上。
+donation|n.|捐款；捐贈|fin|Thank you for your kind donation.|謝謝你慷慨的捐款。
+feedback|n.|意見回饋|biz|We welcome your feedback.|歡迎提供你的意見。
+shortly|adv.|很快地；不久|gen|The bus will arrive shortly.|公車很快就會到。
+snack|n.|點心；零食|din|We will serve snacks during the break.|休息時間會提供點心。
+warehouse|n.|倉庫|log|The boxes are stored in the warehouse.|箱子存放在倉庫裡。
+copier|n.|影印機|off|The copier is out of paper.|影印機沒紙了。
+provider|n.|供應商；提供者|biz|We changed our Internet provider.|我們換了網路供應商。
+beverage|n.|飲料|din|Hot and cold beverages are available.|有提供冷熱飲料。
+hungry|adj.|餓的|din|I'm hungry. Let's eat.|我餓了，我們去吃東西吧。
+inspection|n.|檢查；視察|log|The factory passed the safety inspection.|工廠通過了安全檢查。
+recipient|n.|收件人；接受者|off|Check the name of the recipient.|確認收件人的姓名。
+aisle|n.|走道|shp|Rice is in aisle five.|米在第五排走道。|/aɪl/
+inspect|v.|檢查；視察|log|Workers inspect each product.|工人檢查每一件產品。
+mechanic|n.|技工；修車師傅|trn|The mechanic fixed my car.|修車師傅修好了我的車。
+merger|n.|（公司）合併|biz|The merger will create a bigger company.|這次合併將形成一家更大的公司。
+soccer|n.|足球|gen|We play soccer on weekends.|我們週末踢足球。
+sweater|n.|毛衣|shp|This sweater is on sale.|這件毛衣在特價。
+ingredient|n.|材料；成分|din|Fresh ingredients make good food.|新鮮的食材做出好吃的食物。
+rewrite|v.|重寫；改寫|off|Please rewrite the first paragraph.|請改寫第一段。
+itinerary|n.|行程表|trv|I emailed you the travel itinerary.|我用電子郵件寄給你旅遊行程表。
+workplace|n.|工作場所；職場|off|Safety in the workplace is important.|職場安全很重要。
+architect|n.|建築師|fac|The architect designed a new library.|建築師設計了一座新圖書館。
+convenience|n.|方便；便利|gen|Please call at your convenience.|請在你方便的時候來電。
+eligible|adj.|有資格的|hr|All full-time workers are eligible for the bonus.|所有全職員工都有資格領獎金。
+indoor|adj.|室內的|fac|The hotel has an indoor pool.|這家飯店有室內游泳池。
+baggage|n.|行李|trv|You can pick up your baggage here.|你可以在這裡領行李。
+click|v.|點擊|off|Click the button to start.|點擊按鈕開始。
+dial|v.|撥（電話號碼）|off|Dial 9 for an outside line.|撥 9 打外線。
+container|n.|容器；貨櫃|log|Put the food in a plastic container.|把食物放進塑膠容器。
+drawer|n.|抽屜|off|The keys are in the top drawer.|鑰匙在最上面的抽屜裡。
+lab|n.|實驗室|log|The samples were sent to the lab.|樣本已送到實驗室。
+submission|n.|提交；提交的東西|off|The deadline for submissions is May 1.|提交截止日是五月一日。
+bulletin|n.|公告；簡報|off|Read the bulletin board for news.|看公布欄上的消息。
+certificate|n.|證書；憑證|hr|You will get a certificate after the course.|上完課程後你會拿到一張證書。
+gym|n.|健身房；體育館|hlt|I go to the gym after work.|我下班後去健身房。
+highway|n.|公路；高速公路|trn|There was an accident on the highway.|公路上發生了一場車禍。
+respondent|n.|（問卷的）受訪者|biz|Most respondents liked the new design.|大部分受訪者喜歡新的設計。
+jewelry|n.|珠寶；首飾|shp|She sells handmade jewelry.|她賣手工飾品。
+overtime|n.|加班|hr|I worked overtime last night.|我昨晚加班。
+battery|n.|電池|shp|My phone battery is low.|我的手機快沒電了。
+donate|v.|捐贈|fin|We donated books to the school.|我們捐書給學校。
+outstanding|adj.|傑出的；未付清的|fin|She did an outstanding job.|她的工作表現很傑出。
+skim|v.|瀏覽；略讀|gen|Skim the article for the main idea.|略讀文章找出主旨。
+briefcase|n.|公事包|off|He put the files in his briefcase.|他把文件放進公事包。
+dessert|n.|甜點|din|What would you like for dessert?|你甜點想吃什麼？
+impact|n.|影響；衝擊|biz|The new rule had a big impact on sales.|新規定對銷售有很大的影響。
+innovative|adj.|創新的|biz|They have an innovative product.|他們有一項創新的產品。
+inquire|v.|詢問|off|I'm calling to inquire about the job.|我打電話來詢問那份工作。
+overnight|adv.|一夜之間；過夜|log|The package will arrive overnight.|包裹隔天就會送達。
+venue|n.|（活動）場地|mtg|The venue for the party has changed.|派對場地改了。
+commuter|n.|通勤者|trn|The train is full of commuters.|火車上擠滿了通勤族。
+logo|n.|商標；標誌|biz|They designed a new company logo.|他們設計了新的公司商標。
+newsletter|n.|通訊刊物；電子報|biz|Sign up for our monthly newsletter.|訂閱我們的每月電子報。
+advisor|n.|顧問|biz|He is a financial advisor.|他是一位理財顧問。
+cartridge|n.|墨水匣|off|The printer needs a new ink cartridge.|印表機需要新的墨水匣。
+cloudy|adj.|多雲的|gen|It's cloudy this morning.|今天早上多雲。
+photographer|n.|攝影師|biz|The photographer took pictures of the event.|攝影師拍了活動的照片。
+shopper|n.|購物者|shp|The store was full of shoppers.|店裡擠滿了購物人潮。
+tag|n.|標籤|shp|Check the price tag.|看一下價格標籤。
+announcer|n.|播報員；廣播員|trv|The announcer said the train was late.|廣播員說火車誤點了。
+aspect|n.|方面；層面|gen|Price is an important aspect.|價格是很重要的一個面向。
+audit|n.|審計；查帳|fin|The company has an audit every year.|公司每年都會查帳。
+contractor|n.|承包商|fac|The contractor will finish the work soon.|承包商很快就會完工。
+download|v.|下載|off|You can download the form here.|你可以在這裡下載表格。
+password|n.|密碼|off|Please change your password.|請更改你的密碼。
+prohibit|v.|禁止|gen|Smoking is prohibited in the building.|大樓內禁止吸菸。
+stadium|n.|體育場|gen|The game is at the city stadium.|比賽在市立體育場舉行。
+terminal|n.|航廈；終點站|trv|Your flight leaves from Terminal 2.|你的班機從第二航廈出發。
+weekday|n.|平日（週一至週五）|gen|The store is open on weekdays.|這家店平日有營業。
+bonus|n.|獎金；紅利|hr|Everyone got a bonus this year.|今年每個人都拿到了獎金。
+cart|n.|手推車；購物車|shp|Put the items in your cart.|把商品放進你的購物車。

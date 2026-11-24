@@ -49,20 +49,25 @@ export async function offlineStatus() {
 }
 
 // 下載音檔到裝置，之後離線也能播放
-export async function downloadAudio(srcs, onProgress) {
+export async function downloadAudio(srcs, onProgress, parallel = 6) {
   const cache = await caches.open(AUDIO_CACHE);
   let done = 0;
   let failed = 0;
-  for (const src of srcs) {
-    try {
-      if (!(await cache.match(src))) {
-        const res = await fetch(src);
-        if (!res.ok) throw new Error(String(res.status));
-        await cache.put(src, res);
-      }
-    } catch { failed += 1; }
-    done += 1;
-    onProgress?.(done, srcs.length);
+  let next = 0;
+  async function worker() {
+    while (next < srcs.length) {
+      const src = srcs[next++];
+      try {
+        if (!(await cache.match(src))) {
+          const res = await fetch(src);
+          if (!res.ok) throw new Error(String(res.status));
+          await cache.put(src, res);
+        }
+      } catch { failed += 1; }
+      done += 1;
+      onProgress?.(done, srcs.length);
+    }
   }
+  await Promise.all(Array.from({ length: Math.min(parallel, srcs.length) }, worker));
   return { done, failed };
 }

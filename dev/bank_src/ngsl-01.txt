@@ -1,0 +1,101 @@
+# NGSL 1-100
+the|det.|這個；那個（定冠詞）|gen|The meeting is in Room 3.|會議在三號會議室。
+be|v.|是；在|gen|I want to be a nurse.|我想當護理師。
+and|conj.|和；而且|gen|I like tea and coffee.|我喜歡茶和咖啡。
+of|prep.|……的|gen|She is the manager of the store.|她是這家店的經理。
+to|prep.|到；向|gen|I go to work by bus.|我搭公車去上班。
+a|det.|一個（不定冠詞）|gen|I need a pen.|我需要一支筆。
+in|prep.|在……裡面；在（時間）|gen|The keys are in my bag.|鑰匙在我的包包裡。
+have|v.|有；吃|gen|I have two brothers.|我有兩個兄弟。
+it|pron.|它|gen|It is raining.|正在下雨。
+you|pron.|你；你們|gen|Can you help me?|你可以幫我嗎？
+he|pron.|他|gen|He works at a bank.|他在銀行工作。
+for|prep.|為了；給|gen|This gift is for you.|這份禮物是給你的。
+they|pron.|他們|gen|They are my coworkers.|他們是我的同事。
+not|adv.|不；沒有|gen|I am not tired.|我不累。
+that|det./pron.|那個；那|gen|That is my desk.|那是我的桌子。
+we|pron.|我們|gen|We have a meeting today.|我們今天要開會。
+on|prep.|在……上；在（某天）|gen|The book is on the table.|書在桌上。
+with|prep.|和……一起；用|gen|I live with my parents.|我和父母住在一起。
+this|det./pron.|這個|gen|This is my new phone.|這是我的新手機。
+I|pron.|我|gen|I am a student.|我是學生。
+do|v.|做|gen|What do you do?|你是做什麼工作的？
+as|conj./prep.|作為；如同|off|She works as a designer.|她是一名設計師。
+at|prep.|在（地點、時間）|gen|Let's meet at noon.|我們中午見。
+she|pron.|她|gen|She is my boss.|她是我的主管。
+but|conj.|但是|gen|It's small but nice.|它很小，但是很棒。
+from|prep.|從；來自|gen|I'm from Taiwan.|我來自台灣。
+by|prep.|在……旁邊；藉由|trn|I go to work by train.|我搭火車上班。
+will|aux.|將會|gen|I will call you later.|我等一下會打給你。
+or|conj.|或者|gen|Tea or coffee?|要茶還是咖啡？
+say|v.|說|gen|What did he say?|他說了什麼？
+go|v.|去|gen|Let's go home.|我們回家吧。
+so|adv./conj.|所以；這麼|gen|It was late, so I took a taxi.|時間很晚了，所以我搭計程車。
+all|det./pron.|全部的；所有|gen|All the rooms are full.|所有的房間都滿了。
+if|conj.|如果|gen|Call me if you need help.|如果需要幫忙就打給我。
+one|num.|一；一個|gen|I have one question.|我有一個問題。
+would|aux.|會；願意（would like 想要）|gen|I would like a cup of tea.|我想要一杯茶。
+about|prep.|關於；大約|gen|This book is about business.|這本書是關於商業的。
+can|aux.|能；可以|gen|Can I sit here?|我可以坐這裡嗎？
+which|det./pron.|哪一個|gen|Which bus goes to the airport?|哪一班公車到機場？
+there|adv.|那裡；（there is）有|gen|There is a bank near here.|這附近有一家銀行。
+know|v.|知道；認識|gen|Do you know his name?|你知道他的名字嗎？
+more|det./adv.|更多；更|gen|I need more time.|我需要更多時間。
+get|v.|得到；變得；到達|gen|I get to work at nine.|我九點到公司。
+who|pron.|誰|gen|Who is your manager?|誰是你的經理？
+like|v./prep.|喜歡；像|gen|I like this song.|我喜歡這首歌。
+when|adv./conj.|什麼時候；當……時|gen|When does the store open?|這家店什麼時候開門？
+think|v.|想；認為|gen|I think it's a good idea.|我認為這是個好主意。
+make|v.|做；製作；使|gen|Can you make a copy?|你可以影印一份嗎？
+time|n.|時間；次數|gen|What time is it?|現在幾點？
+see|v.|看見；了解|gen|I can see the sea from here.|我從這裡看得到海。
+what|pron./det.|什麼|gen|What is your name?|你叫什麼名字？
+up|adv./prep.|向上|gen|Please stand up.|請站起來。
+some|det.|一些|gen|I want some water.|我想要一些水。
+other|adj.|其他的|gen|Do you have other colors?|你們有其他顏色嗎？
+out|adv.|出去；在外面|gen|She is out for lunch.|她出去吃午餐了。
+good|adj.|好的|gen|This is a good restaurant.|這是一家好餐廳。
+people|n.|人們|gen|Many people work here.|很多人在這裡工作。
+year|n.|年|gen|I started this job last year.|我去年開始做這份工作。
+take|v.|拿；搭乘；花（時間）|trn|I take the bus to work.|我搭公車上班。
+no|det.|沒有；不|gen|There is no milk.|沒有牛奶了。
+well|adv.|很好地|gen|She speaks English well.|她英文說得很好。
+because|conj.|因為|gen|I'm late because of the rain.|因為下雨，我遲到了。
+very|adv.|非常|gen|The food is very good.|食物非常好吃。
+just|adv.|剛剛；只是|gen|I just got home.|我剛到家。
+come|v.|來|gen|Please come in.|請進。
+could|aux.|可以（客氣的說法）；能夠|gen|Could you open the window?|你可以打開窗戶嗎？
+work|v./n.|工作|gen|I work in an office.|我在辦公室工作。
+use|v.|使用|gen|Can I use your phone?|我可以用你的電話嗎？
+than|conj.|比|gen|This bag is bigger than that one.|這個包包比那個大。
+now|adv.|現在|gen|I'm busy now.|我現在很忙。
+then|adv.|然後；那時|gen|Turn left, then go straight.|左轉，然後直走。
+also|adv.|也|gen|She also speaks Japanese.|她也會說日文。
+into|prep.|進入|gen|He walked into the room.|他走進房間。
+only|adv.|只有|gen|I have only five dollars.|我只有五美元。
+look|v.|看；看起來|gen|Look at this picture.|看這張照片。
+want|v.|想要|gen|I want a new job.|我想要一份新工作。
+give|v.|給|gen|Please give me the report.|請把報告給我。
+first|adj.|第一的|gen|This is my first day here.|今天是我在這裡的第一天。
+new|adj.|新的|gen|We have a new manager.|我們有一位新經理。
+way|n.|路；方法|gen|Is this the way to the station?|這是去車站的路嗎？
+find|v.|找到；發現|gen|I can't find my keys.|我找不到我的鑰匙。
+over|prep.|在……上方；超過|gen|The meeting is over.|會議結束了。
+any|det.|任何|gen|Do you have any questions?|你有任何問題嗎？
+after|prep.|在……之後|gen|Let's talk after lunch.|我們午餐後再談。
+day|n.|天；白天|gen|Have a nice day!|祝你有美好的一天！
+where|adv.|哪裡|gen|Where is the restroom?|洗手間在哪裡？
+thing|n.|東西；事情|gen|I have a lot of things to do.|我有很多事情要做。
+most|det./adv.|最多的；大部分|gen|Most people like music.|大部分的人喜歡音樂。
+should|aux.|應該|gen|You should see a doctor.|你應該去看醫生。
+need|v.|需要|gen|I need your help.|我需要你的幫忙。
+much|det./adv.|很多（不可數）|shp|How much is this?|這個多少錢？
+right|adj./adv.|對的；右邊|gen|Turn right at the corner.|在轉角右轉。
+how|adv.|如何；多麼|gen|How do I get to the airport?|我要怎麼去機場？
+back|adv.|回來；向後|gen|I'll be back soon.|我很快就回來。
+mean|v.|意思是|gen|What does this word mean?|這個字是什麼意思？
+even|adv.|甚至|gen|It's cold, even in May.|甚至在五月也很冷。
+may|aux.|可能；可以|gen|May I come in?|我可以進來嗎？
+here|adv.|這裡|gen|Please wait here.|請在這裡等。
+many|det.|很多（可數）|gen|There are many people here.|這裡有很多人。
+such|det.|這樣的；如此|gen|It was such a nice day.|那天天氣真好。

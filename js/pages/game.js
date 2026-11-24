@@ -19,11 +19,16 @@ export async function render({ outlet, db, query, settings }) {
     outlet.innerHTML = '<section class="card"><h1 class="card__title">找不到這個遊戲</h1><a class="btn btn--primary" href="#/games">回遊戲樂園</a></section>';
     return;
   }
-  if (ctx.learnedWords.length < MIN_WORDS) {
-    outlet.innerHTML = '<section class="card"><h1 class="card__title">還不能玩</h1><p>完成一堂單字課後就能開始玩。</p><a class="btn btn--primary" href="#/games">回遊戲樂園</a></section>';
+  // 圖字配對只用有插圖的字；拼字工坊只用 2～10 個字母的單字
+  const pool = game.id === 'match' ? ctx.learnedWords.filter((w) => w.image)
+    : game.id === 'spell' ? ctx.learnedWords.filter((w) => /^[a-z]{2,10}$/i.test(w.en))
+    : ctx.learnedWords;
+  if (pool.length < MIN_WORDS) {
+    const need = game.id === 'match' ? '完成「單字基礎」的一堂課（有插圖的單字）後就能開始玩。' : '學過至少 4 個單字後就能開始玩。';
+    outlet.innerHTML = `<section class="card"><h1 class="card__title">還不能玩</h1><p>${need}</p><a class="btn btn--primary" href="#/games">回遊戲樂園</a></section>`;
     return;
   }
-  const words = ctx.learnedWords;
+  const words = pool;
   const byId = new Map(words.map((w) => [w.id, w]));
   const cleanups = [];
 
@@ -64,7 +69,7 @@ export async function render({ outlet, db, query, settings }) {
     const uniq = [...new Set(ids)].map((id) => byId.get(id)).filter(Boolean);
     if (!uniq.length) return '<p class="status-line status-line--good">全部答對！</p>';
     return `<div class="missed"><p class="muted">要再加強的單字（已收進錯題百科）：</p>
-      <ul>${uniq.map((w) => `<li><img src="${escapeHTML(w.image)}" alt="" width="32" height="32"><span class="en">${escapeHTML(w.en)}</span> ${escapeHTML(w.zh)}</li>`).join('')}</ul></div>`;
+      <ul>${uniq.map((w) => `<li>${w.image ? `<img src="${escapeHTML(w.image)}" alt="" width="32" height="32">` : ''}<span class="en">${escapeHTML(w.en)}</span> ${escapeHTML(w.zh)}</li>`).join('')}</ul></div>`;
   }
 
   // ---------------- 圖字配對 ----------------
@@ -246,7 +251,7 @@ export async function render({ outlet, db, query, settings }) {
       sheet.classList.remove('feedback-sheet');
       card.innerHTML = `
         <h1 class="step__title">${game.icon} ${game.name}</h1>
-        <img class="q__img" src="${escapeHTML(w.image)}" alt="題目圖片" width="120" height="120">
+        ${w.image ? `<img class="q__img" src="${escapeHTML(w.image)}" alt="題目圖片" width="120" height="120">` : ''}
         <p class="q__prompt center">「${escapeHTML(w.zh)}」的英文是？</p>
         <div class="spell__slots en" data-role="slots"></div>
         <div class="spell__tiles" data-role="tiles">${tiles.map((t) => `<button type="button" class="tile en" data-tile="${t.id}">${t.ch}</button>`).join('')}</div>

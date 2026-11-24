@@ -113,7 +113,7 @@ export async function render({ outlet, db, refreshIndicator, settings }) {
               <span class="en">${s.score}/${s.max}</span>
             </div>`).join('')}
         </div>
-        <p class="muted">已開放：${opened.map((w) => `${w.icon} ${w.name}`).join('、') || '無'}。單字或文法達標的世界，會直接開放全部課程。</p>
+        <p class="muted">已開放：${opened.map((w) => `${w.icon} ${w.name}`).join('、') || '無'}。單字或文法達標時，同類型的課程會直接開放。</p>
         <div class="btn-row">
           <a class="btn btn--primary" href="#/home">看今日安排</a>
           <a class="btn btn--ghost" href="#/worlds">世界地圖</a>

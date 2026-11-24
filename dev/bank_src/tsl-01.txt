@@ -1,0 +1,101 @@
+# TSL 1-100｜英文|詞性|中文|情境|例句|例句翻譯[|音標]
+Mr.|n.|先生（男性稱謂）|gen|Mr. Lee is our new manager.|李先生是我們的新經理。|/ˈmɪstər/
+conference|n.|會議；研討會|mtg|The conference starts at nine.|會議九點開始。
+vacation|n.|假期；休假|hr|She is on vacation this week.|她這星期在休假。
+client|n.|客戶|biz|We have a meeting with a new client.|我們要和一位新客戶開會。
+e-book|n.|電子書|shp|You can read the e-book on your phone.|你可以用手機讀這本電子書。|/ˈiˌbʊk/
+airport|n.|機場|trv|I will pick you up at the airport.|我會去機場接你。
+memo|n.|備忘錄；公司內部通知|off|Please read the memo from the manager.|請閱讀經理發的備忘錄。
+reservation|n.|預約；訂位|trv|I made a reservation for two people.|我訂了兩個人的位子。
+logical|adj.|合理的；合邏輯的|gen|That is a logical answer.|那是一個合理的答案。
+fax|n.|傳真|off|Please send the form by fax.|請用傳真寄送這份表格。
+o'clock|adv.|……點鐘|gen|The store opens at ten o'clock.|這家店十點開門。
+sincerely|adv.|真誠地；（信件結尾）敬上|off|I sincerely thank you for your help.|我真誠地感謝你的幫忙。
+sometime|adv.|某個時候|gen|Let's have lunch sometime next week.|我們下星期找個時間吃午餐吧。
+website|n.|網站|biz|You can order online on our website.|你可以在我們的網站上線上訂購。
+supervisor|n.|主管；上司|hr|Ask your supervisor for help.|向你的主管求助。
+candidate|n.|應徵者；候選人|hr|We will interview three candidates today.|我們今天要面試三位應徵者。
+refund|n.|退款|shp|Can I get a refund for this jacket?|這件夾克可以退款嗎？
+goods|n.|商品；貨物|shp|The goods will arrive on Friday.|貨物星期五會到。
+workshop|n.|研習會；工作坊|mtg|I joined a writing workshop.|我參加了一個寫作研習會。
+downtown|adv.|在市中心；往市中心|trn|Our office is downtown.|我們的辦公室在市中心。
+deadline|n.|截止期限|off|The deadline for the report is Monday.|報告的截止期限是星期一。
+invoice|n.|發票；請款單|fin|We sent the invoice to the client.|我們把請款單寄給客戶了。
+brochure|n.|小冊子；宣傳手冊|biz|Please take a free brochure.|請拿一份免費的宣傳手冊。
+noon|n.|中午|gen|The meeting ends at noon.|會議在中午結束。
+accountant|n.|會計師|fin|The accountant checks our numbers.|會計師檢查我們的數字。
+clerk|n.|店員；職員|shp|The clerk helped me find a size.|店員幫我找尺寸。
+lobby|n.|大廳|fac|Let's meet in the hotel lobby.|我們在飯店大廳見面吧。
+publish|v.|出版；發表|biz|The company will publish a new book.|這家公司將出版一本新書。
+résumé|n.|履歷表|hr|Please send your résumé by email.|請用電子郵件寄你的履歷表。|/ˈrɛzəmeɪ/
+enclose|v.|隨信附上|off|I have enclosed a copy of the contract.|我隨信附上一份合約影本。
+applicant|n.|應徵者；申請人|hr|Each applicant must fill out a form.|每位應徵者都必須填寫一份表格。
+seminar|n.|研討會；講座|mtg|The sales seminar is on Thursday.|業務研討會在星期四。
+technician|n.|技術人員|log|A technician will fix the machine.|技術人員會來修理機器。
+cloth|n.|布；布料|shp|Clean the screen with a soft cloth.|用柔軟的布擦螢幕。
+fare|n.|（交通工具的）票價|trn|The bus fare is two dollars.|公車票價是兩美元。
+receipt|n.|收據|shp|Please keep your receipt.|請保留你的收據。
+traveler|n.|旅客|trv|The hotel is popular with business travelers.|這家飯店很受商務旅客歡迎。
+caller|n.|打電話的人；來電者|off|The caller wants to speak to Ms. Wang.|來電者想找王小姐。
+subway|n.|地鐵|trn|I take the subway to work.|我搭地鐵上班。
+luggage|n.|行李|trv|Please don't leave your luggage here.|請不要把行李留在這裡。
+shipment|n.|貨運；一批貨|log|The shipment was sent yesterday.|這批貨昨天寄出了。
+infer|v.|推斷；推論|gen|What can we infer from the email?|我們可以從這封電子郵件推斷出什麼？
+waiter|n.|服務生|din|The waiter brought us the menu.|服務生把菜單拿給我們。
+rental|n.|租賃；租用|trv|We need a car rental for three days.|我們需要租車三天。
+warranty|n.|保固；保證書|shp|The TV has a two-year warranty.|這台電視有兩年保固。
+cafeteria|n.|自助餐廳；員工餐廳|din|We eat lunch in the cafeteria.|我們在員工餐廳吃午餐。
+chef|n.|主廚|din|The chef makes great pasta.|這位主廚做的義大利麵很棒。
+elevator|n.|電梯|fac|Take the elevator to the fifth floor.|搭電梯到五樓。
+reception|n.|接待處；歡迎會|fac|Please check in at the reception desk.|請到接待櫃檯報到。
+correctly|adv.|正確地|gen|Please fill out the form correctly.|請正確填寫表格。
+lease|n.|租約|fac|We signed a two-year lease.|我們簽了兩年的租約。
+bicycle|n.|腳踏車|trn|He rides a bicycle to work.|他騎腳踏車上班。
+notify|v.|通知|off|We will notify you by email.|我們會用電子郵件通知你。
+preview|n.|預覽；預告|biz|Click here for a preview of the book.|點這裡預覽這本書。
+attendant|n.|服務員；侍者|trv|The flight attendant gave me a blanket.|空服員給了我一條毯子。
+subscription|n.|訂閱|shp|My magazine subscription ends in May.|我的雜誌訂閱在五月到期。
+convenient|adj.|方便的|gen|Is Monday convenient for you?|星期一你方便嗎？
+manual|n.|使用手冊|log|Read the manual before you use the machine.|使用機器前先閱讀手冊。
+clue|n.|線索|gen|The title gives you a clue.|標題給了你一個線索。
+garage|n.|車庫；修車廠|trn|My car is at the garage.|我的車在修車廠。
+obtain|v.|取得；獲得|gen|You must obtain a permit first.|你必須先取得許可證。
+oval|adj.|橢圓形的|gen|There is an oval table in the room.|房間裡有一張橢圓形的桌子。
+inventory|n.|庫存；存貨清單|log|We check the inventory every month.|我們每個月盤點庫存。|/ˈɪnvəntɔri/
+outdoor|adj.|戶外的|gen|The concert is an outdoor event.|這場音樂會是戶外活動。
+suitcase|n.|行李箱|trv|My suitcase is too heavy.|我的行李箱太重了。
+destination|n.|目的地|trv|Paris is a popular travel destination.|巴黎是熱門的旅遊目的地。
+occupation|n.|職業|hr|Please write your occupation on the form.|請在表格上寫下你的職業。
+postpone|v.|延期；延後|mtg|The meeting was postponed until Friday.|會議延到星期五。
+contradict|v.|與……矛盾；反駁|gen|The two reports contradict each other.|這兩份報告互相矛盾。
+umbrella|n.|雨傘|gen|Don't forget your umbrella.|別忘了你的雨傘。
+inference|n.|推論|gen|Make an inference from the facts.|根據事實做出推論。
+cellphone|n.|手機|gen|Please turn off your cellphone.|請關掉你的手機。
+compact|adj.|小巧的；精簡的|shp|This printer is small and compact.|這台印表機又小又精巧。
+merchandise|n.|商品|shp|All merchandise is 20 percent off.|所有商品打八折。
+receptionist|n.|接待員；櫃檯人員|off|The receptionist answered the phone.|接待員接了電話。
+dentist|n.|牙醫|hlt|I have a dentist appointment today.|我今天有牙醫預約。
+identification|n.|身分證明|trv|Please show your identification.|請出示你的身分證明。
+coupon|n.|優惠券|shp|Use this coupon to save five dollars.|用這張優惠券可以省五美元。
+depart|v.|出發；離開|trv|The train departs at 8:15.|火車八點十五分出發。
+reschedule|v.|重新安排時間|mtg|Can we reschedule the meeting?|我們可以改開會時間嗎？
+tactic|n.|策略；手法|biz|This is a new sales tactic.|這是一種新的銷售手法。
+renovation|n.|翻修；整修|fac|The lobby is closed for renovation.|大廳因整修而關閉。
+upgrade|v.|升級|trv|They upgraded me to business class.|他們幫我升等到商務艙。
+precede|v.|在……之前|gen|A short talk will precede the dinner.|晚餐之前會有一段簡短致詞。
+replacement|n.|替換品；接替的人|shp|We will send you a replacement.|我們會寄一個替換品給你。
+dine|v.|用餐|din|We dined at a hotel restaurant.|我們在飯店餐廳用餐。
+passport|n.|護照|trv|Don't forget your passport.|別忘了你的護照。
+coworker|n.|同事|off|My coworkers are very friendly.|我的同事都很友善。
+upcoming|adj.|即將到來的|mtg|Let's talk about the upcoming event.|我們來談談即將舉辦的活動。
+cabinet|n.|櫃子；櫥櫃|off|The files are in the cabinet.|文件在櫃子裡。
+appliance|n.|家電用品|shp|The store sells kitchen appliances.|這家店販售廚房家電。
+explanatory|adj.|說明的；解釋的|gen|Read the explanatory notes first.|先閱讀說明注釋。
+instructor|n.|講師；教練|hr|Our yoga instructor is very kind.|我們的瑜珈教練很親切。
+keyboard|n.|鍵盤|off|My keyboard is not working.|我的鍵盤壞了。
+media|n.|媒體|biz|The news was reported in the media.|這個消息被媒體報導了。
+supermarket|n.|超市|shp|I buy food at the supermarket.|我在超市買食物。
+valid|adj.|有效的|trv|Your ticket is valid for one year.|你的票一年內有效。
+admission|n.|入場；入場費|trv|Admission is free for children.|兒童免費入場。
+laptop|n.|筆記型電腦|off|I bring my laptop to meetings.|我帶筆記型電腦去開會。
+underline|v.|在……下面畫線|gen|Underline the key words.|在關鍵字下面畫線。

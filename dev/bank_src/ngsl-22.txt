@@ -1,0 +1,101 @@
+# NGSL 2101-2200
+perceive|v.|察覺；認為|biz|How do customers perceive our brand?|顧客怎麼看待我們的品牌？
+routine|n.|例行公事；慣例|gen|Exercise is part of my daily routine.|運動是我每天的例行公事。
+sink|n./v.|水槽；下沉|fac|The sink is full of dishes.|水槽裡堆滿了碗盤。
+stare|v.|盯著看|gen|Don't stare at people.|不要盯著別人看。
+anymore|adv.|不再|gen|I don't work there anymore.|我不在那裡工作了。
+hero|n.|英雄|gen|The firefighter is a hero.|那位消防員是英雄。
+supporter|n.|支持者|gen|Thank you to all our supporters.|謝謝我們所有的支持者。
+convert|v.|轉換|fin|Convert the price into dollars.|把價格換算成美元。
+steady|adj.|穩定的|fin|We have steady growth.|我們穩定成長。
+meter|n.|公尺；計量表|gen|The room is five meters long.|房間有五公尺長。
+truck|n.|卡車|log|The truck is full of boxes.|卡車裝滿了箱子。
+nose|n.|鼻子|hlt|I have a runny nose.|我在流鼻水。
+beside|prep.|在……旁邊|gen|Sit beside me.|坐在我旁邊。
+sail|v.|航行|trv|The ship sails at noon.|船中午啟航。
+disaster|n.|災難|gen|The storm was a disaster.|那場暴風雨是一場災難。
+pace|n.|步調；速度|gen|Work at your own pace.|依照你自己的步調工作。
+heavily|adv.|大量地；嚴重地|gen|It rained heavily last night.|昨晚雨下得很大。
+devote|v.|投入；奉獻|hr|She devotes her time to her work.|她把時間都投入工作。
+terrorist|n.|恐怖分子|gen|Airport security checks for terrorists.|機場安檢會查緝恐怖分子。
+justify|v.|證明……合理|biz|Can you justify the cost?|你能說明這筆費用的合理性嗎？
+vital|adj.|極重要的|gen|Water is vital for life.|水對生命極為重要。
+fascinate|v.|使著迷（be fascinated）|gen|I'm fascinated by old cities.|我對古老城市很著迷。
+external|adj.|外部的|biz|We hired an external auditor.|我們請了外部稽核員。
+spare|adj./v.|多餘的；騰出|gen|Do you have a spare pen?|你有多一支筆嗎？
+whenever|conj.|每當；任何時候|gen|Call me whenever you want.|你想打給我就隨時打。
+depression|n.|憂鬱；經濟蕭條|fin|Many people lost jobs in the depression.|很多人在經濟大蕭條時失業。
+guilty|adj.|有罪的；內疚的|gen|I feel guilty about being late.|我對遲到感到內疚。
+underlie|v.|構成……的基礎|gen|Many problems underlie this one issue.|這個問題背後有許多原因。
+mom|n.|媽媽|gen|My mom makes great soup.|我媽媽煮的湯很好喝。
+distinction|n.|區別；優秀|gen|What is the distinction between the two?|這兩者有什麼區別？
+satisfaction|n.|滿意|shp|Customer satisfaction is our goal.|顧客滿意是我們的目標。
+incorporate|v.|納入；包含|biz|We incorporated your ideas into the plan.|我們把你的想法納入計畫中。
+pour|v.|倒；傾盆而下|din|Pour the milk into the cup.|把牛奶倒進杯子。
+sweep|v.|掃|fac|Please sweep the floor.|請掃地。
+obligation|n.|義務|shp|There is no obligation to buy.|沒有購買的義務。
+sir|n.|先生（尊稱）|gen|Can I help you, sir?|先生，需要幫忙嗎？
+evaluate|v.|評估|hr|We evaluate staff every year.|我們每年評估員工。
+anger|n.|憤怒|gen|He couldn't hide his anger.|他無法掩飾怒氣。
+pub|n.|酒吧|din|Let's meet at the pub.|我們在酒吧見面吧。
+perception|n.|看法；感知|biz|Customer perception is important.|顧客的看法很重要。
+naturally|adv.|自然地；當然|gen|Naturally, we were happy.|我們當然很高興。
+currency|n.|貨幣|fin|What currency do they use in Japan?|日本用什麼貨幣？
+database|n.|資料庫|off|Add the client to the database.|把這位客戶加進資料庫。
+initially|adv.|起初|gen|Initially, I didn't like the job.|起初我不喜歡這份工作。
+territory|n.|領土；地區|biz|He covers the sales territory in the north.|他負責北部的業務區域。
+stream|n./v.|小溪；串流|gen|You can stream the video online.|你可以在線上串流觀看影片。
+rarely|adv.|很少|gen|I rarely eat fast food.|我很少吃速食。
+height|n.|高度；身高|gen|What is the height of the building?|這棟大樓有多高？
+apparent|adj.|明顯的|gen|The problem was apparent.|問題很明顯。
+western|adj.|西方的|gen|I like Western food.|我喜歡西式料理。
+expansion|n.|擴張|biz|The company plans an expansion overseas.|公司計畫向海外擴張。
+constantly|adv.|不斷地|gen|The phone rings constantly.|電話一直響。
+muscle|n.|肌肉|hlt|Exercise builds muscle.|運動能鍛鍊肌肉。
+scare|v.|使害怕（be scared）|gen|I'm scared of dogs.|我怕狗。
+badly|adv.|嚴重地；差勁地|gen|He was badly hurt.|他傷得很重。
+everyday|adj.|日常的|gen|These are everyday English phrases.|這些是日常英文用語。
+boundary|n.|邊界|gen|This is the boundary of the park.|這裡是公園的邊界。
+ratio|n.|比例|gen|The ratio of students to teachers is 10 to 1.|學生和老師的比例是十比一。
+essay|n.|短文；論文|gen|Write an essay about your hometown.|寫一篇關於你家鄉的短文。
+scream|v.|尖叫|gen|The kids screamed with joy.|孩子們開心地尖叫。
+withdraw|v.|提款；撤回|fin|I need to withdraw some cash.|我需要領一些現金。
+pollution|n.|污染|gen|Air pollution is a big problem.|空氣污染是一大問題。
+disorder|n.|混亂；失調|gen|The room was in disorder.|房間一團亂。
+furniture|n.|家具|fac|We bought new furniture for the office.|我們為辦公室買了新家具。
+symbol|n.|符號；象徵|gen|What does this symbol mean?|這個符號是什麼意思？
+apartment|n.|公寓|fac|I live in a small apartment.|我住在一間小公寓。
+demonstration|n.|示範；遊行|biz|We gave a product demonstration.|我們做了產品示範。
+analyst|n.|分析師|fin|She is a financial analyst.|她是財務分析師。
+platform|n.|月台；平台|trn|The train leaves from Platform 2.|火車從第二月台出發。
+steel|n.|鋼|log|The bridge is made of steel.|這座橋是鋼造的。
+cake|n.|蛋糕|din|We had cake for her birthday.|我們為她的生日吃了蛋糕。
+transform|v.|轉變|biz|The new manager transformed the store.|新經理讓這家店煥然一新。
+wound|n.|傷口|hlt|Clean the wound with water.|用水清洗傷口。
+restriction|n.|限制|trv|There are restrictions on carry-on bags.|手提行李有限制。
+foundation|n.|基金會；基礎|gen|She works for a charity foundation.|她在一個慈善基金會工作。
+designer|n.|設計師|biz|She is a fashion designer.|她是服裝設計師。
+strain|n.|壓力；拉傷|hlt|I have a back strain.|我背部拉傷了。
+innovation|n.|創新|biz|We need more innovation.|我們需要更多創新。
+album|n.|專輯；相簿|gen|The singer has a new album.|那位歌手推出了新專輯。
+singer|n.|歌手|gen|She is a famous singer.|她是一位有名的歌手。
+trail|n.|步道；小路|trv|We walked along the mountain trail.|我們沿著山中步道走。
+trap|n./v.|陷阱；困住|gen|We were trapped in traffic.|我們被困在車陣中。
+loose|adj.|鬆的|shp|This shirt is too loose.|這件襯衫太鬆了。
+extension|n.|分機；延長|off|My phone extension is 205.|我的分機是 205。
+wealth|n.|財富|fin|He made his wealth in business.|他靠做生意致富。
+gradually|adv.|逐漸地|gen|My English is gradually improving.|我的英文逐漸進步。
+tank|n.|油箱；水箱|trn|Fill up the tank, please.|請把油加滿。
+evil|adj./n.|邪惡的|gen|The movie has an evil king.|這部電影裡有一個邪惡的國王。
+remarkable|adj.|非凡的；值得注意的|gen|It's a remarkable achievement.|這是一項非凡的成就。
+tune|n./v.|曲調；調整|gen|I can't remember the tune.|我想不起那首曲調。
+grass|n.|草|gen|Keep off the grass.|請勿踐踏草地。
+invitation|n.|邀請；請柬|gen|Thank you for the invitation.|謝謝你的邀請。
+transition|n.|轉變；過渡|hr|The transition to the new system was smooth.|轉換到新系統的過程很順利。
+frighten|v.|使驚嚇|gen|The noise frightened the baby.|噪音嚇到了寶寶。
+bid|n./v.|出價；投標|biz|Our company won the bid.|我們公司得標了。
+breed|n./v.|品種；繁殖|gen|What breed is your dog?|你的狗是什麼品種？
+extraordinary|adj.|非凡的|gen|She has extraordinary talent.|她有非凡的天分。
+brilliant|adj.|傑出的；明亮的|gen|That's a brilliant idea!|那真是個絕妙的點子！
+adviser|n.|顧問|fin|Ask your financial adviser.|問問你的財務顧問。
+stem|n./v.|莖；起因於|gen|The problem stems from poor planning.|這個問題源自規劃不佳。

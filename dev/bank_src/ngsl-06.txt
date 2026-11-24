@@ -1,0 +1,101 @@
+# NGSL 501-600
+claim|v./n.|聲稱；索賠；認領|trv|You can claim your bags here.|你可以在這裡領行李。
+relationship|n.|關係|biz|We have a good relationship with our clients.|我們和客戶關係良好。
+travel|v./n.|旅行|trv|I travel for work a lot.|我常常出差。
+enjoy|v.|享受；喜歡|gen|Enjoy your meal!|請慢用！
+death|n.|死亡|gen|The news of his death was sad.|他去世的消息令人難過。
+nice|adj.|好的；親切的|gen|Have a nice weekend!|週末愉快！
+amount|n.|數量；金額|fin|Please pay the full amount.|請付全額。
+improve|v.|改善；進步|gen|I want to improve my English.|我想提升我的英文。
+picture|n.|照片；圖片|gen|Can you take a picture of us?|你可以幫我們拍張照嗎？
+boy|n.|男孩|gen|The boy is playing with a ball.|那個男孩在玩球。
+regard|n./v.|關於；認為；問候（regards）|off|I am writing with regard to your order.|我寫信是關於你的訂單。
+organization|n.|組織；機構|gen|She works for a health organization.|她在一個衛生組織工作。
+happy|adj.|快樂的；高興的|gen|I'm happy to help.|我很樂意幫忙。
+couple|n.|一對；幾個|gen|I'll be back in a couple of minutes.|我幾分鐘後回來。
+act|v./n.|行動；表演；法案|gen|We need to act quickly.|我們需要快點行動。
+range|n.|範圍；種類|shp|We sell a wide range of products.|我們販售各式各樣的產品。
+quality|n.|品質|log|We check the quality of every product.|我們檢查每件產品的品質。
+project|n.|專案；計畫|off|The project will finish in May.|這個專案會在五月完成。
+round|adj./n.|圓的；一輪|trv|I bought a round-trip ticket.|我買了一張來回票。
+opportunity|n.|機會|hr|This is a great opportunity.|這是一個很好的機會。
+road|n.|道路|trn|The road is closed.|道路封閉了。
+according|prep.|（according to）根據|gen|According to the news, it will rain.|根據新聞報導，會下雨。
+list|n.|清單|gen|Make a list of things to buy.|列出要買的東西。
+wish|v./n.|希望；祝福|gen|I wish you good luck.|祝你好運。
+therefore|adv.|因此|gen|It rained. Therefore, the game was canceled.|下雨了，因此比賽取消了。
+wear|v.|穿；戴|gen|Wear a coat. It's cold.|穿件外套，外面很冷。
+fund|n.|資金；基金|fin|We need funds for the project.|我們需要這個專案的資金。
+rest|n.|休息；其餘的|gen|You should get some rest.|你應該休息一下。
+kid|n.|小孩|gen|The kids are playing outside.|孩子們在外面玩。
+industry|n.|產業；工業|biz|He works in the car industry.|他在汽車產業工作。
+education|n.|教育|gen|Education is important.|教育很重要。
+measure|v./n.|測量；措施|gen|Measure the size of the room.|量一下房間的大小。
+kill|v.|殺死|gen|This spray kills bugs.|這個噴霧可以殺蟲。
+serve|v.|供應（餐點）；服務|din|Breakfast is served from 7 to 10.|早餐供應時間是七點到十點。
+likely|adj.|可能的|gen|It is likely to rain.|很可能會下雨。
+certainly|adv.|當然；確實|gen|Certainly, I can help you.|當然，我可以幫你。
+national|adj.|國家的；全國的|gen|Today is a national holiday.|今天是國定假日。
+itself|pron.|它自己|gen|The door closes by itself.|門會自動關上。
+teach|v.|教|gen|She teaches English.|她教英文。
+field|n.|領域；田野|hr|What field do you work in?|你在哪個領域工作？
+security|n.|安全；保全|trv|Go through security first.|先通過安檢。
+air|n.|空氣；空中|trv|I like to travel by air.|我喜歡搭飛機旅行。
+benefit|n.|好處；福利|hr|The job has good benefits.|這份工作福利很好。
+trade|n./v.|貿易；交易|biz|They are in the tea trade.|他們從事茶葉貿易。
+risk|n.|風險|fin|There is a risk of losing money.|有虧錢的風險。
+news|n.|新聞；消息|gen|I have good news!|我有好消息！
+standard|n./adj.|標準|log|The product meets high standards.|這項產品符合高標準。
+vote|v./n.|投票|gen|Let's vote on it.|我們來投票決定吧。
+percent|n.|百分比|fin|Sales rose by ten percent.|銷售成長了百分之十。
+focus|v./n.|專注；焦點|gen|I can't focus today.|我今天無法專心。
+stage|n.|舞台；階段|mtg|The speaker is on the stage.|講者在台上。
+space|n.|空間|fac|There is enough space for ten people.|空間夠十個人。
+instead|adv.|代替；反而|gen|Let's take the bus instead.|我們改搭公車吧。
+realize|v.|了解；意識到|gen|I didn't realize it was so late.|我沒發現已經這麼晚了。
+usually|adv.|通常|gen|I usually walk to work.|我通常走路上班。
+data|n.|資料；數據|off|We need more data.|我們需要更多資料。
+single|adj.|單一的；單人的|trv|I booked a single room.|我訂了一間單人房。
+address|n./v.|地址；處理|gen|What is your address?|你的地址是什麼？
+performance|n.|表現；表演|hr|Her performance this year was great.|她今年的表現很好。
+chance|n.|機會|gen|Give me a chance.|給我一個機會。
+accept|v.|接受|shp|We accept credit cards.|我們接受信用卡。
+society|n.|社會|gen|Technology changes society.|科技改變社會。
+technology|n.|科技|biz|We use new technology.|我們使用新科技。
+mention|v.|提到|gen|He mentioned your name.|他提到你的名字。
+choice|n.|選擇|gen|You have three choices.|你有三個選擇。
+save|v.|節省；儲存；拯救|off|Don't forget to save the file.|別忘了儲存檔案。
+common|adj.|常見的；共同的|gen|This is a common mistake.|這是一個常見的錯誤。
+culture|n.|文化|gen|I'm interested in Japanese culture.|我對日本文化有興趣。
+total|n./adj.|總數；總共的|fin|The total is 50 dollars.|總共五十美元。
+demand|n./v.|需求；要求|biz|There is high demand for this product.|這項產品需求量很大。
+material|n.|材料；資料|log|What material is this made of?|這是用什麼材料做的？
+limit|n./v.|限制|gen|The speed limit is 50.|速限是五十。
+listen|v.|聽|gen|Listen carefully.|仔細聽。
+due|adj.|到期的；預定的|fin|The rent is due on Friday.|房租星期五到期。
+wrong|adj.|錯的|gen|Sorry, wrong number.|抱歉，打錯電話了。
+foot|n.|腳；英尺|gen|We went there on foot.|我們走路去那裡。
+effort|n.|努力|hr|Thank you for your effort.|謝謝你的努力。
+attention|n.|注意|trv|Attention, please.|請注意。
+upon|prep.|在……上；一……就|gen|Payment is due upon arrival.|抵達時付款。
+check|v./n.|檢查；支票；帳單|din|Can I have the check, please?|可以給我帳單嗎？
+complete|v./adj.|完成；完整的|off|Please complete the form.|請填完這份表格。
+lie|v.|躺；說謊|gen|I need to lie down.|我需要躺一下。
+pick|v.|挑選；（pick up）接人|gen|I'll pick you up at seven.|我七點去接你。
+reduce|v.|減少|fin|We want to reduce costs.|我們想減少成本。
+personal|adj.|個人的|gen|This is my personal phone.|這是我的私人手機。
+ground|n.|地面|gen|The ground is wet.|地面是濕的。
+animal|n.|動物|gen|Do you like animals?|你喜歡動物嗎？
+arrive|v.|抵達|trv|The train arrives at noon.|火車中午抵達。
+patient|n./adj.|病人；有耐心的|hlt|The doctor has many patients.|醫生有很多病人。
+current|adj.|目前的|gen|What is your current address?|你目前的地址是什麼？
+century|n.|世紀|gen|This house is a century old.|這棟房子有一百年歷史。
+evidence|n.|證據|gen|There is no evidence.|沒有證據。
+exist|v.|存在|gen|This company has existed for 50 years.|這家公司已經存在五十年了。
+similar|adj.|相似的|gen|Our ideas are similar.|我們的想法很相似。
+fight|v./n.|打架；奮戰|gen|The two boys had a fight.|那兩個男孩打了一架。
+leader|n.|領導者|hr|She is a good team leader.|她是一位好的團隊領導人。
+fine|adj./n.|好的；罰款|gen|I'm fine, thank you.|我很好，謝謝。
+street|n.|街道|gen|The shop is on Main Street.|這家店在主街上。
+former|adj.|以前的|hr|He is my former boss.|他是我以前的老闆。
+contact|v./n.|聯絡|gen|Please contact me by email.|請用電子郵件聯絡我。

@@ -1,10 +1,11 @@
 // 課程解鎖與今日安排（純邏輯）
 // 解鎖依「能力」：完成診斷後開放世界；前一課完成、或診斷該項達標，就開放下一課。
 
-export const WORLD_SECTION = { 'word-village': 'vocab', 'grammar-castle': 'grammar' };
+// 診斷某一項達標，就可以直接開放同類型的課程
+export const TYPE_SECTION = { vocab: 'vocab', grammar: 'grammar' };
 export const REVIEW_MINUTES = 5;
 export const TYPE_LABEL = { vocab: '單字', grammar: '文法', phonics: '發音', dialogue: '會話', reading: '閱讀', toeic: '多益閱讀', 'toeic-listen': '多益聽力', exam: '模擬考' };
-export const TYPE_ICON = { vocab: '🏡', grammar: '🏰', phonics: '🌲', dialogue: '🏝️', reading: '🎧', toeic: '⛺', 'toeic-listen': '⛺', exam: '🏆' };
+export const TYPE_ICON = { vocab: '🌱', grammar: '🏗️', phonics: '🔤', dialogue: '🗣️', reading: '📰', toeic: '✏️', 'toeic-listen': '🎧', exam: '🏆' };
 export const lessonHref = (l) => (l.type === 'exam' ? `#/exam?id=${l.id}` : `#/lesson?id=${l.id}`);
 
 export const lessonKey = (id) => `lesson:${id}`;
@@ -19,12 +20,11 @@ export function computeAccess(lessons, progressById, diagnosis, thresholds = {})
   }
   for (const [world, list] of byWorld) {
     list.sort((a, b) => a.order - b.order);
-    const section = WORLD_SECTION[world];
-    const score = diagnosis && section ? diagnosis.sections?.[section]?.score ?? 0 : 0;
-    const threshold = thresholds[section] ?? Infinity;
-    const testedOut = !!diagnosis && score >= threshold;
     let prevDone = true;
     for (const l of list) {
+      const section = TYPE_SECTION[l.type];
+      const score = diagnosis && section ? diagnosis.sections?.[section]?.score ?? 0 : 0;
+      const testedOut = !!diagnosis && !!section && score >= (thresholds[section] ?? Infinity);
       const p = progressById.get(lessonKey(l.id));
       const completed = !!(p && p.timesCompleted > 0);
       const inProgress = !!(p && p.status === 'in_progress');
@@ -52,7 +52,10 @@ export function openWorldIds(lessons, diagnosis, access = null) {
 // 依精神狀態與時間安排今天要做什麼
 export const MISTAKE_MINUTES = 5;
 
-export function planToday({ mode, minutes, lessons, access, dueCount = 0, mistakeCount = 0 }) {
+export const UNIT_PLAN_MINUTES = 8;
+
+// unit：下一個要背的單字單元 { id, title }（沒有就不安排）
+export function planToday({ mode, minutes, lessons, access, dueCount = 0, mistakeCount = 0, unit = null }) {
   const items = [];
   const canReview = dueCount > 0;
   const hasMistakes = mistakeCount > 0;
@@ -76,6 +79,8 @@ export function planToday({ mode, minutes, lessons, access, dueCount = 0, mistak
       items.push({ type: 'review', minutes: Math.min(REVIEW_MINUTES, minutes), count: dueCount });
     } else if (hasMistakes) {
       items.push({ type: 'mistakes', minutes: Math.min(MISTAKE_MINUTES, minutes), count: mistakeCount });
+    } else if (unit) {
+      items.push({ type: 'unit', unit, minutes: Math.min(UNIT_PLAN_MINUTES, minutes), partial: minutes < UNIT_PLAN_MINUTES });
     } else if (queue.length) {
       items.push({ type: 'lesson', lesson: queue[0], minutes: queue[0].minutes, partial: true });
     }
@@ -90,6 +95,10 @@ export function planToday({ mode, minutes, lessons, access, dueCount = 0, mistak
   if (hasMistakes) {
     items.push({ type: 'mistakes', minutes: MISTAKE_MINUTES, count: mistakeCount });
     budget -= MISTAKE_MINUTES;
+  }
+  if (unit && budget > 0) {
+    items.push({ type: 'unit', unit, minutes: UNIT_PLAN_MINUTES, partial: UNIT_PLAN_MINUTES > budget });
+    budget -= UNIT_PLAN_MINUTES;
   }
   for (const l of queue) {
     const hasLesson = items.some((i) => i.type === 'lesson');

@@ -1,0 +1,101 @@
+# NGSL 1701-1800
+reject|v.|拒絕；駁回|biz|The client rejected our offer.|客戶拒絕了我們的提案。
+latter|adj./n.|後者|gen|Of the two plans, I prefer the latter.|兩個計畫中，我比較喜歡後者。
+plate|n.|盤子|din|Put the food on a plate.|把食物放在盤子上。
+ban|v./n.|禁止|gen|Smoking is banned in restaurants.|餐廳禁止吸菸。
+steal|v.|偷|gen|Someone tried to steal my bag.|有人想偷我的包包。
+protest|n./v.|抗議|gen|There was a protest in front of the building.|大樓前有一場抗議。
+index|n.|索引；指數|gen|Look up the word in the index.|在索引中查這個字。
+sad|adj.|難過的|gen|I feel sad today.|我今天覺得很難過。
+frequently|adv.|經常|gen|I frequently travel for work.|我經常出差。
+circle|n./v.|圓圈；圈起來|gen|Circle the correct answer.|把正確答案圈起來。
+helpful|adj.|有幫助的|gen|Thank you. You were very helpful.|謝謝，你幫了很大的忙。
+command|n./v.|命令；指令|off|Type the command and press Enter.|輸入指令並按 Enter 鍵。
+attractive|adj.|有吸引力的|shp|The price is very attractive.|這個價格很吸引人。
+sick|adj.|生病的|hlt|I'm sick today.|我今天生病了。
+impression|n.|印象|hr|She made a good impression.|她給人留下好印象。
+unable|adj.|不能的|gen|I'm unable to attend the meeting.|我無法參加會議。
+joke|n.|笑話|gen|He told a funny joke.|他講了一個好笑的笑話。
+sky|n.|天空|gen|The sky is clear today.|今天天空很晴朗。
+column|n.|欄；專欄；柱子|off|Write the numbers in this column.|把數字寫在這一欄。
+electronic|adj.|電子的|shp|The store sells electronic goods.|這家店販售電子產品。
+impose|v.|強加；徵收|fin|The city imposed a new tax.|市政府開徵一項新稅。
+criminal|n./adj.|罪犯；犯罪的|gen|The police caught the criminal.|警方抓到了罪犯。
+besides|prep./adv.|除了……之外；此外|gen|Besides English, she speaks Japanese.|除了英文，她還會說日文。
+properly|adv.|正確地；適當地|gen|The machine is not working properly.|機器運作不正常。
+ancient|adj.|古老的|trv|We visited an ancient temple.|我們參觀了一座古廟。
+coast|n.|海岸|trv|We drove along the coast.|我們沿著海岸開車。
+ill|adj.|生病的|hlt|She is ill and can't come.|她生病了，不能來。
+kick|v.|踢|gen|He kicked the ball.|他踢了球。
+closely|adv.|密切地；仔細地|gen|We work closely with our clients.|我們和客戶密切合作。
+multiple|adj.|多個的|gen|You can choose multiple answers.|你可以選多個答案。
+yield|v./n.|產生；讓步|trn|Yield to people on the crosswalk.|禮讓行人穿越道上的行人。
+via|prep.|經由|trv|We flew to London via Dubai.|我們經杜拜飛往倫敦。
+legislation|n.|法律；立法|gen|New legislation protects workers.|新的法律保障勞工。
+county|n.|縣；郡|gen|She lives in a small county.|她住在一個小縣。
+unlike|prep.|不像|gen|Unlike his brother, he is quiet.|他不像他哥哥，他很安靜。
+mobile|adj.|移動的；行動的|gen|What is your mobile number?|你的手機號碼是多少？
+assistant|n.|助理|off|My assistant will call you.|我的助理會打給你。
+implement|v.|實施；執行|biz|We will implement the plan next month.|我們下個月將實施這個計畫。
+chart|n.|圖表|mtg|Look at this chart.|看這張圖表。
+attach|v.|附上；貼上|off|I attached the file to the email.|我在電子郵件裡附上了檔案。
+hell|n.|地獄；糟透了|gen|The traffic was hell this morning.|今天早上交通糟透了。
+everywhere|adv.|到處|gen|I looked everywhere for my keys.|我到處找我的鑰匙。
+advise|v.|建議；勸告|gen|I advise you to book early.|我建議你早點預訂。
+household|n./adj.|家庭；家用的|shp|We sell household goods.|我們販售家庭用品。
+acknowledge|v.|承認；確認收到|off|Please acknowledge receipt of this email.|收到這封信請回覆確認。
+reward|n./v.|獎勵|hr|Hard work brings rewards.|努力會帶來回報。
+east|n./adv.|東方|trv|The sun rises in the east.|太陽從東方升起。
+hat|n.|帽子|shp|Wear a hat in the sun.|在太陽下要戴帽子。
+academic|adj.|學術的|gen|She has a strong academic record.|她的學業成績很好。
+voter|n.|選民|gen|Voters will choose a new mayor.|選民將選出新市長。
+meanwhile|adv.|同時；在此期間|gen|Meanwhile, please wait here.|在這期間，請在這裡等候。
+furthermore|adv.|此外|gen|Furthermore, the hotel has free Wi-Fi.|此外，飯店有免費無線網路。
+accuse|v.|指控|gen|He was accused of lying.|他被指控說謊。
+scientific|adj.|科學的|gen|We need scientific proof.|我們需要科學證明。
+wage|n.|工資|hr|The minimum wage went up.|基本工資調漲了。
+absence|n.|缺席；不在|hr|Who will work during her absence?|她不在的時候誰來做？
+construct|v.|建造|fac|They will construct a new bridge.|他們將建造一座新橋。
+remark|n.|評論；話|gen|That was a kind remark.|那是一句很貼心的話。
+medicine|n.|藥|hlt|Take this medicine twice a day.|這個藥一天吃兩次。
+professor|n.|教授|gen|She is a professor of history.|她是歷史教授。
+rare|adj.|罕見的；（牛排）三分熟|din|I'd like my steak rare.|我的牛排要三分熟。
+intention|n.|意圖|gen|I have no intention of leaving.|我沒有要離開的意思。
+dozen|n.|一打（十二個）|shp|I bought a dozen eggs.|我買了一打雞蛋。
+settlement|n.|解決；和解|biz|They reached a settlement.|他們達成了和解。
+gap|n.|差距；空隙|gen|Mind the gap.|小心月台間隙。
+widely|adv.|廣泛地|gen|English is widely used.|英文被廣泛使用。
+minimum|adj./n.|最低的；最低限度|fin|The minimum order is ten boxes.|最低訂購量是十箱。
+northern|adj.|北方的|trv|We traveled to northern Taiwan.|我們去台灣北部旅行。
+estate|n.|地產；財產|fac|She works in real estate.|她從事房地產業。
+equally|adv.|同樣地；平均地|gen|Both plans are equally good.|兩個計畫一樣好。
+expose|v.|暴露；揭露|gen|Don't expose the plant to direct sun.|不要讓植物直接曬太陽。
+alive|adj.|活著的|gen|The fish is still alive.|這條魚還活著。
+shut|v.|關上|gen|Shut the window, please.|請把窗戶關上。
+victory|n.|勝利|gen|The team celebrated its victory.|球隊慶祝勝利。
+resolve|v.|解決|shp|We resolved the problem quickly.|我們很快就解決了問題。
+critic|n.|評論家|gen|The critics loved the movie.|影評人很喜歡這部電影。
+variable|n./adj.|變數；多變的|gen|The weather is variable this week.|這星期天氣多變。
+enormous|adj.|巨大的|gen|The new mall is enormous.|新的購物中心非常大。
+sweet|adj.|甜的|din|This cake is too sweet.|這個蛋糕太甜了。
+permanent|adj.|永久的；正職的|hr|She got a permanent job.|她得到了一份正職工作。
+emotion|n.|情緒|gen|He doesn't show his emotions.|他不會表露情緒。
+pursue|v.|追求|hr|I want to pursue a career in design.|我想從事設計工作。
+tall|adj.|高的|gen|He is very tall.|他很高。
+urge|v.|力勸；催促|gen|I urge you to see a doctor.|我強烈建議你去看醫生。
+enemy|n.|敵人|gen|He has no enemies.|他沒有敵人。
+appoint|v.|任命；指定|hr|She was appointed manager.|她被任命為經理。
+milk|n.|牛奶|din|Do you want milk in your coffee?|你的咖啡要加牛奶嗎？
+talent|n.|天分；人才|hr|She has a talent for music.|她很有音樂天分。
+smell|v./n.|聞；氣味|din|The bread smells good.|麵包聞起來好香。
+prior|adj.|事先的；（prior to）在……之前|gen|Please arrive prior to 9 a.m.|請在上午九點前抵達。
+priority|n.|優先事項|off|Safety is our top priority.|安全是我們的首要考量。
+online|adj./adv.|線上的；在網路上|shp|I buy most things online.|我大部分的東西都在網路上買。
+phrase|n.|片語；措辭|gen|Learn this useful phrase.|學這個實用的片語。
+pilot|n.|飛行員|trv|The pilot said we will land soon.|機長說我們快要降落了。
+stable|adj.|穩定的|fin|Prices are stable.|物價很穩定。
+merely|adv.|只是；僅僅|gen|It was merely a mistake.|那只是一個錯誤。
+resolution|n.|決心；解決；解析度|gen|My New Year's resolution is to exercise more.|我的新年新希望是多運動。
+communicate|v.|溝通|hr|We communicate by email.|我們用電子郵件溝通。
+injury|n.|受傷|hlt|He had a knee injury.|他膝蓋受傷了。
+vast|adj.|廣大的|gen|The country has vast forests.|這個國家有廣大的森林。

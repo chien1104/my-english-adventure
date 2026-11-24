@@ -1,0 +1,101 @@
+# NGSL 1301-1400
+settle|v.|安頓；解決；結清|fin|Please settle your bill at the front desk.|請到櫃檯結帳。
+boat|n.|船|trv|We took a boat to the island.|我們搭船去那座島。
+aid|n.|援助；輔助|hlt|Where is the first aid kit?|急救箱在哪裡？
+fan|n.|風扇；粉絲|fac|Turn on the fan. It's hot.|把電風扇打開，好熱。
+kitchen|n.|廚房|fac|The kitchen is very clean.|廚房很乾淨。
+twice|adv.|兩次|gen|I check my email twice a day.|我一天檢查兩次電子郵件。
+fresh|adj.|新鮮的|din|We use fresh fish.|我們使用新鮮的魚。
+delay|n./v.|延誤；延遲|trv|The flight has a two-hour delay.|班機延誤兩小時。
+safety|n.|安全|log|Safety comes first.|安全第一。
+engineer|n.|工程師|log|She is a software engineer.|她是軟體工程師。
+quiet|adj.|安靜的|gen|Please be quiet in the library.|在圖書館請保持安靜。
+insurance|n.|保險|fin|Do you have travel insurance?|你有旅遊保險嗎？
+nurse|n.|護理師|hlt|The nurse took my temperature.|護理師幫我量體溫。
+divide|v.|分開；劃分|gen|Divide the class into two groups.|把全班分成兩組。
+length|n.|長度|gen|What is the length of the table?|這張桌子有多長？
+investigation|n.|調查|gen|The police started an investigation.|警方展開調查。
+package|n.|包裹；套裝方案|log|A package came for you.|有你的包裹。
+somewhere|adv.|某處|gen|My keys are somewhere in the house.|我的鑰匙在家裡的某個地方。
+expand|v.|擴大；擴展|biz|We plan to expand to Japan.|我們計畫拓展到日本。
+commit|v.|承諾；犯（錯、罪）|hr|We are committed to quality.|我們致力於品質。
+obvious|adj.|明顯的|gen|The answer is obvious.|答案很明顯。
+jump|v.|跳|gen|The kids are jumping on the bed.|孩子們在床上跳。
+weapon|n.|武器|trv|Weapons are not allowed on the plane.|武器不能帶上飛機。
+relatively|adv.|相對地|gen|The test was relatively easy.|考試相對簡單。
+host|n./v.|主人；主持人；主辦|mtg|Our city will host the event.|我們的城市將主辦這個活動。
+winter|n.|冬天|gen|It snows in winter.|冬天會下雪。
+district|n.|地區；區|gen|The office is in the business district.|辦公室在商業區。
+broad|adj.|寬的；廣泛的|gen|The store has a broad range of goods.|這家店的商品種類很多。
+tire|n./v.|輪胎；使疲倦|trn|I need to change a tire.|我需要換輪胎。
+spring|n.|春天；彈簧|gen|The flowers bloom in spring.|花在春天綻放。
+spirit|n.|精神；心情|hr|The team has great spirit.|這個團隊士氣高昂。
+lunch|n.|午餐|din|Let's have lunch together.|我們一起吃午餐吧。
+actual|adj.|實際的|fin|The actual cost was higher.|實際成本比較高。
+pool|n.|游泳池|trv|The hotel has a pool.|這家飯店有游泳池。
+battle|n.|戰鬥；奮鬥|gen|It was a long battle.|那是一場漫長的奮戰。
+tradition|n.|傳統|gen|It's a family tradition.|這是家族傳統。
+cash|n.|現金|fin|Do you accept cash?|你們收現金嗎？
+hardly|adv.|幾乎不|gen|I can hardly hear you.|我幾乎聽不到你說話。
+award|n./v.|獎；頒發|hr|She won an award for her work.|她因工作表現而得獎。
+coach|n.|教練；長途客車|gen|The coach trains the team every day.|教練每天訓練球隊。
+experiment|n.|實驗|log|We did an experiment in the lab.|我們在實驗室做了一個實驗。
+consideration|n.|考慮|gen|Thank you for your consideration.|謝謝你的考慮。
+strange|adj.|奇怪的|gen|I heard a strange noise.|我聽到一個奇怪的聲音。
+code|n.|密碼；代碼；規範|off|Enter the code to open the door.|輸入密碼開門。
+possibly|adv.|可能；也許|gen|Could you possibly help me?|你能不能幫我一下？
+threat|n.|威脅|gen|The storm is a threat to farmers.|暴風雨對農民是一大威脅。
+accident|n.|意外；事故|trn|There was an accident on the road.|路上發生了一場車禍。
+impossible|adj.|不可能的|gen|It's impossible to finish today.|今天不可能完成。
+revenue|n.|營收|fin|Our revenue grew this year.|我們今年的營收成長了。
+enable|v.|使能夠|gen|The app enables you to pay by phone.|這個應用程式讓你可以用手機付款。
+afraid|adj.|害怕的；恐怕|gen|I'm afraid I can't come.|恐怕我不能來。
+active|adj.|活躍的；積極的|gen|She is very active in the club.|她在社團裡很活躍。
+conclude|v.|結束；下結論|mtg|Let me conclude my talk.|讓我為演講做個結尾。
+religious|adj.|宗教的|gen|Today is a religious holiday.|今天是一個宗教節日。
+cancer|n.|癌症|hlt|Smoking can cause cancer.|吸菸可能致癌。
+convince|v.|說服|gen|She convinced me to come.|她說服了我來。
+vary|v.|不同；變化|shp|Prices vary from store to store.|每家店的價格不一樣。
+environmental|adj.|環境的|gen|We care about environmental problems.|我們關心環境問題。
+sun|n.|太陽|gen|The sun is very strong today.|今天太陽很大。
+healthy|adj.|健康的|hlt|Eat healthy food.|吃健康的食物。
+blow|v.|吹|gen|The wind is blowing hard.|風很大。
+volume|n.|音量；量|gen|Turn down the volume, please.|請把音量調小。
+location|n.|地點；位置|gen|The hotel is in a great location.|飯店的位置很好。
+invest|v.|投資|fin|We invested in new machines.|我們投資了新機器。
+proceed|v.|繼續進行；前往|trv|Please proceed to Gate 5.|請前往五號登機門。
+wash|v.|洗|gen|Wash your hands before eating.|吃飯前要洗手。
+actor|n.|演員|gen|He is a famous actor.|他是一位有名的演員。
+glad|adj.|高興的|gen|I'm glad you came.|我很高興你來了。
+tape|n.|膠帶；錄音帶|off|I need some tape for this box.|我需要一些膠帶封這個箱子。
+whereas|conj.|然而；但是|gen|I like tea, whereas my wife likes coffee.|我喜歡茶，而我太太喜歡咖啡。
+opposite|prep./adj.|在……對面；相反的|gen|The bank is opposite the station.|銀行在車站對面。
+stone|n.|石頭|gen|The house is made of stone.|這間房子是石頭蓋的。
+sum|n.|總和；金額|fin|We paid a large sum of money.|我們付了一大筆錢。
+murder|n.|謀殺|gen|The movie is about a murder.|這部電影是關於一樁謀殺案。
+monitor|n./v.|螢幕；監控|off|I have two monitors on my desk.|我桌上有兩台螢幕。
+soldier|n.|士兵|gen|My grandfather was a soldier.|我爺爺當過兵。
+finance|n./v.|財務；資助|fin|She works in the finance department.|她在財務部工作。
+hate|v.|討厭|gen|I hate waiting.|我討厭等待。
+egg|n.|蛋|din|I had two eggs for breakfast.|我早餐吃了兩顆蛋。
+concert|n.|音樂會；演唱會|gen|We went to a concert last night.|我們昨晚去聽了演唱會。
+shock|n./v.|震驚|gen|The news was a shock.|這個消息令人震驚。
+comfortable|adj.|舒服的|shp|These shoes are very comfortable.|這雙鞋很好穿。
+usual|adj.|平常的|gen|The bus is late as usual.|公車跟平常一樣又遲到了。
+carefully|adv.|小心地；仔細地|gen|Please read the instructions carefully.|請仔細閱讀說明。
+pack|v./n.|打包；一包|trv|I need to pack for my trip.|我需要為旅行打包行李。
+recall|v./n.|記得；召回|log|The company recalled the cars.|公司召回了那些汽車。
+wine|n.|葡萄酒|din|Would you like red or white wine?|你要紅酒還是白酒？
+camera|n.|相機|gen|I bought a new camera.|我買了一台新相機。
+swim|v.|游泳|gen|Can you swim?|你會游泳嗎？
+manufacture|v.|製造|log|The company manufactures shoes.|這家公司製造鞋子。
+theater|n.|劇院；電影院|gen|Let's meet at the theater.|我們在劇院見面吧。
+cycle|n./v.|週期；騎腳踏車|gen|I cycle to work.|我騎腳踏車上班。
+coffee|n.|咖啡|din|Would you like some coffee?|要來點咖啡嗎？
+totally|adv.|完全地|gen|I totally agree.|我完全同意。
+museum|n.|博物館|trv|The museum is closed on Mondays.|博物館星期一休館。
+visitor|n.|訪客|trv|All visitors must sign in.|所有訪客都必須登記。
+freedom|n.|自由|gen|I enjoy the freedom of working from home.|我喜歡在家工作的自由。
+construction|n.|建設；施工|fac|The road is under construction.|這條路正在施工。
+dear|adj.|親愛的（信件開頭）|off|The letter begins with "Dear Ms. Chen."|這封信開頭寫「親愛的陳小姐」。
+objective|n.|目標|biz|What is the objective of this project?|這個專案的目標是什麼？

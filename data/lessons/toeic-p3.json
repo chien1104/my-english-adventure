@@ -1,7 +1,7 @@
 {
   "id": "toeic-p3",
-  "world": "toeic-camp",
-  "order": 3,
+  "world": "part3",
+  "order": 4,
   "type": "toeic-listen",
   "title": "Part 3 簡短對話",
   "titleEn": "Conversations",
@@ -203,5 +203,8 @@
         }
       ]
     }
+  ],
+  "requires": [
+    "toeic-p2"
   ]
 }

@@ -1,0 +1,101 @@
+# NGSL 901-1000
+fun|n./adj.|樂趣；好玩的|gen|The party was fun.|派對很好玩。
+protect|v.|保護|gen|Wear a hat to protect your face.|戴帽子保護你的臉。
+resource|n.|資源|hr|She works in human resources.|她在人力資源部工作。
+science|n.|科學|gen|My son likes science.|我兒子喜歡自然科學。
+disease|n.|疾病|hlt|Wash your hands to prevent disease.|洗手預防疾病。
+balance|n./v.|平衡；餘額|fin|Check your account balance.|查一下你的帳戶餘額。
+damage|n./v.|損壞|log|The box was damaged during shipping.|箱子在運送途中損壞了。
+basis|n.|基礎；基準|hr|We hire staff on a part-time basis.|我們以兼職方式聘用員工。
+author|n.|作者|gen|The author will sign books today.|作者今天會簽書。
+basic|adj.|基本的|gen|I know some basic English.|我會一些基本的英文。
+encourage|v.|鼓勵|hr|My boss encouraged me to try.|我的主管鼓勵我試試看。
+hair|n.|頭髮|gen|She has long hair.|她有一頭長髮。
+male|adj./n.|男性的|gen|There are ten male workers.|有十位男性員工。
+operate|v.|操作；營運|log|Do you know how to operate this machine?|你知道怎麼操作這台機器嗎？
+reflect|v.|反映；反射|gen|The price reflects the quality.|價格反映品質。
+exercise|n./v.|運動；練習|hlt|I exercise three times a week.|我一週運動三次。
+useful|adj.|有用的|gen|This app is very useful.|這個應用程式很有用。
+restaurant|n.|餐廳|din|Let's try the new restaurant.|我們去試試那家新餐廳吧。
+income|n.|收入|fin|What is your monthly income?|你每月收入多少？
+property|n.|財產；房地產|fac|This property is for sale.|這處房產正在出售。
+previous|adj.|先前的|hr|What was your previous job?|你上一份工作是什麼？
+dark|adj.|黑暗的；深色的|gen|It's getting dark.|天色漸暗了。
+imagine|v.|想像|gen|Imagine you are on a beach.|想像你在海灘上。
+okay|adj./adv.|好；沒問題|gen|Is it okay if I leave early?|我可以早點走嗎？|/oʊˈkeɪ/
+earn|v.|賺|fin|How much do you earn?|你賺多少錢？
+daughter|n.|女兒|gen|My daughter is six.|我女兒六歲。
+post|v./n.|張貼；郵寄；職位|biz|We posted the job online.|我們在網路上刊登了職缺。
+newspaper|n.|報紙|gen|I read the newspaper on the train.|我在火車上看報紙。
+define|v.|定義|gen|Can you define this word?|你可以解釋這個字的意思嗎？
+conclusion|n.|結論|mtg|What is your conclusion?|你的結論是什麼？
+clock|n.|時鐘|gen|The clock on the wall is slow.|牆上的時鐘慢了。
+everybody|pron.|每個人|gen|Everybody is here.|大家都到了。
+weekend|n.|週末|gen|What did you do last weekend?|你上週末做了什麼？
+perform|v.|表演；執行|gen|The band will perform tonight.|樂團今晚會表演。
+professional|adj./n.|專業的；專業人士|hr|She is a professional photographer.|她是專業攝影師。
+mine|pron./n.|我的（東西）；礦坑|gen|This pen is mine.|這支筆是我的。
+debate|n./v.|辯論|mtg|There was a long debate about the plan.|針對這個計畫有一場冗長的辯論。
+memory|n.|記憶；記憶體|gen|I have a good memory.|我記性很好。
+green|adj.|綠色的|gen|Wait for the green light.|等綠燈。
+song|n.|歌|gen|This is my favorite song.|這是我最喜歡的歌。
+object|n.|物體；目標|gen|What is that object on the table?|桌上那個東西是什麼？
+maintain|v.|維持；維修|log|We maintain all our machines.|我們維修保養所有機器。
+credit|n.|信用；學分|fin|Can I pay by credit card?|我可以用信用卡付款嗎？
+ring|n./v.|戒指；（電話）響|gen|The phone is ringing.|電話在響。
+discover|v.|發現|gen|We discovered a nice café.|我們發現了一家不錯的咖啡館。
+dead|adj.|死的；沒電的|gen|My phone is dead.|我的手機沒電了。
+afternoon|n.|下午|gen|The meeting is this afternoon.|會議在今天下午。
+prefer|v.|比較喜歡|gen|I prefer tea to coffee.|比起咖啡我比較喜歡茶。
+extend|v.|延長；延伸|gen|Can I extend my stay?|我可以延長住宿嗎？
+possibility|n.|可能性|gen|There is a possibility of rain.|有下雨的可能。
+direction|n.|方向（常用複數：路線指引）|trn|Can you give me directions?|你可以告訴我怎麼走嗎？
+facility|n.|設施|fac|The hotel has great facilities.|這家飯店的設施很好。
+variety|n.|多樣；種類|shp|We have a variety of colors.|我們有各種顏色。
+daily|adj./adv.|每天的|gen|Check your email daily.|每天檢查你的電子郵件。
+clothes|n.|衣服|shp|I need to buy new clothes.|我需要買新衣服。
+screen|n.|螢幕|off|The screen is too small.|螢幕太小了。
+track|n./v.|軌道；追蹤|log|You can track your order online.|你可以在網路上追蹤你的訂單。
+dance|v./n.|跳舞|gen|Do you like to dance?|你喜歡跳舞嗎？
+completely|adv.|完全地|gen|I completely forgot.|我完全忘了。
+female|adj./n.|女性的|gen|Most of the staff are female.|大部分員工是女性。
+responsibility|n.|責任|hr|It's my responsibility.|這是我的責任。
+original|adj./n.|原本的；原版|off|Please keep the original receipt.|請保留收據正本。
+sister|n.|姊妹|gen|My sister works at a hospital.|我姊姊在醫院工作。
+rock|n.|岩石；搖滾樂|gen|I like rock music.|我喜歡搖滾樂。
+dream|n./v.|夢；夢想|gen|My dream is to travel the world.|我的夢想是環遊世界。
+nor|conj.|也不|gen|I don't smoke, nor do I drink.|我不抽菸，也不喝酒。
+university|n.|大學|gen|She teaches at a university.|她在大學教書。
+easily|adv.|容易地|gen|You can easily find the station.|你可以很容易找到車站。
+agency|n.|代理商；機構|trv|We booked the trip through a travel agency.|我們透過旅行社預訂行程。
+dollar|n.|美元；元|fin|It costs five dollars.|它要五美元。
+garden|n.|花園|fac|There is a garden behind the house.|房子後面有一座花園。
+fix|v.|修理|fac|Can you fix my computer?|你可以修我的電腦嗎？
+ahead|adv.|在前面；提前|gen|Go ahead.|請說／請便。
+cross|v.|穿越；橫越|trn|Be careful when you cross the street.|過馬路時要小心。
+yeah|adv.|是啊（口語）|gen|Yeah, that's right.|對啊，沒錯。
+weight|n.|重量；體重|log|What is the weight of the box?|這個箱子多重？
+legal|adj.|法律的；合法的|gen|Is it legal to park here?|在這裡停車合法嗎？
+proposal|n.|提案；建議書|biz|We sent a proposal to the client.|我們把提案寄給客戶了。
+version|n.|版本|off|This is the latest version.|這是最新版本。
+conversation|n.|對話|gen|We had a nice conversation.|我們聊得很愉快。
+somebody|pron.|某人|gen|Somebody left a bag here.|有人把包包忘在這裡。
+pound|n.|英鎊；磅|fin|It costs ten pounds.|它要十英鎊。
+magazine|n.|雜誌|gen|I read a fashion magazine.|我看了一本時尚雜誌。
+shape|n.|形狀；狀態|gen|What shape is the table?|桌子是什麼形狀？
+sea|n.|海|trv|The hotel is near the sea.|飯店靠海。
+immediately|adv.|立刻|gen|Please call me immediately.|請立刻打給我。
+welcome|v./int.|歡迎|gen|Welcome to Taiwan!|歡迎來到台灣！
+smile|v./n.|微笑|gen|She always smiles.|她總是面帶微笑。
+communication|n.|溝通；通訊|hr|Good communication is important.|良好的溝通很重要。
+agent|n.|代理人；仲介|trv|Ask the travel agent.|問問旅行社業務員。
+traditional|adj.|傳統的|din|We tried traditional Japanese food.|我們吃了傳統的日本料理。
+replace|v.|更換；取代|fac|We need to replace the light bulb.|我們需要換燈泡。
+judge|n./v.|法官；評審；判斷|gen|Don't judge people too quickly.|不要太快評斷別人。
+herself|pron.|她自己|gen|She made the dress herself.|這件洋裝是她自己做的。
+suddenly|adv.|突然|gen|Suddenly, the lights went out.|燈突然熄了。
+generation|n.|世代|gen|Three generations live in this house.|三代人住在這間房子裡。
+estimate|n./v.|估計；估價|fin|Can you give me an estimate?|你可以給我一個估價嗎？
+favorite|adj.|最喜歡的|gen|What is your favorite food?|你最喜歡的食物是什麼？
+difficulty|n.|困難|gen|I had difficulty finding the hotel.|我找飯店找得很辛苦。
+purchase|v./n.|購買|shp|You can purchase tickets online.|你可以在網路上購票。

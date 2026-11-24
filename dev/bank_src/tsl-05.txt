@@ -1,0 +1,101 @@
+# TSL 401-500
+overview|n.|概要；概述|mtg|Let me give you a quick overview.|讓我簡單說明一下概要。
+projector|n.|投影機|mtg|The projector is not working.|投影機壞了。
+shortage|n.|短缺；不足|log|There is a shortage of workers.|人手短缺。
+spacious|adj.|寬敞的|fac|The new office is bright and spacious.|新辦公室明亮又寬敞。
+accomplishment|n.|成就；完成|hr|Finishing the project early was a great accomplishment.|提早完成專案是一大成就。
+accustom|v.|（be accustomed to）習慣於|gen|I am accustomed to working late.|我習慣工作到很晚。
+clinic|n.|診所|hlt|The clinic opens at nine.|診所九點開門。
+desktop|n.|桌上型電腦；電腦桌面|off|Save the file to your desktop.|把檔案存到桌面。
+jog|v.|慢跑|hlt|I jog in the park every morning.|我每天早上在公園慢跑。
+leisure|n.|空閒；休閒|gen|What do you do in your leisure time?|你空閒時都做什麼？|/ˈliʒər/
+nap|n.|小睡；午睡|hlt|I took a short nap after lunch.|我午餐後小睡了一下。
+reinforce|v.|加強；強化|biz|The ads reinforce our brand image.|這些廣告加強了我們的品牌形象。
+sender|n.|寄件人|off|Return the letter to the sender.|把信退回給寄件人。
+vacuum|v.|用吸塵器打掃|fac|Please vacuum the carpet.|請用吸塵器吸地毯。
+wireless|adj.|無線的|off|The hotel has free wireless Internet.|飯店有免費無線網路。
+yearly|adj.|每年的|fin|We pay a yearly fee.|我們付年費。
+appreciation|n.|感激；欣賞|gen|We gave her flowers to show our appreciation.|我們送她花表達感謝。
+cargo|n.|貨物（船或飛機運送的）|log|The ship carries cargo to Japan.|這艘船運貨到日本。
+cooperate|v.|合作；配合|biz|Thank you for cooperating with us.|謝謝你們與我們合作。
+distract|v.|使分心|gen|The noise distracts me from work.|噪音讓我無法專心工作。
+dividend|n.|股利；紅利|fin|The company paid a dividend this year.|公司今年發放了股利。
+exemption|n.|免除；豁免|fin|You may qualify for a tax exemption.|你可能符合免稅的資格。
+furnish|v.|為（房間）配置家具|fac|The apartment is fully furnished.|這間公寓家具齊全。
+hourly|adj.|每小時的|hr|What is the hourly wage?|時薪是多少？
+laundry|n.|待洗衣物；洗衣服務|trv|The hotel offers laundry service.|飯店提供洗衣服務。
+mandatory|adj.|強制的；必須的|hr|The safety training is mandatory.|安全訓練是強制參加的。
+mechanical|adj.|機械的|log|The delay was caused by a mechanical problem.|延誤是機械故障造成的。
+pharmacy|n.|藥局|hlt|You can get this medicine at any pharmacy.|你在任何一家藥局都買得到這種藥。
+promotional|adj.|促銷的；宣傳的|biz|We are planning a promotional event.|我們正在籌劃一場促銷活動。
+quarterly|adj.|每季的|fin|The quarterly report is due next week.|季報下星期要交。
+residential|adj.|住宅的|fac|This is a quiet residential area.|這是一個安靜的住宅區。
+scholarship|n.|獎學金|gen|She won a scholarship to study abroad.|她得到獎學金出國念書。
+seeker|n.|尋找者（job seeker 求職者）|hr|The website helps job seekers.|這個網站幫助求職者。
+temporarily|adv.|暫時地|gen|The store is temporarily closed.|這家店暫停營業。
+towel|n.|毛巾|trv|Please bring me some clean towels.|請拿一些乾淨的毛巾給我。
+unattended|adj.|無人看管的|trv|Do not leave your bags unattended.|請勿將包包留在無人看管處。
+accessible|adj.|可進入的；可使用的|fac|The building is accessible by wheelchair.|這棟大樓可以讓輪椅進出。
+afterward|adv.|之後；後來|gen|We had dinner and went home afterward.|我們吃了晚餐，之後就回家了。
+apology|n.|道歉|gen|Please accept our apology.|請接受我們的道歉。
+assemble|v.|組裝；集合|log|Workers assemble the cars by hand.|工人用手工組裝汽車。
+automatic|adj.|自動的|log|The doors are automatic.|這些門是自動門。
+boardroom|n.|董事會會議室|mtg|The meeting is in the boardroom.|會議在董事會會議室舉行。
+carpenter|n.|木匠|fac|The carpenter made a new table.|木匠做了一張新桌子。
+caterer|n.|外燴業者|din|We hired a caterer for the party.|我們請了外燴業者負責派對餐點。
+classify|v.|分類|off|Classify the files by date.|依日期把檔案分類。
+consultation|n.|諮詢；看診|hlt|The first consultation is free.|第一次諮詢免費。
+durable|adj.|耐用的|shp|These shoes are light and durable.|這雙鞋又輕又耐穿。
+glove|n.|手套|log|Wear gloves when you clean.|打掃時戴上手套。
+hardware|n.|硬體；五金|off|The problem is with the hardware.|問題出在硬體。
+malfunction|n.|故障|log|A malfunction stopped the machine.|一個故障讓機器停了下來。
+outdated|adj.|過時的|gen|This software is outdated.|這套軟體已經過時了。
+patience|n.|耐心|gen|Thank you for your patience.|謝謝你的耐心等候。
+postcard|n.|明信片|trv|I sent a postcard from Paris.|我從巴黎寄了一張明信片。
+prospective|adj.|未來的；潛在的|biz|We met with a prospective client.|我們和一位潛在客戶見面。
+revision|n.|修改；修訂|off|The report needs some revision.|這份報告需要修改一下。
+strictly|adv.|嚴格地|gen|Smoking is strictly prohibited.|嚴格禁止吸菸。
+tomato|n.|番茄|din|Add some tomato to the salad.|在沙拉裡加一些番茄。
+tray|n.|托盤|din|The waiter is carrying a tray.|服務生端著一個托盤。
+vendor|n.|小販；供應商|biz|We buy paper from a local vendor.|我們向當地的供應商買紙。
+withdrawal|n.|提款；撤回|fin|You can make a withdrawal at the ATM.|你可以在提款機提款。
+anytime|adv.|任何時候|gen|Call me anytime.|隨時打電話給我。
+badge|n.|識別證；徽章|off|Please wear your badge at all times.|請隨時配戴識別證。
+brake|n.|煞車|trn|The car needs new brakes.|這輛車需要換新的煞車。
+calculation|n.|計算|fin|Please check my calculations.|請檢查我的計算。
+coordinator|n.|協調人；統籌者|mtg|She is our event coordinator.|她是我們的活動統籌。
+costly|adj.|昂貴的；代價高的|fin|The repairs were very costly.|修理費很貴。
+equip|v.|配備；裝備|fac|The room is equipped with a projector.|這間會議室配備了投影機。
+excursion|n.|短程旅行；遠足|trv|We went on a day excursion to the lake.|我們去湖邊一日遊。
+graphic|adj.|圖像的；圖形的|biz|She is a graphic designer.|她是平面設計師。
+inexperienced|adj.|缺乏經驗的|hr|He is young and inexperienced.|他年輕又缺乏經驗。
+lengthy|adj.|冗長的|mtg|It was a lengthy meeting.|那是一場冗長的會議。
+librarian|n.|圖書館員|gen|Ask the librarian for help.|請圖書館員幫忙。
+meantime|n.|（in the meantime）在此期間|gen|In the meantime, please wait here.|在這段時間，請在這裡等候。
+merge|v.|合併|biz|The two banks will merge next year.|這兩家銀行明年將合併。
+performer|n.|表演者|gen|The performers bowed at the end.|表演者在最後鞠躬。
+pharmacist|n.|藥劑師|hlt|Ask the pharmacist about this medicine.|向藥劑師詢問這種藥。
+pizza|n.|披薩|din|Let's order a pizza.|我們叫個披薩吧。
+resignation|n.|辭職；辭呈|hr|She handed in her resignation today.|她今天遞出辭呈。
+reviewer|n.|評論者；審查者|biz|The reviewer liked the new restaurant.|評論家喜歡這家新餐廳。
+terminate|v.|終止；結束|hr|The contract was terminated.|合約被終止了。
+translation|n.|翻譯；譯文|off|I need a translation of this letter.|我需要這封信的翻譯。
+unfamiliar|adj.|不熟悉的|gen|This area is unfamiliar to me.|我對這個地區不熟。
+actress|n.|女演員|gen|The actress won an award.|那位女演員得了獎。
+adjacent|adj.|鄰近的；隔壁的|fac|The parking lot is adjacent to the hotel.|停車場就在飯店隔壁。
+alternate|adj.|替代的；輪流的|trn|Please use the alternate entrance.|請使用另一個入口。
+congratulate|v.|恭喜；祝賀|gen|I want to congratulate you on your promotion.|我想恭喜你升職。
+escort|v.|陪同；護送|trv|A guide will escort you to your room.|會有人陪同你到房間。
+inexpensive|adj.|不貴的；便宜的|shp|The food here is good and inexpensive.|這裡的食物好吃又便宜。
+mask|n.|口罩；面具|hlt|Please wear a mask in the hospital.|在醫院請戴口罩。
+purchaser|n.|購買者；買方|shp|The purchaser must sign the form.|買方必須在表格上簽名。
+purse|n.|錢包；手提包|shp|She left her purse in the taxi.|她把手提包忘在計程車上。
+realtor|n.|房地產仲介|fac|Our realtor found us a nice house.|我們的房仲幫我們找到一間不錯的房子。
+rearrange|v.|重新安排；重新排列|off|Let's rearrange the desks.|我們重新排一下桌子吧。
+reopen|v.|重新開放；重新營業|shp|The store will reopen next Monday.|這家店下星期一重新營業。
+soap|n.|肥皂|fac|Wash your hands with soap.|用肥皂洗手。
+spokesperson|n.|發言人|biz|A spokesperson answered the reporters' questions.|發言人回答了記者的問題。
+superior|adj.|較好的；上級的|biz|Our product is superior in quality.|我們產品的品質比較好。
+airfare|n.|機票費用|trv|Airfares are higher in summer.|夏天機票比較貴。
+bake|v.|烘烤|din|She bakes bread every morning.|她每天早上烤麵包。
+businessperson|n.|商人；生意人|biz|He is a businessperson from Japan.|他是來自日本的商人。

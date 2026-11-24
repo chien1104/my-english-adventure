@@ -1,7 +1,7 @@
 {
   "id": "toeic-p6",
-  "world": "toeic-camp",
-  "order": 6,
+  "world": "part6",
+  "order": 2,
   "type": "toeic",
   "title": "Part 6 段落填空",
   "titleEn": "Text Completion",
@@ -204,5 +204,8 @@
         }
       ]
     }
+  ],
+  "requires": [
+    "toeic-p5-1"
   ]
 }

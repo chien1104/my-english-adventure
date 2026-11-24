@@ -19,8 +19,8 @@ export async function render({ outlet, db, navigate, query = {}, settings }) {
   }
   if (!questions.length) {
     outlet.innerHTML = `<section class="card"><h1 class="card__title">還沒有可以複習的單字</h1>
-      <p>先到單字村莊完成一堂單字課，學過的單字就會出現在這裡。</p>
-      <a class="btn btn--primary" href="#/world?id=word-village">去單字村莊</a></section>`;
+      <p>先在「單字」頁學一個單元，或完成一堂單字課，學過的單字就會出現在這裡。</p>
+      <a class="btn btn--primary" href="#/words">去學單字</a></section>`;
     return;
   }
   const lesson = buildReviewLesson(questions);

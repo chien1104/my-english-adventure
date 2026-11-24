@@ -1,7 +1,7 @@
 {
   "id": "toeic-p4",
-  "world": "toeic-camp",
-  "order": 4,
+  "world": "part4",
+  "order": 1,
   "type": "toeic-listen",
   "title": "Part 4 簡短獨白",
   "titleEn": "Talks",
@@ -197,5 +197,8 @@
         }
       ]
     }
+  ],
+  "requires": [
+    "toeic-p3"
   ]
 }

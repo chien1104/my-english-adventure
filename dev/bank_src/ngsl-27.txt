@@ -1,0 +1,101 @@
+# NGSL 2601-2700
+grandmother|n.|祖母；外婆|gen|My grandmother is 90 years old.|我奶奶九十歲了。
+jury|n.|陪審團；評審團|gen|The jury chose the winner.|評審團選出了優勝者。
+cooperation|n.|合作|biz|Thank you for your cooperation.|謝謝您的配合。
+civilian|n.|平民|gen|The museum is open to civilians.|博物館對一般民眾開放。
+composition|n.|作文；組成；作曲|gen|Write a short composition in English.|用英文寫一篇短文。
+coin|n.|硬幣|fin|The machine only takes coins.|這台機器只收硬幣。
+regardless|adv.|不管；無論如何|gen|We will go regardless of the weather.|不管天氣如何我們都會去。
+scan|v.|掃描；瀏覽|off|Please scan the document.|請掃描這份文件。
+bunch|n.|一串；一束|gen|She bought a bunch of flowers.|她買了一束花。
+racial|adj.|種族的|hr|We do not accept racial discrimination.|我們不接受種族歧視。
+greet|v.|問候；迎接|trv|The staff greeted us at the door.|員工在門口迎接我們。
+hopefully|adv.|但願|gen|Hopefully, it won't rain.|但願不會下雨。
+sanction|n.|制裁；批准|biz|The country faces trade sanctions.|這個國家面臨貿易制裁。
+trick|n.|訣竅；把戲|gen|Here is a trick for learning words.|這是一個背單字的訣竅。
+paragraph|n.|段落|gen|Read the first paragraph.|閱讀第一段。
+maker|n.|製造者；廠商|biz|He works for a car maker.|他在一家汽車廠工作。
+chocolate|n.|巧克力|din|I love dark chocolate.|我很愛黑巧克力。
+stimulate|v.|刺激；促進|biz|Low prices stimulate sales.|低價能刺激銷售。
+belt|n.|腰帶；安全帶|trv|Fasten your seat belt.|繫好安全帶。
+potato|n.|馬鈴薯|din|I'd like some potato salad.|我要一些馬鈴薯沙拉。
+narrative|n.|敘述；故事|gen|The book has a simple narrative.|這本書的敘事很簡單。
+tissue|n.|面紙；組織|gen|Can I have a tissue?|可以給我一張面紙嗎？
+barely|adv.|幾乎沒有；勉強|gen|I barely slept last night.|我昨晚幾乎沒睡。
+invent|v.|發明|gen|Who invented the telephone?|電話是誰發明的？
+tourism|n.|觀光業|trv|Tourism is important to the island.|觀光業對這座島很重要。
+pro|n.|專業人士；優點|gen|Let's list the pros and cons.|我們把優缺點列出來吧。
+stair|n.|樓梯（常用複數）|fac|Take the stairs to the second floor.|走樓梯到二樓。
+hesitate|v.|猶豫|gen|Don't hesitate to call me.|有需要隨時打給我。
+shine|v.|發光；照耀|gen|The sun is shining.|陽光燦爛。
+motivation|n.|動機；動力|hr|What is your motivation for this job?|你應徵這份工作的動機是什麼？
+romantic|adj.|浪漫的|gen|It was a romantic dinner.|那是一頓浪漫的晚餐。
+firmly|adv.|堅定地；牢固地|gen|Hold the handle firmly.|緊握把手。
+interior|n./adj.|內部；室內的|fac|She is an interior designer.|她是室內設計師。
+stomach|n.|胃；肚子|hlt|I have a stomach ache.|我肚子痛。
+nowhere|adv.|無處|gen|There is nowhere to park.|沒有地方停車。
+pray|v.|祈禱|gen|We prayed for good weather.|我們祈求好天氣。
+championship|n.|冠軍賽；錦標賽|gen|Our team won the championship.|我們隊贏得了冠軍賽。
+servant|n.|僕人；公僕|gen|He is a public servant.|他是公務員。
+immigrant|n.|移民|gen|Many immigrants live in this city.|很多移民住在這座城市。
+excess|n./adj.|過量；超額的|trv|You must pay for excess baggage.|行李超重要付費。
+complexity|n.|複雜性|gen|I didn't expect the complexity of the task.|我沒料到這項任務這麼複雜。
+liability|n.|責任；負債|fin|The company has many liabilities.|這家公司有很多負債。
+surprisingly|adv.|令人驚訝地|gen|The test was surprisingly easy.|考試出乎意料地簡單。
+extract|v./n.|提取；摘錄|gen|Read the extract from the book.|閱讀這本書的節錄。
+implementation|n.|實施|biz|The implementation of the plan starts today.|計畫今天開始實施。
+bias|n.|偏見|hr|We hire without bias.|我們聘用人才不帶偏見。
+differently|adv.|不同地|gen|We see the problem differently.|我們對這個問題的看法不同。
+catalog|n.|目錄|shp|Please send me your catalog.|請寄給我你們的目錄。
+continuous|adj.|連續的|gen|We had three days of continuous rain.|連續下了三天雨。
+golden|adj.|金色的；黃金的|gen|This is a golden opportunity.|這是一個絕佳的機會。
+stamp|n.|郵票；印章|log|I need a stamp for this letter.|這封信我需要一張郵票。
+guideline|n.|指導方針（常用複數）|hr|Follow the company guidelines.|遵守公司的規範。
+envelope|n.|信封|off|Put the letter in an envelope.|把信放進信封。
+knife|n.|刀|din|Can I have a knife and fork?|可以給我刀叉嗎？
+biological|adj.|生物的|gen|She studies biological science.|她研讀生物科學。
+consume|v.|消耗；吃|gen|The machine consumes a lot of power.|這台機器很耗電。
+luxury|n./adj.|奢華；豪華的|trv|We stayed at a luxury hotel.|我們住在一家豪華飯店。
+weekly|adj./adv.|每週的|mtg|We have a weekly meeting.|我們每週開一次會。
+wherever|conj.|無論哪裡|gen|Sit wherever you like.|你喜歡坐哪就坐哪。
+bite|v./n.|咬；一口|din|Can I have a bite?|我可以吃一口嗎？
+printer|n.|印表機|off|The printer is out of paper.|印表機沒紙了。
+firstly|adv.|首先|gen|Firstly, let me thank you all.|首先，讓我感謝大家。
+anxious|adj.|焦慮的|gen|I'm anxious about the test.|我對考試感到焦慮。
+adventure|n.|冒險|gen|Learning English is an adventure.|學英文是一場冒險。
+fence|n.|籬笆；圍欄|fac|There is a fence around the garden.|花園周圍有圍籬。
+exhaust|v./n.|使筋疲力盡；廢氣|gen|I'm exhausted after work.|下班後我累壞了。
+attraction|n.|景點；吸引力|trv|The tower is a popular attraction.|這座塔是熱門景點。
+ocean|n.|海洋|trv|The hotel faces the ocean.|飯店面向大海。
+quietly|adv.|安靜地|gen|Please speak quietly.|請小聲說話。
+castle|n.|城堡|trv|We visited an old castle.|我們參觀了一座古堡。
+veteran|n.|老手；退伍軍人|hr|He is a veteran of the sales team.|他是業務團隊的老鳥。
+reflection|n.|倒影；反省|gen|I saw my reflection in the window.|我在窗戶上看到自己的倒影。
+nerve|n.|神經；勇氣|gen|It takes nerve to speak in public.|在公開場合說話需要勇氣。
+determination|n.|決心|hr|She has great determination.|她很有決心。
+altogether|adv.|總共；完全|fin|That's 30 dollars altogether.|總共三十美元。
+fiction|n.|小說；虛構|gen|I like reading fiction.|我喜歡看小說。
+carpet|n.|地毯|fac|The carpet needs cleaning.|地毯需要清洗。
+cluster|n.|群；串|gen|A cluster of people stood at the door.|一群人站在門口。
+confusion|n.|混亂；困惑|gen|There was some confusion about the time.|時間上有點搞混了。
+hurry|v./n.|趕快|gen|Hurry up, or we'll be late.|快點，不然我們會遲到。
+logic|n.|邏輯|gen|I don't follow your logic.|我跟不上你的邏輯。
+controversial|adj.|有爭議的|gen|It's a controversial topic.|這是一個有爭議的話題。
+raw|adj.|生的；未加工的|din|Do you eat raw fish?|你吃生魚片嗎？
+grammar|n.|文法|gen|English grammar is not so hard.|英文文法沒那麼難。
+revise|v.|修改；複習|off|Please revise the report.|請修改報告。
+hint|n.|提示|gen|Can you give me a hint?|你可以給我一點提示嗎？
+hook|n.|掛鉤|fac|Hang your coat on the hook.|把外套掛在掛鉤上。
+bell|n.|鈴；鐘|gen|Ring the bell for service.|按鈴請求服務。
+liquid|n.|液體|trv|You can't bring liquids on the plane.|你不能帶液體上飛機。
+panic|n./v.|恐慌|gen|Don't panic.|別慌張。
+uncle|n.|叔叔；舅舅|gen|My uncle runs a restaurant.|我叔叔經營一家餐廳。
+rice|n.|米；飯|din|I'd like fried rice.|我要炒飯。
+slope|n.|斜坡|gen|Walk carefully on the slope.|在斜坡上小心走。
+happiness|n.|幸福；快樂|gen|Money can't buy happiness.|金錢買不到幸福。
+genuine|adj.|真正的|shp|Is this genuine leather?|這是真皮嗎？
+vessel|n.|船；容器|log|The vessel carries oil.|這艘船載運石油。
+verb|n.|動詞|gen|"Run" is a verb.|「run」是動詞。
+reckon|v.|認為；估計|gen|I reckon it will rain.|我想會下雨。
+silly|adj.|愚蠢的；傻的|gen|Don't be silly.|別傻了。
+transportation|n.|交通運輸|trn|Public transportation is convenient here.|這裡的大眾運輸很方便。

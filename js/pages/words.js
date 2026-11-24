@@ -1,27 +1,59 @@
-// 單字圖書館：#/words
+// 單字：#/words — 複習、搜尋、多益單字系列、情境分類、學過的單字
 import { loadContext } from '../learning.js';
+import { loadSeries } from '../content.js';
 import { STATUS_LABEL, statusOf } from '../words.js';
+import { seriesProgress, nextUnit, searchWords, topicSeries } from '../bank.js';
 import { wordCardHTML, attachAudioButtons } from '../ui/word-card.js';
 import { escapeHTML } from '../ui/dom.js';
 import { formatTime } from '../storage-status.js';
 
-const FILTERS = [['all', '全部'], ['learning', '學習中'], ['familiar', '熟悉'], ['new', '還沒學']];
+const FILTERS = [['learning', '學習中'], ['familiar', '熟悉']];
+
+export function wordRowHTML(w, record) {
+  const st = statusOf(record);
+  return `
+    <li class="word-row">
+      <details>
+        <summary>
+          ${w.image ? `<img src="${escapeHTML(w.image)}" alt="" width="44" height="44">` : ''}
+          <span class="word-row__en en">${escapeHTML(w.en)}</span>
+          <span class="word-row__zh">${escapeHTML(w.zh)}</span>
+          <span class="status status--${st}">${STATUS_LABEL[st]}</span>
+        </summary>
+        <div class="word-row__detail">${wordCardHTML(w, record)}</div>
+      </details>
+    </li>`;
+}
+
+export function bindWordRows(list) {
+  list.querySelectorAll('details').forEach((d) => d.addEventListener('toggle', () => {
+    if (d.open && !d.dataset.audioReady) { d.dataset.audioReady = '1'; attachAudioButtons(d); }
+  }));
+}
+
+function bar(p) {
+  const pct = p.total ? Math.round((p.learned / p.total) * 100) : 0;
+  return `<span class="mini-bar" role="progressbar" aria-valuemin="0" aria-valuemax="${p.total}" aria-valuenow="${p.learned}" aria-label="已學 ${p.learned} / ${p.total}"><span style="width:${pct}%"></span></span>`;
+}
 
 export async function render({ outlet, db, query }) {
-  const ctx = await loadContext(db);
+  const [ctx, bank] = await Promise.all([loadContext(db), loadSeries(db)]);
   const words = [...ctx.wordsMap.values()];
-  const counts = { all: words.length, new: 0, learning: 0, familiar: 0 };
+  const counts = { new: 0, learning: 0, familiar: 0 };
   for (const w of words) counts[statusOf(ctx.records.get(w.id))] += 1;
   const learned = counts.learning + counts.familiar;
-  let filter = FILTERS.some(([k]) => k === query.filter) ? query.filter : 'all';
+  let filter = FILTERS.some(([k]) => k === query.filter) ? query.filter : 'learning';
+  const series = bank?.series || [];
+  const hot = series[0] ? nextUnit(series[0], ctx.records) : null;
+  const topics = bank ? Object.entries(bank.topics).map(([id, label]) => topicSeries(id, label, ctx.wordsMap, bank.unitSize)).filter((t) => t.count) : [];
 
   outlet.innerHTML = `
     <section class="card">
-      <h1 class="page-title">單字圖書館</h1>
+      <h1 class="page-title">單字</h1>
       <dl class="stats">
         <div class="stat"><dt>學習中</dt><dd data-testid="count-learning">${counts.learning}</dd></div>
         <div class="stat"><dt>熟悉</dt><dd data-testid="count-familiar">${counts.familiar}</dd></div>
-        <div class="stat"><dt>還沒學</dt><dd>${counts.new}</dd></div>
+        <div class="stat"><dt>全部單字</dt><dd data-testid="count-all">${words.length}</dd></div>
       </dl>
       ${learned > 0 ? `
       <p class="due-line" data-testid="due-line">${ctx.dueCount
@@ -31,39 +63,57 @@ export async function render({ outlet, db, query }) {
         ${ctx.dueCount ? `<a class="btn btn--primary" href="#/review" data-testid="start-review">開始複習（${Math.min(ctx.dueCount, 10)} 個）</a>` : ''}
         <a class="btn btn--ghost" href="#/review?mode=free" data-testid="free-practice">自由練習</a>
       </div>
-      <p class="hint">依記憶曲線排程：答對的單字間隔會拉長（1、3、7、14、30 天），答錯的今天再複習。連續按時答對 3 次就算熟悉。自由練習答對不會改變排程，答錯的單字會排到今天再複習。</p>`
-      : '<p class="muted">完成單字村莊的課程後，就可以在這裡複習。</p>'}
+      <p class="hint">依記憶曲線排程：答對的單字間隔會拉長（1、3、7、14、30 天），答錯的今天再複習。連續按時答對 3 次就算熟悉。</p>`
+      : '<p class="muted">從「多益高頻 500」第 1 單元開始，學過的單字會自動排進複習。</p>'}
+      ${hot ? `<a class="btn btn--primary btn--block" href="#/unit?id=${hot.id}" data-testid="next-unit">🔥 繼續背：${escapeHTML(hot.series.name)} 第 ${hot.index + 1} 單元</a>` : ''}
     </section>
+
+    <section class="card">
+      <label class="field">
+        <span class="field__label">查單字</span>
+        <input class="input" type="search" data-role="search" placeholder="輸入英文或中文" autocomplete="off" autocapitalize="off" spellcheck="false" data-testid="word-search">
+      </label>
+      <ul class="word-list" data-role="results" data-testid="search-results"></ul>
+    </section>
+
+    ${series.length ? `
+    <h2 class="section-title">多益單字系列 <span class="en muted">TOEIC Word Series</span></h2>
+    <ul class="series-list" data-testid="series-list">
+      ${series.map((s) => {
+        const p = seriesProgress(s, ctx.records);
+        return `<li><a class="series-card" href="#/series?id=${s.id}" data-series="${s.id}">
+          <span class="series-card__icon" aria-hidden="true">${s.icon}</span>
+          <span class="series-card__body"><strong>${escapeHTML(s.name)}</strong>
+            <span class="muted small">${escapeHTML(s.desc)}</span>
+            ${bar(p)}<span class="small">已學 ${p.learned} / ${p.total} 字・${s.units.length} 個單元</span></span>
+        </a></li>`;
+      }).join('')}
+    </ul>
+    <h2 class="section-title">依多益情境 <span class="en muted">By Situation</span></h2>
+    <div class="chip-cloud" data-testid="topic-list">
+      ${topics.map((t) => `<a class="chip" href="#/series?id=${t.id}">${escapeHTML(t.name.replace('情境', ''))} <span class="muted">${t.count}</span></a>`).join('')}
+    </div>
+    <p class="hint">單字表來源：${escapeHTML(bank.source)}；中文、例句與發音為本 App 自製。</p>` : ''}
+
+    ${learned > 0 ? `
+    <h2 class="section-title">學過的單字</h2>
     <div class="filter-row" role="tablist" aria-label="篩選">
       ${FILTERS.map(([k, label]) => `<button type="button" class="chip${k === filter ? ' is-active' : ''}" role="tab" aria-selected="${k === filter}" data-filter="${k}">${label} ${counts[k]}</button>`).join('')}
     </div>
-    <ul class="word-list" data-testid="word-list"></ul>`;
+    <ul class="word-list" data-testid="word-list"></ul>` : ''}`;
 
   const list = outlet.querySelector('[data-testid="word-list"]');
   function paint() {
-    const shown = words.filter((w) => filter === 'all' || statusOf(ctx.records.get(w.id)) === filter);
-    list.innerHTML = shown.length ? shown.map((w) => {
-      const st = statusOf(ctx.records.get(w.id));
-      return `
-        <li class="word-row">
-          <details>
-            <summary>
-              <img src="${escapeHTML(w.image)}" alt="" width="44" height="44">
-              <span class="word-row__en en">${escapeHTML(w.en)}</span>
-              <span class="word-row__zh">${escapeHTML(w.zh)}</span>
-              <span class="status status--${st}">${STATUS_LABEL[st]}</span>
-            </summary>
-            <div class="word-row__detail">${wordCardHTML(w, ctx.records.get(w.id))}</div>
-          </details>
-        </li>`;
-    }).join('') : '<li class="muted empty">這個分類還沒有單字。</li>';
-    list.querySelectorAll('details').forEach((d) => d.addEventListener('toggle', () => {
-      if (d.open && !d.dataset.audioReady) { d.dataset.audioReady = '1'; attachAudioButtons(d); }
-    }));
+    if (!list) return;
+    const shown = words.filter((w) => statusOf(ctx.records.get(w.id)) === filter);
+    list.innerHTML = shown.length ? shown.slice(0, 200).map((w) => wordRowHTML(w, ctx.records.get(w.id))).join('')
+      + (shown.length > 200 ? `<li class="muted empty">只顯示前 200 個，可以用上面的「查單字」找其他字。</li>` : '')
+      : '<li class="muted empty">這個分類還沒有單字。</li>';
+    bindWordRows(list);
   }
   paint();
 
-  outlet.querySelector('.filter-row').addEventListener('click', (e) => {
+  outlet.querySelector('.filter-row')?.addEventListener('click', (e) => {
     const b = e.target.closest('[data-filter]');
     if (!b) return;
     filter = b.dataset.filter;
@@ -73,5 +123,19 @@ export async function render({ outlet, db, query }) {
       x.setAttribute('aria-selected', on);
     });
     paint();
+  });
+
+  const input = outlet.querySelector('[data-role="search"]');
+  const results = outlet.querySelector('[data-role="results"]');
+  let timer = null;
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      const found = searchWords(words, input.value);
+      results.innerHTML = !input.value.trim() ? ''
+        : found.length ? found.map((w) => wordRowHTML(w, ctx.records.get(w.id))).join('')
+          : '<li class="muted empty">找不到這個字。</li>';
+      bindWordRows(results);
+    }, 200);
   });
 }

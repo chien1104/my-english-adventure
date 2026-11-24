@@ -1,0 +1,101 @@
+# NGSL 1401-1500
+moreover|adv.|此外；而且|gen|The room is cheap. Moreover, it's very clean.|房間很便宜，而且很乾淨。
+onto|prep.|到……上面|gen|He climbed onto the roof.|他爬到屋頂上。
+historical|adj.|歷史的|trv|We visited a historical building.|我們參觀了一棟歷史建築。
+oppose|v.|反對|mtg|Many people opposed the plan.|很多人反對這個計畫。
+branch|n.|分店；分公司；樹枝|biz|The bank has a branch near my house.|這家銀行在我家附近有分行。
+vehicle|n.|車輛|trn|Please lock your vehicle.|請鎖好你的車。
+scientist|n.|科學家|gen|She is a scientist at a lab.|她是實驗室裡的科學家。
+route|n.|路線|trn|Which bus route goes downtown?|哪一條公車路線到市中心？
+bind|v.|綁；裝訂|off|Please bind the report.|請把報告裝訂起來。
+belong|v.|屬於|gen|This bag belongs to me.|這個包包是我的。
+taste|n./v.|味道；嚐|din|This soup tastes good.|這湯很好喝。
+tonight|adv./n.|今晚|gen|Are you free tonight?|你今晚有空嗎？
+fashion|n.|時尚；流行|shp|She works in the fashion industry.|她在時尚業工作。
+danger|n.|危險|gen|There is a danger of falling rocks.|有落石危險。
+bomb|n.|炸彈|gen|The police checked the bag for a bomb.|警方檢查包包裡有沒有炸彈。
+army|n.|軍隊|gen|He joined the army.|他從軍了。
+dangerous|adj.|危險的|gen|This road is dangerous at night.|這條路晚上很危險。
+decrease|v./n.|減少|fin|Costs decreased this year.|今年成本降低了。
+hurt|v.|受傷；疼痛|hlt|My back hurts.|我的背很痛。
+council|n.|議會；委員會|gen|The city council will meet today.|市議會今天開會。
+editor|n.|編輯|biz|She is a magazine editor.|她是雜誌編輯。
+normally|adv.|通常|gen|I normally start work at nine.|我通常九點開始上班。
+sight|n.|視力；景象（sights 名勝）|trv|We saw the sights of Paris.|我們參觀了巴黎的名勝。
+generate|v.|產生|biz|The new store will generate more sales.|新店會帶來更多銷售。
+gift|n.|禮物|shp|This is a gift for you.|這是給你的禮物。
+delivery|n.|送貨；遞送|log|Delivery is free.|免運費。
+deny|v.|否認；拒絕|gen|He denied the story.|他否認了這個說法。
+guest|n.|客人|trv|Hotel guests can use the gym.|飯店房客可以使用健身房。
+anybody|pron.|任何人|gen|Is anybody home?|有人在家嗎？
+bedroom|n.|臥室|fac|The apartment has two bedrooms.|這間公寓有兩個臥室。
+quote|n./v.|報價；引用|biz|Can you give me a price quote?|你可以給我報價嗎？
+climb|v.|爬|gen|We climbed the hill.|我們爬上了山丘。
+basically|adv.|基本上|gen|Basically, it's a good plan.|基本上，這是個好計畫。
+violence|n.|暴力|gen|There is too much violence in this movie.|這部電影暴力場面太多了。
+minister|n.|部長；牧師|gen|The minister gave a speech.|部長發表了演說。
+mainly|adv.|主要地|gen|Our customers are mainly students.|我們的顧客主要是學生。
+mouth|n.|嘴|hlt|Open your mouth, please.|請張開嘴巴。
+noise|n.|噪音|gen|What is that noise?|那是什麼聲音？
+manner|n.|方式；禮貌（manners）|gen|He has good manners.|他很有禮貌。
+gun|n.|槍|gen|The police officer had a gun.|那位警察配有一把槍。
+square|n./adj.|廣場；正方形|gen|Let's meet in the town square.|我們在市鎮廣場碰面吧。
+occasion|n.|場合；時機|gen|This dress is for a special occasion.|這件洋裝是為特別場合準備的。
+familiar|adj.|熟悉的|gen|Your face looks familiar.|你看起來很眼熟。
+ignore|v.|忽視|gen|Don't ignore the warning.|不要忽視警告。
+destroy|v.|摧毀|gen|The fire destroyed the house.|大火燒毀了房子。
+affair|n.|事務；事情|gen|She works in public affairs.|她從事公共事務工作。
+civil|adj.|公民的；民用的|gen|He is a civil engineer.|他是土木工程師。
+locate|v.|位於；找出|gen|The hotel is located near the station.|飯店位於車站附近。
+citizen|n.|公民；市民|gen|She is a citizen of Canada.|她是加拿大公民。
+temperature|n.|溫度|gen|The temperature is 25 degrees.|溫度是二十五度。
+gold|n./adj.|金；金色的|shp|She bought a gold ring.|她買了一枚金戒指。
+domestic|adj.|國內的；家庭的|trv|This is a domestic flight.|這是國內航班。
+load|n./v.|負載；裝載|log|They loaded the truck with boxes.|他們把箱子裝上卡車。
+belief|n.|信念|gen|It is my belief that we can win.|我相信我們能贏。
+troop|n.|部隊（常用複數）|gen|The troops arrived in the city.|部隊抵達了城市。
+technical|adj.|技術的|off|We had a technical problem.|我們遇到了技術問題。
+remind|v.|提醒|off|Please remind me about the meeting.|請提醒我開會的事。
+arrangement|n.|安排|trv|I made travel arrangements.|我做好了旅行安排。
+skin|n.|皮膚|hlt|Protect your skin from the sun.|保護你的皮膚免受日曬。
+prison|n.|監獄|gen|The movie is set in a prison.|這部電影以監獄為背景。
+switch|v./n.|切換；開關|off|Switch off the lights when you leave.|離開時把燈關掉。
+acquire|v.|取得；收購|biz|The company acquired a small firm.|這家公司收購了一家小公司。
+corporate|adj.|公司的；企業的|biz|Our corporate office is in Taipei.|我們的公司總部在台北。
+fairly|adv.|相當；公平地|gen|The hotel is fairly new.|這家飯店相當新。
+wood|n.|木頭|gen|The table is made of wood.|這張桌子是木頭做的。
+participate|v.|參加|mtg|Everyone can participate.|每個人都可以參加。
+tough|adj.|困難的；強硬的|gen|It was a tough week.|這個星期很辛苦。
+tear|v./n.|撕；眼淚|gen|Tear off the coupon.|撕下優惠券。
+representative|n.|代表|biz|A sales representative will call you.|業務代表會打電話給你。
+capacity|n.|容量；能力|fac|The hall has a capacity of 500.|大廳可容納五百人。
+border|n.|邊界|trv|We crossed the border by car.|我們開車越過邊界。
+shake|v.|搖動；握（手）|gen|Let's shake hands.|我們握個手吧。
+assessment|n.|評估|hr|We do a skills assessment for new staff.|我們為新員工做技能評估。
+shoe|n.|鞋子|shp|These shoes are too small.|這雙鞋太小了。
+ought|aux.|（ought to）應該|gen|You ought to rest.|你應該休息。
+ad|n.|廣告|biz|I saw your ad online.|我在網路上看到你們的廣告。
+fee|n.|費用|fin|There is a small fee for delivery.|運費要收一點費用。
+hall|n.|大廳；走廊|fac|The meeting is in the main hall.|會議在大廳舉行。
+regulation|n.|規定；法規|gen|Follow the safety regulations.|遵守安全規定。
+escape|v.|逃脫|gen|We went to the beach to escape the heat.|我們去海邊避暑。
+studio|n.|工作室；攝影棚|biz|The photo studio is on the second floor.|攝影棚在二樓。
+proper|adj.|適當的；正確的|gen|Wear proper shoes for hiking.|健行要穿合適的鞋子。
+relax|v.|放鬆|hlt|Sit down and relax.|坐下來放輕鬆。
+tourist|n.|觀光客|trv|The city is full of tourists.|這座城市到處都是觀光客。
+component|n.|零件；成分|log|We make computer components.|我們製造電腦零件。
+afford|v.|負擔得起|fin|I can't afford a new car.|我買不起新車。
+lawyer|n.|律師|gen|She is a lawyer.|她是律師。
+suspect|v./n.|懷疑；嫌疑犯|gen|I suspect he is sick.|我猜他生病了。
+cup|n.|杯子|din|Would you like a cup of tea?|你要來杯茶嗎？
+description|n.|描述|shp|Read the product description.|閱讀產品說明。
+confidence|n.|信心|hr|She speaks with confidence.|她說話很有自信。
+industrial|adj.|工業的|log|This is an industrial area.|這是一個工業區。
+complain|v.|抱怨；投訴|shp|The customer complained about the service.|顧客投訴服務不好。
+perspective|n.|觀點|gen|Try to see it from my perspective.|試著從我的角度看看。
+error|n.|錯誤|off|There is an error in the report.|報告裡有一個錯誤。
+arrest|v.|逮捕|gen|The police arrested the man.|警方逮捕了那名男子。
+assess|v.|評估|hr|We will assess your skills.|我們會評估你的技能。
+register|v.|登記；註冊|gen|Register online before May 1.|五月一日前上網報名。
+asset|n.|資產|fin|Our staff are our greatest asset.|員工是我們最大的資產。
+signal|n.|訊號|gen|There is no phone signal here.|這裡沒有手機訊號。

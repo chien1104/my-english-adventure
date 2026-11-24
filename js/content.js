@@ -23,12 +23,13 @@ export async function syncContent(db, { fetchImpl = globalThis.fetch.bind(global
     return { updated: false, version: installed };
   }
 
-  let vocabLists, lessons, diagnosis;
+  let vocabLists, lessons, diagnosis, series;
   try {
-    [vocabLists, lessons, diagnosis] = await Promise.all([
+    [vocabLists, lessons, diagnosis, series] = await Promise.all([
       Promise.all(catalog.vocab.map((u) => fetchJSON(u, fetchImpl))),
       Promise.all(catalog.lessons.map((u) => fetchJSON(u, fetchImpl))),
       fetchJSON(catalog.diagnosis, fetchImpl),
+      catalog.series ? fetchJSON(catalog.series, fetchImpl) : null,
     ]);
   } catch (err) {
     if (installed) return { updated: false, version: installed, offline: true };
@@ -39,6 +40,7 @@ export async function syncContent(db, { fetchImpl = globalThis.fetch.bind(global
   await db.putMany('vocab', words);
   await db.putMany('lessons', lessons.map((l, i) => ({ ...l, seq: i })));
   await db.setMeta('diagnosisContent', diagnosis);
+  if (series) await db.setMeta('series', series);
   // 版本最後才寫，前面任何一步失敗都會在下次重試
   await db.setMeta('contentVersion', catalog.contentVersion);
   return { updated: true, version: catalog.contentVersion, words: words.length, lessons: lessons.length };
@@ -47,6 +49,11 @@ export async function syncContent(db, { fetchImpl = globalThis.fetch.bind(global
 export async function loadLessons(db) {
   const all = await db.getAll('lessons');
   return all.sort((a, b) => (a.seq ?? 0) - (b.seq ?? 0) || a.order - b.order);
+}
+
+// 多益單字庫的系列與單元（data/series.json）
+export async function loadSeries(db) {
+  return (await db.getMeta('series')) || null;
 }
 
 export async function loadWordsMap(db) {

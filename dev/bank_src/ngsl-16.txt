@@ -1,0 +1,101 @@
+# NGSL 1501-1600
+finger|n.|手指|hlt|I cut my finger.|我切到手指了。
+relevant|adj.|相關的|hr|Do you have relevant experience?|你有相關經驗嗎？
+explore|v.|探索|trv|Let's explore the old town.|我們去探索老城區吧。
+leadership|n.|領導能力|hr|She has strong leadership skills.|她的領導能力很強。
+commitment|n.|承諾；投入|hr|Thank you for your commitment to the team.|謝謝你對團隊的投入。
+wake|v.|醒來；叫醒|gen|Please wake me up at six.|請六點叫醒我。
+necessarily|adv.|必然；一定|gen|Expensive is not necessarily better.|貴的不一定比較好。
+bright|adj.|明亮的；聰明的|gen|The room is bright and clean.|房間明亮又乾淨。
+frame|n.|框；框架|gen|I bought a frame for the photo.|我買了一個相框放這張照片。
+slowly|adv.|慢慢地|gen|Please speak slowly.|請說慢一點。
+bond|n.|關係；債券|fin|He invested in government bonds.|他投資了政府公債。
+hire|v.|僱用；租用|hr|We need to hire more staff.|我們需要僱用更多員工。
+hole|n.|洞|gen|There is a hole in my sock.|我的襪子破了一個洞。
+tie|n./v.|領帶；綁|shp|He is wearing a blue tie.|他打著一條藍色領帶。
+internal|adj.|內部的|off|This is an internal memo.|這是一份內部備忘錄。
+chain|n.|連鎖店；鏈子|biz|It's a big hotel chain.|這是一家大型連鎖飯店。
+literature|n.|文學|gen|She studied English literature.|她念英國文學。
+victim|n.|受害者|gen|The victims got help quickly.|受害者很快就得到了協助。
+threaten|v.|威脅|gen|The storm threatens the coast.|暴風雨威脅沿海地區。
+division|n.|部門；分割|biz|She works in the sales division.|她在業務部門工作。
+secure|adj./v.|安全的；取得|gen|Keep your password secure.|妥善保管你的密碼。
+amaze|v.|使驚訝（be amazed）|gen|I was amazed by the view.|我被這片景色震撼了。
+device|n.|裝置；設備|off|Please turn off all devices.|請關閉所有電子裝置。
+birth|n.|出生|gen|What is your date of birth?|你的出生日期是什麼時候？
+forest|n.|森林|gen|We walked through the forest.|我們走過森林。
+label|n.|標籤|shp|Read the label before you buy.|買之前先看標籤。
+root|n.|根；根源|gen|What is the root of the problem?|問題的根源是什麼？
+factory|n.|工廠|log|The factory makes car parts.|這間工廠生產汽車零件。
+expense|n.|費用；開支|fin|Keep receipts for all expenses.|保留所有開支的收據。
+channel|n.|頻道；管道|biz|Change the channel, please.|請換台。
+investigate|v.|調查|gen|We will investigate the problem.|我們會調查這個問題。
+recommendation|n.|推薦；建議|hr|Can you write me a letter of recommendation?|你可以幫我寫推薦信嗎？
+rank|n./v.|等級；排名|gen|Our school ranks first in the city.|我們學校在市內排名第一。
+typical|adj.|典型的|gen|This is a typical office building.|這是一棟典型的辦公大樓。
+west|n./adv.|西方|trv|The sun sets in the west.|太陽從西邊落下。
+friendly|adj.|友善的|gen|The staff are very friendly.|員工們很友善。
+resident|n.|居民；住戶|fac|Only residents can park here.|只有住戶可以在這裡停車。
+provision|n.|提供；條款|biz|The contract has a provision for delays.|合約有一條關於延誤的條款。
+concentrate|v.|專心|gen|I can't concentrate in a noisy room.|在吵鬧的房間裡我無法專心。
+plenty|n.|大量；充足|gen|We have plenty of time.|我們有很多時間。
+export|v./n.|出口|biz|We export tea to Japan.|我們出口茶葉到日本。
+entirely|adv.|完全地|gen|I entirely agree with you.|我完全同意你。
+strongly|adv.|強烈地|gen|I strongly recommend this hotel.|我強烈推薦這家飯店。
+bridge|n.|橋|trn|Drive across the bridge.|開車過橋。
+consist|v.|（consist of）由……組成|gen|The team consists of five people.|這個團隊由五個人組成。
+graduate|v./n.|畢業；畢業生|gen|I graduated from college in 2020.|我 2020 年大學畢業。
+brand|n.|品牌|biz|This is a famous brand.|這是一個有名的品牌。
+moral|adj.|道德的|gen|It's a moral question.|這是一個道德問題。
+insist|v.|堅持|gen|She insisted on paying.|她堅持要付錢。
+combination|n.|組合；結合|gen|This is a good combination.|這是一個很好的組合。
+abuse|n./v.|濫用；虐待|gen|Drug abuse is a big problem.|藥物濫用是個大問題。
+ice|n.|冰|din|Can I have a glass of water with ice?|可以給我一杯加冰的水嗎？
+principal|n./adj.|校長；主要的|gen|The principal spoke to the students.|校長對學生講話。
+master|n./v.|主人；碩士；精通|gen|She has a master's degree.|她有碩士學位。
+definitely|adv.|肯定地；一定|gen|I will definitely come.|我一定會來。
+session|n.|一段時間；（會議）場次|mtg|The morning session starts at nine.|上午場九點開始。
+grade|n.|成績；年級；等級|gen|She got good grades.|她成績很好。
+nevertheless|adv.|然而；儘管如此|gen|It was raining. Nevertheless, we went out.|下著雨，但我們還是出門了。
+predict|v.|預測|biz|We predict sales will rise.|我們預測銷售會成長。
+previously|adv.|先前|hr|I previously worked at a bank.|我以前在銀行工作。
+protection|n.|保護|gen|Wear gloves for protection.|戴手套保護雙手。
+largely|adv.|大部分；主要地|gen|The success was largely due to the team.|這次成功主要歸功於團隊。
+wedding|n.|婚禮|gen|We went to a wedding on Saturday.|我們星期六去參加了一場婚禮。
+rent|n./v.|租金；租|fac|How much is the rent?|房租多少？
+shot|n.|射擊；照片；打針|hlt|I got a flu shot.|我打了流感疫苗。
+appearance|n.|外表；出現|gen|Appearance is important in sales.|做業務外表很重要。
+reasonable|adj.|合理的|shp|The prices are reasonable.|價格很合理。
+guarantee|n./v.|保證|shp|We guarantee fast delivery.|我們保證快速送達。
+till|prep.|直到|gen|The store is open till nine.|這家店營業到九點。
+theme|n.|主題|mtg|The theme of the party is summer.|派對的主題是夏天。
+judgment|n.|判斷|gen|I trust your judgment.|我相信你的判斷。
+odd|adj.|奇怪的；奇數的|gen|That's odd. The door is open.|奇怪，門是開著的。
+approve|v.|批准；贊成|off|The manager approved my vacation.|經理批准了我的休假。
+loan|n.|貸款；借出|fin|I got a loan from the bank.|我向銀行貸了款。
+definition|n.|定義|gen|Look up the definition of this word.|查一下這個字的定義。
+elect|v.|選舉|gen|She was elected president of the club.|她被選為社長。
+atmosphere|n.|氣氛；大氣|din|The restaurant has a nice atmosphere.|這家餐廳氣氛很好。
+farmer|n.|農夫|gen|The farmer sells vegetables at the market.|農夫在市場賣蔬菜。
+comparison|n.|比較|shp|Here is a price comparison.|這是價格比較。
+characteristic|n.|特徵|gen|What are the characteristics of a good leader?|好的領導人有哪些特質？
+license|n.|執照|trn|Do you have a driver's license?|你有駕照嗎？
+rely|v.|依賴；信賴|gen|You can rely on me.|你可以信賴我。
+narrow|adj.|窄的|trn|The street is very narrow.|這條街很窄。
+succeed|v.|成功|biz|We will succeed if we work together.|只要一起努力我們就會成功。
+identity|n.|身分|trv|Please show proof of identity.|請出示身分證明。
+desk|n.|書桌；櫃檯|off|Please leave it on my desk.|請放在我桌上。
+permit|n./v.|許可證；允許|gen|You need a permit to park here.|在這裡停車需要許可證。
+seriously|adv.|認真地；嚴重地|gen|Are you seriously leaving?|你真的要走了嗎？
+wild|adj.|野生的|gen|We saw wild animals.|我們看到了野生動物。
+empty|adj.|空的|gen|The room is empty.|房間是空的。
+commission|n.|佣金；委員會|fin|Salespeople earn a commission.|業務員賺取佣金。
+unique|adj.|獨特的|shp|Each piece is unique.|每一件都是獨一無二的。
+association|n.|協會|biz|She is a member of the business association.|她是商業協會的會員。
+instrument|n.|樂器；儀器|gen|Do you play an instrument?|你會演奏樂器嗎？
+investor|n.|投資人|fin|The investors liked the plan.|投資人喜歡這個計畫。
+practical|adj.|實用的|gen|This is a practical gift.|這是一份實用的禮物。
+tea|n.|茶|din|I drink green tea every day.|我每天喝綠茶。
+lovely|adj.|可愛的；美好的|gen|What a lovely day!|多美好的一天！
+soft|adj.|柔軟的|shp|This pillow is very soft.|這個枕頭很軟。
+row|n.|一排|gen|We sat in the front row.|我們坐在第一排。

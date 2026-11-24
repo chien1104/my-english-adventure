@@ -1,0 +1,101 @@
+# TSL 201-300
+delicious|adj.|美味的|din|The soup is delicious.|這碗湯很好喝。
+ink|n.|墨水|off|The printer is out of ink.|印表機沒有墨水了。
+supervise|v.|監督；管理|hr|She supervises a team of ten people.|她管理一個十人的團隊。
+waitress|n.|女服務生|din|The waitress took our order.|女服務生幫我們點餐。
+cleaner|n.|清潔工；清潔劑|fac|The cleaner comes every Friday.|清潔人員每週五來。
+developer|n.|開發者；開發商|biz|He is a software developer.|他是軟體開發人員。
+headquarters|n.|總部|off|Our headquarters is in Taipei.|我們的總部在台北。
+shuttle|n.|接駁車|trn|Take the free shuttle to the hotel.|搭免費接駁車到飯店。
+stationery|n.|文具|off|We need to order more stationery.|我們需要再訂一些文具。
+subscribe|v.|訂閱|shp|I subscribe to a business magazine.|我訂閱了一本商業雜誌。
+alike|adj.|相似的|gen|The two plans are very alike.|這兩個計畫非常相似。
+flavor|n.|口味；味道|din|Which ice cream flavor do you like?|你喜歡哪種冰淇淋口味？
+picnic|n.|野餐|gen|We had a picnic in the park.|我們在公園野餐。
+recipe|n.|食譜|din|This recipe is easy to follow.|這份食譜很容易照著做。
+refreshment|n.|茶點；點心飲料|mtg|Refreshments will be served after the talk.|演講後會提供茶點。
+administrative|adj.|行政的；管理的|off|She has an administrative job.|她做的是行政工作。
+authorize|v.|授權；批准|off|The manager must authorize the payment.|這筆付款必須由經理批准。
+commonly|adv.|通常；一般地|gen|This word is commonly used.|這個字很常用。
+distribution|n.|分發；配送|log|They handle the distribution of goods.|他們負責貨物的配送。
+sofa|n.|沙發|fac|There is a sofa in the waiting room.|候客室裡有一張沙發。
+accommodate|v.|容納；提供住宿|trv|The hall can accommodate 300 people.|這個大廳可以容納三百人。
+affordable|adj.|負擔得起的；價格實惠的|shp|The hotel has affordable rooms.|這家飯店的房間價格實惠。
+annoy|v.|使惱怒；打擾|gen|The noise annoys the neighbors.|噪音讓鄰居很困擾。
+commute|v.|通勤|trn|I commute to work by train.|我搭火車通勤上班。
+coordinate|v.|協調；統籌|mtg|She coordinates all company events.|她統籌公司所有的活動。
+paperwork|n.|文書工作；文件|off|I have a lot of paperwork to do.|我有很多文書工作要做。
+quit|v.|辭職；停止|hr|He quit his job last month.|他上個月辭職了。
+authority|n.|權力；主管機關|gen|Only the manager has the authority to decide.|只有經理有權力決定。
+flu|n.|流行性感冒|hlt|She is home with the flu.|她得了流感在家休息。
+captain|n.|機長；船長；隊長|trv|The captain spoke to the passengers.|機長向乘客廣播。
+installation|n.|安裝|fac|Installation of the new system takes two days.|新系統的安裝需要兩天。
+trainer|n.|訓練師；培訓講師|hr|The trainer taught us how to use the software.|培訓講師教我們使用這套軟體。
+availability|n.|可得性；有空（的時間）|mtg|Please check your availability for next week.|請確認你下星期什麼時候有空。
+bargain|n.|便宜貨；划算的交易|shp|This coat was a real bargain.|這件外套真的很划算。
+complimentary|adj.|免費贈送的|trv|Breakfast is complimentary.|早餐是免費的。
+hike|n.|健行；（價格）上漲|gen|We went on a hike in the mountains.|我們去山裡健行。
+midnight|n.|午夜；半夜十二點|gen|The store is open until midnight.|這家店營業到半夜十二點。
+productivity|n.|生產力|biz|The new software improved productivity.|新軟體提高了生產力。
+rainy|adj.|下雨的|gen|It was a rainy day.|那天是雨天。
+relocate|v.|搬遷；調職|hr|The company will relocate to Tainan.|公司將搬到台南。
+trainee|n.|受訓者；實習生|hr|The trainees start on Monday.|受訓人員星期一開始上班。
+transaction|n.|交易|fin|Each transaction has a receipt.|每筆交易都有收據。
+unhappy|adj.|不高興的；不滿意的|gen|The customer was unhappy with the service.|顧客對服務不滿意。
+verify|v.|核對；證實|off|Please verify your email address.|請驗證你的電子郵件地址。
+automobile|n.|汽車|trn|He works for an automobile company.|他在一家汽車公司工作。
+courier|n.|快遞員；快遞公司|log|The documents were sent by courier.|文件用快遞寄出了。
+incomplete|adj.|不完整的|off|Your form is incomplete.|你的表格沒有填完整。
+questionnaire|n.|問卷|biz|Please fill out this short questionnaire.|請填寫這份簡短的問卷。
+baseball|n.|棒球|gen|My son plays baseball.|我兒子打棒球。
+dock|n.|碼頭；裝卸平台|log|The truck is at the loading dock.|卡車在裝卸平台。
+lamp|n.|燈；檯燈|fac|Turn on the lamp, please.|請把檯燈打開。
+lately|adv.|最近|gen|I have been very busy lately.|我最近很忙。
+machinery|n.|機器；機械（總稱）|log|The factory bought new machinery.|工廠買了新的機器設備。
+presenter|n.|報告者；主持人|mtg|The presenter showed some charts.|報告者展示了一些圖表。
+seldom|adv.|很少；不常|gen|He seldom takes a day off.|他很少請假。
+signature|n.|簽名|off|We need your signature here.|這裡需要你的簽名。
+worldwide|adv.|在全世界|biz|The company has offices worldwide.|這家公司在全世界都有辦公室。
+carrier|n.|運輸公司；航空公司|log|Which carrier will deliver the package?|哪一家運輸公司會送這個包裹？
+designate|v.|指定；指派|off|This area is designated for smoking.|這個區域被指定為吸菸區。
+exclusive|adj.|獨家的；專屬的|shp|Members get exclusive discounts.|會員享有專屬折扣。
+grocery|n.|食品雜貨|shp|I need to buy some groceries.|我需要買一些食品雜貨。
+homework|n.|功課；家庭作業|gen|Do your homework before dinner.|晚餐前把功課做完。
+memorandum|n.|備忘錄|off|The memorandum explains the new rules.|這份備忘錄說明新的規定。
+photocopier|n.|影印機|off|The photocopier is on the second floor.|影印機在二樓。
+suite|n.|套房|trv|We booked a suite for the guest.|我們幫客人訂了一間套房。|/swit/
+thorough|adj.|徹底的；仔細的|gen|The doctor gave me a thorough checkup.|醫生幫我做了詳細的檢查。
+bookstore|n.|書店|shp|There is a bookstore next to the bank.|銀行旁邊有一家書店。
+cater|v.|承辦（宴席）；提供餐飲|din|A local restaurant will cater the party.|一家當地餐廳會承辦派對的餐點。
+dental|adj.|牙齒的；牙科的|hlt|I have a dental checkup today.|我今天要做牙齒檢查。
+duration|n.|持續時間；期間|gen|Stay seated for the duration of the flight.|飛行期間請保持坐著。
+lounge|n.|休息室；候機室|trv|Wait in the airport lounge.|在機場貴賓室等候。
+painter|n.|油漆工；畫家|fac|The painters will come on Monday.|油漆工星期一會來。
+patron|n.|顧客；贊助者|shp|The library is open to all patrons.|圖書館對所有讀者開放。
+prescription|n.|處方；藥方|hlt|You need a prescription for this medicine.|這種藥需要處方箋。
+productive|adj.|有生產力的；有成效的|biz|We had a productive meeting.|我們開了一場很有成效的會議。
+salad|n.|沙拉|din|I'll have a chicken salad.|我要一份雞肉沙拉。
+stack|n.|一疊；一堆|off|There is a stack of papers on the desk.|桌上有一疊文件。
+delegate|n.|代表|mtg|Delegates from ten countries attended.|來自十個國家的代表出席了。
+salesperson|n.|銷售員|biz|The salesperson showed us the new model.|銷售員向我們展示新款。
+calculator|n.|計算機|off|You can use a calculator on this test.|這個測驗可以使用計算機。
+completion|n.|完成|off|The project is near completion.|這個專案快完成了。
+defect|n.|瑕疵；缺陷|log|Every product is checked for defects.|每件產品都會檢查有沒有瑕疵。
+garbage|n.|垃圾|fac|Please take out the garbage.|請把垃圾拿出去。
+omit|v.|省略；遺漏|off|Don't omit any details.|不要遺漏任何細節。
+spite|n.|（in spite of）儘管|gen|In spite of the rain, we went out.|儘管下雨，我們還是出門了。
+bathroom|n.|浴室；洗手間|fac|The bathroom is down the hall.|洗手間在走廊盡頭。
+cab|n.|計程車|trn|Let's take a cab to the airport.|我們搭計程車去機場吧。
+correspondence|n.|往來信件；通信|off|She handles all the correspondence.|她負責處理所有往來信件。
+ladder|n.|梯子|fac|The man is standing on a ladder.|那個男人站在梯子上。
+photography|n.|攝影|gen|Photography is not allowed in the museum.|博物館內禁止攝影。
+sculpture|n.|雕塑|gen|There is a sculpture in the park.|公園裡有一座雕塑。
+anniversary|n.|週年紀念|biz|The company celebrates its tenth anniversary.|公司慶祝十週年。
+buffet|n.|自助餐|din|The hotel serves a breakfast buffet.|飯店提供自助式早餐。|/bəˈfeɪ/
+defective|adj.|有瑕疵的|shp|You can return defective items.|有瑕疵的商品可以退貨。
+ice cream|n.|冰淇淋|din|Would you like some ice cream?|你要來點冰淇淋嗎？
+leak|n.|漏水；洩漏|fac|There is a leak in the roof.|屋頂漏水了。
+occupancy|n.|入住率；佔用|trv|The hotel has high occupancy in summer.|這家飯店夏天的入住率很高。
+proficiency|n.|精通；熟練|hr|English proficiency is required for this job.|這份工作要求英文流利。
+renewal|n.|更新；續約|shp|Your membership renewal is due in June.|你的會員在六月要續約。
+urgent|adj.|緊急的|off|This is an urgent message.|這是一則緊急訊息。

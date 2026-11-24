@@ -4,6 +4,8 @@ import { getStorageStatus, describeStatus } from '../storage-status.js';
 import { escapeHTML } from '../ui/dom.js';
 import { toast } from '../ui/toast.js';
 import { worldStatus } from './worlds.js';
+import { loadSeries } from '../content.js';
+import { nextUnit, unitKey } from '../bank.js';
 import { loadContext } from '../learning.js';
 import { planToday, TYPE_LABEL, TYPE_ICON, lessonHref } from '../progress.js';
 import { expandLesson } from '../lesson/engine.js';
@@ -17,7 +19,10 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
   const ctx = await loadContext(db);
   const settled = await settleRewards(db, ctx, settings.getTodayMode().mode);
   const lv = levelInfo(await totalExp(db));
-  const challenge = ctx.learnedWords.length >= 4 ? dailyChallenge(todayKey(), settled.stats.sessions) : null;
+  // 每日挑戰：圖字配對需要 4 個有插圖的單字，不夠就不顯示（不放玩不了的挑戰）
+  const pictured = ctx.learnedWords.filter((w) => w.image).length;
+  const rawChallenge = ctx.learnedWords.length >= 4 ? dailyChallenge(todayKey(), settled.stats.sessions) : null;
+  const challenge = rawChallenge && !(rawChallenge.game === 'match' && pictured < 4) ? rawChallenge : null;
   const status = await getStorageStatus({ db });
   const desc = describeStatus(status, s.persistRequest);
   const worlds = worldStatus(ctx);
@@ -27,6 +32,10 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
   const mistakeCount = ctx.mistakes ? ctx.mistakes.filter((m) => !m.fixed).length : 0;
 
   const name = s.nickname ? escapeHTML(s.nickname) : '冒險者';
+  // 今天要背的單字：依序從多益高頻開始，背完一個系列再換下一個
+  const bank = await loadSeries(db);
+  const nu = (bank?.series || []).map((x) => nextUnit(x, ctx.records)).find(Boolean);
+  const todayUnit = nu ? { id: nu.id, icon: nu.series.icon, title: `${nu.series.name}・第 ${nu.index + 1} 單元` } : null;
 
   outlet.innerHTML = `
     <section class="card hero">
@@ -118,7 +127,7 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
 
   function paintPlan(mode, minutes) {
     if (!planList) return;
-    const plan = planToday({ mode, minutes, lessons: ctx.lessons, access: ctx.access, dueCount: ctx.dueCount, mistakeCount });
+    const plan = planToday({ mode, minutes, lessons: ctx.lessons, access: ctx.access, dueCount: ctx.dueCount, mistakeCount, unit: todayUnit });
     planList.innerHTML = plan.items.map((it) => {
       if (it.type === 'review') {
         return `<li class="plan-item"><span class="plan-item__icon" aria-hidden="true">📚</span>
@@ -129,6 +138,12 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
         return `<li class="plan-item"><span class="plan-item__icon" aria-hidden="true">📕</span>
           <span class="plan-item__body"><strong>錯題重練</strong><span class="muted">約 ${it.minutes} 分鐘・${it.count} 題待訂正</span></span>
           <a class="btn btn--primary btn--sm" href="#/mistake-practice">開始</a></li>`;
+      }
+      if (it.type === 'unit') {
+        const saved = ctx.progressById.get(unitKey(it.unit.id));
+        return `<li class="plan-item"><span class="plan-item__icon" aria-hidden="true">${it.unit.icon}</span>
+          <span class="plan-item__body"><strong>${escapeHTML(it.unit.title)}</strong><span class="muted">背單字・約 ${it.minutes} 分鐘${it.partial ? '・可以只做一部分' : ''}</span></span>
+          <a class="btn btn--primary btn--sm" href="#/unit?id=${it.unit.id}${saved?.status === 'in_progress' ? '&play=1' : ''}" data-testid="plan-unit">${saved?.status === 'in_progress' ? '繼續' : '開始'}</a></li>`;
       }
       const a = ctx.access.get(it.lesson.id);
       const total = it.lesson.type === 'exam' ? 1 : expandLesson(it.lesson).steps.length;

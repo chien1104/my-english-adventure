@@ -1,0 +1,101 @@
+# NGSL 1001-1100
+shoot|v.|射擊；拍攝|biz|They will shoot the ad next week.|他們下星期要拍廣告。
+announce|v.|宣布|biz|The company announced a new product.|公司宣布推出新產品。
+unless|conj.|除非|gen|Don't call unless it's urgent.|除非緊急，否則別打電話。
+independent|adj.|獨立的|gen|She is very independent.|她很獨立。
+recommend|v.|推薦；建議|din|Can you recommend a good restaurant?|你可以推薦一家好餐廳嗎？
+survey|n./v.|調查；問卷|biz|Please take our short survey.|請填寫我們的簡短問卷。
+majority|n.|大多數|gen|The majority of staff agreed.|大多數員工同意了。
+stick|v./n.|黏貼；棍子|off|Stick the note on the door.|把便條貼在門上。
+request|n./v.|要求；請求|off|We received your request.|我們收到你的請求了。
+rich|adj.|富有的；豐富的|gen|This food is rich in vitamins.|這種食物富含維他命。
+wind|n.|風|gen|The wind is very strong today.|今天風很強。
+none|pron.|一個也沒有|gen|None of the rooms are free.|沒有一間房是空的。
+exchange|v./n.|交換；兌換|fin|I want to exchange money.|我想換錢。
+budget|n.|預算|fin|We are over budget.|我們超出預算了。
+famous|adj.|有名的|gen|This city is famous for its food.|這座城市以美食聞名。
+blood|n.|血|hlt|I had a blood test today.|我今天驗了血。
+appropriate|adj.|適當的|hr|Please wear appropriate clothes.|請穿著適當的服裝。
+block|n./v.|街區；擋住|trn|The bank is two blocks away.|銀行在兩個街區外。
+warm|adj.|溫暖的|gen|It's warm today.|今天很溫暖。
+count|v.|數；計算|gen|Count the boxes, please.|請數一下箱子。
+scene|n.|場景；現場|gen|This is my favorite scene in the movie.|這是我在電影裡最喜歡的一幕。
+writer|n.|作家|gen|She is a famous writer.|她是一位知名作家。
+content|n.|內容|biz|We write content for websites.|我們為網站撰寫內容。
+prevent|v.|預防；防止|hlt|Wash your hands to prevent colds.|洗手預防感冒。
+safe|adj.|安全的|gen|Keep your passport in a safe place.|把護照放在安全的地方。
+invite|v.|邀請|gen|I want to invite you to dinner.|我想邀請你吃晚餐。
+mix|v.|混合|din|Mix the eggs and milk.|把蛋和牛奶混合。
+element|n.|要素；元素|gen|Trust is a key element of teamwork.|信任是團隊合作的關鍵要素。
+effective|adj.|有效的；生效的|gen|The new rule is effective from May 1.|新規定從五月一日起生效。
+correct|adj./v.|正確的；改正|gen|Your answer is correct.|你的答案是正確的。
+medical|adj.|醫療的|hlt|He needs medical care.|他需要醫療照護。
+admit|v.|承認；准許進入|gen|He admitted his mistake.|他承認了自己的錯。
+beat|v.|打敗；打|gen|We beat the other team.|我們打敗了另一隊。
+telephone|n.|電話|off|Answer the telephone, please.|請接電話。
+copy|n./v.|副本；影印；複製|off|Please make ten copies.|請影印十份。
+committee|n.|委員會|mtg|The committee meets every month.|委員會每月開會一次。
+aware|adj.|知道的；察覺的|gen|Are you aware of the new rule?|你知道新規定嗎？
+advice|n.|建議|gen|Can you give me some advice?|你可以給我一些建議嗎？
+handle|v./n.|處理；把手|off|She handles customer complaints.|她負責處理顧客投訴。
+glass|n.|玻璃；玻璃杯|din|Can I have a glass of water?|可以給我一杯水嗎？
+trial|n.|試用；審判|shp|Try it free for a 30-day trial.|免費試用三十天。
+stress|n.|壓力|hlt|Exercise helps reduce stress.|運動有助於減輕壓力。
+radio|n.|收音機；廣播|gen|I listen to the radio in the car.|我在車上聽廣播。
+administration|n.|行政；管理|off|She works in administration.|她從事行政工作。
+complex|adj.|複雜的|gen|This is a complex problem.|這是一個複雜的問題。
+text|n./v.|文字；傳簡訊|gen|Send me a text.|傳簡訊給我。
+context|n.|上下文；背景|gen|Guess the meaning from the context.|從上下文猜意思。
+ride|v./n.|騎；搭乘|trn|Can you give me a ride home?|你可以載我回家嗎？
+directly|adv.|直接地|gen|Please call me directly.|請直接打給我。
+heavy|adj.|重的；大量的|trn|The traffic is heavy today.|今天交通很擁擠。
+remove|v.|移除|gen|Please remove your shoes.|請脫鞋。
+conduct|v.|進行；實施|biz|We conducted a survey.|我們進行了一項調查。
+equipment|n.|設備|log|The office has new equipment.|辦公室有新設備。
+otherwise|adv.|否則；在其他方面|gen|Hurry, otherwise we'll be late.|快點，不然我們會遲到。
+title|n.|標題；頭銜|hr|What is your job title?|你的職稱是什麼？
+extra|adj.|額外的|shp|Is there an extra charge?|有額外費用嗎？
+executive|n./adj.|主管；行政的|hr|She is a sales executive.|她是業務主管。
+chair|n.|椅子；主席|fac|Please take a chair.|請坐。
+expensive|adj.|貴的|shp|This hotel is too expensive.|這家飯店太貴了。
+sample|n.|樣品|biz|Can I get a free sample?|我可以拿免費樣品嗎？
+sex|n.|性別|gen|Please write your name, age, and sex.|請寫下你的姓名、年齡和性別。
+deliver|v.|運送；遞送|log|We deliver on weekends.|我們週末也有送貨。
+video|n.|影片|gen|Watch this short video.|看這部短片。
+connection|n.|連線；關聯；轉機|trv|I have a connection in Tokyo.|我在東京要轉機。
+primary|adj.|主要的；初級的|gen|Safety is our primary concern.|安全是我們最主要的考量。
+weather|n.|天氣|gen|How is the weather today?|今天天氣如何？
+collect|v.|收集；領取|gen|You can collect your order at the store.|你可以到店裡領取訂單。
+inform|v.|通知|off|We will inform you by email.|我們會用電子郵件通知你。
+principle|n.|原則|gen|It's a matter of principle.|這是原則問題。
+straight|adv./adj.|直直地；直的|trn|Go straight for two blocks.|直走兩個街區。
+appeal|n./v.|吸引力；呼籲|biz|The ad appeals to young people.|這則廣告吸引年輕人。
+highly|adv.|非常；高度地|gen|I highly recommend this book.|我非常推薦這本書。
+trust|v./n.|信任|gen|I trust you.|我信任你。
+wonderful|adj.|很棒的|gen|We had a wonderful time.|我們玩得很愉快。
+flat|adj./n.|平的；公寓|gen|I have a flat tire.|我的輪胎沒氣了。
+absolutely|adv.|絕對地|gen|You are absolutely right.|你完全正確。
+flow|n./v.|流動|trn|The traffic flow is slow.|車流很慢。
+fair|adj./n.|公平的；展覽會|mtg|We have a booth at the job fair.|我們在就業博覽會有攤位。
+additional|adj.|額外的|fin|There is an additional fee.|有一筆額外費用。
+responsible|adj.|負責的|hr|Who is responsible for this project?|誰負責這個專案？
+farm|n.|農場|gen|My grandparents live on a farm.|我爺爺奶奶住在農場。
+collection|n.|收藏；系列|shp|Our new summer collection is here.|我們的夏季新品系列上市了。
+hang|v.|掛|gen|Hang your coat here.|把你的外套掛在這裡。
+negative|adj.|負面的；否定的|gen|We got some negative comments.|我們收到了一些負面評論。
+band|n.|樂團|gen|The band played all night.|樂團演奏了一整晚。
+relative|n./adj.|親戚；相對的|gen|I'm visiting relatives this weekend.|我這週末要去拜訪親戚。
+tour|n./v.|旅遊；參觀|trv|We took a tour of the factory.|我們參觀了工廠。
+alternative|n./adj.|替代方案|gen|Is there an alternative?|有其他選擇嗎？
+software|n.|軟體|off|Install the new software.|安裝新軟體。
+pair|n.|一雙；一對|shp|I bought a pair of shoes.|我買了一雙鞋。
+ship|v./n.|運送；船|log|We ship to all countries.|我們運送到所有國家。
+attitude|n.|態度|hr|She has a positive attitude.|她的態度很積極。
+cheap|adj.|便宜的|shp|This shirt was very cheap.|這件襯衫很便宜。
+double|adj./v.|兩倍的；雙人的|trv|I'd like a double room.|我要一間雙人房。
+leg|n.|腿|hlt|My leg hurts.|我的腿很痛。
+observe|v.|觀察；遵守|gen|Observe how the machine works.|觀察機器怎麼運作。
+sentence|n.|句子|gen|Read the sentence aloud.|把句子大聲唸出來。
+print|v.|列印|off|Please print the report.|請把報告印出來。
+progress|n.|進展|off|We are making good progress.|我們進展得很順利。
+truth|n.|事實；真相|gen|Tell me the truth.|告訴我實話。

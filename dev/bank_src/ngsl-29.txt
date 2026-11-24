@@ -1,0 +1,49 @@
+# NGSL 2801-2848：數字、星期、月份
+thirst|n.|口渴|din|This drink will quench your thirst.|這杯飲料能幫你解渴。
+two|num.|二|gen|I have two sisters.|我有兩個姊妹。
+three|num.|三|gen|The meeting is at three.|會議在三點。
+four|num.|四|gen|I'd like a table for four.|我要一張四人桌。
+five|num.|五|gen|The store closes at five.|這家店五點關門。
+million|num.|百萬|fin|The company has two million customers.|這家公司有兩百萬名顧客。
+six|num.|六|gen|I get up at six.|我六點起床。
+hundred|num.|百|fin|It costs one hundred dollars.|它要一百美元。
+ten|num.|十|gen|Please wait ten minutes.|請等十分鐘。
+thousand|num.|千|fin|The car costs twenty thousand dollars.|這輛車要兩萬美元。
+seven|num.|七|gen|There are seven days in a week.|一週有七天。
+eight|num.|八|gen|I work eight hours a day.|我一天工作八小時。
+nine|num.|九|gen|The office opens at nine.|辦公室九點開門。
+billion|num.|十億|fin|The company is worth a billion dollars.|這家公司價值十億美元。
+twenty|num.|二十|gen|The bus takes twenty minutes.|公車要坐二十分鐘。
+thirty|num.|三十|gen|The class has thirty students.|這個班有三十個學生。
+fifty|num.|五十|gen|I paid fifty dollars.|我付了五十美元。
+twelve|num.|十二|gen|We have lunch at twelve.|我們十二點吃午餐。
+fifteen|num.|十五|gen|The break is fifteen minutes.|休息時間十五分鐘。
+nineteen|num.|十九|gen|She is nineteen years old.|她十九歲。
+forty|num.|四十|gen|The room holds forty people.|這個房間可容納四十人。
+zero|num.|零|gen|My number starts with zero.|我的號碼是零開頭。
+eighteen|num.|十八|gen|You must be eighteen to apply.|你必須年滿十八歲才能申請。
+eleven|num.|十一|gen|The train leaves at eleven.|火車十一點出發。
+sixteen|num.|十六|gen|The book has sixteen chapters.|這本書有十六章。
+sixty|num.|六十|gen|There are sixty minutes in an hour.|一小時有六十分鐘。
+fourteen|num.|十四|gen|My room is on the fourteenth floor.|我的房間在十四樓。
+eighty|num.|八十|gen|My grandmother is eighty.|我奶奶八十歲。
+seventy|num.|七十|fin|The ticket is seventy dollars.|票價七十美元。
+seventeen|num.|十七|gen|My son is seventeen.|我兒子十七歲。
+thirteen|num.|十三|gen|The hotel has thirteen floors.|這家飯店有十三層樓。
+ninety|num.|九十|gen|The flight takes ninety minutes.|飛行時間九十分鐘。
+trillion|num.|兆|fin|The country's economy is worth a trillion dollars.|這個國家的經濟規模達一兆美元。
+August|n.|八月|gen|We go on vacation in August.|我們八月去度假。
+July|n.|七月|gen|It's very hot in July.|七月非常熱。
+Monday|n.|星期一|gen|The meeting is on Monday.|會議在星期一。
+October|n.|十月|gen|The new store opens in October.|新店十月開幕。
+February|n.|二月|gen|February is a short month.|二月是一個短的月份。
+January|n.|一月|gen|The new year starts in January.|新的一年從一月開始。
+June|n.|六月|gen|Our sale ends in June.|我們的特價到六月結束。
+Friday|n.|星期五|gen|Let's have dinner on Friday.|我們星期五一起吃晚餐吧。
+Saturday|n.|星期六|gen|The store is open on Saturday.|這家店星期六有營業。
+Sunday|n.|星期日|gen|I rest on Sunday.|我星期天休息。
+Wednesday|n.|星期三|gen|I have English class on Wednesday.|我星期三有英文課。
+Thursday|n.|星期四|gen|The package will arrive on Thursday.|包裹星期四會到。
+April|n.|四月|gen|My birthday is in April.|我的生日在四月。
+December|n.|十二月|gen|We have a party in December.|我們十二月會辦派對。
+November|n.|十一月|gen|The report is due in November.|報告十一月要交。

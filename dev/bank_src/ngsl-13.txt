@@ -1,0 +1,101 @@
+# NGSL 1201-1300
+introduction|n.|介紹；引進|mtg|Let's start with a short introduction.|我們先做個簡短的介紹。
+requirement|n.|要求；必要條件|hr|What are the job requirements?|這份工作有什麼要求？
+north|n./adv.|北方|trv|The hotel is north of the station.|飯店在車站北邊。
+confirm|v.|確認|trv|Please confirm your reservation.|請確認你的預訂。
+senior|adj./n.|資深的；年長者|hr|He is a senior engineer.|他是資深工程師。
+photo|n.|照片|gen|Can I take a photo?|我可以拍照嗎？
+refuse|v.|拒絕|gen|He refused to pay.|他拒絕付款。
+transport|n./v.|運輸|trn|Public transport is cheap here.|這裡的大眾運輸很便宜。
+emerge|v.|出現|gen|A new problem emerged.|出現了一個新問題。
+map|n.|地圖|trv|Can you show me on the map?|你可以在地圖上指給我看嗎？
+concept|n.|概念|biz|The concept is simple.|這個概念很簡單。
+island|n.|島|trv|We visited a small island.|我們造訪了一座小島。
+reform|n./v.|改革|gen|The school needs reform.|這所學校需要改革。
+neither|det./adv.|兩者都不|gen|Neither answer is correct.|兩個答案都不對。
+football|n.|足球；美式足球|gen|They play football on Sunday.|他們星期天踢足球。
+survive|v.|存活；度過|gen|The plant survived the winter.|這株植物撐過了冬天。
+flight|n.|班機；飛行|trv|My flight leaves at nine.|我的班機九點起飛。
+left|adj./adv.|左邊的；剩下的|trn|Turn left at the bank.|在銀行左轉。
+solve|v.|解決|gen|We solved the problem.|我們解決了這個問題。
+neighbor|n.|鄰居|gen|My neighbor is very friendly.|我的鄰居很友善。
+background|n.|背景|hr|Tell me about your background.|跟我談談你的背景。
+technique|n.|技巧|gen|This is a good technique for memory.|這是一個好的記憶技巧。
+traffic|n.|交通；車流|trn|The traffic is bad this morning.|今天早上交通很糟。
+improvement|n.|改善；進步|gen|There is a big improvement in your English.|你的英文進步很多。
+tool|n.|工具|log|We need the right tools.|我們需要合適的工具。
+consequence|n.|後果|gen|Think about the consequences.|想想後果。
+circumstance|n.|情況（常用複數）|gen|Under the circumstances, we must wait.|在這種情況下，我們必須等待。
+smoke|n./v.|煙；抽菸|gen|Please do not smoke here.|請不要在這裡抽菸。
+reaction|n.|反應|gen|What was his reaction?|他的反應如何？
+rain|n./v.|雨；下雨|gen|It's going to rain.|快下雨了。
+busy|adj.|忙碌的|gen|I'm busy right now.|我現在很忙。
+lesson|n.|課；教訓|gen|I have a piano lesson today.|我今天有鋼琴課。
+brain|n.|大腦|hlt|Sleep is good for your brain.|睡眠對大腦有益。
+mass|n./adj.|大量；大眾的|log|We produce goods in mass quantities.|我們大量生產商品。
+funny|adj.|好笑的|gen|That movie was funny.|那部電影很好笑。
+contribute|v.|貢獻；捐助|gen|Everyone contributed to the project.|每個人都為這個專案出了力。
+failure|n.|失敗；故障|log|A power failure stopped the machines.|停電讓機器停了下來。
+schedule|n./v.|時間表；安排|off|Let me check my schedule.|讓我看一下我的行程。
+speaker|n.|講者；喇叭|mtg|The speaker talked about sales.|講者談論銷售。
+bottom|n.|底部|gen|Sign at the bottom of the page.|在頁面最下方簽名。
+adopt|v.|採用；收養|biz|We adopted a new system.|我們採用了新系統。
+combine|v.|結合|gen|Combine the two files.|把兩個檔案合併。
+mountain|n.|山|trv|We climbed the mountain.|我們爬了那座山。
+waste|n./v.|浪費；廢棄物|gen|Don't waste time.|不要浪費時間。
+hide|v.|隱藏|gen|Where did you hide the key?|你把鑰匙藏在哪裡？
+marriage|n.|婚姻|gen|They have a happy marriage.|他們的婚姻很幸福。
+ticket|n.|票|trv|I bought two tickets.|我買了兩張票。
+meal|n.|一餐|din|Enjoy your meal.|請慢用。
+colleague|n.|同事|off|She is my colleague.|她是我的同事。
+bag|n.|袋子；包包|shp|Do you need a bag?|你需要袋子嗎？
+repeat|v.|重複|gen|Could you repeat that, please?|可以請你再說一次嗎？
+equal|adj.|相等的；平等的|gen|Cut the cake into equal pieces.|把蛋糕切成相等的塊。
+expression|n.|表情；措辭|gen|This expression is very common.|這個說法很常見。
+plus|prep.|加上|fin|The price is 100 dollars plus tax.|價格是一百美元另外加稅。
+extremely|adv.|極度地|gen|It's extremely hot today.|今天極度炎熱。
+owner|n.|擁有者；老闆|biz|She is the owner of the café.|她是這家咖啡館的老闆。
+plane|n.|飛機|trv|The plane is late.|飛機誤點了。
+commercial|adj./n.|商業的；廣告|biz|This is a commercial building.|這是一棟商業大樓。
+lady|n.|女士|gen|Ladies and gentlemen, welcome.|各位先生女士，歡迎。
+duty|n.|職責；稅|hr|Answering the phone is one of my duties.|接電話是我的職責之一。
+strength|n.|力量；優點|hr|What are your strengths?|你的優點是什麼？
+connect|v.|連接|off|Connect your laptop to the projector.|把筆電連接到投影機。
+cultural|adj.|文化的|gen|We went to a cultural festival.|我們去了一個文化節。
+arrange|v.|安排；排列|mtg|I'll arrange a meeting.|我會安排一場會議。
+scheme|n.|計畫；方案|fin|The company has a pension scheme.|公司有退休金方案。
+payment|n.|付款|fin|We accept payment by card.|我們接受刷卡付款。
+unfortunately|adv.|不幸地；可惜|gen|Unfortunately, the store is closed.|可惜，這家店關了。
+brief|adj.|簡短的|mtg|We had a brief meeting.|我們開了一個簡短的會議。
+bird|n.|鳥|gen|A bird is sitting on the roof.|一隻鳥停在屋頂上。
+demonstrate|v.|示範；證明|biz|Let me demonstrate how it works.|讓我示範它怎麼使用。
+contribution|n.|貢獻；捐款|gen|Thank you for your contribution.|謝謝你的貢獻。
+appreciate|v.|感謝；欣賞|gen|I appreciate your help.|我很感謝你的幫忙。
+chapter|n.|章節|gen|Read chapter two for homework.|作業是讀第二章。
+secret|n./adj.|祕密|gen|Can you keep a secret?|你能保守祕密嗎？
+apparently|adv.|顯然；據說|gen|Apparently, the meeting was canceled.|聽說會議取消了。
+novel|n.|小說|gen|I'm reading a novel.|我在讀一本小說。
+union|n.|工會；聯盟|hr|He is a member of the union.|他是工會成員。
+burn|v.|燃燒；燒傷|gen|Be careful not to burn yourself.|小心不要燙傷。
+trend|n.|趨勢|biz|This is a new trend.|這是一個新趨勢。
+initial|adj.|最初的|gen|The initial cost is high.|初期成本很高。
+pleasure|n.|樂趣；榮幸|gen|It's a pleasure to meet you.|很榮幸認識你。
+suggestion|n.|建議|mtg|Do you have any suggestions?|你有任何建議嗎？
+critical|adj.|關鍵的；批評的|gen|This is a critical decision.|這是一個關鍵的決定。
+gather|v.|聚集；收集|gen|People gathered in the hall.|人們聚集在大廳。
+mostly|adv.|大部分；主要地|gen|Our customers are mostly young.|我們的顧客大多是年輕人。
+earth|n.|地球；土|gen|The earth goes around the sun.|地球繞著太陽轉。
+pop|n./v.|流行樂；突然出現|gen|I like pop music.|我喜歡流行音樂。
+essential|adj.|必要的；不可或缺的|gen|Water is essential for life.|水是生命不可或缺的。
+desire|n./v.|渴望|gen|She has a strong desire to learn.|她有強烈的學習慾望。
+promote|v.|升遷；促銷；推廣|hr|She was promoted to manager.|她被升為經理。
+currently|adv.|目前|gen|I am currently looking for a job.|我目前在找工作。
+employ|v.|僱用|hr|The company employs 300 people.|這家公司僱用了三百人。
+path|n.|小路；路徑|gen|Follow the path to the lake.|沿著小路走到湖邊。
+topic|n.|主題|mtg|What is the topic of the meeting?|會議的主題是什麼？
+beach|n.|海灘|trv|Let's go to the beach.|我們去海邊吧。
+attract|v.|吸引|biz|The sale attracted many shoppers.|特價吸引了很多購物人潮。
+engage|v.|參與；吸引|biz|We want to engage our customers.|我們想讓顧客更投入。
+powerful|adj.|強大的|gen|This computer is very powerful.|這台電腦效能很強。
+flower|n.|花|gen|She gave me some flowers.|她送了我一些花。
+crisis|n.|危機|gen|The company is in a crisis.|這家公司正面臨危機。

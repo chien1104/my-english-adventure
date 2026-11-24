@@ -1,0 +1,101 @@
+# NGSL 1901-2000
+accommodation|n.|住宿|trv|The price includes accommodation.|價格包含住宿。
+highlight|n./v.|最精彩的部分；強調|gen|The highlight of the trip was the boat ride.|這趟旅行最精彩的是搭船。
+reporter|n.|記者|biz|A reporter asked the CEO some questions.|一位記者問了執行長一些問題。
+climate|n.|氣候|gen|Taiwan has a warm climate.|台灣氣候溫暖。
+shirt|n.|襯衫|shp|I bought a white shirt.|我買了一件白襯衫。
+exception|n.|例外|gen|There are no exceptions to this rule.|這條規定沒有例外。
+corporation|n.|大公司；企業|biz|She works for a large corporation.|她在一家大企業工作。
+chip|n.|晶片；洋芋片|log|The company makes computer chips.|這家公司生產電腦晶片。
+winner|n.|贏家；得獎者|gen|The winner gets a free trip.|得獎者可以免費旅遊一趟。
+encounter|v./n.|遇到|gen|We encountered some problems.|我們遇到了一些問題。
+brown|adj.|棕色的|gen|He has brown eyes.|他有棕色的眼睛。
+breathe|v.|呼吸|hlt|Breathe in slowly.|慢慢吸氣。
+excuse|n./v.|藉口；原諒|gen|Excuse me, where is the station?|不好意思，車站在哪裡？
+partly|adv.|部分地|gen|It was partly my fault.|這部分是我的錯。
+tennis|n.|網球|gen|Do you play tennis?|你打網球嗎？
+urban|adj.|都市的|gen|Most people live in urban areas.|大部分人住在都市地區。
+confuse|v.|使困惑|gen|The map confused me.|地圖讓我搞糊塗了。
+southern|adj.|南方的|trv|We went to southern Taiwan.|我們去了台灣南部。
+output|n.|產量；輸出|log|The factory increased its output.|工廠提高了產量。
+beauty|n.|美；美容|shp|She sells beauty products.|她賣美容產品。
+massive|adj.|巨大的|gen|There was a massive crowd.|有一大群人。
+install|v.|安裝|off|We installed new software.|我們安裝了新軟體。
+calculate|v.|計算|fin|Calculate the total cost.|計算總成本。
+mouse|n.|滑鼠；老鼠|off|My computer mouse is broken.|我的電腦滑鼠壞了。
+mathematics|n.|數學|gen|She teaches mathematics.|她教數學。
+upper|adj.|上面的；較高的|gen|Put it on the upper shelf.|把它放在上面那層架子。
+creation|n.|創造；創作|biz|The creation of new jobs is important.|創造新的工作機會很重要。
+occupy|v.|佔用；佔據|gen|Is this seat occupied?|這個座位有人坐嗎？
+outline|n./v.|大綱；概述|mtg|Here is an outline of the plan.|這是計畫的大綱。
+sufficient|adj.|足夠的|gen|We have sufficient time.|我們有足夠的時間。
+update|v./n.|更新|off|Please update the software.|請更新軟體。
+luck|n.|運氣|gen|Good luck with your interview!|祝你面試順利！
+preserve|v.|保存；保護|gen|We must preserve old buildings.|我們必須保存老建築。
+split|v.|分開；分攤|din|Let's split the bill.|我們分攤帳單吧。
+swing|v./n.|搖擺；鞦韆|gen|The kids are on the swing.|孩子們在盪鞦韆。
+illness|n.|疾病|hlt|He missed work because of illness.|他因病沒來上班。
+journalist|n.|記者|biz|She is a journalist for a newspaper.|她是報社記者。
+sudden|adj.|突然的|gen|There was a sudden change in the weather.|天氣突然變了。
+advertisement|n.|廣告|biz|I saw the advertisement on TV.|我在電視上看到這則廣告。
+consistent|adj.|一致的；穩定的|biz|We offer consistent quality.|我們提供穩定的品質。
+originally|adv.|原本；最初|gen|The meeting was originally on Monday.|會議原本在星期一。
+aside|adv.|在旁邊（aside from 除了）|gen|Aside from the price, I like it.|除了價格以外，我很喜歡。
+comfort|n./v.|舒適；安慰|trv|The seats are designed for comfort.|座椅的設計很舒適。
+secondly|adv.|第二；其次|gen|Secondly, we need more staff.|其次，我們需要更多人手。
+severe|adj.|嚴重的|gen|There was a severe storm.|有一場嚴重的暴風雨。
+gene|n.|基因|hlt|Some diseases are in our genes.|有些疾病和基因有關。
+prospect|n.|前景；可能性|biz|The job has good prospects.|這份工作很有前景。
+snow|n./v.|雪；下雪|gen|It snowed last night.|昨晚下雪了。
+plot|n.|情節；小塊地|gen|The movie has a simple plot.|這部電影情節很簡單。
+neck|n.|脖子|hlt|My neck hurts.|我的脖子很痛。
+criterion|n.|標準（複數 criteria）|hr|Experience is one criterion for the job.|經驗是這份工作的標準之一。
+primarily|adv.|主要地|gen|We sell primarily to businesses.|我們主要賣給企業。
+integrate|v.|整合|biz|We will integrate the two systems.|我們將整合兩套系統。
+criticism|n.|批評|gen|He doesn't like criticism.|他不喜歡被批評。
+convention|n.|大會；慣例|mtg|The sales convention is in Las Vegas.|業務大會在拉斯維加斯舉行。
+bet|v./n.|打賭|gen|I bet you'll like it.|我打賭你會喜歡。
+retain|v.|保留；留住|hr|We want to retain good workers.|我們想留住好員工。
+sequence|n.|順序|gen|Put the events in sequence.|把事件依序排列。
+plain|adj.|樸素的；簡單的|shp|I like plain white shirts.|我喜歡素面的白襯衫。
+volunteer|n./v.|志工；自願|gen|We need volunteers for the event.|活動需要志工。
+rural|adj.|鄉村的|gen|She grew up in a rural area.|她在鄉下長大。
+calm|adj.|冷靜的；平靜的|gen|Please stay calm.|請保持冷靜。
+abandon|v.|放棄；拋棄|gen|They abandoned the plan.|他們放棄了這個計畫。
+examination|n.|考試；檢查|hlt|The doctor did an examination.|醫生做了檢查。
+silence|n.|安靜；沉默|gen|Please keep silence in the room.|請在房間內保持安靜。
+rapidly|adv.|迅速地|biz|The company grew rapidly.|這家公司成長迅速。
+efficient|adj.|有效率的|off|She is very efficient.|她做事很有效率。
+revolution|n.|革命；重大變革|biz|The Internet caused a revolution in shopping.|網路帶來購物方式的大變革。
+delight|n./v.|高興|gen|We are delighted to welcome you.|我們很高興歡迎你。
+spell|v.|拼寫|gen|How do you spell your name?|你的名字怎麼拼？
+premise|n.|房屋及土地（premises）；前提|fac|No smoking on the premises.|場地內禁止吸菸。
+lean|v.|倚靠；傾身|gen|Don't lean on the door.|不要靠在門上。
+dramatic|adj.|戲劇性的；巨大的|biz|There was a dramatic rise in sales.|銷售大幅上升。
+differ|v.|不同|gen|Prices differ from shop to shop.|每家店的價格不同。
+grateful|adj.|感激的|gen|I'm grateful for your help.|我很感激你的幫忙。
+protein|n.|蛋白質|hlt|Eggs are high in protein.|雞蛋富含蛋白質。
+bike|n.|腳踏車|trn|I ride my bike to work.|我騎腳踏車上班。
+distribute|v.|分發；配送|log|We distribute products to stores.|我們把產品配送到各家店。
+intellectual|adj.|智力的；知識的|biz|Protect your intellectual property.|保護你的智慧財產。
+derive|v.|源自；獲得|gen|This word is derived from Latin.|這個字源自拉丁文。
+crucial|adj.|關鍵的|gen|This step is crucial.|這個步驟很關鍵。
+unemployment|n.|失業|hr|Unemployment is falling.|失業率正在下降。
+wheel|n.|輪子|trn|One wheel is broken.|有一個輪子壞了。
+crop|n.|作物；收成|gen|Rice is the main crop here.|稻米是這裡的主要作物。
+minority|n.|少數|gen|Only a minority of people agree.|只有少數人同意。
+origin|n.|起源；出身|gen|What is the origin of this word?|這個字的起源是什麼？
+interpretation|n.|解釋；口譯|gen|There are different interpretations.|有不同的解讀。
+gentleman|n.|紳士；先生|gen|Ladies and gentlemen, thank you for coming.|各位先生女士，謝謝光臨。
+drama|n.|戲劇|gen|I like Korean dramas.|我喜歡韓劇。
+landscape|n.|風景|trv|The landscape is beautiful.|風景很美。
+educate|v.|教育|gen|We educate staff about safety.|我們教育員工安全知識。
+toy|n.|玩具|shp|The store sells toys.|這家店賣玩具。
+fault|n.|錯誤；缺點|gen|It's not your fault.|這不是你的錯。
+exhibit|n./v.|展品；展示|gen|The museum has a new exhibit.|博物館有新的展覽。
+minor|adj.|次要的；輕微的|gen|It's only a minor problem.|這只是個小問題。
+hunt|v.|打獵；尋找（hunt for）|hr|I'm hunting for a new job.|我在找新工作。
+storm|n.|暴風雨|gen|The storm closed the airport.|暴風雨導致機場關閉。
+thick|adj.|厚的|gen|This book is very thick.|這本書很厚。
+achievement|n.|成就|hr|This is a great achievement.|這是一項很大的成就。
+negotiate|v.|談判；協商|biz|We negotiated a better price.|我們談到了更好的價格。

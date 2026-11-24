@@ -1,6 +1,6 @@
 {
   "id": "toeic-p1",
-  "world": "toeic-camp",
+  "world": "part1",
   "order": 1,
   "type": "toeic-listen",
   "title": "Part 1 照片描述",

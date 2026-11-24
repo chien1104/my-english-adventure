@@ -17,7 +17,7 @@ D = json.load(open(os.path.join(ROOT, 'data/diagnosis.json')))
 for q in D['questions']: Q[q['id']] = q
 for f in glob.glob(os.path.join(ROOT, 'data/vocab/*.json')):
     for w in json.load(open(f)): WORDS[w['id']] = w
-BY_IMG = {w['image']: w for w in WORDS.values()}
+BY_IMG = {w['image']: w for w in WORDS.values() if w.get('image')}
 
 results, errors = [], []
 offline = [False]
@@ -112,7 +112,7 @@ try:
 
         page.goto(BASE + '#/worlds'); page.wait_for_selector('[data-testid=world-list]')
         wl = page.inner_text('[data-testid=world-list]')
-        check('多益訓練營需先完成文法課才開放', '多益訓練營' in wl and '完成「be 動詞' in wl, wl)
+        check('多益 Part 1 需先完成文法課才開放', 'Part 1 照片描述' in wl and '完成「be 動詞' in wl, wl)
 
         finish_lesson(page, 'vocab-1'); page.wait_for_timeout(1500)
         e2 = home_exp(page)
@@ -153,8 +153,8 @@ try:
 
         # 多益：完成 3 堂文法課後開放
         for lid in ['grammar-1', 'grammar-2', 'grammar-3']: finish_lesson(page, lid)
-        page.goto(BASE + '#/world?id=toeic-camp'); page.wait_for_selector('[data-testid=lesson-list]')
-        check('完成文法課後多益訓練營開放（從 Part 1 開始）', page.locator('[data-testid=start-toeic-p1]').count() == 1)
+        page.goto(BASE + '#/world?id=part1'); page.wait_for_selector('[data-testid=lesson-list]')
+        check('完成文法課後多益 Part 1 世界開放', page.locator('[data-testid=start-toeic-p1]').count() == 1)
         finish_lesson(page, 'toeic-p1')
         check('多益 Part 1 聽力全對 100%', page.inner_text('[data-testid=accuracy]') == '100%')
 
@@ -233,9 +233,11 @@ try:
         # 音檔下載
         page.wait_for_selector('[data-testid=dl-audio]', timeout=8000)
         n_audio = int(re.search(r'（(\d+) 個', page.inner_text('[data-testid=dl-audio]')).group(1))
-        check('顯示下載全部音檔按鈕（200 個以上）', n_audio >= 200, str(n_audio))
-        page.click('[data-testid=dl-audio]'); page.wait_for_selector('[data-testid=dl-done]', timeout=60000)
-        check('全部音檔已存到裝置', int(page.inner_text('[data-testid=audio-cached]').split()[0]) >= n_audio)
+        check('顯示下載課程與學過單字音檔按鈕（200 個以上）', n_audio >= 200, str(n_audio))
+        check('另外有下載全部音檔（含單字庫）的按鈕', page.locator('[data-testid=dl-audio-all]').count() == 1)
+        page.click('[data-testid=dl-audio]')
+        page.wait_for_function(f"() => {{ const e = document.querySelector('[data-testid=audio-cached]'); return e && parseInt(e.textContent) >= {n_audio}; }}", timeout=90000)
+        check('課程與學過單字的音檔已存到裝置', int(page.inner_text('[data-testid=audio-cached]').split()[0]) >= n_audio)
 
         # 離線
         ctx.set_offline(True); offline[0] = True
@@ -263,7 +265,7 @@ try:
         exp_keep = exp_sum(page)
         page.goto(BASE + '#/home'); ready(page)
         page.evaluate("navigator.serviceWorker.getRegistration().then(r => r.update())")
-        page.wait_for_selector('#update-banner:not([hidden])', timeout=15000)
+        page.wait_for_selector('#update-banner:not([hidden])', timeout=45000)
         check('新版本出現更新提示', '學習資料會完整保留' in page.inner_text('#update-banner'))
         page.screenshot(path=f'{OUT}/p5-02-update.png')
         page.click('[data-act=apply-update]')

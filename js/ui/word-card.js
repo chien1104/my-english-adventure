@@ -9,10 +9,10 @@ export function wordCardHTML(word, record = null) {
   const stars = '★'.repeat(word.level) + '☆'.repeat(Math.max(0, 3 - word.level));
   return `
     <article class="word-card" data-word="${escapeHTML(word.id)}">
-      <img class="word-card__img" src="${escapeHTML(word.image)}" alt="${escapeHTML(word.zh)}的插圖" width="150" height="150">
+      ${word.image ? `<img class="word-card__img" src="${escapeHTML(word.image)}" alt="${escapeHTML(word.zh)}的插圖" width="150" height="150">` : ''}
       <h2 class="word-card__en en">${escapeHTML(word.en)}</h2>
       <p class="word-card__ipa en" aria-label="音標">${escapeHTML(word.ipa)} <span class="muted">美式</span></p>
-      <span class="audio-slot" data-audio-slot="${escapeHTML(word.audio)}"></span>
+      ${word.audio ? `<span class="audio-slot" data-audio-slot="${escapeHTML(word.audio)}"></span>` : ''}
       <p class="word-card__zh"><span class="pos">${escapeHTML(word.pos)}</span> ${escapeHTML(word.zh)}</p>
       <p class="muted">${escapeHTML(word.posZh)}</p>
       <div class="word-card__example">

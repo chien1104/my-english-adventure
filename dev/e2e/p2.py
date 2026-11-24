@@ -72,8 +72,8 @@ try:
         check('診斷前沒有今日安排', page.locator('[data-testid=plan-list]').count() == 0)
         page.goto(BASE + '#/worlds'); page.wait_for_selector('[data-testid=world-list]')
         wtext = page.inner_text('[data-testid=world-list]')
-        check('診斷前：8 個世界都顯示完成診斷後開放', wtext.count('完成診斷後開放') == 8, wtext)
-        check('八大世界都有課程並顯示', page.locator('.world').count() == 8 and '字母森林' in wtext)
+        check('診斷前：11 個世界都顯示完成診斷後開放', wtext.count('完成診斷後開放') == 11, wtext)
+        check('11 個多益世界都有課程並顯示', page.locator('.world').count() == 11 and '發音基礎' in wtext and 'Part 7 閱讀理解' in wtext)
         page.goto(BASE + '#/lesson?id=vocab-1'); page.wait_for_timeout(300)
         check('診斷前直接開課程網址會被擋下', '完成程度診斷後開放' in page.inner_text('#app'))
 
@@ -101,7 +101,7 @@ try:
         rtext = page.inner_text('#app')
         check('診斷等級：從頭重建', '從頭重建' in rtext)
         check('答錯題目顯示中文解釋', '主詞 I 配 am。' in rtext)
-        check('診斷後開放單字村莊與文法城堡', '單字村莊' in rtext and '文法城堡' in rtext)
+        check('診斷後開放單字基礎與文法基礎', '單字基礎' in rtext and '文法基礎' in rtext)
         page.screenshot(path=f'{OUT}/p2-02-diagnosis-result.png', full_page=True)
 
         # ---- 3. 首頁今日安排 ----
@@ -115,7 +115,7 @@ try:
         page.screenshot(path=f'{OUT}/p2-03-home-plan.png', full_page=True)
 
         # ---- 4. 世界 → 課程 ----
-        page.goto(BASE + '#/world?id=word-village'); page.wait_for_selector('[data-testid=lesson-list]')
+        page.goto(BASE + '#/world?id=words'); page.wait_for_selector('[data-testid=lesson-list]')
         check('第 2 課在第 1 課完成前鎖住', '完成上一課後開放' in page.inner_text('[data-lesson=vocab-2]'))
         page.click('[data-testid=start-vocab-1]'); page.wait_for_selector('[data-testid=player]')
         check('課程第 1 步是概念說明', body_kind(page) == 'concept')
@@ -267,7 +267,7 @@ try:
         page.unroute('**/data/**')
 
         # ---- 10. 版面與按鈕 ----
-        for path in ['#/home', '#/worlds', '#/world?id=word-village', '#/words', '#/diagnosis', '#/lesson?id=grammar-1', '#/review']:
+        for path in ['#/home', '#/worlds', '#/world?id=words', '#/words', '#/diagnosis', '#/lesson?id=grammar-1', '#/review']:
             page.goto(BASE + path); page.wait_for_timeout(350)
             sw = page.evaluate('document.documentElement.scrollWidth')
             check(f'375px 無水平捲動 {path}', sw <= 375, f'scrollWidth={sw}')

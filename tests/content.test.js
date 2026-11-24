@@ -13,11 +13,12 @@ async function loadAll() {
   const words = (await Promise.all(catalog.vocab.map(getJSON))).flat();
   const lessons = await Promise.all(catalog.lessons.map(getJSON));
   const diagnosis = await getJSON(catalog.diagnosis);
-  cache = { catalog, words, lessons, diagnosis };
+  const series = catalog.series ? await getJSON(catalog.series) : null;
+  cache = { catalog, words, lessons, diagnosis, series };
   return cache;
 }
 
-const REQUIRED_WORD_FIELDS = ['id', 'en', 'zh', 'pos', 'posZh', 'ipa', 'level', 'image', 'audio', 'example'];
+const REQUIRED_WORD_FIELDS = ['id', 'en', 'zh', 'pos', 'posZh', 'ipa', 'level', 'audio', 'example'];
 
 function checkQuestion(q, ctx, wordIds) {
   assert.ok(q.id && q.type && q.explanation, `${ctx}: 缺少 id/type/explanation`);
@@ -46,14 +47,18 @@ test('教材：單字欄位完整、id 不重複、例句有中英文', async ()
     assert.ok(!ids.has(w.id), `單字重複：${w.id}`); ids.add(w.id);
     assert.ok(/^\/.+\/$/.test(w.ipa), `${w.id}: 音標格式應為 /.../`);
     assert.ok(w.example.en && w.example.zh, `${w.id}: 例句不完整`);
-    assert.ok(w.example.en.toLowerCase().includes(w.en.toLowerCase()), `${w.id}: 例句要包含這個單字`);
+    const ex = w.example.en.toLowerCase();
+    const en = w.en.toLowerCase();
+    // 單字庫的例句可以用變化形（bakes、postponed）：至少要包含字的前段
+    assert.ok(ex.includes(en) || (w.list && ex.includes(en.slice(0, Math.max(3, en.length - 3)))), `${w.id}: 例句要包含這個單字`);
+    if (!w.list) assert.ok(w.image, `${w.id}: 入門單字要有插圖`);
     assert.equal(w.audio, `assets/audio/words/${w.id}.mp3`, `${w.id}: 音檔路徑規則不符`);
   }
 });
 
 test('教材：每個單字的 SVG 插畫都存在', async () => {
   const { words } = await loadAll();
-  for (const w of words) assert.ok(await exists(w.image), `缺少圖片 ${w.image}`);
+  for (const w of words) if (w.image) assert.ok(await exists(w.image), `缺少圖片 ${w.image}`);
 });
 
 test('教材：課程題目答案唯一、引用的單字存在、題號不重複', async () => {
@@ -118,7 +123,11 @@ test('教材：所有課程與單字引用的音檔、照片都存在', async ()
   const audio = collectAudio([words, lessons]);
   assert.ok(audio.size > 150, `音檔數量太少：${audio.size}`);
   const missing = [];
-  for (const a of audio) if (!(await exists(a))) missing.push(a);
+  const list = [...audio];
+  for (let i = 0; i < list.length; i += 50) { // 音檔很多：一次檢查 50 個
+    const ok = await Promise.all(list.slice(i, i + 50).map(exists));
+    ok.forEach((v, j) => { if (!v) missing.push(list[i + j]); });
+  }
   assert.equal(missing.length, 0, `缺少音檔：${missing.slice(0, 5).join(', ')}`);
   for (const l of lessons) for (const st of l.steps) for (const q of [...(st.questions || []), ...(st.similar || [])]) {
     if (q.scene) assert.ok(await exists(q.scene), `${q.id} 缺少照片 ${q.scene}`);
@@ -150,5 +159,23 @@ test('教材：對話與短文步驟都有音檔和中文', async () => {
   for (const l of lessons) for (const st of l.steps) {
     if (st.kind === 'dialogue') { assert.ok(st.audio); for (const line of st.lines) assert.ok(line.audio && line.zh, `${l.id} 對話缺音檔或中文`); }
     if (st.kind === 'passage') assert.ok(st.audio && st.zh, `${l.id} 短文缺音檔或中文`);
+  }
+});
+
+test('教材：多益單字系列的每個單元都是存在的單字，系列內不重複', async () => {
+  const { words, series } = await loadAll();
+  assert.ok(series && series.series.length >= 1, '缺少單字系列');
+  const ids = new Set(words.map((w) => w.id));
+  const topics = new Set(Object.keys(series.topics));
+  for (const s of series.series) {
+    const all = s.units.flat();
+    assert.equal(all.length, s.count, `${s.id}: 字數不符`);
+    assert.equal(new Set(all).size, all.length, `${s.id}: 單字重複`);
+    for (const u of s.units) assert.ok(u.length > 0 && u.length <= series.unitSize, `${s.id}: 單元大小不對`);
+    for (const id of all) assert.ok(ids.has(id), `${s.id}: 單字 ${id} 不存在`);
+  }
+  for (const w of words.filter((x) => x.list)) {
+    assert.ok(topics.has(w.topic), `${w.id}: 情境 ${w.topic} 不存在`);
+    assert.ok(w.exampleAudio && w.rank > 0, `${w.id}: 缺例句音檔或排名`);
   }
 });

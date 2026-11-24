@@ -17,11 +17,12 @@ export async function render({ outlet, db }) {
     outlet.innerHTML = `
       <section class="card" data-testid="games-locked">
         <h1 class="page-title">遊戲樂園</h1>
-        <p>遊戲會用你學過的單字出題。完成一堂單字課就能開始玩（目前學過 ${n} 個單字）。</p>
-        <a class="btn btn--primary" href="${ctx.diagnosis ? '#/world?id=word-village' : '#/diagnosis'}">${ctx.diagnosis ? '去單字村莊' : '先做程度診斷'}</a>
+        <p>遊戲會用你學過的單字出題。學一個單字單元就能開始玩（目前學過 ${n} 個單字）。</p>
+        <a class="btn btn--primary" href="#/words">去學單字</a>
       </section>`;
     return;
   }
+  const pictured = ctx.learnedWords.filter((w) => w.image).length;
   outlet.innerHTML = `
     <section class="card">
       <h1 class="page-title">遊戲樂園</h1>
@@ -36,7 +37,9 @@ export async function render({ outlet, db }) {
             <p class="muted">${escapeHTML(g.desc)}</p>
             <p class="game-card__best">${bestText(g.id, ctx.progressById.get(`game:${g.id}`))}</p>
           </div>
-          <a class="btn btn--primary btn--sm" href="#/game?id=${g.id}" data-testid="play-${g.id}">開始</a>
+          ${g.id === 'match' && pictured < MIN_WORDS
+            ? '<p class="muted small">需要 4 個有插圖的單字（在「單字基礎」世界學）</p>'
+            : `<a class="btn btn--primary btn--sm" href="#/game?id=${g.id}" data-testid="play-${g.id}">開始</a>`}
         </li>`).join('')}
     </ul>`;
 }

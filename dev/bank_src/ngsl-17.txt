@@ -1,0 +1,101 @@
+# NGSL 1601-1700
+youth|n.|青年；年輕時|gen|The youth center is open after school.|青年中心放學後開放。
+lock|v./n.|鎖|gen|Don't forget to lock the door.|別忘了鎖門。
+fuel|n.|燃料|trn|The car is low on fuel.|車子快沒油了。
+expectation|n.|期望|biz|The results met our expectations.|結果符合我們的期望。
+employment|n.|就業；工作|hr|She is looking for employment.|她正在找工作。
+celebrate|v.|慶祝|gen|Let's celebrate your birthday.|我們來慶祝你的生日吧。
+sexual|adj.|性的|hr|Sexual harassment is not allowed at work.|職場禁止性騷擾。
+shoulder|n.|肩膀|hlt|My shoulder hurts.|我的肩膀很痛。
+breath|n.|呼吸|hlt|Take a deep breath.|深呼吸。
+increasingly|adv.|越來越|gen|Online shopping is increasingly popular.|網路購物越來越受歡迎。
+import|v./n.|進口|biz|We import coffee from Brazil.|我們從巴西進口咖啡。
+bottle|n.|瓶子|din|Can I have a bottle of water?|可以給我一瓶水嗎？
+ourselves|pron.|我們自己|gen|We painted the room ourselves.|我們自己粉刷了房間。
+sheet|n.|一張（紙）；床單|off|Please give me a sheet of paper.|請給我一張紙。
+engine|n.|引擎|trn|The car engine won't start.|車子的引擎發不動。
+cast|n./v.|演員陣容；投射|gen|The movie has a great cast.|這部電影的演員陣容很強。
+notion|n.|觀念；想法|gen|I have no notion of what he means.|我完全不懂他的意思。
+conservative|adj.|保守的|fin|This is a conservative estimate.|這是一個保守的估計。
+journey|n.|旅程|trv|Have a safe journey!|祝你旅途平安！
+opposition|n.|反對|mtg|There was strong opposition to the plan.|這個計畫遭到強烈反對。
+relief|n.|寬慰；緩解|hlt|This medicine gives fast relief.|這個藥能快速緩解症狀。
+debt|n.|債務|fin|The company has a lot of debt.|這家公司負債很多。
+honor|n./v.|榮譽；榮幸|gen|It's an honor to meet you.|很榮幸見到你。
+outcome|n.|結果|biz|We are happy with the outcome.|我們對結果很滿意。
+blame|v.|責怪|gen|Don't blame yourself.|別責怪你自己。
+explanation|n.|解釋|gen|Thank you for the explanation.|謝謝你的解釋。
+arise|v.|出現；發生|gen|Call me if any problems arise.|如果出現任何問題就打給我。
+musical|adj./n.|音樂的；音樂劇|gen|We saw a musical last night.|我們昨晚看了一齣音樂劇。
+recover|v.|恢復；康復|hlt|I hope you recover soon.|希望你早日康復。
+dad|n.|爸爸|gen|My dad cooks dinner on Sundays.|我爸爸星期天煮晚餐。
+stretch|v.|伸展|hlt|Stretch your arms and legs.|伸展你的手腳。
+declare|v.|宣布；申報|trv|Do you have anything to declare?|你有任何東西要申報嗎？
+retire|v.|退休|hr|My father retired last year.|我爸爸去年退休了。
+tiny|adj.|極小的|gen|The room is tiny.|房間非常小。
+careful|adj.|小心的|gen|Be careful. The floor is wet.|小心，地板是濕的。
+suitable|adj.|適合的|gen|This book is suitable for beginners.|這本書適合初學者。
+native|adj.|本國的；母語的|gen|She is a native English speaker.|她的母語是英文。
+fruit|n.|水果|din|I eat fruit every day.|我每天吃水果。
+analyze|v.|分析|biz|We analyzed the sales data.|我們分析了銷售資料。
+witness|n./v.|目擊者；目擊|gen|Did anyone witness the accident?|有人目擊這起事故嗎？
+mail|n./v.|郵件；郵寄|log|I'll mail the letter today.|我今天會把信寄出去。
+terrible|adj.|糟糕的|gen|The weather was terrible.|天氣很糟。
+researcher|n.|研究員|gen|She is a researcher at a university.|她是大學的研究員。
+ordinary|adj.|普通的|gen|It was an ordinary day.|那是平凡的一天。
+selection|n.|選擇；精選|shp|We have a large selection of shoes.|我們有很多款式的鞋子可以選。
+anywhere|adv.|任何地方|gen|You can sit anywhere.|你可以坐任何地方。
+mental|adj.|心理的；精神的|hlt|Mental health is important.|心理健康很重要。
+participant|n.|參加者|mtg|Each participant will get a gift.|每位參加者都會拿到一份禮物。
+vision|n.|視力；願景|biz|The company has a clear vision.|公司有清楚的願景。
+personality|n.|個性|hr|She has a friendly personality.|她個性很友善。
+specifically|adv.|特別地；明確地|gen|This product is made specifically for kids.|這項產品是專門為兒童設計的。
+fat|n./adj.|脂肪；胖的|hlt|This milk is low in fat.|這種牛奶脂肪含量低。
+entry|n.|入口；進入；條目|trv|Entry is free for children.|兒童免費入場。
+fellow|adj.|同伴的；同事的|off|He is a fellow worker.|他是一起工作的同事。
+chemical|n./adj.|化學物質；化學的|log|Store chemicals in a safe place.|把化學物品存放在安全的地方。
+capture|v.|捕捉；拍下|gen|The photo captured the moment.|這張照片捕捉到了那個瞬間。
+tip|n.|小費；訣竅|din|Did you leave a tip?|你有留小費嗎？
+discount|n.|折扣|shp|Can I get a discount?|可以打折嗎？
+peak|n./adj.|高峰|trn|Avoid the trains at peak hours.|避開尖峰時段搭火車。
+chairman|n.|主席；董事長|biz|The chairman opened the meeting.|董事長宣布會議開始。
+proportion|n.|比例|gen|A large proportion of staff are women.|員工有很大比例是女性。
+ear|n.|耳朵|hlt|I have an ear infection.|我耳朵發炎了。
+disappear|v.|消失|gen|My keys disappeared.|我的鑰匙不見了。
+shout|v.|大叫|gen|Please don't shout.|請不要大叫。
+yard|n.|院子；碼（長度）|fac|The kids are playing in the yard.|孩子們在院子裡玩。
+constant|adj.|持續的；不斷的|gen|There is constant noise from the street.|街上一直有噪音。
+significantly|adv.|顯著地|biz|Costs fell significantly.|成本顯著下降。
+hill|n.|小山；丘陵|gen|The house is on a hill.|房子在山丘上。
+considerable|adj.|相當大的|fin|We spent a considerable amount of money.|我們花了一大筆錢。
+instruction|n.|指示；說明（常用複數）|gen|Follow the instructions.|照著說明做。
+intelligence|n.|智力；情報|gen|The test measures intelligence.|這個測驗衡量智力。
+ideal|adj.|理想的|gen|This is the ideal place for a picnic.|這是野餐的理想地點。
+folk|n./adj.|人們；民間的|gen|We listened to folk music.|我們聽民謠。
+surely|adv.|一定；必定|gen|Surely you know the answer.|你一定知道答案吧。
+guard|n./v.|警衛；守衛|fac|The security guard checked my ID.|警衛檢查了我的證件。
+cat|n.|貓|gen|My cat sleeps all day.|我的貓整天都在睡。
+somewhat|adv.|有點|gen|I was somewhat surprised.|我有點驚訝。
+kiss|v./n.|親吻|gen|She kissed her baby.|她親了她的寶寶。
+presentation|n.|簡報；報告|mtg|I have to give a presentation today.|我今天要做簡報。
+joint|adj./n.|共同的；關節|biz|We have a joint account.|我們有一個聯名帳戶。
+compete|v.|競爭|biz|We compete with big companies.|我們和大公司競爭。
+poll|n.|民意調查|gen|The poll shows most people agree.|民調顯示大部分人同意。
+weak|adj.|虛弱的；弱的|hlt|I feel weak today.|我今天覺得很虛弱。
+faith|n.|信心；信仰|gen|I have faith in you.|我對你有信心。
+reduction|n.|減少；降價|shp|There is a price reduction on all shoes.|所有鞋子都降價了。
+reserve|v.|預訂；保留|trv|I'd like to reserve a table.|我想訂位。
+complaint|n.|抱怨；投訴|shp|We received a complaint from a customer.|我們收到一位顧客的投訴。
+bore|v.|使無聊（be bored）|gen|I'm bored.|我好無聊。
+mission|n.|任務；使命|biz|Our mission is to help people.|我們的使命是幫助人們。
+somehow|adv.|不知怎麼地；設法|gen|We will finish it somehow.|我們總會想辦法完成的。
+tone|n.|語氣；音調|gen|Her tone was friendly.|她的語氣很友善。
+neighborhood|n.|街坊；鄰近地區|fac|I live in a quiet neighborhood.|我住在一個安靜的社區。
+passenger|n.|乘客|trv|All passengers must show their tickets.|所有乘客都必須出示車票。
+justice|n.|正義；司法|gen|The people want justice.|人民要求正義。
+phase|n.|階段|off|The first phase of the project is done.|專案的第一階段完成了。
+thin|adj.|薄的；瘦的|gen|The walls are very thin.|牆壁很薄。
+rush|v./n.|匆忙；尖峰（rush hour）|trn|The trains are full during rush hour.|尖峰時間火車很擠。
+formal|adj.|正式的|hr|Please wear formal clothes.|請穿正式服裝。
+religion|n.|宗教|gen|We should respect every religion.|我們應該尊重每一種宗教。
+employer|n.|雇主|hr|My employer pays for my training.|我的雇主幫我付訓練費用。

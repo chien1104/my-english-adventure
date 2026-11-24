@@ -1,0 +1,101 @@
+# NGSL 401-500
+body|n.|身體|hlt|Exercise is good for your body.|運動對身體有益。
+require|v.|需要；要求|hr|This job requires a driver's license.|這份工作需要駕照。
+wait|v.|等待|gen|Please wait here.|請在這裡等。
+general|adj.|一般的；總的|gen|He is the general manager.|他是總經理。
+appear|v.|出現；似乎|gen|A message appeared on the screen.|螢幕上出現了一則訊息。
+toward|prep.|朝向|gen|He walked toward the door.|他朝門口走去。
+team|n.|團隊；隊伍|hr|I work on a sales team.|我在業務團隊工作。
+easy|adj.|容易的|gen|The test was easy.|考試很簡單。
+individual|adj./n.|個別的；個人|gen|Each individual gets a name tag.|每個人都會拿到一張名牌。
+full|adj.|滿的|trv|The hotel is full.|飯店客滿了。
+black|adj.|黑色的|gen|I drink black coffee.|我喝黑咖啡。
+sense|n.|感覺；道理|gen|That makes sense.|那很合理。
+perhaps|adv.|也許|gen|Perhaps we can meet tomorrow.|也許我們明天可以見面。
+add|v.|加上|gen|Add some sugar.|加一點糖。
+rule|n.|規則|gen|Please follow the rules.|請遵守規則。
+pass|v.|經過；通過；傳遞|gen|Could you pass the salt?|可以把鹽遞給我嗎？
+produce|v.|生產|log|The factory produces cars.|這間工廠生產汽車。
+sell|v.|賣|shp|They sell fresh fruit.|他們賣新鮮水果。
+short|adj.|短的；矮的|gen|It was a short meeting.|那是一場很短的會議。
+agree|v.|同意|mtg|I agree with you.|我同意你的看法。
+law|n.|法律|gen|It's against the law.|那是違法的。
+everything|pron.|一切；每件事|gen|Thanks for everything.|謝謝你所做的一切。
+research|n.|研究；調查|biz|We did some market research.|我們做了一些市場調查。
+cover|v.|覆蓋；涵蓋；支付|fin|The insurance covers the cost.|保險會支付這筆費用。
+paper|n.|紙；報紙|off|The printer is out of paper.|印表機沒紙了。
+position|n.|職位；位置|hr|I applied for the position.|我應徵了這個職位。
+near|prep.|在……附近|gen|Is there a bank near here?|這附近有銀行嗎？
+human|adj.|人的；人類的|hr|She works in human resources.|她在人力資源部工作。
+computer|n.|電腦|off|My computer is very slow.|我的電腦很慢。
+situation|n.|情況|gen|We need to explain the situation.|我們需要說明情況。
+staff|n.|員工（全體）|hr|All staff must attend the meeting.|所有員工都必須參加會議。
+activity|n.|活動|gen|The hotel offers many activities.|飯店提供很多活動。
+film|n.|電影；底片|gen|Have you seen this film?|你看過這部電影嗎？
+morning|n.|早上|gen|I jog every morning.|我每天早上慢跑。
+war|n.|戰爭|gen|My grandfather fought in the war.|我爺爺參加過那場戰爭。
+account|n.|帳戶；帳號|fin|I opened a bank account.|我開了一個銀行帳戶。
+shop|n./v.|商店；購物|shp|I like to shop online.|我喜歡在網路上購物。
+major|adj.|主要的；重大的|gen|This is a major problem.|這是一個重大的問題。
+someone|pron.|某人|gen|Someone is at the door.|有人在門口。
+above|prep.|在……上方|gen|The lamp is above the table.|燈在桌子上方。
+design|n./v.|設計|biz|I like the design of this chair.|我喜歡這張椅子的設計。
+event|n.|活動；事件|mtg|The event starts at seven.|活動七點開始。
+special|adj.|特別的|din|What is today's special?|今天的特餐是什麼？
+sometimes|adv.|有時候|gen|I sometimes work from home.|我有時候在家工作。
+condition|n.|狀況；條件|gen|The car is in good condition.|這輛車的狀況良好。
+carry|v.|攜帶；搬運|gen|He is carrying a box.|他正搬著一個箱子。
+choose|v.|選擇|gen|You can choose any seat.|你可以選任何座位。
+father|n.|父親|gen|My father is a doctor.|我爸爸是醫生。
+decision|n.|決定|gen|It was a hard decision.|那是一個艱難的決定。
+table|n.|桌子；表格|din|I booked a table for four.|我訂了一張四人桌。
+certain|adj.|確定的；某些|gen|Are you certain about the date?|你確定日期嗎？
+forward|adv.|向前（look forward to 期待）|gen|I look forward to meeting you.|我期待和你見面。
+main|adj.|主要的|gen|The main entrance is on the left.|正門在左邊。
+die|v.|死|gen|The plant died because I forgot to water it.|那盆植物因為我忘了澆水而死了。
+bear|v./n.|忍受；熊|gen|I can't bear the noise.|我受不了這個噪音。
+cut|v.|切；剪；削減|fin|We need to cut costs.|我們需要削減成本。
+describe|v.|描述|gen|Can you describe the problem?|你可以描述一下問題嗎？
+himself|pron.|他自己|gen|He fixed the car himself.|他自己修好了車。
+available|adj.|有空的；可取得的|gen|Is this room available tonight?|這個房間今晚有空房嗎？
+especially|adv.|尤其；特別|gen|I like fruit, especially apples.|我喜歡水果，尤其是蘋果。
+strong|adj.|強壯的；濃的|din|This coffee is strong.|這杯咖啡很濃。
+rise|v./n.|上升|fin|Prices continue to rise.|物價持續上漲。
+girl|n.|女孩|gen|The girl is reading a book.|那個女孩在看書。
+maybe|adv.|也許|gen|Maybe next time.|也許下次吧。
+community|n.|社區；社群|gen|We help the local community.|我們幫助當地社區。
+else|adv.|其他；另外|gen|Anything else?|還需要什麼嗎？
+particular|adj.|特定的|gen|Is there a particular reason?|有什麼特別的原因嗎？
+role|n.|角色；職責|hr|What is your role on the team?|你在團隊中負責什麼？
+join|v.|加入|gen|Would you like to join us?|你要加入我們嗎？
+difficult|adj.|困難的|gen|This question is difficult.|這個問題很難。
+please|adv.|請|gen|Please sit down.|請坐。
+detail|n.|細節|gen|Please send me the details.|請把詳細資料寄給我。
+difference|n.|差別|gen|What is the difference between them?|它們有什麼差別？
+action|n.|行動|gen|We need to take action now.|我們現在需要採取行動。
+health|n.|健康|hlt|Sleep is important for your health.|睡眠對健康很重要。
+eat|v.|吃|din|What do you want to eat?|你想吃什麼？
+step|n.|步驟；腳步|gen|Follow these steps.|照這些步驟做。
+true|adj.|真的；正確的|gen|Is it true?|這是真的嗎？
+phone|n.|電話；手機|gen|Can I use your phone?|我可以用你的電話嗎？
+themselves|pron.|他們自己|gen|They did it themselves.|他們自己完成的。
+draw|v.|畫；拉|gen|Can you draw a map for me?|你可以畫張地圖給我嗎？
+white|adj.|白色的|gen|She is wearing a white shirt.|她穿著一件白襯衫。
+date|n.|日期；約會|gen|What is the date today?|今天是幾月幾號？
+practice|n./v.|練習；做法|gen|I practice English every day.|我每天練習英文。
+model|n.|型號；模特兒；模型|shp|This is the newest model.|這是最新型號。
+raise|v.|舉起；提高；募集|hr|She asked for a raise.|她要求加薪。
+customer|n.|顧客|shp|The customer wants a refund.|顧客想要退款。
+front|n.|前面|gen|Meet me in front of the station.|在車站前面跟我碰面。
+explain|v.|解釋|gen|Can you explain this to me?|你可以跟我解釋一下嗎？
+door|n.|門|fac|Please close the door.|請關門。
+outside|adv./prep.|在外面|gen|Let's eat outside.|我們在外面吃吧。
+behind|prep.|在……後面|gen|The parking lot is behind the building.|停車場在大樓後面。
+economic|adj.|經濟的|fin|The economic news is good.|經濟消息很好。
+site|n.|地點；網站|log|The workers are at the building site.|工人們在工地。
+approach|n./v.|方法；接近|biz|We need a new approach.|我們需要一個新方法。
+teacher|n.|老師|gen|My English teacher is very kind.|我的英文老師很親切。
+land|n./v.|土地；降落|trv|The plane landed on time.|飛機準時降落。
+charge|n./v.|費用；收費；充電|fin|There is no charge for delivery.|送貨不收費。
+finally|adv.|最後；終於|gen|We finally finished the project.|我們終於完成專案了。
+sign|n./v.|標誌；簽名|off|Please sign here.|請在這裡簽名。

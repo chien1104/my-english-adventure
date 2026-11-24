@@ -1,0 +1,101 @@
+# TSL 501-600
+considerably|adv.|相當地；大幅地|fin|Prices have risen considerably.|物價上漲了不少。
+faulty|adj.|有缺陷的；故障的|log|The fire was caused by faulty wiring.|火災是電線故障引起的。
+hobby|n.|嗜好|gen|My hobby is cooking.|我的嗜好是做菜。
+informal|adj.|非正式的|mtg|It's an informal meeting.|這是一場非正式的會議。
+kilometer|n.|公里|trn|The station is two kilometers away.|車站在兩公里外。
+lawn|n.|草坪|fac|A man is mowing the lawn.|一個男人在割草坪。
+microscope|n.|顯微鏡|log|She is looking through a microscope.|她正在看顯微鏡。
+mislead|v.|誤導|biz|The ad may mislead customers.|這則廣告可能會誤導顧客。
+misplace|v.|放錯地方；遺失|off|I misplaced my keys again.|我又把鑰匙放錯地方了。
+newsstand|n.|書報攤|shp|I bought a paper at the newsstand.|我在書報攤買了一份報紙。
+overhead|adj.|頭頂上的|trv|Put your bag in the overhead bin.|把你的包包放進頭頂上方的置物櫃。
+portfolio|n.|作品集；投資組合|hr|Please bring your portfolio to the interview.|面試時請帶你的作品集。
+rack|n.|架子|shp|The coats are on the rack.|外套掛在架子上。
+remodel|v.|改建；重新裝修|fac|We are remodeling the kitchen.|我們正在重新裝修廚房。
+statistics|n.|統計數字；統計學|biz|The statistics show a rise in sales.|統計數字顯示銷售成長。
+tunnel|n.|隧道|trn|The train went through a long tunnel.|火車穿過一條長隧道。
+unlimited|adj.|無限的；不限量的|shp|The plan includes unlimited data.|這個方案包含無限上網。
+vitamin|n.|維他命|hlt|Fruit is full of vitamins.|水果富含維他命。
+zoo|n.|動物園|gen|We took the kids to the zoo.|我們帶孩子去動物園。
+alert|v.|提醒；警告|off|The app will alert you before the meeting.|應用程式會在開會前提醒你。
+auditorium|n.|禮堂；演講廳|mtg|The speech is in the main auditorium.|演講在大禮堂舉行。
+celebrity|n.|名人|biz|A celebrity appeared in the ad.|一位名人出現在廣告裡。
+deduct|v.|扣除|fin|Taxes are deducted from your pay.|稅金會從你的薪水裡扣除。
+disruption|n.|中斷；干擾|trn|There may be some disruption to train service.|火車服務可能會受到一些干擾。
+electrician|n.|電工|fac|An electrician fixed the lights.|電工修好了燈。
+enthusiastic|adj.|熱情的；熱衷的|hr|We need enthusiastic team members.|我們需要充滿熱忱的團隊成員。
+graduation|n.|畢業；畢業典禮|gen|My graduation is in June.|我的畢業典禮在六月。
+icy|adj.|結冰的；冰冷的|trn|The roads are icy this morning.|今天早上路面結冰。
+irregular|adj.|不規則的；不定期的|hr|He works irregular hours.|他的工作時間不固定。
+login|n.|登入；登入帳號|off|Enter your login and password.|輸入你的帳號和密碼。|/ˈlɔɡɪn/
+managerial|adj.|管理的；經理的|hr|She has managerial experience.|她有管理經驗。
+mineral|n.|礦物質|hlt|This water is rich in minerals.|這種水富含礦物質。
+motorcycle|n.|機車；摩托車|trn|He rides a motorcycle to work.|他騎機車上班。
+necessity|n.|必需品；必要|shp|Water is a basic necessity.|水是基本必需品。
+planner|n.|規劃者；記事本|mtg|We hired a wedding planner.|我們請了一位婚禮規劃師。
+programmer|n.|程式設計師|biz|She works as a computer programmer.|她是電腦程式設計師。
+proofread|v.|校對|off|Please proofread the letter before you send it.|寄出前請校對這封信。
+recruiter|n.|招募人員；獵人頭|hr|A recruiter called me about a job.|一位招募人員打電話來談工作。
+remainder|n.|剩餘部分|fin|You can pay the remainder next month.|剩下的金額你可以下個月付。
+rose|n.|玫瑰|gen|He gave her a red rose.|他送她一朵紅玫瑰。
+statue|n.|雕像|trv|There is a statue in front of the museum.|博物館前有一座雕像。
+steadily|adv.|穩定地|biz|Sales have grown steadily.|銷售穩定成長。
+stockholder|n.|股東|fin|The stockholders will meet in May.|股東會在五月召開。
+vacant|adj.|空著的|fac|The office next door is vacant.|隔壁的辦公室是空的。
+accessory|n.|配件；飾品|shp|We sell phone accessories.|我們販售手機配件。
+assembly|n.|組裝；集會|log|The assembly line runs all day.|生產線整天運轉。
+basket|n.|籃子|shp|Put the fruit in the basket.|把水果放進籃子裡。
+certification|n.|認證；證照|hr|You need a teaching certification.|你需要教師證照。
+closure|n.|關閉；封閉|trn|The road closure will last two days.|道路封閉會持續兩天。
+dislike|v.|不喜歡|gen|I dislike waiting in line.|我不喜歡排隊。
+downstairs|adv.|在樓下；往樓下|fac|The cafeteria is downstairs.|員工餐廳在樓下。
+expiration|n.|到期；截止|shp|Check the expiration date on the milk.|檢查牛奶的有效期限。
+headache|n.|頭痛|hlt|I have a bad headache.|我頭很痛。
+jam|n.|果醬；堵塞（traffic jam）|trn|We were stuck in a traffic jam.|我們被困在車陣中。
+nail|n.|釘子；指甲|fac|Hang the picture on a nail.|把畫掛在釘子上。
+optimistic|adj.|樂觀的|biz|We are optimistic about next year.|我們對明年很樂觀。
+pedestrian|n.|行人|trn|Pedestrians are crossing the street.|行人正在過馬路。
+projection|n.|預測；投影|fin|Our sales projection was too high.|我們的銷售預測太高了。
+sleeve|n.|袖子|shp|The shirt has long sleeves.|這件襯衫是長袖的。
+solar|adj.|太陽的；太陽能的|fac|The building uses solar power.|這棟大樓使用太陽能。
+suburb|n.|郊區|fac|They live in a quiet suburb.|他們住在安靜的郊區。
+takeover|n.|收購；接管|biz|The takeover was announced today.|收購案今天宣布了。
+unsure|adj.|不確定的|gen|I'm unsure about the date.|我不確定日期。
+upstairs|adv.|在樓上；往樓上|fac|The meeting room is upstairs.|會議室在樓上。
+verbal|adj.|口頭的|hr|We have a verbal agreement.|我們有口頭協議。
+visa|n.|簽證|trv|Do I need a visa for Japan?|去日本需要簽證嗎？
+wildlife|n.|野生動物|gen|The park is home to many wildlife species.|這座公園有很多野生動物。
+workforce|n.|勞動力；全體員工|hr|Half of our workforce works from home.|我們一半的員工在家工作。
+absent|adj.|缺席的|hr|Two people were absent today.|今天有兩個人缺席。
+accumulate|v.|累積|fin|You can accumulate points with each purchase.|每次購物都可以累積點數。
+appraisal|n.|評估；考核|hr|Your performance appraisal is next week.|你的績效考核在下星期。
+apprentice|n.|學徒|hr|He works as an apprentice chef.|他是學徒廚師。
+businessman|n.|商人（男性）|biz|He is a successful businessman.|他是一位成功的商人。
+ceiling|n.|天花板|fac|A lamp hangs from the ceiling.|天花板上掛著一盞燈。
+colorful|adj.|色彩鮮豔的|gen|The room has colorful walls.|這個房間的牆壁色彩鮮豔。
+compensate|v.|補償；賠償|fin|We will compensate you for the delay.|我們會為延誤補償你。
+costume|n.|服裝；戲服|gen|The actors are wearing costumes.|演員們穿著戲服。
+editorial|adj.|編輯的|biz|She works in the editorial department.|她在編輯部工作。
+effectiveness|n.|效果；有效性|biz|We tested the effectiveness of the ad.|我們測試了廣告的效果。
+facilitate|v.|促進；使容易|mtg|Ms. Lin will facilitate the workshop.|林小姐將主持這場研習會。
+firefighter|n.|消防員|gen|Firefighters put out the fire.|消防員撲滅了大火。
+gasoline|n.|汽油|trn|Gasoline prices went up again.|汽油價格又漲了。
+inappropriate|adj.|不適當的|hr|That comment was inappropriate.|那句話不恰當。
+internet|n.|網際網路|off|The Internet is down.|網路斷了。
+landlord|n.|房東|fac|Call the landlord about the leak.|打電話給房東說漏水的事。
+layout|n.|配置；版面設計|fac|I like the layout of the new office.|我喜歡新辦公室的配置。
+lunchtime|n.|午餐時間|din|The café is busy at lunchtime.|咖啡館在午餐時間很忙。
+payroll|n.|薪資名單；薪資發放|fin|Payroll is processed on the 25th.|薪資在二十五日處理。
+pharmaceutical|adj.|製藥的|hlt|He works for a pharmaceutical company.|他在一家製藥公司工作。
+plausible|adj.|似乎合理的|gen|That is a plausible reason.|那是一個說得通的理由。
+premium|n.|保險費；額外費用|fin|The insurance premium is paid monthly.|保險費每月繳一次。
+safely|adv.|安全地|trn|Please drive safely.|請小心開車。
+simplify|v.|簡化|off|We want to simplify the process.|我們想簡化流程。
+specialty|n.|特色菜；專長|din|Seafood is the chef's specialty.|海鮮是主廚的拿手菜。
+tech|n.|科技（technology 的簡稱）|biz|She works at a tech company.|她在一家科技公司工作。
+unexpected|adj.|意外的；出乎意料的|gen|We had an unexpected visitor.|我們來了一位不速之客。
+unspecified|adj.|未指明的|gen|The meeting is at an unspecified time.|會議時間尚未指定。
+adhere|v.|遵守；黏附|hr|All staff must adhere to the rules.|所有員工都必須遵守規定。
+bankrupt|adj.|破產的|fin|The company went bankrupt.|那家公司破產了。
+caution|n.|小心；謹慎|gen|Use caution when the floor is wet.|地板濕的時候要小心。

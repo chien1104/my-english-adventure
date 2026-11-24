@@ -1,4 +1,4 @@
-// 單一世界的課程列表：#/world?id=word-village
+// 單一世界的課程列表：#/world?id=words
 import { loadContext } from '../learning.js';
 import { lessonKey, TYPE_LABEL, lessonHref } from '../progress.js';
 import { createState, expandLesson } from '../lesson/engine.js';

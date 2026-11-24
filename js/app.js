@@ -11,6 +11,8 @@ import * as diagnosisPage from './pages/diagnosis.js';
 import * as worldPage from './pages/world.js';
 import * as lessonPage from './pages/lesson.js';
 import * as wordsPage from './pages/words.js';
+import * as seriesPage from './pages/series.js';
+import * as unitPage from './pages/unit.js';
 import * as reviewPage from './pages/review.js';
 import * as mistakesPage from './pages/mistakes.js';
 import * as mistakePracticePage from './pages/mistake-practice.js';
@@ -46,7 +48,7 @@ function showFatal(message) {
     </section>`;
 }
 
-const TAB_OF = { '/world': '/worlds', '/lesson': '/worlds', '/diagnosis': '/home', '/review': '/words', '/mistake-practice': '/mistakes', '/game': '/games', '/achievements': '/home', '/stats': '/home', '/exam': '/worlds' };
+const TAB_OF = { '/world': '/worlds', '/lesson': '/worlds', '/diagnosis': '/home', '/review': '/words', '/series': '/words', '/unit': '/words', '/mistake-practice': '/mistakes', '/game': '/games', '/achievements': '/home', '/stats': '/home', '/exam': '/worlds' };
 function setActiveTab(path) {
   const tab = TAB_OF[path] || path;
   document.querySelectorAll('.tabbar__link').forEach((a) => {
@@ -105,7 +107,9 @@ async function boot() {
       '/diagnosis': { title: '程度診斷', render: diagnosisPage.render },
       '/world': { title: '世界', render: worldPage.render },
       '/lesson': { title: '課程', render: lessonPage.render },
-      '/words': { title: '單字圖書館', render: wordsPage.render },
+      '/words': { title: '單字', render: wordsPage.render },
+      '/series': { title: '單字系列', render: seriesPage.render },
+      '/unit': { title: '單字單元', render: unitPage.render },
       '/review': { title: '單字複習', render: reviewPage.render },
       '/mistakes': { title: '錯題百科', render: mistakesPage.render },
       '/mistake-practice': { title: '錯題重練', render: mistakePracticePage.render },

@@ -1,0 +1,101 @@
+# TSL 1101-1200
+unpaid|adj.|未付的；無薪的|fin|There are two unpaid bills.|有兩張帳單還沒付。
+volleyball|n.|排球|gen|We play volleyball on the beach.|我們在海灘打排球。
+wheelchair|n.|輪椅|hlt|The building has wheelchair access.|大樓有無障礙輪椅通道。
+whoever|pron.|無論是誰|gen|Whoever finishes first can leave.|誰先完成誰就可以離開。
+wool|n.|羊毛|shp|This sweater is made of wool.|這件毛衣是羊毛做的。
+wrinkle|n.|皺紋；皺褶|shp|This shirt has a lot of wrinkles.|這件襯衫有很多皺褶。
+accuracy|n.|準確性|off|Check the accuracy of the numbers.|檢查數字是否準確。
+anyhow|adv.|無論如何|gen|It was raining, but we went anyhow.|雖然下雨，我們還是去了。
+appetizer|n.|開胃菜|din|We ordered two appetizers.|我們點了兩道開胃菜。
+arc|n.|弧形|gen|The chairs are set in an arc.|椅子排成弧形。
+audition|n.|試鏡；試演|gen|She has an audition tomorrow.|她明天有一場試鏡。
+backpack|n.|背包|shp|He is carrying a backpack.|他背著一個背包。
+ballroom|n.|宴會廳；舞廳|mtg|The dinner is in the hotel ballroom.|晚宴在飯店宴會廳舉行。
+beneficial|adj.|有益的|hlt|Exercise is beneficial to your health.|運動對健康有益。
+biography|n.|傳記|gen|I'm reading a biography of the founder.|我在讀創辦人的傳記。
+bound|adj.|開往……的；必定會|trv|This train is bound for Taichung.|這班火車開往台中。
+broom|n.|掃把|fac|Sweep the floor with a broom.|用掃把掃地。
+cheeseburger|n.|起司漢堡|din|I'd like a cheeseburger, please.|我要一個起司漢堡。
+chilly|adj.|寒冷的|gen|It's a little chilly today.|今天有點冷。
+circus|n.|馬戲團|gen|We took the kids to the circus.|我們帶孩子去看馬戲團。
+compliment|n.|稱讚|gen|Thank you for the compliment.|謝謝你的稱讚。
+consignment|n.|寄售；託運的貨物|log|The consignment arrived this morning.|這批託運的貨今天早上到了。
+continental|adj.|大陸的；歐式的|din|The hotel serves a continental breakfast.|飯店提供歐式早餐。
+copyright|n.|版權|biz|The company owns the copyright.|這家公司擁有版權。
+countryside|n.|鄉村|trv|We drove through the countryside.|我們開車穿過鄉間。
+demolish|v.|拆除|fac|The old building will be demolished.|那棟舊大樓將被拆除。
+departmental|adj.|部門的|off|We have a departmental meeting at ten.|我們十點有部門會議。
+desperate|adj.|迫切的；絕望的|gen|We are desperate for more staff.|我們急需更多人手。
+devastate|v.|摧毀；使震驚|gen|The storm devastated the town.|暴風雨摧毀了這個小鎮。
+diagnostic|adj.|診斷的|hlt|The clinic does diagnostic tests.|這家診所做診斷檢查。
+diagram|n.|圖表；示意圖|off|Look at the diagram on page 5.|看第五頁的示意圖。
+diamond|n.|鑽石|shp|She has a diamond ring.|她有一枚鑽石戒指。
+disable|v.|使無法運作；停用|off|Disable the alarm before you enter.|進去前先關掉警報器。
+disgust|n.|厭惡|gen|He left the room in disgust.|他厭惡地離開房間。
+donut|n.|甜甜圈|din|I bought a box of donuts for the office.|我買了一盒甜甜圈給辦公室。
+doorman|n.|門房；門衛|trv|The doorman opened the door for us.|門房幫我們開門。
+electronically|adv.|以電子方式|off|You can sign the form electronically.|你可以用電子方式簽署表格。
+elevate|v.|提高；抬高|hlt|Elevate your leg to reduce swelling.|把腿抬高可以消腫。
+engagement|n.|約會；訂婚；參與|gen|I have a prior engagement.|我已經有約了。
+enrollment|n.|註冊；入學人數|gen|Enrollment opens next week.|下星期開放報名。
+euro|n.|歐元|fin|The ticket costs 20 euros.|這張票二十歐元。
+forbid|v.|禁止|gen|Smoking is forbidden here.|這裡禁止吸菸。
+fork|n.|叉子|din|Could I have a fork, please?|可以給我一支叉子嗎？
+foster|v.|培養；促進|hr|We foster teamwork.|我們培養團隊合作。
+getaway|n.|短期度假|trv|We planned a weekend getaway.|我們計畫了一次週末小旅行。
+gossip|n.|閒話；八卦|gen|Don't listen to office gossip.|別聽辦公室的八卦。
+hacker|n.|駭客|off|A hacker stole the data.|駭客偷走了資料。
+hardworking|adj.|努力的；勤奮的|hr|She is a hardworking employee.|她是一位勤奮的員工。
+impatient|adj.|不耐煩的|gen|The customers became impatient.|顧客變得不耐煩了。
+indirect|adj.|間接的|gen|That was an indirect answer.|那是一個間接的回答。
+interpreter|n.|口譯員|mtg|We need an interpreter for the meeting.|開會需要一位口譯員。
+intersection|n.|十字路口|trn|Turn left at the next intersection.|在下一個路口左轉。
+irrelevant|adj.|不相關的|gen|That question is irrelevant.|那個問題無關緊要。
+jeans|n.|牛仔褲|shp|You can wear jeans on Friday.|星期五可以穿牛仔褲。
+journalism|n.|新聞業；新聞學|gen|She studied journalism.|她念新聞。
+letterhead|n.|印有公司名稱的信紙|off|Print the letter on company letterhead.|把信印在公司信紙上。
+lifeguard|n.|救生員|gen|The lifeguard is watching the pool.|救生員正在看守泳池。
+modem|n.|數據機|off|Restart the modem if the Internet is slow.|網路很慢的話就重開數據機。
+monument|n.|紀念碑；歷史建築|trv|We visited the famous monument.|我們參觀了那座著名的紀念碑。
+mosquito|n.|蚊子|gen|There are many mosquitoes in summer.|夏天蚊子很多。
+obligate|v.|使負有義務|gen|You are not obligated to buy anything.|你沒有義務購買任何東西。
+oblige|v.|迫使；（be obliged）感激|gen|I'd be obliged if you could help.|如果你能幫忙我會很感激。
+occurrence|n.|發生的事；事件|gen|Delays are a common occurrence.|延誤是常有的事。
+operational|adj.|運作中的；營運的|log|The new machine is now operational.|新機器現在已經可以運作了。
+outage|n.|停電；中斷|fac|There was a power outage last night.|昨晚停電了。
+overcrowded|adj.|過度擁擠的|trn|The train was overcrowded.|火車太擠了。
+paralegal|n.|律師助理|hr|She works as a paralegal.|她是律師助理。
+partially|adv.|部分地|gen|The road is partially closed.|這條路部分封閉。
+pepper|n.|胡椒；甜椒|din|Add salt and pepper.|加點鹽和胡椒。
+permanently|adv.|永久地|gen|The store is permanently closed.|這家店永久停業了。
+plow|v.|犁（田）；剷（雪）|trn|Trucks plowed the snow off the road.|卡車把路上的雪剷掉了。
+query|n.|詢問；疑問|off|Please send your queries by email.|請用電子郵件寄送你的問題。
+railway|n.|鐵路|trn|The railway station is near the hotel.|火車站在飯店附近。
+raincoat|n.|雨衣|shp|Take your raincoat with you.|帶著你的雨衣。
+reconsider|v.|重新考慮|gen|Please reconsider your decision.|請重新考慮你的決定。
+redesign|v.|重新設計|biz|We redesigned the website.|我們重新設計了網站。
+rehearsal|n.|排練；彩排|mtg|The rehearsal starts at five.|彩排五點開始。
+relaxation|n.|放鬆|hlt|The spa is a place for relaxation.|水療中心是讓人放鬆的地方。
+repetition|n.|重複|gen|Repetition helps you remember words.|反覆練習幫助你記單字。
+retreat|n.|靜修；（公司）外出研習|mtg|The team went on a two-day retreat.|團隊去參加為期兩天的研習營。
+salon|n.|美髮院；沙龍|shp|I have an appointment at the hair salon.|我約了美髮院。
+satellite|n.|衛星|gen|We watch TV by satellite.|我們用衛星收看電視。
+scenery|n.|風景|trv|The scenery here is beautiful.|這裡的風景很美。
+serial|adj.|連續的；序列的|log|Write down the serial number.|寫下序號。
+sew|v.|縫|shp|Can you sew this button on?|你可以把這顆扣子縫上嗎？|/soʊ/
+sketch|n.|草圖；素描|biz|The designer drew a quick sketch.|設計師畫了一張草圖。
+smartphone|n.|智慧型手機|shp|Almost everyone has a smartphone.|幾乎每個人都有智慧型手機。|/ˈsmɑrtfoʊn/
+soar|v.|暴漲；高飛|fin|Prices soared last year.|去年物價暴漲。
+stimulus|n.|刺激；激勵|fin|The government gave a stimulus to the economy.|政府刺激經濟。
+stockbroker|n.|股票經紀人|fin|My uncle is a stockbroker.|我叔叔是股票經紀人。
+tablecloth|n.|桌巾|din|Put a clean tablecloth on the table.|在桌上鋪一條乾淨的桌巾。
+thirsty|adj.|口渴的|din|I'm thirsty. Can I have some water?|我口渴了，可以給我一些水嗎？
+thrill|v.|使非常興奮|gen|We are thrilled to welcome you.|我們非常高興歡迎你。
+tile|n.|磁磚|fac|The bathroom has white tiles.|浴室鋪著白色磁磚。
+toiletry|n.|盥洗用品（常用複數）|trv|The hotel provides free toiletries.|飯店提供免費盥洗用品。
+trademark|n.|商標|biz|The logo is a registered trademark.|這個標誌是註冊商標。
+tropical|adj.|熱帶的|trv|We went to a tropical island.|我們去了一座熱帶島嶼。
+tuna|n.|鮪魚|din|I'll have a tuna sandwich.|我要一份鮪魚三明治。
+unemployed|adj.|失業的|hr|He has been unemployed for a month.|他已經失業一個月了。
+validate|v.|使生效；確認|trn|Validate your ticket before boarding.|上車前先打票。

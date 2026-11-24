@@ -1,0 +1,101 @@
+# NGSL 2701-2800
+harbor|n.|港口|trv|The boats are in the harbor.|船停在港口裡。
+comedy|n.|喜劇|gen|We watched a comedy last night.|我們昨晚看了一部喜劇。
+chase|v.|追趕|gen|The dog chased the cat.|狗追著貓跑。
+storage|n.|儲存；倉儲|log|We need more storage space.|我們需要更多儲存空間。
+universe|n.|宇宙|gen|The universe is very big.|宇宙非常大。
+horrible|adj.|可怕的；糟糕的|gen|The food was horrible.|食物難吃極了。
+sheep|n.|羊|gen|There are sheep on the hill.|山坡上有羊。
+lover|n.|愛好者；戀人|gen|She is a music lover.|她是音樂愛好者。
+rat|n.|老鼠|gen|We saw a rat in the kitchen.|我們在廚房看到一隻老鼠。
+portrait|n.|肖像；人像照|gen|There is a portrait of the founder in the lobby.|大廳有一幅創辦人的肖像。
+innocent|adj.|無辜的|gen|He says he is innocent.|他說他是無辜的。
+substitute|n./v.|代替品；代替|din|Can I substitute rice for fries?|我可以把薯條換成飯嗎？
+supplement|n.|補充品；附錄|hlt|She takes a vitamin supplement.|她吃維他命補充品。
+adjustment|n.|調整|gen|We made a small adjustment.|我們做了一點小調整。
+reasonably|adv.|相當；合理地|shp|The room is reasonably priced.|房間價格合理。
+filter|n./v.|濾網；過濾|fac|Change the air filter every month.|每個月換一次空氣濾網。
+flexible|adj.|有彈性的|hr|I have flexible working hours.|我的工作時間很有彈性。
+abstract|adj.|抽象的|gen|I don't understand abstract art.|我看不懂抽象藝術。
+tent|n.|帳篷|gen|We slept in a tent.|我們睡在帳篷裡。
+precise|adj.|精確的|gen|Please give me the precise time.|請告訴我確切的時間。
+distant|adj.|遙遠的|gen|We could see the distant mountains.|我們看得到遠方的山。
+stranger|n.|陌生人|gen|Don't talk to strangers.|不要跟陌生人說話。
+shade|n.|陰涼處|gen|Let's sit in the shade.|我們坐在陰涼處吧。
+grain|n.|穀物；顆粒|din|This bread is made from whole grain.|這個麵包是全穀做的。
+situate|v.|使位於（be situated）|fac|The hotel is situated near the beach.|飯店位在海灘附近。
+summarize|v.|總結|mtg|Let me summarize the main points.|讓我總結一下重點。
+leap|v./n.|跳躍|gen|Sales took a big leap this year.|今年銷售大躍進。
+snap|v.|拍照；啪地折斷|gen|She snapped a photo of the view.|她拍下了這片風景。
+probability|n.|可能性|gen|What is the probability of rain?|下雨的機率是多少？
+leather|n.|皮革|shp|This bag is made of leather.|這個包包是皮革做的。
+uncertainty|n.|不確定|fin|There is uncertainty about the economy.|經濟前景不明確。
+swear|v.|發誓；咒罵|gen|I swear I didn't do it.|我發誓不是我做的。
+refugee|n.|難民|gen|The refugees need food and water.|難民需要食物和水。
+shore|n.|岸邊|trv|We walked along the shore.|我們沿著岸邊散步。
+monthly|adj./adv.|每月的|fin|What is the monthly fee?|月費是多少？
+comprise|v.|由……組成|gen|The team comprises five members.|這個團隊由五位成員組成。
+stir|v.|攪拌|din|Stir the soup slowly.|慢慢攪拌湯。
+excitement|n.|興奮|gen|The kids were full of excitement.|孩子們非常興奮。
+sigh|v./n.|嘆氣|gen|She sighed and sat down.|她嘆了一口氣坐下來。
+pregnancy|n.|懷孕|hlt|She took leave during her pregnancy.|她懷孕期間請了假。
+experimental|adj.|實驗性的|log|This is an experimental product.|這是一項實驗性產品。
+institutional|adj.|機構的|fin|We have many institutional investors.|我們有很多機構投資人。
+slice|n.|一片|din|Can I have a slice of pizza?|可以給我一片披薩嗎？
+wander|v.|閒逛|trv|We wandered around the old town.|我們在老城區閒逛。
+empire|n.|帝國|gen|He built a business empire.|他建立了一個商業帝國。
+subsequently|adv.|隨後|gen|He subsequently left the company.|他後來離開了公司。
+gentle|adj.|溫柔的；溫和的|gen|Be gentle with the baby.|對寶寶要溫柔一點。
+attendance|n.|出席；出席人數|mtg|Attendance at the meeting is required.|必須出席這場會議。
+ownership|n.|所有權|biz|The ownership of the company changed.|公司的所有權易主了。
+qualification|n.|資格；學歷|hr|What qualifications do you have?|你有什麼資格條件？
+suspend|v.|暫停；懸掛|gen|The service was suspended for a day.|服務暫停了一天。
+functional|adj.|實用的；運作的|fac|The design is simple and functional.|這個設計簡單又實用。
+voluntary|adj.|自願的|hr|Joining the club is voluntary.|加入社團是自願的。
+pale|adj.|蒼白的；淺色的|gen|You look pale. Are you OK?|你臉色蒼白，你還好嗎？
+stain|n.|污漬|shp|There is a stain on my shirt.|我的襯衫上有污漬。
+athlete|n.|運動員|gen|She is a professional athlete.|她是職業運動員。
+organic|adj.|有機的|din|We sell organic vegetables.|我們販售有機蔬菜。
+tongue|n.|舌頭|hlt|I burned my tongue on the soup.|喝湯燙到舌頭了。
+server|n.|伺服器；服務生|off|The server is down.|伺服器當機了。
+structural|adj.|結構的|fac|The building has no structural problems.|這棟大樓沒有結構問題。
+fool|n./v.|傻瓜；欺騙|gen|Don't be a fool.|別傻了。
+alongside|prep.|在旁邊；與……一起|gen|I work alongside a great team.|我和一個很棒的團隊一起工作。
+unite|v.|聯合；團結|gen|The event united the community.|這個活動讓社區團結起來。
+gently|adv.|輕輕地|gen|Close the door gently.|輕輕關上門。
+compute|v.|計算|fin|The software computes the total.|軟體會計算總額。
+wipe|v.|擦|gen|Wipe the table, please.|請把桌子擦一擦。
+weird|adj.|奇怪的|gen|That's weird.|好奇怪。
+gaze|v.|凝視|gen|She gazed out of the window.|她凝視著窗外。
+fade|v.|褪色；逐漸消失|shp|The colors faded in the sun.|顏色在太陽下褪了。
+cough|v./n.|咳嗽|hlt|I have a bad cough.|我咳得很嚴重。
+hypothesis|n.|假設|gen|We tested the hypothesis.|我們驗證了這個假設。
+royal|adj.|皇家的|trv|We visited the royal palace.|我們參觀了皇宮。
+theoretical|adj.|理論上的|gen|It's only a theoretical problem.|那只是理論上的問題。
+curtain|n.|窗簾|fac|Open the curtains, please.|請把窗簾拉開。
+mayor|n.|市長|gen|The mayor opened the new park.|市長為新公園揭幕。
+darkness|n.|黑暗|gen|The room was in darkness.|房間一片漆黑。
+aunt|n.|阿姨；姑姑|gen|My aunt lives in Japan.|我阿姨住在日本。
+tournament|n.|錦標賽|gen|Our team is in the tennis tournament.|我們隊參加了網球錦標賽。
+registration|n.|登記；報名|mtg|Registration opens at 8 a.m.|報名早上八點開始。
+fragment|n.|碎片；片段|gen|I only heard a fragment of the talk.|我只聽到演講的一小部分。
+listener|n.|聽眾|gen|The radio show has many listeners.|這個廣播節目有很多聽眾。
+tender|adj.|嫩的；溫柔的|din|The meat is very tender.|這肉很嫩。
+density|n.|密度|gen|The city has a high population density.|這座城市人口密度很高。
+ugly|adj.|醜的|gen|That building is ugly.|那棟大樓很醜。
+module|n.|模組；單元|gen|This course has six modules.|這門課有六個單元。
+faithfully|adv.|忠實地|off|The letter ends with "Yours faithfully."|這封信以「謹啟」作結。
+autumn|n.|秋天|gen|The leaves turn red in autumn.|秋天葉子會變紅。
+cheek|n.|臉頰|gen|She kissed him on the cheek.|她親了他的臉頰。
+attachment|n.|附件|off|Please open the attachment.|請打開附件。
+holder|n.|持有人；架子|fin|Card holders get a discount.|持卡人可享折扣。
+grin|v./n.|露齒而笑|gen|He grinned at me.|他對我咧嘴一笑。
+noun|n.|名詞|gen|"Book" is a noun.|「book」是名詞。
+fortunate|adj.|幸運的|gen|We are fortunate to have you.|有你是我們的福氣。
+alright|adj./adv.|好的；沒問題|gen|Are you alright?|你還好嗎？|/ɔlˈraɪt/
+lazy|adj.|懶惰的|gen|I feel lazy on Sundays.|我星期天都很懶散。
+hello|int.|哈囉；你好|gen|Hello, this is Amy speaking.|你好，我是艾咪。
+hunger|n.|飢餓|gen|We gave food to fight hunger.|我們捐贈食物對抗飢餓。
+insure|v.|為……投保|fin|Is your car insured?|你的車有保險嗎？
+ashamed|adj.|羞愧的|gen|I'm ashamed of my mistake.|我為自己的錯誤感到羞愧。
+found|v.|創立|biz|The company was founded in 1985.|這家公司創立於 1985 年。

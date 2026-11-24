@@ -6,6 +6,8 @@ export const EXP = {
   correct: 2,          // 答對一題（課程、複習、錯題重練、遊戲）
   lessonFirst: 30,     // 第一次完成一堂課
   lessonRepeat: 10,    // 重新完成
+  unitFirst: 20,       // 第一次學完一個單字單元
+  unitRepeat: 5,       // 重新學完單字單元
   diagnosis: 20,       // 第一次完成程度診斷
   reviewSession: 10,   // 完成一次單字複習
   mistakeSession: 10,  // 完成一次錯題重練
@@ -52,11 +54,11 @@ export function dailyTasks({ mode, today, attempts, sessions, learnedCount, game
   const todaySessions = sessions.filter((s) => s.day === today);
   const correct = todays.filter((a) => a.correct && EXP_KINDS.has(a.kind)).length;
   const reviewed = todays.filter((a) => a.kind === 'review').length;
-  const lessons = todaySessions.filter((s) => s.type === 'lesson').length;
+  const lessons = todaySessions.filter((s) => s.type === 'lesson' || s.type === 'unit').length;
   const games = todaySessions.filter((s) => s.type === 'game').length;
   const tasks = [{ id: 'correct', icon: '✅', label: `答對 ${plan.correct} 題`, target: plan.correct, current: correct }];
   if (learnedCount > 0) tasks.push({ id: 'review', icon: '📚', label: `複習 ${plan.review} 個單字`, target: plan.review, current: reviewed, href: '#/review?mode=free' });
-  if (plan.lesson) tasks.push({ id: 'lesson', icon: '📖', label: `完成 ${plan.lesson} 堂課`, target: plan.lesson, current: lessons, href: '#/worlds' });
+  if (plan.lesson) tasks.push({ id: 'lesson', icon: '📖', label: `完成 ${plan.lesson} 堂課或單字單元`, target: plan.lesson, current: lessons, href: '#/worlds' });
   if (plan.game && gamesAvailable) tasks.push({ id: 'game', icon: '🎮', label: `玩 ${plan.game} 局遊戲`, target: plan.game, current: games, href: '#/games' });
   for (const t of tasks) { t.current = Math.min(t.current, t.target); t.done = t.current >= t.target; }
   return tasks;
@@ -86,6 +88,9 @@ export const ACHIEVEMENTS = [
   { id: 'perfect', icon: '💯', name: '完美一課', desc: '一堂課第一次作答全對', test: (s) => s.perfectLesson },
   { id: 'words-10', icon: '🗂️', name: '單字收藏家', desc: '學過 10 個單字', test: (s) => s.learnedCount >= 10 },
   { id: 'words-20', icon: '📦', name: '單字倉庫', desc: '學過 20 個單字', test: (s) => s.learnedCount >= 20 },
+  { id: 'words-100', icon: '📚', name: '百字達人', desc: '學過 100 個單字', test: (s) => s.learnedCount >= 100 },
+  { id: 'words-500', icon: '🔥', name: '多益高頻通', desc: '學過 500 個單字', test: (s) => s.learnedCount >= 500 },
+  { id: 'words-1000', icon: '🏅', name: '千字大師', desc: '學過 1000 個單字', test: (s) => s.learnedCount >= 1000 },
   { id: 'familiar-5', icon: '🌱', name: '熟能生巧', desc: '5 個單字達到熟悉', test: (s) => s.familiarCount >= 5 },
   { id: 'fix-5', icon: '🩹', name: '知錯能改', desc: '訂正 5 個錯題', test: (s) => s.fixedMistakes >= 5 },
   { id: 'games-all', icon: '🎮', name: '遊戲通', desc: '三款遊戲都玩過', test: (s) => s.gamesPlayed >= 3 },

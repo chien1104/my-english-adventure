@@ -1,0 +1,101 @@
+# NGSL 101-200
+last|adj.|上一個的；最後的|gen|I saw him last week.|我上星期見過他。
+child|n.|小孩|gen|She has one child.|她有一個小孩。
+tell|v.|告訴|gen|Please tell me your name.|請告訴我你的名字。
+really|adv.|真的；非常|gen|I really like this place.|我真的很喜歡這個地方。
+call|v.|打電話；叫|gen|I'll call you tonight.|我今晚打給你。
+before|prep.|在……之前|gen|Wash your hands before lunch.|午餐前要洗手。
+company|n.|公司|biz|I work for a small company.|我在一家小公司工作。
+through|prep.|穿過；透過|gen|We walked through the park.|我們穿過公園。
+down|adv.|向下|gen|Please sit down.|請坐下。
+show|v.|給……看；展示|gen|Can you show me the way?|你可以告訴我怎麼走嗎？
+life|n.|生活；生命|gen|City life is busy.|城市生活很忙碌。
+man|n.|男人|gen|The man is reading a newspaper.|那個男人在看報紙。
+change|v./n.|改變；零錢|gen|We need to change the plan.|我們需要改變計畫。
+place|n.|地方|gen|This is a nice place to live.|這是一個適合居住的好地方。
+long|adj.|長的|gen|It was a long day.|今天真是漫長的一天。
+between|prep.|在……之間|gen|The bank is between the café and the hotel.|銀行在咖啡館和飯店之間。
+feel|v.|感覺|gen|I feel tired today.|我今天覺得很累。
+too|adv.|也；太|gen|This coffee is too hot.|這杯咖啡太燙了。
+still|adv.|仍然|gen|Are you still at work?|你還在上班嗎？
+problem|n.|問題|gen|There is a problem with my computer.|我的電腦有問題。
+write|v.|寫|gen|Please write your name here.|請在這裡寫上你的名字。
+same|adj.|相同的|gen|We have the same phone.|我們有一樣的手機。
+lot|n.|很多（a lot of）；一塊地|gen|I have a lot of work today.|我今天有很多工作。
+great|adj.|很棒的；巨大的|gen|That's a great idea!|那是個很棒的主意！
+try|v.|嘗試|gen|Try this cake.|試試這個蛋糕。
+leave|v.|離開；留下|gen|The train leaves at six.|火車六點出發。
+number|n.|數字；號碼|gen|What is your phone number?|你的電話號碼是多少？
+both|det.|兩者都|gen|Both answers are correct.|兩個答案都對。
+own|adj.|自己的|gen|I have my own office.|我有自己的辦公室。
+part|n.|部分|gen|This is the best part of the movie.|這是電影最精彩的部分。
+point|n.|重點；論點|mtg|That's a good point.|說得好。
+little|adj.|小的；很少的|gen|I have a little time.|我有一點時間。
+help|v.|幫助|gen|Can I help you?|需要幫忙嗎？
+ask|v.|問；要求|gen|Can I ask a question?|我可以問個問題嗎？
+meet|v.|見面；認識|gen|Nice to meet you.|很高興認識你。
+start|v.|開始|gen|The class starts at nine.|課九點開始。
+talk|v.|說話；談論|gen|Let's talk about the plan.|我們來談談這個計畫。
+something|pron.|某事；某物|gen|I want something to drink.|我想喝點東西。
+put|v.|放|gen|Put your bag here.|把你的包包放在這裡。
+another|det.|另一個|gen|Can I have another cup?|我可以再要一杯嗎？
+become|v.|變成；成為|gen|She became a manager last year.|她去年成為經理。
+interest|n.|興趣；利息|fin|The bank pays low interest.|銀行付的利息很低。
+country|n.|國家；鄉下|gen|Which country are you from?|你來自哪個國家？
+old|adj.|舊的；老的|gen|This is an old building.|這是一棟老建築。
+each|det.|每一個|gen|Each room has a TV.|每個房間都有電視。
+school|n.|學校|gen|My son goes to school by bus.|我兒子搭公車上學。
+late|adj.|遲到的；晚的|gen|Sorry, I'm late.|抱歉，我遲到了。
+high|adj.|高的|gen|The price is too high.|價格太高了。
+different|adj.|不同的|gen|We have different ideas.|我們的想法不同。
+off|adv./prep.|離開；（電器）關掉|gen|Turn off the lights.|把燈關掉。
+next|adj.|下一個的|gen|See you next week.|下星期見。
+end|n.|結束；盡頭|gen|The restroom is at the end of the hall.|洗手間在走廊盡頭。
+live|v.|住；生活|gen|I live in Taipei.|我住在台北。
+why|adv.|為什麼|gen|Why are you late?|你為什麼遲到？
+while|conj.|當……時；然而|gen|I listen to music while I work.|我工作時會聽音樂。
+world|n.|世界|gen|She has traveled around the world.|她環遊過世界。
+week|n.|星期；週|gen|I work five days a week.|我一週工作五天。
+play|v.|玩；打（球）；演奏|gen|We play tennis on Sundays.|我們星期天打網球。
+might|aux.|可能|gen|It might rain later.|晚一點可能會下雨。
+must|aux.|必須|gen|You must wear a helmet.|你必須戴安全帽。
+home|n./adv.|家；在家|gen|I'm going home.|我要回家了。
+never|adv.|從不|gen|I never drink coffee at night.|我晚上從不喝咖啡。
+include|v.|包含|trv|The price includes breakfast.|價格包含早餐。
+course|n.|課程；（of course）當然|gen|I'm taking an English course.|我在上英文課。
+house|n.|房子|fac|They bought a new house.|他們買了一間新房子。
+report|n.|報告|off|Please finish the report by Friday.|請在星期五前完成報告。
+group|n.|團體；組|gen|We work in groups of four.|我們四個人一組工作。
+case|n.|情況；案例；箱|gen|In that case, I'll take a taxi.|那樣的話，我就搭計程車。
+woman|n.|女人|gen|The woman is talking on the phone.|那位女士正在講電話。
+around|prep./adv.|在……周圍；大約|gen|The hotel is around the corner.|飯店就在轉角附近。
+book|n.|書|gen|I'm reading a good book.|我在讀一本好書。
+family|n.|家庭；家人|gen|I live with my family.|我和家人住在一起。
+seem|v.|似乎|gen|You seem tired.|你看起來很累。
+let|v.|讓|gen|Let me help you.|讓我幫你。
+again|adv.|再一次|gen|Could you say that again?|你可以再說一次嗎？
+kind|n./adj.|種類；親切的|gen|What kind of music do you like?|你喜歡哪一種音樂？
+keep|v.|保持；保留|gen|Please keep the door closed.|請保持門關著。
+hear|v.|聽到|gen|I can't hear you.|我聽不到你說話。
+system|n.|系統|off|The computer system is down.|電腦系統當機了。
+every|det.|每一個|gen|I go jogging every morning.|我每天早上去慢跑。
+question|n.|問題|gen|Do you have any questions?|你有任何問題嗎？
+during|prep.|在……期間|gen|Don't use your phone during the meeting.|開會時不要用手機。
+always|adv.|總是|gen|She is always on time.|她總是很準時。
+big|adj.|大的|gen|This box is too big.|這個箱子太大了。
+set|v.|設定；放置|gen|Set the alarm for six.|把鬧鐘設在六點。
+small|adj.|小的|gen|We have a small office.|我們的辦公室很小。
+study|v.|讀書；研究|gen|I study English every day.|我每天讀英文。
+follow|v.|跟隨；遵守|gen|Please follow me.|請跟我來。
+begin|v.|開始|gen|The show will begin soon.|表演快開始了。
+important|adj.|重要的|gen|This is an important meeting.|這是一場重要的會議。
+since|prep./conj.|自從；既然|gen|I have worked here since 2020.|我從 2020 年就在這裡工作。
+run|v.|跑；經營|biz|She runs a small shop.|她經營一家小店。
+under|prep.|在……下面|gen|The cat is under the table.|貓在桌子下面。
+turn|v.|轉；轉動|trn|Turn left at the light.|在紅綠燈左轉。
+few|det.|很少；（a few）一些|gen|I have a few questions.|我有幾個問題。
+bring|v.|帶來|gen|Please bring your ID.|請帶你的身分證件。
+early|adj./adv.|早的；提早|gen|I got up early today.|我今天很早起床。
+hand|n.|手|gen|Please raise your hand.|請舉手。
+state|n.|州；狀態|gen|He lives in a different state.|他住在別的州。
+move|v.|移動；搬家|gen|We moved to a new office.|我們搬到新辦公室了。

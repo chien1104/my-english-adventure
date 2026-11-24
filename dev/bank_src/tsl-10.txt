@@ -1,0 +1,101 @@
+# TSL 901-1000
+blueprint|n.|藍圖；設計圖|fac|The architect showed us the blueprints.|建築師給我們看設計圖。
+bug|n.|程式錯誤；小蟲|off|There is a bug in the software.|這套軟體有一個錯誤。
+cautious|adj.|謹慎的|fin|Be cautious with your money.|用錢要謹慎。
+circuit|n.|電路|log|The circuit is broken.|電路壞了。
+clap|v.|拍手；鼓掌|gen|Everyone clapped at the end.|最後大家都鼓掌了。
+commerce|n.|商業；貿易|biz|Online commerce is growing fast.|網路商務成長得很快。
+convey|v.|傳達|mtg|The chart conveys the main idea.|這張圖表傳達了重點。
+cord|n.|電線；繩子|off|The power cord is too short.|電源線太短了。
+counselor|n.|顧問；輔導員|hr|Talk to a career counselor.|和職涯顧問談談。
+debit|n.|借記；扣款|fin|Can I pay by debit card?|我可以用金融卡付款嗎？
+delicate|adj.|易碎的；精緻的|log|Handle the glass with care. It's delicate.|小心拿玻璃，它很容易碎。
+dependence|n.|依賴|gen|We want to reduce our dependence on oil.|我們想減少對石油的依賴。
+distraction|n.|使人分心的事物|off|Phones are a distraction at work.|手機在工作時讓人分心。
+downsize|v.|縮編；裁員|hr|The company plans to downsize.|公司打算縮編。
+elephant|n.|大象|gen|We saw elephants at the zoo.|我們在動物園看到大象。
+enthusiasm|n.|熱忱|hr|She shows great enthusiasm for her work.|她對工作充滿熱忱。
+enthusiast|n.|愛好者；狂熱者|gen|He is a car enthusiast.|他是汽車迷。
+evident|adj.|明顯的|gen|It is evident that he is tired.|很明顯他累了。
+flexibility|n.|彈性；靈活性|hr|This job offers flexibility.|這份工作很有彈性。
+flextime|n.|彈性工時|hr|Our company offers flextime.|我們公司提供彈性工時。
+fortunately|adv.|幸運地|gen|Fortunately, no one was hurt.|幸好沒有人受傷。
+freighter|n.|貨輪；貨機|log|The freighter arrived at the port.|貨輪抵達了港口。
+generator|n.|發電機|fac|The building has a backup generator.|大樓有備用發電機。
+hallway|n.|走廊|fac|The restroom is at the end of the hallway.|洗手間在走廊的盡頭。
+hamburger|n.|漢堡|din|I'll have a hamburger and fries.|我要一個漢堡和薯條。
+hazard|n.|危險；危害|log|Wet floors are a safety hazard.|濕地板是安全隱患。
+homeowner|n.|屋主|fac|Homeowners pay property tax.|屋主要繳房屋稅。
+imperative|adj.|必要的；（文法）祈使的|gen|It is imperative that we finish today.|我們今天務必要完成。
+inflate|v.|充氣；膨脹|gen|Inflate the tires before the trip.|出發前把輪胎打氣。
+insert|v.|插入|off|Insert your card here.|把卡片插入這裡。
+lecturer|n.|講師|gen|She is a lecturer at the university.|她是大學講師。
+meaningful|adj.|有意義的|gen|We had a meaningful talk.|我們有一場很有意義的談話。
+memorize|v.|記住；背誦|gen|Try to memorize ten words a day.|試著每天背十個單字。
+merchant|n.|商人；商家|biz|Local merchants support the festival.|當地商家支持這個節慶。
+modification|n.|修改；調整|log|We made some modifications to the design.|我們對設計做了一些修改。
+occupant|n.|居住者；使用者|fac|All occupants must leave the building.|所有人員都必須離開大樓。
+overcharge|v.|多收錢|shp|The store overcharged me.|那家店多收了我的錢。
+oversee|v.|監督；管理|hr|She oversees the sales team.|她管理業務團隊。
+petition|n.|請願書|gen|Please sign our petition.|請在我們的請願書上簽名。
+pillow|n.|枕頭|trv|Can I have an extra pillow?|可以多給我一個枕頭嗎？
+popcorn|n.|爆米花|din|Let's get popcorn for the movie.|我們買爆米花看電影吧。
+pottery|n.|陶器；陶藝|gen|She takes a pottery class.|她上陶藝課。
+professionally|adv.|專業地|hr|Please dress professionally.|請穿著專業的服裝。
+publicize|v.|宣傳；公布|biz|We will publicize the event online.|我們會在網路上宣傳這個活動。
+ray|n.|光線；射線|hlt|The doctor took an X-ray.|醫生照了 X 光。
+redecorate|v.|重新裝潢|fac|We will redecorate the lobby.|我們會重新裝潢大廳。
+refinery|n.|煉油廠；精煉廠|log|He works at an oil refinery.|他在煉油廠工作。
+refresh|v.|使恢復精神；重新整理|off|Refresh the page to see the update.|重新整理頁面就能看到更新。
+refundable|adj.|可退款的|trv|This ticket is not refundable.|這張票不能退款。
+reimbursement|n.|核銷；報銷|fin|Submit your receipts for reimbursement.|交出收據來報銷。
+reliability|n.|可靠性|log|We test the reliability of each machine.|我們測試每台機器的可靠性。
+reluctant|adj.|不情願的|gen|He was reluctant to leave.|他不太想離開。
+sewer|n.|下水道|fac|The sewer is being repaired.|下水道正在維修。
+skate|v.|溜冰|gen|The kids are skating on the ice.|孩子們在冰上溜冰。
+skateboard|n.|滑板|gen|He rides a skateboard to school.|他踩滑板去上學。
+sleepy|adj.|想睡的|gen|I feel sleepy after lunch.|午餐後我覺得很睏。
+tailor|n.|裁縫師|shp|The tailor fixed my pants.|裁縫師幫我改了褲子。
+termination|n.|終止；解僱|hr|The contract allows termination with notice.|合約允許事先通知後終止。
+theft|n.|竊盜|gen|Report any theft to the police.|發生竊盜請向警方報案。
+thunderstorm|n.|雷雨|gen|A thunderstorm is coming.|雷雨要來了。
+transmission|n.|傳送；變速器|trn|The car's transmission needs repair.|這輛車的變速箱需要修理。
+transmit|v.|傳送；傳輸|off|The data is transmitted online.|資料是在線上傳送的。
+unused|adj.|未使用的|shp|You can return unused items.|未使用的商品可以退貨。
+waive|v.|免除；放棄|fin|We will waive the fee this time.|這次我們會免收這筆費用。
+yen|n.|日圓|fin|The hotel costs 10,000 yen a night.|這家飯店一晚一萬日圓。
+activate|v.|啟用；開通|off|Call this number to activate your card.|撥打這個號碼開通你的卡。
+additionally|adv.|此外|gen|Additionally, we offer free delivery.|此外，我們提供免運費。
+affirmative|adj.|肯定的；同意的|gen|She gave an affirmative answer.|她給了肯定的答覆。
+baker|n.|麵包師傅|din|The baker gets up at 4 a.m.|麵包師傅凌晨四點起床。
+brainstorm|v.|腦力激盪|mtg|Let's brainstorm some new ideas.|我們來腦力激盪一些新點子吧。
+cage|n.|籠子|gen|The bird is in a cage.|鳥在籠子裡。
+cinema|n.|電影院|gen|Let's go to the cinema tonight.|我們今晚去看電影吧。
+collaboration|n.|合作|biz|This book is a collaboration between two writers.|這本書是兩位作家合作的作品。
+condominium|n.|公寓大樓（分戶出售）|fac|They bought a condominium downtown.|他們在市中心買了一間公寓。
+consecutive|adj.|連續的|gen|It rained for three consecutive days.|連續下了三天雨。
+cordless|adj.|無線的|off|We use cordless phones in the office.|我們辦公室用無線電話。
+deluxe|adj.|豪華的|trv|We booked a deluxe room.|我們訂了一間豪華客房。
+desirable|adj.|理想的；令人嚮往的|hr|Experience is desirable but not required.|有經驗尤佳，但非必要。
+discrepancy|n.|差異；不一致|fin|There is a discrepancy in the numbers.|數字有出入。
+dispatch|v.|派遣；發送|log|Your order was dispatched today.|你的訂單今天已出貨。
+drawback|n.|缺點|gen|The only drawback is the price.|唯一的缺點是價格。
+dull|adj.|無聊的；乏味的|gen|The meeting was dull.|那場會議很無聊。
+economically|adv.|經濟地；節省地|fin|We need to run the office more economically.|我們需要更節省地經營辦公室。
+evenly|adv.|平均地|gen|Spread the butter evenly.|把奶油塗抹均勻。
+excellence|n.|卓越；優秀|hr|She won an award for excellence.|她獲得了優秀獎。
+exclusively|adv.|專門地；獨家地|shp|This item is sold exclusively online.|這項商品只在網路上販售。
+farewell|n.|告別；歡送|hr|We had a farewell party for Tom.|我們為湯姆辦了歡送會。
+fatigue|n.|疲勞|hlt|Long flights can cause fatigue.|長途飛行會讓人疲勞。|/fəˈtiɡ/
+fiscal|adj.|財政的；會計的|fin|Our fiscal year ends in June.|我們的會計年度在六月結束。
+fleet|n.|車隊；船隊|log|The company has a fleet of trucks.|公司有一支卡車車隊。
+flour|n.|麵粉|din|Mix the flour with water.|把麵粉和水混合。
+fog|n.|霧|trn|Flights are delayed because of fog.|因為起霧，班機延誤。
+formally|adv.|正式地|hr|He was formally introduced to the team.|他被正式介紹給團隊。
+gram|n.|公克|shp|This bag holds 500 grams of rice.|這袋米有五百公克。
+handbook|n.|手冊|hr|Read the employee handbook.|閱讀員工手冊。
+headphone|n.|耳機（常用複數）|shp|I bought new headphones.|我買了新耳機。
+heater|n.|暖氣機|fac|Turn on the heater, please.|請打開暖氣。
+helmet|n.|安全帽|trn|Always wear a helmet on a bike.|騎車一定要戴安全帽。
+hiker|n.|健行者|gen|Many hikers visit the mountain.|很多健行者造訪這座山。
+homeless|adj.|無家可歸的|gen|We give food to homeless people.|我們送食物給無家可歸的人。

@@ -110,8 +110,8 @@ try:
         # 世界地圖
         page.click('.tabbar__link[href="#/worlds"]')
         page.wait_for_selector('[data-testid=world-list]')
-        check('[E2E] 世界地圖 8 個世界都有課程，診斷前皆鎖住',
-              page.locator('.world').count() == 8 and page.locator('.badge--lock').count() == 8)
+        check('[E2E] 世界地圖 11 個多益世界都有課程，診斷前皆鎖住',
+              page.locator('.world').count() == 11 and page.locator('.badge--lock').count() == 11)
         check('[E2E] 底部導覽高亮目前頁', page.get_attribute('.tabbar__link[href="#/worlds"]', 'aria-current') == 'page')
         page.screenshot(path=f'{OUT}/02-worlds.png', full_page=True)
 

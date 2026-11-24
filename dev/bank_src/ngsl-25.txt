@@ -1,0 +1,101 @@
+# NGSL 2401-2500
+rid|v.|（get rid of）擺脫；丟掉|gen|I need to get rid of old clothes.|我需要把舊衣服清掉。
+divorce|n./v.|離婚|gen|They got a divorce last year.|他們去年離婚了。
+ruin|v.|毀掉|gen|The rain ruined our picnic.|下雨毀了我們的野餐。
+bury|v.|埋|gen|The dog buried a bone.|狗把骨頭埋了起來。
+counsel|v./n.|建議；諮詢|hr|She counsels students about jobs.|她為學生提供就業諮詢。
+tendency|n.|傾向|gen|He has a tendency to talk too much.|他容易話太多。
+frequent|adj.|頻繁的|trv|He is a frequent flyer.|他經常搭飛機。
+motor|n.|馬達|log|The motor is too loud.|馬達太吵了。
+survival|n.|生存|biz|The company is fighting for survival.|這家公司正在為生存奮鬥。
+counter|n.|櫃檯|shp|Please pay at the counter.|請到櫃檯付款。
+possess|v.|擁有|gen|He possesses great skill.|他擁有很高的技術。
+permission|n.|許可|gen|You need permission to enter.|你需要許可才能進入。
+valley|n.|山谷|trv|The village is in a green valley.|村莊位在一個綠色山谷裡。
+float|v.|漂浮|gen|The boat is floating on the lake.|船漂浮在湖面上。
+mad|adj.|生氣的；瘋的|gen|Are you mad at me?|你在生我的氣嗎？
+greatly|adv.|大大地|gen|Your help is greatly appreciated.|非常感謝你的幫忙。
+visible|adj.|看得見的|gen|The sign is clearly visible.|標誌清楚可見。
+electric|adj.|電的；電動的|trn|He drives an electric car.|他開電動車。
+impressive|adj.|令人印象深刻的|gen|Your English is impressive.|你的英文令人印象深刻。
+evolution|n.|演化；發展|gen|The evolution of phones is amazing.|手機的演進很驚人。
+awareness|n.|意識；認識|biz|We want to raise brand awareness.|我們想提高品牌知名度。
+violent|adj.|暴力的；猛烈的|gen|It was a violent storm.|那是一場猛烈的暴風雨。
+slave|n.|奴隸|gen|The museum tells the story of slaves.|這間博物館講述奴隸的故事。
+wealthy|adj.|富有的|gen|He comes from a wealthy family.|他出身富裕家庭。
+architecture|n.|建築（學）|trv|I love the architecture in this city.|我很喜歡這座城市的建築。
+acceptable|adj.|可接受的|gen|The price is acceptable.|這個價格可以接受。
+journal|n.|期刊；日誌|gen|I keep a journal.|我有寫日誌的習慣。
+coal|n.|煤|gen|The town used to mine coal.|這個小鎮以前產煤。
+measurement|n.|測量；尺寸|shp|Take your measurements for the suit.|為了訂做西裝量一下你的尺寸。
+random|adj.|隨機的|gen|Choose a random number.|隨便選一個數字。
+successfully|adv.|成功地|gen|We successfully finished the project.|我們成功完成了專案。
+depress|v.|使沮喪（be depressed）|gen|The rainy weather depresses me.|下雨天讓我心情低落。
+illustration|n.|插圖；例證|gen|The book has nice illustrations.|這本書的插圖很漂亮。
+burst|v.|爆裂；突然|fac|A water pipe burst.|一根水管爆了。
+privilege|n.|特權；榮幸|gen|It's a privilege to work with you.|能和你共事是我的榮幸。
+buyer|n.|買家|shp|We found a buyer for the house.|我們找到了房子的買家。
+mutual|adj.|相互的；共同的|gen|We met through a mutual friend.|我們透過共同的朋友認識。
+rail|n.|鐵路；欄杆|trn|We traveled by rail.|我們搭火車旅行。
+motivate|v.|激勵|hr|A good boss motivates the team.|好的主管會激勵團隊。
+laboratory|n.|實驗室|log|The samples are tested in the laboratory.|樣本在實驗室裡檢驗。
+mortgage|n.|房屋貸款|fin|We pay the mortgage every month.|我們每個月繳房貸。|/ˈmɔrɡɪdʒ/
+promotion|n.|升遷；促銷|hr|She got a promotion.|她升職了。
+passion|n.|熱情|hr|She has a passion for cooking.|她對烹飪充滿熱情。
+champion|n.|冠軍|gen|He is the tennis champion.|他是網球冠軍。
+fulfill|v.|履行；實現|gen|We fulfilled all the orders.|我們完成了所有訂單。
+dust|n.|灰塵|fac|There is dust on the shelf.|架子上有灰塵。
+dedicate|v.|奉獻；致力於|hr|She dedicated her life to teaching.|她一生奉獻給教育。
+roughly|adv.|大約|gen|It takes roughly an hour.|大約要一個小時。
+skirt|n.|裙子|shp|She is wearing a black skirt.|她穿著一件黑裙子。
+province|n.|省|gen|He comes from a small province.|他來自一個小省分。
+March|n.|三月|gen|My birthday is in March.|我的生日在三月。
+evaluation|n.|評估|hr|We do a staff evaluation every year.|我們每年做員工考核。
+compromise|n./v.|妥協|mtg|We reached a compromise.|我們達成了妥協。
+accomplish|v.|完成；達成|gen|We accomplished a lot today.|我們今天完成了很多事。
+weakness|n.|弱點|hr|What is your biggest weakness?|你最大的弱點是什麼？
+announcement|n.|公告；宣布|trv|Please listen to the announcement.|請聽廣播公告。
+salt|n.|鹽|din|Add a little salt.|加一點鹽。
+glance|v./n.|瞥一眼|gen|She glanced at her watch.|她看了一眼手錶。
+opera|n.|歌劇|gen|We went to the opera.|我們去看了歌劇。
+contest|n.|比賽|gen|She won a singing contest.|她贏了一場歌唱比賽。
+brush|n./v.|刷子；刷|gen|Brush your teeth twice a day.|一天刷兩次牙。
+embarrass|v.|使尷尬（be embarrassed）|gen|I was embarrassed by my mistake.|我為自己的錯誤感到尷尬。
+gallery|n.|美術館；畫廊|trv|We visited an art gallery.|我們參觀了一間美術館。
+genetic|adj.|基因的|hlt|It's a genetic problem.|這是基因問題。
+aggressive|adj.|積極的；侵略性的|biz|They have an aggressive sales plan.|他們有一個積極的銷售計畫。
+chest|n.|胸部；箱子|hlt|I have a pain in my chest.|我胸口痛。
+format|n.|格式|off|Save the file in PDF format.|把檔案存成 PDF 格式。
+literary|adj.|文學的|gen|She won a literary prize.|她得了一個文學獎。
+govern|v.|統治；管理|gen|The rules govern how we work.|這些規定規範我們的工作方式。
+embrace|v.|擁抱；接受|biz|We embrace new ideas.|我們歡迎新的想法。
+praise|n./v.|稱讚|hr|The boss praised her work.|老闆稱讚她的工作。
+silent|adj.|安靜的；無聲的|gen|Please keep your phone silent.|請把手機調成靜音。
+pump|n./v.|幫浦；打氣|trn|Use the pump to fill the tire.|用打氣筒幫輪胎打氣。
+publisher|n.|出版商|biz|She works for a book publisher.|她在一家出版社工作。
+celebration|n.|慶祝活動|gen|There will be a celebration tonight.|今晚會有慶祝活動。
+golf|n.|高爾夫球|gen|My boss plays golf on weekends.|我的主管週末打高爾夫。
+compensation|n.|報酬；賠償|hr|The job offers good compensation.|這份工作待遇很好。
+classical|adj.|古典的|gen|I like classical music.|我喜歡古典音樂。
+weigh|v.|秤重；重達|log|The box weighs five kilos.|這個箱子重五公斤。
+versus|prep.|對；與……相對|gen|It's Taiwan versus Japan tonight.|今晚是台灣對日本。
+deficit|n.|赤字|fin|The country has a budget deficit.|這個國家有預算赤字。
+modify|v.|修改|off|We modified the plan.|我們修改了計畫。
+flash|n./v.|閃光；閃爍|gen|No flash photography, please.|請勿使用閃光燈拍照。
+friendship|n.|友誼|gen|Our friendship is important to me.|我們的友誼對我很重要。
+profession|n.|職業|hr|Teaching is a great profession.|教書是一份很好的職業。
+literally|adv.|字面上地；真的|gen|I literally ran to the station.|我真的是用跑的到車站。
+equation|n.|方程式|gen|Solve this equation.|解這個方程式。
+gesture|n.|手勢；表示|gen|It was a kind gesture.|那是一個貼心的舉動。
+entertain|v.|娛樂；招待|biz|We entertain clients at dinner.|我們請客戶吃晚餐。
+fantastic|adj.|極好的|gen|The food was fantastic!|食物棒極了！
+assign|v.|分配；指派|off|The manager assigned me a new task.|經理指派了一項新任務給我。
+inflation|n.|通貨膨脹|fin|Inflation is rising.|通貨膨脹正在上升。
+historic|adj.|有歷史意義的|trv|This is a historic building.|這是一棟具有歷史意義的建築。
+injure|v.|使受傷（be injured）|hlt|He was injured in an accident.|他在一場意外中受傷。
+remote|adj.|遙遠的；遠端的|hr|I work remotely from home.|我在家遠端工作。
+therapy|n.|治療|hlt|He goes to physical therapy.|他去做物理治療。
+orange|n./adj.|柳橙；橘色的|din|I'd like orange juice.|我要柳橙汁。
+twist|v.|扭轉|hlt|I twisted my ankle.|我扭到腳踝了。
+personnel|n.|人員；人事部|hr|All personnel must wear badges.|所有人員都必須配戴識別證。
+imagination|n.|想像力|gen|Children have a great imagination.|孩子們很有想像力。

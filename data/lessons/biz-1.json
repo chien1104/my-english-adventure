@@ -1,7 +1,7 @@
 {
   "id": "biz-1",
-  "world": "business-city",
-  "order": 1,
+  "world": "words",
+  "order": 4,
   "type": "vocab",
   "requires": [
     "vocab-2",

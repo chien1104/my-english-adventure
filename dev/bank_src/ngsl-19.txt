@@ -1,0 +1,101 @@
+# NGSL 1801-1900
+exhibition|n.|展覽|mtg|The art exhibition opens tomorrow.|藝術展覽明天開幕。
+producer|n.|製作人；生產者|biz|She is a TV producer.|她是電視製作人。
+regional|adj.|地區的|biz|He is the regional sales manager.|他是區域業務經理。
+immediate|adj.|立即的|gen|We need an immediate answer.|我們需要立即的答覆。
+incident|n.|事件|gen|Please report any incident to the manager.|有任何事件請向經理報告。
+childhood|n.|童年|gen|I had a happy childhood.|我有一個快樂的童年。
+draft|n.|草稿|off|Here is the first draft of the report.|這是報告的初稿。
+slip|v./n.|滑倒；紙條|gen|Be careful not to slip.|小心不要滑倒。
+accompany|v.|陪同|trv|Children must be accompanied by an adult.|兒童必須由成人陪同。
+politician|n.|政治人物|gen|The politician gave a speech.|那位政治人物發表了演說。
+angry|adj.|生氣的|gen|The customer was very angry.|那位顧客非常生氣。
+knock|v.|敲|gen|Please knock before you enter.|進來前請先敲門。
+seed|n.|種子|gen|Plant the seeds in spring.|春天播種。
+salary|n.|薪水|hr|What is the starting salary?|起薪是多少？
+illustrate|v.|說明；畫插圖|gen|Let me illustrate with an example.|讓我用一個例子說明。
+imply|v.|暗示；意味著|gen|What does the man imply?|這個男人暗示了什麼？
+breakfast|n.|早餐|din|Breakfast is included.|含早餐。
+temporary|adj.|暫時的|hr|This is a temporary job.|這是一份臨時工作。
+liberal|adj.|自由的；開明的|gen|She has liberal views.|她的觀點很開明。
+lake|n.|湖|trv|We went fishing at the lake.|我們去湖邊釣魚。
+qualify|v.|有資格|hr|You qualify for a discount.|你符合折扣資格。
+competitive|adj.|有競爭力的|biz|We offer competitive prices.|我們提供具競爭力的價格。
+truly|adv.|真正地；真誠地|gen|I am truly sorry.|我真的很抱歉。
+hi|int.|嗨|gen|Hi, how are you?|嗨，你好嗎？
+yellow|adj.|黃色的|gen|She has a yellow umbrella.|她有一把黃色的雨傘。
+habit|n.|習慣|gen|Reading is a good habit.|閱讀是一個好習慣。
+disk|n.|磁碟；圓盤|off|Save it on a disk.|把它存在磁碟上。
+core|n./adj.|核心|biz|This is our core business.|這是我們的核心業務。
+emotional|adj.|情緒的；感動的|gen|It was an emotional speech.|那是一場感人的演說。
+aircraft|n.|飛機（總稱）|trv|The aircraft landed safely.|飛機安全降落了。
+self|n.|自我|gen|She is back to her old self.|她又恢復成以前的樣子了。
+metal|n.|金屬|log|The box is made of metal.|這個盒子是金屬做的。
+existence|n.|存在|gen|The company has been in existence for 30 years.|這家公司已經成立三十年了。
+bone|n.|骨頭|hlt|He broke a bone in his arm.|他手臂骨折了。
+panel|n.|小組；面板|mtg|A panel of experts answered questions.|專家小組回答了問題。
+prime|adj.|主要的；最好的|gen|The hotel is in a prime location.|飯店位在黃金地段。
+appointment|n.|預約；約定|hlt|I have a doctor's appointment at three.|我三點約了看醫生。
+emphasize|v.|強調|mtg|He emphasized the need for safety.|他強調安全的必要。
+maximum|adj./n.|最大的；最大值|gen|The maximum speed is 60.|最高速限是六十。
+effectively|adv.|有效地|gen|We need to use our time effectively.|我們需要有效地運用時間。
+elsewhere|adv.|在別處|gen|Let's eat elsewhere.|我們去別的地方吃吧。
+bother|v.|打擾；麻煩|gen|Sorry to bother you.|抱歉打擾你。
+initiative|n.|主動性；新方案|hr|She shows great initiative.|她很積極主動。
+sharp|adj./adv.|鋒利的；（時間）整|gen|The meeting starts at nine sharp.|會議九點整開始。
+diet|n.|飲食；節食|hlt|Eat a healthy diet.|吃得健康。
+motion|n.|動作；移動|gen|Don't move while the bus is in motion.|公車行進時不要走動。
+gray|adj.|灰色的|shp|He wore a gray suit.|他穿了一套灰色西裝。
+plastic|n./adj.|塑膠|log|Plastic bags are not free here.|這裡的塑膠袋要收費。
+complicated|adj.|複雜的|gen|The form is complicated.|這份表格很複雜。
+discipline|n.|紀律|hr|Learning English takes discipline.|學英文需要自律。
+disappoint|v.|使失望|gen|I don't want to disappoint you.|我不想讓你失望。
+boss|n.|老闆；上司|hr|My boss is very kind.|我的主管人很好。
+assumption|n.|假設|gen|That is a wrong assumption.|那是一個錯誤的假設。
+freeze|v.|結冰；冷凍|din|You can freeze the bread.|你可以把麵包冷凍起來。
+extreme|adj.|極端的|gen|The heat was extreme.|天氣極度炎熱。
+passage|n.|段落；通道|gen|Read the passage and answer the questions.|閱讀這篇文章並回答問題。
+reputation|n.|名聲；信譽|biz|The company has a good reputation.|這家公司信譽良好。
+forth|adv.|向前（back and forth 來回）|gen|He walked back and forth.|他來回踱步。
+negotiation|n.|談判；協商|biz|The negotiations went well.|談判進行得很順利。
+mechanism|n.|機制；機械裝置|log|The door has a safety mechanism.|這扇門有安全裝置。
+coat|n.|外套|shp|Take your coat. It's cold.|帶上外套，外面很冷。
+democracy|n.|民主|gen|Taiwan is a democracy.|台灣是一個民主國家。
+pocket|n.|口袋|gen|The keys are in my pocket.|鑰匙在我的口袋裡。
+lucky|adj.|幸運的|gen|You are lucky!|你真幸運！
+crash|n./v.|撞車；當機|off|My computer crashed again.|我的電腦又當機了。
+observation|n.|觀察|gen|He made an interesting observation.|他提出了一個有趣的觀察。
+meat|n.|肉|din|I don't eat meat.|我不吃肉。
+concentration|n.|專注|gen|This job needs a lot of concentration.|這份工作需要高度專注。
+implication|n.|含意；影響|biz|What are the implications of this change?|這個改變會帶來什麼影響？
+deserve|v.|應得|hr|You deserve a break.|你應該好好休息一下。
+unusual|adj.|不尋常的|gen|It's unusual for him to be late.|他遲到很不尋常。
+defend|v.|防衛；辯護|gen|She defended her idea.|她為自己的想法辯護。
+classic|adj./n.|經典的|gen|This is a classic movie.|這是一部經典電影。
+king|n.|國王|gen|The king lived in this castle.|國王曾住在這座城堡裡。
+interaction|n.|互動|biz|Customer interaction is important.|與顧客互動很重要。
+repair|v./n.|修理|fac|The elevator is under repair.|電梯正在維修。
+collapse|v./n.|倒塌；崩潰|gen|The old bridge collapsed.|那座舊橋倒塌了。
+borrow|v.|借（入）|gen|Can I borrow your pen?|可以借我你的筆嗎？
+fundamental|adj.|基本的；根本的|gen|This is a fundamental rule.|這是一條基本規則。
+dish|n.|盤子；菜餚|din|This dish is very spicy.|這道菜很辣。
+abroad|adv.|在國外|trv|I want to study abroad.|我想出國念書。
+soul|n.|靈魂|gen|Music is good for the soul.|音樂滋養心靈。
+capable|adj.|有能力的|hr|She is a capable manager.|她是一位能幹的經理。
+defeat|v./n.|打敗|gen|They defeated the other team.|他們打敗了另一隊。
+presidential|adj.|總統的|gen|The presidential election is next year.|總統大選在明年。
+perfectly|adv.|完美地；完全地|gen|It fits perfectly.|這非常合身。
+enhance|v.|提升|biz|We want to enhance our service.|我們想提升服務品質。
+proud|adj.|驕傲的；自豪的|gen|I'm proud of you.|我以你為榮。
+emergency|n.|緊急情況|gen|In an emergency, call 119.|緊急情況請撥 119。
+educational|adj.|教育的|gen|This is an educational game.|這是一款教育遊戲。
+distinguish|v.|區別|gen|Can you distinguish the two sounds?|你能分辨這兩個音嗎？
+substantial|adj.|大量的；可觀的|fin|We made a substantial profit.|我們賺了可觀的利潤。
+nearby|adj./adv.|附近的|gen|Is there a bank nearby?|附近有銀行嗎？
+manufacturer|n.|製造商|log|The manufacturer will fix it for free.|製造商會免費修理。
+slide|n./v.|投影片；滑動|mtg|Look at the next slide.|看下一張投影片。
+valuable|adj.|有價值的|gen|Thank you for your valuable advice.|謝謝你寶貴的建議。
+personally|adv.|親自；就個人而言|gen|Personally, I like the blue one.|就我個人而言，我喜歡藍色那個。
+breast|n.|胸肉；胸部|din|Chicken breast is low in fat.|雞胸肉脂肪含量低。
+cope|v.|應付；處理|hr|How do you cope with stress?|你怎麼應付壓力？
+approximately|adv.|大約|gen|The trip takes approximately two hours.|這趟路程大約兩小時。

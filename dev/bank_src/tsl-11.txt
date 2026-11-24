@@ -1,0 +1,101 @@
+# TSL 1001-1100
+lighter|n.|打火機|gen|Lighters are not allowed on the plane.|打火機不能帶上飛機。
+loudly|adv.|大聲地|gen|Please don't talk loudly in the library.|在圖書館請不要大聲說話。
+loyalty|n.|忠誠|biz|Join our customer loyalty program.|加入我們的顧客忠誠計畫。
+microwave|n.|微波爐|din|Heat the soup in the microwave.|用微波爐加熱湯。
+misidentify|v.|認錯；誤認|gen|The report misidentified the speaker.|報告把講者認錯了。|/ˌmɪsaɪˈdɛntəfaɪ/
+neat|adj.|整潔的|off|His desk is always neat.|他的桌子總是很整潔。
+nomination|n.|提名|hr|Send your nominations by Friday.|星期五前送出你的提名。
+officially|adv.|正式地|biz|The store officially opens tomorrow.|這家店明天正式開幕。
+outfit|n.|一套衣服|shp|She bought a new outfit for the party.|她為了派對買了一套新衣服。
+pastry|n.|糕點|din|The bakery sells fresh pastries.|麵包店賣新鮮的糕點。
+personalize|v.|個人化；印上名字|shp|You can personalize the cup with your name.|你可以在杯子印上自己的名字。
+poorly|adv.|差勁地；不好地|gen|The room was poorly lit.|房間的照明很差。
+prestigious|adj.|有聲望的|hr|She went to a prestigious school.|她念的是一所名校。
+purser|n.|事務長（船、飛機上）|trv|The purser checked our tickets.|事務長檢查了我們的票。
+reassure|v.|使安心|gen|The doctor reassured me.|醫生讓我安心。
+resume|v.|重新開始；繼續|mtg|The meeting will resume after lunch.|會議在午餐後繼續。
+reunion|n.|團聚；同學會|gen|We have a class reunion next month.|我們下個月有同學會。
+revolutionize|v.|徹底改變|biz|The phone revolutionized communication.|手機徹底改變了溝通方式。
+seafood|n.|海鮮|din|This restaurant is famous for seafood.|這家餐廳以海鮮聞名。
+signify|v.|表示；意味著|gen|What does this sign signify?|這個標誌代表什麼？
+slot|n.|投入口；時段|mtg|We have a free slot at 3 p.m.|我們下午三點有空檔。
+steer|v.|駕駛；引導|trn|He steered the boat to the dock.|他把船開到碼頭。
+sue|v.|控告|gen|They plan to sue the company.|他們打算控告那家公司。
+superb|adj.|極好的|din|The food was superb.|食物棒極了。
+traditionally|adv.|傳統上|gen|Traditionally, we eat dumplings at New Year.|傳統上，我們過年吃餃子。
+tremendous|adj.|巨大的；極好的|biz|The event was a tremendous success.|這次活動非常成功。
+underway|adj.|進行中的|off|Work on the new office is underway.|新辦公室的工程正在進行中。
+unpleasant|adj.|令人不愉快的|gen|There is an unpleasant smell.|有一股難聞的味道。
+violin|n.|小提琴|gen|She plays the violin.|她會拉小提琴。
+ward|n.|病房|hlt|He is in the children's ward.|他住在兒童病房。
+worthwhile|adj.|值得的|gen|The trip was worthwhile.|這趟旅程很值得。
+adapter|n.|轉接頭；變壓器|trv|I need a power adapter for my laptop.|我需要筆電的電源轉接頭。
+advisable|adj.|明智的；可取的|gen|It is advisable to book early.|最好提早預訂。
+archive|n.|檔案庫；檔案室|off|Old files are kept in the archive.|舊檔案存放在檔案室。
+artistic|adj.|藝術的；有藝術天分的|gen|She is very artistic.|她很有藝術天分。
+assurance|n.|保證；把握|biz|We give you our assurance of quality.|我們向你保證品質。
+athletic|adj.|運動的；強健的|shp|He wears athletic shoes.|他穿運動鞋。
+attire|n.|服裝|hr|Business attire is required.|必須穿著商務服裝。
+auditor|n.|稽核員；審計員|fin|The auditor checked our records.|稽核員檢查了我們的紀錄。
+bankruptcy|n.|破產|fin|The company filed for bankruptcy.|這家公司申請破產。
+bulk|n.|大量|shp|It's cheaper to buy in bulk.|大量購買比較便宜。
+butter|n.|奶油|din|Spread some butter on the bread.|在麵包上抹一些奶油。
+centimeter|n.|公分|shp|The box is 30 centimeters wide.|這個盒子寬三十公分。
+circulate|v.|傳閱；流通|off|Please circulate this memo.|請傳閱這份備忘錄。
+comb|n.|梳子|shp|I need a comb.|我需要一把梳子。|/koʊm/
+comfortably|adv.|舒適地|fac|The room seats ten people comfortably.|這間房間可以舒適地坐十個人。
+compliance|n.|遵守；合規|hr|Compliance with the rules is required.|必須遵守規定。
+contraction|n.|縮寫；收縮|gen|"Don't" is a contraction of "do not."|「don't」是「do not」的縮寫。
+cookbook|n.|食譜書|din|She wrote a cookbook.|她寫了一本食譜。
+cushion|n.|靠墊；坐墊|fac|There are cushions on the sofa.|沙發上有靠墊。
+dose|n.|（藥的）一劑|hlt|Take one dose every six hours.|每六小時服用一劑。
+drum|n.|鼓|gen|He plays the drums in a band.|他在樂團裡打鼓。
+embed|v.|嵌入|off|You can embed the video on your website.|你可以把影片嵌入你的網站。
+evacuate|v.|疏散；撤離|fac|Everyone must evacuate the building.|所有人都必須撤離大樓。
+expedite|v.|加快處理|log|Can you expedite my order?|可以加快處理我的訂單嗎？
+extinguisher|n.|滅火器|fac|Where is the fire extinguisher?|滅火器在哪裡？
+familiarity|n.|熟悉|hr|Familiarity with Excel is required.|必須熟悉 Excel。
+flaw|n.|缺陷；瑕疵|log|There is a flaw in the design.|設計上有一個缺陷。
+fluctuate|v.|波動|fin|Prices fluctuate every day.|價格每天都在波動。
+fluent|adj.|流利的|hr|She is fluent in English.|她英文很流利。
+honestly|adv.|誠實地；說實話|gen|Honestly, I don't know.|說實話，我不知道。
+housekeeping|n.|客房清潔；家務|trv|Call housekeeping for more towels.|打電話給房務部要更多毛巾。
+hurricane|n.|颶風|gen|The hurricane hit the coast.|颶風襲擊了沿海地區。
+hygiene|n.|衛生|hlt|Good hygiene is important in the kitchen.|廚房衛生很重要。
+integral|adj.|不可或缺的|biz|You are an integral part of our team.|你是我們團隊不可或缺的一員。
+interactive|adj.|互動的|gen|The museum has interactive displays.|博物館有互動式展覽。
+interfere|v.|干擾；妨礙|gen|Don't let your phone interfere with your work.|別讓手機妨礙你的工作。
+kilogram|n.|公斤|shp|This bag weighs two kilograms.|這袋重兩公斤。
+layoff|n.|裁員|hr|There were layoffs at the factory.|工廠裁員了。
+lightweight|adj.|輕量的|shp|This laptop is very lightweight.|這台筆電非常輕。
+merit|n.|優點；價值|hr|Each plan has its merits.|每個計畫都有它的優點。
+necklace|n.|項鍊|shp|She is wearing a gold necklace.|她戴著一條金項鍊。
+needy|adj.|貧困的|gen|We collect food for needy families.|我們為貧困家庭募集食物。
+overpay|v.|多付錢|fin|I think I overpaid for this.|我覺得我買貴了。
+pamphlet|n.|小冊子|biz|Take a pamphlet at the door.|在門口拿一本小冊子。
+partial|adj.|部分的|fin|You can make a partial payment.|你可以先付一部分。
+penalize|v.|處罰|fin|You will be penalized for late payment.|延遲付款會被處罰。
+pollute|v.|污染|gen|Factories pollute the river.|工廠污染了河流。
+prescribe|v.|開（藥方）|hlt|The doctor prescribed some medicine.|醫生開了一些藥。
+probable|adj.|很可能的|gen|Rain is probable this afternoon.|今天下午很可能下雨。
+prominent|adj.|著名的；顯眼的|biz|She is a prominent lawyer.|她是一位著名的律師。
+rainfall|n.|降雨量|gen|We had heavy rainfall last night.|昨晚降雨量很大。
+relocation|n.|搬遷；調職|hr|The company pays relocation costs.|公司支付搬遷費用。
+residence|n.|住所；住宅|fac|This is a private residence.|這是私人住宅。
+retrieve|v.|取回|off|I retrieved the file from the archive.|我從檔案室取回了檔案。
+rider|n.|騎乘者；乘客|trn|Bus riders need a ticket.|搭公車的乘客需要車票。
+rubber|n.|橡膠|log|The gloves are made of rubber.|這雙手套是橡膠做的。
+rug|n.|小地毯|fac|There is a rug on the floor.|地板上有一塊小地毯。
+salespeople|n.|銷售人員（複數）|biz|Our salespeople are very friendly.|我們的銷售人員很友善。
+sharply|adv.|急劇地；銳利地|fin|Prices rose sharply.|價格急劇上漲。
+similarity|n.|相似之處|gen|There is a similarity between the two plans.|這兩個計畫有相似之處。
+someday|adv.|有一天；將來某天|gen|I want to visit Paris someday.|我希望有一天能去巴黎。
+spectator|n.|觀眾|gen|Thousands of spectators watched the game.|數千名觀眾觀看了比賽。
+stereo|n.|音響|shp|He bought a new stereo.|他買了一台新音響。
+storeroom|n.|儲藏室|fac|The boxes are in the storeroom.|箱子在儲藏室裡。
+subsidize|v.|補助；資助|fin|The company subsidizes lunch.|公司補助午餐。
+suspicious|adj.|可疑的|gen|Report any suspicious bags.|發現可疑的包包請通報。
+tasty|adj.|美味的|din|The cookies are very tasty.|這些餅乾很好吃。
+terrific|adj.|極好的|gen|You did a terrific job!|你做得太好了！
+underground|adj.|地下的|trn|There is an underground parking lot.|有一個地下停車場。

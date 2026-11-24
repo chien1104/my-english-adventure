@@ -1,0 +1,60 @@
+# TSL 1201-1259
+vanilla|n.|香草|din|I'd like vanilla ice cream.|我要香草冰淇淋。
+willingness|n.|意願|hr|We value your willingness to help.|我們很重視你願意幫忙的心。
+wristwatch|n.|手錶|shp|He wears a gold wristwatch.|他戴著一支金錶。
+abide|v.|（abide by）遵守|hr|You must abide by the rules.|你必須遵守規定。
+actively|adv.|積極地|hr|We are actively looking for new staff.|我們正積極招募新員工。
+allergy|n.|過敏|hlt|I have a food allergy.|我有食物過敏。
+apprehensive|adj.|擔心的；不安的|gen|She was apprehensive about the interview.|她對面試感到不安。
+automotive|adj.|汽車的|trn|He works in the automotive industry.|他在汽車產業工作。
+bacteria|n.|細菌（複數）|hlt|Wash your hands to kill bacteria.|洗手以殺死細菌。
+broaden|v.|擴大；拓寬|biz|We want to broaden our market.|我們想擴大市場。
+bulb|n.|燈泡|fac|The light bulb needs to be changed.|燈泡需要換了。
+bylaw|n.|（組織的）章程；細則|gen|Read the club's bylaws.|閱讀社團的章程。|/ˈbaɪlɔ/
+cheer|v.|歡呼；喝采|gen|The fans cheered for the team.|球迷為球隊歡呼。
+complication|n.|複雜的問題；併發症|gen|There was a complication with the order.|訂單出了一點問題。
+considerate|adj.|體貼的|gen|It was considerate of you to call.|你打電話來真是貼心。
+daytime|n.|白天|gen|The museum is open in the daytime.|博物館白天開放。
+decoration|n.|裝飾|gen|We put up decorations for the party.|我們為派對掛上裝飾。
+discard|v.|丟棄|fac|Discard the old files.|丟掉舊檔案。
+drastically|adv.|大幅地；劇烈地|fin|Sales dropped drastically.|銷售大幅下滑。
+erase|v.|擦掉；刪除|off|Erase the board after the meeting.|開完會把白板擦乾淨。
+explorer|n.|探險家|gen|He is a famous explorer.|他是一位著名的探險家。
+factual|adj.|事實的|gen|The report is factual.|這份報告根據事實。
+fixture|n.|固定裝置|fac|The lights are new fixtures.|這些燈是新的照明設備。
+footwear|n.|鞋類|shp|The store sells footwear.|這家店賣鞋類。
+genre|n.|類型；體裁|gen|What genre of music do you like?|你喜歡哪一種類型的音樂？|/ˈʒɑnrə/
+gymnasium|n.|體育館|gen|The event is held in the gymnasium.|活動在體育館舉行。
+hereby|adv.|特此|gen|I hereby confirm the order.|我特此確認這份訂單。
+hesitation|n.|猶豫|gen|She agreed without hesitation.|她毫不猶豫地答應了。
+homemade|adj.|自製的；家常的|din|Try our homemade bread.|嚐嚐我們自製的麵包。
+hospitality|n.|款待；餐旅業|trv|Thank you for your hospitality.|謝謝你的熱情款待。
+incoming|adj.|進來的；新到任的|off|Answer all incoming calls.|接聽所有打進來的電話。
+induction|n.|（新進人員）入職訓練|hr|New staff attend an induction day.|新員工要參加一天的入職訓練。
+inspiration|n.|靈感；鼓舞|gen|Nature is her inspiration.|大自然是她的靈感來源。
+intently|adv.|專注地|gen|The students listened intently.|學生們專心聆聽。
+mower|n.|割草機|fac|The lawn mower is broken.|割草機壞了。
+nutrition|n.|營養|hlt|Good nutrition keeps you healthy.|良好的營養讓你保持健康。
+restatement|n.|重述|gen|The answer is a restatement of the question.|這個答案只是把問題重說一次。
+sedan|n.|轎車|trn|He drives a black sedan.|他開一輛黑色轎車。
+sunscreen|n.|防曬乳|shp|Don't forget your sunscreen.|別忘了你的防曬乳。
+wellness|n.|身心健康|hlt|The company has a wellness program.|公司有員工健康計畫。
+workbook|n.|練習簿|gen|Do page 10 in your workbook.|做練習簿的第十頁。|/ˈwɜrkbʊk/
+bookcase|n.|書櫃|fac|The bookcase is full.|書櫃滿了。
+cleanliness|n.|清潔；乾淨|fac|We check the cleanliness of the rooms.|我們檢查房間的清潔。
+contestant|n.|參賽者|gen|Each contestant has three minutes.|每位參賽者有三分鐘。
+ethics|n.|倫理；道德準則|hr|All staff must follow our code of ethics.|所有員工都必須遵守我們的道德守則。
+healthful|adj.|有益健康的|hlt|We serve healthful meals.|我們提供健康的餐點。
+inefficient|adj.|無效率的|off|The old system is inefficient.|舊系統效率很差。
+liter|n.|公升|shp|Buy a liter of milk.|買一公升牛奶。
+recession|n.|經濟衰退|fin|Many people lost jobs in the recession.|很多人在經濟衰退時失業。
+timeline|n.|時間表|off|Here is the project timeline.|這是專案的時間表。
+unreliable|adj.|不可靠的|gen|The old car is unreliable.|這輛舊車不可靠。
+acclaim|n.|讚揚；好評|biz|The book won wide acclaim.|這本書廣受好評。
+chronic|adj.|慢性的；長期的|hlt|He has chronic back pain.|他有慢性背痛。
+deteriorate|v.|惡化|gen|The weather deteriorated quickly.|天氣迅速轉壞。
+resemble|v.|像；類似|gen|She resembles her mother.|她長得像她媽媽。
+unauthorized|adj.|未經授權的|off|Unauthorized entry is prohibited.|禁止未經授權進入。
+violate|v.|違反|gen|Don't violate the safety rules.|不要違反安全規定。
+unplug|v.|拔掉插頭|off|Unplug the printer before you clean it.|清潔印表機前先拔掉插頭。
+videoconference|n.|視訊會議|mtg|We have a videoconference with Tokyo.|我們和東京開視訊會議。|/ˈvɪdioʊˌkɑnfərəns/

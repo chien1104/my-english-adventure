@@ -1,0 +1,101 @@
+# NGSL 201-300
+money|n.|錢|fin|I need to save more money.|我需要存更多錢。
+fact|n.|事實|gen|In fact, I have never been there.|事實上，我從來沒去過那裡。
+however|adv.|然而|gen|It's expensive. However, it's very good.|它很貴。然而，它非常好。
+area|n.|地區；區域|gen|This is a quiet area.|這是一個安靜的地區。
+provide|v.|提供|biz|We provide free delivery.|我們提供免費送貨。
+name|n.|名字|gen|What is your name?|你叫什麼名字？
+read|v.|閱讀|gen|I read the news every morning.|我每天早上看新聞。
+friend|n.|朋友|gen|She is my best friend.|她是我最好的朋友。
+month|n.|月|gen|I get paid once a month.|我每個月領一次薪水。
+large|adj.|大的|gen|We need a large room.|我們需要一間大房間。
+business|n.|生意；商業|biz|How is business?|生意如何？
+without|prep.|沒有|gen|I can't work without coffee.|沒有咖啡我無法工作。
+information|n.|資訊|gen|For more information, call us.|想知道更多資訊，請打電話給我們。
+open|v./adj.|打開；開著的|gen|The store is open until nine.|這家店營業到九點。
+order|v./n.|點餐；訂購；順序|shp|I ordered a new desk online.|我在網路上訂了一張新桌子。
+government|n.|政府|gen|The government built a new road.|政府蓋了一條新路。
+word|n.|字；單字|gen|What does this word mean?|這個字是什麼意思？
+issue|n.|問題；議題；（雜誌）期|gen|We need to talk about this issue.|我們需要談談這個問題。
+market|n.|市場|biz|We sell our products in the Asian market.|我們在亞洲市場銷售產品。
+pay|v.|付錢|fin|Can I pay by card?|我可以刷卡付款嗎？
+build|v.|建造|fac|They are building a new hospital.|他們正在蓋一間新醫院。
+hold|v.|握著；舉行；（電話）稍等|off|Please hold the line.|請稍等，不要掛斷。
+service|n.|服務|shp|The service here is excellent.|這裡的服務很好。
+against|prep.|反對；靠著|gen|The bike is against the wall.|腳踏車靠在牆上。
+believe|v.|相信|gen|I believe you.|我相信你。
+second|adj./n.|第二的；秒|gen|My office is on the second floor.|我的辦公室在二樓。
+though|conj./adv.|雖然；不過|gen|It's small, though it's nice.|它很小，不過很棒。
+yes|adv.|是；對|gen|Yes, I can come.|是的，我可以來。
+love|v.|愛；很喜歡|gen|I love this city.|我很愛這個城市。
+increase|v./n.|增加|biz|Sales increased this year.|今年銷售增加了。
+job|n.|工作|hr|I have a new job.|我有新工作了。
+plan|n./v.|計畫|gen|What are your plans for the weekend?|你週末有什麼計畫？
+result|n.|結果|gen|The test results are ready.|檢查結果出來了。
+away|adv.|離開；遠離|gen|The station is ten minutes away.|車站在十分鐘路程外。
+example|n.|例子|gen|Can you give me an example?|你可以給我一個例子嗎？
+happen|v.|發生|gen|What happened?|發生了什麼事？
+offer|v./n.|提供；報價|biz|We offer a 10 percent discount.|我們提供九折優惠。
+young|adj.|年輕的|gen|She is young and smart.|她年輕又聰明。
+close|v./adj.|關閉；接近的|gen|Please close the door.|請關門。
+program|n.|計畫；節目；程式|gen|We have a training program for new staff.|我們有一個新人訓練計畫。
+lead|v.|帶領；通往|hr|She leads a team of five.|她帶領一個五人團隊。
+buy|v.|買|shp|I want to buy a new phone.|我想買一支新手機。
+understand|v.|了解；懂|gen|I don't understand this question.|我不懂這個問題。
+thank|v.|謝謝|gen|Thank you for your help.|謝謝你的幫忙。
+far|adv./adj.|遠的|trn|Is the station far from here?|車站離這裡遠嗎？
+today|adv./n.|今天|gen|I'm very busy today.|我今天很忙。
+hour|n.|小時|gen|The flight takes two hours.|飛行要兩個小時。
+student|n.|學生|gen|He is a college student.|他是大學生。
+face|n./v.|臉；面對|gen|Wash your face.|洗臉。
+hope|v.|希望|gen|I hope you like it.|我希望你喜歡。
+idea|n.|主意；想法|gen|That's a good idea.|那是個好主意。
+cost|n./v.|費用；花費|fin|How much does it cost?|這個要多少錢？
+less|det./adv.|較少的|gen|I want to spend less money.|我想少花一點錢。
+room|n.|房間；空間|fac|The meeting room is on the left.|會議室在左邊。
+until|prep./conj.|直到|gen|The store is open until ten.|這家店營業到十點。
+reason|n.|理由；原因|gen|What is the reason for the delay?|延誤的原因是什麼？
+form|n.|表格；形式|off|Please fill out this form.|請填寫這份表格。
+spend|v.|花（錢、時間）|fin|I spend too much on coffee.|我花太多錢在咖啡上了。
+head|n./v.|頭；前往|gen|We are heading to the airport.|我們正要去機場。
+car|n.|汽車|trn|I drive my car to work.|我開車上班。
+learn|v.|學習|gen|I want to learn English.|我想學英文。
+level|n.|程度；層級|gen|What is your English level?|你的英文程度如何？
+person|n.|人|gen|She is a kind person.|她是個親切的人。
+experience|n.|經驗|hr|Do you have sales experience?|你有銷售經驗嗎？
+once|adv.|一次；曾經|gen|I go to the gym once a week.|我一週去一次健身房。
+member|n.|成員；會員|gen|Are you a member?|你是會員嗎？
+enough|det./adv.|足夠的|gen|Do we have enough chairs?|我們的椅子夠嗎？
+bad|adj.|不好的；壞的|gen|The weather is bad today.|今天天氣不好。
+city|n.|城市|gen|Taipei is a big city.|台北是一座大城市。
+night|n.|晚上|gen|I work at night.|我晚上工作。
+able|adj.|能夠的|gen|Will you be able to come?|你能來嗎？
+support|v./n.|支持；支援|biz|Thank you for your support.|謝謝你的支持。
+whether|conj.|是否|gen|I don't know whether he will come.|我不知道他會不會來。
+line|n.|線；隊伍|gen|Please wait in line.|請排隊等候。
+present|v./n.|報告；禮物；目前|mtg|She will present the plan tomorrow.|她明天要報告這個計畫。
+side|n.|邊；側|gen|The bank is on the other side of the street.|銀行在街道的另一邊。
+quite|adv.|相當|gen|The hotel is quite nice.|這家飯店相當不錯。
+although|conj.|雖然|gen|Although it rained, we went out.|雖然下雨，我們還是出門了。
+sure|adj.|確定的|gen|Are you sure?|你確定嗎？
+term|n.|條件；期間；用語|biz|Please read the terms of the contract.|請閱讀合約的條款。
+least|det./adv.|最少|gen|It takes at least an hour.|至少要一個小時。
+age|n.|年齡|gen|What is your age?|你幾歲？
+low|adj.|低的|shp|We offer low prices.|我們提供低價。
+speak|v.|說（語言）；講話|gen|Do you speak English?|你會說英文嗎？
+within|prep.|在……之內|log|We will reply within two days.|我們會在兩天內回覆。
+process|n.|過程；流程|off|The process takes a week.|這個流程需要一個星期。
+public|adj.|公共的；公開的|gen|Is there a public library near here?|這附近有公立圖書館嗎？
+often|adv.|常常|gen|I often eat lunch at my desk.|我常常在座位上吃午餐。
+train|n./v.|火車；訓練|trn|I take the train to work.|我搭火車上班。
+possible|adj.|可能的|gen|Please reply as soon as possible.|請盡快回覆。
+actually|adv.|實際上；其實|gen|Actually, I'm not hungry.|其實我不餓。
+rather|adv.|寧願；相當|gen|I'd rather stay home.|我寧願待在家。
+view|n.|景色；看法|trv|The room has a nice view.|這個房間的景色很好。
+together|adv.|一起|gen|Let's have lunch together.|我們一起吃午餐吧。
+consider|v.|考慮|gen|Please consider my idea.|請考慮一下我的想法。
+price|n.|價格|shp|The price is reasonable.|價格很合理。
+parent|n.|父母親之一（常用複數）|gen|My parents live in Tainan.|我爸媽住在台南。
+hard|adj./adv.|困難的；努力地|gen|She works very hard.|她工作很努力。
+party|n.|派對；（交易的）一方|gen|We had a party for her birthday.|我們為她的生日辦了派對。
+local|adj.|當地的|gen|We buy food from local farms.|我們向當地農場購買食物。

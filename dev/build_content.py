@@ -878,3 +878,5 @@ print(len(LESSONS), 'new lessons;', len(AUD), 'audio clips')
 # 題目裡的英文加上發音（會更新上面寫出的課程 JSON 與音檔清單）
 import subprocess
 subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'add_prompt_audio.py'), ROOT], check=True)
+subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'assign_worlds.py'), ROOT], check=True)
+subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'build_bank.py'), ROOT], check=True)

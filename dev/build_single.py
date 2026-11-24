@@ -17,9 +17,23 @@ for dp, dn, fn in os.walk(os.path.join(ROOT, 'assets')):
     for f in fn:
         if os.path.splitext(f)[1] in MIME:
             rel = os.path.relpath(os.path.join(dp, f), ROOT).replace('\\', '/')
-            assets[rel] = data_uri(rel)
+            assets[rel] = None  # 先登記，下面只內嵌真的用得到的檔案
+
+# 單字庫有 8000 多個音檔，全部內嵌檔案會將近 100 MB：單檔版的單字庫只放文字，不放音檔
+BANK_AUDIO = {}
+for f in os.listdir(os.path.join(ROOT, 'data/vocab')):
+    if f.startswith('bank-'):
+        for w in json.load(open(os.path.join(ROOT, 'data/vocab', f))):
+            BANK_AUDIO[w['audio']] = BANK_AUDIO[w['exampleAudio']] = True
+for rel in list(assets):
+    if rel in BANK_AUDIO: del assets[rel]
+    else: assets[rel] = data_uri(rel)
 
 # 2. 教材 JSON：把素材路徑換成 data URI
+def strip_bank_audio(obj):
+    if isinstance(obj, list):
+        return [{k: v for k, v in w.items() if k not in ('audio', 'exampleAudio')} if isinstance(w, dict) and w.get('list') else w for w in obj]
+    return obj
 def inline(obj):
     if isinstance(obj, dict): return {k: inline(v) for k, v in obj.items()}
     if isinstance(obj, list): return [inline(v) for v in obj]
@@ -30,7 +44,7 @@ for dp, dn, fn in os.walk(os.path.join(ROOT, 'data')):
     for f in fn:
         if f.endswith('.json'):
             rel = os.path.relpath(os.path.join(dp, f), ROOT).replace('\\', '/')
-            files[rel] = inline(json.load(open(os.path.join(ROOT, rel))))
+            files[rel] = inline(strip_bank_audio(json.load(open(os.path.join(ROOT, rel)))))
 cat = files['data/catalog.json']
 cat['contentVersion'] = cat['contentVersion'] + '-single'
 

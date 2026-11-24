@@ -1,0 +1,101 @@
+# NGSL 701-800
+guy|n.|傢伙；男人|gen|He is a nice guy.|他是個好人。
+function|n./v.|功能；運作|shp|What is the function of this button?|這個按鈕有什麼功能？
+yesterday|adv./n.|昨天|gen|I called you yesterday.|我昨天打給你。
+image|n.|圖像；形象|biz|We want to improve our company image.|我們想提升公司形象。
+size|n.|尺寸|shp|What size do you wear?|你穿什麼尺寸？
+behavior|n.|行為|gen|His behavior was strange.|他的行為很奇怪。
+addition|n.|增加；（in addition）此外|gen|In addition, we offer free parking.|此外，我們提供免費停車。
+determine|v.|決定；查明|gen|We need to determine the cause.|我們需要查明原因。
+station|n.|車站|trn|Where is the train station?|火車站在哪裡？
+population|n.|人口|gen|The city has a population of two million.|這座城市有兩百萬人口。
+fail|v.|失敗；不及格|gen|Don't fail to call me.|一定要打給我。
+environment|n.|環境|gen|We must protect the environment.|我們必須保護環境。
+production|n.|生產|log|Production will start next month.|下個月開始生產。
+contract|n.|合約|biz|Please sign the contract.|請簽這份合約。
+player|n.|球員；玩家|gen|He is a soccer player.|他是足球員。
+comment|n./v.|評論；意見|off|Do you have any comments?|你有任何意見嗎？
+enter|v.|進入；輸入|off|Enter your password.|輸入你的密碼。
+occur|v.|發生|gen|The accident occurred last night.|事故發生在昨晚。
+alone|adv./adj.|獨自|gen|She lives alone.|她一個人住。
+significant|adj.|重大的；顯著的|biz|There was a significant increase in sales.|銷售顯著增加。
+drug|n.|藥物；毒品|hlt|This drug is sold only with a prescription.|這種藥物要有處方才能購買。
+wall|n.|牆|fac|There is a clock on the wall.|牆上有一個時鐘。
+series|n.|系列；連續|gen|We will hold a series of talks.|我們將舉辦一系列的演講。
+direct|adj./v.|直接的；指引|trv|Is there a direct flight to Tokyo?|有直飛東京的班機嗎？
+success|n.|成功|biz|The event was a big success.|這次活動非常成功。
+tomorrow|adv./n.|明天|gen|See you tomorrow.|明天見。
+director|n.|主任；董事；導演|hr|She is the sales director.|她是業務主任。
+clearly|adv.|清楚地|gen|Please speak clearly.|請說清楚一點。
+lack|n./v.|缺乏|gen|We lack time.|我們缺乏時間。
+review|n./v.|評論；複習；檢討|biz|The hotel has good reviews.|這家飯店評價很好。
+depend|v.|視……而定；依賴|gen|It depends on the weather.|要看天氣而定。
+race|n.|賽跑；種族|gen|She won the race.|她贏了賽跑。
+recognize|v.|認出|gen|I didn't recognize you.|我沒認出你。
+window|n.|窗戶|fac|Can I open the window?|我可以開窗嗎？
+purpose|n.|目的|gen|What is the purpose of your visit?|你來訪的目的是什麼？
+department|n.|部門|off|Which department do you work in?|你在哪個部門工作？
+gain|v./n.|獲得；增加|hr|I gained a lot of experience.|我獲得了很多經驗。
+tree|n.|樹|gen|There is a big tree in the park.|公園裡有一棵大樹。
+college|n.|大學；學院|gen|I studied business in college.|我大學念商科。
+argue|v.|爭論|gen|They argued about money.|他們為了錢爭吵。
+board|n./v.|木板；董事會；登機|trv|Please board the plane now.|請現在登機。
+holiday|n.|假日|gen|Monday is a holiday.|星期一是假日。
+mark|n./v.|記號；標記|off|Mark the date on your calendar.|在行事曆上標記這個日期。
+church|n.|教堂|gen|The church is next to the park.|教堂在公園旁邊。
+machine|n.|機器|log|The machine is broken.|機器壞了。
+achieve|v.|達成|biz|We achieved our goal.|我們達成了目標。
+item|n.|物品；項目|shp|This item is on sale.|這項商品在特價。
+prove|v.|證明|gen|Can you prove it?|你可以證明嗎？
+cent|n.|分（貨幣單位）|fin|It costs 99 cents.|它要九十九分錢。
+season|n.|季節|gen|Summer is my favorite season.|夏天是我最喜歡的季節。
+floor|n.|地板；樓層|fac|The office is on the third floor.|辦公室在三樓。
+stuff|n.|東西|gen|Put your stuff here.|把你的東西放在這裡。
+wide|adj.|寬的|gen|The road is very wide.|這條路很寬。
+anyone|pron.|任何人|gen|Is anyone here?|有人在嗎？
+method|n.|方法|gen|This is a good method for learning words.|這是一個背單字的好方法。
+analysis|n.|分析|biz|We need a market analysis.|我們需要一份市場分析。
+election|n.|選舉|gen|The election is next month.|選舉在下個月。
+military|adj./n.|軍事的；軍隊|gen|He served in the military.|他服過兵役。
+hotel|n.|飯店；旅館|trv|We stayed at a hotel near the sea.|我們住在一家靠海的飯店。
+club|n.|俱樂部；社團|gen|I joined a book club.|我加入了一個讀書會。
+below|prep./adv.|在……下面|gen|See the chart below.|請看下面的圖表。
+movie|n.|電影|gen|Let's watch a movie.|我們來看電影吧。
+doctor|n.|醫生|hlt|You should see a doctor.|你應該去看醫生。
+discussion|n.|討論|mtg|We had a long discussion.|我們討論了很久。
+sorry|adj.|抱歉的|gen|Sorry, I'm late.|抱歉，我遲到了。
+challenge|n.|挑戰|hr|This job is a big challenge.|這份工作是很大的挑戰。
+nation|n.|國家|gen|The whole nation watched the game.|全國都在看比賽。
+nearly|adv.|幾乎|gen|It's nearly five o'clock.|快五點了。
+statement|n.|聲明；對帳單|fin|Check your bank statement.|檢查你的銀行對帳單。
+link|n./v.|連結|off|Click the link below.|點擊下面的連結。
+despite|prep.|儘管|gen|Despite the rain, we went out.|儘管下雨，我們還是出門了。
+introduce|v.|介紹；推出|mtg|Let me introduce myself.|讓我自我介紹一下。
+advantage|n.|優點；優勢|biz|What is the advantage of this plan?|這個計畫的優點是什麼？
+ready|adj.|準備好的|gen|Are you ready?|你準備好了嗎？
+marry|v.|和……結婚|gen|They will marry next year.|他們明年要結婚。
+strike|n./v.|罷工；打擊|trn|There is a train strike today.|今天火車罷工。
+mile|n.|英里|trn|The airport is ten miles away.|機場在十英里外。
+seek|v.|尋找；尋求|hr|We are seeking a new manager.|我們正在找一位新經理。
+ability|n.|能力|hr|She has the ability to lead.|她有領導能力。
+unit|n.|單位；一組；單元|gen|This book has ten units.|這本書有十個單元。
+card|n.|卡片|fin|Can I pay by card?|我可以刷卡嗎？
+hospital|n.|醫院|hlt|He is in the hospital.|他住院了。
+quickly|adv.|快速地|gen|Please reply quickly.|請快點回覆。
+interview|n./v.|面試；訪問|hr|I have a job interview tomorrow.|我明天有工作面試。
+agreement|n.|協議；同意|biz|We signed an agreement.|我們簽了一份協議。
+release|v./n.|發布；釋放|biz|The new phone will be released in May.|新手機將在五月發售。
+tax|n.|稅|fin|Is tax included in the price?|價格含稅嗎？
+solution|n.|解決辦法|gen|We need a quick solution.|我們需要一個快速的解決辦法。
+capital|n.|首都；資本|gen|Tokyo is the capital of Japan.|東京是日本的首都。
+popular|adj.|受歡迎的|gen|This restaurant is very popular.|這家餐廳很受歡迎。
+specific|adj.|具體的；特定的|gen|Can you be more specific?|你可以說得更具體一點嗎？
+beautiful|adj.|美麗的|gen|What a beautiful day!|多美好的一天啊！
+fear|n./v.|害怕|gen|I have a fear of flying.|我害怕搭飛機。
+aim|n./v.|目標；瞄準|gen|Our aim is to help customers.|我們的目標是幫助顧客。
+television|n.|電視|gen|I watched television last night.|我昨晚看了電視。
+serious|adj.|嚴重的；認真的|gen|Is it serious?|嚴重嗎？
+target|n.|目標|biz|We met our sales target.|我們達成了銷售目標。
+degree|n.|學位；度|gen|It's 30 degrees today.|今天三十度。
+pull|v.|拉|gen|Pull the door to open it.|拉門把門打開。
+red|adj.|紅色的|gen|The light is red.|紅燈了。

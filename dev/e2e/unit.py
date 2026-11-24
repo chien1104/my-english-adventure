@@ -6,7 +6,7 @@ try:
   with sync_playwright() as p:
     b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-sandbox']); pg=b.new_page()
     errs=[]; pg.on('pageerror',lambda e: errs.append(str(e)))
-    pg.goto(f'http://localhost:{PORT}/tests/index.html'); pg.wait_for_function('window.__testResults',timeout=20000)
+    pg.goto(f'http://localhost:{PORT}/tests/index.html'); pg.wait_for_function('window.__testResults',timeout=240000)
     r=pg.evaluate('window.__testResults')
     for x in r['results']:
       if not x['pass']: print('FAIL',x['name'],x.get('error'))

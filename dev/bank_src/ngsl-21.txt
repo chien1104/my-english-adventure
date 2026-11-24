@@ -1,0 +1,101 @@
+# NGSL 2001-2100
+dominate|v.|支配；主導|biz|Two companies dominate the market.|兩家公司主導這個市場。
+supplier|n.|供應商|log|We changed our paper supplier.|我們換了紙張供應商。
+prize|n.|獎品；獎|gen|She won first prize.|她得了第一名。
+typically|adv.|通常；典型地|gen|The trip typically takes an hour.|這趟路程通常要一個小時。
+peer|n.|同儕；同事|hr|Ask your peers for feedback.|請同事給你意見。
+pension|n.|退休金|fin|He lives on his pension.|他靠退休金過活。
+wing|n.|翅膀；（建築）側翼|fac|The office is in the east wing.|辦公室在東側大樓。
+acquisition|n.|收購；取得|biz|The acquisition was completed last month.|收購案上個月完成了。
+laughter|n.|笑聲|gen|The room was full of laughter.|房間裡充滿了笑聲。
+deeply|adv.|深深地|gen|I'm deeply sorry.|我深感抱歉。
+recognition|n.|認可；表揚|hr|She got recognition for her hard work.|她的努力得到了肯定。
+electricity|n.|電；電力|fac|The electricity bill is high.|電費很高。
+assistance|n.|協助|gen|Do you need any assistance?|你需要任何協助嗎？
+roof|n.|屋頂|fac|The roof needs repair.|屋頂需要修理。
+retirement|n.|退休|hr|We had a retirement party for Mr. Lin.|我們為林先生辦了退休派對。
+respectively|adv.|分別地|gen|Tom and Amy are 20 and 25 respectively.|湯姆和艾咪分別是二十歲和二十五歲。
+variation|n.|變化|gen|There is little variation in price.|價格變化不大。
+ultimately|adv.|最終|gen|Ultimately, it's your decision.|最終還是要由你決定。
+proof|n.|證明；證據|trv|Bring proof of your address.|請帶地址證明。
+soil|n.|土壤|gen|Plants need good soil.|植物需要好的土壤。
+smart|adj.|聰明的；智慧型的|gen|She is very smart.|她非常聰明。
+layer|n.|層|gen|Wear layers when it's cold.|天冷時多穿幾層衣服。
+upset|adj./v.|難過的；使不安|gen|She was upset about the news.|她因為那個消息而難過。
+tooth|n.|牙齒|hlt|I have a bad tooth.|我有一顆蛀牙。
+representation|n.|代表；表現|biz|We need representation in Japan.|我們在日本需要代表。
+preparation|n.|準備|mtg|The preparation took a week.|準備工作花了一個星期。
+dispute|n./v.|爭論；爭議|biz|The dispute was settled.|爭議已經解決了。
+agenda|n.|議程|mtg|What is on today's agenda?|今天的議程有什麼？
+emphasis|n.|強調；重點|gen|We put emphasis on customer service.|我們注重顧客服務。
+edition|n.|版本；版次|biz|This is the latest edition.|這是最新版。
+silver|n./adj.|銀；銀色的|shp|She has a silver car.|她有一輛銀色的車。
+entertainment|n.|娛樂|gen|The hotel offers live entertainment.|飯店提供現場娛樂表演。
+honest|adj.|誠實的|gen|Please be honest with me.|請對我誠實。
+undertake|v.|承擔；著手|biz|We will undertake a new project.|我們將著手進行一個新專案。
+retail|n./adj.|零售|shp|She works in retail.|她從事零售業。
+wire|n.|電線|fac|Don't touch the wires.|不要碰電線。
+unlikely|adj.|不太可能的|gen|It's unlikely to rain today.|今天不太可能下雨。
+gay|adj.|同性戀的|gen|The film is about a gay couple.|這部電影講的是一對同性伴侶。
+publication|n.|出版；出版品|biz|The publication date is in June.|出版日期在六月。
+slight|adj.|輕微的|gen|There is a slight delay.|有一點小延誤。
+unknown|adj.|未知的；不知名的|gen|The cause is still unknown.|原因仍然不明。
+framework|n.|架構|biz|We need a framework for the project.|我們需要這個專案的架構。
+zone|n.|區域|trn|This is a no-parking zone.|這是禁止停車區。
+restrict|v.|限制|gen|Entry is restricted to staff.|僅限員工進入。
+trace|v./n.|追蹤；痕跡|log|We traced the package.|我們追蹤了包裹。
+inch|n.|英寸|shp|The screen is 15 inches.|螢幕是十五吋。
+equivalent|adj./n.|相等的；相等物|fin|What is the equivalent in dollars?|換算成美元是多少？
+solid|adj.|固體的；堅固的|gen|The table is made of solid wood.|這張桌子是實木做的。
+enterprise|n.|企業|biz|She runs a small enterprise.|她經營一家小企業。
+elderly|adj.|年長的|gen|Please give your seat to elderly people.|請讓座給年長者。
+owe|v.|欠|fin|How much do I owe you?|我欠你多少錢？
+governor|n.|州長；總督|gen|The governor visited the factory.|州長參觀了工廠。
+uniform|n.|制服|hr|Staff must wear a uniform.|員工必須穿制服。
+port|n.|港口；連接埠|log|The ship arrived at the port.|船抵達了港口。
+pitch|n./v.|推銷說詞；投球|biz|He made a sales pitch to the client.|他向客戶做了推銷簡報。
+arrival|n.|抵達|trv|Check the arrival time.|查看抵達時間。
+contemporary|adj.|當代的|gen|I like contemporary art.|我喜歡當代藝術。
+gate|n.|大門；登機門|trv|Your flight leaves from Gate 8.|你的班機從八號登機門出發。
+ease|n./v.|容易；減輕|gen|She passed the test with ease.|她輕鬆通過了考試。
+beer|n.|啤酒|din|Would you like a beer?|你要來杯啤酒嗎？
+specialist|n.|專家；專科醫師|hlt|You should see a specialist.|你應該去看專科醫師。
+assure|v.|保證；使放心|gen|I assure you it's safe.|我向你保證這是安全的。
+profile|n.|簡介；個人檔案|hr|Update your online profile.|更新你的線上個人檔案。
+mood|n.|心情|gen|She is in a good mood today.|她今天心情很好。
+episode|n.|（影集）一集；事件|gen|I watched the first episode.|我看了第一集。
+crack|n./v.|裂縫；破裂|fac|There is a crack in the wall.|牆上有一道裂縫。
+numerous|adj.|許多的|gen|We received numerous calls.|我們接到了很多通電話。
+submit|v.|提交|off|Please submit your report by Friday.|請在星期五前提交報告。
+symptom|n.|症狀|hlt|What are your symptoms?|你有什麼症狀？
+virtually|adv.|幾乎；實際上|gen|Virtually everyone came.|幾乎每個人都來了。
+era|n.|時代|gen|We live in the digital era.|我們生活在數位時代。
+coverage|n.|報導；（保險）保障範圍|fin|Check your insurance coverage.|確認你的保險保障範圍。
+tension|n.|緊張|gen|There was tension in the room.|房間裡氣氛很緊張。
+cable|n.|電纜；纜線|off|Plug in the cable.|把線插上。
+sensitive|adj.|敏感的|gen|I have sensitive skin.|我是敏感肌。
+nervous|adj.|緊張的|gen|I'm nervous about the interview.|我對面試感到緊張。
+input|n./v.|意見；輸入|mtg|Thank you for your input.|謝謝你的意見。
+isolate|v.|隔離；孤立|gen|The village is isolated in winter.|這個村莊冬天與外界隔絕。
+prisoner|n.|囚犯|gen|The prisoner was set free.|那名囚犯被釋放了。
+eliminate|v.|消除；淘汰|biz|We want to eliminate waste.|我們想消除浪費。
+tight|adj.|緊的|shp|These jeans are too tight.|這條牛仔褲太緊了。
+wet|adj.|濕的|gen|My shoes are wet.|我的鞋子濕了。
+secondary|adj.|次要的；中等的|gen|Price is a secondary concern.|價格是次要考量。
+welfare|n.|福利|hr|We care about staff welfare.|我們關心員工福利。
+recruit|v./n.|招募；新成員|hr|We recruit new staff every spring.|我們每年春天招募新員工。
+exclude|v.|排除；不包括|fin|The price excludes tax.|價格不含稅。
+string|n.|線；繩子|gen|Tie the box with string.|用繩子把箱子綁起來。
+cloud|n.|雲|gen|There are dark clouds in the sky.|天上有烏雲。
+persuade|v.|說服|gen|I persuaded him to come.|我說服他來了。
+inspire|v.|激勵；啟發|gen|Her story inspired me.|她的故事激勵了我。
+grand|adj.|宏偉的；隆重的|mtg|The grand opening is on Saturday.|盛大開幕在星期六。
+hence|adv.|因此|gen|It's raining, hence the delay.|下雨了，因此延誤。
+crew|n.|全體工作人員|trv|The crew will serve dinner.|機組人員會供應晚餐。
+phenomenon|n.|現象|gen|It's a new phenomenon.|這是一個新現象。
+pupil|n.|學生；瞳孔|gen|The school has 300 pupils.|這所學校有三百名學生。
+false|adj.|錯誤的；假的|gen|Is this true or false?|這是對的還是錯的？
+assist|v.|協助|gen|Can I assist you?|有什麼需要我協助的嗎？
+restore|v.|恢復；修復|fac|They restored the old house.|他們修復了那棟老房子。
+formula|n.|公式；配方|gen|This is the formula for the area.|這是計算面積的公式。
+alter|v.|修改|shp|Can you alter these pants?|你可以修改這條褲子嗎？

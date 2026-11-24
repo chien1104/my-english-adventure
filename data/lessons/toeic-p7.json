@@ -1,7 +1,7 @@
 {
   "id": "toeic-p7",
-  "world": "toeic-camp",
-  "order": 7,
+  "world": "part7",
+  "order": 3,
   "type": "toeic",
   "title": "Part 7 閱讀理解",
   "titleEn": "Reading Comprehension",
@@ -206,5 +206,8 @@
         }
       ]
     }
+  ],
+  "requires": [
+    "toeic-p6"
   ]
 }

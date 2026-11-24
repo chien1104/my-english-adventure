@@ -1,0 +1,101 @@
+# NGSL 2501-2600
+disagree|v.|不同意|mtg|I disagree with that idea.|我不同意那個想法。
+throat|n.|喉嚨|hlt|I have a sore throat.|我喉嚨痛。
+insight|n.|洞察；深入了解|biz|The report gives good insight into the market.|這份報告讓人深入了解市場。
+tackle|v.|處理；著手解決|gen|We need to tackle this problem now.|我們需要現在就處理這個問題。
+forever|adv.|永遠|gen|I can't wait forever.|我不能永遠等下去。
+exceed|v.|超過|biz|Sales exceeded our goal.|銷售超過了我們的目標。
+expenditure|n.|支出|fin|We need to cut expenditure.|我們需要削減支出。
+joy|n.|喜悅|gen|The baby brings us joy.|寶寶帶給我們喜悅。
+pregnant|adj.|懷孕的|hlt|She is pregnant with her second child.|她懷了第二胎。
+reliable|adj.|可靠的|gen|This car is very reliable.|這輛車很可靠。
+gear|n.|裝備；排檔|gen|Bring your hiking gear.|帶上你的登山裝備。
+poet|n.|詩人|gen|He is a famous poet.|他是一位著名的詩人。
+fortune|n.|財富；運氣|gen|He made a fortune in business.|他做生意發了大財。
+ceremony|n.|典禮|mtg|The award ceremony is tonight.|頒獎典禮在今晚。
+pile|n./v.|一堆；堆積|off|There is a pile of papers on my desk.|我桌上有一堆文件。
+pig|n.|豬|gen|The farm has pigs and cows.|農場有豬和牛。
+mixture|n.|混合物|din|Pour the mixture into a bowl.|把混合好的材料倒進碗裡。
+automatically|adv.|自動地|gen|The lights turn off automatically.|燈會自動關掉。
+scholar|n.|學者|gen|She is a scholar of history.|她是歷史學者。
+psychological|adj.|心理的|hlt|Stress has psychological effects.|壓力會對心理造成影響。
+dramatically|adv.|劇烈地；大幅地|fin|Prices rose dramatically.|價格大幅上漲。
+stake|n.|利害關係；股份|biz|He has a stake in the company.|他在這家公司有股份。
+creature|n.|生物|gen|The sea is full of strange creatures.|海裡有很多奇特的生物。
+partnership|n.|合作關係|biz|We formed a partnership with a Japanese firm.|我們和一家日本公司建立合作關係。
+participation|n.|參與|mtg|Thank you for your participation.|謝謝你的參與。
+clause|n.|條款；子句|biz|Read this clause in the contract.|閱讀合約中的這一條款。
+penalty|n.|罰款；處罰|fin|There is a penalty for late payment.|延遲付款會被罰款。
+chamber|n.|會所；議會|biz|She is a member of the chamber of commerce.|她是商會的會員。
+fancy|adj.|高級的；花俏的|din|We ate at a fancy restaurant.|我們在一家高級餐廳吃飯。
+poetry|n.|詩（總稱）|gen|She enjoys reading poetry.|她喜歡讀詩。
+chat|v./n.|聊天|gen|Let's chat over coffee.|我們邊喝咖啡邊聊吧。
+clothing|n.|衣服（總稱）|shp|The store sells children's clothing.|這家店賣童裝。
+evolve|v.|演變；發展|biz|Our business has evolved over time.|我們的事業隨著時間發展。
+sake|n.|（for the sake of）為了|gen|For the sake of safety, wear a helmet.|為了安全，請戴安全帽。
+shelf|n.|架子|shp|The books are on the top shelf.|書在最上層的架子。
+boost|v./n.|提升|biz|The ad boosted sales.|這則廣告提升了銷售。
+tail|n.|尾巴|gen|The dog wagged its tail.|狗搖著尾巴。
+possession|n.|擁有物；財產|gen|Keep your possessions with you.|隨身攜帶你的物品。
+abortion|n.|墮胎|hlt|The law on abortion has changed.|關於墮胎的法律改變了。
+curious|adj.|好奇的|gen|I'm curious about the new office.|我對新辦公室很好奇。
+wooden|adj.|木製的|fac|There is a wooden table in the kitchen.|廚房裡有一張木桌。
+boom|n.|繁榮；激增|biz|There is a boom in online sales.|網路銷售激增。
+tale|n.|故事|gen|She told us a funny tale.|她跟我們講了一個好笑的故事。
+democratic|adj.|民主的|gen|The country has a democratic government.|這個國家有民主政府。
+maintenance|n.|維修保養|fac|The pool is closed for maintenance.|游泳池因維修而關閉。
+consequently|adv.|因此|gen|It rained. Consequently, the event was canceled.|下雨了，因此活動被取消。
+pot|n.|鍋子；壺|din|Make a pot of tea.|泡一壺茶。
+cow|n.|母牛|gen|The cows are in the field.|牛在田裡。
+strengthen|v.|加強|biz|We want to strengthen our team.|我們想加強我們的團隊。
+whilst|conj.|當……時；然而（英式）|gen|Please wait whilst we check your order.|我們確認您的訂單時請稍候。
+constraint|n.|限制|fin|We have budget constraints.|我們有預算限制。
+fold|v.|摺疊|off|Fold the letter in half.|把信對摺。
+bin|n.|垃圾桶；箱子|fac|Put the paper in the recycling bin.|把紙丟進回收桶。
+undergo|v.|經歷；接受（治療）|hlt|He will undergo surgery next week.|他下星期要動手術。
+potentially|adv.|潛在地；可能|gen|This is potentially dangerous.|這可能有危險。
+scope|n.|範圍|biz|What is the scope of the project?|這個專案的範圍是什麼？
+pretend|v.|假裝|gen|He pretended to be busy.|他假裝很忙。
+diversity|n.|多樣性|hr|We value diversity in our team.|我們重視團隊的多元性。
+allege|v.|聲稱；指稱|gen|They allege that he lied.|他們聲稱他說謊。
+pride|n.|自豪|gen|We take pride in our work.|我們以我們的工作為榮。
+intense|adj.|強烈的；密集的|hr|It was an intense training course.|那是一門密集的訓練課程。
+inquiry|n.|詢問；調查|off|Thank you for your inquiry.|謝謝您的詢問。
+resign|v.|辭職|hr|She resigned from her job.|她辭職了。
+craft|n.|手藝；工藝品|shp|The shop sells local crafts.|這家店賣當地的手工藝品。
+strict|adj.|嚴格的|gen|Our boss is very strict.|我們的老闆很嚴格。
+concrete|n./adj.|混凝土；具體的|gen|Can you give me a concrete example?|你可以給我一個具體的例子嗎？
+shell|n.|殼；貝殼|gen|We found shells on the beach.|我們在海灘上撿到貝殼。
+damn|int./adj.|可惡（口語）|gen|Damn, I missed the bus!|可惡，我錯過公車了！
+distinct|adj.|明顯的；不同的|gen|There are two distinct groups.|有兩個明顯不同的群體。
+humor|n.|幽默|gen|She has a good sense of humor.|她很有幽默感。
+limitation|n.|限制|gen|Everyone has limitations.|每個人都有自己的極限。
+indication|n.|跡象；指示|gen|There is no indication of a problem.|沒有任何問題的跡象。
+stability|n.|穩定|fin|The job offers stability.|這份工作很穩定。
+wise|adj.|明智的|gen|That was a wise decision.|那是一個明智的決定。
+neglect|v.|忽略；疏忽|gen|Don't neglect your health.|不要忽略你的健康。
+compose|v.|組成；作曲；撰寫|off|Please compose a reply to the client.|請撰寫給客戶的回覆。
+jail|n.|監獄|gen|He spent a year in jail.|他坐了一年牢。
+shelter|n.|避難所；遮蔽|gen|We took shelter from the rain.|我們找地方躲雨。
+mere|adj.|僅僅的|gen|It costs a mere ten dollars.|只要十美元而已。
+carbon|n.|碳|gen|We want to reduce carbon emissions.|我們想減少碳排放。
+regulate|v.|管理；調節|gen|The government regulates the banks.|政府管理銀行。
+cheese|n.|起司|din|I'd like a cheese sandwich.|我要一份起司三明治。
+trigger|v./n.|引發|gen|The smoke triggered the alarm.|煙霧觸發了警報器。
+pipe|n.|管子|fac|A water pipe is leaking.|一根水管在漏水。
+destruction|n.|破壞|gen|The storm caused a lot of destruction.|暴風雨造成了大量破壞。
+guitar|n.|吉他|gen|He plays the guitar.|他會彈吉他。
+flag|n.|旗子|gen|There is a flag on the building.|大樓上有一面旗子。
+piano|n.|鋼琴|gen|She plays the piano well.|她鋼琴彈得很好。
+magic|n./adj.|魔法；魔術|gen|The kids loved the magic show.|孩子們很喜歡魔術表演。
+mystery|n.|謎；推理小說|gen|It's a mystery to me.|這對我來說是個謎。
+ski|v./n.|滑雪|trv|We went skiing in Japan.|我們去日本滑雪。
+whisper|v.|低聲說|gen|She whispered in my ear.|她在我耳邊低聲說話。
+rear|adj./n.|後面的|trn|Please exit from the rear door.|請從後門下車。
+menu|n.|菜單|din|Can I see the menu, please?|可以給我看菜單嗎？
+species|n.|物種|gen|This species of bird is rare.|這種鳥很稀有。
+moon|n.|月亮|gen|The moon is bright tonight.|今晚月亮很亮。
+presumably|adv.|大概；據推測|gen|Presumably, he is still at work.|他大概還在上班。
+bless|v.|祝福|gen|Bless you!|祝福你！（打噴嚏時說）
+airline|n.|航空公司|trv|Which airline are you flying?|你搭哪一家航空公司？
+amendment|n.|修正；修正案|biz|We made an amendment to the contract.|我們修改了合約。

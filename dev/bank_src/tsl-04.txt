@@ -1,0 +1,101 @@
+# TSL 301-400
+annually|adv.|每年；一年一次|fin|The report is published annually.|這份報告每年出版一次。
+basketball|n.|籃球|gen|They play basketball after work.|他們下班後打籃球。
+delete|v.|刪除|off|Please delete the old files.|請刪除舊檔案。
+illogical|adj.|不合邏輯的|gen|His answer is illogical.|他的答案不合邏輯。
+pet|n.|寵物|gen|Pets are not allowed in the hotel.|飯店內不允許攜帶寵物。
+textbook|n.|課本；教科書|gen|Open your textbook to page ten.|把課本翻到第十頁。
+accurately|adv.|準確地|off|Please record the numbers accurately.|請準確記錄數字。
+cabin|n.|（飛機）客艙；小木屋|trv|The cabin crew will serve drinks.|空服人員會提供飲料。
+conductor|n.|列車長；指揮家|trn|Show your ticket to the conductor.|把車票出示給列車長看。
+inspector|n.|檢查員；督察|log|The inspector checked the building.|檢查員檢查了這棟大樓。
+intern|n.|實習生|hr|We have two summer interns.|我們有兩位暑期實習生。
+semester|n.|學期|gen|The new semester starts in September.|新學期九月開始。
+confirmation|n.|確認；確認通知|trv|You will get a confirmation email.|你會收到一封確認信。
+congratulation|n.|恭喜；祝賀（常用複數）|gen|Congratulations on your new job!|恭喜你找到新工作！
+expertise|n.|專業知識；專長|hr|We need your expertise in marketing.|我們需要你在行銷方面的專業。|/ˌɛkspərˈtiz/
+graph|n.|圖表|mtg|The graph shows our sales this year.|這張圖表顯示我們今年的銷售。
+taker|n.|接受者；拿取的人|gen|All test takers must arrive by 9 a.m.|所有考生必須在上午九點前抵達。
+utility|n.|公共事業（水電瓦斯）|fac|The rent includes utilities.|房租包含水電費。
+voucher|n.|兌換券；票券|shp|You can use this voucher for a free meal.|你可以用這張兌換券免費吃一餐。
+banker|n.|銀行家；銀行行員|fin|My uncle is a banker.|我叔叔是銀行員。
+behalf|n.|（on behalf of）代表|off|I'm writing on behalf of my manager.|我代表我的經理寫這封信。
+minimize|v.|將……減到最少|biz|We want to minimize costs.|我們想把成本降到最低。
+optional|adj.|可選擇的；非必須的|gen|The tour is optional.|這個行程是自由參加的。
+paycheck|n.|薪水支票；薪水|hr|I get my paycheck every two weeks.|我每兩週領一次薪水。
+polite|adj.|有禮貌的|gen|The staff are very polite.|員工都很有禮貌。
+protective|adj.|保護的；防護的|log|Wear protective glasses in the lab.|在實驗室裡要戴護目鏡。
+seller|n.|賣家；銷售者|shp|The seller gave us a discount.|賣家給了我們折扣。
+sidewalk|n.|人行道|trn|People are walking on the sidewalk.|人們走在人行道上。
+sightsee|v.|觀光；遊覽|trv|We will sightsee in Kyoto tomorrow.|我們明天會在京都觀光。
+soup|n.|湯|din|The soup of the day is tomato.|今日例湯是番茄湯。
+transit|n.|運輸；大眾運輸|trn|Public transit is cheap in this city.|這個城市的大眾運輸很便宜。
+wallet|n.|皮夾|shp|I left my wallet at home.|我把皮夾忘在家裡。
+born|adj.|出生的|gen|I was born in Kaohsiung.|我在高雄出生。
+cashier|n.|收銀員|shp|Please pay the cashier.|請向收銀員付款。
+casual|adj.|休閒的；非正式的|hr|We wear casual clothes on Fridays.|我們星期五穿便服。
+drill|n.|演習；電鑽|fac|There will be a fire drill at 3 p.m.|下午三點會有消防演習。
+fountain|n.|噴泉|gen|There is a fountain in front of the hotel.|飯店前面有一座噴泉。
+juice|n.|果汁|din|I'd like a glass of orange juice.|我要一杯柳橙汁。
+lane|n.|車道；巷子|trn|The car is in the left lane.|那輛車在左線車道。
+popularity|n.|受歡迎；名氣|biz|The product's popularity is growing.|這項產品越來越受歡迎。
+poster|n.|海報|biz|Put the poster on the wall.|把海報貼在牆上。
+promptly|adv.|迅速地；準時地|off|The meeting will start promptly at ten.|會議將在十點準時開始。
+retailer|n.|零售商|shp|The retailer has stores in every city.|這家零售商在每個城市都有店。
+vacancy|n.|空缺；空房|hr|We have a vacancy for a sales clerk.|我們有一個店員的職缺。
+bench|n.|長椅|gen|A woman is sitting on a bench.|一位女士坐在長椅上。
+cumulative|adj.|累積的|fin|Here is the cumulative total for the year.|這是全年的累計總額。
+directory|n.|名錄；樓層指南|fac|Check the building directory.|查看大樓的樓層指南。
+disposal|n.|處理；丟棄|fac|Follow the rules for trash disposal.|依照規定處理垃圾。
+housekeeper|n.|房務員；管家|trv|The housekeeper cleans the rooms every day.|房務員每天打掃房間。
+internship|n.|實習（工作）|hr|She did an internship at a bank.|她在一家銀行實習過。
+knowledgeable|adj.|知識豐富的；內行的|hr|Our staff are friendly and knowledgeable.|我們的員工親切又專業。
+organizer|n.|籌辦者；主辦人|mtg|The organizer thanked everyone for coming.|主辦人感謝大家到場。
+overdue|adj.|過期的；逾期的|fin|This bill is overdue.|這張帳單已經逾期了。
+prediction|n.|預測|biz|The sales prediction was correct.|銷售預測是正確的。
+subscriber|n.|訂戶；訂閱者|shp|The magazine has 10,000 subscribers.|這本雜誌有一萬名訂戶。
+booklet|n.|小冊子|biz|The booklet explains our services.|這本小冊子說明我們的服務。
+conditioner|n.|冷氣機（air conditioner）；潤髮乳|fac|The air conditioner is too loud.|冷氣機太吵了。
+enroll|v.|註冊；報名|hr|I enrolled in an English course.|我報名了一門英文課。
+frustrate|v.|使沮喪；使挫折|gen|The long wait frustrated the customers.|漫長的等待讓顧客很沮喪。
+garment|n.|衣服；服裝|shp|This garment must be washed by hand.|這件衣服必須手洗。
+orientation|n.|新人訓練；說明會|hr|New employees attend an orientation.|新進員工要參加新人訓練。
+outlet|n.|插座；暢貨中心|fac|Is there a power outlet near my seat?|我座位附近有插座嗎？
+packet|n.|一包；一袋|off|Read the information packet.|閱讀這份資料袋裡的資料。
+plumber|n.|水管工人|fac|Call a plumber to fix the sink.|打電話請水電工修水槽。|/ˈplʌmər/
+specification|n.|規格；詳細說明|log|The product meets all specifications.|這項產品符合所有規格。
+auto|adj.|汽車的|trn|He works at an auto repair shop.|他在一家汽車修理廠工作。
+decorate|v.|裝飾|gen|We decorated the office for the party.|我們為了派對布置辦公室。
+deduction|n.|扣除；扣除額|fin|Tax deductions are shown on your paycheck.|稅金扣除額會列在你的薪資單上。
+definite|adj.|明確的；確定的|gen|We need a definite answer by Friday.|我們星期五前需要一個明確的答覆。
+economical|adj.|節省的；經濟實惠的|shp|This car is very economical.|這輛車很省油。
+efficiently|adv.|有效率地|off|She works quickly and efficiently.|她工作又快又有效率。
+flyer|n.|傳單|biz|We handed out flyers at the station.|我們在車站發傳單。
+franchise|n.|加盟店；經銷權|biz|He owns a coffee shop franchise.|他擁有一家咖啡加盟店。
+generous|adj.|慷慨的；大方的|gen|Thank you for your generous gift.|謝謝你大方的禮物。
+interrupt|v.|打斷；中斷|mtg|Sorry to interrupt, but you have a call.|抱歉打擾，有你的電話。
+oven|n.|烤箱|din|Bake the bread in the oven.|把麵包放進烤箱烤。
+pants|n.|褲子|shp|These pants are too long.|這條褲子太長了。
+profitable|adj.|有利潤的；賺錢的|fin|The new store is very profitable.|新店很賺錢。
+refrigerator|n.|冰箱|fac|Keep the milk in the refrigerator.|把牛奶放在冰箱裡。
+reimburse|v.|償還；核銷（費用）|fin|The company will reimburse your travel costs.|公司會核銷你的差旅費。
+showroom|n.|展示間|shp|Visit our showroom to see the new cars.|來我們的展示間看新車。
+vegetarian|adj.|素食的|din|Do you have vegetarian dishes?|你們有素食餐點嗎？
+administrator|n.|管理者；行政人員|off|Ask the system administrator for help.|請系統管理員幫忙。
+broker|n.|經紀人；仲介|fin|She is a real estate broker.|她是房地產仲介。
+cancellation|n.|取消|trv|There is a fee for late cancellation.|太晚取消要收費。
+confidential|adj.|機密的|off|This information is confidential.|這份資料是機密。
+jet|n.|噴射機|trv|The jet flies to Tokyo every day.|這架噴射機每天飛往東京。
+realistic|adj.|實際的；實事求是的|biz|We need a realistic plan.|我們需要一個實際可行的計畫。
+thoroughly|adv.|徹底地；仔細地|gen|Read the contract thoroughly.|仔細閱讀合約。
+trash|n.|垃圾|fac|Put the trash in the bin.|把垃圾丟進垃圾桶。
+usage|n.|使用量；用法|fac|Our water usage went up last month.|我們上個月的用水量增加了。
+windy|adj.|風大的|gen|It's very windy today.|今天風很大。
+automate|v.|使自動化|log|They want to automate the factory.|他們想讓工廠自動化。
+ferry|n.|渡輪|trn|We took a ferry to the island.|我們搭渡輪去那座島。
+finalize|v.|定案；完成最後步驟|off|We will finalize the plan this week.|我們這星期會把計畫定案。
+incur|v.|招致；產生（費用）|fin|You may incur a late fee.|你可能會被收逾期費。
+instruct|v.|指示；教導|hr|The trainer instructed us to log in.|培訓講師指示我們登入。
+loyal|adj.|忠誠的|biz|We thank our loyal customers.|我們感謝忠實的顧客。
+luncheon|n.|午宴；午餐會|mtg|The awards luncheon is at noon.|頒獎午宴在中午舉行。
+microphone|n.|麥克風|mtg|Please speak into the microphone.|請對著麥克風說話。

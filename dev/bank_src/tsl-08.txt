@@ -1,0 +1,101 @@
+# TSL 701-800
+tuition|n.|學費|gen|The company pays part of my tuition.|公司幫我付一部分學費。
+unavailable|adj.|沒空的；無法取得的|off|Mr. Wang is unavailable today.|王先生今天沒空。
+violation|n.|違反；違規|gen|Parking here is a violation.|在這裡停車是違規的。
+webpage|n.|網頁|biz|The webpage has all the details.|這個網頁有所有的細節。|/ˈwɛbpeɪdʒ/
+acceptance|n.|接受；錄取|hr|I got a letter of acceptance.|我收到了錄取通知書。
+allocate|v.|分配；撥出|fin|We allocated more money to marketing.|我們撥了更多經費給行銷。
+ambitious|adj.|有雄心的；野心勃勃的|biz|This is an ambitious plan.|這是一個很有企圖心的計畫。
+appendix|n.|附錄|off|See the appendix for more data.|更多資料請見附錄。
+booth|n.|攤位；小隔間|mtg|Visit our booth at the trade show.|歡迎到商展參觀我們的攤位。
+clarify|v.|澄清；說明|mtg|Could you clarify that point?|你可以把那一點說明清楚嗎？
+classmate|n.|同學|gen|She was my classmate in college.|她是我大學同學。
+compile|v.|彙整；編輯|off|I compiled a list of clients.|我彙整了一份客戶名單。
+correction|n.|更正；修改|off|Please make the corrections in red.|請用紅筆修正。
+customize|v.|客製化|shp|You can customize your order.|你可以客製化你的訂單。
+dedication|n.|奉獻；專注|hr|Thank you for your hard work and dedication.|謝謝你的努力與付出。
+diagnose|v.|診斷|hlt|The doctor diagnosed a cold.|醫生診斷是感冒。
+discontinue|v.|停止；停產|shp|This model has been discontinued.|這個型號已經停產了。
+dishwasher|n.|洗碗機|fac|Put the plates in the dishwasher.|把盤子放進洗碗機。
+drought|n.|乾旱|gen|The drought hurt the farmers.|乾旱讓農夫受到損失。
+economize|v.|節省；節約|fin|We need to economize on paper.|我們需要節省紙張。
+entrée|n.|主菜|din|I'll have the chicken for my entrée.|我的主菜要雞肉。|/ˈɑntreɪ/
+firework|n.|煙火（常用複數）|gen|We watched the fireworks by the river.|我們在河邊看煙火。
+freight|n.|貨運；貨物|log|The goods were sent by air freight.|貨物用空運寄出。
+fry|v.|煎；炸|din|Fry the eggs in a little oil.|用一點油煎蛋。
+gallon|n.|加侖|shp|Gas costs four dollars a gallon.|汽油一加侖四美元。
+gardener|n.|園丁|fac|The gardener is watering the plants.|園丁正在澆花。
+ideally|adv.|理想地；最好是|gen|Ideally, we should finish by Friday.|最好我們能在星期五前完成。
+inclusive|adj.|包含在內的；包容的|trv|The price is inclusive of tax.|這個價格含稅。
+insufficient|adj.|不足的|fin|There are insufficient funds in the account.|帳戶裡的錢不足。
+introductory|adj.|入門的；介紹性的|shp|We offer an introductory price.|我們提供首購優惠價。
+junk|n.|廢物；垃圾|off|Delete all the junk mail.|刪除所有的垃圾郵件。
+ma'am|n.|女士（尊稱）|gen|Can I help you, ma'am?|女士，需要幫忙嗎？
+mileage|n.|里程數|trn|The car has low mileage.|這輛車的里程數很低。
+noisy|adj.|吵鬧的|gen|The street is very noisy.|這條街很吵。
+pan|n.|平底鍋|din|Heat the pan before you cook.|煮之前先把鍋子加熱。
+parcel|n.|包裹|log|A parcel arrived for you.|有你的包裹。
+pasta|n.|義大利麵|din|The pasta here is great.|這裡的義大利麵很好吃。
+periodical|n.|期刊|gen|The library has many periodicals.|圖書館有很多期刊。
+pill|n.|藥丸|hlt|Take one pill after each meal.|每餐飯後吃一顆藥。
+portable|adj.|可攜帶的；手提的|shp|This is a portable speaker.|這是一台可攜式喇叭。
+punctual|adj.|準時的|hr|Please be punctual for the meeting.|開會請準時。
+recreation|n.|娛樂；消遣|gen|The hotel has a recreation room.|飯店有一間娛樂室。
+relieve|v.|減輕；緩解|hlt|This medicine relieves pain.|這種藥能減輕疼痛。
+reminder|n.|提醒（通知）|off|This is a reminder about your appointment.|這是你預約的提醒通知。
+rumor|n.|謠言|gen|Don't believe the rumor.|別相信那個謠言。
+scarf|n.|圍巾|shp|She is wearing a red scarf.|她戴著一條紅色圍巾。
+seaside|n.|海邊|trv|We stayed at a seaside hotel.|我們住在一家海邊的飯店。
+shorten|v.|縮短|off|Please shorten your speech.|請把演講縮短。
+specially|adv.|特地；專門地|gen|This cake was made specially for you.|這個蛋糕是特地為你做的。
+spill|v.|灑出；濺出|gen|I spilled coffee on my shirt.|我把咖啡灑在襯衫上。
+spouse|n.|配偶|hr|Spouses are invited to the dinner.|配偶也受邀參加晚宴。
+subtract|v.|減去|fin|Subtract the discount from the total.|從總額減去折扣。
+tablet|n.|平板電腦；藥片|off|I read the news on my tablet.|我用平板電腦看新聞。
+ton|n.|公噸；大量|log|The truck carries ten tons of rice.|這輛卡車載著十公噸的米。
+vending machine|n.|自動販賣機|shp|There is a vending machine in the lobby.|大廳有一台自動販賣機。
+yoga|n.|瑜珈|hlt|I take a yoga class on Mondays.|我星期一上瑜珈課。
+accent|n.|口音|gen|She speaks with a British accent.|她說話有英國口音。
+advisory|adj.|顧問的；諮詢的|biz|He sits on the advisory board.|他是諮詢委員會的成員。
+asleep|adj.|睡著的|gen|The baby is asleep.|寶寶睡著了。
+authentic|adj.|道地的；真正的|din|This restaurant serves authentic Thai food.|這家餐廳供應道地的泰國菜。
+bakery|n.|麵包店|shp|I buy bread at the bakery.|我在麵包店買麵包。
+carton|n.|紙盒；紙箱|shp|Buy a carton of milk, please.|請買一盒牛奶。
+compartment|n.|隔間；置物格|trv|Put your bag in the overhead compartment.|把包包放進上方置物櫃。
+compatible|adj.|相容的|off|Is this software compatible with my computer?|這個軟體和我的電腦相容嗎？
+consumption|n.|消耗量；消費|fac|We want to cut energy consumption.|我們想減少能源消耗。
+conveniently|adv.|方便地|fac|The hotel is conveniently located.|飯店的位置很方便。
+cosmetic|n.|化妝品（常用複數）|shp|She sells cosmetics online.|她在網路上賣化妝品。
+courtesy|n.|禮貌；（免費）招待|trv|The hotel offers a courtesy bus.|飯店提供免費接駁車。
+creativity|n.|創造力|hr|This job needs creativity.|這份工作需要創造力。
+criteria|n.|標準（複數）|hr|You must meet all the criteria.|你必須符合所有的標準。
+disagreement|n.|意見不合|mtg|We had a small disagreement.|我們有一點意見不合。
+disappointment|n.|失望|gen|The movie was a disappointment.|這部電影令人失望。
+dissatisfied|adj.|不滿意的|shp|The customer is dissatisfied with the product.|顧客對產品不滿意。
+enjoyable|adj.|有趣的；令人愉快的|gen|We had an enjoyable evening.|我們度過了一個愉快的晚上。
+faculty|n.|全體教職員|gen|The faculty meeting is on Monday.|教職員會議在星期一。
+favorable|adj.|有利的；贊同的|biz|We got favorable reviews.|我們得到了好評。
+foreman|n.|工頭；領班|log|The foreman checks the workers.|工頭檢查工人的工作。
+forum|n.|論壇|mtg|The forum is open to everyone.|這個論壇開放給所有人。
+founder|n.|創辦人|biz|He is the founder of the company.|他是這家公司的創辦人。
+fundraising|n.|募款|fin|We held a fundraising dinner.|我們舉辦了一場募款餐會。|/ˈfʌndreɪzɪŋ/
+graphics|n.|圖像；圖表|biz|The graphics on the website are great.|網站上的圖像很棒。
+handy|adj.|方便的；手邊的|gen|Keep a pen handy.|手邊準備一支筆。
+hazardous|adj.|危險的；有害的|log|Wear gloves when handling hazardous materials.|處理危險物品時要戴手套。
+healthcare|n.|醫療保健|hlt|She works in healthcare.|她在醫療保健業工作。
+humidity|n.|濕度|gen|The humidity is high today.|今天濕度很高。
+immigration|n.|入境審查；移民|trv|Go through immigration first.|先通過入境審查。
+influential|adj.|有影響力的|biz|She is an influential writer.|她是一位有影響力的作家。
+nationwide|adv.|全國性地|biz|We have stores nationwide.|我們在全國都有店。
+pad|n.|便條本；墊子|off|Write it down on a note pad.|把它寫在便條本上。
+paraphrase|v.|換句話說；改述|gen|Can you paraphrase that sentence?|你可以把那句話換個說法嗎？
+placement|n.|安置；分班|hr|Take a placement test first.|先做分班測驗。
+postal|adj.|郵政的|log|What is your postal code?|你的郵遞區號是多少？
+publicity|n.|宣傳；曝光|biz|The event got a lot of publicity.|這個活動得到很多曝光。
+renter|n.|承租人；房客|fac|The renter pays on the first of the month.|房客在每月一號付租金。
+repairperson|n.|修理人員|fac|The repairperson fixed the heater.|修理人員修好了暖氣。|/rɪˈpɛrpɜrsən/
+repeatedly|adv.|反覆地；一再地|gen|I called him repeatedly.|我一再打電話給他。
+restroom|n.|洗手間|fac|Where is the restroom?|洗手間在哪裡？
+silently|adv.|安靜地|gen|Please read silently.|請安靜地閱讀。
+spa|n.|水療中心；SPA|hlt|The hotel has a spa.|飯店有水療中心。
+spreadsheet|n.|試算表|off|I put the numbers in a spreadsheet.|我把數字輸入試算表。

@@ -1,7 +1,7 @@
 {
   "id": "toeic-p2",
-  "world": "toeic-camp",
-  "order": 2,
+  "world": "part2",
+  "order": 1,
   "type": "toeic-listen",
   "title": "Part 2 應答問題",
   "titleEn": "Question-Response",
@@ -278,5 +278,8 @@
         }
       ]
     }
+  ],
+  "requires": [
+    "toeic-p1"
   ]
 }
