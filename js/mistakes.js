@@ -38,7 +38,7 @@ export function wordQuestion(word, words) {
   const rotated = options.slice(shift).concat(options.slice(0, shift));
   return {
     id: `mw-${word.id}`, group: word.id, wordId: word.id, type: 'choice',
-    prompt: '這個單字的中文是？', sentence: word.en,
+    prompt: '這個單字的中文是？', sentence: word.en, sentenceAudio: word.audio,
     options: rotated, answer: word.zh,
     explanation: `${word.en} ${word.ipa}（${word.posZh}）是「${word.zh}」。例句：${word.example.en}（${word.example.zh}）`,
   };

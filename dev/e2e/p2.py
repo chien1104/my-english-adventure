@@ -272,7 +272,7 @@ try:
             sw = page.evaluate('document.documentElement.scrollWidth')
             check(f'375px 無水平捲動 {path}', sw <= 375, f'scrollWidth={sw}')
             orphan = page.evaluate("""[...document.querySelectorAll('#app button')].filter(b =>
-                !(b.type === 'submit' || b.dataset.act || b.dataset.mode || b.dataset.opt !== undefined || b.dataset.tok !== undefined || b.dataset.filter || b.dataset.audio || b.dataset.match || b.dataset.tile || b.dataset.slot)).map(b => b.textContent.trim())""")
+                !(b.type === 'submit' || b.dataset.play || b.dataset.act || b.dataset.mode || b.dataset.opt !== undefined || b.dataset.tok !== undefined || b.dataset.filter || b.dataset.audio || b.dataset.match || b.dataset.tile || b.dataset.slot)).map(b => b.textContent.trim())""")
             check(f'{path} 沒有無作用按鈕', len(orphan) == 0, str(orphan))
         page.goto(BASE + '#/worlds'); page.wait_for_timeout(300)
         page.screenshot(path=f'{OUT}/p2-11-worlds.png', full_page=True)

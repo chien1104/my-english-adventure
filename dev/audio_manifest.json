@@ -2325,5 +2325,122 @@
    ]
   ],
   "kind": "sentence"
+ },
+ "assets/audio/prompts/be.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "be."
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/box.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "box"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/salad.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "salad"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/try-it.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "try it"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/turn.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "turn"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/it-doesnt-work.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "It doesn't work."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/money-back.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "money back"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/departure-time.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "departure time"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/appointment.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "appointment"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/be-provided.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "be provided"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/repairs.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "repairs"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/resume.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "résumé"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/part-time.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "part-time"
+   ]
+  ],
+  "kind": "word"
  }
 }

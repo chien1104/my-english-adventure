@@ -33,7 +33,7 @@ def answer(p):
     if q is None:  # 複習題
         opts = p.locator('.opt').all_inner_texts()
         if p.locator('.q__sentence').count():
-            w = WORDS[p.inner_text('.q__sentence')]; ans = w['zh']
+            w = WORDS[p.inner_text('.q__sentence').replace('🔊', '').strip()]; ans = w['zh']
         else:
             ans = BY_IMG[p.get_attribute('.q .q__img', 'src')]['en']
         p.click(f'[data-opt="{opts.index(ans)}"]')
@@ -276,7 +276,7 @@ try:
             page.goto(BASE + path); page.wait_for_timeout(400)
             sw_ = page.evaluate('document.documentElement.scrollWidth')
             check(f'375px 無水平捲動 {path}', sw_ <= 375, str(sw_))
-            orphan = page.evaluate("""[...document.querySelectorAll('#app button')].filter(b => !b.hidden && !b.closest('[hidden]') && !(b.type === 'submit' || b.dataset.act || b.dataset.mode || b.dataset.opt !== undefined || b.dataset.filter || b.dataset.col !== undefined)).map(b => b.outerHTML.slice(0, 80))""")
+            orphan = page.evaluate("""[...document.querySelectorAll('#app button')].filter(b => !b.hidden && !b.closest('[hidden]') && !(b.type === 'submit' || b.dataset.play || b.dataset.act || b.dataset.mode || b.dataset.opt !== undefined || b.dataset.filter || b.dataset.col !== undefined)).map(b => b.outerHTML.slice(0, 80))""")
             check(f'{path} 沒有無作用按鈕', not orphan, str(orphan))
         page.goto(BASE + '#/settings'); page.wait_for_timeout(400)
         page.screenshot(path=f'{OUT}/p5-03-settings.png', full_page=True)

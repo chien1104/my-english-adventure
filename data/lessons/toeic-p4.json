@@ -172,7 +172,11 @@
             "休息時間"
           ],
           "answer": "出發時間",
-          "explanation": "departure 是出發；arrival 是抵達。"
+          "explanation": "departure 是出發；arrival 是抵達。",
+          "promptSay": {
+            "text": "departure time",
+            "audio": "assets/audio/prompts/departure-time.mp3"
+          }
         },
         {
           "id": "p4-ext-2",
@@ -185,7 +189,11 @@
             "帳單"
           ],
           "answer": "預約",
-          "explanation": "appointment 是預約、約診。"
+          "explanation": "appointment 是預約、約診。",
+          "promptSay": {
+            "text": "appointment",
+            "audio": "assets/audio/prompts/appointment.mp3"
+          }
         }
       ]
     }

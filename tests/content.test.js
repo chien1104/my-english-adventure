@@ -132,6 +132,7 @@ test('教材：題目說要「聽」就一定有音檔；多益聽力模擬練�
       if (q.prompt.includes('聽')) assert.ok(q.audio, `${q.id} 提示要聽卻沒有音檔`);
       if (l.type === 'toeic-listen' && st.title === '模擬練習') assert.ok(q.audio, `${q.id} 多益聽力題沒有音檔`);
       if (q.part && q.part <= 4) assert.ok(q.audio, `${q.id} 模擬考聽力題沒有音檔`);
+      if (q.promptSay) assert.ok(q.prompt.includes(q.promptSay.text) && q.promptSay.audio, `${q.id} 題目發音的英文對不上題目`);
     }
   });
 });

@@ -862,7 +862,7 @@ lesson({
 # ---------------------------------------------------------------- 教材清單與音檔清單
 cat_path = os.path.join(ROOT, 'data/catalog.json')
 cat = json.load(open(cat_path))
-cat['contentVersion'] = '2026.11.17-full'
+cat['contentVersion'] = '2026.11.24-say'
 cat['vocab'] = VOCAB_FILES
 order = ['vocab-1', 'vocab-2', 'vocab-3', 'grammar-1', 'grammar-2', 'grammar-3', 'phonics-1', 'phonics-2', 'phonics-3',
          'life-1', 'life-2', 'life-3', 'read-1', 'read-2', 'biz-1', 'biz-2',
@@ -874,3 +874,7 @@ for word, ipa in PHONICS_IPA.items():
     AUD[f'assets/audio/phonics/{word}.mp3']['ipa'] = ipa
 json.dump(AUD, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'audio_manifest.json'), 'w'), ensure_ascii=False, indent=1)
 print(len(LESSONS), 'new lessons;', len(AUD), 'audio clips')
+
+# 題目裡的英文加上發音（會更新上面寫出的課程 JSON 與音檔清單）
+import subprocess
+subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'add_prompt_audio.py'), ROOT], check=True)

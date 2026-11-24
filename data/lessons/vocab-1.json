@@ -94,7 +94,11 @@
             "麵包"
           ],
           "answer": "雞蛋；蛋",
-          "explanation": "egg 是「雞蛋」。因為是母音開頭，一顆蛋要說 an egg。"
+          "explanation": "egg 是「雞蛋」。因為是母音開頭，一顆蛋要說 an egg。",
+          "promptSay": {
+            "text": "egg",
+            "audio": "assets/audio/words/egg.mp3"
+          }
         },
         {
           "id": "v1-milk-a",
@@ -109,7 +113,11 @@
             "牛奶"
           ],
           "answer": "牛奶",
-          "explanation": "milk /mɪlk/ 是「牛奶」。coffee 是咖啡，water 是水。"
+          "explanation": "milk /mɪlk/ 是「牛奶」。coffee 是咖啡，water 是水。",
+          "promptSay": {
+            "text": "milk",
+            "audio": "assets/audio/words/milk.mp3"
+          }
         },
         {
           "id": "v1-coffee-a",
@@ -155,7 +163,11 @@
             "牛奶"
           ],
           "answer": "茶",
-          "explanation": "tea /ti/ 是「茶」，green tea 是綠茶。"
+          "explanation": "tea /ti/ 是「茶」，green tea 是綠茶。",
+          "promptSay": {
+            "text": "tea",
+            "audio": "assets/audio/words/tea.mp3"
+          }
         }
       ],
       "similar": [
@@ -172,7 +184,11 @@
             "蘋果"
           ],
           "answer": "蘋果",
-          "explanation": "apple 是「蘋果」。可以想成 an apple a day（一天一蘋果）。"
+          "explanation": "apple 是「蘋果」。可以想成 an apple a day（一天一蘋果）。",
+          "promptSay": {
+            "text": "apple",
+            "audio": "assets/audio/words/apple.mp3"
+          }
         },
         {
           "id": "v1-banana-b",

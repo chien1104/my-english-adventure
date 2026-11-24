@@ -64,7 +64,11 @@
             "椅子"
           ],
           "answer": "椅子",
-          "explanation": "chair /tʃɛr/ 是「椅子」。開頭的 ch 唸 /tʃ/，和 chicken 的開頭一樣。"
+          "explanation": "chair /tʃɛr/ 是「椅子」。開頭的 ch 唸 /tʃ/，和 chicken 的開頭一樣。",
+          "promptSay": {
+            "text": "chair",
+            "audio": "assets/audio/words/chair.mp3"
+          }
         },
         {
           "id": "v2-door-a",
@@ -110,7 +114,11 @@
             "手機；電話"
           ],
           "answer": "書",
-          "explanation": "book /bʊk/ 是「書」。oo 在這裡唸短音 /ʊ/。"
+          "explanation": "book /bʊk/ 是「書」。oo 在這裡唸短音 /ʊ/。",
+          "promptSay": {
+            "text": "book",
+            "audio": "assets/audio/words/book.mp3"
+          }
         },
         {
           "id": "v2-phone-a",
@@ -156,7 +164,11 @@
             "時鐘"
           ],
           "answer": "時鐘",
-          "explanation": "clock /klɑk/ 是「時鐘」，通常掛在牆上或放在桌上。"
+          "explanation": "clock /klɑk/ 是「時鐘」，通常掛在牆上或放在桌上。",
+          "promptSay": {
+            "text": "clock",
+            "audio": "assets/audio/words/clock.mp3"
+          }
         }
       ],
       "similar": [
@@ -173,7 +185,11 @@
             "書"
           ],
           "answer": "床",
-          "explanation": "bed 是「床」，go to bed 是去睡覺。"
+          "explanation": "bed 是「床」，go to bed 是去睡覺。",
+          "promptSay": {
+            "text": "bed",
+            "audio": "assets/audio/words/bed.mp3"
+          }
         },
         {
           "id": "v2-chair-b",
@@ -247,7 +263,11 @@
             "床"
           ],
           "answer": "手機；電話",
-          "explanation": "phone 是「手機；電話」。"
+          "explanation": "phone 是「手機；電話」。",
+          "promptSay": {
+            "text": "phone",
+            "audio": "assets/audio/words/phone.mp3"
+          }
         },
         {
           "id": "v2-key-b",

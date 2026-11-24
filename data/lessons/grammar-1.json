@@ -158,7 +158,11 @@
             "are"
           ],
           "answer": "am",
-          "explanation": "主詞是 I，be 動詞固定用 am。"
+          "explanation": "主詞是 I，be 動詞固定用 am。",
+          "promptSay": {
+            "text": "be",
+            "audio": "assets/audio/prompts/be.mp3"
+          }
         },
         {
           "id": "g1-he-a",
@@ -173,7 +177,11 @@
             "are"
           ],
           "answer": "is",
-          "explanation": "主詞是 he（他），一個人，用 is。"
+          "explanation": "主詞是 he（他），一個人，用 is。",
+          "promptSay": {
+            "text": "be",
+            "audio": "assets/audio/prompts/be.mp3"
+          }
         },
         {
           "id": "g1-they-a",
@@ -188,7 +196,11 @@
             "are"
           ],
           "answer": "are",
-          "explanation": "主詞是 they（他們），兩個人以上，用 are。"
+          "explanation": "主詞是 they（他們），兩個人以上，用 are。",
+          "promptSay": {
+            "text": "be",
+            "audio": "assets/audio/prompts/be.mp3"
+          }
         },
         {
           "id": "g1-you-a",
@@ -203,7 +215,11 @@
             "are"
           ],
           "answer": "are",
-          "explanation": "主詞是 you。就算 you 只指一個人，也要用 are。"
+          "explanation": "主詞是 you。就算 you 只指一個人，也要用 are。",
+          "promptSay": {
+            "text": "be",
+            "audio": "assets/audio/prompts/be.mp3"
+          }
         },
         {
           "id": "g1-thing-a",
@@ -218,7 +234,11 @@
             "are"
           ],
           "answer": "is",
-          "explanation": "主詞是 the coffee，一樣東西，用 is。"
+          "explanation": "主詞是 the coffee，一樣東西，用 is。",
+          "promptSay": {
+            "text": "be",
+            "audio": "assets/audio/prompts/be.mp3"
+          }
         },
         {
           "id": "g1-missing-a",
@@ -249,7 +269,11 @@
             "are"
           ],
           "answer": "am",
-          "explanation": "只要主詞是 I，就用 am。"
+          "explanation": "只要主詞是 I，就用 am。",
+          "promptSay": {
+            "text": "be",
+            "audio": "assets/audio/prompts/be.mp3"
+          }
         },
         {
           "id": "g1-he-b",
@@ -264,7 +288,11 @@
             "am"
           ],
           "answer": "is",
-          "explanation": "my father 是一個人，就像 he，用 is。"
+          "explanation": "my father 是一個人，就像 he，用 is。",
+          "promptSay": {
+            "text": "be",
+            "audio": "assets/audio/prompts/be.mp3"
+          }
         },
         {
           "id": "g1-they-b",
@@ -279,7 +307,11 @@
             "are"
           ],
           "answer": "are",
-          "explanation": "Tom and Amy 是兩個人，用 are。"
+          "explanation": "Tom and Amy 是兩個人，用 are。",
+          "promptSay": {
+            "text": "be",
+            "audio": "assets/audio/prompts/be.mp3"
+          }
         },
         {
           "id": "g1-you-b",
@@ -294,7 +326,11 @@
             "am"
           ],
           "answer": "are",
-          "explanation": "you 永遠配 are，不管是一個人還是很多人。"
+          "explanation": "you 永遠配 are，不管是一個人還是很多人。",
+          "promptSay": {
+            "text": "be",
+            "audio": "assets/audio/prompts/be.mp3"
+          }
         },
         {
           "id": "g1-thing-b",
@@ -309,7 +345,11 @@
             "is"
           ],
           "answer": "is",
-          "explanation": "this book 是一樣東西，用 is。"
+          "explanation": "this book 是一樣東西，用 is。",
+          "promptSay": {
+            "text": "be",
+            "audio": "assets/audio/prompts/be.mp3"
+          }
         },
         {
           "id": "g1-missing-b",

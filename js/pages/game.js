@@ -5,6 +5,7 @@ import {
   createMatch, matchTap, speedQuestion, spellTiles, spellCheck, pickWords, updateBest,
 } from '../games/logic.js';
 import { applyAnswer } from '../words.js';
+import { playButtonHTML } from '../audio.js';
 import { escapeHTML } from '../ui/dom.js';
 import { recordAttempt, logSession } from '../rewards.js';
 import { afterActivity } from '../ui/celebrate.js';
@@ -160,7 +161,7 @@ export async function render({ outlet, db, query, settings }) {
       qBox.innerHTML = `
         ${q.kind === 'picture'
           ? `<img class="q__img" src="${escapeHTML(q.image)}" alt="題目圖片" width="120" height="120"><p class="q__prompt center">這是什麼？</p>`
-          : `<p class="q__sentence en" data-testid="speed-word">${escapeHTML(q.prompt)}</p><p class="q__prompt center">中文是？</p>`}
+          : `<p class="q__sentence en"><span data-testid="speed-word">${escapeHTML(q.prompt)}</span>${q.audio ? playButtonHTML(q.audio, '🔊', 'play-btn--inline') : ''}</p><p class="q__prompt center">中文是？</p>`}
         <div class="q__options">${q.options.map((o, i) => `<button type="button" class="opt${q.kind === 'picture' ? ' en' : ''}" data-opt="${i}">${escapeHTML(o)}</button>`).join('')}</div>`;
     }
 

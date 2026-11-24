@@ -64,7 +64,11 @@
             "黑色（的）"
           ],
           "answer": "藍色（的）",
-          "explanation": "blue /blu/ 是藍色，The sky is blue. 天空是藍色的。"
+          "explanation": "blue /blu/ 是藍色，The sky is blue. 天空是藍色的。",
+          "promptSay": {
+            "text": "blue",
+            "audio": "assets/audio/words/blue.mp3"
+          }
         },
         {
           "id": "v3-yellow-a",
@@ -110,7 +114,11 @@
             "白色（的）"
           ],
           "answer": "白色（的）",
-          "explanation": "white /waɪt/ 是白色，h 不發音。"
+          "explanation": "white /waɪt/ 是白色，h 不發音。",
+          "promptSay": {
+            "text": "white",
+            "audio": "assets/audio/words/white.mp3"
+          }
         },
         {
           "id": "v3-black-a",
@@ -140,7 +148,11 @@
             "咖啡色（的）；棕色（的）"
           ],
           "answer": "粉紅色（的）",
-          "explanation": "pink /pɪŋk/ 是粉紅色；紅色是 red。"
+          "explanation": "pink /pɪŋk/ 是粉紅色；紅色是 red。",
+          "promptSay": {
+            "text": "pink",
+            "audio": "assets/audio/words/pink.mp3"
+          }
         },
         {
           "id": "v3-brown-a",
@@ -201,7 +213,11 @@
             "綠色（的）"
           ],
           "answer": "黃色（的）",
-          "explanation": "yellow 是黃色。"
+          "explanation": "yellow 是黃色。",
+          "promptSay": {
+            "text": "yellow",
+            "audio": "assets/audio/words/yellow.mp3"
+          }
         },
         {
           "id": "v3-green-b",
@@ -276,7 +292,11 @@
             "紅色（的）"
           ],
           "answer": "咖啡色（的）；棕色（的）",
-          "explanation": "brown 是咖啡色、棕色，The door is brown. 門是咖啡色的。"
+          "explanation": "brown 是咖啡色、棕色，The door is brown. 門是咖啡色的。",
+          "promptSay": {
+            "text": "brown",
+            "audio": "assets/audio/words/brown.mp3"
+          }
         }
       ]
     },

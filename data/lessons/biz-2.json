@@ -112,7 +112,11 @@
             "To Chen Ms.,"
           ],
           "answer": "Dear Ms. Chen,",
-          "explanation": "正式稱呼：Dear ＋ Ms./Mr. ＋ 姓氏。"
+          "explanation": "正式稱呼：Dear ＋ Ms./Mr. ＋ 姓氏。",
+          "promptSay": {
+            "text": "email",
+            "audio": "assets/audio/words/email.mp3"
+          }
         },
         {
           "id": "b2-request-a",
@@ -168,7 +172,11 @@
             "Hello,"
           ],
           "answer": "Best regards,",
-          "explanation": "正式結尾：Best regards,"
+          "explanation": "正式結尾：Best regards,",
+          "promptSay": {
+            "text": "email",
+            "audio": "assets/audio/words/email.mp3"
+          }
         },
         {
           "id": "b2-request-b",

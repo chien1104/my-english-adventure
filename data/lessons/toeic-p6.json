@@ -179,7 +179,11 @@
             "被取消"
           ],
           "answer": "被提供",
-          "explanation": "provide 是提供，be provided 是被提供。"
+          "explanation": "provide 是提供，be provided 是被提供。",
+          "promptSay": {
+            "text": "be provided",
+            "audio": "assets/audio/prompts/be-provided.mp3"
+          }
         },
         {
           "id": "p6-ext-2",
@@ -192,7 +196,11 @@
             "維修"
           ],
           "answer": "維修",
-          "explanation": "closed for repairs：因為維修而關閉。"
+          "explanation": "closed for repairs：因為維修而關閉。",
+          "promptSay": {
+            "text": "repairs",
+            "audio": "assets/audio/prompts/repairs.mp3"
+          }
         }
       ]
     }

@@ -306,7 +306,11 @@
           "prompt": "box（箱子）的複數怎麼寫？",
           "hint": "x 結尾",
           "answer": "boxes",
-          "explanation": "x 結尾加 es：box → boxes。"
+          "explanation": "x 結尾加 es：box → boxes。",
+          "promptSay": {
+            "text": "box",
+            "audio": "assets/audio/prompts/box.mp3"
+          }
         },
         {
           "id": "g3-type-chair",
@@ -315,7 +319,11 @@
           "prompt": "chair（椅子）的複數怎麼寫？",
           "hint": "大部分的名詞",
           "answer": "chairs",
-          "explanation": "chair 是大部分的名詞，直接加 s：chairs。"
+          "explanation": "chair 是大部分的名詞，直接加 s：chairs。",
+          "promptSay": {
+            "text": "chair",
+            "audio": "assets/audio/words/chair.mp3"
+          }
         },
         {
           "id": "g3-order-1",

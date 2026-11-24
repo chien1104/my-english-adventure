@@ -123,7 +123,7 @@ export function buildReviewQuestions(words, records, { count = 8, rng = Math.ran
     }
     return {
       id: `rv-${w.id}`, group: w.id, wordId: w.id, type: 'choice',
-      prompt: '這個單字的中文是？', sentence: w.en,
+      prompt: '這個單字的中文是？', sentence: w.en, sentenceAudio: w.audio,
       options: shuffle([w.zh, ...others.map((o) => o.zh)], rng), answer: w.zh,
       explanation: `${w.en} ${w.ipa}（${w.posZh}）是「${w.zh}」。例句：${w.example.en}（${w.example.zh}）`,
     };

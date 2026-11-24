@@ -40,11 +40,12 @@ python3 dev/build_single.py . out/my-english-adventure.html   # 產生單檔版�
 
 ## 音檔
 
-- 206 個 MP3 已在 `assets/audio/`，由開源 Kokoro TTS（kokoro-onnx，模型從 GitHub releases 下載）離線產生。
+- 219 個 MP3 已在 `assets/audio/`，由開源 Kokoro TTS（kokoro-onnx，模型從 GitHub releases 下載）離線產生。
 - `dev/gen_audio.py` 會產生並驗證：句子用 sherpa-onnx Whisper base.en 比對，單字比對音素與課本音標。腳本裡模型路徑寫死為 `/home/claude/tts`，換環境要調整。
+- 題目文字裡的英文（例如「repairs 是什麼意思？」）旁邊有 🔊：`dev/add_prompt_audio.py` 幫每題加 `promptSay`，音檔放 `assets/audio/prompts/`（有單字音檔就沿用）；人名不加。`build_content.py` 最後會自動呼叫它。
 - 稱謂 Ms./Mr. 在 TTS 時會換成 Miz/Mister（畫面仍顯示縮寫）。
 
-## 目前狀態（v1.1）
+## 目前狀態（v1.4）
 
 - P1～P5 全部完成；八大世界共 24 堂課＋限時迷你模擬考。
 - 所有測試通過；版面與按鈕稽核 0 個問題。

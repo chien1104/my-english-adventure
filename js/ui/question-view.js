@@ -6,10 +6,22 @@ function sentenceHTML(sentence) {
   return escapeHTML(sentence).replace('___', '<span class="blank" aria-label="空格">＿＿＿</span>');
 }
 
+// 題目文字裡的英文旁邊放一個小喇叭（只有真的有音檔時才會有 promptSay）
+function promptHTML(q) {
+  const text = escapeHTML(q.prompt);
+  const say = q.promptSay;
+  if (!say?.audio || !say.text) return text;
+  const word = escapeHTML(say.text);
+  const btn = playButtonHTML(say.audio, '🔊', 'play-btn--inline');
+  const at = text.indexOf(word);
+  if (at < 0) return `${text} ${btn}`;
+  return `${text.slice(0, at)}<span class="say"><span class="en">${word}</span>${btn}</span>${text.slice(at + word.length)}`;
+}
+
 export function renderQuestion(container, q, { wordsMap = new Map(), passage = null, allowSkip = false, onAnswer, selected = undefined } = {}) {
   const img = q.image ? wordsMap.get(q.image)?.image : null;
   const parts = [];
-  parts.push(`<p class="q__prompt">${escapeHTML(q.prompt)}</p>`);
+  parts.push(`<p class="q__prompt">${promptHTML(q)}</p>`);
   if (passage) {
     parts.push(`<div class="passage"><span class="passage__label">${escapeHTML(passage.label)}</span><p class="en">${escapeHTML(passage.en).replace(/\n/g, '<br>')}</p></div>`);
   }
@@ -17,7 +29,7 @@ export function renderQuestion(container, q, { wordsMap = new Map(), passage = n
   if (q.scene) parts.push(`<img class="q__scene" src="${escapeHTML(q.scene)}" alt="題目照片" width="320" height="200">`);
   if (img) parts.push(`<img class="q__img" src="${escapeHTML(img)}" alt="題目圖片" width="140" height="140">`);
   if (q.text) parts.push(`<div class="passage"><p class="en">${escapeHTML(q.text).replace(/\n/g, '<br>')}</p></div>`);
-  if (q.sentence) parts.push(`<p class="q__sentence en">${sentenceHTML(q.sentence)}</p>`);
+  if (q.sentence) parts.push(`<p class="q__sentence en">${sentenceHTML(q.sentence)}${q.sentenceAudio ? ' ' + playButtonHTML(q.sentenceAudio, '🔊', 'play-btn--inline') : ''}</p>`);
   if (q.zh) parts.push(`<p class="q__zh">${escapeHTML(q.zh)}</p>`);
   if (q.hint) parts.push(`<p class="q__hint">提示：<span class="en">${escapeHTML(q.hint)}</span></p>`);
 
@@ -87,7 +99,7 @@ export function renderQuestion(container, q, { wordsMap = new Map(), passage = n
 
 // 作答後鎖住畫面並標出對錯
 export function lockQuestion(container, q, answer, correct) {
-  container.querySelectorAll('button, input').forEach((el) => { if (!el.closest('.feedback')) el.disabled = true; });
+  container.querySelectorAll('button, input').forEach((el) => { if (!el.closest('.feedback') && !el.matches('[data-play]')) el.disabled = true; });
   if (q.type === 'choice') {
     container.querySelectorAll('[data-opt]').forEach((b) => {
       const opt = q.options[Number(b.dataset.opt)];

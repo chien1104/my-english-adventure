@@ -67,7 +67,11 @@
           "answer": "印表機",
           "explanation": "printer 是印表機，print 是列印。",
           "wordId": "printer",
-          "sentence": "printer"
+          "sentence": "printer",
+          "promptSay": {
+            "text": "printer",
+            "audio": "assets/audio/words/printer.mp3"
+          }
         },
         {
           "id": "b1-meeting-a",
@@ -113,7 +117,11 @@
           "answer": "經理",
           "explanation": "manager /ˈmænɪdʒər/ 是經理。",
           "wordId": "manager",
-          "sentence": "manager"
+          "sentence": "manager",
+          "promptSay": {
+            "text": "manager",
+            "audio": "assets/audio/words/manager.mp3"
+          }
         },
         {
           "id": "b1-report-a",
@@ -159,7 +167,11 @@
           "answer": "書桌；辦公桌",
           "explanation": "desk 是書桌、辦公桌。",
           "wordId": "desk",
-          "sentence": "desk"
+          "sentence": "desk",
+          "promptSay": {
+            "text": "desk",
+            "audio": "assets/audio/words/desk.mp3"
+          }
         }
       ],
       "similar": [
@@ -266,7 +278,11 @@
           "answer": "行程表；時間表",
           "explanation": "schedule 是行程表、時間表。",
           "wordId": "schedule",
-          "sentence": "schedule"
+          "sentence": "schedule",
+          "promptSay": {
+            "text": "schedule",
+            "audio": "assets/audio/words/schedule.mp3"
+          }
         },
         {
           "id": "b1-desk-b",

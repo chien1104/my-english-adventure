@@ -292,7 +292,11 @@
           "prompt": "「試穿」的片語是 try it ___，空格填什麼？",
           "hint": "2 個字母",
           "answer": "on",
-          "explanation": "試穿：try it on。"
+          "explanation": "試穿：try it on。",
+          "promptSay": {
+            "text": "try it",
+            "audio": "assets/audio/prompts/try-it.mp3"
+          }
         }
       ]
     }

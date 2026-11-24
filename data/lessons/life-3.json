@@ -285,7 +285,11 @@
           "prompt": "「右轉」的英文是 turn ___，空格填什麼？",
           "hint": "r 開頭，5 個字母",
           "answer": "right",
-          "explanation": "右轉 turn right，左轉 turn left。"
+          "explanation": "右轉 turn right，左轉 turn left。",
+          "promptSay": {
+            "text": "turn",
+            "audio": "assets/audio/prompts/turn.mp3"
+          }
         }
       ]
     }

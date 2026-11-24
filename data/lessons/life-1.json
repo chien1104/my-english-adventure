@@ -222,7 +222,11 @@
             "Salad me, please."
           ],
           "answer": "Can I have a salad, please?",
-          "explanation": "Can I have ＋ 餐點, please? 是我想要；Can you have 變成問對方。"
+          "explanation": "Can I have ＋ 餐點, please? 是我想要；Can you have 變成問對方。",
+          "promptSay": {
+            "text": "salad",
+            "audio": "assets/audio/prompts/salad.mp3"
+          }
         },
         {
           "id": "l1-check-b",

@@ -178,7 +178,11 @@
             "It is cheap."
           ],
           "answer": "It is broken.",
-          "explanation": "doesn't work（不能用）＝ is broken（壞了）。"
+          "explanation": "doesn't work（不能用）＝ is broken（壞了）。",
+          "promptSay": {
+            "text": "It doesn't work.",
+            "audio": "assets/audio/prompts/it-doesnt-work.mp3"
+          }
         },
         {
           "id": "p3-ext-2",
@@ -191,7 +195,11 @@
             "借錢"
           ],
           "answer": "退款",
-          "explanation": "get your money back：拿回你的錢，也就是退款。"
+          "explanation": "get your money back：拿回你的錢，也就是退款。",
+          "promptSay": {
+            "text": "money back",
+            "audio": "assets/audio/prompts/money-back.mp3"
+          }
         }
       ]
     }

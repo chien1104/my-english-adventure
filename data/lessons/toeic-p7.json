@@ -181,7 +181,11 @@
             "菜單"
           ],
           "answer": "履歷",
-          "explanation": "résumé（也寫 resume）是履歷。"
+          "explanation": "résumé（也寫 resume）是履歷。",
+          "promptSay": {
+            "text": "résumé",
+            "audio": "assets/audio/prompts/resume.mp3"
+          }
         },
         {
           "id": "p7-ext-2",
@@ -194,7 +198,11 @@
             "加班"
           ],
           "answer": "兼職",
-          "explanation": "part-time 兼職；full-time 全職。"
+          "explanation": "part-time 兼職；full-time 全職。",
+          "promptSay": {
+            "text": "part-time",
+            "audio": "assets/audio/prompts/part-time.mp3"
+          }
         }
       ]
     }

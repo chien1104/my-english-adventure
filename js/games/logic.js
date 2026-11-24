@@ -65,7 +65,7 @@ export function speedQuestion(words, rng = Math.random, avoidId = null) {
   if (usePicture) {
     return { wordId: w.id, kind: 'picture', image: w.image, options: shuffle([w.en, ...others.map((o) => o.en)], rng), answer: w.en };
   }
-  return { wordId: w.id, kind: 'en', prompt: w.en, options: shuffle([w.zh, ...others.map((o) => o.zh)], rng), answer: w.zh };
+  return { wordId: w.id, kind: 'en', prompt: w.en, audio: w.audio, options: shuffle([w.zh, ...others.map((o) => o.zh)], rng), answer: w.zh };
 }
 
 // ---------- 拼字工坊 ----------

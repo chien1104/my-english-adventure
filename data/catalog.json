@@ -1,5 +1,5 @@
 {
-  "contentVersion": "2026.11.17-full",
+  "contentVersion": "2026.11.24-say",
   "diagnosis": "data/diagnosis.json",
   "vocab": [
     "data/vocab/breakfast.json",
