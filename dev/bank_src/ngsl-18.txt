@@ -78,7 +78,7 @@ critic|n.|評論家|gen|The critics loved the movie.|影評人很喜歡這部電
 variable|n./adj.|變數；多變的|gen|The weather is variable this week.|這星期天氣多變。
 enormous|adj.|巨大的|gen|The new mall is enormous.|新的購物中心非常大。
 sweet|adj.|甜的|din|This cake is too sweet.|這個蛋糕太甜了。
-permanent|adj.|永久的；正職的|hr|She got a permanent job.|她得到了一份正職工作。
+permanent|adj.|永久的；正職的|hr|She got a permanent job.|她得到了一份正職工作。|/ˈpɜrmənənt/
 emotion|n.|情緒|gen|He doesn't show his emotions.|他不會表露情緒。
 pursue|v.|追求|hr|I want to pursue a career in design.|我想從事設計工作。
 tall|adj.|高的|gen|He is very tall.|他很高。

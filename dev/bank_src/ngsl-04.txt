@@ -42,7 +42,7 @@ matter|n./v.|事情；要緊|gen|It doesn't matter.|沒關係。
 mind|n./v.|心思；介意|gen|Do you mind if I sit here?|你介意我坐這裡嗎？
 value|n.|價值|shp|This bag is good value for money.|這個包包很划算。
 office|n.|辦公室|off|My office is on the fifth floor.|我的辦公室在五樓。
-record|n./v.|紀錄；記錄|off|Keep a record of your expenses.|記錄你的開支。
+record|n./v.|紀錄；記錄|off|Keep a record of your expenses.|記錄你的開支。|/ˈrɛkərd/
 stay|v.|停留；住|trv|We stayed at a small hotel.|我們住在一家小飯店。
 force|n./v.|力量；強迫|gen|The rain forced us to stay inside.|下雨逼得我們待在室內。
 stop|v.|停止|gen|The bus stops here.|公車停在這裡。

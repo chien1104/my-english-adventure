@@ -25,7 +25,7 @@ continental|adj.|大陸的；歐式的|din|The hotel serves a continental breakf
 copyright|n.|版權|biz|The company owns the copyright.|這家公司擁有版權。
 countryside|n.|鄉村|trv|We drove through the countryside.|我們開車穿過鄉間。
 demolish|v.|拆除|fac|The old building will be demolished.|那棟舊大樓將被拆除。
-departmental|adj.|部門的|off|We have a departmental meeting at ten.|我們十點有部門會議。
+departmental|adj.|部門的|off|We have a departmental meeting at ten.|我們十點有部門會議。|/ˌdipɑrtˈmɛntəl/
 desperate|adj.|迫切的；絕望的|gen|We are desperate for more staff.|我們急需更多人手。
 devastate|v.|摧毀；使震驚|gen|The storm devastated the town.|暴風雨摧毀了這個小鎮。
 diagnostic|adj.|診斷的|hlt|The clinic does diagnostic tests.|這家診所做診斷檢查。
@@ -68,7 +68,7 @@ overcrowded|adj.|過度擁擠的|trn|The train was overcrowded.|火車太擠了�
 paralegal|n.|律師助理|hr|She works as a paralegal.|她是律師助理。
 partially|adv.|部分地|gen|The road is partially closed.|這條路部分封閉。
 pepper|n.|胡椒；甜椒|din|Add salt and pepper.|加點鹽和胡椒。
-permanently|adv.|永久地|gen|The store is permanently closed.|這家店永久停業了。
+permanently|adv.|永久地|gen|The store is permanently closed.|這家店永久停業了。|/ˈpɜrmənəntli/
 plow|v.|犁（田）；剷（雪）|trn|Trucks plowed the snow off the road.|卡車把路上的雪剷掉了。
 query|n.|詢問；疑問|off|Please send your queries by email.|請用電子郵件寄送你的問題。
 railway|n.|鐵路|trn|The railway station is near the hotel.|火車站在飯店附近。

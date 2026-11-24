@@ -1,5 +1,5 @@
 # NGSL 601-700
-particularly|adv.|特別；尤其|gen|I particularly like the dessert.|我特別喜歡這道甜點。
+particularly|adv.|特別；尤其|gen|I particularly like the dessert.|我特別喜歡這道甜點。|/pərˈtɪkjələrli/
 wife|n.|妻子|gen|This is my wife, Lisa.|這是我太太麗莎。
 sport|n.|運動|gen|What sports do you play?|你做什麼運動？
 prepare|v.|準備|mtg|I need to prepare for the meeting.|我需要為會議做準備。
@@ -60,7 +60,7 @@ represent|v.|代表|biz|She represents our company.|她代表我們公司。
 key|n./adj.|鑰匙；關鍵的|gen|This is the key point.|這是關鍵重點。
 inside|adv./prep.|在裡面|gen|Let's go inside.|我們進去裡面吧。
 manager|n.|經理|hr|I'd like to speak to the manager.|我想和經理談談。
-international|adj.|國際的|trv|This is an international flight.|這是國際航班。
+international|adj.|國際的|trv|This is an international flight.|這是國際航班。|/ˌɪntərˈnæʃənəl/
 contain|v.|包含|din|This drink contains sugar.|這種飲料含有糖。
 notice|v./n.|注意到；通知|off|Did you notice the change?|你有注意到這個改變嗎？
 wonder|v.|想知道|gen|I wonder if you can help me.|不知道你能不能幫我。

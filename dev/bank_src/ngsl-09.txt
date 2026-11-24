@@ -54,7 +54,7 @@ throw|v.|丟；扔|gen|Don't throw trash on the street.|不要在街上亂丟垃
 task|n.|任務；工作|off|I have many tasks today.|我今天有很多工作。
 normal|adj.|正常的|gen|Everything is normal.|一切都正常。
 goal|n.|目標|gen|My goal is to get 550 on the TOEIC.|我的目標是多益考到 550 分。
-associate|v./n.|聯想；同事|gen|I associate summer with the beach.|我會把夏天聯想到海灘。
+associate|v./n.|聯想；同事|gen|I associate summer with the beach.|我會把夏天聯想到海灘。|/əˈsoʊsieɪt/
 blue|adj.|藍色的|gen|The sky is blue.|天空是藍色的。
 positive|adj.|正面的；肯定的|gen|We got positive feedback.|我們得到了正面的回饋。
 option|n.|選項|gen|There are three options.|有三個選項。
@@ -87,7 +87,7 @@ obviously|adv.|顯然地|gen|Obviously, he was tired.|顯然他累了。
 unclear|adj.|不清楚的|gen|The instructions are unclear.|說明不清楚。
 bill|n.|帳單；鈔票|fin|I need to pay the phone bill.|我需要繳電話費。
 search|v./n.|搜尋|gen|Search for the file on your computer.|在你的電腦上搜尋這個檔案。
-separate|adj./v.|分開的；分開|shp|Can we have separate checks?|我們可以分開結帳嗎？
+separate|adj./v.|分開的；分開|shp|Can we have separate checks?|我們可以分開結帳嗎？|/ˈsɛpərət/
 central|adj.|中央的；主要的|gen|The hotel is in a central location.|飯店位在市中心。
 career|n.|職業生涯|hr|I want a career in sales.|我想從事業務工作。
 anyway|adv.|無論如何；總之|gen|Thanks anyway.|還是謝謝你。

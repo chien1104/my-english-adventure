@@ -85,7 +85,7 @@ button|n.|按鈕；扣子|gen|Press the red button.|按紅色按鈕。
 burden|n.|負擔|gen|I don't want to be a burden.|我不想成為負擔。
 desert|n.|沙漠|trv|We drove through the desert.|我們開車穿越沙漠。
 mate|n.|同伴；夥伴|gen|He is my roommate.|他是我的室友。
-occasionally|adv.|偶爾|gen|I occasionally work late.|我偶爾會加班。
+occasionally|adv.|偶爾|gen|I occasionally work late.|我偶爾會加班。|/əˈkeɪʒənəli/
 shareholder|n.|股東|fin|The shareholders meet once a year.|股東每年開會一次。
 bowl|n.|碗|din|I'd like a bowl of soup.|我要一碗湯。
 discovery|n.|發現|gen|It was an important discovery.|那是一項重要的發現。

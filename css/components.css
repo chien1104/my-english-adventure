@@ -345,6 +345,10 @@ mark { background: #F6DFA8; color: inherit; border-radius: 4px; padding: 0 2px; 
   align-items: center; padding: var(--sp-2) var(--sp-3); cursor: pointer; list-style: none; }
 .word-row summary::-webkit-details-marker { display: none; }
 .word-row summary img { grid-row: 1 / span 2; }
+/* 單字庫的字沒有插圖：英文直接從第一欄開始 */
+.word-row summary:not(:has(img)) { grid-template-columns: 1fr auto; }
+.word-row summary:not(:has(img)) .word-row__zh { grid-column: 1; }
+.word-row summary:not(:has(img)) .status { grid-column: 2; }
 .word-row__en { font-weight: 700; font-size: 1.05rem; }
 .word-row__zh { grid-column: 2; font-size: var(--fs-sm); color: var(--c-ink-soft); }
 .word-row .status { grid-column: 3; grid-row: 1 / span 2; }
@@ -589,4 +593,3 @@ mark { background: #F6DFA8; color: inherit; border-radius: 4px; padding: 0 2px; 
 .unit-card__no { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; background: var(--c-milktea-soft); color: var(--c-brown-deep); }
 .unit-card.is-done .unit-card__no { background: var(--c-good-bg); color: var(--c-good); }
 .unit-card__state { color: var(--c-ink-soft); text-align: right; }
-.unit-card__body .muted { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

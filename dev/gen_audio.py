@@ -13,16 +13,28 @@ ONLY = sys.argv[2] if len(sys.argv) > 2 else ''  # 只產生路徑包含這段�
 # 可以分成兩個程序同時跑（例如一個跑 sentences/、一個跑 words/）：各自寫自己的快取檔，讀取時合併
 import glob as _glob
 CACHE_DIR = '/home/claude/tools'
-CACHE_F = os.path.join(CACHE_DIR, f'audio_cache{"-" + ONLY.strip("/") if ONLY else ""}.json')
+REVERSE = os.environ.get('REVERSE') == '1'  # 從清單尾端往前做（讓第二個程序分擔同一類音檔）
+CACHE_F = os.path.join(CACHE_DIR, f'audio_cache{"-" + ONLY.strip("/") if ONLY else ""}{"-rev" if REVERSE else ""}.json')
 cache = {}
 for _f in sorted(_glob.glob(os.path.join(CACHE_DIR, 'audio_cache*.json'))):
     cache.update(json.load(open(_f)))
 k = Kokoro('kokoro-v1.0.onnx' if os.path.exists('kokoro-v1.0.onnx') else 'kokoro-v1.0.int8.onnx', 'voices-v1.0.bin')
 SR = 24000
 
+# buffet（自助餐）要唸 /bəˈfeɪ/，語音引擎預設唸成動詞 /ˈbʌfɪt/
+PHON_FIX = [('bˈʌfɪt', 'bəfˈeɪ'),           # buffet（自助餐）
+            ('dˈuːplᵻkˌeɪt', 'dˈuːplᵻkət'),  # duplicate（名詞：副本）
+            ('kˈɑːnstɹʌkt', 'kənstɹˈʌkt'),   # construct（動詞）
+            ('ˈætɹɪbjˌuːt', 'ɐtɹˈɪbjuːt')]   # attribute（動詞）
 SPOKEN = [('Mrs.', 'Missus'), ('Ms.', 'Miz'), ('Mr.', 'Mister')]
 def synth(text, voice, speed):
     for a, b in SPOKEN: text = text.replace(a, b)   # 稱謂唸成完整的字，不要逐字母拼
+    ph = k.tokenizer.phonemize(text, 'en-us')
+    fixed = ph
+    for a, b in PHON_FIX: fixed = fixed.replace(a, b)
+    if fixed != ph:  # 語音引擎唸錯的字：直接給正確的音素
+        s, sr = k.create(fixed, voice=voice, speed=speed, lang='en-us', is_phonemes=True)
+        return s.astype('float32')
     s, sr = k.create(text, voice=voice, speed=speed, lang='en-us')
     return s.astype('float32')
 
@@ -74,15 +86,19 @@ def loose_ipa(s):
         s = s.replace(a, b)
     return s.strip('.')
 
+import time as _time
+START = _time.time() - 3 * 3600
 issues = []
 done = 0
-for path, entry in sorted(MAN.items()):
+for path, entry in sorted(MAN.items(), reverse=REVERSE):
     key = hashlib.sha1(json.dumps(entry, sort_keys=True).encode()).hexdigest()
     out = os.path.join(ROOT, path)
     if cache.get(path, {}).get('key') == key and os.path.exists(out):
         continue
     if ONLY and ONLY not in path:
         continue
+    if REVERSE and os.path.exists(out) and os.path.getmtime(out) > START:
+        break  # 已經和另一個程序在中間碰頭
     print('→', path, flush=True)
     samples = build(entry)
     to_mp3(samples, out, '32k' if entry.get('bank') else '48k')

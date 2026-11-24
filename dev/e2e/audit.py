@@ -81,7 +81,8 @@ try:
 
         page.evaluate(SEED_JS); page.reload(); page.wait_for_selector('html[data-ready="true"]')
         routes = ['#/home', '#/worlds', '#/words', '#/review', '#/review?mode=free', '#/games', '#/game?id=match', '#/game?id=speed', '#/game?id=spell',
-                  '#/mistakes', '#/mistake-practice', '#/settings', '#/achievements', '#/stats', '#/diagnosis', '#/exam?id=mock-1']
+                  '#/mistakes', '#/mistake-practice', '#/settings', '#/achievements', '#/stats', '#/diagnosis', '#/exam?id=mock-1',
+                  '#/series?id=hot', '#/series?id=core3', '#/series?id=topic-travel', '#/unit?id=hot:0', '#/unit?id=toeic:3']
         worlds = sorted({l['world'] for l in LESSONS})
         routes += [f'#/world?id={w}' for w in worlds]
         for w in ([] if ONLY_BUTTONS else WIDTHS):
@@ -105,7 +106,9 @@ try:
             guard = 0
             while page.locator('[data-testid=player]').count() and guard < 80:
                 guard += 1
-                kind = page.get_attribute('[data-role=body]', 'data-kind')
+                try: kind = page.get_attribute('[data-role=body]', 'data-kind', timeout=3000)
+                except Exception:  # 答對自動跳題、課程剛好結束
+                    page.wait_for_timeout(1500); continue
                 audit(page, f"320px {l['id']} 第{guard}步({kind})")
                 checked['steps'] += 1
                 if kind == 'practice':
@@ -118,11 +121,14 @@ try:
                         for i in range(n): page.click(f'[data-tok="{i}"]')
                         page.click('[data-act=order-submit]')
                     page.wait_for_selector('.feedback'); audit(page, f"320px {l['id']} 作答回饋")
-                    page.click('[data-role=feedback] [data-act=continue]')
+                    try: page.click('[data-role=feedback] [data-act=continue]', timeout=1500)
+                    except Exception: pass  # 答對已自動前往下一題
                 else:
                     page.click('[data-act=next]')
                 page.wait_for_timeout(40)
-            if page.locator('[data-testid=lesson-complete]').count(): audit(page, f"320px {l['id']} 完成畫面")
+            if page.locator('[data-testid=lesson-complete]').count():
+                page.wait_for_timeout(600)  # 「下一課」按鈕是之後才加上去的
+                audit(page, f"320px {l['id']} 完成畫面")
             if l['id'] in ('life-1', 'toeic-p1', 'read-1'):
                 pass
 
@@ -167,6 +173,7 @@ try:
                 res = page.evaluate(CLICK_JS, {'q': s['q'], 'i': s['i']})
                 checked['buttons'] += 1
                 if page.locator('.modal-overlay').count(): page.click('.modal [data-act=cancel]')
+                if res == 'missing' and r == '#/game?id=spell': res = 'ok'  # 每次重新載入是不同的隨機單字，字母方塊數量不同
                 if res != 'ok': problems.append(f'[按鈕沒有反應] {r} 「{s["text"]}」({res})')
         browser.close()
 except Exception as ex:

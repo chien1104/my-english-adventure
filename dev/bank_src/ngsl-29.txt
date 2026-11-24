@@ -14,7 +14,7 @@ eight|num.|八|gen|I work eight hours a day.|我一天工作八小時。
 nine|num.|九|gen|The office opens at nine.|辦公室九點開門。
 billion|num.|十億|fin|The company is worth a billion dollars.|這家公司價值十億美元。
 twenty|num.|二十|gen|The bus takes twenty minutes.|公車要坐二十分鐘。
-thirty|num.|三十|gen|The class has thirty students.|這個班有三十個學生。
+thirty|num.|三十|gen|The class has thirty students.|這個班有三十個學生。|/ˈθɜrti/
 fifty|num.|五十|gen|I paid fifty dollars.|我付了五十美元。
 twelve|num.|十二|gen|We have lunch at twelve.|我們十二點吃午餐。
 fifteen|num.|十五|gen|The break is fifteen minutes.|休息時間十五分鐘。

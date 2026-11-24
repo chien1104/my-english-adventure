@@ -60,7 +60,7 @@ address|n./v.|地址；處理|gen|What is your address?|你的地址是什麼？
 performance|n.|表現；表演|hr|Her performance this year was great.|她今年的表現很好。
 chance|n.|機會|gen|Give me a chance.|給我一個機會。
 accept|v.|接受|shp|We accept credit cards.|我們接受信用卡。
-society|n.|社會|gen|Technology changes society.|科技改變社會。
+society|n.|社會|gen|Technology changes society.|科技改變社會。|/səˈsaɪəti/
 technology|n.|科技|biz|We use new technology.|我們使用新科技。
 mention|v.|提到|gen|He mentioned your name.|他提到你的名字。
 choice|n.|選擇|gen|You have three choices.|你有三個選擇。

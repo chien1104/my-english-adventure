@@ -1,5 +1,5 @@
 # TSL 701-800
-tuition|n.|學費|gen|The company pays part of my tuition.|公司幫我付一部分學費。
+tuition|n.|學費|gen|The company pays part of my tuition.|公司幫我付一部分學費。|/tuˈɪʃən/
 unavailable|adj.|沒空的；無法取得的|off|Mr. Wang is unavailable today.|王先生今天沒空。
 violation|n.|違反；違規|gen|Parking here is a violation.|在這裡停車是違規的。
 webpage|n.|網頁|biz|The webpage has all the details.|這個網頁有所有的細節。|/ˈwɛbpeɪdʒ/
@@ -55,7 +55,7 @@ tablet|n.|平板電腦；藥片|off|I read the news on my tablet.|我用平板�
 ton|n.|公噸；大量|log|The truck carries ten tons of rice.|這輛卡車載著十公噸的米。
 vending machine|n.|自動販賣機|shp|There is a vending machine in the lobby.|大廳有一台自動販賣機。
 yoga|n.|瑜珈|hlt|I take a yoga class on Mondays.|我星期一上瑜珈課。
-accent|n.|口音|gen|She speaks with a British accent.|她說話有英國口音。
+accent|n.|口音|gen|She speaks with a British accent.|她說話有英國口音。|/ˈæksɛnt/
 advisory|adj.|顧問的；諮詢的|biz|He sits on the advisory board.|他是諮詢委員會的成員。
 asleep|adj.|睡著的|gen|The baby is asleep.|寶寶睡著了。
 authentic|adj.|道地的；真正的|din|This restaurant serves authentic Thai food.|這家餐廳供應道地的泰國菜。

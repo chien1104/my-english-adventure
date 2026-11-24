@@ -12,7 +12,7 @@ formation|n.|形成；組成|gen|The formation of the team took a month.|組成�
 deposit|n./v.|訂金；存款|fin|You need to pay a deposit.|你需要付訂金。
 pleasant|adj.|令人愉快的|gen|We had a pleasant trip.|我們的旅途很愉快。
 overseas|adv./adj.|在海外；海外的|trv|She works overseas.|她在海外工作。
-advocate|v./n.|提倡；擁護者|gen|We advocate healthy eating.|我們提倡健康飲食。
+advocate|v./n.|提倡；擁護者|gen|We advocate healthy eating.|我們提倡健康飲食。|/ˈædvəkeɪt/
 establishment|n.|機構；設立|biz|This is a family establishment.|這是一家家族經營的店。
 summary|n.|摘要|mtg|Here is a summary of the meeting.|這是會議摘要。
 rough|adj.|粗糙的；大概的|fin|Give me a rough estimate.|給我一個大概的估價。

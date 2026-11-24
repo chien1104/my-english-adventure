@@ -28,7 +28,7 @@ second|adj./n.|第二的；秒|gen|My office is on the second floor.|我的辦�
 though|conj./adv.|雖然；不過|gen|It's small, though it's nice.|它很小，不過很棒。
 yes|adv.|是；對|gen|Yes, I can come.|是的，我可以來。
 love|v.|愛；很喜歡|gen|I love this city.|我很愛這個城市。
-increase|v./n.|增加|biz|Sales increased this year.|今年銷售增加了。
+increase|v./n.|增加|biz|Sales increased this year.|今年銷售增加了。|/ɪnˈkris/
 job|n.|工作|hr|I have a new job.|我有新工作了。
 plan|n./v.|計畫|gen|What are your plans for the weekend?|你週末有什麼計畫？
 result|n.|結果|gen|The test results are ready.|檢查結果出來了。

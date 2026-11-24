@@ -20,7 +20,7 @@ stimulate|v.|刺激；促進|biz|Low prices stimulate sales.|低價能刺激銷�
 belt|n.|腰帶；安全帶|trv|Fasten your seat belt.|繫好安全帶。
 potato|n.|馬鈴薯|din|I'd like some potato salad.|我要一些馬鈴薯沙拉。
 narrative|n.|敘述；故事|gen|The book has a simple narrative.|這本書的敘事很簡單。
-tissue|n.|面紙；組織|gen|Can I have a tissue?|可以給我一張面紙嗎？
+tissue|n.|面紙；組織|gen|Can I have a tissue?|可以給我一張面紙嗎？|/ˈtɪʃu/
 barely|adv.|幾乎沒有；勉強|gen|I barely slept last night.|我昨晚幾乎沒睡。
 invent|v.|發明|gen|Who invented the telephone?|電話是誰發明的？
 tourism|n.|觀光業|trv|Tourism is important to the island.|觀光業對這座島很重要。

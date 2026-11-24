@@ -2,7 +2,7 @@
 clip|n.|迴紋針；夾子；短片|off|Use a paper clip to hold the pages.|用迴紋針把這幾頁夾住。
 comply|v.|遵守；服從|hr|All factories must comply with safety rules.|所有工廠都必須遵守安全規定。
 diner|n.|用餐者；小餐館|din|The diners enjoyed the meal.|用餐的客人很喜歡這頓飯。
-duplicate|n.|副本；複製品|off|Please keep a duplicate of the receipt.|請保留收據的副本。
+duplicate|n.|副本；複製品|off|Please keep a duplicate of the receipt.|請保留收據的副本。|/ˈdupləkət/
 eager|adj.|渴望的；熱切的|hr|She is eager to learn.|她很渴望學習。
 economist|n.|經濟學家|fin|The economist expects prices to rise.|經濟學家預測物價會上漲。
 embassy|n.|大使館|trv|Apply for a visa at the embassy.|到大使館申請簽證。
@@ -13,7 +13,7 @@ institute|n.|機構；學院|gen|She works at a research institute.|她在一間
 kit|n.|一套工具；套件|hlt|Where is the first-aid kit?|急救箱在哪裡？
 locally|adv.|在當地|din|We use locally grown vegetables.|我們使用當地種植的蔬菜。
 mentor|n.|導師；指導者|hr|My mentor helped me a lot.|我的導師幫了我很多。
-nominate|v.|提名|hr|She was nominated for the award.|她被提名角逐這個獎。
+nominate|v.|提名|hr|She was nominated for the award.|她被提名角逐這個獎。|/ˈnɑməneɪt/
 opt|v.|選擇|gen|Many workers opt to work from home.|許多員工選擇在家工作。
 parade|n.|遊行|gen|The parade starts at noon.|遊行在中午開始。
 physician|n.|醫師|hlt|Ask your physician before taking this.|服用前請先詢問你的醫師。
@@ -72,7 +72,7 @@ candy|n.|糖果|shp|The kids want some candy.|孩子們想要糖果。
 certify|v.|證明；認證|hr|She is certified to teach English.|她有教英文的證照。
 checkout|n.|結帳台；退房|shp|Please pay at the checkout.|請到結帳台付款。
 chemistry|n.|化學|gen|He teaches chemistry.|他教化學。
-circulation|n.|發行量；流通|biz|The newspaper has a large circulation.|這份報紙的發行量很大。
+circulation|n.|發行量；流通|biz|The newspaper has a large circulation.|這份報紙的發行量很大。|/ˌsɜrkjəˈleɪʃən/
 concierge|n.|（飯店）服務台人員|trv|Ask the concierge for a taxi.|請飯店服務台幫你叫計程車。|/ˌkɑnsiˈɛrʒ/
 consent|n.|同意；許可|gen|We need your written consent.|我們需要你的書面同意。
 consistently|adv.|一貫地；始終如一地|biz|Our sales have been consistently high.|我們的銷售一直都很好。

@@ -21,7 +21,7 @@ conform|v.|符合；遵守|log|The product conforms to safety standards.|這項�
 congestion|n.|（交通）壅塞|trn|There is heavy congestion downtown.|市中心交通很擁擠。
 contradiction|n.|矛盾|gen|There is a contradiction in his story.|他的說法有矛盾。
 contrary|n.|（on the contrary）相反地|gen|On the contrary, I liked it a lot.|相反地，我非常喜歡。
-diploma|n.|畢業證書；文憑|hr|She has a diploma in nursing.|她有護理文憑。
+diploma|n.|畢業證書；文憑|hr|She has a diploma in nursing.|她有護理文憑。|/dɪˈploʊmə/
 distributor|n.|經銷商|biz|We are the local distributor of their products.|我們是他們產品的當地經銷商。
 dive|v.|潛水；跳水|trv|We went diving in Kenting.|我們去墾丁潛水。
 energetic|adj.|精力充沛的|hr|She is an energetic speaker.|她是一位活力十足的講者。
@@ -51,7 +51,7 @@ steak|n.|牛排|din|How would you like your steak?|你的牛排要幾分熟？
 sticker|n.|貼紙|shp|Put a price sticker on each box.|在每個盒子上貼價格貼紙。
 telecommunication|n.|電信（常用複數）|biz|She works in telecommunications.|她在電信業工作。
 timely|adj.|及時的|biz|Thank you for your timely reply.|謝謝你及時回覆。
-uncomfortable|adj.|不舒服的|gen|These chairs are uncomfortable.|這些椅子坐起來不舒服。
+uncomfortable|adj.|不舒服的|gen|These chairs are uncomfortable.|這些椅子坐起來不舒服。|/ʌnˈkʌmfərtəbəl/
 amenity|n.|設施（常用複數）|trv|The hotel has many amenities.|這家飯店有很多設施。
 approximate|adj.|大約的|fin|What is the approximate cost?|大約要花多少錢？
 await|v.|等待|gen|We await your reply.|我們等候你的回覆。
@@ -74,7 +74,7 @@ enthusiastically|adv.|熱情地|gen|The crowd clapped enthusiastically.|觀眾�
 freelance|adj.|自由接案的|hr|He is a freelance designer.|他是自由接案的設計師。
 grill|v.|燒烤|din|We grilled fish for dinner.|我們晚餐烤魚。
 habitual|adj.|習慣性的|gen|He is a habitual late riser.|他習慣晚起。
-internationally|adv.|國際地|biz|The brand is known internationally.|這個品牌在國際上很有名。
+internationally|adv.|國際地|biz|The brand is known internationally.|這個品牌在國際上很有名。|/ˌɪntərˈnæʃənəli/
 invaluable|adj.|非常寶貴的|hr|Your help was invaluable.|你的幫忙非常寶貴。
 messenger|n.|送信人；信差|log|A messenger brought the documents.|信差送來了文件。
 paperback|n.|平裝書|shp|The paperback is cheaper.|平裝本比較便宜。

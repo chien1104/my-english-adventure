@@ -9,7 +9,7 @@ majority|n.|大多數|gen|The majority of staff agreed.|大多數員工同意了
 stick|v./n.|黏貼；棍子|off|Stick the note on the door.|把便條貼在門上。
 request|n./v.|要求；請求|off|We received your request.|我們收到你的請求了。
 rich|adj.|富有的；豐富的|gen|This food is rich in vitamins.|這種食物富含維他命。
-wind|n.|風|gen|The wind is very strong today.|今天風很強。
+wind|n.|風|gen|The wind is very strong today.|今天風很強。|/wɪnd/
 none|pron.|一個也沒有|gen|None of the rooms are free.|沒有一間房是空的。
 exchange|v./n.|交換；兌換|fin|I want to exchange money.|我想換錢。
 budget|n.|預算|fin|We are over budget.|我們超出預算了。

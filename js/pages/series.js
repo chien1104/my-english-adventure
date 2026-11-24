@@ -27,7 +27,7 @@ export async function render({ outlet, db, query }) {
         const up = unitProgress(ids, ctx.records);
         const saved = ctx.progressById.get(unitKey(`${s.id}:${i}`));
         const state = saved?.status === 'in_progress' ? '進行中' : up.done ? '已學完' : up.learned ? `已學 ${up.learned}/${up.total}` : '';
-        const preview = ids.slice(0, 4).map((id) => ctx.wordsMap.get(id)?.en).filter(Boolean).join('、');
+        const preview = ids.slice(0, 3).map((id) => ctx.wordsMap.get(id)?.en).filter(Boolean).join('、');
         return `<li><a class="unit-card${up.done ? ' is-done' : ''}" href="#/unit?id=${s.id}:${i}" data-unit="${i}">
           <span class="unit-card__no en">${i + 1}</span>
           <span class="unit-card__body"><strong>第 ${i + 1} 單元</strong><span class="muted small en">${escapeHTML(preview)}…</span></span>

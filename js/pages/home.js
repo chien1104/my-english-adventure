@@ -176,9 +176,6 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
     paintPlan(today.mode, st.modeMinutes[today.mode]);
   }
   paint();
-  await paintTasks();
-  if (settled.results.length) celebrate(settled.results);
-
   function onClick(e) {
     const btn = e.target.closest('[data-mode]');
     if (!btn) return;
@@ -189,6 +186,9 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
     paintTasks();
   }
   grid.addEventListener('click', onClick);
+  await paintTasks();
+  if (settled.results.length) celebrate(settled.results);
+
   refreshIndicator?.();
 
   return () => grid.removeEventListener('click', onClick);

@@ -40,7 +40,7 @@ schedule|n./v.|時間表；安排|off|Let me check my schedule.|讓我看一下�
 speaker|n.|講者；喇叭|mtg|The speaker talked about sales.|講者談論銷售。
 bottom|n.|底部|gen|Sign at the bottom of the page.|在頁面最下方簽名。
 adopt|v.|採用；收養|biz|We adopted a new system.|我們採用了新系統。
-combine|v.|結合|gen|Combine the two files.|把兩個檔案合併。
+combine|v.|結合|gen|Combine the two files.|把兩個檔案合併。|/kəmˈbaɪn/
 mountain|n.|山|trv|We climbed the mountain.|我們爬了那座山。
 waste|n./v.|浪費；廢棄物|gen|Don't waste time.|不要浪費時間。
 hide|v.|隱藏|gen|Where did you hide the key?|你把鑰匙藏在哪裡？
