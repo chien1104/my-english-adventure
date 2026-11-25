@@ -1,5 +1,6 @@
 import sys, json, subprocess, time, os
 from playwright.sync_api import sync_playwright
+AUTO_CLOSE = "new MutationObserver(()=>{const b=document.querySelector('[data-act=close-celebrate]'); if(b&&!b.dataset.auto){b.dataset.auto=1;setTimeout(()=>b.click(),300);}}).observe(document,{childList:true,subtree:true});"  # 測試時自動關閉慶祝卡（就像使用者按「太好了」）
 
 ROOT = sys.argv[1]
 OUT = sys.argv[2]
@@ -20,6 +21,7 @@ try:
 
         # 1) 單元測試頁
         ctx = browser.new_context()
+        ctx.add_init_script(AUTO_CLOSE)
         page = ctx.new_page()
         page.on('pageerror', lambda e: errors.append(f'tests: {e}'))
         page.goto(BASE + 'tests/index.html')
@@ -31,6 +33,7 @@ try:
 
         # 2) 端對端：手機尺寸 375x812
         ctx = browser.new_context(viewport={'width': 375, 'height': 812}, device_scale_factor=2, is_mobile=True, has_touch=True)
+        ctx.add_init_script(AUTO_CLOSE)
         page = ctx.new_page()
         page.on('pageerror', lambda e: errors.append(f'app: {e}'))
         page.on('console', lambda m: m.type == 'error' and '404' not in m.text and errors.append(f'console: {m.text}'))

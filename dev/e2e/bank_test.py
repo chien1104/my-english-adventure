@@ -1,5 +1,6 @@
 import subprocess, sys, time
 from playwright.sync_api import sync_playwright
+AUTO_CLOSE = "new MutationObserver(()=>{const b=document.querySelector('[data-act=close-celebrate]'); if(b&&!b.dataset.auto){b.dataset.auto=1;setTimeout(()=>b.click(),300);}}).observe(document,{childList:true,subtree:true});"  # 測試時自動關閉慶祝卡（就像使用者按「太好了」）
 ROOT=sys.argv[1]; OUT=sys.argv[2]
 srv=subprocess.Popen([sys.executable,'-m','http.server','8790','-d',ROOT],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL); time.sleep(1)
 B='http://localhost:8790/'
@@ -8,7 +9,7 @@ def check(n,c,d=''): res.append((n,bool(c),d)); print(('PASS ' if c else 'FAIL '
 try:
   with sync_playwright() as p:
     b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-sandbox'])
-    pg=b.new_page(viewport={'width':390,'height':844},device_scale_factor=2,is_mobile=True,has_touch=True)
+    pg=b.new_page(viewport={'width':390,'height':844},device_scale_factor=2,is_mobile=True,has_touch=True); pg.add_init_script(AUTO_CLOSE)
     pg.add_init_script("window.__played=[];HTMLMediaElement.prototype.play=function(){window.__played.push(this.src);return Promise.resolve();}")
     errs=[]; pg.on('pageerror',lambda e: errs.append(str(e)))
     pg.goto(B); pg.wait_for_selector('html[data-ready="true"]', timeout=60000)

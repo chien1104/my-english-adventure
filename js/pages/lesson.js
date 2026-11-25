@@ -4,6 +4,7 @@ import { mountPlayer } from '../lesson/player.js';
 import { lessonKey } from '../progress.js';
 import { markLearned, applyAnswer } from '../words.js';
 import { loadContext } from '../learning.js';
+import { completeHTML, playComplete } from '../ui/complete.js';
 import { escapeHTML } from '../ui/dom.js';
 import { toast } from '../ui/toast.js';
 import { WORLDS } from './worlds.js';
@@ -76,7 +77,7 @@ export async function render({ outlet, db, query, navigate, settings }) {
         }
         await logSession(db, { type: 'lesson', lessonId: lesson.id, accuracy: stats.accuracy });
         const earned = await awardLessonComplete(db, lesson.id, meta.timesCompleted, lesson.title);
-        renderComplete(stats);
+        renderComplete(stats, earned);
         afterActivity({ db, settings, earned: [earned] });
       },
       onExit() {
@@ -86,19 +87,17 @@ export async function render({ outlet, db, query, navigate, settings }) {
     },
   });
 
-  function renderComplete(stats) {
+  function renderComplete(stats, earned) {
     const after = loadContext(db);
-    outlet.innerHTML = `
-      <section class="card complete" data-testid="lesson-complete">
-        <p class="complete__badge" aria-hidden="true">🎉</p>
-        <h1 class="card__title">完成「${escapeHTML(lesson.title)}」！</h1>
-        <p>第一次作答正確率 <strong data-testid="accuracy">${stats.accuracy}%</strong>（${stats.firstCorrect} / ${stats.total} 題）</p>
-        ${lesson.type === 'vocab' ? '<p class="muted">這一課的單字已加入單字圖書館，可以隨時複習。</p>' : ''}
-        <p class="muted">已完成 ${meta.timesCompleted} 次。</p>
-        <div class="btn-row" data-role="actions">
-          <a class="btn btn--ghost" href="${worldHref}">回到${escapeHTML(world?.name || '世界')}</a>
-        </div>
-      </section>`;
+    const chips = [];
+    if (earned?.amount) chips.push({ text: `✨ +${earned.amount} EXP`, gold: true });
+    chips.push({ text: `🏁 第 ${meta.timesCompleted} 次完成` });
+    if (lesson.type === 'vocab') chips.push({ text: '📚 單字已加入複習' });
+    outlet.innerHTML = completeHTML({
+      title: `完成「${lesson.title}」！`, accuracy: stats.accuracy, firstCorrect: stats.firstCorrect, total: stats.total, chips,
+      actions: `<a class="btn btn--ghost" href="${worldHref}">回到${escapeHTML(world?.name || '世界')}</a>`,
+    });
+    playComplete(outlet, stats.accuracy);
     after.then((c) => {
       const actions = outlet.querySelector('[data-role="actions"]');
       if (!actions) return;

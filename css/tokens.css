@@ -30,7 +30,8 @@
 
   --radius-sm: 10px;
   --radius-md: 16px;
-  --radius-lg: 22px;
+  --radius-lg: 24px;
+  --radius-xl: 30px;
   --radius-pill: 999px;
 
   --sp-1: 4px;
@@ -40,7 +41,23 @@
   --sp-5: 24px;
   --sp-6: 32px;
 
-  --shadow-card: 0 2px 0 rgba(122, 82, 54, 0.06), 0 8px 24px rgba(122, 82, 54, 0.08);
-  --tabbar-h: 64px;
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 1px 2px rgba(78, 52, 36, 0.05), 0 10px 30px -8px rgba(122, 82, 54, 0.16);
+  --shadow-lift: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 2px 6px rgba(78, 52, 36, 0.08), 0 18px 40px -12px rgba(122, 82, 54, 0.28);
+  --shadow-btn: 0 1px 0 rgba(255, 255, 255, 0.35) inset, 0 6px 16px -6px rgba(78, 52, 36, 0.55);
+
+  /* 高級感：漸層 */
+  --g-caramel: linear-gradient(135deg, #B88A63 0%, #8A5D3D 55%, #6B4329 100%);
+  --g-espresso: linear-gradient(150deg, #5A3B27 0%, #3E281B 60%, #2F1E14 100%);
+  --g-cream: linear-gradient(160deg, #FFFDF9 0%, #F7EEE2 100%);
+  --g-gold: linear-gradient(135deg, #F3D9A4 0%, #E2B865 50%, #C8963F 100%);
+  --g-good: linear-gradient(135deg, #7FB07A 0%, #4F7A4A 100%);
+  --g-bad: linear-gradient(135deg, #D98272 0%, #A23E2E 100%);
+  --c-glass: rgba(255, 253, 249, 0.78);
+
+  --dur-1: .18s;
+  --dur-2: .32s;
+  --dur-3: .6s;
+  --spring: cubic-bezier(.34, 1.56, .64, 1);
+  --tabbar-h: 72px;
   --ease: cubic-bezier(.2, .8, .2, 1);
 }

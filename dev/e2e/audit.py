@@ -1,6 +1,7 @@
 # 全面版面與按鈕稽核：python3 audit.py <專案路徑> <截圖資料夾>
 import sys, json, subprocess, time, os, glob
 from playwright.sync_api import sync_playwright
+AUTO_CLOSE = "new MutationObserver(()=>{const b=document.querySelector('[data-act=close-celebrate]'); if(b&&!b.dataset.auto){b.dataset.auto=1;setTimeout(()=>b.click(),300);}}).observe(document,{childList:true,subtree:true});"  # 測試時自動關閉慶祝卡（就像使用者按「太好了」）
 
 ROOT, OUT = sys.argv[1], sys.argv[2]
 PORT = 8771
@@ -66,6 +67,7 @@ try:
     with sync_playwright() as pw:
         browser = pw.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox', '--autoplay-policy=no-user-gesture-required'])
         ctx = browser.new_context(viewport={'width': 375, 'height': 812}, is_mobile=True, has_touch=True, accept_downloads=True)
+        ctx.add_init_script(AUTO_CLOSE)
         page = ctx.new_page()
         page.on('pageerror', lambda e: errors.append(f'pageerror: {e}'))
         page.on('console', lambda m: m.type == 'error' and '404' not in m.text and errors.append(f'console: {m.text}'))

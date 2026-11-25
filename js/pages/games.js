@@ -38,7 +38,7 @@ export async function render({ outlet, db }) {
             <p class="game-card__best">${bestText(g.id, ctx.progressById.get(`game:${g.id}`))}</p>
           </div>
           ${g.id === 'match' && pictured < MIN_WORDS
-            ? '<p class="muted small">需要 4 個有插圖的單字（在「單字基礎」世界學）</p>'
+            ? '<p class="muted small game-card__note">🔒 需要 4 個有插圖的單字（在「單字基礎」世界學）</p>'
             : `<a class="btn btn--primary btn--sm" href="#/game?id=${g.id}" data-testid="play-${g.id}">開始</a>`}
         </li>`).join('')}
     </ul>`;

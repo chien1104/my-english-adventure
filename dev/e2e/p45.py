@@ -1,5 +1,6 @@
 import sys, json, subprocess, time, glob, os, shutil, tempfile, re
 from playwright.sync_api import sync_playwright
+AUTO_CLOSE = "new MutationObserver(()=>{const b=document.querySelector('[data-act=close-celebrate]'); if(b&&!b.dataset.auto){b.dataset.auto=1;setTimeout(()=>b.click(),300);}}).observe(document,{childList:true,subtree:true});"  # 測試時自動關閉慶祝卡（就像使用者按「太好了」）
 
 SRC, OUT = sys.argv[1], sys.argv[2]
 ROOT = tempfile.mkdtemp()
@@ -88,6 +89,7 @@ try:
     with sync_playwright() as pw:
         browser = pw.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])
         ctx = browser.new_context(viewport={'width': 375, 'height': 812}, device_scale_factor=2, is_mobile=True, has_touch=True, accept_downloads=True)
+        ctx.add_init_script(AUTO_CLOSE)
         page = ctx.new_page()
         page.on('pageerror', lambda e: errors.append(f'pageerror: {e}'))
         page.on('console', lambda m: m.type == 'error' and '404' not in m.text and 'ERR_INTERNET_DISCONNECTED' not in m.text and not (offline[0] and 'ERR_FAILED' in m.text) and errors.append(f'console: {m.text}'))
@@ -196,6 +198,7 @@ try:
 
         # 在「另一台裝置」還原
         ctx2 = browser.new_context(viewport={'width': 375, 'height': 812}, is_mobile=True, has_touch=True)
+        ctx2.add_init_script(AUTO_CLOSE)
         p2 = ctx2.new_page(); p2.on('pageerror', lambda e: errors.append(f'p2 pageerror: {e}'))
         p2.goto(BASE + '#/settings?section=backup'); ready(p2); p2.wait_for_selector('[data-testid=restore-input]', state='attached')
         p2.set_input_files('[data-testid=restore-input]', os.path.join(tempfile.gettempdir(), 'mea-backup.json'))

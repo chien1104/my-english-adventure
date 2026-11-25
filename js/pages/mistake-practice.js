@@ -1,3 +1,4 @@
+import { completeHTML, playComplete } from '../ui/complete.js';
 // 錯題重練：#/mistake-practice
 import { loadContext } from '../learning.js';
 import { retrainQuestions } from '../mistakes.js';
@@ -47,14 +48,14 @@ export async function render({ outlet, db, navigate, settings }) {
         const after = await loadContext(db);
         const left = after.mistakes.filter((m) => !m.fixed).length;
         const right = [...first.values()].filter(Boolean).length;
-        outlet.innerHTML = `
-          <section class="card complete" data-testid="retrain-complete">
-            <p class="complete__badge" aria-hidden="true">📕</p>
-            <h1 class="card__title">錯題重練完成！</h1>
-            <p>這次第一次就答對 <strong>${right}</strong> / ${questions.length} 題。</p>
-            <p class="muted">${left ? `還有 ${left} 題待訂正。` : '全部錯題都訂正了！'}</p>
-            <div class="btn-row"><a class="btn btn--primary" href="#/mistakes">回錯題百科</a></div>
-          </section>`;
+        const acc = questions.length ? Math.round((right / questions.length) * 100) : 0;
+        outlet.innerHTML = completeHTML({
+          testid: 'retrain-complete', icon: '📕', title: '錯題重練完成！', accuracy: acc, firstCorrect: right, total: questions.length,
+          chips: [{ text: left ? `📌 還有 ${left} 題待訂正` : '🏆 全部錯題都訂正了！', gold: !left }],
+          lines: [left ? `還有 ${left} 題待訂正。` : '全部錯題都訂正了！'],
+          actions: '<a class="btn btn--primary" href="#/mistakes">回錯題百科</a>',
+        });
+        playComplete(outlet, acc);
       },
       onExit() { navigate('#/mistakes'); },
     },

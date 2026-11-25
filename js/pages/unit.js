@@ -11,6 +11,7 @@ import { EXP } from '../gamify.js';
 import { afterActivity } from '../ui/celebrate.js';
 import { confirmDialog } from '../ui/confirm.js';
 import { toast } from '../ui/toast.js';
+import { completeHTML, playComplete } from '../ui/complete.js';
 import { escapeHTML } from '../ui/dom.js';
 import { wordRowHTML, bindWordRows } from './words.js';
 
@@ -86,17 +87,15 @@ export async function render({ outlet, db, query, navigate, settings }) {
         const first = timesCompleted === 1;
         const earned = await awardExp(db, `unit:${unitId}:${timesCompleted}`, first ? EXP.unitFirst : EXP.unitRepeat,
           `${first ? '學完' : '重新學完'}「${lesson.title}」`, now);
-        outlet.innerHTML = `
-          <section class="card complete" data-testid="unit-complete">
-            <p class="complete__badge" aria-hidden="true">🎉</p>
-            <h1 class="card__title">學完${escapeHTML(lesson.title)}！</h1>
-            <p>第一次作答正確率 <strong data-testid="accuracy">${stats.accuracy}%</strong>（${stats.firstCorrect} / ${stats.total} 題）</p>
-            <p class="muted">這 ${ids.length} 個單字已排進複習，明天會再出現。</p>
-            <div class="btn-row">
-              ${hasNext ? `<a class="btn btn--primary" href="${nextHref}" data-testid="next-unit">下一單元</a>` : ''}
-              <a class="btn btn--ghost" href="${seriesHref}">回${escapeHTML(series.name)}</a>
-            </div>
-          </section>`;
+        const chips = [{ text: `✨ +${earned?.amount || 0} EXP`, gold: true }, { text: `📚 ${ids.length} 個單字排進複習` }];
+        outlet.innerHTML = completeHTML({
+          testid: 'unit-complete', icon: series.icon || '🎉', title: `學完${lesson.title}！`,
+          accuracy: stats.accuracy, firstCorrect: stats.firstCorrect, total: stats.total, chips,
+          lines: ['明天會再出現，答對的字間隔會慢慢拉長。'],
+          actions: `${hasNext ? `<a class="btn btn--primary" href="${nextHref}" data-testid="next-unit">下一單元</a>` : ''}
+            <a class="btn btn--ghost" href="${seriesHref}">回${escapeHTML(series.name)}</a>`,
+        });
+        playComplete(outlet, stats.accuracy);
         afterActivity({ db, settings, earned: [earned] });
       },
       onExit() {

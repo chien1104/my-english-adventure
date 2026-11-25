@@ -1,5 +1,6 @@
 import subprocess, sys, time, json, glob
 from playwright.sync_api import sync_playwright
+AUTO_CLOSE = "new MutationObserver(()=>{const b=document.querySelector('[data-act=close-celebrate]'); if(b&&!b.dataset.auto){b.dataset.auto=1;setTimeout(()=>b.click(),300);}}).observe(document,{childList:true,subtree:true});"  # 測試時自動關閉慶祝卡（就像使用者按「太好了」）
 srv=subprocess.Popen([sys.executable,'-m','http.server','8773','-d',sys.argv[1] if len(sys.argv)>1 else 'my-english-adventure'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL); time.sleep(1)
 Q={}
 for f in glob.glob((sys.argv[1] if len(sys.argv)>1 else 'my-english-adventure')+'/data/lessons/*.json'):
@@ -9,7 +10,7 @@ res=[]
 def check(n,c,d=''): res.append((n,bool(c),d))
 try:
   with sync_playwright() as p:
-    b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-sandbox']); pg=b.new_page(viewport={'width':390,'height':844},device_scale_factor=3,is_mobile=True,has_touch=True)
+    b=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-sandbox']); pg=b.new_page(viewport={'width':390,'height':844},device_scale_factor=3,is_mobile=True,has_touch=True); pg.add_init_script(AUTO_CLOSE)
     errs=[]; pg.on('pageerror',lambda e: errs.append(str(e)))
     B='http://localhost:8773/'
     pg.goto(B); pg.wait_for_selector('html[data-ready="true"]')

@@ -6,6 +6,7 @@ import {
 } from '../games/logic.js';
 import { applyAnswer } from '../words.js';
 import { playButtonHTML } from '../audio.js';
+import { burst, glow, banner, haptic, confetti } from '../ui/fx.js';
 import { escapeHTML } from '../ui/dom.js';
 import { recordAttempt, logSession } from '../rewards.js';
 import { afterActivity } from '../ui/celebrate.js';
@@ -49,6 +50,7 @@ export async function render({ outlet, db, query, settings }) {
     afterActivity({ db, settings, earned: [earned] });
     const ch = dailyChallenge(todayKey(), await db.getAll('sessions'));
     const unit = game.id === 'match' ? '次失誤' : game.id === 'speed' ? '分' : `／${SPELL_ROUNDS} 題一次答對`;
+    if (isBest) { setTimeout(() => confetti(), 300); setTimeout(() => banner('🏆 新紀錄！', `${game.name}`), 700); }
     outlet.innerHTML = `
       <section class="card complete" data-testid="game-result">
         <p class="complete__badge" aria-hidden="true">${isBest ? '🏆' : game.icon}</p>
@@ -119,7 +121,7 @@ export async function render({ outlet, db, query, settings }) {
         paint();
         return;
       }
-      if (r.event === 'match' || r.event === 'done') await record(r.wordId, true, r.wordId);
+      if (r.event === 'match' || r.event === 'done') { burst(b, { count: 10, spread: 60 }); await record(r.wordId, true, r.wordId); }
       paint();
       if (r.event === 'done') setTimeout(() => finish(s.mistakes, missedHTML(missed)), 400);
     });
@@ -182,7 +184,10 @@ export async function render({ outlet, db, query, settings }) {
         else if (x === b) x.classList.add('is-wrong');
         x.disabled = true;
       });
-      if (correct) { score += 1; combo += 1; } else { combo = 0; missed.push(q.wordId); }
+      if (correct) {
+        score += 1; combo += 1; burst(b, { count: 10, spread: 60 });
+        if (combo === 5 || combo === 10 || combo === 20) banner(`⚡ ${combo} 連擊`, '手速好快！');
+      } else { combo = 0; missed.push(q.wordId); haptic([8, 40, 8]); }
       scoreEl.textContent = score;
       comboEl.textContent = combo >= 3 ? `🔥 連續答對 ${combo} 題` : '';
       record(q.wordId, correct, choice);
@@ -293,6 +298,7 @@ export async function render({ outlet, db, query, settings }) {
         const { text, correct } = spellCheck(w.en, tiles, picked);
         paint();
         if (correct && !retried.has(w.id)) firstTry += 1;
+        if (correct) { burst(outlet.querySelector('.spell__slots') || outlet); glow('good'); } else haptic([8, 40, 8]);
         if (!correct) {
           missed.push(w.id);
           if (!retried.has(w.id)) { retried.add(w.id); queue.push(w); }

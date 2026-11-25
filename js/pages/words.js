@@ -103,13 +103,15 @@ export async function render({ outlet, db, query }) {
     <ul class="word-list" data-testid="word-list"></ul>` : ''}`;
 
   const list = outlet.querySelector('[data-testid="word-list"]');
+  let limit = 30; // 一次顯示 30 個，太長不好滑
   function paint() {
     if (!list) return;
     const shown = words.filter((w) => statusOf(ctx.records.get(w.id)) === filter);
-    list.innerHTML = shown.length ? shown.slice(0, 200).map((w) => wordRowHTML(w, ctx.records.get(w.id))).join('')
-      + (shown.length > 200 ? `<li class="muted empty">只顯示前 200 個，可以用上面的「查單字」找其他字。</li>` : '')
+    list.innerHTML = shown.length ? shown.slice(0, limit).map((w) => wordRowHTML(w, ctx.records.get(w.id))).join('')
+      + (shown.length > limit ? `<li><button type="button" class="btn btn--ghost btn--block" data-act="more">再顯示 ${Math.min(30, shown.length - limit)} 個（共 ${shown.length} 個）</button></li>` : '')
       : '<li class="muted empty">這個分類還沒有單字。</li>';
     bindWordRows(list);
+    list.querySelector('[data-act="more"]')?.addEventListener('click', () => { limit += 30; paint(); });
   }
   paint();
 
@@ -117,6 +119,7 @@ export async function render({ outlet, db, query }) {
     const b = e.target.closest('[data-filter]');
     if (!b) return;
     filter = b.dataset.filter;
+    limit = 30;
     outlet.querySelectorAll('[data-filter]').forEach((x) => {
       const on = x.dataset.filter === filter;
       x.classList.toggle('is-active', on);

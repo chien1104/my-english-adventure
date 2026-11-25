@@ -1,5 +1,6 @@
 import sys, json, subprocess, time, glob, os
 from playwright.sync_api import sync_playwright
+AUTO_CLOSE = "new MutationObserver(()=>{const b=document.querySelector('[data-act=close-celebrate]'); if(b&&!b.dataset.auto){b.dataset.auto=1;setTimeout(()=>b.click(),300);}}).observe(document,{childList:true,subtree:true});"  # 測試時自動關閉慶祝卡（就像使用者按「太好了」）
 
 ROOT, OUT = sys.argv[1], sys.argv[2]
 PORT = 8767
@@ -60,6 +61,7 @@ try:
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])
         ctx = browser.new_context(viewport={'width': 375, 'height': 812}, device_scale_factor=2, is_mobile=True, has_touch=True)
+        ctx.add_init_script(AUTO_CLOSE)
         page = ctx.new_page()
         page.on('pageerror', lambda e: errors.append(f'pageerror: {e}'))
         page.on('console', lambda m: m.type == 'error' and '404' not in m.text and 'ERR_FAILED' not in m.text and errors.append(f'console: {m.text}'))
@@ -200,7 +202,7 @@ try:
             cont(page); count += 1
         check('複習 8 題全部可作答', count == 8, str(count))
         page.click('[data-act=next]'); page.wait_for_selector('[data-testid=review-complete]')
-        check('複習完成畫面', '8</strong> / 8' in page.inner_html('[data-testid=review-complete]'))
+        check('複習完成畫面', '（8 / 8 題）' in page.inner_text('[data-testid=review-complete]'))
 
         # ---- 6. 文法課（含排序題）----
         page.goto(BASE + '#/lesson?id=grammar-1'); page.wait_for_selector('[data-testid=player]')

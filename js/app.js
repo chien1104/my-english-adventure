@@ -61,6 +61,10 @@ function setActiveTab(path) {
 
 installPlayHandler(() => toast('播放失敗，請確認手機沒有靜音', { type: 'error' }));
 
+// 沉浸模式：畫面上有課程／測驗播放器時，隱藏頂部列和底部導覽，讓注意力集中在題目
+const syncImmersive = () => document.body.classList.toggle('is-immersive', !!outlet.querySelector('.player'));
+new MutationObserver(syncImmersive).observe(outlet, { childList: true });
+
 async function boot() {
   let db;
   try {

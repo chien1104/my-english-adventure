@@ -37,11 +37,23 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
   const nu = (bank?.series || []).map((x) => nextUnit(x, ctx.records)).find(Boolean);
   const todayUnit = nu ? { id: nu.id, icon: nu.series.icon, title: `${nu.series.name}・第 ${nu.index + 1} 單元` } : null;
 
+  const RING_C = 2 * Math.PI * 36;
+  const greet = (() => { const h = new Date().getHours(); return h < 11 ? '早安' : h < 18 ? '午安' : '晚安'; })();
   outlet.innerHTML = `
     <section class="card hero">
-      <p class="eyebrow">Welcome back</p>
-      <h1 class="hero__title">嗨，${name}</h1>
-      ${s.nickname ? '' : '<p><a class="link" href="#/settings?section=profile" data-testid="set-nickname-link">設定你的暱稱 →</a></p>'}
+      <div class="hero__top">
+        <div>
+          <p class="eyebrow">${greet} · Welcome back</p>
+          <h1 class="hero__title">嗨，${name}</h1>
+          ${s.nickname ? '' : '<p><a class="link" href="#/settings?section=profile" data-testid="set-nickname-link">設定你的暱稱 →</a></p>'}
+        </div>
+        <div class="level-ring" aria-hidden="true">
+          <svg viewBox="0 0 84 84"><defs><linearGradient id="ring-gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7DFA6"/><stop offset="1" stop-color="#C8963F"/></linearGradient></defs>
+            <circle class="ring-track" cx="42" cy="42" r="36"/>
+            <circle class="ring-fill" cx="42" cy="42" r="36" stroke-dasharray="${RING_C.toFixed(1)}" stroke-dashoffset="${RING_C.toFixed(1)}" data-offset="${(RING_C * (1 - lv.progress)).toFixed(1)}"/></svg>
+          <span class="level-ring__num"><small>LEVEL</small><b>${lv.level}</b></span>
+        </div>
+      </div>
       <div class="level" data-testid="level-box">
         <p class="level__row"><span class="level__badge" data-testid="level">Lv ${lv.level}</span><span class="level__title">${lv.title}</span>
           <span class="level__exp en" data-testid="exp">${lv.exp} EXP</span></p>
@@ -59,51 +71,44 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
     <section class="card start-card" data-testid="diagnosis-cta">
       <h2 class="card__title">🧭 第一步：程度診斷</h2>
       <p>13 題、約 5 分鐘，幫你找到最適合的起點。完成後就會開放課程。</p>
-      <a class="btn btn--primary" href="#/diagnosis">開始程度診斷</a>
+      <a class="btn btn--primary btn--hero" href="#/diagnosis">開始程度診斷</a>
     </section>`}
 
     <section class="card" aria-labelledby="mode-title">
-      <h2 id="mode-title" class="card__title">今天的精神狀態</h2>
-      <p class="muted">選一個今天適合的模式，不需要每天打卡。</p>
+      <div class="today-head"><h2 id="mode-title" class="card__title">今天想怎麼學？</h2><span class="muted small">不用每天打卡</span></div>
       <div class="mode-grid" role="group" aria-label="今日學習模式" data-testid="mode-grid"></div>
       <p class="mode-note" data-testid="mode-note"></p>
+      ${ctx.diagnosis ? `
+      <a class="btn btn--primary btn--block btn--hero plan-start" href="#/home" data-role="plan-start" hidden>▶ 開始今天的學習</a>
+      <h3 id="plan-title" class="section-title">今日安排</h3>
+      <ul class="plan-list" data-testid="plan-list"></ul>
+      <p class="hint" data-testid="plan-note"></p>` : ''}
     </section>
 
     ${ctx.diagnosis ? `
     <section class="card" aria-labelledby="task-title" data-testid="daily-card">
-      <h2 id="task-title" class="card__title">今日任務 <span class="muted small">依今天的精神狀態調整</span></h2>
+      <h2 id="task-title" class="card__title">今日任務 <span class="muted small">依今天的模式調整</span></h2>
       <ul class="task-list" data-testid="task-list"></ul>
       ${challenge ? `<div class="challenge ${challenge.done ? 'is-done' : ''}" data-testid="challenge">
         <p class="challenge__title">${challenge.done ? '🏆' : '🎯'} 每日挑戰 <span class="muted small">+30 EXP</span></p>
         <p>${challenge.label}</p>
-        ${challenge.done ? '<p class="status-line status-line--good">今天的挑戰完成了！</p>' : `<a class="btn btn--ghost btn--sm" href="#/game?id=${challenge.game}">去挑戰</a>`}
+        ${challenge.done ? '<p class="status-line status-line--good">今天的挑戰完成了！</p>' : `<a class="btn btn--primary btn--sm" href="#/game?id=${challenge.game}">去挑戰</a>`}
       </div>` : ''}
-    </section>
-
-    <section class="card" aria-labelledby="plan-title">
-      <h2 id="plan-title" class="card__title">今日安排</h2>
-      <ul class="plan-list" data-testid="plan-list"></ul>
-      <p class="hint" data-testid="plan-note"></p>
     </section>` : ''}
 
-    <section class="card quick-links">
-      <a class="quick-link" href="#/achievements" data-testid="link-achievements"><span aria-hidden="true">🏅</span>成就<small data-testid="ach-count">${(await db.count('achievements'))} 個</small></a>
-      <a class="quick-link" href="#/stats" data-testid="link-stats"><span aria-hidden="true">📊</span>學習分析</a>
-    </section>
-
-    <section class="card" aria-labelledby="save-title">
-      <h2 id="save-title" class="card__title">資料保存</h2>
-      <p class="status-line status-line--${desc.tone}" data-testid="home-save-summary">${desc.summary}</p>
-      <p class="muted">${status.lastBackupAt ? '已有備份檔' : '尚未備份：資料只存在這台裝置的瀏覽器'}</p>
-      <a class="btn btn--ghost" href="#/settings?section=data">查看保存狀態</a>
-    </section>
-
-    <section class="card" aria-labelledby="world-title">
-      <h2 id="world-title" class="card__title">學習世界</h2>
-      <p class="muted">目前開放 <strong data-testid="open-worlds">${openCount}</strong> / ${worldTotal} 個世界</p>
-      <a class="btn btn--ghost" href="#/worlds">查看世界地圖</a>
-    </section>
+    <nav class="tile-grid" aria-label="快速入口">
+      <a class="tile-link" href="#/worlds"><span class="tile-link__icon ti-1" aria-hidden="true">🗺️</span><strong>學習世界</strong><small>已開放 <b data-testid="open-worlds">${openCount}</b> / ${worldTotal} 個世界</small></a>
+      <a class="tile-link" href="#/achievements" data-testid="link-achievements"><span class="tile-link__icon ti-2" aria-hidden="true">🏅</span><strong>成就</strong><small data-testid="ach-count">${(await db.count('achievements'))} 個</small></a>
+      <a class="tile-link" href="#/stats" data-testid="link-stats"><span class="tile-link__icon ti-3" aria-hidden="true">📊</span><strong>學習分析</strong><small>看看自己的進步</small></a>
+      <a class="tile-link" href="#/settings?section=data"><span class="tile-link__icon ti-4" aria-hidden="true">🔒</span><strong>資料保存</strong><small class="tone-${desc.tone}" data-testid="home-save-summary">${desc.summary}</small><small>${status.lastBackupAt ? '已有備份檔' : '尚未備份'}</small></a>
+    </nav>
   `;
+
+  // 等級圓環從 0 轉到目前進度
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    const ring = outlet.querySelector('.ring-fill');
+    if (ring) ring.style.strokeDashoffset = ring.dataset.offset;
+  }));
 
   const grid = outlet.querySelector('[data-testid="mode-grid"]');
   const note = outlet.querySelector('[data-testid="mode-note"]');
@@ -154,6 +159,17 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
         <a class="btn btn--primary btn--sm" href="${lessonHref(it.lesson)}">${label}</a></li>`;
     }).join('') || '<li class="muted">今天沒有安排項目。</li>';
     planNote.textContent = plan.note;
+    // 大按鈕直接開始第一項安排
+    const startBtn = outlet.querySelector('[data-role="plan-start"]');
+    const first = planList.querySelector('.plan-item a.btn');
+    if (startBtn) {
+      startBtn.hidden = !first;
+      if (first) {
+        startBtn.href = first.getAttribute('href');
+        const label = planList.querySelector('.plan-item strong')?.textContent || '';
+        startBtn.textContent = `▶ 開始：${label}`;
+      }
+    }
   }
 
   function paint() {
@@ -166,7 +182,7 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
         <button type="button" class="mode-btn${pressed ? ' is-active' : ''}" data-mode="${id}" aria-pressed="${pressed}">
           <span class="mode-btn__icon" aria-hidden="true">${m.icon}</span>
           <span class="mode-btn__label">${m.label}</span>
-          <span class="mode-btn__meta">${st.modeMinutes[id]} 分鐘・${m.desc}</span>
+          <span class="mode-btn__meta">${st.modeMinutes[id]} 分鐘</span>
         </button>`;
     }).join('');
     const m = MODES[today.mode];

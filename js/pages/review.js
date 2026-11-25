@@ -1,3 +1,4 @@
+import { completeHTML, playComplete } from '../ui/complete.js';
 // 單字複習：#/review
 import { loadContext } from '../learning.js';
 import { buildReviewQuestions, buildReviewLesson, applyAnswer } from '../words.js';
@@ -44,17 +45,15 @@ export async function render({ outlet, db, navigate, query = {}, settings }) {
         afterActivity({ db, settings, earned: [earned] });
         const right = [...results.values()].filter(Boolean).length;
         const familiar = questions.filter((q) => ctx.records.get(q.wordId)?.status === 'familiar').length;
-        outlet.innerHTML = `
-          <section class="card complete" data-testid="review-complete">
-            <p class="complete__badge" aria-hidden="true">📚</p>
-            <h1 class="card__title">複習完成！</h1>
-            <p>第一次就答對 <strong>${right}</strong> / ${questions.length} 個單字。</p>
-            <p class="muted">這次練習的單字中，有 ${familiar} 個已經達到「熟悉」。${free ? '自由練習答對不改變排程，答錯的已排到今天複習。' : '答對的單字下次複習間隔會拉長。'}</p>
-            <div class="btn-row">
-              <a class="btn btn--primary" href="#/words">回單字圖書館</a>
-              ${free ? '<button type="button" class="btn btn--ghost" data-act="again">再練一次</button>' : ''}
-            </div>
-          </section>`;
+        const acc = questions.length ? Math.round((right / questions.length) * 100) : 0;
+        outlet.innerHTML = completeHTML({
+          testid: 'review-complete', icon: '📚', title: '複習完成！', accuracy: acc, firstCorrect: right, total: questions.length,
+          chips: [{ text: `💪 ${familiar} 個已達「熟悉」`, gold: familiar > 0 }],
+          lines: [`第一次就答對 ${right} / ${questions.length} 個單字。${free ? '自由練習答對不改變排程，答錯的已排到今天複習。' : '答對的單字下次複習間隔會拉長。'}`],
+          actions: `<a class="btn btn--primary" href="#/words">回單字</a>
+            ${free ? '<button type="button" class="btn btn--ghost" data-act="again">再練一次</button>' : ''}`,
+        });
+        playComplete(outlet, acc);
         outlet.querySelector('[data-act="again"]')?.addEventListener('click', () => render({ outlet, db, navigate, query, settings }));
       },
       onExit() { navigate('#/words'); },

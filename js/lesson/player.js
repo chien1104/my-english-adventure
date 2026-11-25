@@ -4,6 +4,7 @@ import { escapeHTML } from '../ui/dom.js';
 import { renderQuestion, lockQuestion, feedbackHTML } from '../ui/question-view.js';
 import { wordCardHTML, attachAudioButtons } from '../ui/word-card.js';
 import { playButtonHTML } from '../audio.js';
+import { burst, glow, banner, haptic } from '../ui/fx.js';
 
 function highlight(en, word) {
   const safe = escapeHTML(en);
@@ -83,14 +84,22 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
   let autoTimer = null;
   const AUTO_NEXT_MS = 1100; // 答對後自動前往下一題的時間
 
+  let combo = 0; // 連續第一次就答對的題數
   outlet.innerHTML = `
     <div class="player" data-testid="player">
       <div class="player__head">
-        <button type="button" class="btn btn--ghost btn--sm" data-act="exit">${exitLabel}</button>
-        <span class="player__step" data-role="step"></span>
+        <button type="button" class="player__close" data-act="exit" aria-label="${escapeHTML(exitLabel.replace(/^⏸\s*/, ''))}" title="${escapeHTML(exitLabel.replace(/^⏸\s*/, ''))}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+        <div class="player__meter">
+          <div class="progressbar" aria-hidden="true"><span data-role="bar"></span></div>
+          <div class="player__meta">
+            <span class="player__title">${escapeHTML(lesson.title)}</span>
+            <span class="combo" data-role="combo" hidden></span>
+            <span class="player__step" data-role="step"></span>
+          </div>
+        </div>
       </div>
-      <div class="progressbar" aria-hidden="true"><span data-role="bar"></span></div>
-      <p class="player__title">${escapeHTML(lesson.title)}</p>
       <section class="card player__body" data-role="body" aria-live="polite"></section>
       <div class="player__foot">
         <button type="button" class="btn btn--ghost" data-act="back">上一步</button>
@@ -98,6 +107,12 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
       </div>
       <div data-role="feedback"></div>
     </div>`;
+  const comboEl = outlet.querySelector('[data-role="combo"]');
+  function paintCombo(bump) {
+    comboEl.hidden = combo < 2;
+    comboEl.textContent = `🔥 連對 ${combo}`;
+    if (bump && combo >= 2) { comboEl.classList.remove('is-bump'); void comboEl.offsetWidth; comboEl.classList.add('is-bump'); }
+  }
 
   const body = outlet.querySelector('[data-role="body"]');
   const stepEl = outlet.querySelector('[data-role="step"]');
@@ -116,6 +131,7 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
     sheet.classList.remove('feedback-sheet');
     body.innerHTML = stepHTML(step, { lesson, state, wordsMap, records });
     body.dataset.kind = step.kind;
+    body.classList.remove('is-swap'); void body.offsetWidth; body.classList.add('is-swap');
     backBtn.hidden = !E.canGoBack(lesson, state);
     const isLast = state.stepIndex === lesson.steps.length - 1;
 
@@ -146,10 +162,30 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
     const { state: next, result } = E.submitAnswer(lesson, state, answer);
     state = next;
     lockQuestion(qBox, q, answer, result.correct);
+    celebrateAnswer(qBox, result);
     await hooks.onAnswer?.(q, result.correct, answer);
     await save();
     busy = false;
     showFeedback(result, { auto: result.correct });
+  }
+
+  // 答題特效：答對有粒子和邊緣發光，連對有計數與橫幅；答錯只震一下，不打擊信心
+  function celebrateAnswer(qBox, result) {
+    const firstTry = !result.isRetry && !result.retry;
+    if (result.correct) {
+      combo = firstTry ? combo + 1 : combo;
+      const target = qBox.querySelector('.opt.is-correct') || qBox.querySelector('.q__type, .order__built') || qBox;
+      burst(target);
+      glow(combo >= 5 ? 'gold' : 'good');
+      haptic(10);
+      if (combo === 3) banner('🔥 連對 3 題', '手感來了！');
+      else if (combo === 5) banner('⚡ 連對 5 題', '超強狀態');
+      else if (combo > 5 && combo % 5 === 0) banner(`🌟 連對 ${combo} 題`, '無人能擋');
+    } else {
+      combo = 0;
+      haptic([8, 40, 8]);
+    }
+    paintCombo(result.correct);
   }
 
   // 解析固定浮在畫面底部，不用往下滑；答對會自動前往下一題，答錯等使用者看完解析按「繼續」

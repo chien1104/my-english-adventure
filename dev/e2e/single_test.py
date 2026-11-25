@@ -1,5 +1,6 @@
 import json, glob, os, sys
 from playwright.sync_api import sync_playwright
+AUTO_CLOSE = "new MutationObserver(()=>{const b=document.querySelector('[data-act=close-celebrate]'); if(b&&!b.dataset.auto){b.dataset.auto=1;setTimeout(()=>b.click(),300);}}).observe(document,{childList:true,subtree:true});"  # 測試時自動關閉慶祝卡（就像使用者按「太好了」）
 HTML = os.path.abspath(sys.argv[1])
 URL = 'file://' + HTML
 errs, res = [], []
@@ -12,6 +13,7 @@ for f in glob.glob('/home/claude/my-english-adventure/data/lessons/*.json'):
 with sync_playwright() as p:
     b = p.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])
     ctx = b.new_context(viewport={'width': 375, 'height': 812}, accept_downloads=True)
+    ctx.add_init_script(AUTO_CLOSE)
     ctx.set_offline(True)
     pg = ctx.new_page()
     pg.on('pageerror', lambda e: errs.append(str(e)))
