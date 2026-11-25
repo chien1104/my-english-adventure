@@ -4,14 +4,17 @@ import json, os, sys
 
 ROOT = sys.argv[1]
 W, M, B = 'af_heart', 'am_michael', 'bf_emma'   # 美式女聲、美式男聲、英式女聲
+BM = 'bm_george'                                  # 英式男聲
 AUD = {}
 
 def say(path, text, voice=W, kind='sentence'):
     AUD[path] = {'segments': [[voice, text]], 'kind': kind}
+    if voice.startswith('b'): AUD[path]['accent'] = 'gb'
     return path
 
 def multi(path, segs):
     AUD[path] = {'segments': [list(s) for s in segs], 'kind': 'sentence'}
+    if any(s[0].startswith('b') for s in segs): AUD[path]['accent'] = 'gb'
     return path
 
 def q(id, group, prompt, options, answer, explanation, **kw):
@@ -859,6 +862,11 @@ lesson({
     'summary': '七大題型各 3 題，限時 20 分鐘，交卷後才看答案。',
     'steps': [{'kind': 'practice', 'title': '模擬考', 'questions': mock_questions, 'similar': []}]})
 
+# ---------------------------------------------------------------- 2.1 新增教材（dev/content_v21.py）
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'content_v21.py'), encoding='utf-8').read())
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'content_v21_toeic.py'), encoding='utf-8').read())
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'content_v21_mock.py'), encoding='utf-8').read())
+
 # ---------------------------------------------------------------- 教材清單與音檔清單
 cat_path = os.path.join(ROOT, 'data/catalog.json')
 cat = json.load(open(cat_path))
@@ -866,7 +874,7 @@ cat['contentVersion'] = '2026.11.24-say'
 cat['vocab'] = VOCAB_FILES
 order = ['vocab-1', 'vocab-2', 'vocab-3', 'grammar-1', 'grammar-2', 'grammar-3', 'phonics-1', 'phonics-2', 'phonics-3',
          'life-1', 'life-2', 'life-3', 'read-1', 'read-2', 'biz-1', 'biz-2',
-         'toeic-p1', 'toeic-p2', 'toeic-p3', 'toeic-p4', 'toeic-p5-1', 'toeic-p6', 'toeic-p7', 'mock-1']
+         'toeic-p1', 'toeic-p2', 'toeic-p3', 'toeic-p4', 'toeic-p5-1', 'toeic-p6', 'toeic-p7', 'mock-1'] + V21_GRAMMAR + [x for ids in V21_TOEIC.values() for x in ids] + V21_MOCK
 cat['lessons'] = [f'data/lessons/{x}.json' for x in order]
 json.dump(cat, open(cat_path, 'w'), ensure_ascii=False, indent=2)
 
@@ -880,3 +888,4 @@ import subprocess
 subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'add_prompt_audio.py'), ROOT], check=True)
 subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'assign_worlds.py'), ROOT], check=True)
 subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'build_bank.py'), ROOT], check=True)
+subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'add_option_notes.py'), ROOT], check=True)

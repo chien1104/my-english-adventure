@@ -153,7 +153,10 @@
             "bookes"
           ],
           "answer": "books",
-          "explanation": "兩本書是複數，book 是大部分的名詞，加 s 變成 books。"
+          "explanation": "兩本書是複數，book 是大部分的名詞，加 s 變成 books。",
+          "optionNotes": {
+            "book": "book（名詞（可數））是「書」"
+          }
         },
         {
           "id": "g3-x-a",
@@ -183,7 +186,10 @@
             "watch"
           ],
           "answer": "watches",
-          "explanation": "watch（手錶）是 ch 結尾，複數加 es：watches。"
+          "explanation": "watch（手錶）是 ch 結尾，複數加 es：watches。",
+          "optionNotes": {
+            "watch": "watch（動詞／名詞）是「觀看；手錶」"
+          }
         },
         {
           "id": "g3-one-a",
@@ -258,7 +264,10 @@
             "dishes"
           ],
           "answer": "dishes",
-          "explanation": "dish（盤子）是 sh 結尾，複數加 es：dishes。"
+          "explanation": "dish（盤子）是 sh 結尾，複數加 es：dishes。",
+          "optionNotes": {
+            "dish": "dish（名詞）是「盤子；菜餚」"
+          }
         },
         {
           "id": "g3-one-b",

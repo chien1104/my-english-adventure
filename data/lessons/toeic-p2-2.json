@@ -1,0 +1,289 @@
+{
+  "id": "toeic-p2-2",
+  "world": "part2",
+  "order": 2,
+  "type": "toeic-listen",
+  "title": "Part 2 What／Which／How 問句",
+  "titleEn": "Wh- Questions 2",
+  "summary": "問時間、哪一個、多少錢、多久：抓住問句第一個字。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "Part 2 每題只有一句問題和三個回答，問題的第一、二個字最重要。",
+        "What time 問幾點；Which 問哪一個；How much 問多少錢；How long 問多久；Whose 問是誰的。",
+        "Wh 問句不能用 Yes／No 回答，聽到 Yes 開頭的選項，通常可以先刪掉。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "問句",
+          "問什麼",
+          "好的回答"
+        ],
+        "rows": [
+          [
+            "What time…?",
+            "幾點",
+            "At nine o'clock."
+          ],
+          [
+            "Which…?",
+            "哪一個",
+            "The number fifteen."
+          ],
+          [
+            "How much…?",
+            "多少錢",
+            "It's forty dollars."
+          ],
+          [
+            "How long…?",
+            "多久",
+            "About one hour."
+          ],
+          [
+            "Whose…?",
+            "誰的",
+            "I think it's Kevin's."
+          ]
+        ]
+      },
+      "tip": "陷阱：選項重複問句裡的字（close／close、long／long），常常是錯的。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "What time does the store close?",
+          "zh": "這家店幾點關門？",
+          "highlight": "time",
+          "audio": "assets/audio/lessons/toeic-p2-2/ex1.mp3"
+        },
+        {
+          "en": "Which bus goes to the airport?",
+          "zh": "哪一班公車到機場？",
+          "highlight": "Which",
+          "audio": "assets/audio/lessons/toeic-p2-2/ex2.mp3"
+        },
+        {
+          "en": "How much is this jacket?",
+          "zh": "這件夾克多少錢？",
+          "highlight": "much",
+          "audio": "assets/audio/lessons/toeic-p2-2/ex3.mp3"
+        },
+        {
+          "en": "How long will the meeting last?",
+          "zh": "會議會開多久？",
+          "highlight": "long",
+          "audio": "assets/audio/lessons/toeic-p2-2/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "按 ▶ 聽問題和 3 個回答。考試時不會印出文字。",
+      "questions": [
+        {
+          "id": "p22-time-a",
+          "group": "p22-time",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "What time 問時間。(B) 的 close 是「靠近」，和「關門」同字不同意思，是陷阱。\n逐字稿：What time does the store close?（這家店幾點關門？）　(A) At nine o'clock.（九點）　(B) It's close to the station.（它離車站很近）　(C) Yes, it is.（是的，它是）",
+          "audio": "assets/audio/toeic/p22-time-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p22-which-a",
+          "group": "p22-which",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "Which 問哪一個，回答「15 號公車」。\n逐字稿：Which bus goes to the airport?（哪一班公車到機場？）　(A) About an hour.（大約一小時）　(B) The number fifteen.（15 號）　(C) Yes, I'm going.（是的，我要去）",
+          "audio": "assets/audio/toeic/p22-which-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p22-much-a",
+          "group": "p22-much",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "How much 問價錢。(B) 重複 much，是陷阱。\n逐字稿：How much is this jacket?（這件夾克多少錢？）　(A) It's forty dollars.（四十美元）　(B) Yes, very much.（是的，非常）　(C) In the blue box.（在藍色的盒子裡）",
+          "audio": "assets/audio/toeic/p22-much-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p22-long-a",
+          "group": "p22-long",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "How long 問多久，回答「大約一小時」。(B) 重複 long，是陷阱。\n逐字稿：How long will the meeting last?（會議會開多久？）　(A) In the main hall.（在大廳）　(B) It's a long table.（那是一張長桌）　(C) About one hour.（大約一小時）",
+          "audio": "assets/audio/toeic/p22-long-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p22-whose-a",
+          "group": "p22-whose",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "Whose 問是誰的，回答「Kevin 的」。\n逐字稿：Whose umbrella is this?（這是誰的雨傘？）　(A) It's raining.（在下雨）　(B) I think it's Kevin's.（我想是 Kevin 的）　(C) Yes, it is.（是的，它是）",
+          "audio": "assets/audio/toeic/p22-whose-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p22-time-b",
+          "group": "p22-time",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "What time 問時間，回答「中午」。\n逐字稿：What time is your flight?（你的班機是幾點？）　(A) Gate twenty.（20 號登機門）　(B) It leaves at noon.（中午起飛）　(C) I flew to Paris.（我飛去巴黎了）",
+          "audio": "assets/audio/toeic/p22-time-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p22-which-b",
+          "group": "p22-which",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Which room 問哪一間，回答「302 室」。(C) 的 meet 和 meeting 很像，是陷阱。\n逐字稿：Which room is the meeting in?（會議在哪一間會議室？）　(A) Room 302.（302 室）　(B) At two o'clock.（兩點）　(C) I meet him often.（我常常見到他）",
+          "audio": "assets/audio/toeic/p22-which-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p22-much-b",
+          "group": "p22-much",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "How much 問價錢，回答「十二美元」。\n逐字稿：How much does the ticket cost?（這張票多少錢？）　(A) At the ticket office.（在售票處）　(B) Twelve dollars.（十二美元）　(C) It takes two hours.（要花兩個小時）",
+          "audio": "assets/audio/toeic/p22-much-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p22-long-b",
+          "group": "p22-long",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "How long 問多久，回答「三年」。\n逐字稿：How long have you worked here?（你在這裡工作多久了？）　(A) For three years.（三年了）　(B) Every day.（每天）　(C) It's a long way.（路很遠）",
+          "audio": "assets/audio/toeic/p22-long-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p22-whose-b",
+          "group": "p22-whose",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Whose turn 問輪到誰，回答「Maria」。(B) 重複 turn，是陷阱。\n逐字稿：Whose turn is it to clean the kitchen?（輪到誰打掃廚房？）　(A) It's Maria's.（輪到 Maria）　(B) Turn left.（左轉）　(C) The kitchen is big.（廚房很大）",
+          "audio": "assets/audio/toeic/p22-whose-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p22-x1",
+          "group": "p22-x1",
+          "type": "choice",
+          "prompt": "「會議要開多久？」英文怎麼問？",
+          "options": [
+            "How long will the meeting last?",
+            "How much will the meeting last?",
+            "What time will the meeting last?"
+          ],
+          "answer": "How long will the meeting last?",
+          "explanation": "問「多久」用 How long。"
+        },
+        {
+          "id": "p22-x2",
+          "group": "p22-x2",
+          "type": "choice",
+          "prompt": "Wh 問句（What、Where…）的回答，哪一種通常是錯的？",
+          "options": [
+            "用 Yes 或 No 開頭",
+            "說出時間或地點",
+            "說「我不確定」"
+          ],
+          "answer": "用 Yes 或 No 開頭",
+          "explanation": "Wh 問句要回答具體內容，不能只說 Yes／No。"
+        }
+      ]
+    }
+  ]
+}

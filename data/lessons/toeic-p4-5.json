@@ -1,0 +1,232 @@
+{
+  "id": "toeic-p4-5",
+  "world": "part4",
+  "order": 5,
+  "type": "toeic-listen",
+  "title": "Part 4 電話留言與意圖題",
+  "titleEn": "Voicemail & Intent",
+  "summary": "電話留言：誰打來、為什麼、要你做什麼。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "電話留言一開頭就會說：This is（名字）from（公司）. 馬上知道是誰、哪裡打來的。",
+        "接著說打來的原因（I'm calling about…），最後請你做事（Please call me back…）。",
+        "意圖題：What does the speaker imply when he says, \"it's not urgent\"? 要想說話者「為什麼這樣說」。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "類型",
+          "開頭常聽到",
+          "常考"
+        ],
+        "rows": [
+          [
+            "留言開頭",
+            "This is David from Quick Car Repair.",
+            "說話者是誰、在哪裡工作"
+          ],
+          [
+            "原因",
+            "I'm calling about your reservation.",
+            "為什麼打來"
+          ],
+          [
+            "轉折",
+            "Unfortunately… However…",
+            "問題是什麼、提供什麼方案"
+          ]
+        ]
+      },
+      "tip": "Unfortunately 後面是壞消息（問題）；However 後面是解決方法。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Your car is ready.",
+          "zh": "您的車修好了。",
+          "highlight": "ready",
+          "audio": "assets/audio/lessons/toeic-p4-5/ex1.mp3"
+        },
+        {
+          "en": "It's not urgent.",
+          "zh": "這不急。",
+          "highlight": "urgent",
+          "audio": "assets/audio/lessons/toeic-p4-5/ex2.mp3"
+        },
+        {
+          "en": "I'm calling about your reservation.",
+          "zh": "我打來是關於您的訂房。",
+          "highlight": "calling",
+          "audio": "assets/audio/lessons/toeic-p4-5/ex3.mp3"
+        },
+        {
+          "en": "Please call me back.",
+          "zh": "請回電給我。",
+          "highlight": "back",
+          "audio": "assets/audio/lessons/toeic-p4-5/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再按 ▶ 聽。每段有 3 題。",
+      "questions": [
+        {
+          "id": "p4-5-t1-q1",
+          "group": "p4-5-t1-q1",
+          "type": "choice",
+          "prompt": "說話者為什麼打電話？",
+          "options": [
+            "To say a car is ready",
+            "To book an appointment",
+            "To sell a new car"
+          ],
+          "answer": "To say a car is ready",
+          "explanation": "Your car is ready. 車修好了。\n逐字稿：Hi, Ms. Garcia. This is David from Quick Car Repair. Your car is ready. We fixed the brakes and changed the oil. The total cost is $210. We close at six today, so please come before then. Oh, and we found a small problem with one of the tires. Well, it's not urgent, but you might want to replace it soon.",
+          "sentence": "Why is the speaker calling?",
+          "audio": "assets/audio/toeic/p45-talk1.mp3",
+          "audioLabel": "▶ 播放留言"
+        },
+        {
+          "id": "p4-5-t1-q2",
+          "group": "p4-5-t1-q2",
+          "type": "choice",
+          "prompt": "說話者說「這不急」，意思是什麼？",
+          "options": [
+            "The tire does not need to be replaced today.",
+            "The repair is very expensive.",
+            "The shop is closing early."
+          ],
+          "answer": "The tire does not need to be replaced today.",
+          "explanation": "輪胎有小問題但不急，意思是不用今天換，可以之後再處理。\n逐字稿：Hi, Ms. Garcia. This is David from Quick Car Repair. Your car is ready. We fixed the brakes and changed the oil. The total cost is $210. We close at six today, so please come before then. Oh, and we found a small problem with one of the tires. Well, it's not urgent, but you might want to replace it soon.",
+          "sentence": "What does the speaker imply when he says, \"it's not urgent\"?",
+          "audio": "assets/audio/toeic/p45-talk1.mp3",
+          "audioLabel": "▶ 播放留言"
+        },
+        {
+          "id": "p4-5-t1-q3",
+          "group": "p4-5-t1-q3",
+          "type": "choice",
+          "prompt": "修車廠今天幾點關門？",
+          "options": [
+            "6:00",
+            "2:10",
+            "10:00"
+          ],
+          "answer": "6:00",
+          "explanation": "We close at six today. 210 是修理費（$210），不是時間。\n逐字稿：Hi, Ms. Garcia. This is David from Quick Car Repair. Your car is ready. We fixed the brakes and changed the oil. The total cost is $210. We close at six today, so please come before then. Oh, and we found a small problem with one of the tires. Well, it's not urgent, but you might want to replace it soon.",
+          "sentence": "What time does the shop close today?",
+          "audio": "assets/audio/toeic/p45-talk1.mp3",
+          "audioLabel": "▶ 播放留言"
+        },
+        {
+          "id": "p4-5-t2-q1",
+          "group": "p4-5-t2-q1",
+          "type": "choice",
+          "prompt": "說話者在哪裡工作？",
+          "options": [
+            "At a hotel",
+            "At a travel agency",
+            "At a restaurant"
+          ],
+          "answer": "At a hotel",
+          "explanation": "calling from Brightway Hotel：飯店。\n逐字稿：Hello, this is Emma Wilson calling from Brightway Hotel. I'm calling about your reservation for next weekend. Unfortunately, the room with a sea view is no longer available. However, we can offer you a larger room with a garden view at the same price. Please call me back at 555-2481 to let me know if this is OK.",
+          "sentence": "Where does the speaker work?",
+          "audio": "assets/audio/toeic/p45-talk2.mp3",
+          "audioLabel": "▶ 播放留言"
+        },
+        {
+          "id": "p4-5-t2-q2",
+          "group": "p4-5-t2-q2",
+          "type": "choice",
+          "prompt": "說話者提到什麼問題？",
+          "options": [
+            "A room is not available.",
+            "A price has gone up.",
+            "A payment was not received."
+          ],
+          "answer": "A room is not available.",
+          "explanation": "the room with a sea view is no longer available：海景房沒有了。\n逐字稿：Hello, this is Emma Wilson calling from Brightway Hotel. I'm calling about your reservation for next weekend. Unfortunately, the room with a sea view is no longer available. However, we can offer you a larger room with a garden view at the same price. Please call me back at 555-2481 to let me know if this is OK.",
+          "sentence": "What problem does the speaker mention?",
+          "audio": "assets/audio/toeic/p45-talk2.mp3",
+          "audioLabel": "▶ 播放留言"
+        },
+        {
+          "id": "p4-5-t2-q3",
+          "group": "p4-5-t2-q3",
+          "type": "choice",
+          "prompt": "說話者提供什麼方案？",
+          "options": [
+            "A larger room",
+            "A free breakfast",
+            "A lower price"
+          ],
+          "answer": "A larger room",
+          "explanation": "we can offer you a larger room with a garden view at the same price：同樣價格換大一點的花園景觀房。\n逐字稿：Hello, this is Emma Wilson calling from Brightway Hotel. I'm calling about your reservation for next weekend. Unfortunately, the room with a sea view is no longer available. However, we can offer you a larger room with a garden view at the same price. Please call me back at 555-2481 to let me know if this is OK.",
+          "sentence": "What does the speaker offer?",
+          "audio": "assets/audio/toeic/p45-talk2.mp3",
+          "audioLabel": "▶ 播放留言"
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p45-x1",
+          "group": "p45-x1",
+          "type": "choice",
+          "prompt": "urgent 是什麼意思？",
+          "options": [
+            "緊急的",
+            "昂貴的",
+            "簡單的"
+          ],
+          "answer": "緊急的",
+          "explanation": "It's not urgent.：不急。",
+          "promptSay": {
+            "text": "urgent",
+            "audio": "assets/audio/prompts/urgent.mp3"
+          }
+        },
+        {
+          "id": "p45-x2",
+          "group": "p45-x2",
+          "type": "choice",
+          "prompt": "no longer available 是什麼意思？",
+          "options": [
+            "已經沒有了",
+            "還很多",
+            "明天才有"
+          ],
+          "answer": "已經沒有了",
+          "explanation": "no longer：不再。no longer available：已經不能用、沒有了。",
+          "promptSay": {
+            "text": "no longer available",
+            "audio": "assets/audio/prompts/no-longer-available.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

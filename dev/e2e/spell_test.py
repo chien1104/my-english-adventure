@@ -4,7 +4,8 @@ AUTO_CLOSE = "new MutationObserver(()=>{const b=document.querySelector('[data-ac
 srv=subprocess.Popen([sys.executable,'-m','http.server','8774','-d','my-english-adventure'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL); time.sleep(1)
 W={}
 for f in glob.glob('my-english-adventure/data/vocab/*.json'):
-    for w in json.load(open(f)): W[w['image']]=w
+    for w in json.load(open(f)):
+        if w.get('image'): W[w['image']]=w
 res=[]
 def check(n,c,d=''): res.append((n,bool(c),d))
 try:
@@ -13,7 +14,7 @@ try:
     errs=[]; pg.on('pageerror',lambda e: errs.append(str(e)))
     B='http://localhost:8774/'
     pg.goto(B); pg.wait_for_selector('html[data-ready="true"]')
-    pg.evaluate("""(async()=>{const db=window.__mea.db;for(const w of await db.getAll('vocab')) await db.put('reviews',{wordId:w.id,status:'learning',box:1,correct:1,wrong:0,streak:1,lastSeenAt:Date.now(),dueAt:Date.now()+9e8});})()""")
+    pg.evaluate("""(async()=>{const db=window.__mea.db;for(const w of (await db.getAll('vocab')).filter(x=>x.image)) await db.put('reviews',{wordId:w.id,status:'learning',box:1,correct:1,wrong:0,streak:1,lastSeenAt:Date.now(),dueAt:Date.now()+9e8});})()""")
     pg.goto(B+'#/game?id=spell'); pg.wait_for_selector('[data-testid=game-spell]')
     def spell(right):
         w=W[pg.get_attribute('[data-role=card] .q__img','src')]

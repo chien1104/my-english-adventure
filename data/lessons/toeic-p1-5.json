@@ -1,0 +1,277 @@
+{
+  "id": "toeic-p1-5",
+  "world": "part1",
+  "order": 5,
+  "type": "toeic-listen",
+  "title": "Part 1 刪去法綜合練習",
+  "titleEn": "Elimination Practice",
+  "summary": "用刪去法：名詞不對、動作不對、沒有的人，一個一個刪。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "Part 1 不一定要聽懂每個字。只要確定三個選項是錯的，剩下的就是答案。",
+        "常見錯誤：說了照片裡沒有的東西、動作不對（is being…）、位置不對（on／under 弄反）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "錯在哪裡",
+          "例子",
+          "怎麼抓"
+        ],
+        "rows": [
+          [
+            "東西不對",
+            "照片是水壺，句子說 coffee pot",
+            "聽到照片沒有的名詞就刪"
+          ],
+          [
+            "動作不對",
+            "The cups are being washed.",
+            "沒有人在洗 → 刪"
+          ],
+          [
+            "位置不對",
+            "The microwave is on the floor.",
+            "在流理台上，不是地上 → 刪"
+          ],
+          [
+            "人不對",
+            "A man is pushing a cart.",
+            "照片沒有人 → 刪"
+          ]
+        ]
+      },
+      "tip": "聽的時候在心裡打 ✓ 或 ✕，四句聽完再選。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "There are price signs in front of the baskets.",
+          "zh": "籃子前面有價格牌。",
+          "highlight": "signs",
+          "audio": "assets/audio/lessons/toeic-p1-5/ex1.mp3"
+        },
+        {
+          "en": "A hand truck is next to the boxes.",
+          "zh": "手推車在箱子旁邊。",
+          "highlight": "truck",
+          "audio": "assets/audio/lessons/toeic-p1-5/ex2.mp3"
+        },
+        {
+          "en": "A kettle is on the counter.",
+          "zh": "水壺在流理台上。",
+          "highlight": "kettle",
+          "audio": "assets/audio/lessons/toeic-p1-5/ex3.mp3"
+        },
+        {
+          "en": "The suitcases are different colors.",
+          "zh": "行李箱的顏色都不一樣。",
+          "highlight": "colors",
+          "audio": "assets/audio/lessons/toeic-p1-5/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看照片，再按 ▶ 聽 4 個句子。",
+      "questions": [
+        {
+          "id": "p15-market-a",
+          "group": "p15-market",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) There are price signs in front of the baskets.\n逐字稿：(A) The fruit is being weighed.（水果正在被秤重）　(B) There are price signs in front of the baskets.（籃子前面有價格牌）　(C) The stand is closed.（攤位關了）　(D) A shopper is holding a basket.（一位顧客拿著籃子）",
+          "scene": "assets/img/scenes/market.svg",
+          "audio": "assets/audio/toeic/p15-market-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p15-boxes-a",
+          "group": "p15-boxes",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) A hand truck is next to the boxes.\n逐字稿：(A) A hand truck is next to the boxes.（手推車在箱子旁邊）　(B) Workers are moving boxes.（工人在搬箱子）　(C) The door is being locked.（門正在被鎖上）　(D) The boxes have been opened.（箱子已經被打開了）",
+          "scene": "assets/img/scenes/boxes.svg",
+          "audio": "assets/audio/toeic/p15-boxes-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p15-kitchen-a",
+          "group": "p15-kitchen",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) A kettle is on the counter.\n逐字稿：(A) A kettle is on the counter.（水壺在流理台上）　(B) Someone is heating food.（有人在加熱食物）　(C) The cups are being washed.（杯子正在被清洗）　(D) The cabinets are open.（櫥櫃是開著的）",
+          "scene": "assets/img/scenes/kitchen.svg",
+          "audio": "assets/audio/toeic/p15-kitchen-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p15-bags-a",
+          "group": "p15-bags",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) The suitcases are different colors.\n逐字稿：(A) The suitcases are different colors.（行李箱的顏色都不一樣）　(B) Travelers are checking in.（旅客正在辦理報到）　(C) A plane is landing on the road.（一架飛機降落在馬路上）　(D) The bags are being opened.（包包正在被打開）",
+          "scene": "assets/img/scenes/luggage.svg",
+          "audio": "assets/audio/toeic/p15-bags-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p15-market-b",
+          "group": "p15-market",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "正確答案 (C) Some fruit is on display under an awning.\n逐字稿：(A) Vegetables are piled on the ground.（蔬菜堆在地上）　(B) A worker is setting up the awning.（一名工人在架設遮雨棚）　(C) Some fruit is on display under an awning.（遮雨棚下陳列著水果）　(D) The baskets are stacked on top of each other.（籃子疊在一起）",
+          "scene": "assets/img/scenes/market.svg",
+          "audio": "assets/audio/toeic/p15-market-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p15-boxes-b",
+          "group": "p15-boxes",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) Some boxes are piled on top of each other.\n逐字稿：(A) The boxes are on a shelf.（箱子在架子上）　(B) Some boxes are piled on top of each other.（有些箱子堆疊在一起）　(C) A man is pushing a cart.（一名男子在推推車）　(D) The door is being painted.（門正在被油漆）",
+          "scene": "assets/img/scenes/boxes.svg",
+          "audio": "assets/audio/toeic/p15-boxes-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p15-kitchen-b",
+          "group": "p15-kitchen",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) Some cups have been put on a shelf.\n逐字稿：(A) The microwave door is open.（微波爐的門是開著的）　(B) Some cups have been put on a shelf.（架子上已經放了一些杯子）　(C) Water is boiling in a pot.（鍋子裡的水正在沸騰）　(D) A man is cleaning the counter.（一名男子在擦流理台）",
+          "scene": "assets/img/scenes/kitchen.svg",
+          "audio": "assets/audio/toeic/p15-kitchen-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p15-bags-b",
+          "group": "p15-bags",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "正確答案 (C) There is a plant in the corner.\n逐字稿：(A) The sofa is being moved.（沙發正在被搬動）　(B) A guest is reading on the sofa.（一位客人在沙發上看書）　(C) There is a plant in the corner.（角落有一盆植物）　(D) The picture is being taken down.（畫正在被取下來）",
+          "scene": "assets/img/scenes/lobby.svg",
+          "audio": "assets/audio/toeic/p15-bags-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p15-x1",
+          "group": "p15-x1",
+          "type": "choice",
+          "prompt": "pile 是什麼意思？",
+          "options": [
+            "堆疊",
+            "推",
+            "秤重"
+          ],
+          "answer": "堆疊",
+          "explanation": "be piled：被堆起來。和 stacked 意思接近。",
+          "promptSay": {
+            "text": "pile",
+            "audio": "assets/audio/prompts/pile.mp3"
+          }
+        },
+        {
+          "id": "p15-x2",
+          "group": "p15-x2",
+          "type": "choice",
+          "prompt": "on display 是什麼意思？",
+          "options": [
+            "陳列中",
+            "已售完",
+            "正在送貨"
+          ],
+          "answer": "陳列中",
+          "explanation": "on display：展示、陳列中。",
+          "promptSay": {
+            "text": "on display",
+            "audio": "assets/audio/prompts/on-display.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

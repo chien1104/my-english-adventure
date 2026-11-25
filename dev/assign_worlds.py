@@ -6,16 +6,16 @@ import json, os, sys
 ROOT = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else '.')
 PLAN = [
     ('words', ['vocab-1', 'vocab-2', 'vocab-3', 'biz-1']),
-    ('grammar', ['grammar-1', 'grammar-2', 'grammar-3']),
+    ('grammar', ['grammar-1', 'grammar-2', 'grammar-3', 'grammar-4', 'grammar-5', 'grammar-6', 'grammar-7', 'grammar-8', 'grammar-9', 'grammar-10', 'grammar-11']),
     ('phonics', ['phonics-1', 'phonics-2', 'phonics-3']),
-    ('part1', ['toeic-p1']),
-    ('part2', ['toeic-p2']),
-    ('part3', ['life-1', 'life-2', 'life-3', 'toeic-p3']),
-    ('part4', ['toeic-p4']),
-    ('part5', ['toeic-p5-1']),
-    ('part6', ['biz-2', 'toeic-p6']),
-    ('part7', ['read-1', 'read-2', 'toeic-p7']),
-    ('mock', ['mock-1']),
+    ('part1', ['toeic-p1', 'toeic-p1-2', 'toeic-p1-3', 'toeic-p1-4', 'toeic-p1-5']),
+    ('part2', ['toeic-p2', 'toeic-p2-2', 'toeic-p2-3', 'toeic-p2-4', 'toeic-p2-5']),
+    ('part3', ['life-1', 'life-2', 'life-3', 'toeic-p3', 'toeic-p3-2']),
+    ('part4', ['toeic-p4', 'toeic-p4-2', 'toeic-p4-3', 'toeic-p4-4', 'toeic-p4-5']),
+    ('part5', ['toeic-p5-1', 'toeic-p5-2', 'toeic-p5-3', 'toeic-p5-4', 'toeic-p5-5']),
+    ('part6', ['biz-2', 'toeic-p6', 'toeic-p6-2', 'toeic-p6-3', 'toeic-p6-4']),
+    ('part7', ['read-1', 'read-2', 'toeic-p7', 'toeic-p7-2', 'toeic-p7-3']),
+    ('mock', ['mock-1', 'mock-2', 'mock-3']),
 ]
 # 每個世界的第一課沒有「上一課」可以等，用 requires 接上原本的學習順序
 REQUIRES = {

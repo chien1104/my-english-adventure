@@ -1,7 +1,8 @@
 // 多益單字庫（純邏輯）：系列、單元、單元課程、搜尋
+import { enZhQuestion, zhEnQuestion, practiceQuestion } from './word-questions.js';
 // 系列與單元來自 data/series.json；每個單元 20 個字，依多益出現頻率排序。
 
-export const UNIT_MINUTES = 8;
+export const UNIT_MINUTES = 10;
 export const unitKey = (unitId) => `unit:${unitId}`;
 
 // 把字串變成固定的亂數種子：同一個單元每次產生的選項順序都一樣（暫停後繼續不會亂掉）
@@ -71,24 +72,9 @@ export function nextUnit(series, records) {
   return index < 0 ? null : { series, index, id: `${series.id}:${index}`, ids: series.units[index] };
 }
 
-function explain(w) {
-  return `${w.en} ${w.ipa}（${w.posZh}）是「${w.zh}」。例句：${w.example.en}（${w.example.zh}）`;
-}
-
-// 一個單字的兩種題目：看英文選中文、看中文選英文
+// 一個單字的兩種基本題目：看英文選中文、看中文選英文
 export function wordQuestions(w, pool, rng) {
-  const others = shuffle(pool.filter((o) => o.id !== w.id && o.zh !== w.zh && o.en.toLowerCase() !== w.en.toLowerCase()), rng).slice(0, 2);
-  const enZh = {
-    id: `u-${w.id}-zh`, group: w.id, wordId: w.id, type: 'choice',
-    prompt: '這個單字的中文是？', sentence: w.en, sentenceAudio: w.audio,
-    options: shuffle([w.zh, ...others.map((o) => o.zh)], rng), answer: w.zh, explanation: explain(w),
-  };
-  const zhEn = {
-    id: `u-${w.id}-en`, group: w.id, wordId: w.id, type: 'choice',
-    prompt: `「${w.zh}」的英文是？`,
-    options: shuffle([w.en, ...others.map((o) => o.en)], rng), answer: w.en, explanation: explain(w),
-  };
-  return [enZh, zhEn];
+  return [enZhQuestion(w, pool, rng), zhEnQuestion(w, pool, rng)];
 }
 
 // 單元課程：前半認字＋小測驗、後半認字＋小測驗，最後看答案解析。交給課程播放器。
@@ -106,6 +92,12 @@ export function buildUnitLesson(series, index, wordsMap) {
     steps.push({ kind: 'words', title: p === 0 ? '認識單字（上）' : '認識單字（下）', wordIds: part.map((w) => w.id) });
     steps.push({ kind: 'practice', title: p === 0 ? '小測驗（上）' : '小測驗（下）', intro: '答錯的字，等一下會換個方式再考一次。', questions: shuffle(qs, rng), similar: sim });
   });
+  // 活用練習：聽音選答、例句填空、拼字輪流出題
+  const extra = words.map((w, i) => practiceQuestion(w, pool, rng, i)).filter(Boolean);
+  const extraSim = words.map((w, i) => practiceQuestion(w, pool, rng, i + 1, '-b')).filter(Boolean);
+  if (extra.length) {
+    steps.push({ kind: 'practice', title: '活用練習', intro: '聽發音選中文、例句填空、聽音拼字，把單字真的用出來。', questions: shuffle(extra, rng), similar: extraSim });
+  }
   steps.push({ kind: 'review', title: '答案解析' });
   return {
     id: `unit:${series.id}:${index}`, type: 'vocab', unit: true,

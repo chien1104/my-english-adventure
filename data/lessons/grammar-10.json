@@ -1,0 +1,475 @@
+{
+  "id": "grammar-10",
+  "world": "grammar",
+  "order": 10,
+  "type": "grammar",
+  "title": "被動語態：be ＋ 過去分詞",
+  "titleEn": "Passive Voice",
+  "summary": "說「被…」的時候，例如「包裹被寄出了」。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "中文說「這封信被寄出了」、「會議被延期了」，英文用 be 動詞 ＋ 過去分詞（p.p.）。",
+        "當我們不知道、或不需要說「是誰做的」，就會用被動語態。多益的公告和信件很常用。",
+        "判斷方法：主詞「自己做」用主動；主詞「被做」用被動。例如 The report was written by Amy.（報告被艾咪寫好）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "被動語態的樣子："
+      ],
+      "table": {
+        "head": [
+          "時間",
+          "句型",
+          "例子"
+        ],
+        "rows": [
+          [
+            "現在",
+            "am／is／are ＋ p.p.",
+            "Breakfast is served at 7."
+          ],
+          [
+            "過去",
+            "was／were ＋ p.p.",
+            "The package was sent yesterday."
+          ],
+          [
+            "未來",
+            "will be ＋ p.p.",
+            "The results will be announced soon."
+          ],
+          [
+            "助動詞",
+            "must／can／should be ＋ p.p.",
+            "The form must be signed."
+          ]
+        ]
+      },
+      "tip": "常見過去分詞：send → sent、hold → held、make → made、write → written、give → given、build → built。"
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "Breakfast is served from 7 to 10.",
+          "zh": "早餐供應時間是七點到十點。",
+          "highlight": "served",
+          "audio": "assets/audio/lessons/grammar-10/ex1.mp3"
+        },
+        {
+          "en": "The meeting was postponed.",
+          "zh": "會議被延期了。",
+          "highlight": "postponed",
+          "audio": "assets/audio/lessons/grammar-10/ex2.mp3"
+        },
+        {
+          "en": "The building was built in 1990.",
+          "zh": "這棟大樓建於 1990 年。",
+          "highlight": "built",
+          "audio": "assets/audio/lessons/grammar-10/ex3.mp3"
+        },
+        {
+          "en": "All forms must be signed.",
+          "zh": "所有表格都必須簽名。",
+          "highlight": "signed",
+          "audio": "assets/audio/lessons/grammar-10/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "The package",
+              "label": "主詞（被寄的東西）"
+            },
+            {
+              "text": "was",
+              "label": "be 動詞（過去）"
+            },
+            {
+              "text": "sent",
+              "label": "過去分詞"
+            },
+            {
+              "text": "yesterday.",
+              "label": "時間"
+            }
+          ],
+          "zh": "包裹不會自己寄，是「被寄出」，用被動"
+        },
+        {
+          "parts": [
+            {
+              "text": "The results",
+              "label": "主詞"
+            },
+            {
+              "text": "will be",
+              "label": "未來被動"
+            },
+            {
+              "text": "announced",
+              "label": "過去分詞"
+            },
+            {
+              "text": "next week.",
+              "label": "時間"
+            }
+          ],
+          "zh": "will be ＋ p.p.：將會被公布"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "The room is clean every day.",
+          "right": "The room is cleaned every day.",
+          "why": "房間是「被打掃」，要用過去分詞 cleaned。"
+        },
+        {
+          "wrong": "The letter was wrote by Tom.",
+          "right": "The letter was written by Tom.",
+          "why": "write 的過去分詞是 written。"
+        },
+        {
+          "wrong": "The report will finished soon.",
+          "right": "The report will be finished soon.",
+          "why": "未來被動是 will be ＋ p.p.。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出正確答案。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "grammar-10-0a",
+          "group": "grammar-10-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "cleans",
+            "is cleaned",
+            "cleaning",
+            "cleaned"
+          ],
+          "answer": "is cleaned",
+          "explanation": "房間是被打掃，用 is ＋ cleaned。",
+          "sentence": "The conference room ___ every morning.",
+          "zh": "會議室每天早上都會被打掃。"
+        },
+        {
+          "id": "grammar-10-1a",
+          "group": "grammar-10-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "built",
+            "was built",
+            "is building",
+            "builds"
+          ],
+          "answer": "was built",
+          "explanation": "last year 過去，購物中心是被蓋的：was built。",
+          "sentence": "The new mall ___ last year.",
+          "zh": "新的購物中心在去年蓋好了。"
+        },
+        {
+          "id": "grammar-10-2a",
+          "group": "grammar-10-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "deliver",
+            "delivered",
+            "be delivered",
+            "delivering"
+          ],
+          "answer": "be delivered",
+          "explanation": "訂單是被送的，未來被動 will be delivered。",
+          "sentence": "Your order will ___ tomorrow.",
+          "zh": "你的訂單明天會送達。"
+        },
+        {
+          "id": "grammar-10-3a",
+          "group": "grammar-10-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "postpone",
+            "postponed",
+            "postponing",
+            "postpones"
+          ],
+          "answer": "postponed",
+          "explanation": "was 後面接過去分詞 postponed。",
+          "sentence": "The meeting was ___ until Friday.",
+          "zh": "會議被延到星期五。",
+          "optionNotes": {
+            "postpone": "postpone（動詞）是「延期；延後」"
+          }
+        },
+        {
+          "id": "grammar-10-4a",
+          "group": "grammar-10-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "speaks",
+            "is spoken",
+            "speaking",
+            "spoke"
+          ],
+          "answer": "is spoken",
+          "explanation": "英文是被說的，用 is spoken。",
+          "sentence": "English ___ in many countries.",
+          "zh": "很多國家都說英文。"
+        },
+        {
+          "id": "grammar-10-5a",
+          "group": "grammar-10-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "buy",
+            "be bought",
+            "buying",
+            "bought"
+          ],
+          "answer": "be bought",
+          "explanation": "must be ＋ p.p.：必須被購買。",
+          "sentence": "The tickets must ___ in advance.",
+          "zh": "票必須事先購買。"
+        },
+        {
+          "id": "grammar-10-6a",
+          "group": "grammar-10-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "sent",
+            "was sent",
+            "sends",
+            "is sending"
+          ],
+          "answer": "was sent",
+          "explanation": "郵件是被寄的，過去用 was sent。",
+          "sentence": "The email ___ to all staff yesterday.",
+          "zh": "那封電子郵件昨天寄給了所有員工。"
+        },
+        {
+          "id": "grammar-10-7a",
+          "group": "grammar-10-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "visits",
+            "is visited",
+            "visiting",
+            "visit"
+          ],
+          "answer": "is visited",
+          "explanation": "博物館是被參觀的，用 is visited。",
+          "sentence": "The museum ___ by thousands of people every year.",
+          "zh": "每年有數千人參觀這座博物館。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "grammar-10-0b",
+          "group": "grammar-10-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "serves",
+            "is served",
+            "serving",
+            "served"
+          ],
+          "answer": "is served",
+          "explanation": "晚餐是被供應的，用 is served。",
+          "sentence": "Dinner ___ at 6 p.m. every day.",
+          "zh": "晚餐每天六點供應。"
+        },
+        {
+          "id": "grammar-10-1b",
+          "group": "grammar-10-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "built",
+            "was built",
+            "builds",
+            "is building"
+          ],
+          "answer": "was built",
+          "explanation": "過去被建造，was built。",
+          "sentence": "This bridge ___ in 1980.",
+          "zh": "這座橋在 1980 年建成。"
+        },
+        {
+          "id": "grammar-10-2b",
+          "group": "grammar-10-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "announce",
+            "announced",
+            "be announced",
+            "announcing"
+          ],
+          "answer": "be announced",
+          "explanation": "will be ＋ p.p.。",
+          "sentence": "The results will ___ next week.",
+          "zh": "結果將在下週公布。"
+        },
+        {
+          "id": "grammar-10-3b",
+          "group": "grammar-10-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "cancel",
+            "canceled",
+            "canceling",
+            "cancels"
+          ],
+          "answer": "canceled",
+          "explanation": "was 後面接過去分詞 canceled。",
+          "sentence": "The flight was ___ because of the storm.",
+          "zh": "班機因為暴風雨被取消了。",
+          "optionNotes": {
+            "cancel": "cancel（動詞）是「取消」"
+          }
+        },
+        {
+          "id": "grammar-10-4b",
+          "group": "grammar-10-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "make",
+            "are made",
+            "making",
+            "made"
+          ],
+          "answer": "are made",
+          "explanation": "車是被製造的，用 are made。",
+          "sentence": "These cars ___ in Japan.",
+          "zh": "這些車是日本製造的。"
+        },
+        {
+          "id": "grammar-10-5b",
+          "group": "grammar-10-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "complete",
+            "be completed",
+            "completing",
+            "completed"
+          ],
+          "answer": "be completed",
+          "explanation": "should be ＋ p.p.。",
+          "sentence": "The form should ___ in black ink.",
+          "zh": "表格應該用黑色墨水填寫。"
+        },
+        {
+          "id": "grammar-10-6b",
+          "group": "grammar-10-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "delivered",
+            "was delivered",
+            "delivers",
+            "is delivering"
+          ],
+          "answer": "was delivered",
+          "explanation": "包裹是被送的，用 was delivered。",
+          "sentence": "The package ___ to the wrong address.",
+          "zh": "包裹被送到錯的地址了。"
+        },
+        {
+          "id": "grammar-10-7b",
+          "group": "grammar-10-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "manages",
+            "is managed",
+            "managing",
+            "manage"
+          ],
+          "answer": "is managed",
+          "explanation": "店是被經營的，用 is managed。",
+          "sentence": "The store ___ by Mr. Lin.",
+          "zh": "這家店由林先生經營。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多益 Part 5 的出題方式，挑戰看看。",
+      "questions": [
+        {
+          "id": "grammar-10-x0",
+          "group": "grammar-10-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "hold",
+            "held",
+            "be held",
+            "holding"
+          ],
+          "answer": "be held",
+          "explanation": "典禮是「被舉行」，will be ＋ held（hold 的過去分詞）。",
+          "sentence": "The annual awards ceremony will ___ at the Grand Hotel on May 10.",
+          "zh": "年度頒獎典禮將於五月十日在君悅飯店舉行。"
+        },
+        {
+          "id": "grammar-10-x1",
+          "group": "grammar-10-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "require",
+            "required",
+            "requiring",
+            "requirement"
+          ],
+          "answer": "required",
+          "explanation": "be required to ＋ 動詞原形：被要求做某事。",
+          "sentence": "All visitors are ___ to sign in at the front desk.",
+          "zh": "所有訪客都必須在櫃檯登記。",
+          "optionNotes": {
+            "require": "require（動詞）是「需要；要求」",
+            "requirement": "requirement（名詞）是「要求；必要條件」"
+          }
+        }
+      ]
+    }
+  ]
+}

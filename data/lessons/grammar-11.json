@@ -1,0 +1,465 @@
+{
+  "id": "grammar-11",
+  "world": "grammar",
+  "order": 11,
+  "type": "grammar",
+  "title": "比較級與最高級",
+  "titleEn": "Comparatives & Superlatives",
+  "summary": "「比較…」和「最…」的說法。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "中文說「比較便宜」、「最便宜」，英文會改變形容詞的樣子。",
+        "短的字加 -er（比較）和 -est（最），例如 cheap → cheaper → cheapest。",
+        "長的字前面加 more（比較）和 most（最），例如 expensive → more expensive → most expensive。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "變化規則："
+      ],
+      "table": {
+        "head": [
+          "形容詞",
+          "比較級（比較…）",
+          "最高級（最…）"
+        ],
+        "rows": [
+          [
+            "短字：cheap、fast",
+            "cheaper、faster ＋ than",
+            "the cheapest、the fastest"
+          ],
+          [
+            "長字：expensive、popular",
+            "more expensive ＋ than",
+            "the most expensive"
+          ],
+          [
+            "y 結尾：easy、busy",
+            "easier、busier",
+            "the easiest、the busiest"
+          ],
+          [
+            "不規則：good、bad",
+            "better、worse",
+            "the best、the worst"
+          ]
+        ]
+      },
+      "tip": "看到 than 用比較級；看到 the ＋ 空格 ＋ in／of 用最高級。"
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "This hotel is cheaper than that one.",
+          "zh": "這家飯店比那家便宜。",
+          "highlight": "cheaper",
+          "audio": "assets/audio/lessons/grammar-11/ex1.mp3"
+        },
+        {
+          "en": "Taipei 101 is the tallest building in Taiwan.",
+          "zh": "台北 101 是台灣最高的大樓。",
+          "highlight": "tallest",
+          "audio": "assets/audio/lessons/grammar-11/ex2.mp3"
+        },
+        {
+          "en": "This model is more expensive than the old one.",
+          "zh": "這個型號比舊的貴。",
+          "highlight": "more",
+          "audio": "assets/audio/lessons/grammar-11/ex3.mp3"
+        },
+        {
+          "en": "She is the best salesperson on the team.",
+          "zh": "她是團隊裡最好的業務。",
+          "highlight": "best",
+          "audio": "assets/audio/lessons/grammar-11/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "The new laptop",
+              "label": "主詞"
+            },
+            {
+              "text": "is",
+              "label": "是"
+            },
+            {
+              "text": "lighter",
+              "label": "比較級"
+            },
+            {
+              "text": "than the old one.",
+              "label": "than ＋ 比較對象"
+            }
+          ],
+          "zh": "看到 than，用比較級 lighter"
+        },
+        {
+          "parts": [
+            {
+              "text": "This is",
+              "label": "這是"
+            },
+            {
+              "text": "the most popular",
+              "label": "最高級（長字用 most）"
+            },
+            {
+              "text": "dish",
+              "label": "名詞"
+            },
+            {
+              "text": "on the menu.",
+              "label": "範圍"
+            }
+          ],
+          "zh": "popular 是長字，最高級用 the most"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "This bag is more cheap than that one.",
+          "right": "This bag is cheaper than that one.",
+          "why": "cheap 是短字，直接加 -er。"
+        },
+        {
+          "wrong": "She is the most fast runner.",
+          "right": "She is the fastest runner.",
+          "why": "fast 是短字，最高級是 fastest。"
+        },
+        {
+          "wrong": "This is the goodest pizza.",
+          "right": "This is the best pizza.",
+          "why": "good 的最高級是 best（不規則）。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出正確答案。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "grammar-11-0a",
+          "group": "grammar-11-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "fast",
+            "faster",
+            "fastest",
+            "more fast"
+          ],
+          "answer": "faster",
+          "explanation": "看到 than，短字 fast 加 -er。",
+          "sentence": "The train is ___ than the bus.",
+          "zh": "火車比公車快。"
+        },
+        {
+          "id": "grammar-11-1a",
+          "group": "grammar-11-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "expensive",
+            "more expensive",
+            "most expensive",
+            "expensiver"
+          ],
+          "answer": "most expensive",
+          "explanation": "the ＋ 最高級，expensive 是長字，用 most expensive。",
+          "sentence": "This is the ___ hotel in the city.",
+          "zh": "這是城裡最貴的飯店。"
+        },
+        {
+          "id": "grammar-11-2a",
+          "group": "grammar-11-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "busy",
+            "busier",
+            "busiest",
+            "more busy"
+          ],
+          "answer": "busier",
+          "explanation": "busy 是 y 結尾，比較級 busier。",
+          "sentence": "Today is ___ than yesterday.",
+          "zh": "今天比昨天忙。"
+        },
+        {
+          "id": "grammar-11-3a",
+          "group": "grammar-11-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "good",
+            "better",
+            "best",
+            "goodest"
+          ],
+          "answer": "best",
+          "explanation": "the ＋ 最高級，good → best。",
+          "sentence": "Ms. Wang is the ___ manager I have ever had.",
+          "zh": "王小姐是我遇過最好的經理。"
+        },
+        {
+          "id": "grammar-11-4a",
+          "group": "grammar-11-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "popular",
+            "more popular",
+            "most popular",
+            "popularer"
+          ],
+          "answer": "more popular",
+          "explanation": "看到 than，popular 是長字，用 more popular。",
+          "sentence": "The new design is ___ than the old one.",
+          "zh": "新設計比舊的更受歡迎。"
+        },
+        {
+          "id": "grammar-11-5a",
+          "group": "grammar-11-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "small",
+            "smaller",
+            "smallest",
+            "more small"
+          ],
+          "answer": "smallest",
+          "explanation": "the ＋ 最高級，small → smallest。",
+          "sentence": "This is the ___ room in the hotel.",
+          "zh": "這是飯店裡最小的房間。"
+        },
+        {
+          "id": "grammar-11-6a",
+          "group": "grammar-11-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "bad",
+            "worse",
+            "worst",
+            "more bad"
+          ],
+          "answer": "worse",
+          "explanation": "bad 的比較級是 worse（不規則）。",
+          "sentence": "The weather today is ___ than last week.",
+          "zh": "今天的天氣比上週糟。"
+        },
+        {
+          "id": "grammar-11-7a",
+          "group": "grammar-11-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "convenient",
+            "more convenient",
+            "most convenient",
+            "convenienter"
+          ],
+          "answer": "more convenient",
+          "explanation": "convenient 是長字，比較級用 more convenient。",
+          "sentence": "Online shopping is ___ than going to the store.",
+          "zh": "網路購物比去商店更方便。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "grammar-11-0b",
+          "group": "grammar-11-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "light",
+            "lighter",
+            "lightest",
+            "more light"
+          ],
+          "answer": "lighter",
+          "explanation": "看到 than，短字加 -er。",
+          "sentence": "My new phone is ___ than my old one.",
+          "zh": "我的新手機比舊的輕。"
+        },
+        {
+          "id": "grammar-11-1b",
+          "group": "grammar-11-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "popular",
+            "more popular",
+            "most popular",
+            "popularest"
+          ],
+          "answer": "most popular",
+          "explanation": "the ＋ 長字最高級：most popular。",
+          "sentence": "It's the ___ restaurant in town.",
+          "zh": "這是鎮上最受歡迎的餐廳。"
+        },
+        {
+          "id": "grammar-11-2b",
+          "group": "grammar-11-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "easy",
+            "easier",
+            "easiest",
+            "more easy"
+          ],
+          "answer": "easier",
+          "explanation": "easy → easier。",
+          "sentence": "This test is ___ than the last one.",
+          "zh": "這次考試比上次簡單。"
+        },
+        {
+          "id": "grammar-11-3b",
+          "group": "grammar-11-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "bad",
+            "worse",
+            "worst",
+            "baddest"
+          ],
+          "answer": "worst",
+          "explanation": "the ＋ 最高級，bad → worst。",
+          "sentence": "That was the ___ movie I have ever seen.",
+          "zh": "那是我看過最爛的電影。"
+        },
+        {
+          "id": "grammar-11-4b",
+          "group": "grammar-11-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "comfortable",
+            "more comfortable",
+            "most comfortable",
+            "comfortabler"
+          ],
+          "answer": "more comfortable",
+          "explanation": "長字比較級用 more。",
+          "sentence": "This chair is ___ than that one.",
+          "zh": "這張椅子比那張舒服。"
+        },
+        {
+          "id": "grammar-11-5b",
+          "group": "grammar-11-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "young",
+            "younger",
+            "youngest",
+            "more young"
+          ],
+          "answer": "youngest",
+          "explanation": "the ＋ 最高級，young → youngest。",
+          "sentence": "He is the ___ person on our team.",
+          "zh": "他是我們團隊裡最年輕的人。"
+        },
+        {
+          "id": "grammar-11-6b",
+          "group": "grammar-11-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "good",
+            "better",
+            "best",
+            "more good"
+          ],
+          "answer": "better",
+          "explanation": "good 的比較級是 better。",
+          "sentence": "Her English is ___ than mine.",
+          "zh": "她的英文比我好。"
+        },
+        {
+          "id": "grammar-11-7b",
+          "group": "grammar-11-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "cheap",
+            "cheaper",
+            "cheapest",
+            "more cheap"
+          ],
+          "answer": "cheaper",
+          "explanation": "看到 than，cheap 加 -er。",
+          "sentence": "Taking the train is ___ than driving.",
+          "zh": "搭火車比開車便宜。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多益 Part 5 的出題方式，挑戰看看。",
+      "questions": [
+        {
+          "id": "grammar-11-x0",
+          "group": "grammar-11-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "fast",
+            "faster",
+            "fastest",
+            "more fast"
+          ],
+          "answer": "faster",
+          "explanation": "much 可以加強比較級，後面有 than，用 faster。",
+          "sentence": "Our new delivery service is much ___ than before.",
+          "zh": "我們新的送貨服務比以前快很多。"
+        },
+        {
+          "id": "grammar-11-x1",
+          "group": "grammar-11-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "efficient",
+            "more efficient",
+            "most efficient",
+            "efficiently"
+          ],
+          "answer": "most efficient",
+          "explanation": "the ＋ 名詞前的最高級，efficient 是長字，用 most efficient。",
+          "sentence": "Ms. Ruiz received the award for being the ___ employee of the year.",
+          "zh": "魯伊茲小姐獲選年度最有效率的員工。"
+        }
+      ]
+    }
+  ]
+}

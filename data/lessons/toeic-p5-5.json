@@ -1,0 +1,341 @@
+{
+  "id": "toeic-p5-5",
+  "world": "part5",
+  "order": 5,
+  "type": "toeic",
+  "title": "Part 5 單字題：常考搭配",
+  "titleEn": "Collocations",
+  "summary": "make a reservation、place an order：多益最愛考的固定搭配。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "單字題的四個選項意思都不一樣，要選「最搭」的那一個。",
+        "很多英文的動詞和名詞是固定搭配，中文直譯會出錯。例如「訂位」是 make a reservation，不是 do a reservation。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "搭配",
+          "意思",
+          "例句"
+        ],
+        "rows": [
+          [
+            "make a reservation",
+            "預約、訂位",
+            "I would like to make a reservation."
+          ],
+          [
+            "meet a deadline",
+            "趕上期限",
+            "We need to meet the deadline."
+          ],
+          [
+            "place an order",
+            "下訂單",
+            "You can place an order online."
+          ],
+          [
+            "attend a meeting",
+            "出席會議",
+            "All staff must attend the meeting."
+          ],
+          [
+            "submit an application",
+            "提交申請",
+            "Please submit your application."
+          ],
+          [
+            "give a presentation",
+            "做簡報",
+            "She will give a presentation."
+          ]
+        ]
+      },
+      "tip": "背單字時連搭配一起背：不要只背 deadline，要背 meet a deadline。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "I would like to make a reservation for two.",
+          "zh": "我想訂兩個人的位子。",
+          "highlight": "make",
+          "audio": "assets/audio/lessons/toeic-p5-5/ex1.mp3"
+        },
+        {
+          "en": "Customers can place an order online.",
+          "zh": "顧客可以在網路上下訂單。",
+          "highlight": "place",
+          "audio": "assets/audio/lessons/toeic-p5-5/ex2.mp3"
+        },
+        {
+          "en": "All staff must attend the safety training.",
+          "zh": "所有員工都必須參加安全訓練。",
+          "highlight": "attend",
+          "audio": "assets/audio/lessons/toeic-p5-5/ex3.mp3"
+        },
+        {
+          "en": "We need to meet the deadline.",
+          "zh": "我們必須趕上期限。",
+          "highlight": "meet",
+          "audio": "assets/audio/lessons/toeic-p5-5/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再作答。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "p55-0a",
+          "group": "p55-0",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "do",
+            "make",
+            "take",
+            "have"
+          ],
+          "answer": "make",
+          "explanation": "make a reservation：預約、訂位。",
+          "sentence": "I would like to ___ a reservation for two.",
+          "zh": "我想訂兩個人的位子。"
+        },
+        {
+          "id": "p55-1a",
+          "group": "p55-1",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "meet",
+            "do",
+            "go",
+            "put"
+          ],
+          "answer": "meet",
+          "explanation": "meet a deadline：趕上期限。",
+          "sentence": "We need to ___ the deadline.",
+          "zh": "我們必須趕上期限。"
+        },
+        {
+          "id": "p55-2a",
+          "group": "p55-2",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "place",
+            "put",
+            "give",
+            "set"
+          ],
+          "answer": "place",
+          "explanation": "place an order：下訂單。",
+          "sentence": "Customers can ___ an order online.",
+          "zh": "顧客可以在網路上下訂單。"
+        },
+        {
+          "id": "p55-3a",
+          "group": "p55-3",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "attend",
+            "listen",
+            "arrive",
+            "go"
+          ],
+          "answer": "attend",
+          "explanation": "attend ＋ 活動（不用加 to）：參加。",
+          "sentence": "All staff must ___ the safety training.",
+          "zh": "所有員工都必須參加安全訓練。"
+        },
+        {
+          "id": "p55-4a",
+          "group": "p55-4",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "submit",
+            "arrive",
+            "apply",
+            "reply"
+          ],
+          "answer": "submit",
+          "explanation": "submit an application：提交申請。",
+          "sentence": "Please ___ your application by May 1.",
+          "zh": "請在五月一日前提交申請。"
+        },
+        {
+          "id": "p55-5a",
+          "group": "p55-5",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "discount",
+            "account",
+            "amount",
+            "count"
+          ],
+          "answer": "discount",
+          "explanation": "a 10% discount：九折優惠。",
+          "sentence": "The company offers a 10% ___ to new customers.",
+          "zh": "公司提供新客戶九折優惠。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p55-0b",
+          "group": "p55-0",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "do",
+            "make",
+            "give",
+            "go"
+          ],
+          "answer": "make",
+          "explanation": "make a reservation：預約。",
+          "sentence": "Did you ___ a reservation at the hotel?",
+          "zh": "你有預約飯店嗎？"
+        },
+        {
+          "id": "p55-1b",
+          "group": "p55-1",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "meet",
+            "do",
+            "go",
+            "put"
+          ],
+          "answer": "meet",
+          "explanation": "meet the deadline：趕上期限。",
+          "sentence": "If we work late, we can ___ the deadline.",
+          "zh": "如果我們加班，就能趕上期限。"
+        },
+        {
+          "id": "p55-2b",
+          "group": "p55-2",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "place",
+            "put",
+            "give",
+            "set"
+          ],
+          "answer": "place",
+          "explanation": "place an order：下訂單。",
+          "sentence": "I'd like to ___ an order for 50 chairs.",
+          "zh": "我想訂 50 張椅子。"
+        },
+        {
+          "id": "p55-3b",
+          "group": "p55-3",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "attend",
+            "listen",
+            "arrive",
+            "go"
+          ],
+          "answer": "attend",
+          "explanation": "attend the meeting：出席會議。",
+          "sentence": "Mr. Wu could not ___ the meeting because he was sick.",
+          "zh": "吳先生因為生病無法出席會議。"
+        },
+        {
+          "id": "p55-4b",
+          "group": "p55-4",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "submit",
+            "arrive",
+            "apply",
+            "reply"
+          ],
+          "answer": "submit",
+          "explanation": "submit a résumé：提交履歷。",
+          "sentence": "Applicants should ___ their résumés by email.",
+          "zh": "應徵者應該用電子郵件寄出履歷。"
+        },
+        {
+          "id": "p55-5b",
+          "group": "p55-5",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "discount",
+            "account",
+            "amount",
+            "count"
+          ],
+          "answer": "discount",
+          "explanation": "a 20% discount：八折。",
+          "sentence": "Members get a 20% ___ on all books.",
+          "zh": "會員所有書籍都打八折。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p55-x0",
+          "group": "p55-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "give",
+            "do",
+            "say",
+            "tell"
+          ],
+          "answer": "give",
+          "explanation": "give a presentation：做簡報。",
+          "sentence": "The marketing manager will ___ a presentation on the new product.",
+          "zh": "行銷經理將針對新產品做簡報。"
+        },
+        {
+          "id": "p55-x1",
+          "group": "p55-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "fill out",
+            "fill up",
+            "full out",
+            "feel out"
+          ],
+          "answer": "fill out",
+          "explanation": "fill out a form：填寫表格。",
+          "sentence": "Please ___ the form and return it to the front desk.",
+          "zh": "請填寫表格並交回櫃台。"
+        }
+      ]
+    }
+  ]
+}

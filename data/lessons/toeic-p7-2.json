@@ -1,0 +1,246 @@
+{
+  "id": "toeic-p7-2",
+  "world": "part7",
+  "order": 4,
+  "type": "toeic",
+  "title": "Part 7 Email 與公告",
+  "titleEn": "Emails & Notices",
+  "summary": "辦公室清潔、大樓停水：找目的、時間、要做的事。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "Part 7 的 email 和公告，第一、二句通常就說出目的。",
+        "題目問「要大家做什麼」，就去找 Please…、We suggest that…；問時間就找日期和星期。",
+        "注意寄信日期（Date: March 3）和活動日期（March 8）不一樣，是常見陷阱。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "題目",
+          "中文",
+          "去哪裡找"
+        ],
+        "rows": [
+          [
+            "What is the purpose of…?",
+            "目的是什麼？",
+            "第一、二句"
+          ],
+          [
+            "What are staff asked to do?",
+            "員工被要求做什麼？",
+            "Please… / We suggest…"
+          ],
+          [
+            "Who is…?",
+            "某人是誰？",
+            "名字前後的職稱"
+          ]
+        ]
+      },
+      "tip": "答案常是換句話說：take items off the floor ＝ remove items from the floor。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Please take all personal items off the floor.",
+          "zh": "請把所有個人物品從地上拿起來。",
+          "highlight": "items",
+          "audio": "assets/audio/lessons/toeic-p7-2/ex1.mp3"
+        },
+        {
+          "en": "The office will be closed on Saturday.",
+          "zh": "辦公室星期六不開放。",
+          "highlight": "closed",
+          "audio": "assets/audio/lessons/toeic-p7-2/ex2.mp3"
+        },
+        {
+          "en": "We suggest that you store some water.",
+          "zh": "我們建議您先儲存一些水。",
+          "highlight": "suggest",
+          "audio": "assets/audio/lessons/toeic-p7-2/ex3.mp3"
+        },
+        {
+          "en": "Please contact the building manager.",
+          "zh": "請聯絡大樓管理員。",
+          "highlight": "contact",
+          "audio": "assets/audio/lessons/toeic-p7-2/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "每題都會顯示文章，看完題目再回文章找答案。⏱ 限時練習：每題建議 60 秒內作答，題號旁邊會倒數；超時不會被打斷。",
+      "questions": [
+        {
+          "id": "p72-11",
+          "group": "p72-11",
+          "type": "choice",
+          "prompt": "這封 email 的目的是什麼？",
+          "options": [
+            "To announce office cleaning",
+            "To invite staff to a party",
+            "To introduce a new manager"
+          ],
+          "answer": "To announce office cleaning",
+          "explanation": "第一句就說地毯週六要清潔。",
+          "sentence": "What is the purpose of the email?",
+          "text": "From: Anna Lee <anna.lee@brightdesign.com>\nTo: All Staff\nDate: March 3\nSubject: Office Cleaning\n\nHi everyone,\n\nThe carpets in our office will be cleaned this Saturday, March 8. Please take all personal items off the floor before you leave on Friday. The cleaning will take about five hours, so the office will be closed on Saturday. It will open again as usual on Monday morning.\n\nThank you,\nAnna Lee\nOffice Manager",
+          "promptSay": {
+            "text": "email",
+            "audio": "assets/audio/words/email.mp3"
+          }
+        },
+        {
+          "id": "p72-12",
+          "group": "p72-12",
+          "type": "choice",
+          "prompt": "員工被要求做什麼？",
+          "options": [
+            "Remove items from the floor",
+            "Clean their desks on Saturday",
+            "Come to work early on Monday"
+          ],
+          "answer": "Remove items from the floor",
+          "explanation": "take all personal items off the floor 換句話說就是 remove items from the floor。",
+          "sentence": "What are staff asked to do?",
+          "text": "From: Anna Lee <anna.lee@brightdesign.com>\nTo: All Staff\nDate: March 3\nSubject: Office Cleaning\n\nHi everyone,\n\nThe carpets in our office will be cleaned this Saturday, March 8. Please take all personal items off the floor before you leave on Friday. The cleaning will take about five hours, so the office will be closed on Saturday. It will open again as usual on Monday morning.\n\nThank you,\nAnna Lee\nOffice Manager"
+        },
+        {
+          "id": "p72-13",
+          "group": "p72-13",
+          "type": "choice",
+          "prompt": "辦公室哪一天不開放？",
+          "options": [
+            "On March 8",
+            "On March 3",
+            "On Monday"
+          ],
+          "answer": "On March 8",
+          "explanation": "清潔在星期六 March 8，那天不開放。March 3 是寄信日期。",
+          "sentence": "When will the office be closed?",
+          "text": "From: Anna Lee <anna.lee@brightdesign.com>\nTo: All Staff\nDate: March 3\nSubject: Office Cleaning\n\nHi everyone,\n\nThe carpets in our office will be cleaned this Saturday, March 8. Please take all personal items off the floor before you leave on Friday. The cleaning will take about five hours, so the office will be closed on Saturday. It will open again as usual on Monday morning.\n\nThank you,\nAnna Lee\nOffice Manager"
+        },
+        {
+          "id": "p72-21",
+          "group": "p72-21",
+          "type": "choice",
+          "prompt": "為什麼要停水？",
+          "options": [
+            "Pipes will be repaired.",
+            "The building will be painted.",
+            "A new manager will start."
+          ],
+          "answer": "Pipes will be repaired.",
+          "explanation": "workers will be repairing pipes：工人要修水管。",
+          "sentence": "Why will the water be turned off?",
+          "text": "Parkview Apartments — Notice to Residents\n\nThe water will be turned off on Wednesday, July 10, from 1 p.m. to 4 p.m. because workers will be repairing pipes on the third floor. We suggest that you store some water before 1 p.m. We are sorry for any trouble this may cause. If you have questions, please contact the building manager, Mr. Ortiz, at 555-0172."
+        },
+        {
+          "id": "p72-22",
+          "group": "p72-22",
+          "type": "choice",
+          "prompt": "會停水多久？",
+          "options": [
+            "Three hours",
+            "One hour",
+            "Four hours"
+          ],
+          "answer": "Three hours",
+          "explanation": "from 1 p.m. to 4 p.m.：下午一點到四點，共三個小時。",
+          "sentence": "How long will the water be off?",
+          "text": "Parkview Apartments — Notice to Residents\n\nThe water will be turned off on Wednesday, July 10, from 1 p.m. to 4 p.m. because workers will be repairing pipes on the third floor. We suggest that you store some water before 1 p.m. We are sorry for any trouble this may cause. If you have questions, please contact the building manager, Mr. Ortiz, at 555-0172."
+        },
+        {
+          "id": "p72-23",
+          "group": "p72-23",
+          "type": "choice",
+          "prompt": "公告建議住戶做什麼？",
+          "options": [
+            "Store water in advance",
+            "Leave the building",
+            "Call a plumber"
+          ],
+          "answer": "Store water in advance",
+          "explanation": "We suggest that you store some water before 1 p.m. in advance 是「事先」。",
+          "sentence": "What does the notice suggest residents do?",
+          "text": "Parkview Apartments — Notice to Residents\n\nThe water will be turned off on Wednesday, July 10, from 1 p.m. to 4 p.m. because workers will be repairing pipes on the third floor. We suggest that you store some water before 1 p.m. We are sorry for any trouble this may cause. If you have questions, please contact the building manager, Mr. Ortiz, at 555-0172."
+        },
+        {
+          "id": "p72-24",
+          "group": "p72-24",
+          "type": "choice",
+          "prompt": "Ortiz 先生是誰？",
+          "options": [
+            "The building manager",
+            "A plumber",
+            "A resident"
+          ],
+          "answer": "The building manager",
+          "explanation": "the building manager, Mr. Ortiz：大樓管理員。",
+          "sentence": "Who is Mr. Ortiz?",
+          "text": "Parkview Apartments — Notice to Residents\n\nThe water will be turned off on Wednesday, July 10, from 1 p.m. to 4 p.m. because workers will be repairing pipes on the third floor. We suggest that you store some water before 1 p.m. We are sorry for any trouble this may cause. If you have questions, please contact the building manager, Mr. Ortiz, at 555-0172."
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p72-x1",
+          "group": "p72-x1",
+          "type": "choice",
+          "prompt": "resident 是什麼意思？",
+          "options": [
+            "住戶、居民",
+            "總統",
+            "餐廳"
+          ],
+          "answer": "住戶、居民",
+          "explanation": "Notice to Residents：給住戶的公告。",
+          "promptSay": {
+            "text": "resident",
+            "audio": "assets/audio/prompts/resident.mp3"
+          }
+        },
+        {
+          "id": "p72-x2",
+          "group": "p72-x2",
+          "type": "choice",
+          "prompt": "in advance 是什麼意思？",
+          "options": [
+            "事先",
+            "前進",
+            "進步"
+          ],
+          "answer": "事先",
+          "explanation": "book in advance：事先預訂。",
+          "promptSay": {
+            "text": "in advance",
+            "audio": "assets/audio/prompts/in-advance.mp3"
+          }
+        }
+      ]
+    }
+  ],
+  "pace": 60
+}

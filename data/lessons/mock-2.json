@@ -1,0 +1,1711 @@
+{
+  "id": "mock-2",
+  "world": "mock",
+  "order": 2,
+  "type": "exam",
+  "title": "半長模擬考 B",
+  "titleEn": "Half Mock Test B",
+  "minutes": 60,
+  "timeLimit": 3600,
+  "summary": "正式多益一半的份量：聽力 50 題＋閱讀 50 題，限時 60 分鐘，交卷後看各 Part 成績和預估分數。",
+  "steps": [
+    {
+      "kind": "practice",
+      "title": "半長模擬考",
+      "questions": [
+        {
+          "id": "m2-p1-1",
+          "group": "m2-p1-1",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) A traffic light stands near a building.\n逐字稿：(A) A car is being washed.（一輛車正在被清洗）　(B) A traffic light stands near a building.（紅綠燈立在大樓附近）　(C) Some people are riding bicycles.（有些人在騎腳踏車）　(D) The road is covered with leaves.（路上滿是落葉）",
+          "scene": "assets/img/scenes/street.svg",
+          "audio": "assets/audio/toeic/m2-p1-1.mp3",
+          "audioLabel": "▶ 播放 4 個句子",
+          "part": 1
+        },
+        {
+          "id": "m2-p1-2",
+          "group": "m2-p1-2",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "正確答案 (C) Two chairs have been placed at a table.\n逐字稿：(A) A waiter is pouring water.（服務生在倒水）　(B) The table is being cleared.（桌子正在被收拾）　(C) Two chairs have been placed at a table.（桌子旁擺了兩張椅子）　(D) Food is being served.（食物正在被端上桌）",
+          "scene": "assets/img/scenes/restaurant.svg",
+          "audio": "assets/audio/toeic/m2-p1-2.mp3",
+          "audioLabel": "▶ 播放 4 個句子",
+          "part": 1
+        },
+        {
+          "id": "m2-p1-3",
+          "group": "m2-p1-3",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "D",
+          "explanation": "正確答案 (D) A microwave has been placed on a counter.\n逐字稿：(A) A cup is being filled with coffee.（杯子正在被倒滿咖啡）　(B) The cabinets are being repaired.（櫥櫃正在被修理）　(C) Someone is opening a drawer.（有人在開抽屜）　(D) A microwave has been placed on a counter.（流理台上放著一台微波爐）",
+          "scene": "assets/img/scenes/kitchen.svg",
+          "audio": "assets/audio/toeic/m2-p1-3.mp3",
+          "audioLabel": "▶ 播放 4 個句子",
+          "part": 1
+        },
+        {
+          "id": "m2-p1-4",
+          "group": "m2-p1-4",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) Several suitcases are standing in a row.\n逐字稿：(A) Several suitcases are standing in a row.（幾個行李箱排成一排）　(B) Passengers are boarding a plane.（乘客正在登機）　(C) Some bags are being weighed.（有些包包正在被秤重）　(D) A worker is cleaning the window.（一名工人在擦窗戶）",
+          "scene": "assets/img/scenes/luggage.svg",
+          "audio": "assets/audio/toeic/m2-p1-4.mp3",
+          "audioLabel": "▶ 播放 4 個句子",
+          "part": 1
+        },
+        {
+          "id": "m2-p2-5",
+          "group": "m2-p2-5",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "Where 問地點。(B) sent 和郵局有關但沒回答地點。\n逐字稿：Where's the nearest post office?（最近的郵局在哪裡？）　(A) I sent it yesterday.（我昨天寄了）　(B) Two blocks down this street.（沿著這條街走兩個街區）　(C) At nine thirty.（九點半）",
+          "audio": "assets/audio/toeic/m2-p2-5.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-6",
+          "group": "m2-p2-6",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Who 問人，回答「Ramos 小姐」。\n逐字稿：Who's in charge of the new project?（誰負責這個新專案？）　(A) Ms. Ramos is.（Ramos 小姐）　(B) It's a big project.（這是個大專案）　(C) Next Monday.（下週一）",
+          "audio": "assets/audio/toeic/m2-p2-6.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-7",
+          "group": "m2-p2-7",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "When 問時間。\n逐字稿：When will the repairs be finished?（修理什麼時候會完成？）　(A) The repair shop.（修理店）　(B) Yes, they are.（是的，它們是）　(C) By the end of the week.（這週結束前）",
+          "audio": "assets/audio/toeic/m2-p2-7.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-8",
+          "group": "m2-p2-8",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "間接回答：不知道原因，去問警衛。\n逐字稿：Why is the meeting room locked?（會議室為什麼鎖著？）　(A) It's on the second floor.（在二樓）　(B) I'll ask security.（我去問警衛）　(C) Yes, at three.（是的，三點）",
+          "audio": "assets/audio/toeic/m2-p2-8.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-9",
+          "group": "m2-p2-9",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "How 問方式，回答交通工具。(B) 重複 quick，是陷阱。\n逐字稿：How did you get here so quickly?（你怎麼這麼快就到了？）　(A) I took the subway.（我搭地鐵）　(B) It's very quick.（它很快）　(C) About ten people.（大約十個人）",
+          "audio": "assets/audio/toeic/m2-p2-9.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-10",
+          "group": "m2-p2-10",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "邀請，回答「很樂意」。(B) 重複 join，是陷阱。\n逐字稿：Would you like to join us for lunch?（要不要跟我們一起吃午餐？）　(A) I joined last year.（我去年加入的）　(B) The lunch box.（午餐盒）　(C) I'd love to.（我很樂意）",
+          "audio": "assets/audio/toeic/m2-p2-10.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-11",
+          "group": "m2-p2-11",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "選擇疑問句，選「現在訂」。\n逐字稿：Should we order more paper or wait until next week?（我們要現在多訂一些紙，還是等到下週？）　(A) The paper is white.（紙是白色的）　(B) Let's order it now.（現在就訂吧）　(C) Yes, I waited.（是的，我等了）",
+          "audio": "assets/audio/toeic/m2-p2-11.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-12",
+          "group": "m2-p2-12",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "附加問句在確認，回答「見過」並說明在哪。(C) 用 it 指人是錯的。\n逐字稿：You've met our new director, haven't you?（你見過我們的新主管了，對吧？）　(A) Yes, at last week's meeting.（見過，在上週的會議）　(B) The director's office.（主管的辦公室）　(C) No, I didn't meet it.（不，我沒見過它）",
+          "audio": "assets/audio/toeic/m2-p2-12.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-13",
+          "group": "m2-p2-13",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "Why don't we 是提議，(B) Because 是陷阱。\n逐字稿：Why don't we reserve a table for Friday?（我們何不訂星期五的位子？）　(A) Because it's full.（因為客滿了）　(B) The table is wooden.（桌子是木頭的）　(C) Good idea. I'll call now.（好主意，我現在就打）",
+          "audio": "assets/audio/toeic/m2-p2-13.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-14",
+          "group": "m2-p2-14",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "直述句：說影印機壞了，回答「找技術人員」。\n逐字稿：The copier on the third floor isn't working.（三樓的影印機壞了。）　(A) Three copies, please.（請印三份）　(B) I'll call the technician.（我來打給技術人員）　(C) It works for a bank.（它為一家銀行工作）",
+          "audio": "assets/audio/toeic/m2-p2-14.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-15",
+          "group": "m2-p2-15",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "How often 問頻率，回答「一個月兩次」。How long 才是問多久。\n逐字稿：How often do you visit the Tokyo office?（你多久去一次東京辦公室？）　(A) About twice a month.（大約一個月兩次）　(B) It's a big office.（那是個大辦公室）　(C) For two hours.（兩個小時）",
+          "audio": "assets/audio/toeic/m2-p2-15.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-16",
+          "group": "m2-p2-16",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "C",
+          "explanation": "否定疑問句：沒到就說 No，再說原因。\n逐字稿：Didn't the shipment arrive this morning?（貨不是今天早上到嗎？）　(A) I'll ship it.（我會寄出）　(B) In the morning paper.（在晨報上）　(C) No, it's been delayed.（沒有，延誤了）",
+          "audio": "assets/audio/toeic/m2-p2-16.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p2-17",
+          "group": "m2-p2-17",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "答應請求。(B) soft 和 software 很像，是陷阱。\n逐字稿：Can you show me how to use this software?（你可以教我怎麼用這個軟體嗎？）　(A) It's a soft chair.（那是張軟椅子）　(B) Sure, have a seat.（當然，請坐）　(C) I used it yesterday.（我昨天用過）",
+          "audio": "assets/audio/toeic/m2-p2-17.mp3",
+          "audioLabel": "▶ 播放題目與選項",
+          "part": 2
+        },
+        {
+          "id": "m2-p3-18",
+          "group": "m2-p3-18",
+          "type": "choice",
+          "prompt": "說話者最可能在哪裡？",
+          "options": [
+            "At a hotel",
+            "At an airport",
+            "At a restaurant"
+          ],
+          "answer": "At a hotel",
+          "explanation": "reservation、key、room 都表示在飯店櫃台。\n逐字稿：M: Good evening. I have a reservation under the name Carter.　W: Welcome, Mr. Carter. You're staying for two nights, right?　M: That's right. Is breakfast included?　W: Yes, it's served from 6:30 to 10 in the restaurant on the first floor. Here's your key. Your room is on the eighth floor.",
+          "sentence": "Where most likely are the speakers?",
+          "audio": "assets/audio/toeic/m2-conv18.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-19",
+          "group": "m2-p3-19",
+          "type": "choice",
+          "prompt": "男子會住多久？",
+          "options": [
+            "One night",
+            "Two nights",
+            "Eight nights"
+          ],
+          "answer": "Two nights",
+          "explanation": "You're staying for two nights. eighth 是樓層。\n逐字稿：M: Good evening. I have a reservation under the name Carter.　W: Welcome, Mr. Carter. You're staying for two nights, right?　M: That's right. Is breakfast included?　W: Yes, it's served from 6:30 to 10 in the restaurant on the first floor. Here's your key. Your room is on the eighth floor.",
+          "sentence": "How long will the man stay?",
+          "audio": "assets/audio/toeic/m2-conv18.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-20",
+          "group": "m2-p3-20",
+          "type": "choice",
+          "prompt": "早餐在哪裡供應？",
+          "options": [
+            "In the man's room",
+            "On the eighth floor",
+            "In a restaurant on the first floor"
+          ],
+          "answer": "In a restaurant on the first floor",
+          "explanation": "served in the restaurant on the first floor。\n逐字稿：M: Good evening. I have a reservation under the name Carter.　W: Welcome, Mr. Carter. You're staying for two nights, right?　M: That's right. Is breakfast included?　W: Yes, it's served from 6:30 to 10 in the restaurant on the first floor. Here's your key. Your room is on the eighth floor.",
+          "sentence": "Where is breakfast served?",
+          "audio": "assets/audio/toeic/m2-conv18.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-21",
+          "group": "m2-p3-21",
+          "type": "choice",
+          "prompt": "男子提到什麼問題？",
+          "options": [
+            "A delivery will be late.",
+            "A meeting was canceled.",
+            "A supplier has closed."
+          ],
+          "answer": "A delivery will be late.",
+          "explanation": "the delivery will be late：送貨會晚到。\n逐字稿：W: Hi, James. The printer is almost out of ink. Did you order more?　M: I did, but the supplier said the delivery will be late. It won't arrive until Thursday.　W: Thursday? I need to print the training handouts tomorrow.　M: You could use the printer on the fifth floor. I'll let them know you're coming.",
+          "sentence": "What problem does the man mention?",
+          "audio": "assets/audio/toeic/m2-conv21.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-22",
+          "group": "m2-p3-22",
+          "type": "choice",
+          "prompt": "女子明天需要做什麼？",
+          "options": [
+            "Lead a meeting",
+            "Print some handouts",
+            "Visit a supplier"
+          ],
+          "answer": "Print some handouts",
+          "explanation": "I need to print the training handouts tomorrow.\n逐字稿：W: Hi, James. The printer is almost out of ink. Did you order more?　M: I did, but the supplier said the delivery will be late. It won't arrive until Thursday.　W: Thursday? I need to print the training handouts tomorrow.　M: You could use the printer on the fifth floor. I'll let them know you're coming.",
+          "sentence": "What does the woman need to do tomorrow?",
+          "audio": "assets/audio/toeic/m2-conv21.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-23",
+          "group": "m2-p3-23",
+          "type": "choice",
+          "prompt": "男子建議什麼？",
+          "options": [
+            "Buying ink at a store",
+            "Postponing the training",
+            "Using a different printer"
+          ],
+          "answer": "Using a different printer",
+          "explanation": "You could use the printer on the fifth floor. 用別台印表機。\n逐字稿：W: Hi, James. The printer is almost out of ink. Did you order more?　M: I did, but the supplier said the delivery will be late. It won't arrive until Thursday.　W: Thursday? I need to print the training handouts tomorrow.　M: You could use the printer on the fifth floor. I'll let them know you're coming.",
+          "sentence": "What does the man suggest?",
+          "audio": "assets/audio/toeic/m2-conv21.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-24",
+          "group": "m2-p3-24",
+          "type": "choice",
+          "prompt": "說話者在計畫什麼？",
+          "options": [
+            "A company picnic",
+            "A product launch",
+            "A training session"
+          ],
+          "answer": "A company picnic",
+          "explanation": "I'd like to talk about the company picnic.\n逐字稿：W: Thanks for meeting with me. I'd like to talk about the company picnic.　M1: Sure. Last year it was at Lakeside Park, and everyone enjoyed it.　M2: But it rained in the afternoon, remember? This year, maybe we should rent a place with a roof.　W: Good point. Mark, could you look for places and send me a list by Friday?　M2: No problem.",
+          "sentence": "What are the speakers planning?",
+          "audio": "assets/audio/toeic/m2-conv24.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-25",
+          "group": "m2-p3-25",
+          "type": "choice",
+          "prompt": "去年發生了什麼事？",
+          "options": [
+            "The park was closed.",
+            "It rained.",
+            "Few people came."
+          ],
+          "answer": "It rained.",
+          "explanation": "it rained in the afternoon：下午下雨了。\n逐字稿：W: Thanks for meeting with me. I'd like to talk about the company picnic.　M1: Sure. Last year it was at Lakeside Park, and everyone enjoyed it.　M2: But it rained in the afternoon, remember? This year, maybe we should rent a place with a roof.　W: Good point. Mark, could you look for places and send me a list by Friday?　M2: No problem.",
+          "sentence": "What happened last year?",
+          "audio": "assets/audio/toeic/m2-conv24.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-26",
+          "group": "m2-p3-26",
+          "type": "choice",
+          "prompt": "其中一名男子被要求做什麼？",
+          "options": [
+            "Book a park",
+            "Buy food",
+            "Send a list of places"
+          ],
+          "answer": "Send a list of places",
+          "explanation": "could you look for places and send me a list by Friday?\n逐字稿：W: Thanks for meeting with me. I'd like to talk about the company picnic.　M1: Sure. Last year it was at Lakeside Park, and everyone enjoyed it.　M2: But it rained in the afternoon, remember? This year, maybe we should rent a place with a roof.　W: Good point. Mark, could you look for places and send me a list by Friday?　M2: No problem.",
+          "sentence": "What is one of the men asked to do?",
+          "audio": "assets/audio/toeic/m2-conv24.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-27",
+          "group": "m2-p3-27",
+          "type": "choice",
+          "prompt": "女子為什麼想換貨？",
+          "options": [
+            "The shirt is too small.",
+            "The shirt is damaged.",
+            "She does not like the color."
+          ],
+          "answer": "The shirt is too small.",
+          "explanation": "it's too small：太小了。\n逐字稿：W: Excuse me. I bought this shirt here yesterday, but it's too small. Can I exchange it?　M: Of course. Do you have the receipt?　W: Yes, here. Do you have it in a large?　M: Let me check. Hmm, we don't have large in blue, but we have it in gray.　W: Gray is fine.",
+          "sentence": "Why does the woman want an exchange?",
+          "audio": "assets/audio/toeic/m2-conv27.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-28",
+          "group": "m2-p3-28",
+          "type": "choice",
+          "prompt": "男子要求看什麼？",
+          "options": [
+            "An ID card",
+            "A receipt",
+            "A credit card"
+          ],
+          "answer": "A receipt",
+          "explanation": "Do you have the receipt?\n逐字稿：W: Excuse me. I bought this shirt here yesterday, but it's too small. Can I exchange it?　M: Of course. Do you have the receipt?　W: Yes, here. Do you have it in a large?　M: Let me check. Hmm, we don't have large in blue, but we have it in gray.　W: Gray is fine.",
+          "sentence": "What does the man ask for?",
+          "audio": "assets/audio/toeic/m2-conv27.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-29",
+          "group": "m2-p3-29",
+          "type": "choice",
+          "prompt": "女子最後可能拿到什麼顏色？",
+          "options": [
+            "Blue",
+            "Black",
+            "Gray"
+          ],
+          "answer": "Gray",
+          "explanation": "藍色沒有 large，她說 Gray is fine。\n逐字稿：W: Excuse me. I bought this shirt here yesterday, but it's too small. Can I exchange it?　M: Of course. Do you have the receipt?　W: Yes, here. Do you have it in a large?　M: Let me check. Hmm, we don't have large in blue, but we have it in gray.　W: Gray is fine.",
+          "sentence": "What color will the woman probably get?",
+          "audio": "assets/audio/toeic/m2-conv27.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-30",
+          "group": "m2-p3-30",
+          "type": "choice",
+          "prompt": "女子為什麼打電話？",
+          "options": [
+            "To set up an interview",
+            "To open a bank account",
+            "To cancel a class"
+          ],
+          "answer": "To set up an interview",
+          "explanation": "invite you to a second interview：安排第二次面試。\n逐字稿：W: Hello, this is Rachel from Hartley Bank. We'd like to invite you to a second interview.　M: That's great! When would it be?　W: Would Wednesday at two work for you?　M: I'm afraid I have a class then. Is Thursday possible?　W: Yes, Thursday at two is fine. You'll meet our branch manager.",
+          "sentence": "Why is the woman calling?",
+          "audio": "assets/audio/toeic/m2-conv30.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-31",
+          "group": "m2-p3-31",
+          "type": "choice",
+          "prompt": "男子說「恐怕我那時有課」是什麼意思？",
+          "options": [
+            "He is worried about a test.",
+            "He cannot come on Wednesday.",
+            "He wants to teach a class."
+          ],
+          "answer": "He cannot come on Wednesday.",
+          "explanation": "星期三兩點他有課，所以不能來，接著問星期四可不可以。\n逐字稿：W: Hello, this is Rachel from Hartley Bank. We'd like to invite you to a second interview.　M: That's great! When would it be?　W: Would Wednesday at two work for you?　M: I'm afraid I have a class then. Is Thursday possible?　W: Yes, Thursday at two is fine. You'll meet our branch manager.",
+          "sentence": "What does the man mean when he says, \"I'm afraid I have a class then\"?",
+          "audio": "assets/audio/toeic/m2-conv30.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-32",
+          "group": "m2-p3-32",
+          "type": "choice",
+          "prompt": "男子會見到誰？",
+          "options": [
+            "A teacher",
+            "A bank customer",
+            "A branch manager"
+          ],
+          "answer": "A branch manager",
+          "explanation": "You'll meet our branch manager.\n逐字稿：W: Hello, this is Rachel from Hartley Bank. We'd like to invite you to a second interview.　M: That's great! When would it be?　W: Would Wednesday at two work for you?　M: I'm afraid I have a class then. Is Thursday possible?　W: Yes, Thursday at two is fine. You'll meet our branch manager.",
+          "sentence": "Who will the man meet?",
+          "audio": "assets/audio/toeic/m2-conv30.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-33",
+          "group": "m2-p3-33",
+          "type": "choice",
+          "prompt": "說話者最可能在哪裡？",
+          "options": [
+            "At a train station",
+            "At an airport",
+            "At a bus stop"
+          ],
+          "answer": "At a train station",
+          "explanation": "platform、train 表示在火車站。\n逐字稿：M: Excuse me, is this the platform for the train to Boston?　W: It was, but the train has been moved to platform six because of track repairs.　M: Oh, thanks. Is it still leaving at 10:15?　W: It'll be about twenty minutes late. You can get a coffee at the café upstairs while you wait.",
+          "sentence": "Where most likely are the speakers?",
+          "audio": "assets/audio/toeic/m2-conv33.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-34",
+          "group": "m2-p3-34",
+          "type": "choice",
+          "prompt": "火車為什麼換月台？",
+          "options": [
+            "Because of bad weather",
+            "Because of track repairs",
+            "Because it is full"
+          ],
+          "answer": "Because of track repairs",
+          "explanation": "because of track repairs：因為軌道維修。\n逐字稿：M: Excuse me, is this the platform for the train to Boston?　W: It was, but the train has been moved to platform six because of track repairs.　M: Oh, thanks. Is it still leaving at 10:15?　W: It'll be about twenty minutes late. You can get a coffee at the café upstairs while you wait.",
+          "sentence": "Why has the train been moved?",
+          "audio": "assets/audio/toeic/m2-conv33.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p3-35",
+          "group": "m2-p3-35",
+          "type": "choice",
+          "prompt": "女子建議什麼？",
+          "options": [
+            "Taking a bus",
+            "Buying a new ticket",
+            "Getting a coffee"
+          ],
+          "answer": "Getting a coffee",
+          "explanation": "You can get a coffee at the café upstairs.\n逐字稿：M: Excuse me, is this the platform for the train to Boston?　W: It was, but the train has been moved to platform six because of track repairs.　M: Oh, thanks. Is it still leaving at 10:15?　W: It'll be about twenty minutes late. You can get a coffee at the café upstairs while you wait.",
+          "sentence": "What does the woman suggest?",
+          "audio": "assets/audio/toeic/m2-conv33.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放",
+          "part": 3
+        },
+        {
+          "id": "m2-p4-36",
+          "group": "m2-p4-36",
+          "type": "choice",
+          "prompt": "什麼改變了？",
+          "options": [
+            "The departure gate",
+            "The departure time",
+            "The destination"
+          ],
+          "answer": "The departure gate",
+          "explanation": "The departure gate has changed：登機門改了。\n逐字稿：Attention, passengers on Sky Air flight 720 to London. The departure gate has changed from Gate 14 to Gate 32. Boarding will begin at 4:45. Passengers traveling with small children may board first. Thank you.",
+          "sentence": "What has changed?",
+          "audio": "assets/audio/toeic/m2-talk36.mp3",
+          "audioLabel": "▶ 播放廣播",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-37",
+          "group": "m2-p4-37",
+          "type": "choice",
+          "prompt": "幾點開始登機？",
+          "options": [
+            "7:20",
+            "4:45",
+            "3:20"
+          ],
+          "answer": "4:45",
+          "explanation": "Boarding will begin at 4:45. 720 是班機號碼。\n逐字稿：Attention, passengers on Sky Air flight 720 to London. The departure gate has changed from Gate 14 to Gate 32. Boarding will begin at 4:45. Passengers traveling with small children may board first. Thank you.",
+          "sentence": "When will boarding begin?",
+          "audio": "assets/audio/toeic/m2-talk36.mp3",
+          "audioLabel": "▶ 播放廣播",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-38",
+          "group": "m2-p4-38",
+          "type": "choice",
+          "prompt": "誰可以先登機？",
+          "options": [
+            "Business class passengers",
+            "Airline staff",
+            "Passengers with small children"
+          ],
+          "answer": "Passengers with small children",
+          "explanation": "Passengers traveling with small children may board first.\n逐字稿：Attention, passengers on Sky Air flight 720 to London. The departure gate has changed from Gate 14 to Gate 32. Boarding will begin at 4:45. Passengers traveling with small children may board first. Thank you.",
+          "sentence": "Who may board first?",
+          "audio": "assets/audio/toeic/m2-talk36.mp3",
+          "audioLabel": "▶ 播放廣播",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-39",
+          "group": "m2-p4-39",
+          "type": "choice",
+          "prompt": "這段廣播在哪裡播放？",
+          "options": [
+            "In a supermarket",
+            "In a restaurant",
+            "At a cooking school"
+          ],
+          "answer": "In a supermarket",
+          "explanation": "shoppers、Fresh Market、fruit and vegetables：超市。\n逐字稿：Good afternoon, shoppers. Thank you for shopping at Fresh Market. Today only, all fruit and vegetables are buy one, get one free. Also, our bakery has just taken fresh bread out of the oven. Please note that the store will close early today, at 6 p.m., for a staff meeting.",
+          "sentence": "Where is the announcement being made?",
+          "audio": "assets/audio/toeic/m2-talk39.mp3",
+          "audioLabel": "▶ 播放廣播",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-40",
+          "group": "m2-p4-40",
+          "type": "choice",
+          "prompt": "今天什麼在特價？",
+          "options": [
+            "Bread",
+            "Fruit and vegetables",
+            "Meat"
+          ],
+          "answer": "Fruit and vegetables",
+          "explanation": "all fruit and vegetables are buy one, get one free：買一送一。\n逐字稿：Good afternoon, shoppers. Thank you for shopping at Fresh Market. Today only, all fruit and vegetables are buy one, get one free. Also, our bakery has just taken fresh bread out of the oven. Please note that the store will close early today, at 6 p.m., for a staff meeting.",
+          "sentence": "What is on special today?",
+          "audio": "assets/audio/toeic/m2-talk39.mp3",
+          "audioLabel": "▶ 播放廣播",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-41",
+          "group": "m2-p4-41",
+          "type": "choice",
+          "prompt": "店為什麼提早關門？",
+          "options": [
+            "For cleaning",
+            "For a holiday",
+            "For a staff meeting"
+          ],
+          "answer": "For a staff meeting",
+          "explanation": "close early today… for a staff meeting.\n逐字稿：Good afternoon, shoppers. Thank you for shopping at Fresh Market. Today only, all fruit and vegetables are buy one, get one free. Also, our bakery has just taken fresh bread out of the oven. Please note that the store will close early today, at 6 p.m., for a staff meeting.",
+          "sentence": "Why will the store close early?",
+          "audio": "assets/audio/toeic/m2-talk39.mp3",
+          "audioLabel": "▶ 播放廣播",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-42",
+          "group": "m2-p4-42",
+          "type": "choice",
+          "prompt": "這通電話的目的是什麼？",
+          "options": [
+            "To give a reminder about an appointment",
+            "To change an appointment",
+            "To ask for a payment"
+          ],
+          "answer": "To give a reminder about an appointment",
+          "explanation": "I'm calling to remind you about your appointment：提醒預約。\n逐字稿：Hi, Mr. Patel. This is Sophie from Lane Dental Office. I'm calling to remind you about your appointment with Dr. Hughes tomorrow at 9 a.m. Please arrive ten minutes early to fill out a form. If you need to change the time, call us at 555-3190. See you tomorrow.",
+          "sentence": "What is the purpose of the call?",
+          "audio": "assets/audio/toeic/m2-talk42.mp3",
+          "audioLabel": "▶ 播放留言",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-43",
+          "group": "m2-p4-43",
+          "type": "choice",
+          "prompt": "聽者被要求做什麼？",
+          "options": [
+            "Bring an ID card",
+            "Arrive early",
+            "Call Dr. Hughes"
+          ],
+          "answer": "Arrive early",
+          "explanation": "Please arrive ten minutes early to fill out a form.\n逐字稿：Hi, Mr. Patel. This is Sophie from Lane Dental Office. I'm calling to remind you about your appointment with Dr. Hughes tomorrow at 9 a.m. Please arrive ten minutes early to fill out a form. If you need to change the time, call us at 555-3190. See you tomorrow.",
+          "sentence": "What is the listener asked to do?",
+          "audio": "assets/audio/toeic/m2-talk42.mp3",
+          "audioLabel": "▶ 播放留言",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-44",
+          "group": "m2-p4-44",
+          "type": "choice",
+          "prompt": "Hughes 醫師最可能是誰？",
+          "options": [
+            "A receptionist",
+            "A patient",
+            "A dentist"
+          ],
+          "answer": "A dentist",
+          "explanation": "Lane Dental Office 是牙醫診所，Dr. Hughes 是牙醫。\n逐字稿：Hi, Mr. Patel. This is Sophie from Lane Dental Office. I'm calling to remind you about your appointment with Dr. Hughes tomorrow at 9 a.m. Please arrive ten minutes early to fill out a form. If you need to change the time, call us at 555-3190. See you tomorrow.",
+          "sentence": "Who most likely is Dr. Hughes?",
+          "audio": "assets/audio/toeic/m2-talk42.mp3",
+          "audioLabel": "▶ 播放留言",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-45",
+          "group": "m2-p4-45",
+          "type": "choice",
+          "prompt": "這段話主要在說什麼？",
+          "options": [
+            "A new travel policy",
+            "A sales report",
+            "A new office"
+          ],
+          "answer": "A new travel policy",
+          "explanation": "remind everyone about our new travel policy：新的出差規定。\n逐字稿：Before we finish, I want to remind everyone about our new travel policy. Starting next month, all business trips must be approved by your manager at least two weeks in advance. Also, please keep all your receipts. You will need them to get your money back. I'll send the full policy by email this afternoon.",
+          "sentence": "What is the talk mainly about?",
+          "audio": "assets/audio/toeic/m2-talk45.mp3",
+          "audioLabel": "▶ 播放獨白",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-46",
+          "group": "m2-p4-46",
+          "type": "choice",
+          "prompt": "員工出差前兩週必須做什麼？",
+          "options": [
+            "Book a hotel",
+            "Get approval from a manager",
+            "Buy tickets"
+          ],
+          "answer": "Get approval from a manager",
+          "explanation": "must be approved by your manager at least two weeks in advance。\n逐字稿：Before we finish, I want to remind everyone about our new travel policy. Starting next month, all business trips must be approved by your manager at least two weeks in advance. Also, please keep all your receipts. You will need them to get your money back. I'll send the full policy by email this afternoon.",
+          "sentence": "What must employees do two weeks before a trip?",
+          "audio": "assets/audio/toeic/m2-talk45.mp3",
+          "audioLabel": "▶ 播放獨白",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-47",
+          "group": "m2-p4-47",
+          "type": "choice",
+          "prompt": "說話者今天下午會做什麼？",
+          "options": [
+            "Take a trip",
+            "Meet a client",
+            "Send an email"
+          ],
+          "answer": "Send an email",
+          "explanation": "I'll send the full policy by email this afternoon.\n逐字稿：Before we finish, I want to remind everyone about our new travel policy. Starting next month, all business trips must be approved by your manager at least two weeks in advance. Also, please keep all your receipts. You will need them to get your money back. I'll send the full policy by email this afternoon.",
+          "sentence": "What will the speaker do this afternoon?",
+          "audio": "assets/audio/toeic/m2-talk45.mp3",
+          "audioLabel": "▶ 播放獨白",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-48",
+          "group": "m2-p4-48",
+          "type": "choice",
+          "prompt": "下週一會開始什麼？",
+          "options": [
+            "An electric bus service",
+            "A new airport",
+            "A road repair"
+          ],
+          "answer": "An electric bus service",
+          "explanation": "the city's first electric bus service will start next Monday.\n逐字稿：In local news, the city's first electric bus service will start next Monday. The new buses will run between the central station and the airport every 15 minutes. A one-way ticket costs $3. City officials hope the service will reduce traffic and air pollution downtown.",
+          "sentence": "What will start next Monday?",
+          "audio": "assets/audio/toeic/m2-talk48.mp3",
+          "audioLabel": "▶ 播放新聞",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-49",
+          "group": "m2-p4-49",
+          "type": "choice",
+          "prompt": "公車多久一班？",
+          "options": [
+            "Every 50 minutes",
+            "Every 15 minutes",
+            "Every hour"
+          ],
+          "answer": "Every 15 minutes",
+          "explanation": "every fifteen minutes。注意 fifteen 和 fifty。\n逐字稿：In local news, the city's first electric bus service will start next Monday. The new buses will run between the central station and the airport every 15 minutes. A one-way ticket costs $3. City officials hope the service will reduce traffic and air pollution downtown.",
+          "sentence": "How often will the buses run?",
+          "audio": "assets/audio/toeic/m2-talk48.mp3",
+          "audioLabel": "▶ 播放新聞",
+          "part": 4
+        },
+        {
+          "id": "m2-p4-50",
+          "group": "m2-p4-50",
+          "type": "choice",
+          "prompt": "市府官員希望什麼？",
+          "options": [
+            "Ticket prices will fall.",
+            "More people will visit the airport.",
+            "Traffic will decrease."
+          ],
+          "answer": "Traffic will decrease.",
+          "explanation": "reduce traffic：減少車流。decrease 是 reduce 的換句話說。\n逐字稿：In local news, the city's first electric bus service will start next Monday. The new buses will run between the central station and the airport every 15 minutes. A one-way ticket costs $3. City officials hope the service will reduce traffic and air pollution downtown.",
+          "sentence": "What do city officials hope?",
+          "audio": "assets/audio/toeic/m2-talk48.mp3",
+          "audioLabel": "▶ 播放新聞",
+          "part": 4
+        },
+        {
+          "id": "m2-p5-51",
+          "group": "m2-p5-51",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "review",
+            "reviewing",
+            "reviewer",
+            "reviewed"
+          ],
+          "answer": "review",
+          "explanation": "Please 後面接動詞原形 review。",
+          "sentence": "Please ___ the attached file before the meeting.",
+          "zh": "請在開會前看過附件檔案。",
+          "part": 5,
+          "optionNotes": {
+            "reviewer": "reviewer（名詞）是「評論者；審查者」"
+          }
+        },
+        {
+          "id": "m2-p5-52",
+          "group": "m2-p5-52",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "to",
+            "for",
+            "at",
+            "with"
+          ],
+          "answer": "to",
+          "explanation": "easy to ＋ 動詞原形：很容易做某事。",
+          "sentence": "The new software is very easy ___ use.",
+          "zh": "新軟體很容易使用。",
+          "part": 5
+        },
+        {
+          "id": "m2-p5-53",
+          "group": "m2-p5-53",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "responsible",
+            "responsibility",
+            "responsibly",
+            "respond"
+          ],
+          "answer": "responsible",
+          "explanation": "be responsible for：負責…。is 後面放形容詞 responsible。",
+          "sentence": "Mr. Okafor is ___ for the company's marketing.",
+          "zh": "奧卡佛先生負責公司的行銷。",
+          "part": 5,
+          "optionNotes": {
+            "responsibility": "responsibility（名詞）是「責任」",
+            "respond": "respond（動詞）是「回應；回覆」"
+          }
+        },
+        {
+          "id": "m2-p5-54",
+          "group": "m2-p5-54",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "steady",
+            "steadily",
+            "steadiness",
+            "steadied"
+          ],
+          "answer": "steadily",
+          "explanation": "修飾動詞 increased，用副詞 steadily。",
+          "sentence": "Our sales have increased ___ since we opened the new store.",
+          "zh": "開新店以來，我們的業績穩定成長。",
+          "part": 5,
+          "optionNotes": {
+            "steady": "steady（形容詞）是「穩定的」"
+          }
+        },
+        {
+          "id": "m2-p5-55",
+          "group": "m2-p5-55",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "during"
+          ],
+          "answer": "on",
+          "explanation": "星期幾用 on。",
+          "sentence": "The package will be delivered ___ Friday.",
+          "zh": "包裹會在星期五送達。",
+          "part": 5
+        },
+        {
+          "id": "m2-p5-56",
+          "group": "m2-p5-56",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "must",
+            "has",
+            "are",
+            "will be"
+          ],
+          "answer": "must",
+          "explanation": "空格後面是動詞原形 attend，前面要放助動詞 must。",
+          "sentence": "All employees ___ attend the safety training next week.",
+          "zh": "所有員工下週都必須參加安全訓練。",
+          "part": 5
+        },
+        {
+          "id": "m2-p5-57",
+          "group": "m2-p5-57",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "for",
+            "since",
+            "during",
+            "while"
+          ],
+          "answer": "for",
+          "explanation": "for ＋ 一段時間（ten years）。since 後面要接時間點。",
+          "sentence": "Ms. Grant has worked here ___ ten years.",
+          "zh": "葛蘭特小姐在這裡工作十年了。",
+          "part": 5
+        },
+        {
+          "id": "m2-p5-58",
+          "group": "m2-p5-58",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "or",
+            "nor",
+            "and",
+            "but"
+          ],
+          "answer": "nor",
+          "explanation": "neither A nor B：A 和 B 都不。",
+          "sentence": "Neither the manager ___ the staff knew about the change.",
+          "zh": "經理和員工都不知道這個改變。",
+          "part": 5
+        },
+        {
+          "id": "m2-p5-59",
+          "group": "m2-p5-59",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "old",
+            "older",
+            "oldest",
+            "most old"
+          ],
+          "answer": "oldest",
+          "explanation": "the ＋ 最高級，old → oldest。",
+          "sentence": "This is the ___ hotel in the city.",
+          "zh": "這是城裡最古老的飯店。",
+          "part": 5
+        },
+        {
+          "id": "m2-p5-60",
+          "group": "m2-p5-60",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "where"
+          ],
+          "answer": "who",
+          "explanation": "customer 是人，後面接動詞 complained，用 who。",
+          "sentence": "The customer ___ complained yesterday has received a refund.",
+          "zh": "昨天客訴的那位顧客已經拿到退款了。",
+          "part": 5
+        },
+        {
+          "id": "m2-p5-61",
+          "group": "m2-p5-61",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "I",
+            "my",
+            "me",
+            "mine"
+          ],
+          "answer": "me",
+          "explanation": "contact 後面接受格 me。",
+          "sentence": "Please contact ___ if you have any questions.",
+          "zh": "如果有任何問題，請聯絡我。",
+          "part": 5
+        },
+        {
+          "id": "m2-p5-62",
+          "group": "m2-p5-62",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "complete",
+            "completed",
+            "completing",
+            "completes"
+          ],
+          "answer": "completed",
+          "explanation": "報告是「被完成」，must be ＋ 過去分詞 completed。",
+          "sentence": "The report must be ___ by noon tomorrow.",
+          "zh": "報告必須在明天中午前完成。",
+          "part": 5,
+          "optionNotes": {
+            "complete": "complete（動詞／形容詞）是「完成；完整的」"
+          }
+        },
+        {
+          "id": "m2-p5-63",
+          "group": "m2-p5-63",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "Although",
+            "Despite",
+            "Because",
+            "So"
+          ],
+          "answer": "Although",
+          "explanation": "後面是句子，而且前後意思相反，用 Although。Despite 後面要接名詞。",
+          "sentence": "___ the weather was bad, the outdoor concert was held as planned.",
+          "zh": "雖然天氣不好，戶外音樂會還是如期舉行。",
+          "part": 5
+        },
+        {
+          "id": "m2-p5-64",
+          "group": "m2-p5-64",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "announce",
+            "announcement",
+            "announcing",
+            "announced"
+          ],
+          "answer": "announce",
+          "explanation": "be pleased to ＋ 動詞原形 announce。",
+          "sentence": "We are pleased to ___ that Ms. Chen will be our new director.",
+          "zh": "我們很高興宣布陳小姐將擔任新主管。",
+          "part": 5,
+          "optionNotes": {
+            "announcement": "announcement（名詞）是「公告；宣布」"
+          }
+        },
+        {
+          "id": "m2-p5-65",
+          "group": "m2-p5-65",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "to",
+            "at",
+            "of",
+            "by"
+          ],
+          "answer": "to",
+          "explanation": "offer something to someone：提供某物給某人。",
+          "sentence": "The hotel offers free parking ___ all guests.",
+          "zh": "飯店提供所有房客免費停車。",
+          "part": 5
+        },
+        {
+          "id": "m2-p6-66",
+          "group": "m2-p6-66",
+          "type": "choice",
+          "prompt": "第 1 個空格要填什麼？",
+          "options": [
+            "from",
+            "at",
+            "in",
+            "since"
+          ],
+          "answer": "from",
+          "explanation": "from A to B：從 A 到 B。",
+          "text": "To: All Employees\nFrom: Facilities Department\nSubject: Parking Lot Repairs\n\nThe east parking lot will be closed for repairs (1)______ Monday, October 7, to Friday, October 11. During this time, employees may park in the west lot. (2)______ Please arrive a few minutes early, as the west lot is (3)______ than the east lot. We apologize for any inconvenience and thank you for your (4)______.",
+          "part": 6
+        },
+        {
+          "id": "m2-p6-67",
+          "group": "m2-p6-67",
+          "type": "choice",
+          "prompt": "第 2 個空格要填什麼？",
+          "options": [
+            "Extra spaces have been made available there.",
+            "The east lot was built last year.",
+            "Parking will be free on weekends."
+          ],
+          "answer": "Extra spaces have been made available there.",
+          "explanation": "前一句說可以停西邊停車場，接「那裡已經多開放了一些車位」最合理。",
+          "text": "To: All Employees\nFrom: Facilities Department\nSubject: Parking Lot Repairs\n\nThe east parking lot will be closed for repairs (1)______ Monday, October 7, to Friday, October 11. During this time, employees may park in the west lot. (2)______ Please arrive a few minutes early, as the west lot is (3)______ than the east lot. We apologize for any inconvenience and thank you for your (4)______.",
+          "part": 6
+        },
+        {
+          "id": "m2-p6-68",
+          "group": "m2-p6-68",
+          "type": "choice",
+          "prompt": "第 3 個空格要填什麼？",
+          "options": [
+            "small",
+            "smaller",
+            "smallest",
+            "more small"
+          ],
+          "answer": "smaller",
+          "explanation": "後面有 than，用比較級 smaller。",
+          "text": "To: All Employees\nFrom: Facilities Department\nSubject: Parking Lot Repairs\n\nThe east parking lot will be closed for repairs (1)______ Monday, October 7, to Friday, October 11. During this time, employees may park in the west lot. (2)______ Please arrive a few minutes early, as the west lot is (3)______ than the east lot. We apologize for any inconvenience and thank you for your (4)______.",
+          "part": 6
+        },
+        {
+          "id": "m2-p6-69",
+          "group": "m2-p6-69",
+          "type": "choice",
+          "prompt": "第 4 個空格要填什麼？",
+          "options": [
+            "cooperate",
+            "cooperation",
+            "cooperative",
+            "cooperatively"
+          ],
+          "answer": "cooperation",
+          "explanation": "your 後面接名詞 cooperation（合作）。",
+          "text": "To: All Employees\nFrom: Facilities Department\nSubject: Parking Lot Repairs\n\nThe east parking lot will be closed for repairs (1)______ Monday, October 7, to Friday, October 11. During this time, employees may park in the west lot. (2)______ Please arrive a few minutes early, as the west lot is (3)______ than the east lot. We apologize for any inconvenience and thank you for your (4)______.",
+          "part": 6,
+          "optionNotes": {
+            "cooperate": "cooperate（動詞）是「合作；配合」"
+          }
+        },
+        {
+          "id": "m2-p6-70",
+          "group": "m2-p6-70",
+          "type": "choice",
+          "prompt": "第 5 個空格要填什麼？",
+          "options": [
+            "enjoy",
+            "enjoyed",
+            "enjoying",
+            "will enjoy"
+          ],
+          "answer": "enjoyed",
+          "explanation": "住宿是上週末的事，用過去式 enjoyed。",
+          "text": "Dear Mr. Silva,\n\nThank you for staying at the Ocean View Hotel last weekend. We hope you (5)______ your stay. We are always trying to improve our service, so we would like to hear your opinion. (6)______ It will take only five minutes to complete. As a thank-you, you will receive a coupon for 20% off your next stay. We look forward to (7)______ you again (8)______.\n\nSincerely,\nKaren Mills\nGuest Services Manager",
+          "part": 6
+        },
+        {
+          "id": "m2-p6-71",
+          "group": "m2-p6-71",
+          "type": "choice",
+          "prompt": "第 6 個空格要填什麼？",
+          "options": [
+            "Please take a short online survey.",
+            "Our hotel opened in 1990.",
+            "Your room was cleaned twice a day."
+          ],
+          "answer": "Please take a short online survey.",
+          "explanation": "前面說想聽意見，後面說「只要五分鐘」，中間接「請填線上問卷」。",
+          "text": "Dear Mr. Silva,\n\nThank you for staying at the Ocean View Hotel last weekend. We hope you (5)______ your stay. We are always trying to improve our service, so we would like to hear your opinion. (6)______ It will take only five minutes to complete. As a thank-you, you will receive a coupon for 20% off your next stay. We look forward to (7)______ you again (8)______.\n\nSincerely,\nKaren Mills\nGuest Services Manager",
+          "part": 6
+        },
+        {
+          "id": "m2-p6-72",
+          "group": "m2-p6-72",
+          "type": "choice",
+          "prompt": "第 7 個空格要填什麼？",
+          "options": [
+            "welcome",
+            "welcoming",
+            "welcomed",
+            "to welcome"
+          ],
+          "answer": "welcoming",
+          "explanation": "look forward to ＋ V-ing：期待做某事。這裡的 to 是介系詞。",
+          "text": "Dear Mr. Silva,\n\nThank you for staying at the Ocean View Hotel last weekend. We hope you (5)______ your stay. We are always trying to improve our service, so we would like to hear your opinion. (6)______ It will take only five minutes to complete. As a thank-you, you will receive a coupon for 20% off your next stay. We look forward to (7)______ you again (8)______.\n\nSincerely,\nKaren Mills\nGuest Services Manager",
+          "part": 6
+        },
+        {
+          "id": "m2-p6-73",
+          "group": "m2-p6-73",
+          "type": "choice",
+          "prompt": "第 8 個空格要填什麼？",
+          "options": [
+            "soon",
+            "ago",
+            "already",
+            "yet"
+          ],
+          "answer": "soon",
+          "explanation": "see you again soon：期待很快再見到您。",
+          "text": "Dear Mr. Silva,\n\nThank you for staying at the Ocean View Hotel last weekend. We hope you (5)______ your stay. We are always trying to improve our service, so we would like to hear your opinion. (6)______ It will take only five minutes to complete. As a thank-you, you will receive a coupon for 20% off your next stay. We look forward to (7)______ you again (8)______.\n\nSincerely,\nKaren Mills\nGuest Services Manager",
+          "part": 6
+        },
+        {
+          "id": "m2-p7-74",
+          "group": "m2-p7-74",
+          "type": "choice",
+          "prompt": "Ortega 小姐最可能是誰？",
+          "options": [
+            "A supplier",
+            "Mr. Grant's client",
+            "A receptionist"
+          ],
+          "answer": "A receptionist",
+          "explanation": "I'm at the reception desk：她在接待櫃台。",
+          "sentence": "Who most likely is Ms. Ortega?",
+          "text": "Lina Ortega (2:05 p.m.): Hi Mr. Grant, I'm at the reception desk. Your 2:00 visitor from Delta Supplies has arrived.\nPaul Grant (2:06 p.m.): Thanks, Lina. I'm still on a phone call. Could you take her to Meeting Room 3 and offer her some coffee?\nLina Ortega (2:07 p.m.): Of course.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-75",
+          "group": "m2-p7-75",
+          "type": "choice",
+          "prompt": "Grant 先生請 Ortega 小姐做什麼？",
+          "options": [
+            "Take a visitor to a meeting room",
+            "Call Delta Supplies",
+            "Cancel a meeting"
+          ],
+          "answer": "Take a visitor to a meeting room",
+          "explanation": "Could you take her to Meeting Room 3…?",
+          "sentence": "What does Mr. Grant ask Ms. Ortega to do?",
+          "text": "Lina Ortega (2:05 p.m.): Hi Mr. Grant, I'm at the reception desk. Your 2:00 visitor from Delta Supplies has arrived.\nPaul Grant (2:06 p.m.): Thanks, Lina. I'm still on a phone call. Could you take her to Meeting Room 3 and offer her some coffee?\nLina Ortega (2:07 p.m.): Of course.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-76",
+          "group": "m2-p7-76",
+          "type": "choice",
+          "prompt": "失物招領處在哪裡？",
+          "options": [
+            "On every bus",
+            "At Central Station",
+            "At the airport"
+          ],
+          "answer": "At Central Station",
+          "explanation": "the Lost and Found office at Central Station。",
+          "sentence": "Where is the Lost and Found office?",
+          "text": "Lost and Found\n\nIf you have lost an item on one of our buses, please visit the Lost and Found office at Central Station. The office is open Monday to Friday, 9 a.m. to 5 p.m. Items are kept for 30 days. Please bring a photo ID when you pick up your item.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-77",
+          "group": "m2-p7-77",
+          "type": "choice",
+          "prompt": "領回物品要帶什麼？",
+          "options": [
+            "A bus ticket",
+            "A receipt",
+            "A photo ID"
+          ],
+          "answer": "A photo ID",
+          "explanation": "Please bring a photo ID.",
+          "sentence": "What must people bring to pick up an item?",
+          "text": "Lost and Found\n\nIf you have lost an item on one of our buses, please visit the Lost and Found office at Central Station. The office is open Monday to Friday, 9 a.m. to 5 p.m. Items are kept for 30 days. Please bring a photo ID when you pick up your item.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-78",
+          "group": "m2-p7-78",
+          "type": "choice",
+          "prompt": "這是什麼的廣告？",
+          "options": [
+            "An apartment",
+            "A shop",
+            "An office"
+          ],
+          "answer": "An apartment",
+          "explanation": "two-bedroom apartment：兩房公寓。",
+          "sentence": "What is being advertised?",
+          "text": "FOR RENT\n\nBright two-bedroom apartment on Maple Street. Close to shops and a subway station. Rent: $1,200 per month, including water and Internet. Electricity is not included. Pets are not allowed. Available from September 1. Call Tina at 555-0186 to arrange a visit.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-79",
+          "group": "m2-p7-79",
+          "type": "choice",
+          "prompt": "租金不包含什麼？",
+          "options": [
+            "Water",
+            "Electricity",
+            "Internet"
+          ],
+          "answer": "Electricity",
+          "explanation": "Electricity is not included. 水和網路有包含。",
+          "sentence": "What is NOT included in the rent?",
+          "text": "FOR RENT\n\nBright two-bedroom apartment on Maple Street. Close to shops and a subway station. Rent: $1,200 per month, including water and Internet. Electricity is not included. Pets are not allowed. Available from September 1. Call Tina at 555-0186 to arrange a visit.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-80",
+          "group": "m2-p7-80",
+          "type": "choice",
+          "prompt": "關於這間公寓，哪一項正確？",
+          "options": [
+            "Pets are welcome.",
+            "It is available in August.",
+            "It is near a subway station."
+          ],
+          "answer": "It is near a subway station.",
+          "explanation": "Close to… a subway station。不能養寵物，九月一日才可入住。",
+          "sentence": "What is true about the apartment?",
+          "text": "FOR RENT\n\nBright two-bedroom apartment on Maple Street. Close to shops and a subway station. Rent: $1,200 per month, including water and Internet. Electricity is not included. Pets are not allowed. Available from September 1. Call Tina at 555-0186 to arrange a visit.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-81",
+          "group": "m2-p7-81",
+          "type": "choice",
+          "prompt": "Mark 為什麼寫信給 Jenny？",
+          "options": [
+            "To ask her to attend a conference for him",
+            "To invite her to Seattle",
+            "To ask her to book a hotel"
+          ],
+          "answer": "To ask her to attend a conference for him",
+          "explanation": "Could you go in my place? 請她代替他去。",
+          "sentence": "Why is Mark writing to Jenny?",
+          "text": "To: Jenny Cho\nFrom: Mark Daniels\nDate: May 2\nSubject: Sales Conference\n\nHi Jenny,\nI won't be able to attend the sales conference in Chicago next week because I have to meet an important client in Seattle. Could you go in my place? I have already booked a hotel room, so you would only need to buy a plane ticket. The company will pay for it, of course. Please let me know by Friday.\n\nThanks,\nMark",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-82",
+          "group": "m2-p7-82",
+          "type": "choice",
+          "prompt": "Mark 為什麼不能去芝加哥？",
+          "options": [
+            "He is sick.",
+            "He has to meet a client.",
+            "He has no plane ticket."
+          ],
+          "answer": "He has to meet a client.",
+          "explanation": "I have to meet an important client in Seattle.",
+          "sentence": "Why can't Mark go to Chicago?",
+          "text": "To: Jenny Cho\nFrom: Mark Daniels\nDate: May 2\nSubject: Sales Conference\n\nHi Jenny,\nI won't be able to attend the sales conference in Chicago next week because I have to meet an important client in Seattle. Could you go in my place? I have already booked a hotel room, so you would only need to buy a plane ticket. The company will pay for it, of course. Please let me know by Friday.\n\nThanks,\nMark",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-83",
+          "group": "m2-p7-83",
+          "type": "choice",
+          "prompt": "如果 Jenny 去，她需要做什麼？",
+          "options": [
+            "Book a hotel",
+            "Pay for the trip herself",
+            "Buy a plane ticket"
+          ],
+          "answer": "Buy a plane ticket",
+          "explanation": "you would only need to buy a plane ticket. 飯店已經訂好，費用公司出。",
+          "sentence": "What would Jenny need to do if she goes?",
+          "text": "To: Jenny Cho\nFrom: Mark Daniels\nDate: May 2\nSubject: Sales Conference\n\nHi Jenny,\nI won't be able to attend the sales conference in Chicago next week because I have to meet an important client in Seattle. Could you go in my place? I have already booked a hotel room, so you would only need to buy a plane ticket. The company will pay for it, of course. Please let me know by Friday.\n\nThanks,\nMark",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-84",
+          "group": "m2-p7-84",
+          "type": "choice",
+          "prompt": "這篇報導主要在說什麼？",
+          "options": [
+            "A new food court",
+            "A famous chef",
+            "A parking problem"
+          ],
+          "answer": "A new food court",
+          "explanation": "Riverside Mall to Open New Food Court。",
+          "sentence": "What is the article mainly about?",
+          "text": "Riverside Mall to Open New Food Court\n\nRiverside Mall will open a new food court on its third floor next month. The food court will have twelve restaurants serving food from around the world, including Korean, Mexican, and Italian dishes. \"Our customers asked for more places to eat,\" said mall manager Leo Park. The mall also plans to add 200 parking spaces by the end of the year.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-85",
+          "group": "m2-p7-85",
+          "type": "choice",
+          "prompt": "美食街會有幾家餐廳？",
+          "options": [
+            "3",
+            "12",
+            "200"
+          ],
+          "answer": "12",
+          "explanation": "twelve restaurants。3 是樓層，200 是停車位。",
+          "sentence": "How many restaurants will the food court have?",
+          "text": "Riverside Mall to Open New Food Court\n\nRiverside Mall will open a new food court on its third floor next month. The food court will have twelve restaurants serving food from around the world, including Korean, Mexican, and Italian dishes. \"Our customers asked for more places to eat,\" said mall manager Leo Park. The mall also plans to add 200 parking spaces by the end of the year.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-86",
+          "group": "m2-p7-86",
+          "type": "choice",
+          "prompt": "Leo Park 是誰？",
+          "options": [
+            "A restaurant owner",
+            "A customer",
+            "A mall manager"
+          ],
+          "answer": "A mall manager",
+          "explanation": "mall manager Leo Park。",
+          "sentence": "Who is Leo Park?",
+          "text": "Riverside Mall to Open New Food Court\n\nRiverside Mall will open a new food court on its third floor next month. The food court will have twelve restaurants serving food from around the world, including Korean, Mexican, and Italian dishes. \"Our customers asked for more places to eat,\" said mall manager Leo Park. The mall also plans to add 200 parking spaces by the end of the year.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-87",
+          "group": "m2-p7-87",
+          "type": "choice",
+          "prompt": "這份備忘錄的目的是什麼？",
+          "options": [
+            "To announce free language classes",
+            "To hire new teachers",
+            "To change working hours"
+          ],
+          "answer": "To announce free language classes",
+          "explanation": "offer free English and Japanese classes：提供免費語言課。",
+          "sentence": "What is the purpose of the memo?",
+          "text": "MEMO\nTo: All Staff\nFrom: Sandra Lee, Human Resources\nDate: June 10\n\nWe are happy to announce that our company will offer free English and Japanese classes for employees starting July 1. Classes will be held on Tuesday and Thursday evenings from 6 to 7:30 p.m. in Training Room B. Each class can have up to 15 students. To sign up, please send an email to Sandra Lee by June 20. Employees who attend 90% of the classes will receive a certificate.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-88",
+          "group": "m2-p7-88",
+          "type": "choice",
+          "prompt": "課程什麼時候上？",
+          "options": [
+            "Every weekday morning",
+            "On Tuesday and Thursday evenings",
+            "On weekends"
+          ],
+          "answer": "On Tuesday and Thursday evenings",
+          "explanation": "Tuesday and Thursday evenings from 6 to 7:30 p.m.",
+          "sentence": "When will the classes be held?",
+          "text": "MEMO\nTo: All Staff\nFrom: Sandra Lee, Human Resources\nDate: June 10\n\nWe are happy to announce that our company will offer free English and Japanese classes for employees starting July 1. Classes will be held on Tuesday and Thursday evenings from 6 to 7:30 p.m. in Training Room B. Each class can have up to 15 students. To sign up, please send an email to Sandra Lee by June 20. Employees who attend 90% of the classes will receive a certificate.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-89",
+          "group": "m2-p7-89",
+          "type": "choice",
+          "prompt": "員工要怎麼報名？",
+          "options": [
+            "By calling Human Resources",
+            "By visiting Training Room B",
+            "By sending an email"
+          ],
+          "answer": "By sending an email",
+          "explanation": "please send an email to Sandra Lee。",
+          "sentence": "How can employees sign up?",
+          "text": "MEMO\nTo: All Staff\nFrom: Sandra Lee, Human Resources\nDate: June 10\n\nWe are happy to announce that our company will offer free English and Japanese classes for employees starting July 1. Classes will be held on Tuesday and Thursday evenings from 6 to 7:30 p.m. in Training Room B. Each class can have up to 15 students. To sign up, please send an email to Sandra Lee by June 20. Employees who attend 90% of the classes will receive a certificate.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-90",
+          "group": "m2-p7-90",
+          "type": "choice",
+          "prompt": "大部分的課都出席的員工會得到什麼？",
+          "options": [
+            "A certificate",
+            "A bonus",
+            "A day off"
+          ],
+          "answer": "A certificate",
+          "explanation": "attend 90% of the classes will receive a certificate：證書。",
+          "sentence": "What will employees receive if they attend most of the classes?",
+          "text": "MEMO\nTo: All Staff\nFrom: Sandra Lee, Human Resources\nDate: June 10\n\nWe are happy to announce that our company will offer free English and Japanese classes for employees starting July 1. Classes will be held on Tuesday and Thursday evenings from 6 to 7:30 p.m. in Training Room B. Each class can have up to 15 students. To sign up, please send an email to Sandra Lee by June 20. Employees who attend 90% of the classes will receive a certificate.",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-91",
+          "group": "m2-p7-91",
+          "type": "choice",
+          "prompt": "Mori 先生的票多少錢？",
+          "options": [
+            "$40",
+            "$20",
+            "$12"
+          ],
+          "answer": "$20",
+          "explanation": "他買的是學生票（student ticket），課表寫 students: $20。",
+          "sentence": "How much did Mr. Mori pay for his ticket?",
+          "text": "[Schedule]\nGreen Business Forum — Saturday, April 12\n9:00 a.m. Opening speech — Hall A\n10:30 a.m. Saving Energy at the Office — Room 201\n1:00 p.m. Lunch — Garden Café\n2:00 p.m. Green Marketing — Room 305\nTickets: $40 (students: $20)\n\n[Email]\nTo: info@greenforum.org\nFrom: Kenji Mori\nDate: April 1\n\nHello,\nI bought a student ticket for the forum, but I can only stay until lunch because I have to work in the afternoon. I am most interested in the session on saving energy. Could you tell me if the slides from the afternoon session will be available online later?\n\nThank you,\nKenji Mori",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-92",
+          "group": "m2-p7-92",
+          "type": "choice",
+          "prompt": "Mori 先生可能會錯過哪一場？",
+          "options": [
+            "Saving Energy at the Office",
+            "Opening speech",
+            "Green Marketing"
+          ],
+          "answer": "Green Marketing",
+          "explanation": "他只待到午餐，下午兩點的 Green Marketing 會錯過。",
+          "sentence": "Which session will Mr. Mori probably miss?",
+          "text": "[Schedule]\nGreen Business Forum — Saturday, April 12\n9:00 a.m. Opening speech — Hall A\n10:30 a.m. Saving Energy at the Office — Room 201\n1:00 p.m. Lunch — Garden Café\n2:00 p.m. Green Marketing — Room 305\nTickets: $40 (students: $20)\n\n[Email]\nTo: info@greenforum.org\nFrom: Kenji Mori\nDate: April 1\n\nHello,\nI bought a student ticket for the forum, but I can only stay until lunch because I have to work in the afternoon. I am most interested in the session on saving energy. Could you tell me if the slides from the afternoon session will be available online later?\n\nThank you,\nKenji Mori",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-93",
+          "group": "m2-p7-93",
+          "type": "choice",
+          "prompt": "Mori 先生早上 10:30 最可能在哪裡？",
+          "options": [
+            "Room 201",
+            "Room 305",
+            "Hall A"
+          ],
+          "answer": "Room 201",
+          "explanation": "他對 saving energy 最有興趣，那場在 10:30、Room 201。",
+          "sentence": "Where will Mr. Mori most likely be at 10:30 a.m.?",
+          "text": "[Schedule]\nGreen Business Forum — Saturday, April 12\n9:00 a.m. Opening speech — Hall A\n10:30 a.m. Saving Energy at the Office — Room 201\n1:00 p.m. Lunch — Garden Café\n2:00 p.m. Green Marketing — Room 305\nTickets: $40 (students: $20)\n\n[Email]\nTo: info@greenforum.org\nFrom: Kenji Mori\nDate: April 1\n\nHello,\nI bought a student ticket for the forum, but I can only stay until lunch because I have to work in the afternoon. I am most interested in the session on saving energy. Could you tell me if the slides from the afternoon session will be available online later?\n\nThank you,\nKenji Mori",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-94",
+          "group": "m2-p7-94",
+          "type": "choice",
+          "prompt": "Mori 先生為什麼不能待一整天？",
+          "options": [
+            "He has a class.",
+            "He has to work.",
+            "He is traveling."
+          ],
+          "answer": "He has to work.",
+          "explanation": "I have to work in the afternoon.",
+          "sentence": "Why can't Mr. Mori stay all day?",
+          "text": "[Schedule]\nGreen Business Forum — Saturday, April 12\n9:00 a.m. Opening speech — Hall A\n10:30 a.m. Saving Energy at the Office — Room 201\n1:00 p.m. Lunch — Garden Café\n2:00 p.m. Green Marketing — Room 305\nTickets: $40 (students: $20)\n\n[Email]\nTo: info@greenforum.org\nFrom: Kenji Mori\nDate: April 1\n\nHello,\nI bought a student ticket for the forum, but I can only stay until lunch because I have to work in the afternoon. I am most interested in the session on saving energy. Could you tell me if the slides from the afternoon session will be available online later?\n\nThank you,\nKenji Mori",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-95",
+          "group": "m2-p7-95",
+          "type": "choice",
+          "prompt": "Mori 先生詢問什麼？",
+          "options": [
+            "A ticket refund",
+            "Lunch options",
+            "Slides from a session"
+          ],
+          "answer": "Slides from a session",
+          "explanation": "if the slides from the afternoon session will be available online。",
+          "sentence": "What does Mr. Mori ask about?",
+          "text": "[Schedule]\nGreen Business Forum — Saturday, April 12\n9:00 a.m. Opening speech — Hall A\n10:30 a.m. Saving Energy at the Office — Room 201\n1:00 p.m. Lunch — Garden Café\n2:00 p.m. Green Marketing — Room 305\nTickets: $40 (students: $20)\n\n[Email]\nTo: info@greenforum.org\nFrom: Kenji Mori\nDate: April 1\n\nHello,\nI bought a student ticket for the forum, but I can only stay until lunch because I have to work in the afternoon. I am most interested in the session on saving energy. Could you tell me if the slides from the afternoon session will be available online later?\n\nThank you,\nKenji Mori",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-96",
+          "group": "m2-p7-96",
+          "type": "choice",
+          "prompt": "Hart Design 訂了什麼？",
+          "options": [
+            "Business cards and brochures",
+            "Posters",
+            "Office chairs"
+          ],
+          "answer": "Business cards and brochures",
+          "explanation": "訂單上有 Business cards 和 Brochures。",
+          "sentence": "What did Hart Design order?",
+          "text": "[Order Form]\nBest Print Shop — Order #4521\nCustomer: Olivia Hart, Hart Design\nBusiness cards (500): $45\nBrochures (200): $120\nDelivery: Standard (5 days): Free\nTotal: $165\nOrder date: March 12\n\n[Email]\nTo: orders@bestprint.com\nFrom: Olivia Hart\nDate: March 13\n\nHello,\nI placed order #4521 yesterday. I would like to change the delivery to express (2 days) because I need the brochures for a trade show on March 16. I understand there is an extra charge of $15 for express delivery. Please also check that my phone number on the business cards is 555-0199.\n\nBest,\nOlivia Hart",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-97",
+          "group": "m2-p7-97",
+          "type": "choice",
+          "prompt": "Hart 小姐想改什麼？",
+          "options": [
+            "The number of brochures",
+            "The delivery method",
+            "Her address"
+          ],
+          "answer": "The delivery method",
+          "explanation": "change the delivery to express：改成快遞。",
+          "sentence": "What does Ms. Hart want to change?",
+          "text": "[Order Form]\nBest Print Shop — Order #4521\nCustomer: Olivia Hart, Hart Design\nBusiness cards (500): $45\nBrochures (200): $120\nDelivery: Standard (5 days): Free\nTotal: $165\nOrder date: March 12\n\n[Email]\nTo: orders@bestprint.com\nFrom: Olivia Hart\nDate: March 13\n\nHello,\nI placed order #4521 yesterday. I would like to change the delivery to express (2 days) because I need the brochures for a trade show on March 16. I understand there is an extra charge of $15 for express delivery. Please also check that my phone number on the business cards is 555-0199.\n\nBest,\nOlivia Hart",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-98",
+          "group": "m2-p7-98",
+          "type": "choice",
+          "prompt": "Hart 小姐為什麼急著要？",
+          "options": [
+            "For a job interview",
+            "For a party",
+            "For a trade show"
+          ],
+          "answer": "For a trade show",
+          "explanation": "I need the brochures for a trade show on March 16.",
+          "sentence": "Why does Ms. Hart need the items quickly?",
+          "text": "[Order Form]\nBest Print Shop — Order #4521\nCustomer: Olivia Hart, Hart Design\nBusiness cards (500): $45\nBrochures (200): $120\nDelivery: Standard (5 days): Free\nTotal: $165\nOrder date: March 12\n\n[Email]\nTo: orders@bestprint.com\nFrom: Olivia Hart\nDate: March 13\n\nHello,\nI placed order #4521 yesterday. I would like to change the delivery to express (2 days) because I need the brochures for a trade show on March 16. I understand there is an extra charge of $15 for express delivery. Please also check that my phone number on the business cards is 555-0199.\n\nBest,\nOlivia Hart",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-99",
+          "group": "m2-p7-99",
+          "type": "choice",
+          "prompt": "新的總金額最可能是多少？",
+          "options": [
+            "$180",
+            "$165",
+            "$150"
+          ],
+          "answer": "$180",
+          "explanation": "原本 $165，加上快遞費 $15，共 $180。要兩篇一起看。",
+          "sentence": "What will the new total most likely be?",
+          "text": "[Order Form]\nBest Print Shop — Order #4521\nCustomer: Olivia Hart, Hart Design\nBusiness cards (500): $45\nBrochures (200): $120\nDelivery: Standard (5 days): Free\nTotal: $165\nOrder date: March 12\n\n[Email]\nTo: orders@bestprint.com\nFrom: Olivia Hart\nDate: March 13\n\nHello,\nI placed order #4521 yesterday. I would like to change the delivery to express (2 days) because I need the brochures for a trade show on March 16. I understand there is an extra charge of $15 for express delivery. Please also check that my phone number on the business cards is 555-0199.\n\nBest,\nOlivia Hart",
+          "part": 7
+        },
+        {
+          "id": "m2-p7-100",
+          "group": "m2-p7-100",
+          "type": "choice",
+          "prompt": "Hart 小姐什麼時候下訂單？",
+          "options": [
+            "March 13",
+            "March 12",
+            "March 16"
+          ],
+          "answer": "March 12",
+          "explanation": "Order date: March 12。她 3 月 13 日寫信說「昨天」下單。",
+          "sentence": "When did Ms. Hart place the order?",
+          "text": "[Order Form]\nBest Print Shop — Order #4521\nCustomer: Olivia Hart, Hart Design\nBusiness cards (500): $45\nBrochures (200): $120\nDelivery: Standard (5 days): Free\nTotal: $165\nOrder date: March 12\n\n[Email]\nTo: orders@bestprint.com\nFrom: Olivia Hart\nDate: March 13\n\nHello,\nI placed order #4521 yesterday. I would like to change the delivery to express (2 days) because I need the brochures for a trade show on March 16. I understand there is an extra charge of $15 for express delivery. Please also check that my phone number on the business cards is 555-0199.\n\nBest,\nOlivia Hart",
+          "part": 7
+        }
+      ],
+      "similar": []
+    }
+  ]
+}

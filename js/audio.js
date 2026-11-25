@@ -20,9 +20,16 @@ export async function hasAudio(src, fetchImpl = globalThis.fetch?.bind(globalThi
 }
 
 let current = null;
+let rate = 1;
+// 播放速度（聽力訓練的 0.8x／1x）：保留原本音高，只放慢速度
+export function setPlaybackRate(r) { rate = r === 0.8 ? 0.8 : 1; }
+export const getPlaybackRate = () => rate;
+
 export function playAudio(src) {
   if (current) { current.pause(); current = null; }
   const a = new Audio(src);
+  a.playbackRate = rate;
+  a.preservesPitch = true;
   current = a;
   return a.play();
 }

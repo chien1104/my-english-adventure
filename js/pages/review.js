@@ -6,12 +6,22 @@ import { createState } from '../lesson/engine.js';
 import { mountPlayer } from '../lesson/player.js';
 import { recordAttempt, logSession } from '../rewards.js';
 import { afterActivity } from '../ui/celebrate.js';
+import { favoriteIds } from '../favorites.js';
 
 export async function render({ outlet, db, navigate, query = {}, settings }) {
   const ctx = await loadContext(db);
   const words = [...ctx.wordsMap.values()];
-  const free = query.mode === 'free';
-  const questions = buildReviewQuestions(words, ctx.records, { count: free ? 8 : 10, onlyDue: !free });
+  const fav = query.mode === 'fav';
+  const free = query.mode === 'free' || fav; // 生字本練習和自由練習一樣：答對不改變排程
+  const questions = fav
+    ? buildReviewQuestions(words, ctx.records, { count: 10, ids: favoriteIds() })
+    : buildReviewQuestions(words, ctx.records, { count: free ? 8 : 10, onlyDue: !free });
+  if (fav && !questions.length) {
+    outlet.innerHTML = `<section class="card"><h1 class="card__title">生字本還是空的</h1>
+      <p>在單字卡按「☆ 加入生字本」，想加強的字就會收在這裡。</p>
+      <a class="btn btn--primary" href="#/words">去單字頁</a></section>`;
+    return;
+  }
   if (!questions.length && !free && ctx.learnedCount) {
     outlet.innerHTML = `<section class="card"><h1 class="card__title">今天沒有到期的單字</h1>
       <p>照記憶曲線，今天不用複習。想多練習的話可以用自由練習。</p>
@@ -25,7 +35,7 @@ export async function render({ outlet, db, navigate, query = {}, settings }) {
     return;
   }
   const lesson = buildReviewLesson(questions);
-  lesson.title = free ? '自由練習' : '到期單字複習';
+  lesson.title = fav ? '生字本練習' : free ? '自由練習' : '到期單字複習';
   const results = new Map();
 
   mountPlayer({

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="街道：一輛車停在路邊，旁邊有紅綠燈和一棵樹，後面有一棟大樓">
+<title>街道：一輛車停在路邊，旁邊有紅綠燈和一棵樹，後面有一棟大樓</title>
+<rect width="320" height="200" fill="#F4ECDF"/>
+
+<rect y="140" width="320" height="60" fill="#B8AFA3"/><rect y="134" width="320" height="8" fill="#E2D2BC"/>
+<path d="M0 170h40M70 170h40M140 170h40M210 170h40M280 170h40" stroke="#FFFFFF" stroke-width="4"/>
+<rect x="190" y="30" width="90" height="104" fill="#D9C2A6" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><g fill="#8DB3D9" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><rect x="204" y="44" width="22" height="18"/><rect x="244" y="44" width="22" height="18"/><rect x="204" y="76" width="22" height="18"/><rect x="244" y="76" width="22" height="18"/></g><rect x="224" y="106" width="22" height="28" fill="#6E5443" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M60 160h110l-10-22h-80z" fill="#8DB3D9"/><path d="M50 160h130v-10H50z" fill="#E06B5B"/><circle cx="80" cy="162" r="9" fill="#4E3424"/><circle cx="150" cy="162" r="9" fill="#4E3424"/></g>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M300 134V70" fill="none"/><rect x="290" y="40" width="20" height="46" rx="4" fill="#4E3424"/></g><circle cx="300" cy="50" r="5" fill="#E06B5B"/><circle cx="300" cy="63" r="5" fill="#F2B544"/><circle cx="300" cy="76" r="5" fill="#9CC46B"/>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M28 134v-36" fill="none"/><circle cx="28" cy="86" r="20" fill="#8FB37A"/></g>
+</svg>

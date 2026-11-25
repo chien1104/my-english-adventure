@@ -28,7 +28,7 @@ LAYOUT_JS = r"""
     if (r.right > vw + 1 && !el.closest('.toast-root')) out.push(`超出畫面右側 ${Math.round(r.right - vw)}px：${name(el)}`);
     const cs = getComputedStyle(el);
     if (el.scrollWidth > el.clientWidth + 2 && cs.overflowX !== 'auto' && cs.overflowX !== 'scroll' && el.clientWidth > 0 && !['IMG','SVG','svg','path','INPUT'].includes(el.tagName) && !el.closest('svg')) {
-      if (!(cs.textOverflow === 'ellipsis' && el.classList.contains('brand__text'))) out.push(`內容被擠出／截斷：${name(el)} (${el.scrollWidth}>${el.clientWidth})`);
+      if (cs.textOverflow !== 'ellipsis') out.push(`內容被擠出／截斷：${name(el)} (${el.scrollWidth}>${el.clientWidth})`);
     }
   }
   for (const b of document.querySelectorAll('#app button, #app a.btn, .tabbar a, .topbar a')) {
@@ -78,13 +78,14 @@ try:
         # 空白使用者先檢查一輪
         for w in ([] if ONLY_BUTTONS else WIDTHS):
             page.set_viewport_size({'width': w, 'height': 800})
-            for r in ['#/home', '#/worlds', '#/words', '#/games', '#/mistakes', '#/settings', '#/achievements', '#/stats', '#/diagnosis']:
+            for r in ['#/home', '#/worlds', '#/words', '#/games', '#/mistakes', '#/settings', '#/achievements', '#/stats', '#/diagnosis', '#/listening']:
                 page.goto(BASE + r); page.wait_for_selector('#app section, #app .player', timeout=8000); audit(page, f'新使用者 {w}px {r}')
 
         page.evaluate(SEED_JS); page.reload(); page.wait_for_selector('html[data-ready="true"]')
         routes = ['#/home', '#/worlds', '#/words', '#/review', '#/review?mode=free', '#/games', '#/game?id=match', '#/game?id=speed', '#/game?id=spell',
                   '#/mistakes', '#/mistake-practice', '#/settings', '#/achievements', '#/stats', '#/diagnosis', '#/exam?id=mock-1',
-                  '#/series?id=hot', '#/series?id=core3', '#/series?id=topic-travel', '#/unit?id=hot:0', '#/unit?id=toeic:3']
+                  '#/series?id=hot', '#/series?id=core3', '#/series?id=topic-travel', '#/unit?id=hot:0', '#/unit?id=toeic:3',
+                  '#/exam?id=mock-2', '#/listening', '#/listening?mode=dictation', '#/listening?mode=shadow', '#/review?mode=fav']
         worlds = sorted({l['world'] for l in LESSONS})
         routes += [f'#/world?id={w}' for w in worlds]
         for w in ([] if ONLY_BUTTONS else WIDTHS):

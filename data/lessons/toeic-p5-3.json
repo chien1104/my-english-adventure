@@ -1,0 +1,337 @@
+{
+  "id": "toeic-p5-3",
+  "world": "part5",
+  "order": 3,
+  "type": "toeic",
+  "title": "Part 5 代名詞題",
+  "titleEn": "Pronouns",
+  "summary": "主格、所有格、受格、所有代名詞、反身代名詞：看位置就能選。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "代名詞題的四個選項通常是 he、his、him、himself 這種同一組字。",
+        "只要看空格的位置：放在動詞前面當主詞用主格（he）；放在名詞前面用所有格（his）；放在動詞或介系詞後面用受格（him）。",
+        "「自己做」用反身代名詞（himself），by himself 是「獨自」。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "類型",
+          "位置",
+          "例子"
+        ],
+        "rows": [
+          [
+            "主格 I／he／she／we／they",
+            "動詞前面（主詞）",
+            "We will meet the client."
+          ],
+          [
+            "所有格 my／his／her／our／their／its",
+            "名詞前面",
+            "his umbrella、its garden"
+          ],
+          [
+            "受格 me／him／her／us／them",
+            "動詞、介系詞後面",
+            "Please send me the file."
+          ],
+          [
+            "所有代名詞 mine／yours／hers",
+            "單獨使用＝所有格＋名詞",
+            "That one is yours."
+          ],
+          [
+            "反身 myself／himself／herself",
+            "自己、獨自",
+            "She did it by herself."
+          ]
+        ]
+      },
+      "tip": "its（它的）和 it's（it is）不一樣：the company and its employees。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Please send me the file by Friday.",
+          "zh": "請在星期五前把檔案寄給我。",
+          "highlight": "me",
+          "audio": "assets/audio/lessons/toeic-p5-3/ex1.mp3"
+        },
+        {
+          "en": "Mr. Lee forgot his umbrella.",
+          "zh": "李先生忘了他的雨傘。",
+          "highlight": "his",
+          "audio": "assets/audio/lessons/toeic-p5-3/ex2.mp3"
+        },
+        {
+          "en": "Ms. Ito finished the project by herself.",
+          "zh": "伊藤小姐自己完成了這個專案。",
+          "highlight": "herself",
+          "audio": "assets/audio/lessons/toeic-p5-3/ex3.mp3"
+        },
+        {
+          "en": "The company thanked its employees.",
+          "zh": "公司感謝了它的員工。",
+          "highlight": "its",
+          "audio": "assets/audio/lessons/toeic-p5-3/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再作答。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "p53-0a",
+          "group": "p53-0",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "I",
+            "my",
+            "me",
+            "mine"
+          ],
+          "answer": "me",
+          "explanation": "send 後面接受格 me。",
+          "sentence": "Please send ___ the file by Friday.",
+          "zh": "請在星期五前把檔案寄給我。"
+        },
+        {
+          "id": "p53-1a",
+          "group": "p53-1",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "he",
+            "his",
+            "him",
+            "himself"
+          ],
+          "answer": "his",
+          "explanation": "umbrella 是名詞，前面用所有格 his。",
+          "sentence": "Mr. Lee forgot ___ umbrella in the office.",
+          "zh": "李先生把雨傘忘在辦公室。"
+        },
+        {
+          "id": "p53-2a",
+          "group": "p53-2",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "she",
+            "her",
+            "hers",
+            "herself"
+          ],
+          "answer": "herself",
+          "explanation": "by herself：獨自、靠自己。",
+          "sentence": "Ms. Ito finished the project by ___.",
+          "zh": "伊藤小姐獨自完成了這個專案。"
+        },
+        {
+          "id": "p53-3a",
+          "group": "p53-3",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "We",
+            "Our",
+            "Us",
+            "Ours"
+          ],
+          "answer": "We",
+          "explanation": "動詞 will meet 前面需要主詞，用主格 We。",
+          "sentence": "___ will meet the client at the airport.",
+          "zh": "我們會在機場跟客戶碰面。"
+        },
+        {
+          "id": "p53-4a",
+          "group": "p53-4",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "your",
+            "yours",
+            "you",
+            "yourself"
+          ],
+          "answer": "yours",
+          "explanation": "yours ＝ your desk，後面不用再加名詞。",
+          "sentence": "This desk is mine, and that one is ___.",
+          "zh": "這張桌子是我的，那張是你的。"
+        },
+        {
+          "id": "p53-5a",
+          "group": "p53-5",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "it",
+            "its",
+            "it's",
+            "itself"
+          ],
+          "answer": "its",
+          "explanation": "employees 是名詞，前面用所有格 its（公司的）。",
+          "sentence": "The company thanked ___ employees for their hard work.",
+          "zh": "公司感謝員工的辛勞。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p53-0b",
+          "group": "p53-0",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "we",
+            "our",
+            "us",
+            "ours"
+          ],
+          "answer": "us",
+          "explanation": "call 後面接受格 us。",
+          "sentence": "Can you call ___ tomorrow?",
+          "zh": "你明天可以打給我們嗎？"
+        },
+        {
+          "id": "p53-1b",
+          "group": "p53-1",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "she",
+            "her",
+            "hers",
+            "herself"
+          ],
+          "answer": "her",
+          "explanation": "phone 是名詞，前面用所有格 her。",
+          "sentence": "Ms. Kim left ___ phone in the car.",
+          "zh": "金小姐把手機留在車上。"
+        },
+        {
+          "id": "p53-2b",
+          "group": "p53-2",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "he",
+            "his",
+            "him",
+            "himself"
+          ],
+          "answer": "himself",
+          "explanation": "強調「自己」做，用 himself。",
+          "sentence": "He fixed the printer ___.",
+          "zh": "他自己修好了印表機。"
+        },
+        {
+          "id": "p53-3b",
+          "group": "p53-3",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "They",
+            "Their",
+            "Them",
+            "Theirs"
+          ],
+          "answer": "They",
+          "explanation": "動詞 are going 前面需要主詞 They。",
+          "sentence": "___ are going to the conference next week.",
+          "zh": "他們下週要去參加研討會。"
+        },
+        {
+          "id": "p53-4b",
+          "group": "p53-4",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "your",
+            "yours",
+            "you",
+            "yourself"
+          ],
+          "answer": "yours",
+          "explanation": "yours ＝ your pen。",
+          "sentence": "Is this pen ___?",
+          "zh": "這支筆是你的嗎？"
+        },
+        {
+          "id": "p53-5b",
+          "group": "p53-5",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "it",
+            "its",
+            "it's",
+            "itself"
+          ],
+          "answer": "its",
+          "explanation": "garden 前面用所有格 its（飯店的）。",
+          "sentence": "The hotel is famous for ___ beautiful garden.",
+          "zh": "這家飯店以美麗的花園聞名。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p53-x0",
+          "group": "p53-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "they",
+            "their",
+            "them",
+            "themselves"
+          ],
+          "answer": "their",
+          "explanation": "ID cards 是名詞，前面用所有格 their。",
+          "sentence": "Employees should keep ___ ID cards with them at all times.",
+          "zh": "員工應隨時攜帶識別證。"
+        },
+        {
+          "id": "p53-x1",
+          "group": "p53-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "she",
+            "her",
+            "hers",
+            "herself"
+          ],
+          "answer": "herself",
+          "explanation": "句子已經完整，空格強調「她自己」做，用反身代名詞 herself。",
+          "sentence": "Ms. Diaz prepared the presentation slides ___ because her assistant was on vacation.",
+          "zh": "因為助理在休假，迪亞茲小姐自己準備了簡報投影片。"
+        }
+      ]
+    }
+  ]
+}

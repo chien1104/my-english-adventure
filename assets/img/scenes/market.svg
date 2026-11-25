@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="市場的攤位：桌上的籃子裡擺著水果，每個籃子前面有價格牌，上方有遮雨棚">
+<title>市場的攤位：桌上的籃子裡擺著水果，每個籃子前面有價格牌，上方有遮雨棚</title>
+<rect width="320" height="200" fill="#F4ECDF"/><rect y="150" width="320" height="50" fill="#E2D2BC"/>
+
+<path d="M30 30h260l-10 26H40z" fill="#E7B7A3" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M72 30l-6 26M118 30l-4 26M164 30v26M210 30l4 26M256 30l6 26" stroke="#4E3424" stroke-width="2"/>
+<path d="M40 56v94M280 56v94" stroke="#4E3424" stroke-width="2.5"/>
+<rect x="40" y="112" width="240" height="14" fill="#B9774F" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 126v28M260 126v28" stroke="#4E3424" stroke-width="2.5"/>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="#D9A86C"><path d="M56 112l6-20h52l6 20z"/><path d="M134 112l6-20h52l6 20z"/><path d="M212 112l6-20h52l6 20z"/></g>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="74" cy="88" r="8" fill="#E06B5B"/><circle cx="90" cy="86" r="8" fill="#E06B5B"/><circle cx="104" cy="89" r="8" fill="#E06B5B"/>
+<circle cx="152" cy="88" r="8" fill="#F2B544"/><circle cx="168" cy="86" r="8" fill="#F2B544"/><circle cx="182" cy="89" r="8" fill="#F2B544"/>
+<circle cx="230" cy="88" r="8" fill="#9CC46B"/><circle cx="246" cy="86" r="8" fill="#9CC46B"/><circle cx="260" cy="89" r="8" fill="#9CC46B"/></g>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="#FFFFFF"><rect x="76" y="130" width="24" height="14"/><rect x="154" y="130" width="24" height="14"/><rect x="232" y="130" width="24" height="14"/></g>
+</svg>

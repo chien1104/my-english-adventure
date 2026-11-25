@@ -13,6 +13,8 @@ import { settleRewards, totalExp } from '../rewards.js';
 import { levelInfo, dailyChallenge } from '../gamify.js';
 import { celebrate } from '../ui/celebrate.js';
 import { todayKey } from '../settings.js';
+import { favoriteCount } from '../favorites.js';
+import { latestEstimate } from '../score.js';
 
 export async function render({ outlet, db, settings, refreshIndicator }) {
   const s = settings.get();
@@ -25,6 +27,7 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
   const challenge = rawChallenge && !(rawChallenge.game === 'match' && pictured < 4) ? rawChallenge : null;
   const status = await getStorageStatus({ db });
   const desc = describeStatus(status, s.persistRequest);
+  const est = latestEstimate([...ctx.progressById.values()]);
   const worlds = worldStatus(ctx);
   const openCount = worlds.filter((w) => w.state === 'open').length;
   const worldTotal = worlds.filter((w) => w.state !== 'nocontent').length;
@@ -99,7 +102,9 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
     <nav class="tile-grid" aria-label="快速入口">
       <a class="tile-link" href="#/worlds"><span class="tile-link__icon ti-1" aria-hidden="true">🗺️</span><strong>學習世界</strong><small>已開放 <b data-testid="open-worlds">${openCount}</b> / ${worldTotal} 個世界</small></a>
       <a class="tile-link" href="#/achievements" data-testid="link-achievements"><span class="tile-link__icon ti-2" aria-hidden="true">🏅</span><strong>成就</strong><small data-testid="ach-count">${(await db.count('achievements'))} 個</small></a>
-      <a class="tile-link" href="#/stats" data-testid="link-stats"><span class="tile-link__icon ti-3" aria-hidden="true">📊</span><strong>學習分析</strong><small>看看自己的進步</small></a>
+      <a class="tile-link" href="#/stats" data-testid="link-stats"><span class="tile-link__icon ti-3" aria-hidden="true">📊</span><strong>學習分析</strong><small>${est ? `預估 <b>${est.lastEstimate.total}</b> 分・看弱點` : '弱點分析・預估分數'}</small></a>
+      <a class="tile-link" href="#/listening" data-testid="link-listening"><span class="tile-link__icon ti-5" aria-hidden="true">🎧</span><strong>聽力訓練</strong><small>聽寫・跟讀・0.8x</small></a>
+      <a class="tile-link" href="${favoriteCount() ? '#/review?mode=fav' : '#/words'}" data-testid="link-fav"><span class="tile-link__icon ti-6" aria-hidden="true">⭐</span><strong>我的生字本</strong><small>${favoriteCount() ? `${favoriteCount()} 個字・去練習` : '在單字卡按 ☆ 收藏'}</small></a>
       <a class="tile-link" href="#/settings?section=data"><span class="tile-link__icon ti-4" aria-hidden="true">🔒</span><strong>資料保存</strong><small class="tone-${desc.tone}" data-testid="home-save-summary">${desc.summary}</small><small>${status.lastBackupAt ? '已有備份檔' : '尚未備份'}</small></a>
     </nav>
   `;

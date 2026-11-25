@@ -1,0 +1,277 @@
+{
+  "id": "toeic-p1-4",
+  "world": "part1",
+  "order": 4,
+  "type": "toeic-listen",
+  "title": "Part 1 戶外與交通",
+  "titleEn": "Outdoors & Transport",
+  "summary": "街道、公車站、公園：戶外照片常考的說法。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "戶外照片常出現車子、紅綠燈、長椅、樹木。要聽懂 is parked（停著）、beside（在旁邊）、no one（沒有人）。",
+        "No one is sitting on the bench. 和 The bench is empty. 意思一樣：長椅上沒有人。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "說法",
+          "意思",
+          "例句"
+        ],
+        "rows": [
+          [
+            "be parked",
+            "停放著",
+            "A car is parked on the street."
+          ],
+          [
+            "beside／next to",
+            "在旁邊",
+            "There is a tree beside the road."
+          ],
+          [
+            "no one／nobody",
+            "沒有人",
+            "No one is sitting on the bench."
+          ],
+          [
+            "over",
+            "在上方（有覆蓋）",
+            "There is a roof over the bench."
+          ]
+        ]
+      },
+      "tip": "照片裡的車子是「停著」還是「在開」？停著用 is parked，正在開用 is driving。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "A car is parked on the street.",
+          "zh": "一輛車停在街上。",
+          "highlight": "parked",
+          "audio": "assets/audio/lessons/toeic-p1-4/ex1.mp3"
+        },
+        {
+          "en": "No one is sitting on the bench.",
+          "zh": "沒有人坐在長椅上。",
+          "highlight": "one",
+          "audio": "assets/audio/lessons/toeic-p1-4/ex2.mp3"
+        },
+        {
+          "en": "There is a tree beside the road.",
+          "zh": "路旁有一棵樹。",
+          "highlight": "beside",
+          "audio": "assets/audio/lessons/toeic-p1-4/ex3.mp3"
+        },
+        {
+          "en": "There is a roof over the bench.",
+          "zh": "長椅上方有遮雨棚。",
+          "highlight": "over",
+          "audio": "assets/audio/lessons/toeic-p1-4/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看照片，再按 ▶ 聽 4 個句子。",
+      "questions": [
+        {
+          "id": "p14-street-a",
+          "group": "p14-street",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) A car is parked on the street.\n逐字稿：(A) A car is parked on the street.（一輛車停在街上）　(B) A bus is stopping at the light.（一輛公車停在紅綠燈前）　(C) People are crossing the road.（有人在過馬路）　(D) The building is being built.（大樓正在興建中）",
+          "scene": "assets/img/scenes/street.svg",
+          "audio": "assets/audio/toeic/p14-street-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p14-stop-a",
+          "group": "p14-stop",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "D",
+          "explanation": "正確答案 (D) No one is sitting on the bench.\n逐字稿：(A) People are waiting for a bus.（大家在等公車）　(B) A bus is arriving.（公車正在進站）　(C) The bench is being painted.（長椅正在被油漆）　(D) No one is sitting on the bench.（沒有人坐在長椅上）",
+          "scene": "assets/img/scenes/bus-stop.svg",
+          "audio": "assets/audio/toeic/p14-stop-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p14-park-a",
+          "group": "p14-park",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) The sun is shining in the sky.\n逐字稿：(A) The bench is occupied.（長椅上有人坐）　(B) The sun is shining in the sky.（太陽在天空中照耀）　(C) It is raining.（正在下雨）　(D) Some children are riding bikes.（有些小孩在騎腳踏車）",
+          "scene": "assets/img/scenes/park.svg",
+          "audio": "assets/audio/toeic/p14-park-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p14-road-a",
+          "group": "p14-road",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "正確答案 (C) There is a tree beside the road.\n逐字稿：(A) The road is being repaired.（道路正在被修理）　(B) A car is driving into a garage.（一輛車正開進車庫）　(C) There is a tree beside the road.（路旁有一棵樹）　(D) Trucks are parked in a row.（卡車停成一排）",
+          "scene": "assets/img/scenes/street.svg",
+          "audio": "assets/audio/toeic/p14-road-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p14-street-b",
+          "group": "p14-street",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "正確答案 (C) A traffic light is next to a building.\n逐字稿：(A) A tree is being cut down.（一棵樹正在被砍倒）　(B) Cars are waiting at a traffic light.（車子在等紅綠燈）　(C) A traffic light is next to a building.（紅綠燈在大樓旁邊）　(D) The street is crowded.（街上很擁擠）",
+          "scene": "assets/img/scenes/street.svg",
+          "audio": "assets/audio/toeic/p14-street-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p14-stop-b",
+          "group": "p14-stop",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) A bus stop sign is next to a shelter.\n逐字稿：(A) A bus stop sign is next to a shelter.（公車站牌在候車亭旁邊）　(B) Some passengers are getting off a bus.（有些乘客正在下公車）　(C) The bench is covered with snow.（長椅被雪覆蓋）　(D) A man is reading a sign.（一名男子在看告示）",
+          "scene": "assets/img/scenes/bus-stop.svg",
+          "audio": "assets/audio/toeic/p14-stop-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p14-park-b",
+          "group": "p14-park",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) A bicycle has been parked near a tree.\n逐字稿：(A) Leaves are being raked.（落葉正在被耙起來）　(B) A bicycle has been parked near a tree.（一輛腳踏車停在樹附近）　(C) A woman is sitting on the bench.（一名女子坐在長椅上）　(D) The bicycle is lying on the grass.（腳踏車倒在草地上）",
+          "scene": "assets/img/scenes/park.svg",
+          "audio": "assets/audio/toeic/p14-park-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p14-road-b",
+          "group": "p14-road",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) There is a roof over the bench.\n逐字稿：(A) A bus is parked at the stop.（一輛公車停在站牌）　(B) There is a roof over the bench.（長椅上方有遮雨棚）　(C) People are standing in line.（大家在排隊）　(D) The sign is lying on the ground.（站牌倒在地上）",
+          "scene": "assets/img/scenes/bus-stop.svg",
+          "audio": "assets/audio/toeic/p14-road-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p14-x1",
+          "group": "p14-x1",
+          "type": "choice",
+          "prompt": "The bench is empty. 和哪一句意思一樣？",
+          "options": [
+            "No one is sitting on the bench.",
+            "The bench is being moved.",
+            "Someone is on the bench."
+          ],
+          "answer": "No one is sitting on the bench.",
+          "explanation": "empty（空的）＝ no one is sitting（沒有人坐）。多益很愛換句話說。",
+          "promptSay": {
+            "text": "The bench is empty.",
+            "audio": "assets/audio/prompts/the-bench-is-empty.mp3"
+          }
+        },
+        {
+          "id": "p14-x2",
+          "group": "p14-x2",
+          "type": "choice",
+          "prompt": "be parked 是什麼意思？",
+          "options": [
+            "停放著",
+            "正在開車",
+            "被修理"
+          ],
+          "answer": "停放著",
+          "explanation": "A car is parked…：車子停著。",
+          "promptSay": {
+            "text": "be parked",
+            "audio": "assets/audio/prompts/be-parked.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

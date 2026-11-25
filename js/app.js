@@ -1,5 +1,6 @@
 // 啟動流程：開資料庫 → 讀設定 → 啟動路由
 import { openDB } from './db.js';
+import { loadFavorites, installFavoriteHandler } from './favorites.js';
 import { createSettings } from './settings.js';
 import { createRouter } from './router.js';
 import { getStorageStatus, describeStatus } from './storage-status.js';
@@ -22,10 +23,11 @@ import { syncContent } from './content.js';
 import { loadContext } from './learning.js';
 import { backfillExp } from './rewards.js';
 import { registerSW, applyUpdate } from './pwa.js';
-import { installPlayHandler } from './audio.js';
+import { installPlayHandler, setPlaybackRate } from './audio.js';
 import * as achievementsPage from './pages/achievements.js';
 import * as statsPage from './pages/stats.js';
 import * as examPage from './pages/exam.js';
+import * as listeningPage from './pages/listening.js';
 
 const outlet = document.getElementById('app');
 const indicator = document.getElementById('save-indicator');
@@ -60,6 +62,7 @@ function setActiveTab(path) {
 }
 
 installPlayHandler(() => toast('播放失敗，請確認手機沒有靜音', { type: 'error' }));
+installFavoriteHandler();
 
 // 沉浸模式：畫面上有課程／測驗播放器時，隱藏頂部列和底部導覽，讓注意力集中在題目
 const syncImmersive = () => document.body.classList.toggle('is-immersive', !!outlet.querySelector('.player'));
@@ -72,6 +75,7 @@ async function boot() {
       onBlocked: () => toast('另一個分頁正在使用舊版資料庫，請關閉其他分頁', { type: 'error', duration: 5000 }),
     });
     await ensureProfile(db);
+    await loadFavorites(db);
     await syncContent(db);
     await backfillExp(db, await loadContext(db));
   } catch (err) {
@@ -81,6 +85,7 @@ async function boot() {
   }
 
   const settings = createSettings();
+  setPlaybackRate(settings.get().playbackRate);
   if (!settings.available) toast('設定無法保存（localStorage 不可用）', { type: 'error', duration: 5000 });
 
   async function refreshIndicator() {
@@ -122,6 +127,7 @@ async function boot() {
       '/achievements': { title: '成就', render: achievementsPage.render },
       '/stats': { title: '學習分析', render: statsPage.render },
       '/exam': { title: '模擬考', render: examPage.render },
+      '/listening': { title: '聽力訓練', render: listeningPage.render },
       '*': notFound,
     },
     onRoute: (path) => { setActiveTab(path); window.scrollTo(0, 0); },

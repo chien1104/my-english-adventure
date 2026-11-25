@@ -5,7 +5,7 @@ import { sanitize } from './settings.js';
 
 export const BACKUP_APP = 'my-english-adventure';
 export const BACKUP_FORMAT = 1;
-const KEY_OF = { profile: 'id', progress: 'id', attempts: 'id', reviews: 'wordId', expLog: 'id', achievements: 'id', sessions: 'id' };
+const KEY_OF = { profile: 'id', progress: 'id', attempts: 'id', reviews: 'wordId', expLog: 'id', achievements: 'id', sessions: 'id', favorites: 'wordId' };
 
 export async function buildBackup(db, settings, now = Date.now()) {
   const data = {};

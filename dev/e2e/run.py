@@ -136,7 +136,7 @@ try:
         for path in ['#/home', '#/settings']:
             page.goto(BASE + path); page.wait_for_timeout(300)
             orphan = page.evaluate("""[...document.querySelectorAll('#app button')].filter(b =>
-                !(b.type === 'submit' || b.dataset.play || b.dataset.act || b.dataset.mode || b.dataset.filter)).map(b => b.textContent.trim())""")
+                !(b.type === 'submit' || b.dataset.play || b.dataset.fav || b.dataset.rate || b.dataset.act || b.dataset.mode || b.dataset.filter)).map(b => b.textContent.trim())""")
             check(f'[E2E] {path} 沒有無作用的按鈕', len(orphan) == 0, str(orphan))
 
         # 損毀設定：App 仍能啟動

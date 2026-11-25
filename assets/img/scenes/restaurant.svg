@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="餐廳裡沒有人的餐桌：桌上擺好兩人份的盤子、刀叉和玻璃杯，中間有一瓶花">
+<title>餐廳裡沒有人的餐桌：桌上擺好兩人份的盤子、刀叉和玻璃杯，中間有一瓶花</title>
+<rect width="320" height="200" fill="#F4ECDF"/><rect y="150" width="320" height="50" fill="#E2D2BC"/>
+
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M60 150V90h8v60M252 150V90h8v60" fill="none"/><path d="M52 118h24M244 118h24" fill="none"/></g>
+<rect x="80" y="112" width="160" height="12" fill="#FFFFFF" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M96 124v32M224 124v32" stroke="#4E3424" stroke-width="2.5"/>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="#FFFFFF"><ellipse cx="112" cy="106" rx="20" ry="6"/><ellipse cx="208" cy="106" rx="20" ry="6"/><path d="M138 84h10l-1 22h-8z"/><path d="M172 84h10l-1 22h-8z"/></g>
+<path d="M86 96v14M226 96v14M90 96v14M234 96v14" stroke="#4E3424" stroke-width="2"/>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M154 108h12l2-20h-16z" fill="#8DB3D9"/><path d="M160 88v-16M160 80l-8-6M160 80l8-8" fill="none" stroke="#5E8C4F"/></g>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="#E06B5B"><circle cx="160" cy="68" r="5"/><circle cx="151" cy="72" r="4"/><circle cx="169" cy="70" r="4"/></g>
+</svg>

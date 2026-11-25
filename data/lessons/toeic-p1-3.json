@@ -1,0 +1,274 @@
+{
+  "id": "toeic-p1-3",
+  "world": "part1",
+  "order": 3,
+  "type": "toeic-listen",
+  "title": "Part 1 進行式陷阱",
+  "titleEn": "Being vs. Been",
+  "summary": "分清楚 is being（正在被做）和 has been（已經被做好）。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "Part 1 最常見的陷阱：照片裡沒有人，選項卻用 is being ＋ p.p.（正在被…），表示有人正在做這件事，通常是錯的。",
+        "如果是 has been／have been ＋ p.p.（已經被…），描述的是現在看到的狀態，常常是正確答案。",
+        "例如桌上已經擺好盤子：The table has been set.（對）；The table is being set.（錯，沒有人在擺）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "句子長相",
+          "意思",
+          "照片裡沒有人時"
+        ],
+        "rows": [
+          [
+            "is／are ＋ 形容詞",
+            "狀態：The door is open.",
+            "常常是答案"
+          ],
+          [
+            "has／have been ＋ p.p.",
+            "已經被放好：Cups have been placed on the table.",
+            "常常是答案"
+          ],
+          [
+            "is／are being ＋ p.p.",
+            "正在被做：The table is being cleaned.",
+            "要有人正在做才對，沒有人通常是錯的"
+          ],
+          [
+            "A man／woman is ＋ V-ing",
+            "某人正在做某事",
+            "照片沒有人 → 直接刪掉"
+          ]
+        ]
+      },
+      "tip": "聽到 being 先停一下：照片裡有沒有人「正在」做這件事？"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Some fruit has been placed in baskets.",
+          "zh": "水果已經被放在籃子裡。",
+          "highlight": "placed",
+          "audio": "assets/audio/lessons/toeic-p1-3/ex1.mp3"
+        },
+        {
+          "en": "The table has been set for two people.",
+          "zh": "桌子已經擺好兩人份的餐具。",
+          "highlight": "set",
+          "audio": "assets/audio/lessons/toeic-p1-3/ex2.mp3"
+        },
+        {
+          "en": "Some suitcases have been lined up in a row.",
+          "zh": "一些行李箱已經排成一排。",
+          "highlight": "lined",
+          "audio": "assets/audio/lessons/toeic-p1-3/ex3.mp3"
+        },
+        {
+          "en": "The table is being cleaned.",
+          "zh": "桌子正在被擦。",
+          "highlight": "being",
+          "audio": "assets/audio/lessons/toeic-p1-3/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看照片，再按 ▶ 聽 4 個句子。",
+      "questions": [
+        {
+          "id": "p13-market-a",
+          "group": "p13-market",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) Some fruit has been placed in baskets.\n逐字稿：(A) Fruit is being picked from a tree.（水果正在從樹上被摘下）　(B) Some fruit has been placed in baskets.（水果已經被放在籃子裡）　(C) A customer is paying for fruit.（一位顧客在付水果錢）　(D) The baskets are empty.（籃子是空的）",
+          "scene": "assets/img/scenes/market.svg",
+          "audio": "assets/audio/toeic/p13-market-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p13-rest-a",
+          "group": "p13-rest",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "正確答案 (C) The table has been set for two people.\n逐字稿：(A) A waiter is setting the table.（服務生在擺餐具）　(B) The plates are being washed.（盤子正在被清洗）　(C) The table has been set for two people.（桌子已經擺好兩人份的餐具）　(D) Two people are eating dinner.（兩個人在吃晚餐）",
+          "scene": "assets/img/scenes/restaurant.svg",
+          "audio": "assets/audio/toeic/p13-rest-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p13-bags-a",
+          "group": "p13-bags",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) Some suitcases have been lined up in a row.\n逐字稿：(A) Suitcases are being loaded onto a plane.（行李箱正在被裝上飛機）　(B) Some suitcases have been lined up in a row.（一些行李箱已經排成一排）　(C) A traveler is opening a bag.（一名旅客在打開包包）　(D) The window is being cleaned.（窗戶正在被清潔）",
+          "scene": "assets/img/scenes/luggage.svg",
+          "audio": "assets/audio/toeic/p13-bags-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p13-desk-a",
+          "group": "p13-desk",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) A plant has been placed next to the laptop.\n逐字稿：(A) The laptop is being repaired.（筆電正在被修理）　(B) A plant has been placed next to the laptop.（筆電旁邊放了一盆植物）　(C) Someone is typing on the laptop.（有人在用筆電打字）　(D) The desk is being moved.（桌子正在被搬動）",
+          "scene": "assets/img/scenes/desk.svg",
+          "audio": "assets/audio/toeic/p13-desk-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p13-market-b",
+          "group": "p13-market",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) Fruit is displayed in baskets.\n逐字稿：(A) Fruit is displayed in baskets.（水果陳列在籃子裡）　(B) The awning is being repaired.（遮雨棚正在被修理）　(C) A man is selling vegetables.（一名男子在賣蔬菜）　(D) The table is being cleaned.（桌子正在被擦）",
+          "scene": "assets/img/scenes/market.svg",
+          "audio": "assets/audio/toeic/p13-market-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p13-rest-b",
+          "group": "p13-rest",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) Some flowers have been put in a vase.\n逐字稿：(A) The chairs are being stacked.（椅子正在被疊起來）　(B) Some flowers have been put in a vase.（花已經被插在花瓶裡）　(C) Someone is pouring water.（有人在倒水）　(D) The glasses are full of juice.（杯子裡裝滿了果汁）",
+          "scene": "assets/img/scenes/restaurant.svg",
+          "audio": "assets/audio/toeic/p13-rest-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p13-bags-b",
+          "group": "p13-bags",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) An airplane can be seen through the window.\n逐字稿：(A) An airplane can be seen through the window.（從窗戶可以看到一架飛機）　(B) The suitcases are being carried.（行李箱正在被搬運）　(C) People are boarding the plane.（大家正在登機）　(D) The bags are on a cart.（包包在推車上）",
+          "scene": "assets/img/scenes/luggage.svg",
+          "audio": "assets/audio/toeic/p13-bags-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p13-desk-b",
+          "group": "p13-desk",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) The laptop has been left open.\n逐字稿：(A) The laptop has been left open.（筆電開著沒有關）　(B) A woman is watering the plant.（一名女子在幫植物澆水）　(C) The chair is being cleaned.（椅子正在被清潔）　(D) Papers are being printed.（文件正在被列印）",
+          "scene": "assets/img/scenes/desk.svg",
+          "audio": "assets/audio/toeic/p13-desk-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p13-x1",
+          "group": "p13-x1",
+          "type": "choice",
+          "prompt": "照片裡沒有人，哪一句最可能是錯的？",
+          "options": [
+            "The chairs are being moved.",
+            "The chairs have been arranged.",
+            "The chairs are empty."
+          ],
+          "answer": "The chairs are being moved.",
+          "explanation": "are being moved 表示有人正在搬，照片裡沒有人就不對。"
+        },
+        {
+          "id": "p13-x2",
+          "group": "p13-x2",
+          "type": "choice",
+          "prompt": "Fruit is displayed. 是什麼意思？",
+          "options": [
+            "水果被陳列著",
+            "水果正在被吃",
+            "水果壞掉了"
+          ],
+          "answer": "水果被陳列著",
+          "explanation": "be displayed：被陳列、展示。",
+          "promptSay": {
+            "text": "Fruit is displayed.",
+            "audio": "assets/audio/prompts/fruit-is-displayed.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

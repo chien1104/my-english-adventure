@@ -1,0 +1,266 @@
+{
+  "id": "toeic-p6-3",
+  "world": "part6",
+  "order": 4,
+  "type": "toeic",
+  "title": "Part 6 公告與通知",
+  "titleEn": "Notices",
+  "summary": "電梯檢修、圖書館延長開放：公告的固定寫法。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "公告的結構很固定：發生什麼事 → 時間 → 對大家的影響 → 請大家做什麼 → 感謝。",
+        "知道這個順序，句子題就很好猜：說完「不方便」，接下來通常是「我們會怎麼幫忙」。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "題型",
+          "選項長相",
+          "怎麼解"
+        ],
+        "rows": [
+          [
+            "時態題",
+            "inspect／will be inspected",
+            "看日期；東西「被做」用被動"
+          ],
+          [
+            "詞性題",
+            "patient／patience",
+            "your 後面接名詞"
+          ],
+          [
+            "連接詞題",
+            "so that／because of",
+            "so that ＋ 句子：為了能夠…"
+          ]
+        ]
+      },
+      "tip": "patience（耐心）和 patients（病人）發音很像，Part 6 很愛考。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "The elevators will be inspected on Saturday.",
+          "zh": "電梯將在星期六進行檢查。",
+          "highlight": "inspected",
+          "audio": "assets/audio/lessons/toeic-p6-3/ex1.mp3"
+        },
+        {
+          "en": "We thank you for your patience.",
+          "zh": "感謝您的耐心。",
+          "highlight": "patience",
+          "audio": "assets/audio/lessons/toeic-p6-3/ex2.mp3"
+        },
+        {
+          "en": "The library will extend its hours.",
+          "zh": "圖書館將延長開放時間。",
+          "highlight": "extend",
+          "audio": "assets/audio/lessons/toeic-p6-3/ex3.mp3"
+        },
+        {
+          "en": "For more information, please visit our website.",
+          "zh": "更多資訊請上我們的網站。",
+          "highlight": "information",
+          "audio": "assets/audio/lessons/toeic-p6-3/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "每題都會顯示整篇文章，看到第幾個空格就作答那一格。",
+      "questions": [
+        {
+          "id": "p63-1",
+          "group": "p63-1",
+          "type": "choice",
+          "prompt": "第 1 個空格要填什麼？",
+          "options": [
+            "inspect",
+            "inspected",
+            "will be inspected",
+            "are inspecting"
+          ],
+          "answer": "will be inspected",
+          "explanation": "電梯是「被檢查」，日期是之後的星期六，用 will be inspected。",
+          "text": "NOTICE\n\nThe elevators in this building (1)______ on Saturday, June 8, from 9 a.m. to 3 p.m. During this time, please use the stairs. We understand this may be difficult for some people. (2)______ If you need help (3)______ heavy items, please contact the front desk. We thank you for your (4)______."
+        },
+        {
+          "id": "p63-2",
+          "group": "p63-2",
+          "type": "choice",
+          "prompt": "第 2 個空格要填什麼？",
+          "options": [
+            "Staff will be available to help with deliveries.",
+            "The new elevators are very fast.",
+            "The building was built in 1995."
+          ],
+          "answer": "Staff will be available to help with deliveries.",
+          "explanation": "前一句說可能造成不便，接「會有工作人員幫忙」最合理。",
+          "text": "NOTICE\n\nThe elevators in this building (1)______ on Saturday, June 8, from 9 a.m. to 3 p.m. During this time, please use the stairs. We understand this may be difficult for some people. (2)______ If you need help (3)______ heavy items, please contact the front desk. We thank you for your (4)______."
+        },
+        {
+          "id": "p63-3",
+          "group": "p63-3",
+          "type": "choice",
+          "prompt": "第 3 個空格要填什麼？",
+          "options": [
+            "carry",
+            "carrying",
+            "carried",
+            "carries"
+          ],
+          "answer": "carrying",
+          "explanation": "need help ＋ V-ing：需要幫忙做某事。",
+          "text": "NOTICE\n\nThe elevators in this building (1)______ on Saturday, June 8, from 9 a.m. to 3 p.m. During this time, please use the stairs. We understand this may be difficult for some people. (2)______ If you need help (3)______ heavy items, please contact the front desk. We thank you for your (4)______.",
+          "optionNotes": {
+            "carry": "carry（動詞）是「攜帶；搬運」"
+          }
+        },
+        {
+          "id": "p63-4",
+          "group": "p63-4",
+          "type": "choice",
+          "prompt": "第 4 個空格要填什麼？",
+          "options": [
+            "patient",
+            "patience",
+            "patiently",
+            "patients"
+          ],
+          "answer": "patience",
+          "explanation": "your 後面接名詞，「耐心」是 patience；patients 是病人。",
+          "text": "NOTICE\n\nThe elevators in this building (1)______ on Saturday, June 8, from 9 a.m. to 3 p.m. During this time, please use the stairs. We understand this may be difficult for some people. (2)______ If you need help (3)______ heavy items, please contact the front desk. We thank you for your (4)______.",
+          "optionNotes": {
+            "patient": "patient（名詞／形容詞）是「病人；有耐心的」"
+          }
+        },
+        {
+          "id": "p63-5",
+          "group": "p63-5",
+          "type": "choice",
+          "prompt": "第 5 個空格要填什麼？",
+          "options": [
+            "extend",
+            "extended",
+            "extension",
+            "extending"
+          ],
+          "answer": "extend",
+          "explanation": "will 後面接動詞原形 extend（延長）。",
+          "text": "Greenville Public Library\n\nStarting next month, the library will (5)______ its hours. It will open at 8 a.m. instead of 9 a.m. on weekdays. Many visitors asked for earlier hours (6)______ they could study before work. (7)______ The weekend hours will not change. For more (8)______, please visit our website.",
+          "optionNotes": {
+            "extension": "extension（名詞）是「分機；延長」"
+          }
+        },
+        {
+          "id": "p63-6",
+          "group": "p63-6",
+          "type": "choice",
+          "prompt": "第 6 個空格要填什麼？",
+          "options": [
+            "so that",
+            "because of",
+            "despite",
+            "during"
+          ],
+          "answer": "so that",
+          "explanation": "後面是句子 they could study，表示目的「為了能夠…」，用 so that。",
+          "text": "Greenville Public Library\n\nStarting next month, the library will (5)______ its hours. It will open at 8 a.m. instead of 9 a.m. on weekdays. Many visitors asked for earlier hours (6)______ they could study before work. (7)______ The weekend hours will not change. For more (8)______, please visit our website."
+        },
+        {
+          "id": "p63-7",
+          "group": "p63-7",
+          "type": "choice",
+          "prompt": "第 7 個空格要填什麼？",
+          "options": [
+            "We are happy to meet their needs.",
+            "The library will be closed for good.",
+            "Books cannot be borrowed anymore."
+          ],
+          "answer": "We are happy to meet their needs.",
+          "explanation": "前一句說讀者希望早點開，接「很高興滿足他們的需求」。",
+          "text": "Greenville Public Library\n\nStarting next month, the library will (5)______ its hours. It will open at 8 a.m. instead of 9 a.m. on weekdays. Many visitors asked for earlier hours (6)______ they could study before work. (7)______ The weekend hours will not change. For more (8)______, please visit our website."
+        },
+        {
+          "id": "p63-8",
+          "group": "p63-8",
+          "type": "choice",
+          "prompt": "第 8 個空格要填什麼？",
+          "options": [
+            "inform",
+            "information",
+            "informed",
+            "informative"
+          ],
+          "answer": "information",
+          "explanation": "more 後面接名詞 information。",
+          "text": "Greenville Public Library\n\nStarting next month, the library will (5)______ its hours. It will open at 8 a.m. instead of 9 a.m. on weekdays. Many visitors asked for earlier hours (6)______ they could study before work. (7)______ The weekend hours will not change. For more (8)______, please visit our website.",
+          "optionNotes": {
+            "inform": "inform（動詞）是「通知」",
+            "informative": "informative（形容詞）是「提供資訊的；有益的」"
+          }
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p63-x1",
+          "group": "p63-x1",
+          "type": "choice",
+          "prompt": "patience 是什麼意思？",
+          "options": [
+            "耐心",
+            "病人",
+            "耐心地"
+          ],
+          "answer": "耐心",
+          "explanation": "patience 耐心；patient 有耐心的（也可當病人）；patients 病人（複數）。",
+          "promptSay": {
+            "text": "patience",
+            "audio": "assets/audio/prompts/patience.mp3"
+          }
+        },
+        {
+          "id": "p63-x2",
+          "group": "p63-x2",
+          "type": "choice",
+          "prompt": "so that 是什麼意思？",
+          "options": [
+            "為了能夠、以便",
+            "因為",
+            "雖然"
+          ],
+          "answer": "為了能夠、以便",
+          "explanation": "so that ＋ 句子：表示目的。",
+          "promptSay": {
+            "text": "so that",
+            "audio": "assets/audio/prompts/so-that.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "id": "toeic-p5-4",
+  "world": "part5",
+  "order": 4,
+  "type": "toeic",
+  "title": "Part 5 介系詞還是連接詞",
+  "titleEn": "Prepositions vs. Conjunctions",
+  "summary": "because 還是 because of？although 還是 despite？看後面接什麼。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "這是多益超級常考的題型：意思一樣的字，有的後面接名詞（介系詞），有的後面接句子（連接詞）。",
+        "例如「因為」：because ＋ 句子（because it rained）；because of ＋ 名詞（because of the rain）。",
+        "「雖然」：although ＋ 句子；despite ＋ 名詞。「在…期間」：while ＋ 句子；during ＋ 名詞。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "意思",
+          "＋ 句子（連接詞）",
+          "＋ 名詞（介系詞）"
+        ],
+        "rows": [
+          [
+            "因為",
+            "because",
+            "because of"
+          ],
+          [
+            "雖然、儘管",
+            "although",
+            "despite"
+          ],
+          [
+            "在…的時候、期間",
+            "while",
+            "during"
+          ]
+        ]
+      },
+      "tip": "判斷方法：空格後面有沒有「主詞＋動詞」？有就是句子，用連接詞。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "The game was canceled because of the rain.",
+          "zh": "比賽因為下雨被取消。",
+          "highlight": "because",
+          "audio": "assets/audio/lessons/toeic-p5-4/ex1.mp3"
+        },
+        {
+          "en": "Although it was raining, we went hiking.",
+          "zh": "雖然在下雨，我們還是去爬山。",
+          "highlight": "Although",
+          "audio": "assets/audio/lessons/toeic-p5-4/ex2.mp3"
+        },
+        {
+          "en": "Despite the high price, the tickets sold out quickly.",
+          "zh": "儘管價格很高，票還是很快就賣完了。",
+          "highlight": "Despite",
+          "audio": "assets/audio/lessons/toeic-p5-4/ex3.mp3"
+        },
+        {
+          "en": "Please do not talk during the movie.",
+          "zh": "電影播放期間請勿交談。",
+          "highlight": "during",
+          "audio": "assets/audio/lessons/toeic-p5-4/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再作答。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "p54-0a",
+          "group": "p54-0",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "because",
+            "because of",
+            "although",
+            "while"
+          ],
+          "answer": "because of",
+          "explanation": "the rain 是名詞，用 because of。",
+          "sentence": "The game was canceled ___ the rain.",
+          "zh": "比賽因為下雨被取消。"
+        },
+        {
+          "id": "p54-1a",
+          "group": "p54-1",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "Although",
+            "Despite",
+            "Because of",
+            "During"
+          ],
+          "answer": "Although",
+          "explanation": "it was raining 是句子，而且前後相反，用 Although。",
+          "sentence": "___ it was raining, we went hiking.",
+          "zh": "雖然在下雨，我們還是去爬山。"
+        },
+        {
+          "id": "p54-2a",
+          "group": "p54-2",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "while",
+            "during",
+            "although",
+            "because"
+          ],
+          "answer": "during",
+          "explanation": "the movie 是名詞，用 during。",
+          "sentence": "Please do not talk ___ the movie.",
+          "zh": "電影播放期間請勿交談。"
+        },
+        {
+          "id": "p54-3a",
+          "group": "p54-3",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "Although",
+            "Despite",
+            "Because",
+            "While"
+          ],
+          "answer": "Despite",
+          "explanation": "the high price 是名詞，意思相反，用 Despite。",
+          "sentence": "___ the high price, the tickets sold out quickly.",
+          "zh": "儘管價格很高，票還是很快賣完。"
+        },
+        {
+          "id": "p54-4a",
+          "group": "p54-4",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "during",
+            "while",
+            "despite",
+            "because of"
+          ],
+          "answer": "while",
+          "explanation": "he was waiting 是句子，用 while。",
+          "sentence": "Mr. Chen read the newspaper ___ he was waiting for the train.",
+          "zh": "陳先生在等火車的時候看報紙。"
+        },
+        {
+          "id": "p54-5a",
+          "group": "p54-5",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "because",
+            "because of",
+            "despite",
+            "during"
+          ],
+          "answer": "because",
+          "explanation": "there were no customers 是句子，用 because。",
+          "sentence": "The store closed early ___ there were no customers.",
+          "zh": "因為沒有客人，這家店提早關門。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p54-0b",
+          "group": "p54-0",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "because",
+            "because of",
+            "although",
+            "while"
+          ],
+          "answer": "because of",
+          "explanation": "the storm 是名詞，用 because of。",
+          "sentence": "The flight was delayed ___ the storm.",
+          "zh": "班機因為暴風雨延誤。"
+        },
+        {
+          "id": "p54-1b",
+          "group": "p54-1",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "Although",
+            "Despite",
+            "During",
+            "Because of"
+          ],
+          "answer": "Although",
+          "explanation": "he was tired 是句子，用 Although。",
+          "sentence": "___ he was tired, he finished the report.",
+          "zh": "雖然他很累，還是完成了報告。"
+        },
+        {
+          "id": "p54-2b",
+          "group": "p54-2",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "while",
+            "during",
+            "although",
+            "because"
+          ],
+          "answer": "during",
+          "explanation": "the long speech 是名詞，用 during。",
+          "sentence": "Many people fell asleep ___ the long speech.",
+          "zh": "很多人在冗長的演講中睡著了。"
+        },
+        {
+          "id": "p54-3b",
+          "group": "p54-3",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "Although",
+            "Despite",
+            "Because",
+            "While"
+          ],
+          "answer": "Despite",
+          "explanation": "the bad weather 是名詞，用 Despite。",
+          "sentence": "___ the bad weather, the event was a success.",
+          "zh": "儘管天氣不好，活動還是很成功。"
+        },
+        {
+          "id": "p54-4b",
+          "group": "p54-4",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "during",
+            "while",
+            "despite",
+            "because of"
+          ],
+          "answer": "while",
+          "explanation": "she is driving 是句子，用 while。",
+          "sentence": "She listens to music ___ she is driving.",
+          "zh": "她開車的時候會聽音樂。"
+        },
+        {
+          "id": "p54-5b",
+          "group": "p54-5",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "because",
+            "because of",
+            "despite",
+            "during"
+          ],
+          "answer": "because",
+          "explanation": "it was too cold 是句子，用 because。",
+          "sentence": "We stayed home ___ it was too cold.",
+          "zh": "因為太冷，我們待在家。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p54-x0",
+          "group": "p54-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "Although",
+            "Despite",
+            "Because",
+            "Unless"
+          ],
+          "answer": "Despite",
+          "explanation": "the delay in shipping 是名詞片語，意思相反，用 Despite。",
+          "sentence": "___ the delay in shipping, the products arrived in time for the sale.",
+          "zh": "儘管運送延遲，產品還是及時在特賣前送到。"
+        },
+        {
+          "id": "p54-x1",
+          "group": "p54-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "during",
+            "while",
+            "despite",
+            "because of"
+          ],
+          "answer": "while",
+          "explanation": "they are in the factory 是句子，用 while。",
+          "sentence": "Visitors must wear a badge ___ they are in the factory.",
+          "zh": "訪客在工廠內必須配戴識別證。"
+        }
+      ]
+    }
+  ]
+}

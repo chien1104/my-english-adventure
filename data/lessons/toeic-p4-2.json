@@ -1,0 +1,231 @@
+{
+  "id": "toeic-p4-2",
+  "world": "part4",
+  "order": 2,
+  "type": "toeic-listen",
+  "title": "Part 4 廣告",
+  "titleEn": "Advertisements",
+  "summary": "聽廣告：賣什麼、有什麼優惠、怎麼參加。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "廣告是 Part 4 常見的類型。開頭常用問句吸引人：Are you looking for…?（你在找…嗎？）",
+        "廣告必考三件事：賣什麼（What is being advertised?）、有什麼優惠（discount、free）、要怎麼做（visit、call、sign up）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "類型",
+          "開頭常聽到",
+          "常考"
+        ],
+        "rows": [
+          [
+            "廣告",
+            "Are you looking for…? Want to…?",
+            "賣什麼、優惠、期限"
+          ],
+          [
+            "優惠",
+            "30% off、free、get… free",
+            "折扣多少、怎樣才能拿到"
+          ],
+          [
+            "行動",
+            "Visit our website. Sign up before…",
+            "要做什麼、截止日期"
+          ]
+        ]
+      },
+      "tip": "30% off 在選項常寫成 a discount（折扣）；get your first month free 常寫成 a free month。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Everything in the store is thirty percent off.",
+          "zh": "店內全部商品打七折。",
+          "highlight": "off",
+          "audio": "assets/audio/lessons/toeic-p4-2/ex1.mp3"
+        },
+        {
+          "en": "We will deliver your furniture for free.",
+          "zh": "我們會免費幫你運送家具。",
+          "highlight": "free",
+          "audio": "assets/audio/lessons/toeic-p4-2/ex2.mp3"
+        },
+        {
+          "en": "Sign up before May twentieth.",
+          "zh": "請在五月二十日前報名。",
+          "highlight": "Sign",
+          "audio": "assets/audio/lessons/toeic-p4-2/ex3.mp3"
+        },
+        {
+          "en": "Visit our website to see the full schedule.",
+          "zh": "請上我們的網站看完整課表。",
+          "highlight": "Visit",
+          "audio": "assets/audio/lessons/toeic-p4-2/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再按 ▶ 聽。每段有 3 題。",
+      "questions": [
+        {
+          "id": "p4-2-t1-q1",
+          "group": "p4-2-t1-q1",
+          "type": "choice",
+          "prompt": "這是什麼的廣告？",
+          "options": [
+            "A furniture store",
+            "A moving company",
+            "A hotel"
+          ],
+          "answer": "A furniture store",
+          "explanation": "Home Style Furniture：家具店。\n逐字稿：Are you looking for a new sofa? Come to Home Style Furniture this weekend! Everything in the store is 30% off. We are open from 10 a.m. to 8 p.m. on Saturday and Sunday. And if you spend more than $500, we will deliver your furniture for free.",
+          "sentence": "What is being advertised?",
+          "audio": "assets/audio/toeic/p42-talk1.mp3",
+          "audioLabel": "▶ 播放廣告"
+        },
+        {
+          "id": "p4-2-t1-q2",
+          "group": "p4-2-t1-q2",
+          "type": "choice",
+          "prompt": "這個週末有什麼優惠？",
+          "options": [
+            "A discount",
+            "Free coffee",
+            "A gift card"
+          ],
+          "answer": "A discount",
+          "explanation": "30% off 就是打折（a discount）。\n逐字稿：Are you looking for a new sofa? Come to Home Style Furniture this weekend! Everything in the store is 30% off. We are open from 10 a.m. to 8 p.m. on Saturday and Sunday. And if you spend more than $500, we will deliver your furniture for free.",
+          "sentence": "What is offered this weekend?",
+          "audio": "assets/audio/toeic/p42-talk1.mp3",
+          "audioLabel": "▶ 播放廣告"
+        },
+        {
+          "id": "p4-2-t1-q3",
+          "group": "p4-2-t1-q3",
+          "type": "choice",
+          "prompt": "顧客要怎樣才能免運費？",
+          "options": [
+            "By spending more than $500",
+            "By shopping on Saturday",
+            "By paying in cash"
+          ],
+          "answer": "By spending more than $500",
+          "explanation": "if you spend more than $500, we will deliver your furniture for free.\n逐字稿：Are you looking for a new sofa? Come to Home Style Furniture this weekend! Everything in the store is 30% off. We are open from 10 a.m. to 8 p.m. on Saturday and Sunday. And if you spend more than $500, we will deliver your furniture for free.",
+          "sentence": "How can customers get free delivery?",
+          "audio": "assets/audio/toeic/p42-talk1.mp3",
+          "audioLabel": "▶ 播放廣告"
+        },
+        {
+          "id": "p4-2-t2-q1",
+          "group": "p4-2-t2-q1",
+          "type": "choice",
+          "prompt": "這間學校提供什麼？",
+          "options": [
+            "Language classes",
+            "Cooking classes",
+            "Computer classes"
+          ],
+          "answer": "Language classes",
+          "explanation": "English, Japanese, and Spanish：語言課。\n逐字稿：Want to learn a new language? City Language School offers small classes in English, Japanese, and Spanish. Classes start on June 1. Sign up before May 20 and get your first month free. Visit our website to see the full schedule.",
+          "sentence": "What does the school offer?",
+          "audio": "assets/audio/toeic/p42-talk2.mp3",
+          "audioLabel": "▶ 播放廣告"
+        },
+        {
+          "id": "p4-2-t2-q2",
+          "group": "p4-2-t2-q2",
+          "type": "choice",
+          "prompt": "課程什麼時候開始？",
+          "options": [
+            "June 1",
+            "May 20",
+            "May 1"
+          ],
+          "answer": "June 1",
+          "explanation": "Classes start on June 1. May 20 是報名優惠的截止日。\n逐字稿：Want to learn a new language? City Language School offers small classes in English, Japanese, and Spanish. Classes start on June 1. Sign up before May 20 and get your first month free. Visit our website to see the full schedule.",
+          "sentence": "When do classes start?",
+          "audio": "assets/audio/toeic/p42-talk2.mp3",
+          "audioLabel": "▶ 播放廣告"
+        },
+        {
+          "id": "p4-2-t2-q3",
+          "group": "p4-2-t2-q3",
+          "type": "choice",
+          "prompt": "聽眾要怎麼看課表？",
+          "options": [
+            "By visiting a website",
+            "By calling the school",
+            "By reading a newspaper"
+          ],
+          "answer": "By visiting a website",
+          "explanation": "Visit our website to see the full schedule.\n逐字稿：Want to learn a new language? City Language School offers small classes in English, Japanese, and Spanish. Classes start on June 1. Sign up before May 20 and get your first month free. Visit our website to see the full schedule.",
+          "sentence": "How can listeners see the schedule?",
+          "audio": "assets/audio/toeic/p42-talk2.mp3",
+          "audioLabel": "▶ 播放廣告"
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p42-x1",
+          "group": "p42-x1",
+          "type": "choice",
+          "prompt": "30% off 是什麼意思？",
+          "options": [
+            "打七折",
+            "打三折",
+            "加價 30%"
+          ],
+          "answer": "打七折",
+          "explanation": "30% off：減掉 30%，也就是中文的七折。",
+          "promptSay": {
+            "text": "off",
+            "audio": "assets/audio/prompts/off.mp3"
+          }
+        },
+        {
+          "id": "p42-x2",
+          "group": "p42-x2",
+          "type": "choice",
+          "prompt": "sign up 是什麼意思？",
+          "options": [
+            "報名、登記",
+            "簽合約",
+            "舉牌"
+          ],
+          "answer": "報名、登記",
+          "explanation": "sign up for a class：報名課程。",
+          "promptSay": {
+            "text": "sign up",
+            "audio": "assets/audio/prompts/sign-up.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

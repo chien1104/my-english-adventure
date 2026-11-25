@@ -110,7 +110,10 @@
           "answer": "drinks",
           "explanation": "主詞 she，現在簡單式動詞要加 s：drinks。",
           "sentence": "She ___ a cup of coffee every morning.",
-          "zh": "她每天早上喝一杯咖啡。"
+          "zh": "她每天早上喝一杯咖啡。",
+          "optionNotes": {
+            "drink": "drink（動詞／名詞）是「喝；飲料」"
+          }
         }
       ],
       "similar": [

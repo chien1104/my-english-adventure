@@ -42,10 +42,15 @@ try:
             ans=pg.evaluate("""()=>{const q=document.querySelector('.q');return q.dataset.qid}""")
             opts=pg.eval_on_selector_all('.q [data-opt]','els=>els.map(e=>e.textContent.trim())')
             # 答案：從資料庫找單字
-            correct=pg.evaluate("""async (qid)=>{const m=/^u-(.+)-(zh|en)$/.exec(qid);const w=await window.__mea.db.get('vocab',m[1]);return m[2]==='zh'?w.zh:w.en}""", ans)
-            if wrong<3: i=next(i for i,o in enumerate(opts) if o!=correct); wrong+=1
-            else: i=opts.index(correct)
+            correct=pg.evaluate("""async (qid)=>{const m=/^u-(.+)-(zh|en|listen|cloze)(-b)?$/.exec(qid);const w=await window.__mea.db.get('vocab',m[1]);return (m[2]==='zh'||m[2]==='listen')?w.zh:w.en}""", ans)
+            low=[o.lower() for o in opts]
+            if wrong<3: i=next(i for i,o in enumerate(low) if o!=correct.lower()); wrong+=1
+            else: i=low.index(correct.lower())
             pg.click(f'.q [data-opt="{i}"]'); pg.wait_for_timeout(250); continue
+        if pg.locator('.q__type input').count() and pg.is_enabled('.q__type input'):  # 拼字題
+            qid=pg.evaluate("document.querySelector('.q').dataset.qid")
+            en=pg.evaluate("""async (qid)=>{const m=/^u-(.+)-spell(-b)?$/.exec(qid);return (await window.__mea.db.get('vocab',m[1])).en}""", qid)
+            pg.fill('.q__type input', en); pg.click('.q__type button[type=submit]'); pg.wait_for_timeout(250); continue
         if pg.locator('[data-act=next]').count() and pg.is_enabled('[data-act=next]'):
             pg.click('[data-act=next]'); pg.wait_for_timeout(120); continue
         pg.wait_for_timeout(300)

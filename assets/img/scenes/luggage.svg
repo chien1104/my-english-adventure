@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="機場的大窗戶前，四個行李箱排成一排，窗外可以看到一架飛機">
+<title>機場的大窗戶前，四個行李箱排成一排，窗外可以看到一架飛機</title>
+<rect width="320" height="200" fill="#F4ECDF"/><rect y="150" width="320" height="50" fill="#E2D2BC"/>
+
+<rect x="30" y="20" width="260" height="96" fill="#CFE2F2" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M117 20v96M203 20v96" stroke="#4E3424" stroke-width="2.5"/>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="#FFFFFF"><path d="M140 70h80l14-6h8l-6 10-14 4h-82z"/><path d="M180 70l-12-16h8l18 16z"/><path d="M186 78l-10 14h8l16-14z"/></g>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><rect x="56" y="104" width="38" height="50" rx="5" fill="#E06B5B"/><rect x="112" y="104" width="38" height="50" rx="5" fill="#8DB3D9"/><rect x="168" y="104" width="38" height="50" rx="5" fill="#F2B544"/><rect x="224" y="104" width="38" height="50" rx="5" fill="#8FB37A"/>
+<path d="M68 104v-10h14v10M124 104v-10h14v10M180 104v-10h14v10M236 104v-10h14v10" fill="none"/></g>
+</svg>

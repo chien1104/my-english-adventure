@@ -1,0 +1,287 @@
+{
+  "id": "toeic-p2-3",
+  "world": "part2",
+  "order": 3,
+  "type": "toeic-listen",
+  "title": "Part 2 選擇疑問句",
+  "titleEn": "Choice Questions",
+  "summary": "A or B? 的問題：選一個、兩個都可以，或都不要。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "選擇疑問句長這樣：Would you like tea or coffee?（你要茶還是咖啡？）",
+        "這種問題不能用 Yes／No 回答。好的回答是選其中一個、說「都可以」（Either is fine.）或「我都不介意」（I don't mind.）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "回答方式",
+          "例子",
+          "意思"
+        ],
+        "rows": [
+          [
+            "選一個",
+            "Coffee, please.",
+            "請給我咖啡"
+          ],
+          [
+            "都可以",
+            "Either is fine with me.",
+            "哪一個都可以"
+          ],
+          [
+            "不介意",
+            "I don't mind.",
+            "我都不介意"
+          ],
+          [
+            "換個說法選",
+            "It's only five minutes, so let's walk.",
+            "只要五分鐘，走路吧"
+          ]
+        ]
+      },
+      "tip": "聽到 or，Yes 開頭的選項幾乎都是錯的。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Would you like tea or coffee?",
+          "zh": "你要茶還是咖啡？",
+          "highlight": "or",
+          "audio": "assets/audio/lessons/toeic-p2-3/ex1.mp3"
+        },
+        {
+          "en": "Either is fine with me.",
+          "zh": "我哪一個都可以。",
+          "highlight": "Either",
+          "audio": "assets/audio/lessons/toeic-p2-3/ex2.mp3"
+        },
+        {
+          "en": "I don't mind.",
+          "zh": "我都不介意。",
+          "highlight": "mind",
+          "audio": "assets/audio/lessons/toeic-p2-3/ex3.mp3"
+        },
+        {
+          "en": "Coffee, please.",
+          "zh": "請給我咖啡。",
+          "highlight": "Coffee",
+          "audio": "assets/audio/lessons/toeic-p2-3/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "按 ▶ 聽問題和 3 個回答。考試時不會印出文字。",
+      "questions": [
+        {
+          "id": "p23-drink-a",
+          "group": "p23-drink",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "選擇疑問句要選一個。(A) Yes 不能回答 A or B。\n逐字稿：Would you like tea or coffee?（你要茶還是咖啡？）　(A) Yes, please.（是的，麻煩了）　(B) Coffee, please.（請給我咖啡）　(C) At the café.（在咖啡店）",
+          "audio": "assets/audio/toeic/p23-drink-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p23-walk-a",
+          "group": "p23-walk",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "選走路，還說了原因。(B) talked 和 walk 發音像，是陷阱。\n逐字稿：Should we take a taxi or walk?（我們要搭計程車還是走路？）　(A) It's only five minutes, so let's walk.（只要五分鐘，走路吧）　(B) I talked to him.（我跟他談過了）　(C) Yes, a taxi driver.（是的，計程車司機）",
+          "audio": "assets/audio/toeic/p23-walk-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p23-color-a",
+          "group": "p23-color",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Either is fine：都可以。(B) read 和 red 發音一樣，是陷阱。\n逐字稿：Do you prefer the red one or the blue one?（你比較喜歡紅色的還是藍色的？）　(A) Either is fine with me.（哪一個都可以）　(B) I read it yesterday.（我昨天讀過了）　(C) Yes, I prefer.（是的，我比較喜歡）",
+          "audio": "assets/audio/toeic/p23-color-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p23-pay-a",
+          "group": "p23-pay",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "選刷卡。(C) pay attention 是「注意」，重複 pay 是陷阱。\n逐字稿：Will you pay by cash or credit card?（你要付現還是刷卡？）　(A) Credit card, please.（刷卡，謝謝）　(B) It's very expensive.（這很貴）　(C) I'll pay attention.（我會注意）",
+          "audio": "assets/audio/toeic/p23-pay-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p23-file-a",
+          "group": "p23-file",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "選 email。(B) printer 和 print 很像，是陷阱。\n逐字稿：Should I email the file or print it?（這個檔案我要用 email 寄還是印出來？）　(A) Just email it, please.（用 email 寄就好）　(B) The printer is new.（印表機是新的）　(C) Yes, the file.（是的，那個檔案）",
+          "audio": "assets/audio/toeic/p23-file-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p23-drink-b",
+          "group": "p23-drink",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "選室外，還加上條件。\n逐字稿：Do you want to sit inside or outside?（你想坐室內還是室外？）　(A) Outside, if it's not too cold.（室外，如果不會太冷的話）　(B) Yes, I do.（是的，我想）　(C) It's a nice seat.（這是個好位子）",
+          "audio": "assets/audio/toeic/p23-drink-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p23-walk-b",
+          "group": "p23-walk",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "選星期二。(A) 有 Yes，不能回答 A or B。\n逐字稿：Is the meeting on Monday or Tuesday?（會議是星期一還是星期二？）　(A) Yes, on Monday.（是的，星期一）　(B) It's on Tuesday.（在星期二）　(C) Every week.（每週）",
+          "audio": "assets/audio/toeic/p23-walk-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p23-color-b",
+          "group": "p23-color",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "I don't mind：我都不介意。\n逐字稿：Would you like a window seat or an aisle seat?（你要靠窗還是靠走道的座位？）　(A) I don't mind.（我都可以）　(B) Yes, I would.（是的，我要）　(C) The window is open.（窗戶是開的）",
+          "audio": "assets/audio/toeic/p23-color-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p23-pay-b",
+          "group": "p23-pay",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "選搭火車。(B) raining 和 train 音很像，是陷阱。\n逐字稿：Are you driving or taking the train?（你要開車還是搭火車？）　(A) I'll take the train.（我會搭火車）　(B) Yes, it's raining.（是的，在下雨）　(C) He's a good driver.（他是個好司機）",
+          "audio": "assets/audio/toeic/p23-pay-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p23-file-b",
+          "group": "p23-file",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "選晚點。(B) late 和 later 很像，是陷阱。\n逐字稿：Do you want to eat now or later?（你想現在吃還是晚點吃？）　(A) Let's eat later.（晚點再吃吧）　(B) Yes, it's late.（是的，很晚了）　(C) I ate a sandwich yesterday.（我昨天吃了三明治）",
+          "audio": "assets/audio/toeic/p23-file-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p23-x1",
+          "group": "p23-x1",
+          "type": "choice",
+          "prompt": "Either is fine with me. 是什麼意思？",
+          "options": [
+            "哪一個都可以",
+            "兩個都不要",
+            "我已經選好了"
+          ],
+          "answer": "哪一個都可以",
+          "explanation": "either：兩者之中任一個。",
+          "promptSay": {
+            "text": "Either is fine with me.",
+            "audio": "assets/audio/prompts/either-is-fine-with-me.mp3"
+          }
+        },
+        {
+          "id": "p23-x2",
+          "group": "p23-x2",
+          "type": "choice",
+          "prompt": "A or B 的選擇疑問句，哪一種回答幾乎都錯？",
+          "options": [
+            "Yes 開頭的回答",
+            "選其中一個",
+            "I don't mind."
+          ],
+          "answer": "Yes 開頭的回答",
+          "explanation": "選擇疑問句不能用 Yes／No 回答。"
+        }
+      ]
+    }
+  ]
+}

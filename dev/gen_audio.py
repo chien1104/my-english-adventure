@@ -14,7 +14,7 @@ ONLY = sys.argv[2] if len(sys.argv) > 2 else ''  # 只產生路徑包含這段�
 import glob as _glob
 CACHE_DIR = '/home/claude/tools'
 REVERSE = os.environ.get('REVERSE') == '1'  # 從清單尾端往前做（讓第二個程序分擔同一類音檔）
-CACHE_F = os.path.join(CACHE_DIR, f'audio_cache{"-" + ONLY.strip("/") if ONLY else ""}{"-rev" if REVERSE else ""}.json')
+CACHE_F = os.path.join(CACHE_DIR, f'audio_cache{"-" + ONLY.strip("/").replace("/", "_") if ONLY else ""}{"-rev" if REVERSE else ""}.json')
 cache = {}
 for _f in sorted(_glob.glob(os.path.join(CACHE_DIR, 'audio_cache*.json'))):
     cache.update(json.load(open(_f)))
@@ -29,6 +29,10 @@ PHON_FIX = [('bˈʌfɪt', 'bəfˈeɪ'),           # buffet（自助餐）
 SPOKEN = [('Mrs.', 'Missus'), ('Ms.', 'Miz'), ('Mr.', 'Mister')]
 def synth(text, voice, speed):
     for a, b in SPOKEN: text = text.replace(a, b)   # 稱謂唸成完整的字，不要逐字母拼
+    lang = 'en-gb' if voice.startswith('b') else 'en-us'   # 英式聲音用英式發音規則
+    if lang == 'en-gb':
+        s, sr = k.create(text, voice=voice, speed=speed, lang=lang)
+        return s.astype('float32')
     ph = k.tokenizer.phonemize(text, 'en-us')
     fixed = ph
     for a, b in PHON_FIX: fixed = fixed.replace(a, b)

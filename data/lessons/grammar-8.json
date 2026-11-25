@@ -1,0 +1,470 @@
+{
+  "id": "grammar-8",
+  "world": "grammar",
+  "order": 8,
+  "type": "grammar",
+  "title": "連接詞：and、but、so、because",
+  "titleEn": "Conjunctions",
+  "summary": "把兩個句子接起來，表示順接、轉折、原因、結果。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "中文會說「但是、所以、因為、雖然、如果」，英文也有對應的連接詞。",
+        "多益常考「看前後兩句的關係」選連接詞：意思相反用 but／although，原因用 because，結果用 so。",
+        "還有成對出現的：both A and B（兩者都）、either A or B（二選一）、not only A but also B（不只…而且…）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "看前後兩句的關係："
+      ],
+      "table": {
+        "head": [
+          "關係",
+          "連接詞",
+          "例子"
+        ],
+        "rows": [
+          [
+            "加上、而且",
+            "and",
+            "I called and emailed him."
+          ],
+          [
+            "相反、轉折",
+            "but／although／however",
+            "It's small, but it's nice."
+          ],
+          [
+            "原因",
+            "because／since",
+            "I was late because of the rain."
+          ],
+          [
+            "結果",
+            "so",
+            "It was raining, so we stayed home."
+          ],
+          [
+            "條件",
+            "if／unless",
+            "If you have questions, call me."
+          ]
+        ]
+      },
+      "tip": "because 後面接句子（because it rained），because of 後面接名詞（because of the rain）。"
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "The hotel is small but clean.",
+          "zh": "這家飯店小但乾淨。",
+          "highlight": "but",
+          "audio": "assets/audio/lessons/grammar-8/ex1.mp3"
+        },
+        {
+          "en": "I stayed home because I was sick.",
+          "zh": "我因為生病待在家。",
+          "highlight": "because",
+          "audio": "assets/audio/lessons/grammar-8/ex2.mp3"
+        },
+        {
+          "en": "The bus was late, so I took a taxi.",
+          "zh": "公車遲到，所以我搭了計程車。",
+          "highlight": "so",
+          "audio": "assets/audio/lessons/grammar-8/ex3.mp3"
+        },
+        {
+          "en": "Although it was raining, we played tennis.",
+          "zh": "雖然在下雨，我們還是打了網球。",
+          "highlight": "Although",
+          "audio": "assets/audio/lessons/grammar-8/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "The flight was delayed,",
+              "label": "結果的原因"
+            },
+            {
+              "text": "so",
+              "label": "所以"
+            },
+            {
+              "text": "we missed",
+              "label": "結果"
+            },
+            {
+              "text": "the meeting.",
+              "label": "受詞"
+            }
+          ],
+          "zh": "前面是原因，後面是結果，用 so"
+        },
+        {
+          "parts": [
+            {
+              "text": "Although",
+              "label": "雖然"
+            },
+            {
+              "text": "the price is high,",
+              "label": "前句"
+            },
+            {
+              "text": "many people",
+              "label": "主詞"
+            },
+            {
+              "text": "buy it.",
+              "label": "相反的結果"
+            }
+          ],
+          "zh": "前後意思相反，用 although"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "Because it rained, so we stayed home.",
+          "right": "Because it rained, we stayed home.",
+          "why": "中文說「因為…所以…」，英文 because 和 so 只能用一個。"
+        },
+        {
+          "wrong": "I was late because the traffic.",
+          "right": "I was late because of the traffic.",
+          "why": "後面是名詞 the traffic，要用 because of。"
+        },
+        {
+          "wrong": "Although it was cold, but we went out.",
+          "right": "Although it was cold, we went out.",
+          "why": "although 和 but 只能用一個。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出正確答案。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "grammar-8-0a",
+          "group": "grammar-8-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "and",
+            "but",
+            "so",
+            "because"
+          ],
+          "answer": "but",
+          "explanation": "small 和 comfortable 意思相對，用 but。",
+          "sentence": "The room is small ___ comfortable.",
+          "zh": "房間小但舒適。"
+        },
+        {
+          "id": "grammar-8-1a",
+          "group": "grammar-8-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "but",
+            "because",
+            "so",
+            "or"
+          ],
+          "answer": "so",
+          "explanation": "前面是原因，後面是結果，用 so。",
+          "sentence": "He was tired, ___ he went to bed early.",
+          "zh": "他累了，所以早早上床。"
+        },
+        {
+          "id": "grammar-8-2a",
+          "group": "grammar-8-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "so",
+            "because",
+            "but",
+            "although"
+          ],
+          "answer": "because",
+          "explanation": "後面說明原因，用 because。",
+          "sentence": "We canceled the picnic ___ it was raining.",
+          "zh": "因為下雨，我們取消了野餐。"
+        },
+        {
+          "id": "grammar-8-3a",
+          "group": "grammar-8-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "Because",
+            "So",
+            "Although",
+            "If"
+          ],
+          "answer": "Although",
+          "explanation": "前後意思相反，用 Although。",
+          "sentence": "___ the store was busy, the staff stayed calm.",
+          "zh": "雖然店裡很忙，員工依然保持冷靜。"
+        },
+        {
+          "id": "grammar-8-4a",
+          "group": "grammar-8-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "If",
+            "But",
+            "So",
+            "Although"
+          ],
+          "answer": "If",
+          "explanation": "表示條件「如果」，用 If。",
+          "sentence": "___ you need help, please call me.",
+          "zh": "如果需要幫忙，請打給我。"
+        },
+        {
+          "id": "grammar-8-5a",
+          "group": "grammar-8-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "of",
+            "for",
+            "to",
+            "by"
+          ],
+          "answer": "of",
+          "explanation": "the storm 是名詞，because of ＋ 名詞。",
+          "sentence": "The game was canceled because ___ the storm.",
+          "zh": "比賽因為暴風雨而取消。"
+        },
+        {
+          "id": "grammar-8-6a",
+          "group": "grammar-8-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "and",
+            "or",
+            "but",
+            "so"
+          ],
+          "answer": "or",
+          "explanation": "二選一用 or。",
+          "sentence": "You can pay by cash ___ credit card.",
+          "zh": "你可以用現金或信用卡付款。"
+        },
+        {
+          "id": "grammar-8-7a",
+          "group": "grammar-8-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "or",
+            "and",
+            "but",
+            "nor"
+          ],
+          "answer": "and",
+          "explanation": "both A and B：兩者都。",
+          "sentence": "Both the manager ___ the staff agreed.",
+          "zh": "經理和員工都同意了。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "grammar-8-0b",
+          "group": "grammar-8-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "and",
+            "so",
+            "but",
+            "because"
+          ],
+          "answer": "but",
+          "explanation": "舊和好用意思相對，用 but。",
+          "sentence": "The phone is old ___ it works well.",
+          "zh": "這支手機舊但很好用。"
+        },
+        {
+          "id": "grammar-8-1b",
+          "group": "grammar-8-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "so",
+            "but",
+            "because",
+            "or"
+          ],
+          "answer": "so",
+          "explanation": "前因後果，用 so。",
+          "sentence": "It was late, ___ we took a taxi.",
+          "zh": "時間很晚了，所以我們搭了計程車。"
+        },
+        {
+          "id": "grammar-8-2b",
+          "group": "grammar-8-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "so",
+            "because",
+            "but",
+            "or"
+          ],
+          "answer": "because",
+          "explanation": "說明原因，用 because。",
+          "sentence": "She is happy ___ she got a raise.",
+          "zh": "她很開心，因為她加薪了。"
+        },
+        {
+          "id": "grammar-8-3b",
+          "group": "grammar-8-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "Because",
+            "Although",
+            "So",
+            "If"
+          ],
+          "answer": "Although",
+          "explanation": "前後意思相反，用 Although。",
+          "sentence": "___ the test was hard, I passed it.",
+          "zh": "雖然考試很難，我還是通過了。"
+        },
+        {
+          "id": "grammar-8-4b",
+          "group": "grammar-8-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "If",
+            "So",
+            "But",
+            "And"
+          ],
+          "answer": "If",
+          "explanation": "條件用 If。",
+          "sentence": "___ it rains tomorrow, we will stay inside.",
+          "zh": "如果明天下雨，我們會待在室內。"
+        },
+        {
+          "id": "grammar-8-5b",
+          "group": "grammar-8-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "of",
+            "to",
+            "for",
+            "with"
+          ],
+          "answer": "of",
+          "explanation": "because of ＋ 名詞。",
+          "sentence": "We were late because ___ the traffic.",
+          "zh": "我們因為塞車遲到了。"
+        },
+        {
+          "id": "grammar-8-6b",
+          "group": "grammar-8-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "and",
+            "or",
+            "but",
+            "so"
+          ],
+          "answer": "or",
+          "explanation": "二選一用 or。",
+          "sentence": "Would you like tea ___ coffee?",
+          "zh": "你要茶還是咖啡？"
+        },
+        {
+          "id": "grammar-8-7b",
+          "group": "grammar-8-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "and",
+            "or",
+            "nor",
+            "but"
+          ],
+          "answer": "or",
+          "explanation": "either A or B：二選一。",
+          "sentence": "Either Tom ___ Amy will lead the meeting.",
+          "zh": "湯姆或艾咪其中一人會主持會議。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多益 Part 5 的出題方式，挑戰看看。",
+      "questions": [
+        {
+          "id": "grammar-8-x0",
+          "group": "grammar-8-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "Because",
+            "Although",
+            "Unless",
+            "Therefore"
+          ],
+          "answer": "Although",
+          "explanation": "「貴」和「省很多時間（好處）」意思相反，用 Although。",
+          "sentence": "___ the new software is expensive, it will save the company a lot of time.",
+          "zh": "雖然新軟體很貴，但它能為公司省下很多時間。"
+        },
+        {
+          "id": "grammar-8-x1",
+          "group": "grammar-8-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "because",
+            "because of",
+            "so",
+            "although"
+          ],
+          "answer": "because of",
+          "explanation": "the heavy rain 是名詞片語，前面用 because of。",
+          "sentence": "The outdoor event was moved indoors ___ the heavy rain.",
+          "zh": "因為大雨，戶外活動改到室內舉行。"
+        }
+      ]
+    }
+  ]
+}

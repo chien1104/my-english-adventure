@@ -6,6 +6,7 @@ import { seriesProgress, nextUnit, searchWords, topicSeries } from '../bank.js';
 import { wordCardHTML, attachAudioButtons } from '../ui/word-card.js';
 import { escapeHTML } from '../ui/dom.js';
 import { formatTime } from '../storage-status.js';
+import { favoriteIds } from '../favorites.js';
 
 const FILTERS = [['learning', '學習中'], ['familiar', '熟悉']];
 
@@ -47,6 +48,18 @@ export async function render({ outlet, db, query }) {
   const hot = series[0] ? nextUnit(series[0], ctx.records) : null;
   const topics = bank ? Object.entries(bank.topics).map(([id, label]) => topicSeries(id, label, ctx.wordsMap, bank.unitSize)).filter((t) => t.count) : [];
 
+  // 我的生字本：最新收藏的排前面
+  const favWords = favoriteIds().map((id) => ctx.wordsMap.get(id)).filter(Boolean).reverse();
+  const favHTML = () => `
+    <section class="card fav-card" data-testid="fav-card">
+      <h2 class="card__title">⭐ 我的生字本 <span class="muted small" data-testid="fav-count">${favWords.length} 個字</span></h2>
+      ${favWords.length ? `
+        <ul class="word-list" data-testid="fav-list">${favWords.slice(0, 5).map((w) => wordRowHTML(w, ctx.records.get(w.id))).join('')}</ul>
+        ${favWords.length > 5 ? `<button type="button" class="btn btn--ghost btn--block" data-act="fav-more">看全部 ${favWords.length} 個</button>` : ''}
+        <a class="btn btn--primary btn--block" href="#/review?mode=fav" data-testid="fav-practice">練習生字本</a>`
+        : '<p class="muted">在任何單字卡按「☆ 加入生字本」，想加強的字就會收在這裡，可以集中練習。</p>'}
+    </section>`;
+
   outlet.innerHTML = `
     <section class="card">
       <h1 class="page-title">單字</h1>
@@ -67,6 +80,8 @@ export async function render({ outlet, db, query }) {
       : '<p class="muted">從「多益高頻 500」第 1 單元開始，學過的單字會自動排進複習。</p>'}
       ${hot ? `<a class="btn btn--primary btn--block" href="#/unit?id=${hot.id}" data-testid="next-unit">🔥 繼續背：${escapeHTML(hot.series.name)} 第 ${hot.index + 1} 單元</a>` : ''}
     </section>
+
+    ${favHTML()}
 
     <section class="card">
       <label class="field">
@@ -101,6 +116,14 @@ export async function render({ outlet, db, query }) {
       ${FILTERS.map(([k, label]) => `<button type="button" class="chip${k === filter ? ' is-active' : ''}" role="tab" aria-selected="${k === filter}" data-filter="${k}">${label} ${counts[k]}</button>`).join('')}
     </div>
     <ul class="word-list" data-testid="word-list"></ul>` : ''}`;
+
+  const favList = outlet.querySelector('[data-testid="fav-list"]');
+  if (favList) bindWordRows(favList);
+  outlet.querySelector('[data-act="fav-more"]')?.addEventListener('click', (e) => {
+    favList.innerHTML = favWords.map((w) => wordRowHTML(w, ctx.records.get(w.id))).join('');
+    bindWordRows(favList);
+    e.currentTarget.remove();
+  });
 
   const list = outlet.querySelector('[data-testid="word-list"]');
   let limit = 30; // 一次顯示 30 個，太長不好滑

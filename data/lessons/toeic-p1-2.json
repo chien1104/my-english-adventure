@@ -1,0 +1,277 @@
+{
+  "id": "toeic-p1-2",
+  "world": "part1",
+  "order": 2,
+  "type": "toeic-listen",
+  "title": "Part 1 物品的狀態",
+  "titleEn": "Describing Objects",
+  "summary": "照片裡沒有人的時候，聽「東西在哪裡、是什麼狀態」。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "Part 1 常常出現沒有人的照片：倉庫、大廳、茶水間。這時候句子會描述東西的位置和狀態。",
+        "狀態的說法很固定：is open（開著）、is closed（關著）、are stacked（疊起來）、is hanging（掛著）、is empty（空的）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "句子長相",
+          "意思",
+          "照片裡沒有人時"
+        ],
+        "rows": [
+          [
+            "is／are ＋ 形容詞",
+            "狀態：The door is open.",
+            "常常是答案"
+          ],
+          [
+            "has／have been ＋ p.p.",
+            "已經被放好：Cups have been placed on the table.",
+            "常常是答案"
+          ],
+          [
+            "is／are being ＋ p.p.",
+            "正在被做：The table is being cleaned.",
+            "要有人正在做才對，沒有人通常是錯的"
+          ],
+          [
+            "A man／woman is ＋ V-ing",
+            "某人正在做某事",
+            "照片沒有人 → 直接刪掉"
+          ]
+        ]
+      },
+      "tip": "照片裡沒有人，句子卻說 A man is…，第一個刪掉。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "The door is open.",
+          "zh": "門是開著的。",
+          "highlight": "open",
+          "audio": "assets/audio/lessons/toeic-p1-2/ex1.mp3"
+        },
+        {
+          "en": "Some boxes are stacked on the floor.",
+          "zh": "有些箱子疊在地上。",
+          "highlight": "stacked",
+          "audio": "assets/audio/lessons/toeic-p1-2/ex2.mp3"
+        },
+        {
+          "en": "A picture is hanging on the wall.",
+          "zh": "牆上掛著一幅畫。",
+          "highlight": "hanging",
+          "audio": "assets/audio/lessons/toeic-p1-2/ex3.mp3"
+        },
+        {
+          "en": "No one is in the meeting room.",
+          "zh": "會議室裡沒有人。",
+          "highlight": "one",
+          "audio": "assets/audio/lessons/toeic-p1-2/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看照片，再按 ▶ 聽 4 個句子。",
+      "questions": [
+        {
+          "id": "p12-boxes-a",
+          "group": "p12-boxes",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) Some boxes are stacked on the floor.\n逐字稿：(A) Some boxes are stacked on the floor.（有些箱子疊在地上）　(B) The door is closed.（門是關著的）　(C) A man is carrying a box.（一名男子在搬箱子）　(D) The boxes are on a truck.（箱子在卡車上）",
+          "scene": "assets/img/scenes/boxes.svg",
+          "audio": "assets/audio/toeic/p12-boxes-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p12-lobby-a",
+          "group": "p12-lobby",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "C",
+          "explanation": "正確答案 (C) A picture is hanging on the wall.\n逐字稿：(A) A sofa is next to a window.（沙發在窗戶旁邊）　(B) A woman is sitting on the sofa.（一名女子坐在沙發上）　(C) A picture is hanging on the wall.（牆上掛著一幅畫）　(D) The lamp is broken.（檯燈壞了）",
+          "scene": "assets/img/scenes/lobby.svg",
+          "audio": "assets/audio/toeic/p12-lobby-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p12-kitchen-a",
+          "group": "p12-kitchen",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) Some cups are on a shelf.\n逐字稿：(A) The cabinet doors are open.（櫥櫃門是開著的）　(B) Some cups are on a shelf.（架子上有一些杯子）　(C) A woman is making coffee.（一名女子在泡咖啡）　(D) The microwave is on the floor.（微波爐在地上）",
+          "scene": "assets/img/scenes/kitchen.svg",
+          "audio": "assets/audio/toeic/p12-kitchen-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p12-room-a",
+          "group": "p12-room",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "D",
+          "explanation": "正確答案 (D) No one is in the meeting room.\n逐字稿：(A) A man is giving a presentation.（一名男子在做簡報）　(B) The whiteboard is on the floor.（白板在地上）　(C) The cups are being washed.（杯子正在被清洗）　(D) No one is in the meeting room.（會議室裡沒有人）",
+          "scene": "assets/img/scenes/meeting-room.svg",
+          "audio": "assets/audio/toeic/p12-room-a.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p12-boxes-b",
+          "group": "p12-boxes",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "B",
+          "explanation": "正確答案 (B) A door has been left open.\n逐字稿：(A) The cart is full of boxes.（推車上裝滿了箱子）　(B) A door has been left open.（有一扇門開著）　(C) Some boxes are being opened.（有些箱子正在被打開）　(D) The floor is wet.（地板是濕的）",
+          "scene": "assets/img/scenes/boxes.svg",
+          "audio": "assets/audio/toeic/p12-boxes-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p12-lobby-b",
+          "group": "p12-lobby",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "D",
+          "explanation": "正確答案 (D) A lamp is standing next to the sofa.\n逐字稿：(A) A plant is on the sofa.（植物在沙發上）　(B) Some people are waiting in the lobby.（有些人在大廳等待）　(C) The picture is lying on the floor.（畫放倒在地上）　(D) A lamp is standing next to the sofa.（一盞燈立在沙發旁邊）",
+          "scene": "assets/img/scenes/lobby.svg",
+          "audio": "assets/audio/toeic/p12-lobby-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p12-kitchen-b",
+          "group": "p12-kitchen",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) A microwave is on the counter.\n逐字稿：(A) A microwave is on the counter.（微波爐在流理台上）　(B) The shelf is empty.（架子是空的）　(C) Someone is washing the cups.（有人在洗杯子）　(D) A kettle is on the shelf.（水壺在架子上）",
+          "scene": "assets/img/scenes/kitchen.svg",
+          "audio": "assets/audio/toeic/p12-kitchen-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        },
+        {
+          "id": "p12-room-b",
+          "group": "p12-room",
+          "type": "choice",
+          "prompt": "看照片，聽 4 個句子，選出最符合照片的描述",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": "A",
+          "explanation": "正確答案 (A) Some cups have been placed on the table.\n逐字稿：(A) Some cups have been placed on the table.（桌上已經放了一些杯子）　(B) The chairs are being moved.（椅子正在被搬動）　(C) People are drinking coffee.（大家在喝咖啡）　(D) There is nothing on the table.（桌上什麼都沒有）",
+          "scene": "assets/img/scenes/meeting-room.svg",
+          "audio": "assets/audio/toeic/p12-room-b.mp3",
+          "audioLabel": "▶ 播放 4 個句子"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p12-x1",
+          "group": "p12-x1",
+          "type": "choice",
+          "prompt": "stacked 是什麼意思？",
+          "options": [
+            "疊起來的",
+            "壞掉的",
+            "被搬走的"
+          ],
+          "answer": "疊起來的",
+          "explanation": "be stacked：疊放著。Part 1 很常考。",
+          "promptSay": {
+            "text": "stacked",
+            "audio": "assets/audio/prompts/stacked.mp3"
+          }
+        },
+        {
+          "id": "p12-x2",
+          "group": "p12-x2",
+          "type": "choice",
+          "prompt": "The door has been left open. 是什麼意思？",
+          "options": [
+            "門被打開著（維持開著的狀態）",
+            "門正在被打開",
+            "門被鎖上了"
+          ],
+          "answer": "門被打開著（維持開著的狀態）",
+          "explanation": "has been left open：被留著開著，描述現在的狀態。正在被打開是 is being opened。",
+          "promptSay": {
+            "text": "The door has been left open.",
+            "audio": "assets/audio/prompts/the-door-has-been-left-open.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

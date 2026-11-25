@@ -15,14 +15,29 @@ test('單字庫：單元課程有認字、測驗、答案解析，題目答案�
   const ex = expandLesson(l);
   assert.equal(ex.steps.filter((s) => s.kind === 'word').length, 4);
   const practice = ex.steps.filter((s) => s.kind === 'practice');
-  assert.equal(practice.length, 2);
+  assert.equal(practice.length, 3, '認字測驗上、下＋活用練習');
+  const kinds = new Set();
   for (const st of practice) for (const q of [...st.questions, ...st.similar]) {
-    assert.equal(q.options.filter((o) => o === q.answer).length, 1, q.id);
-    assert.equal(new Set(q.options).size, q.options.length, q.id);
+    kinds.add(q.kind || 'basic');
+    if (q.type === 'choice') {
+      assert.equal(q.options.filter((o) => o === q.answer).length, 1, q.id);
+      assert.equal(new Set(q.options).size, q.options.length, q.id);
+    }
+    if (q.kind === 'cloze') assert.ok(q.sentence.includes('___') && !q.sentence.toLowerCase().includes(q.answer.toLowerCase() + ' '), q.id);
+    if (q.kind === 'listen' || q.kind === 'spell') assert.ok(q.audio, `${q.id} 要有音檔`);
     assert.ok(isCorrect(q, q.answer));
     assert.ok(wordsMap.has(q.wordId));
   }
+  assert.ok(kinds.has('listen') && kinds.has('cloze') && kinds.has('spell'), [...kinds].join(','));
   assert.equal(ex.steps[ex.steps.length - 1].kind, 'review');
+});
+
+test('單字庫：沒有音檔的字（單檔版）不出聽力和拼字題', () => {
+  const noAudio = new Map([...wordsMap].map(([k, w]) => [k, { ...w, audio: undefined }]));
+  const l = expandLesson(buildUnitLesson(series, 0, noAudio));
+  for (const st of l.steps.filter((s) => s.kind === 'practice')) {
+    for (const q of [...st.questions, ...st.similar]) assert.ok(!q.audio && q.kind !== 'spell' && q.kind !== 'listen', q.id);
+  }
 });
 
 test('單字庫：同一個單元每次產生的題目順序一樣（暫停後繼續不會亂）', () => {

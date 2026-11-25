@@ -31,13 +31,15 @@ def kind(p):
 def cont(p): p.click('[data-role=feedback] [data-act="continue"]'); p.wait_for_timeout(40)
 def answer(p):
     qid = p.get_attribute('.q', 'data-qid'); q = Q.get(qid)
-    if q is None:  # 複習題
-        opts = p.locator('.opt').all_inner_texts()
-        if p.locator('.q__sentence').count():
-            w = WORDS[p.inner_text('.q__sentence').replace('🔊', '').strip()]; ans = w['zh']
+    if q is None:  # 複習題：題型會輪流（中文、聽音、例句填空、拼字、看圖）
+        wid = qid[3:]
+        w = next(x for x in WORDS.values() if x['id'] == wid)
+        if p.locator('.q__type input').count():
+            p.fill('.q__type input', w['en']); p.click('.q__type button[type=submit]')
         else:
-            ans = BY_IMG[p.get_attribute('.q .q__img', 'src')]['en']
-        p.click(f'[data-opt="{opts.index(ans)}"]')
+            opts = [o.strip().lower() for o in p.locator('.opt').all_inner_texts()]
+            i = opts.index(w['en'].lower()) if w['en'].lower() in opts else opts.index(w['zh'].lower())
+            p.click(f'[data-opt="{i}"]')
     elif q['type'] == 'choice':
         opts = p.locator('.opt').all_inner_texts(); p.click(f'[data-opt="{opts.index(q["answer"])}"]')
     elif q['type'] == 'type':
@@ -186,7 +188,7 @@ try:
         path = dl.value.path(); name = dl.value.suggested_filename
         bk = json.load(open(path))
         check('匯出備份檔檔名與格式', re.match(r'my-english-adventure-backup-\d{8}-\d{4}\.json', name) and bk['app'] == 'my-english-adventure', name)
-        check('備份包含所有學習資料表', all(k in bk['data'] for k in ['profile', 'progress', 'attempts', 'reviews', 'expLog', 'achievements', 'sessions']))
+        check('備份包含所有學習資料表', all(k in bk['data'] for k in ['profile', 'progress', 'attempts', 'reviews', 'expLog', 'achievements', 'sessions', 'favorites']))
         check('備份不包含教材（可重新下載）', 'vocab' not in bk['data'] and 'lessons' not in bk['data'])
         page.wait_for_timeout(300)
         check('匯出後保存狀態顯示備份時間', '上次匯出' in page.inner_text('[data-testid=status-list]'))
@@ -281,7 +283,7 @@ try:
             page.goto(BASE + path); page.wait_for_timeout(400)
             sw_ = page.evaluate('document.documentElement.scrollWidth')
             check(f'375px 無水平捲動 {path}', sw_ <= 375, str(sw_))
-            orphan = page.evaluate("""[...document.querySelectorAll('#app button')].filter(b => !b.hidden && !b.closest('[hidden]') && !(b.type === 'submit' || b.dataset.play || b.dataset.act || b.dataset.mode || b.dataset.opt !== undefined || b.dataset.filter || b.dataset.col !== undefined)).map(b => b.outerHTML.slice(0, 80))""")
+            orphan = page.evaluate("""[...document.querySelectorAll('#app button')].filter(b => !b.hidden && !b.closest('[hidden]') && !(b.type === 'submit' || b.dataset.play || b.dataset.fav || b.dataset.rate || b.dataset.act || b.dataset.mode || b.dataset.opt !== undefined || b.dataset.filter || b.dataset.col !== undefined)).map(b => b.outerHTML.slice(0, 80))""")
             check(f'{path} 沒有無作用按鈕', not orphan, str(orphan))
         page.goto(BASE + '#/settings'); page.wait_for_timeout(400)
         page.screenshot(path=f'{OUT}/p5-03-settings.png', full_page=True)

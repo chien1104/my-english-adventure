@@ -1,0 +1,292 @@
+{
+  "id": "toeic-p2-5",
+  "world": "part2",
+  "order": 5,
+  "type": "toeic-listen",
+  "title": "Part 2 否定疑問、附加問句與提議",
+  "titleEn": "Negative & Tag Questions",
+  "summary": "Didn't you…? …, aren't you? Why don't we…? 這些句子怎麼回答。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "否定疑問句（Didn't you…?）和附加問句（…, isn't it?）都是在確認事情，回答時看事實：是就說 Yes，不是就說 No。",
+        "Why don't we…? 不是問原因，而是「我們何不…？」的提議，用 Because 回答是陷阱。",
+        "Could you…? Would you mind…? 是請求；Shall I…? Do you want me to…? 是主動幫忙。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "句子",
+          "真正的意思",
+          "好的回答"
+        ],
+        "rows": [
+          [
+            "Didn't you receive my email?",
+            "你沒收到我的信嗎？",
+            "Yes, I'm reading it now."
+          ],
+          [
+            "You're coming, aren't you?",
+            "你會來，對吧？",
+            "Yes, I'll be there."
+          ],
+          [
+            "Why don't we take a break?",
+            "我們休息一下吧？",
+            "That's a good idea."
+          ],
+          [
+            "Would you mind closing the window?",
+            "你介意關窗嗎？",
+            "Not at all.（不介意，我來關）"
+          ]
+        ]
+      },
+      "tip": "Would you mind…? 回答 Not at all 或 No, not at all，表示「不介意，可以」。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Didn't you receive my email?",
+          "zh": "你沒收到我的電子郵件嗎？",
+          "highlight": "receive",
+          "audio": "assets/audio/lessons/toeic-p2-5/ex1.mp3"
+        },
+        {
+          "en": "Why don't we take a break?",
+          "zh": "我們休息一下吧？",
+          "highlight": "break",
+          "audio": "assets/audio/lessons/toeic-p2-5/ex2.mp3"
+        },
+        {
+          "en": "Would you mind closing the window?",
+          "zh": "你介意把窗戶關起來嗎？",
+          "highlight": "mind",
+          "audio": "assets/audio/lessons/toeic-p2-5/ex3.mp3"
+        },
+        {
+          "en": "Shall I book a hotel for you?",
+          "zh": "要我幫你訂飯店嗎？",
+          "highlight": "Shall",
+          "audio": "assets/audio/lessons/toeic-p2-5/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "按 ▶ 聽問題和 3 個回答。考試時不會印出文字。",
+      "questions": [
+        {
+          "id": "p25-neg-a",
+          "group": "p25-neg",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "有收到就說 Yes。(C) 主詞 she 不對。\n逐字稿：Didn't you receive my email?（你沒收到我的電子郵件嗎？）　(A) Yes, I'm reading it now.（有，我正在看）　(B) I'll mail the letter.（我會寄那封信）　(C) No, she didn't.（不，她沒有）",
+          "audio": "assets/audio/toeic/p25-neg-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p25-tag-a",
+          "group": "p25-tag",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "附加問句在確認，回答「會到」。\n逐字稿：You're coming to the meeting, aren't you?（你會來開會，對吧？）　(A) Yes, I'll be there.（會，我會到）　(B) It's in Room B.（在 B 會議室）　(C) No, he isn't.（不，他不是）",
+          "audio": "assets/audio/toeic/p25-tag-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p25-why-a",
+          "group": "p25-why",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "Why don't we 是提議，不是問原因，所以 (A) Because 是陷阱。(C) broken 和 break 很像。\n逐字稿：Why don't we take a break?（我們休息一下吧？）　(A) Because I'm busy.（因為我很忙）　(B) That's a good idea.（好主意）　(C) It's broken.（它壞了）",
+          "audio": "assets/audio/toeic/p25-why-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p25-req-a",
+          "group": "p25-req",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "答應請求，再問要搬去哪。\n逐字稿：Could you help me carry these boxes?（可以幫我搬這些箱子嗎？）　(A) Sure, where do they go?（當然，要搬到哪裡？）　(B) Yes, they're boxes.（是的，它們是箱子）　(C) I carried it.（我搬了它）",
+          "audio": "assets/audio/toeic/p25-req-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p25-offer-a",
+          "group": "p25-offer",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "對方主動幫忙，回答「那太好了」。(B) book 是書，是陷阱。\n逐字稿：Shall I book a hotel for you?（要我幫你訂飯店嗎？）　(A) Yes, that would be great.（好，那太好了）　(B) I read that book.（我讀過那本書）　(C) At the hotel.（在飯店）",
+          "audio": "assets/audio/toeic/p25-offer-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p25-neg-b",
+          "group": "p25-neg",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "沒開就說 No，再說明原因。\n逐字稿：Isn't the restaurant open today?（那家餐廳今天沒開嗎？）　(A) No, it's closed on Mondays.（沒開，它星期一公休）　(B) I'd like to order.（我想點餐）　(C) Yes, they did.（是的，他們做了）",
+          "audio": "assets/audio/toeic/p25-neg-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p25-tag-b",
+          "group": "p25-tag",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "不是今天，就回答 No 再說正確的時間。\n逐字稿：The report is due today, isn't it?（報告今天要交，對吧？）　(A) No, it's due tomorrow.（不是，明天才要交）　(B) I read the report.（我讀了報告）　(C) Yes, he did.（是的，他做了）",
+          "audio": "assets/audio/toeic/p25-tag-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p25-why-b",
+          "group": "p25-why",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "Why don't you 是建議，接受建議最自然。\n逐字稿：Why don't you ask Mr. Tanaka for help?（你何不請田中先生幫忙？）　(A) Because he helped me.（因為他幫過我）　(B) OK, I'll call him now.（好，我現在就打給他）　(C) Yes, he is.（是的，他是）",
+          "audio": "assets/audio/toeic/p25-why-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p25-req-b",
+          "group": "p25-req",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Would you mind…? 回答 Not at all 表示「不介意，我來做」。\n逐字稿：Would you mind closing the window?（你介意把窗戶關起來嗎？）　(A) Not at all.（一點也不介意）　(B) It's a nice view.（風景很好）　(C) Yes, it's closed.（是的，它關了）",
+          "audio": "assets/audio/toeic/p25-req-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p25-offer-b",
+          "group": "p25-offer",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "接受幫忙並說出份數。(B) coffee 和 copies 音很像，是陷阱。\n逐字稿：Do you want me to make copies of the handout?（要我幫你影印講義嗎？）　(A) Yes, twenty copies, please.（好，請印二十份）　(B) Coffee, please.（請給我咖啡）　(C) He made it.（是他做的）",
+          "audio": "assets/audio/toeic/p25-offer-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p25-x1",
+          "group": "p25-x1",
+          "type": "choice",
+          "prompt": "Why don't we have lunch together? 的意思是？",
+          "options": [
+            "我們一起吃午餐吧？",
+            "我們為什麼不一起吃午餐？（問原因）",
+            "我們沒有一起吃午餐"
+          ],
+          "answer": "我們一起吃午餐吧？",
+          "explanation": "Why don't we…? 是提議，不是問原因。",
+          "promptSay": {
+            "text": "Why don't we have lunch together",
+            "audio": "assets/audio/prompts/why-dont-we-have-lunch-together.mp3"
+          }
+        },
+        {
+          "id": "p25-x2",
+          "group": "p25-x2",
+          "type": "choice",
+          "prompt": "Would you mind opening the door? 想答應的話要說？",
+          "options": [
+            "Not at all.",
+            "Yes, I mind.",
+            "No, I can't."
+          ],
+          "answer": "Not at all.",
+          "explanation": "mind 是介意，Not at all 是「一點也不介意」，表示願意。",
+          "promptSay": {
+            "text": "Would you mind opening the door",
+            "audio": "assets/audio/prompts/would-you-mind-opening-the-door.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

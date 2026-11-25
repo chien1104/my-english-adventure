@@ -1,0 +1,470 @@
+{
+  "id": "grammar-7",
+  "world": "grammar",
+  "order": 7,
+  "type": "grammar",
+  "title": "介系詞：時間與地點",
+  "titleEn": "Prepositions",
+  "summary": "in、on、at、by、until、for、during 一次搞懂。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "中文說「在」，英文要依情況選 in、on 或 at。",
+        "時間：範圍越大用 in，越小用 at，日期和星期用 on。地點也是一樣的道理。",
+        "多益還常考 by（在…之前完成）和 until（一直持續到…）、for（多久）和 during（在…期間）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "先記住大中小："
+      ],
+      "table": {
+        "head": [
+          "介系詞",
+          "時間",
+          "地點"
+        ],
+        "rows": [
+          [
+            "in（大範圍）",
+            "in May、in 2025、in the morning",
+            "in Taipei、in the room"
+          ],
+          [
+            "on（某一天）",
+            "on Monday、on May 5",
+            "on the desk、on the second floor"
+          ],
+          [
+            "at（一個點）",
+            "at 9 a.m.、at noon",
+            "at the airport、at the front desk"
+          ],
+          [
+            "by／until",
+            "by Friday（之前完成）／until 5 p.m.（一直到）",
+            ""
+          ],
+          [
+            "for／during",
+            "for two hours（多久）／during the meeting（期間）",
+            ""
+          ]
+        ]
+      },
+      "tip": "口訣：月年用 in，星期日期用 on，幾點鐘用 at。"
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "The meeting is on Monday.",
+          "zh": "會議在星期一。",
+          "highlight": "on",
+          "audio": "assets/audio/lessons/grammar-7/ex1.mp3"
+        },
+        {
+          "en": "The store opens at nine.",
+          "zh": "這家店九點開門。",
+          "highlight": "at",
+          "audio": "assets/audio/lessons/grammar-7/ex2.mp3"
+        },
+        {
+          "en": "Please submit the form by Friday.",
+          "zh": "請在星期五前交表格。",
+          "highlight": "by",
+          "audio": "assets/audio/lessons/grammar-7/ex3.mp3"
+        },
+        {
+          "en": "No phones during the presentation.",
+          "zh": "簡報期間請勿使用手機。",
+          "highlight": "during",
+          "audio": "assets/audio/lessons/grammar-7/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "The conference",
+              "label": "主詞"
+            },
+            {
+              "text": "is",
+              "label": "是"
+            },
+            {
+              "text": "in",
+              "label": "大範圍"
+            },
+            {
+              "text": "June.",
+              "label": "月份"
+            }
+          ],
+          "zh": "月份用 in"
+        },
+        {
+          "parts": [
+            {
+              "text": "Please",
+              "label": "請"
+            },
+            {
+              "text": "wait",
+              "label": "等"
+            },
+            {
+              "text": "until",
+              "label": "一直到"
+            },
+            {
+              "text": "5 p.m.",
+              "label": "時間點"
+            }
+          ],
+          "zh": "until 表示一直持續到那個時間"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "The meeting is in Monday.",
+          "right": "The meeting is on Monday.",
+          "why": "星期幾用 on。"
+        },
+        {
+          "wrong": "I will finish it until Friday.",
+          "right": "I will finish it by Friday.",
+          "why": "「在…之前完成」用 by；until 是一直持續到。"
+        },
+        {
+          "wrong": "He worked here during five years.",
+          "right": "He worked here for five years.",
+          "why": "說「多久」用 for；during 後面接一段事件，例如 during the meeting。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出正確答案。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "grammar-7-0a",
+          "group": "grammar-7-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "by"
+          ],
+          "answer": "on",
+          "explanation": "星期幾用 on。",
+          "sentence": "The museum is closed ___ Mondays.",
+          "zh": "博物館星期一休館。"
+        },
+        {
+          "id": "grammar-7-1a",
+          "group": "grammar-7-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "during"
+          ],
+          "answer": "at",
+          "explanation": "幾點鐘用 at。",
+          "sentence": "The train leaves ___ 7:30.",
+          "zh": "火車七點半出發。"
+        },
+        {
+          "id": "grammar-7-2a",
+          "group": "grammar-7-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "by"
+          ],
+          "answer": "in",
+          "explanation": "年份用 in。",
+          "sentence": "Our office moved ___ 2022.",
+          "zh": "我們的辦公室在 2022 年搬家。"
+        },
+        {
+          "id": "grammar-7-3a",
+          "group": "grammar-7-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "until",
+            "by",
+            "during",
+            "for"
+          ],
+          "answer": "by",
+          "explanation": "「在…之前完成」用 by。",
+          "sentence": "Please return the book ___ next Tuesday.",
+          "zh": "請在下週二前還書。"
+        },
+        {
+          "id": "grammar-7-4a",
+          "group": "grammar-7-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "by",
+            "until",
+            "during",
+            "in"
+          ],
+          "answer": "until",
+          "explanation": "一直營業到十點，用 until。",
+          "sentence": "The store is open ___ 10 p.m.",
+          "zh": "這家店營業到晚上十點。"
+        },
+        {
+          "id": "grammar-7-5a",
+          "group": "grammar-7-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "during",
+            "for",
+            "in",
+            "on"
+          ],
+          "answer": "for",
+          "explanation": "說「多久」用 for。",
+          "sentence": "She has worked here ___ three years.",
+          "zh": "她在這裡工作三年了。"
+        },
+        {
+          "id": "grammar-7-6a",
+          "group": "grammar-7-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "for",
+            "during",
+            "by",
+            "at"
+          ],
+          "answer": "during",
+          "explanation": "during ＋ 事件（the movie）：在那段期間。",
+          "sentence": "Please turn off your phone ___ the movie.",
+          "zh": "電影播放期間請關手機。"
+        },
+        {
+          "id": "grammar-7-7a",
+          "group": "grammar-7-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "for"
+          ],
+          "answer": "at",
+          "explanation": "一個明確的地點（機場）用 at。",
+          "sentence": "Let's meet ___ the airport.",
+          "zh": "我們在機場碰面吧。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "grammar-7-0b",
+          "group": "grammar-7-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "for"
+          ],
+          "answer": "on",
+          "explanation": "星期幾用 on。",
+          "sentence": "The party is ___ Saturday.",
+          "zh": "派對在星期六。"
+        },
+        {
+          "id": "grammar-7-1b",
+          "group": "grammar-7-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "by"
+          ],
+          "answer": "at",
+          "explanation": "noon（中午）是一個時間點，用 at。",
+          "sentence": "Lunch starts ___ noon.",
+          "zh": "午餐從中午開始。"
+        },
+        {
+          "id": "grammar-7-2b",
+          "group": "grammar-7-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "by"
+          ],
+          "answer": "in",
+          "explanation": "月份用 in。",
+          "sentence": "I was born ___ March.",
+          "zh": "我在三月出生。"
+        },
+        {
+          "id": "grammar-7-3b",
+          "group": "grammar-7-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "until",
+            "by",
+            "for",
+            "during"
+          ],
+          "answer": "by",
+          "explanation": "截止期限用 by。",
+          "sentence": "The report must be done ___ 5 p.m. today.",
+          "zh": "報告必須在今天下午五點前完成。"
+        },
+        {
+          "id": "grammar-7-4b",
+          "group": "grammar-7-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "by",
+            "until",
+            "during",
+            "at"
+          ],
+          "answer": "until",
+          "explanation": "一直待到星期天，用 until。",
+          "sentence": "We will stay in Tokyo ___ Sunday.",
+          "zh": "我們會在東京待到星期天。"
+        },
+        {
+          "id": "grammar-7-5b",
+          "group": "grammar-7-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "during",
+            "for",
+            "in",
+            "at"
+          ],
+          "answer": "for",
+          "explanation": "延誤多久，用 for。",
+          "sentence": "The flight was delayed ___ two hours.",
+          "zh": "班機延誤了兩個小時。"
+        },
+        {
+          "id": "grammar-7-6b",
+          "group": "grammar-7-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "for",
+            "during",
+            "by",
+            "until"
+          ],
+          "answer": "during",
+          "explanation": "during ＋ 事件（the lecture）。",
+          "sentence": "He fell asleep ___ the lecture.",
+          "zh": "他在講課期間睡著了。"
+        },
+        {
+          "id": "grammar-7-7b",
+          "group": "grammar-7-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "for"
+          ],
+          "answer": "at",
+          "explanation": "明確的地點（櫃檯）用 at。",
+          "sentence": "Please check in ___ the front desk.",
+          "zh": "請到櫃檯辦理登記。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多益 Part 5 的出題方式，挑戰看看。",
+      "questions": [
+        {
+          "id": "grammar-7-x0",
+          "group": "grammar-7-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "by",
+            "until",
+            "during",
+            "since"
+          ],
+          "answer": "by",
+          "explanation": "在某個期限之前完成，用 by。",
+          "sentence": "All travel expense reports must be submitted ___ the end of the month.",
+          "zh": "所有差旅費報告必須在月底前提交。"
+        },
+        {
+          "id": "grammar-7-x1",
+          "group": "grammar-7-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "for",
+            "during",
+            "while",
+            "until"
+          ],
+          "answer": "during",
+          "explanation": "the renovation 是一段事件（名詞），用 during；while 後面要接句子。",
+          "sentence": "The parking garage will be closed ___ the renovation.",
+          "zh": "整修期間停車場將會關閉。"
+        }
+      ]
+    }
+  ]
+}

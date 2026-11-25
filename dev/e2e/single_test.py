@@ -23,7 +23,7 @@ with sync_playwright() as p:
     check('單檔版在完全離線、直接開檔案（file://）下可以開啟', pg.is_visible('.hero__title'))
     check('首頁 Lv 1、0 EXP', pg.inner_text('[data-testid=level]') == 'Lv 1' and pg.inner_text('[data-testid=exp]') == '0 EXP')
     pg.goto(URL + '#/worlds'); pg.wait_for_selector('[data-testid=world-list]')
-    check('八大世界都在', pg.locator('.world').count() == 8)
+    check('十一個世界都在', pg.locator('.world').count() == 11, pg.locator('.world').count())
     pg.goto(URL + '#/diagnosis'); pg.click('[data-act=start]')
     while pg.locator('[data-testid=diagnosis-run]').count(): pg.click('[data-act=skip]'); pg.wait_for_timeout(10)
     pg.wait_for_selector('[data-testid=diagnosis-result]')

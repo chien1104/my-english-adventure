@@ -3,11 +3,11 @@ import { openDB, deleteDB, MIGRATIONS } from '../js/db.js';
 
 const uniq = () => `mea-test-${Date.now()}-${Math.random().toString(36).slice(2)}`;
 
-test('資料庫 v2 建立全部資料表', async () => {
+test('資料庫 v3 建立全部資料表', async () => {
   const name = uniq();
   const db = await openDB({ name });
   const stores = db.storeNames().sort();
-  assert.deepEqual(stores, ['achievements', 'attempts', 'expLog', 'lessons', 'meta', 'profile', 'progress', 'reviews', 'sessions', 'vocab']);
+  assert.deepEqual(stores, ['achievements', 'attempts', 'expLog', 'favorites', 'lessons', 'meta', 'profile', 'progress', 'reviews', 'sessions', 'vocab']);
   db.close();
   await deleteDB(name);
 });
@@ -76,15 +76,15 @@ test('缺少遷移時取消升級，舊資料不受影響', async () => {
   await deleteDB(name);
 });
 
-test('P1～P3 的 v1 資料庫升級到 v2：舊資料保留並新增表', async () => {
+test('P1～P3 的 v1 資料庫升級到最新版：舊資料保留並新增表', async () => {
   const name = uniq();
   let db = await openDB({ name, version: 1 });
   await db.put('reviews', { wordId: 'apple', status: 'learning' });
   await db.put('progress', { id: 'lesson:vocab-1', timesCompleted: 1 });
   db.close();
   db = await openDB({ name });
-  assert.equal(db.version, 2);
-  assert.ok(db.storeNames().includes('expLog') && db.storeNames().includes('sessions'));
+  assert.equal(db.version, 3);
+  assert.ok(db.storeNames().includes('expLog') && db.storeNames().includes('sessions') && db.storeNames().includes('favorites'));
   assert.equal((await db.get('reviews', 'apple')).status, 'learning');
   assert.equal((await db.get('progress', 'lesson:vocab-1')).timesCompleted, 1);
   db.close(); await deleteDB(name);

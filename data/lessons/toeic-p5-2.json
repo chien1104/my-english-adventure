@@ -1,0 +1,336 @@
+{
+  "id": "toeic-p5-2",
+  "world": "part5",
+  "order": 2,
+  "type": "toeic",
+  "title": "Part 5 動詞題",
+  "titleEn": "Verb Forms",
+  "summary": "時態、主動被動、單複數：動詞題一次搞定。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "Part 5 常常四個選項都是同一個動詞的不同形態，例如 open、opened、will open、has opened。",
+        "解題三步驟：① 找時間字決定時態 ② 主詞是單數還是複數 ③ 主詞是「自己做」還是「被做」。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "線索",
+          "用什麼",
+          "例子"
+        ],
+        "rows": [
+          [
+            "next month、tomorrow",
+            "未來式 will ＋ V",
+            "will open"
+          ],
+          [
+            "yesterday、ago、last…",
+            "過去式",
+            "submitted"
+          ],
+          [
+            "since 2018、for five years",
+            "現在完成式 have／has ＋ p.p.",
+            "has worked"
+          ],
+          [
+            "each、every ＋ 單數名詞",
+            "單數動詞",
+            "Each employee receives…"
+          ],
+          [
+            "主詞是被做的",
+            "被動 be ＋ p.p.",
+            "Orders are shipped."
+          ]
+        ]
+      },
+      "tip": "since ＋ 時間點（since 2018）、for ＋ 一段時間（for five years），都是現在完成式的好朋友。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "The new branch will open next month.",
+          "zh": "新分店下個月開幕。",
+          "highlight": "will",
+          "audio": "assets/audio/lessons/toeic-p5-2/ex1.mp3"
+        },
+        {
+          "en": "All orders are shipped within two business days.",
+          "zh": "所有訂單都在兩個工作天內出貨。",
+          "highlight": "shipped",
+          "audio": "assets/audio/lessons/toeic-p5-2/ex2.mp3"
+        },
+        {
+          "en": "Ms. Tanaka has worked here since 2018.",
+          "zh": "田中小姐從 2018 年就在這裡工作。",
+          "highlight": "has",
+          "audio": "assets/audio/lessons/toeic-p5-2/ex3.mp3"
+        },
+        {
+          "en": "Each employee receives a parking card.",
+          "zh": "每位員工都會拿到一張停車卡。",
+          "highlight": "receives",
+          "audio": "assets/audio/lessons/toeic-p5-2/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再作答。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "p52-0a",
+          "group": "p52-0",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "open",
+            "opened",
+            "will open",
+            "has opened"
+          ],
+          "answer": "will open",
+          "explanation": "next month 是未來，用 will open。",
+          "sentence": "The new branch ___ next month.",
+          "zh": "新分店下個月開幕。"
+        },
+        {
+          "id": "p52-1a",
+          "group": "p52-1",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "ship",
+            "are shipped",
+            "shipping",
+            "to ship"
+          ],
+          "answer": "are shipped",
+          "explanation": "訂單是「被寄出」，用被動 are shipped。",
+          "sentence": "All orders ___ within two business days.",
+          "zh": "所有訂單都在兩個工作天內出貨。"
+        },
+        {
+          "id": "p52-2a",
+          "group": "p52-2",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "works",
+            "worked",
+            "has worked",
+            "will work"
+          ],
+          "answer": "has worked",
+          "explanation": "since 2018 表示從過去持續到現在，用現在完成式 has worked。",
+          "sentence": "Ms. Tanaka ___ for this company since 2018.",
+          "zh": "田中小姐從 2018 年起就在這家公司工作。"
+        },
+        {
+          "id": "p52-3a",
+          "group": "p52-3",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "receive",
+            "receives",
+            "receiving",
+            "have received"
+          ],
+          "answer": "receives",
+          "explanation": "each ＋ 單數名詞，動詞用單數 receives。",
+          "sentence": "Each employee ___ a parking card.",
+          "zh": "每位員工都會拿到一張停車卡。"
+        },
+        {
+          "id": "p52-4a",
+          "group": "p52-4",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "canceled",
+            "was canceled",
+            "cancels",
+            "is canceling"
+          ],
+          "answer": "was canceled",
+          "explanation": "會議是「被取消」，而且是過去的事，用 was canceled。",
+          "sentence": "The meeting ___ because the manager was sick.",
+          "zh": "因為經理生病，會議被取消了。"
+        },
+        {
+          "id": "p52-5a",
+          "group": "p52-5",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "submit",
+            "submits",
+            "submitted",
+            "will submit"
+          ],
+          "answer": "submitted",
+          "explanation": "yesterday 是過去，用 submitted。",
+          "sentence": "Mr. Brown ___ the report yesterday.",
+          "zh": "布朗先生昨天交了報告。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p52-0b",
+          "group": "p52-0",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "have",
+            "had",
+            "will have",
+            "has had"
+          ],
+          "answer": "will have",
+          "explanation": "next week 是未來，用 will have。",
+          "sentence": "The store ___ a big sale next week.",
+          "zh": "這家店下週有大特價。"
+        },
+        {
+          "id": "p52-1b",
+          "group": "p52-1",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "serves",
+            "is served",
+            "serving",
+            "to serve"
+          ],
+          "answer": "is served",
+          "explanation": "早餐是「被供應」，用 is served。",
+          "sentence": "Breakfast ___ in the lobby every morning.",
+          "zh": "早餐每天早上在大廳供應。"
+        },
+        {
+          "id": "p52-2b",
+          "group": "p52-2",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "live",
+            "lived",
+            "have lived",
+            "will live"
+          ],
+          "answer": "have lived",
+          "explanation": "since last year，用現在完成式 have lived。",
+          "sentence": "We ___ here since last year.",
+          "zh": "我們從去年就住在這裡。"
+        },
+        {
+          "id": "p52-3b",
+          "group": "p52-3",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "have",
+            "has",
+            "having",
+            "are having"
+          ],
+          "answer": "has",
+          "explanation": "every ＋ 單數名詞，動詞用單數 has。",
+          "sentence": "Every room ___ free Wi-Fi.",
+          "zh": "每間房間都有免費 Wi-Fi。"
+        },
+        {
+          "id": "p52-4b",
+          "group": "p52-4",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "delayed",
+            "was delayed",
+            "delays",
+            "is delaying"
+          ],
+          "answer": "was delayed",
+          "explanation": "班機是「被延誤」，用 was delayed。",
+          "sentence": "The flight ___ because of the snow.",
+          "zh": "班機因為下雪而延誤。"
+        },
+        {
+          "id": "p52-5b",
+          "group": "p52-5",
+          "type": "choice",
+          "prompt": "選出最適合填入空格的答案",
+          "options": [
+            "call",
+            "calls",
+            "called",
+            "will call"
+          ],
+          "answer": "called",
+          "explanation": "two days ago 是過去，用 called。",
+          "sentence": "I ___ the client two days ago.",
+          "zh": "我兩天前打電話給客戶。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p52-x0",
+          "group": "p52-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "announced",
+            "will be announced",
+            "announcing",
+            "have announced"
+          ],
+          "answer": "will be announced",
+          "explanation": "成績是「被公布」，而且是下週（未來），用 will be announced。",
+          "sentence": "The quarterly results ___ at next week's board meeting.",
+          "zh": "季度成績將在下週的董事會上公布。"
+        },
+        {
+          "id": "p52-x1",
+          "group": "p52-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "opens",
+            "has opened",
+            "will open",
+            "opening"
+          ],
+          "answer": "has opened",
+          "explanation": "over the past five years（過去五年到現在），用現在完成式 has opened。",
+          "sentence": "Over the past five years, the company ___ three new factories.",
+          "zh": "過去五年來，公司開了三間新工廠。"
+        }
+      ]
+    }
+  ]
+}

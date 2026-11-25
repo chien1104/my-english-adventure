@@ -45,15 +45,19 @@ python3 dev/build_single.py . out/my-english-adventure.html   # 產生單檔版�
 
 ## 音檔
 
-- 約 8,400 個 MP3 在 `assets/audio/`，由開源 Kokoro TTS（kokoro-onnx，模型從 GitHub releases 下載；有 `kokoro-v1.0.onnx` 就用它，比 int8 版快 2.6 倍）離線產生。單字庫音檔 32 kbps。
+- 約 8,900 個 MP3 在 `assets/audio/`，由開源 Kokoro TTS（kokoro-onnx，模型從 GitHub releases 下載；有 `kokoro-v1.0.onnx` 就用它，比 int8 版快 2.6 倍）離線產生。單字庫音檔 32 kbps。
 - `dev/gen_audio.py` 會產生並驗證：句子用 sherpa-onnx Whisper base.en 比對，單字比對音素與課本音標。腳本裡模型路徑寫死為 `/home/claude/tts`，換環境要調整。
 - 題目文字裡的英文（例如「repairs 是什麼意思？」）旁邊有 🔊：`dev/add_prompt_audio.py` 幫每題加 `promptSay`，音檔放 `assets/audio/prompts/`（有單字音檔就沿用）；人名不加。`build_content.py` 最後會自動呼叫它。
 - 稱謂 Ms./Mr. 在 TTS 時會換成 Miz/Mister（畫面仍顯示縮寫）。
 
-## 目前狀態（v2.0）
+## 目前狀態（v2.1）
 
-- P1～P5 全部完成；依多益架構的 11 個世界共 24 堂課＋限時迷你模擬考。
-- 多益單字庫 4107 字（5 個系列、206 個單元、12 種情境）。單檔版的單字庫不含音檔（太大）。
+- P1～P5 全部完成；依多益架構的 11 個世界共 56 堂課（文法 11 堂、Part 1～7 各約 5 堂）＋迷你模擬考＋兩回半長模擬考（100 題、60 分鐘）。
+- 2.1 課程在 `dev/content_v21*.py`（由 build_content.py 執行）；英式口音聲音 B＝bf_emma、BM＝bm_george，gen_audio 對 b 開頭的聲音用 en-gb。
+- 單字進階欄位在 `dev/bank_src/extra-hot.txt`（build_bank.py 合併）；錯誤選項解析由 `dev/add_option_notes.py` 產生（只處理同字族的詞性題）。
+- 資料庫 v3：新增 favorites（生字本，含在備份內）。設定新增 playbackRate（0.8／1）。
+- 新頁面 `#/listening`（聽寫、跟讀）；`js/word-questions.js`（單字題型）、`score.js`（預估分數）、`weakness.js`（弱點分析）、`favorites.js`、`listening.js`。
+- 多益單字庫 4107 字（5 個系列、206 個單元、12 種情境）；單元有活用練習（聽音選答、例句填空、拼字）。單檔版的單字庫不含音檔（太大）。
 - 端對端測試裡的 http.server 若因逾時沒關，會佔住連接埠讓下一次測試連到舊檔案：跑測試前先 `pkill -f "http.server 87"`。
 - 所有測試通過；版面與按鈕稽核 0 個問題。
 - 尚可擴充：更多課程與模擬考題、真人錄音替換（同檔名覆蓋即可）。

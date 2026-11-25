@@ -1,0 +1,231 @@
+{
+  "id": "toeic-p4-3",
+  "world": "part4",
+  "order": 3,
+  "type": "toeic-listen",
+  "title": "Part 4 會議與職場公告",
+  "titleEn": "Workplace Announcements",
+  "summary": "聽會議裡的公告：發生什麼事、要大家做什麼。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "職場公告通常在會議開頭：Good morning, everyone. I have an announcement.",
+        "必考：會發生什麼事（What will happen…?）、聽眾要做什麼（What are listeners asked to do?）、某個人是誰（Who is…?）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "類型",
+          "開頭常聽到",
+          "常考"
+        ],
+        "rows": [
+          [
+            "公告",
+            "I have an announcement.",
+            "發生什麼事、什麼時候"
+          ],
+          [
+            "好消息",
+            "I'm happy to tell you…",
+            "數字（sales went up…）"
+          ],
+          [
+            "請求",
+            "Please… / Please let me know by…",
+            "要做什麼、期限"
+          ]
+        ]
+      },
+      "tip": "fifteen（15）和 fifty（50）很容易聽錯：fifteen 重音在後面，fifty 重音在前面。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Our new computer system will be installed this Friday.",
+          "zh": "我們新的電腦系統這星期五會安裝。",
+          "highlight": "installed",
+          "audio": "assets/audio/lessons/toeic-p4-3/ex1.mp3"
+        },
+        {
+          "en": "Please save all your files before noon.",
+          "zh": "請在中午前儲存所有檔案。",
+          "highlight": "save",
+          "audio": "assets/audio/lessons/toeic-p4-3/ex2.mp3"
+        },
+        {
+          "en": "Sales went up fifteen percent.",
+          "zh": "銷售額上升了百分之十五。",
+          "highlight": "fifteen",
+          "audio": "assets/audio/lessons/toeic-p4-3/ex3.mp3"
+        },
+        {
+          "en": "Please let me know by Monday.",
+          "zh": "請在星期一前告訴我。",
+          "highlight": "know",
+          "audio": "assets/audio/lessons/toeic-p4-3/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再按 ▶ 聽。每段有 3 題。",
+      "questions": [
+        {
+          "id": "p4-3-t1-q1",
+          "group": "p4-3-t1-q1",
+          "type": "choice",
+          "prompt": "星期五會發生什麼事？",
+          "options": [
+            "A new computer system will be installed.",
+            "The office will close.",
+            "A new manager will arrive."
+          ],
+          "answer": "A new computer system will be installed.",
+          "explanation": "Our new computer system will be installed this Friday.\n逐字稿：Good morning, everyone. Before we start, I have an announcement. Our new computer system will be installed this Friday. Because of this, you won't be able to use your computers on Friday afternoon. Please save all your files before noon. If you have any questions, please contact Lisa in the IT department.",
+          "sentence": "What will happen on Friday?",
+          "audio": "assets/audio/toeic/p43-talk1.mp3",
+          "audioLabel": "▶ 播放公告"
+        },
+        {
+          "id": "p4-3-t1-q2",
+          "group": "p4-3-t1-q2",
+          "type": "choice",
+          "prompt": "聽眾被要求做什麼？",
+          "options": [
+            "Save their files before noon",
+            "Buy new computers",
+            "Work from home"
+          ],
+          "answer": "Save their files before noon",
+          "explanation": "Please save all your files before noon.\n逐字稿：Good morning, everyone. Before we start, I have an announcement. Our new computer system will be installed this Friday. Because of this, you won't be able to use your computers on Friday afternoon. Please save all your files before noon. If you have any questions, please contact Lisa in the IT department.",
+          "sentence": "What are listeners asked to do?",
+          "audio": "assets/audio/toeic/p43-talk1.mp3",
+          "audioLabel": "▶ 播放公告"
+        },
+        {
+          "id": "p4-3-t1-q3",
+          "group": "p4-3-t1-q3",
+          "type": "choice",
+          "prompt": "Lisa 最可能是誰？",
+          "options": [
+            "An IT worker",
+            "A client",
+            "The speaker's manager"
+          ],
+          "answer": "An IT worker",
+          "explanation": "Lisa in the IT department：資訊部門的人員。\n逐字稿：Good morning, everyone. Before we start, I have an announcement. Our new computer system will be installed this Friday. Because of this, you won't be able to use your computers on Friday afternoon. Please save all your files before noon. If you have any questions, please contact Lisa in the IT department.",
+          "sentence": "Who most likely is Lisa?",
+          "audio": "assets/audio/toeic/p43-talk1.mp3",
+          "audioLabel": "▶ 播放公告"
+        },
+        {
+          "id": "p4-3-t2-q1",
+          "group": "p4-3-t2-q1",
+          "type": "choice",
+          "prompt": "這段話的主題是什麼？",
+          "options": [
+            "Good sales results",
+            "A new product",
+            "A change in schedule"
+          ],
+          "answer": "Good sales results",
+          "explanation": "sold more products this quarter than ever before：這一季賣得比以前都好。\n逐字稿：Hello, everyone. I'm happy to tell you that our team sold more products this quarter than ever before. Sales went up 15%. To thank you for your hard work, we will have a team dinner next Thursday at Rosa's Italian Restaurant. Please let me know by Monday if you can come.",
+          "sentence": "What is the main topic of the talk?",
+          "audio": "assets/audio/toeic/p43-talk2.mp3",
+          "audioLabel": "▶ 播放公告"
+        },
+        {
+          "id": "p4-3-t2-q2",
+          "group": "p4-3-t2-q2",
+          "type": "choice",
+          "prompt": "銷售額增加了多少？",
+          "options": [
+            "15%",
+            "50%",
+            "5%"
+          ],
+          "answer": "15%",
+          "explanation": "Sales went up 15%. 注意 fifteen 和 fifty 的分別。\n逐字稿：Hello, everyone. I'm happy to tell you that our team sold more products this quarter than ever before. Sales went up 15%. To thank you for your hard work, we will have a team dinner next Thursday at Rosa's Italian Restaurant. Please let me know by Monday if you can come.",
+          "sentence": "By how much did sales increase?",
+          "audio": "assets/audio/toeic/p43-talk2.mp3",
+          "audioLabel": "▶ 播放公告"
+        },
+        {
+          "id": "p4-3-t2-q3",
+          "group": "p4-3-t2-q3",
+          "type": "choice",
+          "prompt": "聽眾在星期一前要做什麼？",
+          "options": [
+            "Tell the speaker if they can come",
+            "Finish a sales report",
+            "Book a restaurant"
+          ],
+          "answer": "Tell the speaker if they can come",
+          "explanation": "Please let me know by Monday if you can come.\n逐字稿：Hello, everyone. I'm happy to tell you that our team sold more products this quarter than ever before. Sales went up 15%. To thank you for your hard work, we will have a team dinner next Thursday at Rosa's Italian Restaurant. Please let me know by Monday if you can come.",
+          "sentence": "What should listeners do by Monday?",
+          "audio": "assets/audio/toeic/p43-talk2.mp3",
+          "audioLabel": "▶ 播放公告"
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p43-x1",
+          "group": "p43-x1",
+          "type": "choice",
+          "prompt": "install 是什麼意思？",
+          "options": [
+            "安裝",
+            "邀請",
+            "檢查"
+          ],
+          "answer": "安裝",
+          "explanation": "be installed：被安裝。",
+          "promptSay": {
+            "text": "install",
+            "audio": "assets/audio/prompts/install.mp3"
+          }
+        },
+        {
+          "id": "p43-x2",
+          "group": "p43-x2",
+          "type": "choice",
+          "prompt": "quarter 在商業上常指？",
+          "options": [
+            "一季（三個月）",
+            "一刻鐘",
+            "四分之一美元"
+          ],
+          "answer": "一季（三個月）",
+          "explanation": "this quarter：這一季。多益財務相關題目很常見。",
+          "promptSay": {
+            "text": "quarter",
+            "audio": "assets/audio/prompts/quarter.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

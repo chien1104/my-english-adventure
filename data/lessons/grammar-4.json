@@ -1,0 +1,528 @@
+{
+  "id": "grammar-4",
+  "world": "grammar",
+  "order": 4,
+  "type": "grammar",
+  "title": "詞性判斷：名詞、動詞、形容詞、副詞",
+  "titleEn": "Parts of Speech",
+  "summary": "多益 Part 5 最常考的題型：看空格位置選對詞性。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "多益 Part 5 有很多題，四個選項是同一個字的不同樣子，例如 decide、decision、decisive、decisively。",
+        "這種題目不用懂整句意思，只要看「空格在句子的哪個位置」，就知道要選哪一種詞性。",
+        "名詞是「人、事、物」，動詞是「動作」，形容詞「形容名詞」，副詞「形容動詞或形容詞」。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "先看空格前後的字，再用字尾判斷選項的詞性："
+      ],
+      "table": {
+        "head": [
+          "空格位置",
+          "要填",
+          "常見字尾",
+          "例子"
+        ],
+        "rows": [
+          [
+            "the／a／my／形容詞 後面",
+            "名詞",
+            "-tion、-ment、-ness、-er、-ity",
+            "the decision、a payment"
+          ],
+          [
+            "主詞後面、will／can 後面",
+            "動詞",
+            "-ize、-ify、-en",
+            "will improve、can decide"
+          ],
+          [
+            "名詞前面、be 動詞後面",
+            "形容詞",
+            "-ful、-ive、-able、-al、-ous",
+            "a careful plan、is available"
+          ],
+          [
+            "動詞前後、形容詞前面",
+            "副詞",
+            "-ly",
+            "carefully check、very quickly"
+          ]
+        ]
+      },
+      "tip": "口訣：冠詞後面放名詞，名詞前面放形容詞，動詞旁邊放副詞。"
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "We made a quick decision.",
+          "zh": "我們很快做了決定。",
+          "highlight": "decision",
+          "audio": "assets/audio/lessons/grammar-4/ex1.mp3"
+        },
+        {
+          "en": "Please check the numbers carefully.",
+          "zh": "請仔細檢查數字。",
+          "highlight": "carefully",
+          "audio": "assets/audio/lessons/grammar-4/ex2.mp3"
+        },
+        {
+          "en": "The new product is very successful.",
+          "zh": "新產品非常成功。",
+          "highlight": "successful",
+          "audio": "assets/audio/lessons/grammar-4/ex3.mp3"
+        },
+        {
+          "en": "The company will expand next year.",
+          "zh": "公司明年將會擴張。",
+          "highlight": "expand",
+          "audio": "assets/audio/lessons/grammar-4/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "We",
+              "label": "主詞"
+            },
+            {
+              "text": "made",
+              "label": "動詞"
+            },
+            {
+              "text": "a quick",
+              "label": "冠詞＋形容詞"
+            },
+            {
+              "text": "decision.",
+              "label": "名詞"
+            }
+          ],
+          "zh": "a quick 後面要接名詞，所以是 decision"
+        },
+        {
+          "parts": [
+            {
+              "text": "Please",
+              "label": "請"
+            },
+            {
+              "text": "check",
+              "label": "動詞"
+            },
+            {
+              "text": "the numbers",
+              "label": "受詞"
+            },
+            {
+              "text": "carefully.",
+              "label": "副詞"
+            }
+          ],
+          "zh": "形容動作 check 怎麼做，用副詞 carefully"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "She is a care driver.",
+          "right": "She is a careful driver.",
+          "why": "driver 是名詞，前面要用形容詞 careful。"
+        },
+        {
+          "wrong": "He spoke very quick.",
+          "right": "He spoke very quickly.",
+          "why": "形容動作 spoke，要用副詞 quickly。"
+        },
+        {
+          "wrong": "We need to make a decide.",
+          "right": "We need to make a decision.",
+          "why": "a 後面要接名詞 decision。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出正確答案。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "grammar-4-0a",
+          "group": "grammar-4-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "respond",
+            "response",
+            "responsive",
+            "responsively"
+          ],
+          "answer": "response",
+          "explanation": "your quick 後面要接名詞，response（回覆）是名詞。",
+          "sentence": "Thank you for your quick ___.",
+          "zh": "謝謝你的快速回覆。",
+          "optionNotes": {
+            "respond": "respond（動詞）是「回應；回覆」"
+          }
+        },
+        {
+          "id": "grammar-4-1a",
+          "group": "grammar-4-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "available",
+            "availability",
+            "avail",
+            "availably"
+          ],
+          "answer": "available",
+          "explanation": "be 動詞 is 後面放形容詞，available（可用的）。",
+          "sentence": "The meeting room is ___ on Friday.",
+          "zh": "會議室星期五有空。",
+          "optionNotes": {
+            "availability": "availability（名詞）是「可得性；有空（的時間）」"
+          }
+        },
+        {
+          "id": "grammar-4-2a",
+          "group": "grammar-4-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "care",
+            "careful",
+            "carefully",
+            "carefulness"
+          ],
+          "answer": "carefully",
+          "explanation": "形容動作 read 怎麼做，用副詞 carefully。",
+          "sentence": "Please read the instructions ___.",
+          "zh": "請仔細閱讀說明。",
+          "optionNotes": {
+            "care": "care（名詞／動詞）是「照顧；在乎」",
+            "careful": "careful（形容詞）是「小心的」"
+          }
+        },
+        {
+          "id": "grammar-4-3a",
+          "group": "grammar-4-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "improve",
+            "improvement",
+            "improved",
+            "improving"
+          ],
+          "answer": "improve",
+          "explanation": "to 後面接動詞原形 improve。",
+          "sentence": "Our goal is to ___ customer service.",
+          "zh": "我們的目標是改善顧客服務。",
+          "optionNotes": {
+            "improvement": "improvement（名詞）是「改善；進步」"
+          }
+        },
+        {
+          "id": "grammar-4-4a",
+          "group": "grammar-4-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "impress",
+            "impression",
+            "impressive",
+            "impressively"
+          ],
+          "answer": "impressive",
+          "explanation": "presentation 是名詞，前面用形容詞 impressive。",
+          "sentence": "She gave an ___ presentation.",
+          "zh": "她做了一場令人印象深刻的簡報。",
+          "optionNotes": {
+            "impress": "impress（動詞）是「使印象深刻」",
+            "impression": "impression（名詞）是「印象」"
+          }
+        },
+        {
+          "id": "grammar-4-5a",
+          "group": "grammar-4-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "construct",
+            "construction",
+            "constructive",
+            "constructed"
+          ],
+          "answer": "construction",
+          "explanation": "The ___ of：冠詞 the 後面接名詞 construction。",
+          "sentence": "The ___ of the new office took six months.",
+          "zh": "新辦公室的建造花了六個月。",
+          "optionNotes": {
+            "construct": "construct（動詞）是「建造」"
+          }
+        },
+        {
+          "id": "grammar-4-6a",
+          "group": "grammar-4-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "significant",
+            "significance",
+            "significantly",
+            "signify"
+          ],
+          "answer": "significantly",
+          "explanation": "形容動詞 increased 增加的程度，用副詞 significantly。",
+          "sentence": "Sales increased ___ last year.",
+          "zh": "去年銷售大幅增加。",
+          "optionNotes": {
+            "significant": "significant（形容詞）是「重大的；顯著的」",
+            "significance": "significance（名詞）是「重要性；意義」",
+            "signify": "signify（動詞）是「表示；意味著」"
+          }
+        },
+        {
+          "id": "grammar-4-7a",
+          "group": "grammar-4-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "complete",
+            "completion",
+            "completely",
+            "completeness"
+          ],
+          "answer": "complete",
+          "explanation": "must 後面接動詞原形 complete。",
+          "sentence": "All employees must ___ the form by Friday.",
+          "zh": "所有員工都必須在星期五前完成表格。",
+          "optionNotes": {
+            "completion": "completion（名詞）是「完成」",
+            "completely": "completely（副詞）是「完全地」"
+          }
+        }
+      ],
+      "similar": [
+        {
+          "id": "grammar-4-0b",
+          "group": "grammar-4-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "reply",
+            "replied",
+            "replying",
+            "replies"
+          ],
+          "answer": "reply",
+          "explanation": "your 後面接名詞 reply。",
+          "sentence": "We are waiting for your ___.",
+          "zh": "我們在等你的回覆。"
+        },
+        {
+          "id": "grammar-4-1b",
+          "group": "grammar-4-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "available",
+            "availability",
+            "availably",
+            "avail"
+          ],
+          "answer": "available",
+          "explanation": "are 後面放形容詞 available。",
+          "sentence": "The tickets are ___ online.",
+          "zh": "票可以在網路上買到。",
+          "optionNotes": {
+            "availability": "availability（名詞）是「可得性；有空（的時間）」"
+          }
+        },
+        {
+          "id": "grammar-4-2b",
+          "group": "grammar-4-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "careful",
+            "carefully",
+            "care",
+            "careless"
+          ],
+          "answer": "carefully",
+          "explanation": "形容動作 drive，用副詞 carefully。",
+          "sentence": "Please drive ___.",
+          "zh": "請小心開車。",
+          "optionNotes": {
+            "careful": "careful（形容詞）是「小心的」",
+            "care": "care（名詞／動詞）是「照顧；在乎」",
+            "careless": "careless（形容詞）是「粗心的」"
+          }
+        },
+        {
+          "id": "grammar-4-3b",
+          "group": "grammar-4-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "improve",
+            "improvement",
+            "improvable",
+            "improvingly"
+          ],
+          "answer": "improve",
+          "explanation": "need to 後面接動詞原形。",
+          "sentence": "We need to ___ our website.",
+          "zh": "我們需要改善網站。",
+          "optionNotes": {
+            "improvement": "improvement（名詞）是「改善；進步」"
+          }
+        },
+        {
+          "id": "grammar-4-4b",
+          "group": "grammar-4-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "product",
+            "produce",
+            "productive",
+            "production"
+          ],
+          "answer": "productive",
+          "explanation": "meeting 是名詞，前面用形容詞 productive。",
+          "sentence": "It was a very ___ meeting.",
+          "zh": "那是一場很有成效的會議。",
+          "optionNotes": {
+            "product": "product（名詞）是「產品」",
+            "produce": "produce（動詞）是「生產」",
+            "production": "production（名詞）是「生產」"
+          }
+        },
+        {
+          "id": "grammar-4-5b",
+          "group": "grammar-4-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "construction",
+            "construct",
+            "constructive",
+            "constructively"
+          ],
+          "answer": "construction",
+          "explanation": "the 後面接名詞 construction。",
+          "sentence": "The ___ of the bridge will start soon.",
+          "zh": "橋的建造即將開始。",
+          "optionNotes": {
+            "construct": "construct（動詞）是「建造」"
+          }
+        },
+        {
+          "id": "grammar-4-6b",
+          "group": "grammar-4-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "sharp",
+            "sharply",
+            "sharpen",
+            "sharpness"
+          ],
+          "answer": "sharply",
+          "explanation": "形容動詞 rose，用副詞 sharply。",
+          "sentence": "Prices rose ___ this year.",
+          "zh": "今年價格大幅上漲。",
+          "optionNotes": {
+            "sharp": "sharp（形容詞／副詞）是「鋒利的；（時間）整」"
+          }
+        },
+        {
+          "id": "grammar-4-7b",
+          "group": "grammar-4-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "complete",
+            "completely",
+            "completion",
+            "completing"
+          ],
+          "answer": "complete",
+          "explanation": "should 後面接動詞原形 complete。",
+          "sentence": "You should ___ your report today.",
+          "zh": "你今天應該完成報告。",
+          "optionNotes": {
+            "completely": "completely（副詞）是「完全地」",
+            "completion": "completion（名詞）是「完成」"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多益 Part 5 的出題方式，挑戰看看。",
+      "questions": [
+        {
+          "id": "grammar-4-x0",
+          "group": "grammar-4-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "excel",
+            "excellence",
+            "excellent",
+            "excellently"
+          ],
+          "answer": "excellent",
+          "explanation": "his ___ work：名詞 work 前面放形容詞 excellent。",
+          "sentence": "Mr. Kim was praised for his ___ work on the project.",
+          "zh": "金先生因為在專案上的出色工作而受到稱讚。",
+          "optionNotes": {
+            "excellence": "excellence（名詞）是「卓越；優秀」"
+          }
+        },
+        {
+          "id": "grammar-4-x1",
+          "group": "grammar-4-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "thorough",
+            "thoroughly",
+            "thoroughness",
+            "more thorough"
+          ],
+          "answer": "thoroughly",
+          "explanation": "句子已經完整（主詞＋動詞＋受詞），空格修飾動作 reviewed，用副詞 thoroughly。",
+          "sentence": "The manager reviewed the budget ___ before the meeting.",
+          "zh": "經理在會議前仔細審查了預算。"
+        }
+      ]
+    }
+  ]
+}

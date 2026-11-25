@@ -1,0 +1,460 @@
+{
+  "id": "grammar-9",
+  "world": "grammar",
+  "order": 9,
+  "type": "grammar",
+  "title": "關係代名詞：who、which、that",
+  "titleEn": "Relative Pronouns",
+  "summary": "用一個字把兩句話接起來，說明「是哪一個人或東西」。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "中文說「穿紅衣服的那個人」，修飾的話放在前面。英文會把說明放在後面：the man who is wearing red。",
+        "說明「人」用 who，說明「東西」用 which，that 人和東西都可以用。",
+        "whose 表示「…的」，例如 the woman whose car is red（車子是紅色的那位女士）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "看前面的名詞是人還是東西："
+      ],
+      "table": {
+        "head": [
+          "前面的名詞",
+          "用",
+          "例子"
+        ],
+        "rows": [
+          [
+            "人",
+            "who／that",
+            "the man who called you"
+          ],
+          [
+            "東西、動物",
+            "which／that",
+            "the email which I sent"
+          ],
+          [
+            "…的（所有）",
+            "whose",
+            "the client whose order was late"
+          ]
+        ]
+      },
+      "tip": "多益看到空格前面是人（employee、customer），先想 who；是東西（report、product），先想 which。"
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "The woman who called you is my boss.",
+          "zh": "打電話給你的那位女士是我的主管。",
+          "highlight": "who",
+          "audio": "assets/audio/lessons/grammar-9/ex1.mp3"
+        },
+        {
+          "en": "This is the report which I wrote.",
+          "zh": "這是我寫的報告。",
+          "highlight": "which",
+          "audio": "assets/audio/lessons/grammar-9/ex2.mp3"
+        },
+        {
+          "en": "I have a friend who lives in Paris.",
+          "zh": "我有一個住在巴黎的朋友。",
+          "highlight": "who",
+          "audio": "assets/audio/lessons/grammar-9/ex3.mp3"
+        },
+        {
+          "en": "He is the client whose order was late.",
+          "zh": "他就是訂單延遲的那位客戶。",
+          "highlight": "whose",
+          "audio": "assets/audio/lessons/grammar-9/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "The man",
+              "label": "人"
+            },
+            {
+              "text": "who",
+              "label": "說明這個人"
+            },
+            {
+              "text": "is talking",
+              "label": "他在做什麼"
+            },
+            {
+              "text": "is our CEO.",
+              "label": "主要的句子"
+            }
+          ],
+          "zh": "who 帶出的話，說明是哪一個人"
+        },
+        {
+          "parts": [
+            {
+              "text": "The laptop",
+              "label": "東西"
+            },
+            {
+              "text": "which",
+              "label": "說明這個東西"
+            },
+            {
+              "text": "I bought",
+              "label": "補充說明"
+            },
+            {
+              "text": "is very fast.",
+              "label": "主要的句子"
+            }
+          ],
+          "zh": "which 說明是哪一台筆電"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "The man which called you is here.",
+          "right": "The man who called you is here.",
+          "why": "man 是人，用 who。"
+        },
+        {
+          "wrong": "This is the book who I like.",
+          "right": "This is the book which I like.",
+          "why": "book 是東西，用 which（或 that）。"
+        },
+        {
+          "wrong": "She is the girl who her bag is red.",
+          "right": "She is the girl whose bag is red.",
+          "why": "「她的包包」要用 whose。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出正確答案。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "grammar-9-0a",
+          "group": "grammar-9-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "where"
+          ],
+          "answer": "who",
+          "explanation": "employee 是人，用 who。",
+          "sentence": "The employee ___ won the award is Ms. Kim.",
+          "zh": "得獎的員工是金小姐。"
+        },
+        {
+          "id": "grammar-9-1a",
+          "group": "grammar-9-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "what"
+          ],
+          "answer": "which",
+          "explanation": "printer 是東西，用 which。",
+          "sentence": "This is the printer ___ is broken.",
+          "zh": "這就是壞掉的那台印表機。"
+        },
+        {
+          "id": "grammar-9-2a",
+          "group": "grammar-9-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "what"
+          ],
+          "answer": "who",
+          "explanation": "customers 是人，用 who。",
+          "sentence": "Customers ___ have a membership card get a discount.",
+          "zh": "有會員卡的顧客可以打折。"
+        },
+        {
+          "id": "grammar-9-3a",
+          "group": "grammar-9-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "what"
+          ],
+          "answer": "which",
+          "explanation": "hotel 是地方（東西），用 which。",
+          "sentence": "The hotel ___ we stayed at was nice.",
+          "zh": "我們住的飯店很好。"
+        },
+        {
+          "id": "grammar-9-4a",
+          "group": "grammar-9-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "that"
+          ],
+          "answer": "whose",
+          "explanation": "「他的車」用 whose ＋ car。",
+          "sentence": "I met a man ___ car was stolen.",
+          "zh": "我遇到一個車子被偷的人。"
+        },
+        {
+          "id": "grammar-9-5a",
+          "group": "grammar-9-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "that",
+            "whose",
+            "what"
+          ],
+          "answer": "that",
+          "explanation": "package 是東西，可以用 that。",
+          "sentence": "The package ___ arrived today is for you.",
+          "zh": "今天到的包裹是你的。"
+        },
+        {
+          "id": "grammar-9-6a",
+          "group": "grammar-9-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "which",
+            "who",
+            "whose",
+            "where"
+          ],
+          "answer": "who",
+          "explanation": "manager 是人，用 who。",
+          "sentence": "Ms. Lee is the manager ___ hired me.",
+          "zh": "李小姐就是錄用我的經理。"
+        },
+        {
+          "id": "grammar-9-7a",
+          "group": "grammar-9-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "when"
+          ],
+          "answer": "which",
+          "explanation": "product 是東西，用 which。",
+          "sentence": "The product ___ we launched last year sold well.",
+          "zh": "我們去年推出的產品賣得很好。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "grammar-9-0b",
+          "group": "grammar-9-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "where"
+          ],
+          "answer": "who",
+          "explanation": "girl 是人，用 who。",
+          "sentence": "The girl ___ is singing is my sister.",
+          "zh": "正在唱歌的女孩是我妹妹。"
+        },
+        {
+          "id": "grammar-9-1b",
+          "group": "grammar-9-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "what"
+          ],
+          "answer": "which",
+          "explanation": "key 是東西，用 which。",
+          "sentence": "I lost the key ___ opens the door.",
+          "zh": "我弄丟了開這扇門的鑰匙。"
+        },
+        {
+          "id": "grammar-9-2b",
+          "group": "grammar-9-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "what"
+          ],
+          "answer": "who",
+          "explanation": "students 是人，用 who。",
+          "sentence": "Students ___ study hard get good grades.",
+          "zh": "用功的學生會拿到好成績。"
+        },
+        {
+          "id": "grammar-9-3b",
+          "group": "grammar-9-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "what"
+          ],
+          "answer": "which",
+          "explanation": "café 是地方（東西），用 which。",
+          "sentence": "The café ___ I like is closed today.",
+          "zh": "我喜歡的咖啡館今天沒開。"
+        },
+        {
+          "id": "grammar-9-4b",
+          "group": "grammar-9-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "that"
+          ],
+          "answer": "whose",
+          "explanation": "「他的書」用 whose ＋ book。",
+          "sentence": "He is the writer ___ book won a prize.",
+          "zh": "他就是那本書得獎的作家。"
+        },
+        {
+          "id": "grammar-9-5b",
+          "group": "grammar-9-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "that",
+            "whose",
+            "what"
+          ],
+          "answer": "that",
+          "explanation": "bus 是東西，可以用 that。",
+          "sentence": "The bus ___ goes to the airport is late.",
+          "zh": "去機場的公車遲到了。"
+        },
+        {
+          "id": "grammar-9-6b",
+          "group": "grammar-9-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "which",
+            "who",
+            "whose",
+            "where"
+          ],
+          "answer": "who",
+          "explanation": "teacher 是人，用 who。",
+          "sentence": "Mr. Wu is the teacher ___ helped me.",
+          "zh": "吳老師就是幫助我的那位老師。"
+        },
+        {
+          "id": "grammar-9-7b",
+          "group": "grammar-9-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "when"
+          ],
+          "answer": "which",
+          "explanation": "phone 是東西，用 which。",
+          "sentence": "The phone ___ I bought is very light.",
+          "zh": "我買的手機非常輕。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多益 Part 5 的出題方式，挑戰看看。",
+      "questions": [
+        {
+          "id": "grammar-9-x0",
+          "group": "grammar-9-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "whom"
+          ],
+          "answer": "who",
+          "explanation": "applicants（應徵者）是人，而且後面直接接動詞 have，當主詞用 who。",
+          "sentence": "Applicants ___ have at least three years of experience are encouraged to apply.",
+          "zh": "有至少三年經驗的應徵者歡迎應徵。"
+        },
+        {
+          "id": "grammar-9-x1",
+          "group": "grammar-9-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "that"
+          ],
+          "answer": "whose",
+          "explanation": "「公司的總部」表示所有關係，用 whose ＋ headquarters。",
+          "sentence": "The company ___ headquarters is in Seoul plans to open a branch in Taipei.",
+          "zh": "總部在首爾的那家公司計畫在台北開分公司。"
+        }
+      ]
+    }
+  ]
+}

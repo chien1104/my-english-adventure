@@ -4,6 +4,8 @@ import { EXP_KINDS, dayOf, studyDays } from '../gamify.js';
 import { todayKey } from '../settings.js';
 import { escapeHTML } from '../ui/dom.js';
 import { answerText } from '../lesson/engine.js';
+import { analyzeWeakness } from '../weakness.js';
+import { latestEstimate } from '../score.js';
 
 // 單字熟悉度：三色已用 dataviz 驗證工具檢查（色盲可分辨），並一律搭配文字標籤
 const STATUS_COLORS = { new: '#6F8BD0', learning: '#D9952A', familiar: '#1F8A5E' };
@@ -67,6 +69,11 @@ export async function render({ outlet, db }) {
   const maxDay = s.perDay.reduce((a, b) => (b.count > a.count ? b : a));
   const today = s.perDay[s.perDay.length - 1];
   const totalWords = s.status.new + s.status.learning + s.status.familiar;
+  const weak = analyzeWeakness(ctx.lessons, ctx.attempts);
+  const est = latestEstimate([...ctx.progressById.values()]);
+  const bar = (x, short = false) => `<li class="hbar${x.total ? '' : ' is-empty'}"><span class="hbar__name">${escapeHTML(short ? x.name.replace(/^Part (\d) .*/, 'Part $1') : x.name)}</span>
+    <span class="hbar__track"><span class="hbar__fill${x.rate !== null && x.rate < 60 ? ' is-low' : ''}" style="width:${x.rate ?? 0}%"></span></span>
+    <span class="hbar__val en">${x.rate === null ? '—' : `${x.rate}%`}</span><span class="hbar__sub">${x.total ? `${x.correct}/${x.total} 題` : '還沒練習'}${short ? `・${escapeHTML(x.name.slice(7))}` : ''}</span></li>`;
 
   outlet.innerHTML = `
     <section class="card">
@@ -79,6 +86,35 @@ export async function render({ outlet, db }) {
         <div class="kpi"><dt>整體正確率</dt><dd data-testid="st-acc">${s.accuracy}%</dd></div>
       </dl>
       <p class="hint">學習天數是累計的，不需要連續；休息幾天不會讓任何數字歸零。</p>
+    </section>
+
+    ${est ? `
+    <section class="card score-card" data-testid="st-estimate">
+      <h2 class="card__title">預估多益分數</h2>
+      <p class="score-card__total"><strong class="en">${est.lastEstimate.total}</strong><span class="muted"> 分左右（±${est.lastEstimate.margin}）</span></p>
+      <div class="score-card__split">
+        <div><span class="muted small">聽力</span><strong class="en">${est.lastEstimate.listening}</strong></div>
+        <div><span class="muted small">閱讀</span><strong class="en">${est.lastEstimate.reading}</strong></div>
+      </div>
+      <p class="hint">依最近一次「${escapeHTML(est.title || '模擬考')}」的答對率粗估，只當參考。多考幾次半長模擬考，估計會更準。</p>
+    </section>` : `
+    <section class="card" data-testid="st-estimate-empty">
+      <h2 class="card__title">預估多益分數</h2>
+      <p class="muted">完成一次模擬考（在「模擬考殿堂」）後，這裡會依答對率估計你的多益分數。</p>
+      <a class="btn btn--ghost btn--sm" href="#/world?id=mock">去模擬考殿堂</a>
+    </section>`}
+
+    <section class="card" data-testid="st-weakness">
+      <h2 class="card__title">弱點分析</h2>
+      ${weak.weakest.length ? `
+        <p class="muted">答對率最低、最值得先加強的地方：</p>
+        <ol class="focus-list">${weak.weakest.map((x) => `
+          <li><span><strong>${escapeHTML(x.name)}</strong><small class="muted">答對 ${x.correct}/${x.total} 題（${x.rate}%）</small></span>
+            <a class="btn btn--primary btn--sm" href="${x.href}">去加強</a></li>`).join('')}</ol>`
+        : `<p class="status-line status-line--good">${weak.parts.some((p) => p.total) ? '目前沒有明顯的弱點（答對率都在 80% 以上，或練習題數還不夠多）。' : '練習多益 Part 或文法課之後，這裡會找出你的弱點。'}</p>`}
+      <h3 class="sub-title">多益各 Part 答對率</h3>
+      <ul class="hbars" data-testid="weak-parts">${weak.parts.map((x) => bar(x, true)).join('')}</ul>
+      ${weak.grammar.length ? `<h3 class="sub-title">文法點答對率</h3><ul class="hbars hbars--long" data-testid="weak-grammar">${weak.grammar.map((x) => bar(x)).join('')}</ul>` : ''}
     </section>
 
     <section class="card">
@@ -121,7 +157,7 @@ export async function render({ outlet, db }) {
     </section>
 
     <section class="card">
-      <h2 class="card__title">最需要加強的考點</h2>
+      <h2 class="card__title">最常答錯的題目</h2>
       ${s.topMistakes.length ? `<ol class="weak-list">${s.topMistakes.map((m) => `
         <li><span>${escapeHTML(m.question.sentence || m.question.prompt)}<small class="muted">${escapeHTML(m.source)}・正確：${escapeHTML(answerText(m.question))}</small></span><span class="badge badge--lock">錯 ${m.wrongCount} 次</span></li>`).join('')}</ol>
         <a class="btn btn--ghost btn--sm" href="#/mistake-practice">去錯題重練</a>`

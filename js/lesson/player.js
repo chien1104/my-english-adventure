@@ -1,7 +1,7 @@
 // 課程播放器：把引擎狀態畫成畫面。每一步都會呼叫 onSave，所以隨時離開都不會遺失進度。
 import * as E from './engine.js';
 import { escapeHTML } from '../ui/dom.js';
-import { renderQuestion, lockQuestion, feedbackHTML } from '../ui/question-view.js';
+import { renderQuestion, lockQuestion, feedbackHTML, optionNotesHTML } from '../ui/question-view.js';
 import { wordCardHTML, attachAudioButtons } from '../ui/word-card.js';
 import { playButtonHTML } from '../audio.js';
 import { burst, glow, banner, haptic } from '../ui/fx.js';
@@ -68,7 +68,7 @@ function stepHTML(step, ctx) {
             ${i.question.zh ? `<p class="muted">${escapeHTML(i.question.zh)}</p>` : ''}
             ${i.correct ? '' : `<p>你的答案：<span class="en">${escapeHTML(i.yourText)}</span></p><p>正確答案：<strong class="en">${escapeHTML(i.correctText)}</strong></p>`}
             ${i.question.audio ? playButtonHTML(i.question.audio, '▶ 重聽', 'play-btn--mini') : ''}
-            ${i.correct ? '' : `<p class="feedback__exp pre">${escapeHTML(i.question.explanation)}</p>`}
+            ${i.correct ? '' : `<p class="feedback__exp pre">${escapeHTML(i.question.explanation)}</p>${optionNotesHTML(i.question)}`}
           </li>`).join('')}</ul>`;
     }
     case 'practice':
@@ -122,10 +122,37 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
 
   async function save() { await hooks.onSave?.(state); }
 
+  // 限時作答（Part 7）：每題建議秒數倒數，超時不會被打斷，只提醒速度
+  let paceTimer = null;
+  let paceStart = 0;
+  const mmss = (sec) => `${Math.floor(sec / 60)}:${String(Math.floor(sec % 60)).padStart(2, '0')}`;
+  function stopPace() {
+    if (!paceTimer) return null;
+    clearInterval(paceTimer);
+    paceTimer = null;
+    return Math.max(1, Math.round((performance.now() - paceStart) / 1000));
+  }
+  function startPace() {
+    stopPace();
+    const el = body.querySelector('[data-role="pace"]');
+    if (!lesson.pace || !el) return;
+    paceStart = performance.now();
+    const tick = () => {
+      if (!el.isConnected) { stopPace(); return; }
+      const left = lesson.pace - (performance.now() - paceStart) / 1000;
+      el.textContent = left >= 0 ? `⏱ ${mmss(Math.ceil(left))}` : `⏱ 超時 ${mmss(-left)}`;
+      el.classList.toggle('is-low', left >= 0 && left < 15);
+      el.classList.toggle('is-over', left < 0);
+    };
+    tick();
+    paceTimer = setInterval(tick, 250);
+  }
+
   function paint() {
     const step = E.currentStep(lesson, state);
     stepEl.textContent = E.stepLabel(lesson, state);
     bar.style.width = `${Math.round(((state.stepIndex + 1) / lesson.steps.length) * 100)}%`;
+    stopPace();
     const sheet = outlet.querySelector('[data-role="feedback"]');
     sheet.innerHTML = '';
     sheet.classList.remove('feedback-sheet');
@@ -139,7 +166,7 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
 
     if (step.kind === 'practice') {
       const prog = E.practiceProgress(lesson, state);
-      body.querySelector('[data-role="qcount"]').textContent = `第 ${prog.current} / ${prog.total} 題`;
+      body.querySelector('[data-role="qcount"]').innerHTML = `第 ${prog.current} / ${prog.total} 題${lesson.pace ? ' <span class="pace" data-role="pace" aria-live="off"></span>' : ''}`;
       const q = E.currentQuestion(lesson, state);
       const qBox = body.querySelector('[data-role="question"]');
       nextBtn.hidden = true;
@@ -148,7 +175,7 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
       if (pending) {
         lockQuestion(qBox, q, pending.answer, pending.correct);
         showFeedback(pending);
-      }
+      } else startPace();
     } else {
       nextBtn.hidden = false;
       nextBtn.textContent = isLast ? (lesson.type === 'review' ? '完成複習' : '完成課程') : '下一步';
@@ -159,6 +186,7 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
   async function onAnswer(q, qBox, answer) {
     if (busy) return;
     busy = true;
+    const used = stopPace();
     const { state: next, result } = E.submitAnswer(lesson, state, answer);
     state = next;
     lockQuestion(qBox, q, answer, result.correct);
@@ -166,7 +194,7 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
     await hooks.onAnswer?.(q, result.correct, answer);
     await save();
     busy = false;
-    showFeedback(result, { auto: result.correct });
+    showFeedback(result, { auto: result.correct, used });
   }
 
   // 答題特效：答對有粒子和邊緣發光，連對有計數與橫幅；答錯只震一下，不打擊信心
@@ -189,11 +217,14 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
   }
 
   // 解析固定浮在畫面底部，不用往下滑；答對會自動前往下一題，答錯等使用者看完解析按「繼續」
-  function showFeedback(result, { auto = false } = {}) {
+  function showFeedback(result, { auto = false, used = null } = {}) {
     // 放在卡片外面：卡片有動畫，放在裡面會讓 fixed 定位跟著卡片跑
     const fb = outlet.querySelector('[data-role="feedback"]');
     fb.classList.add('feedback-sheet');
-    fb.innerHTML = feedbackHTML(result) +
+    const paceNote = used && lesson.pace
+      ? `<p class="pace-note${used > lesson.pace ? ' is-over' : ''}">⏱ 這題用了 ${used} 秒${used > lesson.pace ? `，超過建議的 ${lesson.pace} 秒，下一題試著先看題目再找答案` : `，在建議的 ${lesson.pace} 秒內 👍`}</p>`
+      : '';
+    fb.innerHTML = paceNote + feedbackHTML(result) +
       (auto ? `<div class="auto-next" aria-hidden="true"><span style="animation-duration:${AUTO_NEXT_MS}ms"></span></div>` : '') +
       '<button type="button" class="btn btn--primary btn--block" data-act="continue">繼續</button>';
     backBtn.hidden = true;

@@ -222,7 +222,7 @@ try:
             page.goto(BASE + path); page.wait_for_timeout(350)
             sw = page.evaluate('document.documentElement.scrollWidth')
             check(f'375px 無水平捲動 {path}', sw <= 375, f'{sw}')
-            orphan = page.evaluate("""[...document.querySelectorAll('#app button')].filter(b => !b.hidden && !(b.type === 'submit' || b.dataset.play || b.dataset.act || b.dataset.mode || b.dataset.opt !== undefined || b.dataset.tok !== undefined || b.dataset.filter || b.dataset.audio || b.dataset.match || b.dataset.tile || b.dataset.slot)).map(b => b.outerHTML.slice(0, 80))""")
+            orphan = page.evaluate("""[...document.querySelectorAll('#app button')].filter(b => !b.hidden && !(b.type === 'submit' || b.dataset.play || b.dataset.fav || b.dataset.rate || b.dataset.act || b.dataset.mode || b.dataset.opt !== undefined || b.dataset.tok !== undefined || b.dataset.filter || b.dataset.audio || b.dataset.match || b.dataset.tile || b.dataset.slot)).map(b => b.outerHTML.slice(0, 80))""")
             check(f'{path} 沒有無作用按鈕', not orphan, str(orphan))
             fake = page.evaluate("""[...document.querySelectorAll('#app button:disabled, #app [aria-disabled=true]')].filter(b => !b.closest('.q, .match, .spell__tiles, .order, [data-testid=game-speed], .spell__slots, .btn-row')).map(b => b.textContent.trim())""")
             check(f'{path} 沒有擺著不能用的按鈕', not fake, str(fake))

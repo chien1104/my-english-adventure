@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="倉庫：地上疊著三個紙箱，旁邊有一台手推車，右邊的門是開著的">
+<title>倉庫：地上疊著三個紙箱，旁邊有一台手推車，右邊的門是開著的</title>
+<rect width="320" height="200" fill="#F4ECDF"/><rect y="150" width="320" height="50" fill="#E2D2BC"/>
+
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="#D9A86C"><rect x="40" y="110" width="60" height="42"/><rect x="40" y="68" width="60" height="42"/><rect x="48" y="30" width="44" height="38"/></g>
+<path d="M70 110v42M70 68v42M70 30v38" stroke="#4E3424" stroke-width="1.5" opacity=".5"/>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"><path d="M128 70v80h34"/><circle cx="134" cy="156" r="7" fill="#FFFFFF"/></g>
+<rect x="220" y="40" width="64" height="110" fill="#6E5443" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M220 40l-28 12v110l28-12z" fill="#B9774F" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="200" cy="104" r="3" fill="#4E3424"/>
+</svg>

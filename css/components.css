@@ -520,7 +520,8 @@ mark { background: #F6DFA8; color: inherit; border-radius: 4px; padding: 0 2px; 
 .play-btn--big { min-height: 48px; padding: 0 var(--sp-5); font-size: 1.05rem; background: var(--c-brown); color: #FFF8EF; border-color: var(--c-brown); }
 .play-btn--mini { min-height: 32px; min-width: 32px; padding: 0 8px; font-size: .8rem; vertical-align: middle; }
 .play-btn--inline { min-height: 36px; min-width: 40px; padding: 0 6px; margin-left: 6px; font-size: .95rem; vertical-align: middle; }
-.say { white-space: nowrap; }
+.say { white-space: normal; } /* 長句要能換行；喇叭跟在最後一個字後面 */
+.say > .play-btn { white-space: nowrap; }
 .play-btn.is-playing { background: var(--c-gold); border-color: var(--c-gold); color: var(--c-brown-deep); }
 .q__audio { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--sp-2); margin: var(--sp-3) 0; }
 .q__audio .muted { font-size: var(--fs-xs); }
@@ -593,3 +594,5 @@ mark { background: #F6DFA8; color: inherit; border-radius: 4px; padding: 0 2px; 
 .unit-card__no { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; background: var(--c-milktea-soft); color: var(--c-brown-deep); }
 .unit-card.is-done .unit-card__no { background: var(--c-good-bg); color: var(--c-good); }
 .unit-card__state { color: var(--c-ink-soft); text-align: right; }
+/* 2.1：長網址、email、長單字不撐寬畫面 */
+.passage, .passage .en, .rule-table td, .rule-table th { overflow-wrap: anywhere; }

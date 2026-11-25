@@ -34,6 +34,7 @@ export async function logSession(db, session, now = Date.now()) {
     review: [EXP.reviewSession, '完成單字複習'],
     mistake: [EXP.mistakeSession, '完成錯題重練'],
     game: [EXP.gameSession, '玩完一局遊戲'],
+    listening: [EXP.listeningSession, '完成聽力訓練'],
   };
   const rule = rules[session.type];
   return rule ? awardExp(db, `session:${id}`, rule[0], rule[1], now) : null;

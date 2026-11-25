@@ -1,0 +1,264 @@
+{
+  "id": "toeic-p6-2",
+  "world": "part6",
+  "order": 3,
+  "type": "toeic",
+  "title": "Part 6 Email 填空",
+  "titleEn": "Emails",
+  "summary": "面試通知和訂單問題：讀懂 email 的來龍去脈。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "Part 6 最常出現 email。先看 Subject（主旨）就知道這封信在講什麼。",
+        "文法題看空格前後幾個字就能解；句子題一定要看前後句，選意思接得上的。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "題型",
+          "選項長相",
+          "怎麼解"
+        ],
+        "rows": [
+          [
+            "文法題",
+            "apply／applying／applied",
+            "Thank you for ＋ V-ing"
+          ],
+          [
+            "副詞題",
+            "current／currently",
+            "修飾整句或形容詞，用副詞"
+          ],
+          [
+            "句子題",
+            "四個完整句子",
+            "看上下句，選意思接得上的"
+          ]
+        ]
+      },
+      "tip": "Thank you for ＋ 名詞或 V-ing；be sorry for ＋ 名詞：這兩個很常考。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Thank you for applying for the position.",
+          "zh": "謝謝您應徵這個職位。",
+          "highlight": "applying",
+          "audio": "assets/audio/lessons/toeic-p6-2/ex1.mp3"
+        },
+        {
+          "en": "We look forward to meeting you.",
+          "zh": "我們期待與您見面。",
+          "highlight": "forward",
+          "audio": "assets/audio/lessons/toeic-p6-2/ex2.mp3"
+        },
+        {
+          "en": "The chairs are currently out of stock.",
+          "zh": "這些椅子目前缺貨。",
+          "highlight": "currently",
+          "audio": "assets/audio/lessons/toeic-p6-2/ex3.mp3"
+        },
+        {
+          "en": "We are sorry for the inconvenience.",
+          "zh": "造成不便，我們很抱歉。",
+          "highlight": "sorry",
+          "audio": "assets/audio/lessons/toeic-p6-2/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "每題都會顯示整篇文章，看到第幾個空格就作答那一格。",
+      "questions": [
+        {
+          "id": "p62-1",
+          "group": "p62-1",
+          "type": "choice",
+          "prompt": "第 1 個空格要填什麼？",
+          "options": [
+            "apply",
+            "applying",
+            "applied",
+            "application"
+          ],
+          "answer": "applying",
+          "explanation": "Thank you for 後面接名詞或 V-ing，for applying：謝謝你應徵。",
+          "text": "To: Mark Evans\nFrom: Lucy Park\nSubject: Job Interview\n\nDear Mr. Evans,\n\nThank you for (1)______ for the sales assistant position. We would like to invite you to an interview on Tuesday, May 14, at 10 a.m. The interview will take about 30 minutes. (2)______, please bring a copy of your résumé. If this time is not (3)______ for you, please call me at 555-0147. (4)______\n\nBest regards,\nLucy Park\nHR Manager",
+          "optionNotes": {
+            "apply": "apply（動詞）是「申請；應用」",
+            "application": "application（名詞）是「申請；應用程式」"
+          }
+        },
+        {
+          "id": "p62-2",
+          "group": "p62-2",
+          "type": "choice",
+          "prompt": "第 2 個空格要填什麼？",
+          "options": [
+            "However",
+            "Also",
+            "Because",
+            "Instead"
+          ],
+          "answer": "Also",
+          "explanation": "前面說面試時間，這裡「另外」請帶履歷，用 Also。",
+          "text": "To: Mark Evans\nFrom: Lucy Park\nSubject: Job Interview\n\nDear Mr. Evans,\n\nThank you for (1)______ for the sales assistant position. We would like to invite you to an interview on Tuesday, May 14, at 10 a.m. The interview will take about 30 minutes. (2)______, please bring a copy of your résumé. If this time is not (3)______ for you, please call me at 555-0147. (4)______\n\nBest regards,\nLucy Park\nHR Manager"
+        },
+        {
+          "id": "p62-3",
+          "group": "p62-3",
+          "type": "choice",
+          "prompt": "第 3 個空格要填什麼？",
+          "options": [
+            "convenient",
+            "convenience",
+            "conveniently",
+            "convene"
+          ],
+          "answer": "convenient",
+          "explanation": "is not 後面放形容詞：convenient（方便的）。",
+          "text": "To: Mark Evans\nFrom: Lucy Park\nSubject: Job Interview\n\nDear Mr. Evans,\n\nThank you for (1)______ for the sales assistant position. We would like to invite you to an interview on Tuesday, May 14, at 10 a.m. The interview will take about 30 minutes. (2)______, please bring a copy of your résumé. If this time is not (3)______ for you, please call me at 555-0147. (4)______\n\nBest regards,\nLucy Park\nHR Manager",
+          "optionNotes": {
+            "convenience": "convenience（名詞）是「方便；便利」",
+            "conveniently": "conveniently（副詞）是「方便地」"
+          }
+        },
+        {
+          "id": "p62-4",
+          "group": "p62-4",
+          "type": "choice",
+          "prompt": "第 4 個空格要填什麼？",
+          "options": [
+            "We look forward to meeting you.",
+            "Thank you for your order.",
+            "The position has already been filled."
+          ],
+          "answer": "We look forward to meeting you.",
+          "explanation": "邀請面試的信，結尾說「期待見面」最自然。職位已經找到人的話就不會邀請面試。",
+          "text": "To: Mark Evans\nFrom: Lucy Park\nSubject: Job Interview\n\nDear Mr. Evans,\n\nThank you for (1)______ for the sales assistant position. We would like to invite you to an interview on Tuesday, May 14, at 10 a.m. The interview will take about 30 minutes. (2)______, please bring a copy of your résumé. If this time is not (3)______ for you, please call me at 555-0147. (4)______\n\nBest regards,\nLucy Park\nHR Manager"
+        },
+        {
+          "id": "p62-5",
+          "group": "p62-5",
+          "type": "choice",
+          "prompt": "第 5 個空格要填什麼？",
+          "options": [
+            "current",
+            "currently",
+            "currency",
+            "more current"
+          ],
+          "answer": "currently",
+          "explanation": "修飾 out of stock（缺貨），用副詞 currently（目前）。",
+          "text": "Dear Ms. Wong,\n\nWe have received your order for 20 office chairs. Unfortunately, the chairs you ordered are (5)______ out of stock. We expect to receive more next week. (6)______ We can also offer you a similar model in black at the same price. Please let us know which option you (7)______. We are sorry (8)______ the inconvenience.\n\nSincerely,\nTom Hill\nCustomer Service"
+        },
+        {
+          "id": "p62-6",
+          "group": "p62-6",
+          "type": "choice",
+          "prompt": "第 6 個空格要填什麼？",
+          "options": [
+            "We will ship your order as soon as they arrive.",
+            "Your chairs were delivered yesterday.",
+            "We do not sell office furniture."
+          ],
+          "answer": "We will ship your order as soon as they arrive.",
+          "explanation": "前一句說下週會進貨，接「一到貨就出貨」最合理。",
+          "text": "Dear Ms. Wong,\n\nWe have received your order for 20 office chairs. Unfortunately, the chairs you ordered are (5)______ out of stock. We expect to receive more next week. (6)______ We can also offer you a similar model in black at the same price. Please let us know which option you (7)______. We are sorry (8)______ the inconvenience.\n\nSincerely,\nTom Hill\nCustomer Service"
+        },
+        {
+          "id": "p62-7",
+          "group": "p62-7",
+          "type": "choice",
+          "prompt": "第 7 個空格要填什麼？",
+          "options": [
+            "prefer",
+            "preferring",
+            "preference",
+            "preferable"
+          ],
+          "answer": "prefer",
+          "explanation": "which option you ___：主詞 you 後面要接動詞 prefer。",
+          "text": "Dear Ms. Wong,\n\nWe have received your order for 20 office chairs. Unfortunately, the chairs you ordered are (5)______ out of stock. We expect to receive more next week. (6)______ We can also offer you a similar model in black at the same price. Please let us know which option you (7)______. We are sorry (8)______ the inconvenience.\n\nSincerely,\nTom Hill\nCustomer Service",
+          "optionNotes": {
+            "preference": "preference（名詞）是「偏好」"
+          }
+        },
+        {
+          "id": "p62-8",
+          "group": "p62-8",
+          "type": "choice",
+          "prompt": "第 8 個空格要填什麼？",
+          "options": [
+            "for",
+            "with",
+            "at",
+            "on"
+          ],
+          "answer": "for",
+          "explanation": "be sorry for ＋ 名詞：為…感到抱歉。",
+          "text": "Dear Ms. Wong,\n\nWe have received your order for 20 office chairs. Unfortunately, the chairs you ordered are (5)______ out of stock. We expect to receive more next week. (6)______ We can also offer you a similar model in black at the same price. Please let us know which option you (7)______. We are sorry (8)______ the inconvenience.\n\nSincerely,\nTom Hill\nCustomer Service"
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p62-x1",
+          "group": "p62-x1",
+          "type": "choice",
+          "prompt": "out of stock 是什麼意思？",
+          "options": [
+            "缺貨",
+            "特價",
+            "已寄出"
+          ],
+          "answer": "缺貨",
+          "explanation": "out of stock：沒有庫存、缺貨。in stock 是有貨。",
+          "promptSay": {
+            "text": "out of stock",
+            "audio": "assets/audio/prompts/out-of-stock.mp3"
+          }
+        },
+        {
+          "id": "p62-x2",
+          "group": "p62-x2",
+          "type": "choice",
+          "prompt": "inconvenience 是什麼意思？",
+          "options": [
+            "不便",
+            "便利商店",
+            "方便的"
+          ],
+          "answer": "不便",
+          "explanation": "sorry for the inconvenience：造成不便很抱歉。",
+          "promptSay": {
+            "text": "inconvenience",
+            "audio": "assets/audio/prompts/inconvenience.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

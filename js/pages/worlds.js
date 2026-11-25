@@ -13,7 +13,7 @@ export const SECTIONS = [
 ];
 export const WORLDS = [
   { id: 'words', no: 1, section: 'base', name: '單字基礎', en: 'First Words', icon: '🌱', topic: '生活與辦公室入門單字' },
-  { id: 'grammar', no: 2, section: 'base', name: '文法基礎', en: 'Grammar Basics', icon: '🏗️', topic: 'be 動詞、冠詞、名詞複數' },
+  { id: 'grammar', no: 2, section: 'base', name: '文法基礎', en: 'Grammar Basics', icon: '🏗️', topic: 'be 動詞、詞性、時態、介系詞、連接詞、關係代名詞、被動、比較級' },
   { id: 'phonics', no: 3, section: 'base', name: '發音基礎', en: 'Sounds', icon: '🔤', topic: '母音、子音組合、自然拼讀' },
   { id: 'part1', no: 4, section: 'listening', name: 'Part 1 照片描述', en: 'Photographs', icon: '📷', topic: '看照片，選出正確的描述' },
   { id: 'part2', no: 5, section: 'listening', name: 'Part 2 應答問題', en: 'Question-Response', icon: '💬', topic: '聽一句問話，選出最適合的回答' },

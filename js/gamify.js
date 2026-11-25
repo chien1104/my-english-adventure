@@ -12,6 +12,7 @@ export const EXP = {
   reviewSession: 10,   // 完成一次單字複習
   mistakeSession: 10,  // 完成一次錯題重練
   gameSession: 5,      // 玩完一局遊戲
+  listeningSession: 10, // 完成一輪聽力訓練
   dailyTask: 15,       // 完成一個每日任務
   dailyAll: 20,        // 當天任務全部完成
   challenge: 30,       // 完成每日挑戰

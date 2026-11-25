@@ -1,0 +1,242 @@
+{
+  "id": "toeic-p3-2",
+  "world": "part3",
+  "order": 5,
+  "type": "toeic-listen",
+  "title": "Part 3 三人對話與說話者意圖",
+  "titleEn": "Three Speakers & Intent",
+  "summary": "三個人一起說話，還有「說這句話是什麼意思」的題目。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "Part 3 有時候是三個人的對話，聲音和口音都不一樣（美式、英式都有）。不用記住誰是誰，只要聽懂「誰擔心什麼、誰要做什麼」。",
+        "意圖題長這樣：What does the woman mean when she says, \"We only have two days\"? 要從前後文判斷她的意思：時間太趕了。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "題目",
+          "中文",
+          "怎麼解"
+        ],
+        "rows": [
+          [
+            "What are the speakers mainly discussing?",
+            "主要在討論什麼？",
+            "聽開頭一兩句"
+          ],
+          [
+            "What is the man worried about?",
+            "男子擔心什麼？",
+            "聽 I'm worried about…"
+          ],
+          [
+            "What does the woman mean when she says \"…\"?",
+            "她說這句話是什麼意思？",
+            "看那句話的前一句"
+          ],
+          [
+            "What will the woman do next?",
+            "女子接下來會做什麼？",
+            "聽最後的 I'll…"
+          ]
+        ]
+      },
+      "tip": "意圖題的答案通常不是字面意思，要想「她為什麼這樣說」。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "I'm worried about parking.",
+          "zh": "我擔心停車的問題。",
+          "highlight": "worried",
+          "audio": "assets/audio/lessons/toeic-p3-2/ex1.mp3"
+        },
+        {
+          "en": "We only have two days.",
+          "zh": "我們只有兩天。",
+          "highlight": "only",
+          "audio": "assets/audio/lessons/toeic-p3-2/ex2.mp3"
+        },
+        {
+          "en": "That's great news.",
+          "zh": "那真是好消息。",
+          "highlight": "great",
+          "audio": "assets/audio/lessons/toeic-p3-2/ex3.mp3"
+        },
+        {
+          "en": "I'll start on it this afternoon.",
+          "zh": "我今天下午就開始做。",
+          "highlight": "start",
+          "audio": "assets/audio/lessons/toeic-p3-2/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再按 ▶ 聽對話。每段對話有 3 題。",
+      "questions": [
+        {
+          "id": "p32-c1-q1",
+          "group": "p32-c1-q1",
+          "type": "choice",
+          "prompt": "說話者主要在討論什麼？",
+          "options": [
+            "An office move",
+            "A business trip",
+            "A new train line"
+          ],
+          "answer": "An office move",
+          "explanation": "the office is moving to a new building：辦公室要搬家。\n逐字稿：W: Hi, Daniel, hi, Tom. Did you hear the office is moving to a new building next month?　M1: Yes. I heard it's near the train station. That will make my trip to work much shorter.　M2: Same for me. But I'm worried about parking. The new building doesn't have a parking lot.　W: Actually, the company is going to give everyone a free monthly train pass.　M2: Really? That's great news.",
+          "sentence": "What are the speakers mainly discussing?",
+          "audio": "assets/audio/toeic/p32-conv1.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "p32-c1-q2",
+          "group": "p32-c1-q2",
+          "type": "choice",
+          "prompt": "其中一名男子擔心什麼？",
+          "options": [
+            "Parking",
+            "The rent",
+            "A long meeting"
+          ],
+          "answer": "Parking",
+          "explanation": "I'm worried about parking. 新大樓沒有停車場。\n逐字稿：W: Hi, Daniel, hi, Tom. Did you hear the office is moving to a new building next month?　M1: Yes. I heard it's near the train station. That will make my trip to work much shorter.　M2: Same for me. But I'm worried about parking. The new building doesn't have a parking lot.　W: Actually, the company is going to give everyone a free monthly train pass.　M2: Really? That's great news.",
+          "sentence": "What is one of the men worried about?",
+          "audio": "assets/audio/toeic/p32-conv1.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "p32-c1-q3",
+          "group": "p32-c1-q3",
+          "type": "choice",
+          "prompt": "公司會提供什麼？",
+          "options": [
+            "A free train pass",
+            "A company car",
+            "Free lunch every day"
+          ],
+          "answer": "A free train pass",
+          "explanation": "give everyone a free monthly train pass：每個人一張免費的火車月票。\n逐字稿：W: Hi, Daniel, hi, Tom. Did you hear the office is moving to a new building next month?　M1: Yes. I heard it's near the train station. That will make my trip to work much shorter.　M2: Same for me. But I'm worried about parking. The new building doesn't have a parking lot.　W: Actually, the company is going to give everyone a free monthly train pass.　M2: Really? That's great news.",
+          "sentence": "What will the company provide?",
+          "audio": "assets/audio/toeic/p32-conv1.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "p32-c2-q1",
+          "group": "p32-c2-q1",
+          "type": "choice",
+          "prompt": "女子說「我們只有兩天」是什麼意思？",
+          "options": [
+            "She thinks the time is short.",
+            "She wants to take two days off.",
+            "She has finished the work."
+          ],
+          "answer": "She thinks the time is short.",
+          "explanation": "客戶要在星期五前改好，她說「只有兩天」，意思是時間很趕。\n逐字稿：M: Sarah, the client wants to change the design of the brochure by Friday.　W: By Friday? We only have two days.　M: I know. Can you work on it with Ken? I'll ask him to help.　W: OK. I'll start on it this afternoon.",
+          "sentence": "What does the woman mean when she says, \"We only have two days\"?",
+          "audio": "assets/audio/toeic/p32-conv2.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "p32-c2-q2",
+          "group": "p32-c2-q2",
+          "type": "choice",
+          "prompt": "男子說他會做什麼？",
+          "options": [
+            "Ask a coworker to help",
+            "Call the client",
+            "Change the deadline"
+          ],
+          "answer": "Ask a coworker to help",
+          "explanation": "I'll ask him（Ken）to help. coworker 是同事。\n逐字稿：M: Sarah, the client wants to change the design of the brochure by Friday.　W: By Friday? We only have two days.　M: I know. Can you work on it with Ken? I'll ask him to help.　W: OK. I'll start on it this afternoon.",
+          "sentence": "What does the man say he will do?",
+          "audio": "assets/audio/toeic/p32-conv2.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        },
+        {
+          "id": "p32-c2-q3",
+          "group": "p32-c2-q3",
+          "type": "choice",
+          "prompt": "女子什麼時候開始做小冊子？",
+          "options": [
+            "This afternoon",
+            "On Friday",
+            "Tomorrow morning"
+          ],
+          "answer": "This afternoon",
+          "explanation": "I'll start on it this afternoon.\n逐字稿：M: Sarah, the client wants to change the design of the brochure by Friday.　W: By Friday? We only have two days.　M: I know. Can you work on it with Ken? I'll ask him to help.　W: OK. I'll start on it this afternoon.",
+          "sentence": "When will the woman start working on the brochure?",
+          "audio": "assets/audio/toeic/p32-conv2.mp3",
+          "audioLabel": "▶ 播放對話",
+          "audioHint": "可以重複播放"
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p32-x1",
+          "group": "p32-x1",
+          "type": "choice",
+          "prompt": "coworker 是什麼意思？",
+          "options": [
+            "同事",
+            "客戶",
+            "主管"
+          ],
+          "answer": "同事",
+          "explanation": "coworker ＝ colleague：同事。",
+          "promptSay": {
+            "text": "coworker",
+            "audio": "assets/audio/prompts/coworker.mp3"
+          }
+        },
+        {
+          "id": "p32-x2",
+          "group": "p32-x2",
+          "type": "choice",
+          "prompt": "brochure 是什麼意思？",
+          "options": [
+            "小冊子、宣傳手冊",
+            "公事包",
+            "早餐"
+          ],
+          "answer": "小冊子、宣傳手冊",
+          "explanation": "brochure：介紹產品或服務的小冊子。",
+          "promptSay": {
+            "text": "brochure",
+            "audio": "assets/audio/prompts/brochure.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

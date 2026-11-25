@@ -9,6 +9,7 @@ export const MODES = {
 };
 export const MODE_IDS = Object.keys(MODES);
 export const NICKNAME_MAX = 20;
+export const PLAYBACK_RATES = [1, 0.8];
 
 export function defaultSettings() {
   const modeMinutes = {};
@@ -20,6 +21,7 @@ export function defaultSettings() {
     modeMinutes,
     todayMode: null,        // { date: 'YYYY-MM-DD', mode }
     persistRequest: null,   // { at: timestamp, supported, granted }
+    playbackRate: 1,        // 發音播放速度：1 或 0.8
   };
 }
 
@@ -51,6 +53,8 @@ export function sanitize(raw) {
   for (const id of MODE_IDS) {
     out.modeMinutes[id] = clampInt(mm[id], MODES[id].min, MODES[id].max, MODES[id].defaultMinutes);
   }
+
+  if (PLAYBACK_RATES.includes(raw.playbackRate)) out.playbackRate = raw.playbackRate;
 
   const t = raw.todayMode;
   if (t && typeof t.date === 'string' && MODE_IDS.includes(t.mode)) {

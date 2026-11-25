@@ -22,7 +22,7 @@ try:
     # 答對：不用捲動，自動下一題
     q=Q[pg.get_attribute('.q','data-qid')]; opts=pg.locator('.opt').all_inner_texts()
     pg.click(f'[data-opt="{opts.index(q["answer"])}"]'); pg.wait_for_selector('.feedback-sheet .feedback')
-    box=pg.locator('[data-role=feedback] [data-act=continue]').bounding_box()
+    pg.wait_for_timeout(450); box=pg.locator('[data-role=feedback] [data-act=continue]').bounding_box()  # 等滑入動畫結束
     check('答對後「繼續」在畫面內，不用往下滑', box and box['y']+box['height'] <= 844, str(box))
     pg.wait_for_timeout(300); pg.screenshot(path='shots/fb-correct.png')
     first=q['id']; pg.wait_for_timeout(1500)
@@ -30,7 +30,7 @@ try:
     # 答錯：停住等按繼續
     q=Q[pg.get_attribute('.q','data-qid')]; opts=pg.locator('.opt').all_inner_texts()
     pg.click(f'[data-opt="{next(i for i,o in enumerate(opts) if o!=q["answer"])}"]'); pg.wait_for_selector('.feedback-sheet .feedback')
-    box=pg.locator('[data-role=feedback] [data-act=continue]').bounding_box()
+    pg.wait_for_timeout(450); box=pg.locator('[data-role=feedback] [data-act=continue]').bounding_box()  # 等滑入動畫結束
     check('答錯後「繼續」在畫面內', box and box['y']+box['height'] <= 844, str(box))
     pg.wait_for_timeout(400)
     sb=pg.locator('.feedback-sheet').bounding_box()

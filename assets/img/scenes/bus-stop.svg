@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="公車站：有遮雨棚和公車站牌，下面有一張空的長椅，沒有人在等車">
+<title>公車站：有遮雨棚和公車站牌，下面有一張空的長椅，沒有人在等車</title>
+<rect width="320" height="200" fill="#F4ECDF"/>
+
+<rect y="150" width="320" height="50" fill="#B8AFA3"/><rect y="144" width="320" height="8" fill="#E2D2BC"/>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M60 144V60M200 144V60" fill="none"/><path d="M48 60h164l-8-14H56z" fill="#8DB3D9"/></g>
+<rect x="70" y="70" width="120" height="50" fill="#FFFFFF" fill-opacity=".55" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><rect x="84" y="122" width="92" height="8" fill="#B9774F"/><path d="M92 130v14M168 130v14" fill="none"/></g>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M260 144V54" fill="none"/><circle cx="260" cy="44" r="16" fill="#FFFFFF"/></g><text x="260" y="49" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#4E3424">BUS</text>
+</svg>

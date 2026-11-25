@@ -97,6 +97,13 @@ export function renderQuestion(container, q, { wordsMap = new Map(), passage = n
   container.querySelector('[data-act="skip"]')?.addEventListener('click', () => send(null));
 }
 
+// 錯誤選項逐一解析：列出每個錯誤選項為什麼不對（有資料才顯示）
+export function optionNotesHTML(q) {
+  const notes = q.optionNotes ? Object.entries(q.optionNotes) : [];
+  if (!notes.length) return '';
+  return `<ul class="opt-notes">${notes.map(([o, n]) => `<li><span class="opt-notes__x" aria-hidden="true">✕</span><span class="en">${escapeHTML(o)}</span>：${escapeHTML(n)}</li>`).join('')}</ul>`;
+}
+
 // 作答後鎖住畫面並標出對錯
 export function lockQuestion(container, q, answer, correct) {
   container.querySelectorAll('button, input').forEach((el) => { if (!el.closest('.feedback') && !el.matches('[data-play]')) el.disabled = true; });
@@ -121,6 +128,7 @@ export function feedbackHTML(result, { followUpText = true } = {}) {
     <div class="feedback ${correct ? 'feedback--good' : 'feedback--bad'}" role="status">
       <p class="feedback__title">${correct ? '✅ 答對了！' : '❌ 再想想看'}</p>
       ${correct ? '' : `<p>你的答案：<span class="en">${escapeHTML(yourText)}</span></p><p>正確答案：<strong class="en">${escapeHTML(correctText)}</strong></p>`}
+      ${!correct && q.optionNotes?.[yourText] ? `<p class="feedback__why">🔍 你選的 <span class="en">${escapeHTML(yourText)}</span>：${escapeHTML(q.optionNotes[yourText])}</p>` : ''}
       <p class="feedback__exp pre">${escapeHTML(q.explanation || '')}</p>
       ${extra}
     </div>`;

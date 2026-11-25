@@ -7,7 +7,8 @@ import json, os, re, sys, glob, unicodedata
 ROOT = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else '.')
 HERE = os.path.dirname(os.path.abspath(__file__))
 MAN_F = os.path.join(HERE, 'audio_manifest.json')
-NAMES = {'Amy', 'Ken', 'Kevin', 'Mike', 'Sarah'}  # 人名不是要學的單字，不加
+NAMES = {'Amy', 'Ken', 'Kevin', 'Mike', 'Sarah', 'Lisa', 'Peter', 'Ortiz', 'Clark', 'Ben', 'Tom', 'Daniel', 'Emma', 'David'}  # 人名不是要學的單字，不加
+NAMES |= {'Wh', 'A or B', 'Yes', 'No'}  # 文法說明用的代號，不是要學的英文
 SEG = re.compile(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'’.\- ]*[A-Za-zÀ-ÿ.]|[A-Za-zÀ-ÿ]")
 SPOKEN = {'be': 'be.'}  # 單獨一個 be 唸清楚一點
 
@@ -26,13 +27,18 @@ def audio_for(text):
     man[path] = {'segments': [['af_heart', SPOKEN.get(text, text)]], 'kind': 'word' if single else 'sentence'}
     return path
 
+def is_name(seg):
+    # 人名、公司名（每個字都大寫開頭、不是句子），例如 Mori、Hart Design；但 I'm、OK 這類不算
+    words = seg.split()
+    return all(w[0].isupper() and w[1:].islower() for w in words) and seg[-1] not in '.?!' and seg not in {'I'}
+
 count = 0
 def walk(o):
     global count
     if isinstance(o, dict):
         if 'prompt' in o and 'type' in o:
             o.pop('promptSay', None)
-            segs = [s.strip() for s in SEG.findall(o['prompt']) if s.strip() not in NAMES]
+            segs = [s.strip() for s in SEG.findall(o['prompt']) if s.strip() not in NAMES and not is_name(s.strip())]
             if segs:
                 text = segs[0]
                 o['promptSay'] = {'text': text, 'audio': audio_for(text)}

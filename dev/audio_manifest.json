@@ -2150,7 +2150,8 @@
     "Great. I'll move our things there now."
    ]
   ],
-  "kind": "sentence"
+  "kind": "sentence",
+  "accent": "gb"
  },
  "assets/audio/toeic/p4-talk1.mp3": {
   "segments": [
@@ -2198,7 +2199,8 @@
     "Good morning, everyone. Welcome to the City Art Museum. Today's tour will take about one hour. We will start on the second floor with paintings from Europe. Please do not take photos inside the museum. Now, please follow me."
    ]
   ],
-  "kind": "sentence"
+  "kind": "sentence",
+  "accent": "gb"
  },
  "assets/audio/toeic/m-p1-1.mp3": {
   "segments": [
@@ -2326,6 +2328,3910 @@
   ],
   "kind": "sentence"
  },
+ "assets/audio/lessons/grammar-4/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "We made a quick decision."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-4/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Please check the numbers carefully."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-4/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "The new product is very successful."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/grammar-4/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The company will expand next year."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-5/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "He works at a bank."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-5/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "We usually start at nine."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-5/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "I sent the email yesterday."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/grammar-5/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Did you finish the report?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-6/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The man is reading a newspaper."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-6/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "They are setting up the room."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-6/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "The meeting will start at three."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/grammar-6/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "We are going to move next month."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-7/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The meeting is on Monday."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-7/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "The store opens at nine."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-7/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Please submit the form by Friday."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/grammar-7/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "No phones during the presentation."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-8/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The hotel is small but clean."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-8/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "I stayed home because I was sick."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-8/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "The bus was late, so I took a taxi."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/grammar-8/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Although it was raining, we played tennis."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-9/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The woman who called you is my boss."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-9/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "This is the report which I wrote."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-9/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "I have a friend who lives in Paris."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/grammar-9/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "He is the client whose order was late."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-10/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Breakfast is served from 7 to 10."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-10/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "The meeting was postponed."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-10/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "The building was built in 1990."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/grammar-10/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "All forms must be signed."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-11/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "This hotel is cheaper than that one."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-11/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Taipei 101 is the tallest building in Taiwan."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/grammar-11/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "This model is more expensive than the old one."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/grammar-11/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "She is the best salesperson on the team."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p12-boxes-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Some boxes are stacked on the floor."
+   ],
+   [
+    "am_michael",
+    "B. The door is closed."
+   ],
+   [
+    "am_michael",
+    "C. A man is carrying a box."
+   ],
+   [
+    "am_michael",
+    "D. The boxes are on a truck."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p12-lobby-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A sofa is next to a window."
+   ],
+   [
+    "am_michael",
+    "B. A woman is sitting on the sofa."
+   ],
+   [
+    "am_michael",
+    "C. A picture is hanging on the wall."
+   ],
+   [
+    "am_michael",
+    "D. The lamp is broken."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p12-kitchen-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The cabinet doors are open."
+   ],
+   [
+    "am_michael",
+    "B. Some cups are on a shelf."
+   ],
+   [
+    "am_michael",
+    "C. A woman is making coffee."
+   ],
+   [
+    "am_michael",
+    "D. The microwave is on the floor."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p12-room-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A man is giving a presentation."
+   ],
+   [
+    "am_michael",
+    "B. The whiteboard is on the floor."
+   ],
+   [
+    "am_michael",
+    "C. The cups are being washed."
+   ],
+   [
+    "am_michael",
+    "D. No one is in the meeting room."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p12-boxes-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The cart is full of boxes."
+   ],
+   [
+    "am_michael",
+    "B. A door has been left open."
+   ],
+   [
+    "am_michael",
+    "C. Some boxes are being opened."
+   ],
+   [
+    "am_michael",
+    "D. The floor is wet."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p12-lobby-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A plant is on the sofa."
+   ],
+   [
+    "am_michael",
+    "B. Some people are waiting in the lobby."
+   ],
+   [
+    "am_michael",
+    "C. The picture is lying on the floor."
+   ],
+   [
+    "am_michael",
+    "D. A lamp is standing next to the sofa."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p12-kitchen-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A microwave is on the counter."
+   ],
+   [
+    "am_michael",
+    "B. The shelf is empty."
+   ],
+   [
+    "am_michael",
+    "C. Someone is washing the cups."
+   ],
+   [
+    "am_michael",
+    "D. A kettle is on the shelf."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p12-room-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Some cups have been placed on the table."
+   ],
+   [
+    "am_michael",
+    "B. The chairs are being moved."
+   ],
+   [
+    "am_michael",
+    "C. People are drinking coffee."
+   ],
+   [
+    "am_michael",
+    "D. There is nothing on the table."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p1-2/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The door is open."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p1-2/ex2.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Some boxes are stacked on the floor."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p1-2/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "A picture is hanging on the wall."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p1-2/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "No one is in the meeting room."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p13-market-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Fruit is being picked from a tree."
+   ],
+   [
+    "am_michael",
+    "B. Some fruit has been placed in baskets."
+   ],
+   [
+    "am_michael",
+    "C. A customer is paying for fruit."
+   ],
+   [
+    "am_michael",
+    "D. The baskets are empty."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p13-rest-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A waiter is setting the table."
+   ],
+   [
+    "am_michael",
+    "B. The plates are being washed."
+   ],
+   [
+    "am_michael",
+    "C. The table has been set for two people."
+   ],
+   [
+    "am_michael",
+    "D. Two people are eating dinner."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p13-bags-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Suitcases are being loaded onto a plane."
+   ],
+   [
+    "am_michael",
+    "B. Some suitcases have been lined up in a row."
+   ],
+   [
+    "am_michael",
+    "C. A traveler is opening a bag."
+   ],
+   [
+    "am_michael",
+    "D. The window is being cleaned."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p13-desk-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The laptop is being repaired."
+   ],
+   [
+    "am_michael",
+    "B. A plant has been placed next to the laptop."
+   ],
+   [
+    "am_michael",
+    "C. Someone is typing on the laptop."
+   ],
+   [
+    "am_michael",
+    "D. The desk is being moved."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p13-market-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Fruit is displayed in baskets."
+   ],
+   [
+    "am_michael",
+    "B. The awning is being repaired."
+   ],
+   [
+    "am_michael",
+    "C. A man is selling vegetables."
+   ],
+   [
+    "am_michael",
+    "D. The table is being cleaned."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p13-rest-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The chairs are being stacked."
+   ],
+   [
+    "am_michael",
+    "B. Some flowers have been put in a vase."
+   ],
+   [
+    "am_michael",
+    "C. Someone is pouring water."
+   ],
+   [
+    "am_michael",
+    "D. The glasses are full of juice."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p13-bags-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. An airplane can be seen through the window."
+   ],
+   [
+    "am_michael",
+    "B. The suitcases are being carried."
+   ],
+   [
+    "am_michael",
+    "C. People are boarding the plane."
+   ],
+   [
+    "am_michael",
+    "D. The bags are on a cart."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p13-desk-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The laptop has been left open."
+   ],
+   [
+    "am_michael",
+    "B. A woman is watering the plant."
+   ],
+   [
+    "am_michael",
+    "C. The chair is being cleaned."
+   ],
+   [
+    "am_michael",
+    "D. Papers are being printed."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p1-3/ex1.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Some fruit has been placed in baskets."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p1-3/ex2.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The table has been set for two people."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p1-3/ex3.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Some suitcases have been lined up in a row."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p1-3/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "The table is being cleaned."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p14-street-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A car is parked on the street."
+   ],
+   [
+    "am_michael",
+    "B. A bus is stopping at the light."
+   ],
+   [
+    "am_michael",
+    "C. People are crossing the road."
+   ],
+   [
+    "am_michael",
+    "D. The building is being built."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p14-stop-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. People are waiting for a bus."
+   ],
+   [
+    "am_michael",
+    "B. A bus is arriving."
+   ],
+   [
+    "am_michael",
+    "C. The bench is being painted."
+   ],
+   [
+    "am_michael",
+    "D. No one is sitting on the bench."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p14-park-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The bench is occupied."
+   ],
+   [
+    "am_michael",
+    "B. The sun is shining in the sky."
+   ],
+   [
+    "am_michael",
+    "C. It is raining."
+   ],
+   [
+    "am_michael",
+    "D. Some children are riding bikes."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p14-road-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The road is being repaired."
+   ],
+   [
+    "am_michael",
+    "B. A car is driving into a garage."
+   ],
+   [
+    "am_michael",
+    "C. There is a tree beside the road."
+   ],
+   [
+    "am_michael",
+    "D. Trucks are parked in a row."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p14-street-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A tree is being cut down."
+   ],
+   [
+    "am_michael",
+    "B. Cars are waiting at a traffic light."
+   ],
+   [
+    "am_michael",
+    "C. A traffic light is next to a building."
+   ],
+   [
+    "am_michael",
+    "D. The street is crowded."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p14-stop-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A bus stop sign is next to a shelter."
+   ],
+   [
+    "am_michael",
+    "B. Some passengers are getting off a bus."
+   ],
+   [
+    "am_michael",
+    "C. The bench is covered with snow."
+   ],
+   [
+    "am_michael",
+    "D. A man is reading a sign."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p14-park-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Leaves are being raked."
+   ],
+   [
+    "am_michael",
+    "B. A bicycle has been parked near a tree."
+   ],
+   [
+    "am_michael",
+    "C. A woman is sitting on the bench."
+   ],
+   [
+    "am_michael",
+    "D. The bicycle is lying on the grass."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p14-road-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A bus is parked at the stop."
+   ],
+   [
+    "am_michael",
+    "B. There is a roof over the bench."
+   ],
+   [
+    "am_michael",
+    "C. People are standing in line."
+   ],
+   [
+    "am_michael",
+    "D. The sign is lying on the ground."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p1-4/ex1.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "A car is parked on the street."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p1-4/ex2.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "No one is sitting on the bench."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p1-4/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "There is a tree beside the road."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p1-4/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "There is a roof over the bench."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p15-market-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The fruit is being weighed."
+   ],
+   [
+    "am_michael",
+    "B. There are price signs in front of the baskets."
+   ],
+   [
+    "am_michael",
+    "C. The stand is closed."
+   ],
+   [
+    "am_michael",
+    "D. A shopper is holding a basket."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p15-boxes-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A hand truck is next to the boxes."
+   ],
+   [
+    "am_michael",
+    "B. Workers are moving boxes."
+   ],
+   [
+    "am_michael",
+    "C. The door is being locked."
+   ],
+   [
+    "am_michael",
+    "D. The boxes have been opened."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p15-kitchen-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A kettle is on the counter."
+   ],
+   [
+    "am_michael",
+    "B. Someone is heating food."
+   ],
+   [
+    "am_michael",
+    "C. The cups are being washed."
+   ],
+   [
+    "am_michael",
+    "D. The cabinets are open."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p15-bags-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The suitcases are different colors."
+   ],
+   [
+    "am_michael",
+    "B. Travelers are checking in."
+   ],
+   [
+    "am_michael",
+    "C. A plane is landing on the road."
+   ],
+   [
+    "am_michael",
+    "D. The bags are being opened."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p15-market-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Vegetables are piled on the ground."
+   ],
+   [
+    "am_michael",
+    "B. A worker is setting up the awning."
+   ],
+   [
+    "am_michael",
+    "C. Some fruit is on display under an awning."
+   ],
+   [
+    "am_michael",
+    "D. The baskets are stacked on top of each other."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p15-boxes-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The boxes are on a shelf."
+   ],
+   [
+    "am_michael",
+    "B. Some boxes are piled on top of each other."
+   ],
+   [
+    "am_michael",
+    "C. A man is pushing a cart."
+   ],
+   [
+    "am_michael",
+    "D. The door is being painted."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p15-kitchen-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The microwave door is open."
+   ],
+   [
+    "am_michael",
+    "B. Some cups have been put on a shelf."
+   ],
+   [
+    "am_michael",
+    "C. Water is boiling in a pot."
+   ],
+   [
+    "am_michael",
+    "D. A man is cleaning the counter."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p15-bags-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. The sofa is being moved."
+   ],
+   [
+    "am_michael",
+    "B. A guest is reading on the sofa."
+   ],
+   [
+    "am_michael",
+    "C. There is a plant in the corner."
+   ],
+   [
+    "am_michael",
+    "D. The picture is being taken down."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p1-5/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "There are price signs in front of the baskets."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p1-5/ex2.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "A hand truck is next to the boxes."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p1-5/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "A kettle is on the counter."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p1-5/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "The suitcases are different colors."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p22-time-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "What time does the store close?"
+   ],
+   [
+    "af_heart",
+    "A. At nine o'clock."
+   ],
+   [
+    "af_heart",
+    "B. It's close to the station."
+   ],
+   [
+    "af_heart",
+    "C. Yes, it is."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p22-which-a.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Which bus goes to the airport?"
+   ],
+   [
+    "af_heart",
+    "A. About an hour."
+   ],
+   [
+    "af_heart",
+    "B. The number fifteen."
+   ],
+   [
+    "af_heart",
+    "C. Yes, I'm going."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p22-much-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "How much is this jacket?"
+   ],
+   [
+    "bm_george",
+    "A. It's forty dollars."
+   ],
+   [
+    "bm_george",
+    "B. Yes, very much."
+   ],
+   [
+    "bm_george",
+    "C. In the blue box."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p22-long-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "How long will the meeting last?"
+   ],
+   [
+    "af_heart",
+    "A. In the main hall."
+   ],
+   [
+    "af_heart",
+    "B. It's a long table."
+   ],
+   [
+    "af_heart",
+    "C. About one hour."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p22-whose-a.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Whose umbrella is this?"
+   ],
+   [
+    "bf_emma",
+    "A. It's raining."
+   ],
+   [
+    "bf_emma",
+    "B. I think it's Kevin's."
+   ],
+   [
+    "bf_emma",
+    "C. Yes, it is."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p22-time-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "What time is your flight?"
+   ],
+   [
+    "af_heart",
+    "A. Gate twenty."
+   ],
+   [
+    "af_heart",
+    "B. It leaves at noon."
+   ],
+   [
+    "af_heart",
+    "C. I flew to Paris."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p22-which-b.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Which room is the meeting in?"
+   ],
+   [
+    "af_heart",
+    "A. Room three oh two."
+   ],
+   [
+    "af_heart",
+    "B. At two o'clock."
+   ],
+   [
+    "af_heart",
+    "C. I meet him often."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p22-much-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "How much does the ticket cost?"
+   ],
+   [
+    "bm_george",
+    "A. At the ticket office."
+   ],
+   [
+    "bm_george",
+    "B. Twelve dollars."
+   ],
+   [
+    "bm_george",
+    "C. It takes two hours."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p22-long-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "How long have you worked here?"
+   ],
+   [
+    "af_heart",
+    "A. For three years."
+   ],
+   [
+    "af_heart",
+    "B. Every day."
+   ],
+   [
+    "af_heart",
+    "C. It's a long way."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p22-whose-b.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Whose turn is it to clean the kitchen?"
+   ],
+   [
+    "bf_emma",
+    "A. It's Maria's."
+   ],
+   [
+    "bf_emma",
+    "B. Turn left."
+   ],
+   [
+    "bf_emma",
+    "C. The kitchen is big."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-2/ex1.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "What time does the store close?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p2-2/ex2.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Which bus goes to the airport?"
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-2/ex3.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "How much is this jacket?"
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-2/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "How long will the meeting last?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p23-drink-a.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Would you like tea or coffee?"
+   ],
+   [
+    "af_heart",
+    "A. Yes, please."
+   ],
+   [
+    "af_heart",
+    "B. Coffee, please."
+   ],
+   [
+    "af_heart",
+    "C. At the café."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p23-walk-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Should we take a taxi or walk?"
+   ],
+   [
+    "af_heart",
+    "A. It's only five minutes, so let's walk."
+   ],
+   [
+    "af_heart",
+    "B. I talked to him."
+   ],
+   [
+    "af_heart",
+    "C. Yes, a taxi driver."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p23-color-a.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Do you prefer the red one or the blue one?"
+   ],
+   [
+    "af_heart",
+    "A. Either is fine with me."
+   ],
+   [
+    "af_heart",
+    "B. I read it yesterday."
+   ],
+   [
+    "af_heart",
+    "C. Yes, I prefer."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p23-pay-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Will you pay by cash or credit card?"
+   ],
+   [
+    "bf_emma",
+    "A. Credit card, please."
+   ],
+   [
+    "bf_emma",
+    "B. It's very expensive."
+   ],
+   [
+    "bf_emma",
+    "C. I'll pay attention."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p23-file-a.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Should I email the file or print it?"
+   ],
+   [
+    "bm_george",
+    "A. Just email it, please."
+   ],
+   [
+    "bm_george",
+    "B. The printer is new."
+   ],
+   [
+    "bm_george",
+    "C. Yes, the file."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p23-drink-b.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Do you want to sit inside or outside?"
+   ],
+   [
+    "af_heart",
+    "A. Outside, if it's not too cold."
+   ],
+   [
+    "af_heart",
+    "B. Yes, I do."
+   ],
+   [
+    "af_heart",
+    "C. It's a nice seat."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p23-walk-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Is the meeting on Monday or Tuesday?"
+   ],
+   [
+    "af_heart",
+    "A. Yes, on Monday."
+   ],
+   [
+    "af_heart",
+    "B. It's on Tuesday."
+   ],
+   [
+    "af_heart",
+    "C. Every week."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p23-color-b.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Would you like a window seat or an aisle seat?"
+   ],
+   [
+    "af_heart",
+    "A. I don't mind."
+   ],
+   [
+    "af_heart",
+    "B. Yes, I would."
+   ],
+   [
+    "af_heart",
+    "C. The window is open."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p23-pay-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Are you driving or taking the train?"
+   ],
+   [
+    "bf_emma",
+    "A. I'll take the train."
+   ],
+   [
+    "bf_emma",
+    "B. Yes, it's raining."
+   ],
+   [
+    "bf_emma",
+    "C. He's a good driver."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p23-file-b.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Do you want to eat now or later?"
+   ],
+   [
+    "bm_george",
+    "A. Let's eat later."
+   ],
+   [
+    "bm_george",
+    "B. Yes, it's late."
+   ],
+   [
+    "bm_george",
+    "C. I ate a sandwich yesterday."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-3/ex1.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Would you like tea or coffee?"
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-3/ex2.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Either is fine with me."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p2-3/ex3.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "I don't mind."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-3/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Coffee, please."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p24-where-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Where is the sales report?"
+   ],
+   [
+    "bf_emma",
+    "A. Ms. Park has it."
+   ],
+   [
+    "bf_emma",
+    "B. Sales are up."
+   ],
+   [
+    "bf_emma",
+    "C. Yes, it is."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p24-when-a.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "When does the new manager start?"
+   ],
+   [
+    "af_heart",
+    "A. I haven't heard yet."
+   ],
+   [
+    "af_heart",
+    "B. At the front desk."
+   ],
+   [
+    "af_heart",
+    "C. Yes, she started a business."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p24-paper-a.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "The printer is out of paper again."
+   ],
+   [
+    "af_heart",
+    "A. I'll get some more."
+   ],
+   [
+    "af_heart",
+    "B. Yes, I printed it."
+   ],
+   [
+    "af_heart",
+    "C. It's on the paper."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p24-why-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Why is the store closed today?"
+   ],
+   [
+    "af_heart",
+    "A. Because it's a holiday."
+   ],
+   [
+    "af_heart",
+    "B. Close the door, please."
+   ],
+   [
+    "af_heart",
+    "C. Since nine o'clock."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p24-cold-a.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "It's very cold in this room."
+   ],
+   [
+    "bf_emma",
+    "A. I'll turn up the heat."
+   ],
+   [
+    "bf_emma",
+    "B. It's a large room."
+   ],
+   [
+    "bf_emma",
+    "C. Yes, I have a cold."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p24-where-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Where did you put the keys?"
+   ],
+   [
+    "bf_emma",
+    "A. They're key points."
+   ],
+   [
+    "bf_emma",
+    "B. Check the top drawer."
+   ],
+   [
+    "bf_emma",
+    "C. Yes, I did."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p24-when-b.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Who is going to lead the training?"
+   ],
+   [
+    "af_heart",
+    "A. Let me check the schedule."
+   ],
+   [
+    "af_heart",
+    "B. The train was late."
+   ],
+   [
+    "af_heart",
+    "C. In room five."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p24-paper-b.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "I can't find my phone."
+   ],
+   [
+    "af_heart",
+    "A. Did you check your bag?"
+   ],
+   [
+    "af_heart",
+    "B. It's a new phone number."
+   ],
+   [
+    "af_heart",
+    "C. Yes, I can."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p24-why-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Why didn't you come to the party?"
+   ],
+   [
+    "af_heart",
+    "A. I had to work late."
+   ],
+   [
+    "af_heart",
+    "B. It was a great party."
+   ],
+   [
+    "af_heart",
+    "C. Yes, I came."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p24-cold-b.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "The client is waiting in the lobby."
+   ],
+   [
+    "bf_emma",
+    "A. I'll be right there."
+   ],
+   [
+    "bf_emma",
+    "B. She is a good client."
+   ],
+   [
+    "bf_emma",
+    "C. The lobby is on the first floor."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-4/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I haven't heard yet."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p2-4/ex2.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Let me check the schedule."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-4/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "I'll get some more."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-4/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Did you check your bag?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p25-neg-a.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Didn't you receive my email?"
+   ],
+   [
+    "af_heart",
+    "A. Yes, I'm reading it now."
+   ],
+   [
+    "af_heart",
+    "B. I'll mail the letter."
+   ],
+   [
+    "af_heart",
+    "C. No, she didn't."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p25-tag-a.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "You're coming to the meeting, aren't you?"
+   ],
+   [
+    "af_heart",
+    "A. Yes, I'll be there."
+   ],
+   [
+    "af_heart",
+    "B. It's in Room B."
+   ],
+   [
+    "af_heart",
+    "C. No, he isn't."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p25-why-a.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Why don't we take a break?"
+   ],
+   [
+    "bf_emma",
+    "A. Because I'm busy."
+   ],
+   [
+    "bf_emma",
+    "B. That's a good idea."
+   ],
+   [
+    "bf_emma",
+    "C. It's broken."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p25-req-a.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Could you help me carry these boxes?"
+   ],
+   [
+    "af_heart",
+    "A. Sure, where do they go?"
+   ],
+   [
+    "af_heart",
+    "B. Yes, they're boxes."
+   ],
+   [
+    "af_heart",
+    "C. I carried it."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p25-offer-a.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Shall I book a hotel for you?"
+   ],
+   [
+    "af_heart",
+    "A. Yes, that would be great."
+   ],
+   [
+    "af_heart",
+    "B. I read that book."
+   ],
+   [
+    "af_heart",
+    "C. At the hotel."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p25-neg-b.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Isn't the restaurant open today?"
+   ],
+   [
+    "af_heart",
+    "A. No, it's closed on Mondays."
+   ],
+   [
+    "af_heart",
+    "B. I'd like to order."
+   ],
+   [
+    "af_heart",
+    "C. Yes, they did."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p25-tag-b.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "The report is due today, isn't it?"
+   ],
+   [
+    "af_heart",
+    "A. No, it's due tomorrow."
+   ],
+   [
+    "af_heart",
+    "B. I read the report."
+   ],
+   [
+    "af_heart",
+    "C. Yes, he did."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p25-why-b.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Why don't you ask Mr. Tanaka for help?"
+   ],
+   [
+    "bf_emma",
+    "A. Because he helped me."
+   ],
+   [
+    "bf_emma",
+    "B. OK, I'll call him now."
+   ],
+   [
+    "bf_emma",
+    "C. Yes, he is."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p25-req-b.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Would you mind closing the window?"
+   ],
+   [
+    "af_heart",
+    "A. Not at all."
+   ],
+   [
+    "af_heart",
+    "B. It's a nice view."
+   ],
+   [
+    "af_heart",
+    "C. Yes, it's closed."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p25-offer-b.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Do you want me to make copies of the handout?"
+   ],
+   [
+    "af_heart",
+    "A. Yes, twenty copies, please."
+   ],
+   [
+    "af_heart",
+    "B. Coffee, please."
+   ],
+   [
+    "af_heart",
+    "C. He made it."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-5/ex1.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Didn't you receive my email?"
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-5/ex2.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Why don't we take a break?"
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p2-5/ex3.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Would you mind closing the window?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p2-5/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Shall I book a hotel for you?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p32-conv1.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Hi, Daniel, hi, Tom. Did you hear the office is moving to a new building next month?"
+   ],
+   [
+    "am_michael",
+    "Yes. I heard it's near the train station. That will make my trip to work much shorter."
+   ],
+   [
+    "bm_george",
+    "Same for me. But I'm worried about parking. The new building doesn't have a parking lot."
+   ],
+   [
+    "bf_emma",
+    "Actually, the company is going to give everyone a free monthly train pass."
+   ],
+   [
+    "bm_george",
+    "Really? That's great news."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p32-conv2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Sarah, the client wants to change the design of the brochure by Friday."
+   ],
+   [
+    "af_heart",
+    "By Friday? We only have two days."
+   ],
+   [
+    "am_michael",
+    "I know. Can you work on it with Ken? I'll ask him to help."
+   ],
+   [
+    "af_heart",
+    "OK. I'll start on it this afternoon."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p3-2/ex1.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "I'm worried about parking."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p3-2/ex2.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "We only have two days."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p3-2/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "That's great news."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p3-2/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "I'll start on it this afternoon."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p42-talk1.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Are you looking for a new sofa? Come to Home Style Furniture this weekend! Everything in the store is thirty percent off. We are open from ten a.m. to eight p.m. on Saturday and Sunday. And if you spend more than five hundred dollars, we will deliver your furniture for free."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p42-talk2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Want to learn a new language? City Language School offers small classes in English, Japanese, and Spanish. Classes start on June first. Sign up before May twentieth and get your first month free. Visit our website to see the full schedule."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p4-2/ex1.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Everything in the store is thirty percent off."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p4-2/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "We will deliver your furniture for free."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p4-2/ex3.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Sign up before May twentieth."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p4-2/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Visit our website to see the full schedule."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p43-talk1.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Good morning, everyone. Before we start, I have an announcement. Our new computer system will be installed this Friday. Because of this, you won't be able to use your computers on Friday afternoon. Please save all your files before noon. If you have any questions, please contact Lisa in the IT department."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/p43-talk2.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Hello, everyone. I'm happy to tell you that our team sold more products this quarter than ever before. Sales went up fifteen percent. To thank you for your hard work, we will have a team dinner next Thursday at Rosa's Italian Restaurant. Please let me know by Monday if you can come."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p4-3/ex1.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Our new computer system will be installed this Friday."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p4-3/ex2.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Please save all your files before noon."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p4-3/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Sales went up fifteen percent."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p4-3/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Please let me know by Monday."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p44-talk1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Good evening. Here is the weather report. Tomorrow will be sunny in the morning, but heavy rain is expected in the afternoon. So if you are going out, don't forget your umbrella. The rain will stop on Sunday, and it will be warm and sunny again next week."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p44-talk2.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Welcome to Greenfield Chocolate Factory. My name is Peter, and I'll be your guide today. First, we will see how our chocolate is made. After that, you can taste five kinds of chocolate in our tasting room. The tour will end at the gift shop, where you can buy chocolate for your friends. Please remember that taking photos is not allowed in the factory."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p4-4/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Heavy rain is expected in the afternoon."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p4-4/ex2.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Don't forget your umbrella."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p4-4/ex3.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "I'll be your guide today."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p4-4/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Taking photos is not allowed."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p45-talk1.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Hi, Ms. Garcia. This is David from Quick Car Repair. Your car is ready. We fixed the brakes and changed the oil. The total cost is two hundred and ten dollars. We close at six today, so please come before then. Oh, and we found a small problem with one of the tires. Well, it's not urgent, but you might want to replace it soon."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/p45-talk2.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Hello, this is Emma Wilson calling from Brightway Hotel. I'm calling about your reservation for next weekend. Unfortunately, the room with a sea view is no longer available. However, we can offer you a larger room with a garden view at the same price. Please call me back at five five five, two four eight one, to let me know if this is OK."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p4-5/ex1.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Your car is ready."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p4-5/ex2.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "It's not urgent."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p4-5/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "I'm calling about your reservation."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p4-5/ex4.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Please call me back."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-2/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The new branch will open next month."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-2/ex2.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "All orders are shipped within two business days."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p5-2/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Ms. Tanaka has worked here since 2018."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p5-2/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Each employee receives a parking card."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-3/ex1.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Please send me the file by Friday."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p5-3/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Mr. Lee forgot his umbrella."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-3/ex3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Ms. Ito finished the project by herself."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-3/ex4.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "The company thanked its employees."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p5-4/ex1.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "The game was canceled because of the rain."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p5-4/ex2.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Although it was raining, we went hiking."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-4/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Despite the high price, the tickets sold out quickly."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p5-4/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Please do not talk during the movie."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-5/ex1.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "I would like to make a reservation for two."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p5-5/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Customers can place an order online."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-5/ex3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "All staff must attend the safety training."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p5-5/ex4.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "We need to meet the deadline."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p6-2/ex1.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Thank you for applying for the position."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p6-2/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "We look forward to meeting you."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p6-2/ex3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The chairs are currently out of stock."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p6-2/ex4.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "We are sorry for the inconvenience."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p6-3/ex1.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "The elevators will be inspected on Saturday."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p6-3/ex2.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "We thank you for your patience."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p6-3/ex3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The library will extend its hours."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p6-3/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "For more information, please visit our website."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p6-4/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "First, place a cup under the spout."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p6-4/ex2.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Next, choose the type of coffee you want."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p6-4/ex3.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "The bakery is known for its fresh bread."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p6-4/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "She will use the prize money to expand her shop."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p7-2/ex1.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Please take all personal items off the floor."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p7-2/ex2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "The office will be closed on Saturday."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p7-2/ex3.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "We suggest that you store some water."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p7-2/ex4.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Please contact the building manager."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p7-3/ex1.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I would like to book a room with a balcony."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/lessons/toeic-p7-3/ex2.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Stay three nights or more and get ten percent off."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p7-3/ex3.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "I'm running late."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/lessons/toeic-p7-3/ex4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Can you save me a seat?"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-p1-1.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A car is being washed."
+   ],
+   [
+    "am_michael",
+    "B. A traffic light stands near a building."
+   ],
+   [
+    "am_michael",
+    "C. Some people are riding bicycles."
+   ],
+   [
+    "am_michael",
+    "D. The road is covered with leaves."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-p1-2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A waiter is pouring water."
+   ],
+   [
+    "am_michael",
+    "B. The table is being cleared."
+   ],
+   [
+    "am_michael",
+    "C. Two chairs have been placed at a table."
+   ],
+   [
+    "am_michael",
+    "D. Food is being served."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-p1-3.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A cup is being filled with coffee."
+   ],
+   [
+    "am_michael",
+    "B. The cabinets are being repaired."
+   ],
+   [
+    "am_michael",
+    "C. Someone is opening a drawer."
+   ],
+   [
+    "am_michael",
+    "D. A microwave has been placed on a counter."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-p1-4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Several suitcases are standing in a row."
+   ],
+   [
+    "am_michael",
+    "B. Passengers are boarding a plane."
+   ],
+   [
+    "am_michael",
+    "C. Some bags are being weighed."
+   ],
+   [
+    "am_michael",
+    "D. A worker is cleaning the window."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-p2-5.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Where's the nearest post office?"
+   ],
+   [
+    "af_heart",
+    "A. I sent it yesterday."
+   ],
+   [
+    "af_heart",
+    "B. Two blocks down this street."
+   ],
+   [
+    "af_heart",
+    "C. At nine thirty."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-p2-6.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Who's in charge of the new project?"
+   ],
+   [
+    "af_heart",
+    "A. Ms. Ramos is."
+   ],
+   [
+    "af_heart",
+    "B. It's a big project."
+   ],
+   [
+    "af_heart",
+    "C. Next Monday."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-p2-7.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "When will the repairs be finished?"
+   ],
+   [
+    "bm_george",
+    "A. The repair shop."
+   ],
+   [
+    "bm_george",
+    "B. Yes, they are."
+   ],
+   [
+    "bm_george",
+    "C. By the end of the week."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-p2-8.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Why is the meeting room locked?"
+   ],
+   [
+    "af_heart",
+    "A. It's on the second floor."
+   ],
+   [
+    "af_heart",
+    "B. I'll ask security."
+   ],
+   [
+    "af_heart",
+    "C. Yes, at three."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-p2-9.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "How did you get here so quickly?"
+   ],
+   [
+    "bf_emma",
+    "A. I took the subway."
+   ],
+   [
+    "bf_emma",
+    "B. It's very quick."
+   ],
+   [
+    "bf_emma",
+    "C. About ten people."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-p2-10.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Would you like to join us for lunch?"
+   ],
+   [
+    "af_heart",
+    "A. I joined last year."
+   ],
+   [
+    "af_heart",
+    "B. The lunch box."
+   ],
+   [
+    "af_heart",
+    "C. I'd love to."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-p2-11.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Should we order more paper or wait until next week?"
+   ],
+   [
+    "bm_george",
+    "A. The paper is white."
+   ],
+   [
+    "bm_george",
+    "B. Let's order it now."
+   ],
+   [
+    "bm_george",
+    "C. Yes, I waited."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-p2-12.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "You've met our new director, haven't you?"
+   ],
+   [
+    "af_heart",
+    "A. Yes, at last week's meeting."
+   ],
+   [
+    "af_heart",
+    "B. The director's office."
+   ],
+   [
+    "af_heart",
+    "C. No, I didn't meet it."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-p2-13.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Why don't we reserve a table for Friday?"
+   ],
+   [
+    "bf_emma",
+    "A. Because it's full."
+   ],
+   [
+    "bf_emma",
+    "B. The table is wooden."
+   ],
+   [
+    "bf_emma",
+    "C. Good idea. I'll call now."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-p2-14.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "The copier on the third floor isn't working."
+   ],
+   [
+    "af_heart",
+    "A. Three copies, please."
+   ],
+   [
+    "af_heart",
+    "B. I'll call the technician."
+   ],
+   [
+    "af_heart",
+    "C. It works for a bank."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-p2-15.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "How often do you visit the Tokyo office?"
+   ],
+   [
+    "af_heart",
+    "A. About twice a month."
+   ],
+   [
+    "af_heart",
+    "B. It's a big office."
+   ],
+   [
+    "af_heart",
+    "C. For two hours."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-p2-16.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Didn't the shipment arrive this morning?"
+   ],
+   [
+    "bf_emma",
+    "A. I'll ship it."
+   ],
+   [
+    "bf_emma",
+    "B. In the morning paper."
+   ],
+   [
+    "bf_emma",
+    "C. No, it's been delayed."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-p2-17.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Can you show me how to use this software?"
+   ],
+   [
+    "af_heart",
+    "A. It's a soft chair."
+   ],
+   [
+    "af_heart",
+    "B. Sure, have a seat."
+   ],
+   [
+    "af_heart",
+    "C. I used it yesterday."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-conv18.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Good evening. I have a reservation under the name Carter."
+   ],
+   [
+    "af_heart",
+    "Welcome, Mr. Carter. You're staying for two nights, right?"
+   ],
+   [
+    "am_michael",
+    "That's right. Is breakfast included?"
+   ],
+   [
+    "af_heart",
+    "Yes, it's served from six thirty to ten in the restaurant on the first floor. Here's your key. Your room is on the eighth floor."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-conv21.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Hi, James. The printer is almost out of ink. Did you order more?"
+   ],
+   [
+    "bm_george",
+    "I did, but the supplier said the delivery will be late. It won't arrive until Thursday."
+   ],
+   [
+    "bf_emma",
+    "Thursday? I need to print the training handouts tomorrow."
+   ],
+   [
+    "bm_george",
+    "You could use the printer on the fifth floor. I'll let them know you're coming."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-conv24.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Thanks for meeting with me. I'd like to talk about the company picnic."
+   ],
+   [
+    "am_michael",
+    "Sure. Last year it was at Lakeside Park, and everyone enjoyed it."
+   ],
+   [
+    "bm_george",
+    "But it rained in the afternoon, remember? This year, maybe we should rent a place with a roof."
+   ],
+   [
+    "af_heart",
+    "Good point. Mark, could you look for places and send me a list by Friday?"
+   ],
+   [
+    "bm_george",
+    "No problem."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-conv27.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Excuse me. I bought this shirt here yesterday, but it's too small. Can I exchange it?"
+   ],
+   [
+    "am_michael",
+    "Of course. Do you have the receipt?"
+   ],
+   [
+    "af_heart",
+    "Yes, here. Do you have it in a large?"
+   ],
+   [
+    "am_michael",
+    "Let me check. Hmm, we don't have large in blue, but we have it in gray."
+   ],
+   [
+    "af_heart",
+    "Gray is fine."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-conv30.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Hello, this is Rachel from Hartley Bank. We'd like to invite you to a second interview."
+   ],
+   [
+    "am_michael",
+    "That's great! When would it be?"
+   ],
+   [
+    "bf_emma",
+    "Would Wednesday at two work for you?"
+   ],
+   [
+    "am_michael",
+    "I'm afraid I have a class then. Is Thursday possible?"
+   ],
+   [
+    "bf_emma",
+    "Yes, Thursday at two is fine. You'll meet our branch manager."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-conv33.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Excuse me, is this the platform for the train to Boston?"
+   ],
+   [
+    "af_heart",
+    "It was, but the train has been moved to platform six because of track repairs."
+   ],
+   [
+    "am_michael",
+    "Oh, thanks. Is it still leaving at ten fifteen?"
+   ],
+   [
+    "af_heart",
+    "It'll be about twenty minutes late. You can get a coffee at the café upstairs while you wait."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-talk36.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Attention, passengers on Sky Air flight seven twenty to London. The departure gate has changed from Gate fourteen to Gate thirty-two. Boarding will begin at four forty-five. Passengers traveling with small children may board first. Thank you."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-talk39.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Good afternoon, shoppers. Thank you for shopping at Fresh Market. Today only, all fruit and vegetables are buy one, get one free. Also, our bakery has just taken fresh bread out of the oven. Please note that the store will close early today, at six p.m., for a staff meeting."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-talk42.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Hi, Mr. Patel. This is Sophie from Lane Dental Office. I'm calling to remind you about your appointment with Dr. Hughes tomorrow at nine a.m. Please arrive ten minutes early to fill out a form. If you need to change the time, call us at five five five, three one nine zero. See you tomorrow."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m2-talk45.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Before we finish, I want to remind everyone about our new travel policy. Starting next month, all business trips must be approved by your manager at least two weeks in advance. Also, please keep all your receipts. You will need them to get your money back. I'll send the full policy by email this afternoon."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m2-talk48.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "In local news, the city's first electric bus service will start next Monday. The new buses will run between the central station and the airport every fifteen minutes. A one-way ticket costs three dollars. City officials hope the service will reduce traffic and air pollution downtown."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-p1-1.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A man is riding a bicycle."
+   ],
+   [
+    "am_michael",
+    "B. A bicycle is parked near a tree."
+   ],
+   [
+    "am_michael",
+    "C. A bench is being painted."
+   ],
+   [
+    "am_michael",
+    "D. Leaves are being raked."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-p1-2.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. People are waiting in line."
+   ],
+   [
+    "am_michael",
+    "B. A bus is pulling away."
+   ],
+   [
+    "am_michael",
+    "C. The bus shelter has a roof."
+   ],
+   [
+    "am_michael",
+    "D. The bench is being repaired."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-p1-3.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. A man is reading a newspaper."
+   ],
+   [
+    "am_michael",
+    "B. A lamp is being carried."
+   ],
+   [
+    "am_michael",
+    "C. Some cushions are on the floor."
+   ],
+   [
+    "am_michael",
+    "D. A picture has been hung above the sofa."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-p1-4.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "A. Fruit has been arranged in baskets."
+   ],
+   [
+    "am_michael",
+    "B. A vendor is weighing some apples."
+   ],
+   [
+    "am_michael",
+    "C. A customer is choosing fruit."
+   ],
+   [
+    "am_michael",
+    "D. The baskets are on the ground."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-p2-5.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Where can I find the meeting schedule?"
+   ],
+   [
+    "af_heart",
+    "A. At four o'clock."
+   ],
+   [
+    "af_heart",
+    "B. It's on the company website."
+   ],
+   [
+    "af_heart",
+    "C. Yes, I can."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-p2-6.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "When is Mr. Lopez coming back from vacation?"
+   ],
+   [
+    "bm_george",
+    "A. He'll be back on Monday."
+   ],
+   [
+    "bm_george",
+    "B. To Spain."
+   ],
+   [
+    "bm_george",
+    "C. A two-week vacation."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-p2-7.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Who should I give this application to?"
+   ],
+   [
+    "af_heart",
+    "A. It's a long application."
+   ],
+   [
+    "af_heart",
+    "B. Yes, I applied."
+   ],
+   [
+    "af_heart",
+    "C. Leave it with Ms. Kato."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-p2-8.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Why is the highway so crowded today?"
+   ],
+   [
+    "bf_emma",
+    "A. It's a crowded city."
+   ],
+   [
+    "bf_emma",
+    "B. There's a big concert downtown."
+   ],
+   [
+    "bf_emma",
+    "C. Highway nine."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-p2-9.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "How many people are coming to the training?"
+   ],
+   [
+    "af_heart",
+    "A. About thirty."
+   ],
+   [
+    "af_heart",
+    "B. It's on the third floor."
+   ],
+   [
+    "af_heart",
+    "C. The train is coming."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-p2-10.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Would you prefer a morning or afternoon appointment?"
+   ],
+   [
+    "bm_george",
+    "A. Yes, I would."
+   ],
+   [
+    "bm_george",
+    "B. I made it myself."
+   ],
+   [
+    "bm_george",
+    "C. The morning works better for me."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-p2-11.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Isn't the cafeteria closed for renovations?"
+   ],
+   [
+    "af_heart",
+    "A. The food is good."
+   ],
+   [
+    "af_heart",
+    "B. Yes, until next week."
+   ],
+   [
+    "af_heart",
+    "C. I closed the window."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-p2-12.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "The air conditioner is making a strange noise."
+   ],
+   [
+    "bf_emma",
+    "A. I'll call maintenance."
+   ],
+   [
+    "bf_emma",
+    "B. It's very strange news."
+   ],
+   [
+    "bf_emma",
+    "C. It was made in Japan."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-p2-13.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Could you send me the updated price list?"
+   ],
+   [
+    "af_heart",
+    "A. The price is high."
+   ],
+   [
+    "af_heart",
+    "B. Yes, I listed them."
+   ],
+   [
+    "af_heart",
+    "C. I'll do it right away."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-p2-14.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Which hotel did you stay at in Seoul?"
+   ],
+   [
+    "af_heart",
+    "A. For three nights."
+   ],
+   [
+    "af_heart",
+    "B. The one near the station."
+   ],
+   [
+    "af_heart",
+    "C. I stayed late."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-p2-15.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Have you finished the budget report?"
+   ],
+   [
+    "bf_emma",
+    "A. Almost. I'll send it in an hour."
+   ],
+   [
+    "bf_emma",
+    "B. The budget is small."
+   ],
+   [
+    "bf_emma",
+    "C. I reported it."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-p2-16.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "What do you think of the new logo?"
+   ],
+   [
+    "af_heart",
+    "A. I think so."
+   ],
+   [
+    "af_heart",
+    "B. I thought about it."
+   ],
+   [
+    "af_heart",
+    "C. I like the colors."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-p2-17.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Let's ask the client what she thinks."
+   ],
+   [
+    "af_heart",
+    "A. She thinks so."
+   ],
+   [
+    "af_heart",
+    "B. Good idea. I'll call her."
+   ],
+   [
+    "af_heart",
+    "C. The client list."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-conv18.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Hi, I'd like to rent a car for three days, starting tomorrow."
+   ],
+   [
+    "am_michael",
+    "Certainly. We have a small car for forty dollars a day or a larger one for sixty."
+   ],
+   [
+    "af_heart",
+    "The small one is fine. It's just me. Can I return it at the airport?"
+   ],
+   [
+    "am_michael",
+    "Yes, but there's a fifteen-dollar fee for airport returns."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-conv21.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Hi, Grace. Welcome to the team! I'm Oliver. Your desk is the one by the window."
+   ],
+   [
+    "bf_emma",
+    "Thanks, Oliver. Do you know when I'll get my computer?"
+   ],
+   [
+    "bm_george",
+    "The IT team said they'll set it up this afternoon. In the meantime, I can show you around the office."
+   ],
+   [
+    "bf_emma",
+    "That would be great."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-conv24.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Rachel, Emily, thanks for coming. As you know, our online orders have doubled this year."
+   ],
+   [
+    "af_heart",
+    "Yes, and our warehouse team is working overtime almost every day."
+   ],
+   [
+    "bf_emma",
+    "I think we should hire more staff for the busy season."
+   ],
+   [
+    "am_michael",
+    "I agree. Emily, can you post a job ad this week?"
+   ],
+   [
+    "bf_emma",
+    "Sure, I'll do it today."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-conv27.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Hello, I'd like to pick up a prescription for David Lee."
+   ],
+   [
+    "af_heart",
+    "Let me see. I'm sorry, it's not ready yet. We're waiting for the doctor to confirm the dose."
+   ],
+   [
+    "am_michael",
+    "How long will it take?"
+   ],
+   [
+    "af_heart",
+    "Probably about an hour. We can send you a text message when it's ready."
+   ],
+   [
+    "am_michael",
+    "That would be helpful. Thanks."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-conv30.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Kevin, have you seen the new coffee machine in the break room?"
+   ],
+   [
+    "am_michael",
+    "Yes, I tried it this morning. The coffee is much better than before."
+   ],
+   [
+    "bf_emma",
+    "Really? I haven't had a chance yet. I've been in meetings all day."
+   ],
+   [
+    "am_michael",
+    "Well, you'd better hurry. There's only one bag of beans left."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-conv33.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Hi, I'm here for the marketing conference. My name is Paul Rivera."
+   ],
+   [
+    "af_heart",
+    "Welcome, Mr. Rivera. Here's your name badge and a program. The first session starts at nine thirty in the main hall."
+   ],
+   [
+    "am_michael",
+    "Thanks. Is there somewhere I can leave my suitcase?"
+   ],
+   [
+    "af_heart",
+    "Yes, there's a cloakroom next to the elevators."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-talk36.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Good morning, and welcome aboard the City Sights bus tour. Our first stop will be the Old Harbor, where we'll stay for forty minutes. Then we'll visit the History Museum. Lunch is not included, but there are many restaurants near the museum. Please be back on the bus by one p.m."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-talk39.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "Hello, this is Martin Hayes from Clearview Windows. I'm returning your call about the windows for your new office. I can come and measure them on Tuesday morning. After that, I'll send you a price estimate within two days. Please call me back to confirm the time. My number is five five five, seven two six zero."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-talk42.mp3": {
+  "segments": [
+   [
+    "bf_emma",
+    "Welcome to today's cooking class. Before we start, please wash your hands and put on an apron. You'll find all the ingredients on the table in front of you. Today we're making a vegetable soup and fresh bread. At the end of the class, you can take home anything you make. Now, let's begin with the bread, because it needs time to rise."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
+ "assets/audio/toeic/m3-talk45.mp3": {
+  "segments": [
+   [
+    "am_michael",
+    "Is your phone running slow? Bring it to Fast Fix Phone Repair! Our technicians can fix most problems in under an hour. This month, screen repairs are only forty-nine dollars, and every repair comes with a six-month warranty. We're located on Main Street, across from City Bank. Open seven days a week."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/toeic/m3-talk48.mp3": {
+  "segments": [
+   [
+    "bm_george",
+    "OK, everyone, let's look at the results of our customer survey. Most customers are happy with our products, but many said our delivery is too slow. So starting next month, we'll work with a new delivery company that promises next-day delivery. I know this will cost more. But keeping our customers happy is worth it."
+   ]
+  ],
+  "kind": "sentence",
+  "accent": "gb"
+ },
  "assets/audio/prompts/be.mp3": {
   "segments": [
    [
@@ -2371,6 +6277,132 @@
   ],
   "kind": "word"
  },
+ "assets/audio/prompts/do-you-need-a-hand.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Do you need a hand"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/stacked.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "stacked"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/the-door-has-been-left-open.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The door has been left open."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/fruit-is-displayed.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Fruit is displayed."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/the-bench-is-empty.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "The bench is empty."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/be-parked.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "be parked"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/pile.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "pile"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/on-display.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "on display"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/either-is-fine-with-me.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Either is fine with me."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/i-havent-heard-yet.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I haven't heard yet."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/why-dont-we-have-lunch-together.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Why don't we have lunch together"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/would-you-mind-opening-the-door.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "Would you mind opening the door"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/coworker.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "coworker"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/brochure.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "brochure"
+   ]
+  ],
+  "kind": "word"
+ },
  "assets/audio/prompts/it-doesnt-work.mp3": {
   "segments": [
    [
@@ -2385,6 +6417,78 @@
    [
     "af_heart",
     "money back"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/off.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "off"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/sign-up.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "sign up"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/install.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "install"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/quarter.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "quarter"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/be-expected.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "be expected"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/is-not-allowed.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "is not allowed"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/urgent.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "urgent"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/no-longer-available.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "no longer available"
    ]
   ],
   "kind": "sentence"
@@ -2407,6 +6511,60 @@
   ],
   "kind": "word"
  },
+ "assets/audio/prompts/out-of-stock.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "out of stock"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/inconvenience.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "inconvenience"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/patience.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "patience"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/so-that.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "so that"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/be-known-for.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "be known for"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/expand.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "expand"
+   ]
+  ],
+  "kind": "word"
+ },
  "assets/audio/prompts/be-provided.mp3": {
   "segments": [
    [
@@ -2421,6 +6579,42 @@
    [
     "af_heart",
     "repairs"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/resident.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "resident"
+   ]
+  ],
+  "kind": "word"
+ },
+ "assets/audio/prompts/in-advance.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "in advance"
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/im-running-late.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "I'm running late."
+   ]
+  ],
+  "kind": "sentence"
+ },
+ "assets/audio/prompts/balcony.mp3": {
+  "segments": [
+   [
+    "af_heart",
+    "balcony"
    ]
   ],
   "kind": "word"

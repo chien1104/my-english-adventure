@@ -1,0 +1,241 @@
+{
+  "id": "toeic-p7-3",
+  "world": "part7",
+  "order": 5,
+  "type": "toeic",
+  "title": "Part 7 雙篇閱讀",
+  "titleEn": "Double Passages",
+  "summary": "兩篇文章一起看：答案要「對照兩篇」才找得到。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "多益 Part 7 後半段會出現兩篇或三篇文章一組，例如「廣告＋email」、「課表＋簡訊」。",
+        "有些題目只看一篇就能答，但一定會有一題要兩篇一起看。例如 email 說要「有陽台的房間」，廣告寫「有陽台的是豪華房」，答案就是豪華房。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "題目",
+          "中文",
+          "去哪裡找"
+        ],
+        "rows": [
+          [
+            "What kind of room does he want?",
+            "他想要哪種房間？",
+            "兩篇對照"
+          ],
+          [
+            "How many nights…?",
+            "住幾晚？",
+            "算日期（8 號減 5 號）"
+          ],
+          [
+            "What will he probably receive?",
+            "他可能會得到什麼？",
+            "把條件套進廣告"
+          ]
+        ]
+      },
+      "tip": "看到題目有 probably、most likely，通常要兩篇一起推論。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "I would like to book a room with a balcony.",
+          "zh": "我想訂一間有陽台的房間。",
+          "highlight": "balcony",
+          "audio": "assets/audio/lessons/toeic-p7-3/ex1.mp3"
+        },
+        {
+          "en": "Stay three nights or more and get ten percent off.",
+          "zh": "住三晚以上打九折。",
+          "highlight": "off",
+          "audio": "assets/audio/lessons/toeic-p7-3/ex2.mp3"
+        },
+        {
+          "en": "I'm running late.",
+          "zh": "我會晚一點到。",
+          "highlight": "late",
+          "audio": "assets/audio/lessons/toeic-p7-3/ex3.mp3"
+        },
+        {
+          "en": "Can you save me a seat?",
+          "zh": "可以幫我留個位子嗎？",
+          "highlight": "save",
+          "audio": "assets/audio/lessons/toeic-p7-3/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "每題都會顯示文章，看完題目再回文章找答案。⏱ 限時練習：每題建議 60 秒內作答，題號旁邊會倒數；超時不會被打斷。",
+      "questions": [
+        {
+          "id": "p73-11",
+          "group": "p73-11",
+          "type": "choice",
+          "prompt": "Clark 先生想要哪一種房間？",
+          "options": [
+            "A deluxe room",
+            "A standard room",
+            "A family room"
+          ],
+          "answer": "A deluxe room",
+          "explanation": "email 說要 a room with a balcony，廣告寫有陽台的是 Deluxe room。要兩篇對照。",
+          "sentence": "What kind of room does Mr. Clark want?",
+          "text": "[Advertisement]\nHillside Hotel — Summer Special\n• Standard room: $90 per night\n• Deluxe room (with balcony): $130 per night\n• Free breakfast for all guests\n• Stay 3 nights or more and get 10% off!\nBook at www.hillsidehotel.com\n\n[Email]\nTo: reservations@hillsidehotel.com\nFrom: Jason Clark\nSubject: Booking\n\nHello,\nI would like to book a room with a balcony for my wife and me from August 5 to August 8. Could you also tell me if there is parking at the hotel?\n\nThank you,\nJason Clark"
+        },
+        {
+          "id": "p73-12",
+          "group": "p73-12",
+          "type": "choice",
+          "prompt": "Clark 先生會住幾晚？",
+          "options": [
+            "Three",
+            "Two",
+            "Four"
+          ],
+          "answer": "Three",
+          "explanation": "August 5 到 August 8：5、6、7 號住三晚，8 號退房。",
+          "sentence": "How many nights will Mr. Clark stay?",
+          "text": "[Advertisement]\nHillside Hotel — Summer Special\n• Standard room: $90 per night\n• Deluxe room (with balcony): $130 per night\n• Free breakfast for all guests\n• Stay 3 nights or more and get 10% off!\nBook at www.hillsidehotel.com\n\n[Email]\nTo: reservations@hillsidehotel.com\nFrom: Jason Clark\nSubject: Booking\n\nHello,\nI would like to book a room with a balcony for my wife and me from August 5 to August 8. Could you also tell me if there is parking at the hotel?\n\nThank you,\nJason Clark"
+        },
+        {
+          "id": "p73-13",
+          "group": "p73-13",
+          "type": "choice",
+          "prompt": "Clark 先生可能會得到什麼？",
+          "options": [
+            "A 10% discount",
+            "A free dinner",
+            "A free parking space"
+          ],
+          "answer": "A 10% discount",
+          "explanation": "住三晚，符合廣告的 Stay 3 nights or more and get 10% off。",
+          "sentence": "What will Mr. Clark probably receive?",
+          "text": "[Advertisement]\nHillside Hotel — Summer Special\n• Standard room: $90 per night\n• Deluxe room (with balcony): $130 per night\n• Free breakfast for all guests\n• Stay 3 nights or more and get 10% off!\nBook at www.hillsidehotel.com\n\n[Email]\nTo: reservations@hillsidehotel.com\nFrom: Jason Clark\nSubject: Booking\n\nHello,\nI would like to book a room with a balcony for my wife and me from August 5 to August 8. Could you also tell me if there is parking at the hotel?\n\nThank you,\nJason Clark"
+        },
+        {
+          "id": "p73-14",
+          "group": "p73-14",
+          "type": "choice",
+          "prompt": "Clark 先生詢問什麼？",
+          "options": [
+            "Parking",
+            "Breakfast",
+            "The price of a standard room"
+          ],
+          "answer": "Parking",
+          "explanation": "Could you also tell me if there is parking at the hotel?",
+          "sentence": "What does Mr. Clark ask about?",
+          "text": "[Advertisement]\nHillside Hotel — Summer Special\n• Standard room: $90 per night\n• Deluxe room (with balcony): $130 per night\n• Free breakfast for all guests\n• Stay 3 nights or more and get 10% off!\nBook at www.hillsidehotel.com\n\n[Email]\nTo: reservations@hillsidehotel.com\nFrom: Jason Clark\nSubject: Booking\n\nHello,\nI would like to book a room with a balcony for my wife and me from August 5 to August 8. Could you also tell me if there is parking at the hotel?\n\nThank you,\nJason Clark"
+        },
+        {
+          "id": "p73-21",
+          "group": "p73-21",
+          "type": "choice",
+          "prompt": "Amy 和 Ben 上的是哪一堂課？",
+          "options": [
+            "Excel Advanced",
+            "Excel Basics",
+            "PowerPoint"
+          ],
+          "answer": "Excel Advanced",
+          "explanation": "Amy 說 Room 204、6 點上課，課表上 Room 204 是 Excel Advanced。",
+          "sentence": "Which class are Amy and Ben taking?",
+          "text": "[Schedule]\nCity Training Center — Computer Classes (October)\n• Excel Basics: Mondays, 6–8 p.m., Room 101\n• Excel Advanced: Wednesdays, 6–8 p.m., Room 204\n• PowerPoint: Thursdays, 7–9 p.m., Room 101\nFee: $60 per class (members: $45)\n\n[Text messages]\nAmy (5:40 p.m.): Hi Ben, I'm running late. Can you save me a seat in Room 204? Class starts at 6, right?\nBen (5:42 p.m.): Yes. I'm already here. See you soon!"
+        },
+        {
+          "id": "p73-22",
+          "group": "p73-22",
+          "type": "choice",
+          "prompt": "這些簡訊最可能是星期幾傳的？",
+          "options": [
+            "Wednesday",
+            "Monday",
+            "Thursday"
+          ],
+          "answer": "Wednesday",
+          "explanation": "Excel Advanced 在星期三上課，所以簡訊是星期三傳的。",
+          "sentence": "On what day were the messages most likely sent?",
+          "text": "[Schedule]\nCity Training Center — Computer Classes (October)\n• Excel Basics: Mondays, 6–8 p.m., Room 101\n• Excel Advanced: Wednesdays, 6–8 p.m., Room 204\n• PowerPoint: Thursdays, 7–9 p.m., Room 101\nFee: $60 per class (members: $45)\n\n[Text messages]\nAmy (5:40 p.m.): Hi Ben, I'm running late. Can you save me a seat in Room 204? Class starts at 6, right?\nBen (5:42 p.m.): Yes. I'm already here. See you soon!"
+        },
+        {
+          "id": "p73-23",
+          "group": "p73-23",
+          "type": "choice",
+          "prompt": "會員上一堂課要多少錢？",
+          "options": [
+            "$45",
+            "$60",
+            "$15"
+          ],
+          "answer": "$45",
+          "explanation": "Fee: $60 per class (members: $45)。",
+          "sentence": "How much does one class cost for members?",
+          "text": "[Schedule]\nCity Training Center — Computer Classes (October)\n• Excel Basics: Mondays, 6–8 p.m., Room 101\n• Excel Advanced: Wednesdays, 6–8 p.m., Room 204\n• PowerPoint: Thursdays, 7–9 p.m., Room 101\nFee: $60 per class (members: $45)\n\n[Text messages]\nAmy (5:40 p.m.): Hi Ben, I'm running late. Can you save me a seat in Room 204? Class starts at 6, right?\nBen (5:42 p.m.): Yes. I'm already here. See you soon!"
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p73-x1",
+          "group": "p73-x1",
+          "type": "choice",
+          "prompt": "I'm running late. 是什麼意思？",
+          "options": [
+            "我會晚到",
+            "我在跑步",
+            "我很早到"
+          ],
+          "answer": "我會晚到",
+          "explanation": "running late：進度落後、會晚到。",
+          "promptSay": {
+            "text": "I'm running late.",
+            "audio": "assets/audio/prompts/im-running-late.mp3"
+          }
+        },
+        {
+          "id": "p73-x2",
+          "group": "p73-x2",
+          "type": "choice",
+          "prompt": "balcony 是什麼意思？",
+          "options": [
+            "陽台",
+            "包廂",
+            "浴缸"
+          ],
+          "answer": "陽台",
+          "explanation": "a room with a balcony：有陽台的房間。",
+          "promptSay": {
+            "text": "balcony",
+            "audio": "assets/audio/prompts/balcony.mp3"
+          }
+        }
+      ]
+    }
+  ],
+  "pace": 60
+}

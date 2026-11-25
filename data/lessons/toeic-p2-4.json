@@ -1,0 +1,288 @@
+{
+  "id": "toeic-p2-4",
+  "world": "part2",
+  "order": 4,
+  "type": "toeic-listen",
+  "title": "Part 2 間接回答與直述句",
+  "titleEn": "Indirect Responses",
+  "summary": "最難的 Part 2：答案不直接回答，但意思接得上。",
+  "minutes": 12,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "多益 Part 2 的正確答案不一定直接回答問題。例如問「報告在哪？」，回答「朴小姐拿走了」，也是好的回答。",
+        "常見的間接回答：I'm not sure.（我不確定）、Let me check.（我查一下）、I haven't heard yet.（我還沒聽說）。",
+        "有些題目不是問句，而是一句話（直述句），例如「印表機又沒紙了」，回答要接得上：「我去拿一些」。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "類型",
+          "題目",
+          "好的回答"
+        ],
+        "rows": [
+          [
+            "間接回答",
+            "Where is the sales report?",
+            "Ms. Park has it."
+          ],
+          [
+            "不知道",
+            "When does the new manager start?",
+            "I haven't heard yet."
+          ],
+          [
+            "查一下",
+            "Who is going to lead the training?",
+            "Let me check the schedule."
+          ],
+          [
+            "直述句",
+            "The printer is out of paper again.",
+            "I'll get some more."
+          ]
+        ]
+      },
+      "tip": "問自己：如果我是對方，聽到這句話會覺得「接得上」嗎？"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "I haven't heard yet.",
+          "zh": "我還沒聽說。",
+          "highlight": "heard",
+          "audio": "assets/audio/lessons/toeic-p2-4/ex1.mp3"
+        },
+        {
+          "en": "Let me check the schedule.",
+          "zh": "我查一下行程表。",
+          "highlight": "check",
+          "audio": "assets/audio/lessons/toeic-p2-4/ex2.mp3"
+        },
+        {
+          "en": "I'll get some more.",
+          "zh": "我去拿一些來。",
+          "highlight": "get",
+          "audio": "assets/audio/lessons/toeic-p2-4/ex3.mp3"
+        },
+        {
+          "en": "Did you check your bag?",
+          "zh": "你找過你的包包了嗎？",
+          "highlight": "check",
+          "audio": "assets/audio/lessons/toeic-p2-4/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "按 ▶ 聽問題和 3 個回答。考試時不會印出文字。",
+      "questions": [
+        {
+          "id": "p24-where-a",
+          "group": "p24-where",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "間接回答：報告在朴小姐那裡。(B) 重複 sales，是陷阱。\n逐字稿：Where is the sales report?（業務報告在哪裡？）　(A) Ms. Park has it.（朴小姐拿著）　(B) Sales are up.（業績上升了）　(C) Yes, it is.（是的，它是）",
+          "audio": "assets/audio/toeic/p24-where-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p24-when-a",
+          "group": "p24-when",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "「還沒聽說」是很常見的正確答案。\n逐字稿：When does the new manager start?（新經理什麼時候開始上班？）　(A) I haven't heard yet.（我還沒聽說）　(B) At the front desk.（在櫃台）　(C) Yes, she started a business.（是的，她創業了）",
+          "audio": "assets/audio/toeic/p24-when-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p24-paper-a",
+          "group": "p24-paper",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "直述句：對方說沒紙，回答「我去拿」接得上。\n逐字稿：The printer is out of paper again.（印表機又沒紙了。）　(A) I'll get some more.（我去拿一些來）　(B) Yes, I printed it.（是的，我印了）　(C) It's on the paper.（在紙上）",
+          "audio": "assets/audio/toeic/p24-paper-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p24-why-a",
+          "group": "p24-why",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Why 問原因，回答 Because…。\n逐字稿：Why is the store closed today?（這家店今天為什麼沒開？）　(A) Because it's a holiday.（因為今天是假日）　(B) Close the door, please.（請關門）　(C) Since nine o'clock.（從九點開始）",
+          "audio": "assets/audio/toeic/p24-why-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p24-cold-a",
+          "group": "p24-cold",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "直述句：說冷，回答「開暖氣」。(C) have a cold 是感冒，是陷阱。\n逐字稿：It's very cold in this room.（這個房間好冷。）　(A) I'll turn up the heat.（我把暖氣開大）　(B) It's a large room.（這個房間很大）　(C) Yes, I have a cold.（是的，我感冒了）",
+          "audio": "assets/audio/toeic/p24-cold-a.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        }
+      ],
+      "similar": [
+        {
+          "id": "p24-where-b",
+          "group": "p24-where",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "B",
+          "explanation": "回答「去看抽屜」。(A) key points 是重點，是陷阱。\n逐字稿：Where did you put the keys?（你把鑰匙放在哪裡？）　(A) They're key points.（那些是重點）　(B) Check the top drawer.（看看最上面的抽屜）　(C) Yes, I did.（是的，我放了）",
+          "audio": "assets/audio/toeic/p24-where-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p24-when-b",
+          "group": "p24-when",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "Let me check：我查一下，是常見的正確答案。(B) train 和 training 很像，是陷阱。\n逐字稿：Who is going to lead the training?（誰要帶這次的訓練？）　(A) Let me check the schedule.（我查一下行程表）　(B) The train was late.（火車誤點了）　(C) In room five.（在五號室）",
+          "audio": "assets/audio/toeic/p24-when-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p24-paper-b",
+          "group": "p24-paper",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "用問句回答，提醒對方去找包包。\n逐字稿：I can't find my phone.（我找不到我的手機。）　(A) Did you check your bag?（你找過你的包包了嗎？）　(B) It's a new phone number.（這是新的電話號碼）　(C) Yes, I can.（是的，我可以）",
+          "audio": "assets/audio/toeic/p24-paper-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p24-why-b",
+          "group": "p24-why",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "說明原因：要加班。不一定要用 because。\n逐字稿：Why didn't you come to the party?（你為什麼沒來派對？）　(A) I had to work late.（我得加班）　(B) It was a great party.（那是很棒的派對）　(C) Yes, I came.（是的，我來了）",
+          "audio": "assets/audio/toeic/p24-why-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        },
+        {
+          "id": "p24-cold-b",
+          "group": "p24-cold",
+          "type": "choice",
+          "prompt": "聽問題和 3 個回答，選出最適合的回答",
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answer": "A",
+          "explanation": "直述句：客戶在等，回答「馬上過去」。\n逐字稿：The client is waiting in the lobby.（客戶在大廳等。）　(A) I'll be right there.（我馬上過去）　(B) She is a good client.（她是個好客戶）　(C) The lobby is on the first floor.（大廳在一樓）",
+          "audio": "assets/audio/toeic/p24-cold-b.mp3",
+          "audioLabel": "▶ 播放題目與選項"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p24-x1",
+          "group": "p24-x1",
+          "type": "choice",
+          "prompt": "I haven't heard yet. 是什麼意思？",
+          "options": [
+            "我還沒聽說",
+            "我聽不清楚",
+            "我已經聽過了"
+          ],
+          "answer": "我還沒聽說",
+          "explanation": "多益 Part 2 很常出現的正確答案。",
+          "promptSay": {
+            "text": "I haven't heard yet.",
+            "audio": "assets/audio/prompts/i-havent-heard-yet.mp3"
+          }
+        },
+        {
+          "id": "p24-x2",
+          "group": "p24-x2",
+          "type": "choice",
+          "prompt": "「印表機沒紙了。」最好的回應是？",
+          "options": [
+            "I'll get some more.",
+            "Yes, I printed it.",
+            "It's a nice printer."
+          ],
+          "answer": "I'll get some more.",
+          "explanation": "對方說出問題，回答要解決它。"
+        }
+      ]
+    }
+  ]
+}

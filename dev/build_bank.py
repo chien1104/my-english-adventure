@@ -115,6 +115,39 @@ for list_name in ('tsl', 'ngsl'):
                 'list': list_name, 'rank': rank,
             })
 
+# ---- 進階欄位（dev/bank_src/extra-*.txt）：詞性變化、常見搭配、同義字、易混淆字、多益常考意思
+POS_RE = re.compile(r'^(.+?) (n\.|v\.|adj\.|adv\.|prep\.|conj\.) (.+)$')
+def split_en_zh(item, where):
+    m = re.search(r'[一-鿿（]', item)
+    if not m or m.start() == 0: errors.append(f'{where}：「{item}」要寫成「英文 中文」'); return None
+    return {'en': item[:m.start()].strip(), 'zh': item[m.start():].strip()}
+by_en = {w['en'].lower(): w for ws in words_by_list.values() for w in ws if isinstance(w, dict)}
+extra_count = 0
+for path in sorted(glob.glob(os.path.join(SRC, 'extra-*.txt'))):
+    for n, line in enumerate(open(path, encoding='utf-8'), 1):
+        if not line.strip() or line.startswith('#'): continue
+        f = [x.strip() for x in line.rstrip('\n').split('|')]
+        where = f'{os.path.basename(path)} 第 {n} 行（{f[0]}）'
+        if len(f) != 6: errors.append(f'{where}：欄位數 {len(f)}，應該是 6'); continue
+        w = by_en.get(f[0].lower())
+        if not w: warns.append(f'{where}：單字庫找不到這個字'); continue
+        fam, col, syn, conf, sense = f[1:]
+        if fam:
+            out = []
+            for item in fam.split('；'):
+                m = POS_RE.match(item.strip())
+                if not m: errors.append(f'{where}：詞性變化「{item}」要寫成「英文 詞性 中文」'); continue
+                out.append({'en': m.group(1), 'pos': m.group(2), 'zh': m.group(3)})
+            w['family'] = out
+        if col: w['collocations'] = [x for x in (split_en_zh(i.strip(), where) for i in col.split('；')) if x]
+        if syn:
+            if re.search(r'[一-鿿]', syn): errors.append(f'{where}：同義字只寫英文')
+            w['synonyms'] = [x.strip() for x in syn.split(',') if x.strip()]
+        if conf: w['confusables'] = [x for x in (split_en_zh(i.strip(), where) for i in conf.split('；')) if x]
+        if sense: w['toeicSense'] = sense
+        if fam or col or syn or conf or sense: extra_count += 1
+print(f'進階欄位：{extra_count} 個字')
+
 # 同一個 id 不能出現兩次
 seen = {}
 for ln, ws in words_by_list.items():

@@ -2,6 +2,7 @@
 // 使用分盒（Leitner）排程：盒子越高，下次複習間隔越長。
 // status：new（還沒學）→ learning（學習中）→ familiar（熟悉，盒子 ≥ 3）
 // 休息幾天不會扣分：到期的單字只是等你回來複習，不會降級。
+import { explainWord, enZhQuestion, listenQuestion, clozeQuestion, spellQuestion } from './word-questions.js';
 
 export const INTERVAL_DAYS = [0, 1, 3, 7, 14, 30];
 export const MAX_BOX = INTERVAL_DAYS.length - 1;
@@ -94,14 +95,16 @@ function shuffle(list, rng) {
 }
 
 // 從已學過的單字出複習題；選項從全部單字中挑（中文不重複，確保答案唯一）
-export function buildReviewQuestions(words, records, { count = 8, rng = Math.random, onlyDue = false, now = Date.now() } = {}) {
+export function buildReviewQuestions(words, records, { count = 8, rng = Math.random, onlyDue = false, now = Date.now(), ids = null } = {}) {
+  const pick = ids ? new Set(ids) : null;
   const learned = words.filter((w) => {
+    if (pick) return pick.has(w.id); // 生字本：收藏的字都可以練，學過沒學過都行
     const r = records.get(w.id);
     return r && r.status !== 'new' && (!onlyDue || isDue(r, now));
   });
   const rank = (w) => {
     const r = records.get(w.id);
-    return [r.status === 'learning' ? 0 : 1, r.lastSeenAt || 0];
+    return [!r || r.status === 'new' || r.status === 'learning' ? 0 : 1, r?.lastSeenAt || 0];
   };
   learned.sort((a, b) => {
     const [x1, y1] = rank(a);
@@ -110,23 +113,24 @@ export function buildReviewQuestions(words, records, { count = 8, rng = Math.ran
   });
   const picked = learned.slice(0, count);
 
+  // 題型輪流：看英文選中文 → 聽音選答 → 例句填空 → 拼字；有圖的字偶爾看圖選字
   return picked.map((w, i) => {
-    const others = shuffle(words.filter((o) => o.id !== w.id && o.zh !== w.zh && o.en !== w.en), rng).slice(0, 2);
-    const useImage = w.image && i % 2 === 1;
-    if (useImage) {
+    const id = `rv-${w.id}`;
+    if (w.image && i % 4 === 1) {
+      const others = shuffle(words.filter((o) => o.id !== w.id && o.zh !== w.zh && o.en !== w.en), rng).slice(0, 2);
       return {
-        id: `rv-${w.id}`, group: w.id, wordId: w.id, type: 'choice',
+        id, group: w.id, wordId: w.id, type: 'choice',
         prompt: '這是什麼？', image: w.id,
         options: shuffle([w.en, ...others.map((o) => o.en)], rng), answer: w.en,
-        explanation: `${w.en} ${w.ipa} 是「${w.zh}」。例句：${w.example.en}（${w.example.zh}）`,
+        explanation: explainWord(w),
       };
     }
-    return {
-      id: `rv-${w.id}`, group: w.id, wordId: w.id, type: 'choice',
-      prompt: '這個單字的中文是？', sentence: w.en, sentenceAudio: w.audio,
-      options: shuffle([w.zh, ...others.map((o) => o.zh)], rng), answer: w.zh,
-      explanation: `${w.en} ${w.ipa}（${w.posZh}）是「${w.zh}」。例句：${w.example.en}（${w.example.zh}）`,
-    };
+    const turn = i % 4;
+    const q = (turn === 1 && listenQuestion(w, words, rng, id))
+      || (turn === 2 && clozeQuestion(w, words, rng, id))
+      || (turn === 3 && spellQuestion(w, id))
+      || enZhQuestion(w, words, rng, id);
+    return q;
   });
 }
 

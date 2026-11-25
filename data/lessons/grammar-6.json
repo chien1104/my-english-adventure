@@ -1,0 +1,468 @@
+{
+  "id": "grammar-6",
+  "world": "grammar",
+  "order": 6,
+  "type": "grammar",
+  "title": "進行式與未來式",
+  "titleEn": "Continuous & Future",
+  "summary": "「正在做」和「將要做」的說法。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "中文說「正在」表示動作進行中，英文用 be 動詞 ＋ 動詞-ing。",
+        "中文說「將會、要」表示未來，英文用 will ＋ 動詞原形，或 be going to ＋ 動詞原形。",
+        "多益常用「現在進行式」描述照片（Part 1），用「未來式」說計畫和公告（Part 3、4）。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "記住兩個句型："
+      ],
+      "table": {
+        "head": [
+          "意思",
+          "句型",
+          "例子"
+        ],
+        "rows": [
+          [
+            "正在做",
+            "am／is／are ＋ 動詞-ing",
+            "She is typing a letter."
+          ],
+          [
+            "過去某時正在做",
+            "was／were ＋ 動詞-ing",
+            "I was driving at nine."
+          ],
+          [
+            "將會（決定、預測）",
+            "will ＋ 動詞原形",
+            "The store will open at ten."
+          ],
+          [
+            "打算、計畫",
+            "be going to ＋ 動詞原形",
+            "We are going to hire two people."
+          ]
+        ]
+      },
+      "tip": "時間字提示：now、right now、at the moment → 進行式；tomorrow、next week、soon → 未來式。"
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "The man is reading a newspaper.",
+          "zh": "那個男人正在看報紙。",
+          "highlight": "reading",
+          "audio": "assets/audio/lessons/grammar-6/ex1.mp3"
+        },
+        {
+          "en": "They are setting up the room.",
+          "zh": "他們正在布置房間。",
+          "highlight": "setting",
+          "audio": "assets/audio/lessons/grammar-6/ex2.mp3"
+        },
+        {
+          "en": "The meeting will start at three.",
+          "zh": "會議將在三點開始。",
+          "highlight": "will",
+          "audio": "assets/audio/lessons/grammar-6/ex3.mp3"
+        },
+        {
+          "en": "We are going to move next month.",
+          "zh": "我們下個月要搬家。",
+          "highlight": "going",
+          "audio": "assets/audio/lessons/grammar-6/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "A woman",
+              "label": "主詞"
+            },
+            {
+              "text": "is",
+              "label": "be 動詞"
+            },
+            {
+              "text": "watering",
+              "label": "動詞-ing（正在澆水）"
+            },
+            {
+              "text": "the plants.",
+              "label": "受詞"
+            }
+          ],
+          "zh": "Part 1 照片題最常見的句型"
+        },
+        {
+          "parts": [
+            {
+              "text": "The new branch",
+              "label": "主詞"
+            },
+            {
+              "text": "will",
+              "label": "將會"
+            },
+            {
+              "text": "open",
+              "label": "動詞原形"
+            },
+            {
+              "text": "next month.",
+              "label": "未來時間"
+            }
+          ],
+          "zh": "will 後面一定接動詞原形"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "She is type a letter.",
+          "right": "She is typing a letter.",
+          "why": "is 後面要接動詞-ing。"
+        },
+        {
+          "wrong": "The bus will arrives soon.",
+          "right": "The bus will arrive soon.",
+          "why": "will 後面接動詞原形 arrive。"
+        },
+        {
+          "wrong": "We going to call you.",
+          "right": "We are going to call you.",
+          "why": "going to 前面要有 be 動詞 are。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出正確答案。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "grammar-6-0a",
+          "group": "grammar-6-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "paint",
+            "painted",
+            "are painting",
+            "will paint"
+          ],
+          "answer": "are painting",
+          "explanation": "now 表示正在進行，用 are ＋ painting。",
+          "sentence": "Look! The workers ___ the wall now.",
+          "zh": "看！工人們正在油漆牆壁。"
+        },
+        {
+          "id": "grammar-6-1a",
+          "group": "grammar-6-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "call",
+            "calling",
+            "will call",
+            "called"
+          ],
+          "answer": "will call",
+          "explanation": "after lunch 是之後，用 will ＋ 動詞原形。",
+          "sentence": "Mr. Lin ___ you back after lunch.",
+          "zh": "林先生午餐後會回電給你。"
+        },
+        {
+          "id": "grammar-6-2a",
+          "group": "grammar-6-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "work",
+            "is working",
+            "worked",
+            "will work"
+          ],
+          "answer": "is working",
+          "explanation": "right now 用現在進行式 is working。",
+          "sentence": "She ___ on a report right now.",
+          "zh": "她現在正在寫報告。"
+        },
+        {
+          "id": "grammar-6-3a",
+          "group": "grammar-6-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "open",
+            "opens",
+            "opening",
+            "opened"
+          ],
+          "answer": "open",
+          "explanation": "be going to 後面接動詞原形 open。",
+          "sentence": "We are going to ___ a new office.",
+          "zh": "我們要開一間新辦公室。"
+        },
+        {
+          "id": "grammar-6-4a",
+          "group": "grammar-6-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "begin",
+            "began",
+            "will begin",
+            "beginning"
+          ],
+          "answer": "will begin",
+          "explanation": "next Monday 是未來，用 will begin。",
+          "sentence": "The conference ___ next Monday.",
+          "zh": "研討會將在下週一開始。"
+        },
+        {
+          "id": "grammar-6-5a",
+          "group": "grammar-6-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "carry",
+            "carries",
+            "carrying",
+            "carried"
+          ],
+          "answer": "carrying",
+          "explanation": "is 後面接動詞-ing：carrying。",
+          "sentence": "A man is ___ a box.",
+          "zh": "一名男子正在搬一個箱子。",
+          "optionNotes": {
+            "carry": "carry（動詞）是「攜帶；搬運」"
+          }
+        },
+        {
+          "id": "grammar-6-6a",
+          "group": "grammar-6-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "eat",
+            "was eating",
+            "will eat",
+            "am eating"
+          ],
+          "answer": "was eating",
+          "explanation": "過去某個時間點正在做的事，用 was ＋ eating。",
+          "sentence": "I ___ dinner when you called.",
+          "zh": "你打電話來時我正在吃晚餐。"
+        },
+        {
+          "id": "grammar-6-7a",
+          "group": "grammar-6-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "will",
+            "are",
+            "was",
+            "did"
+          ],
+          "answer": "will",
+          "explanation": "next year 是未來，will ＋ 動詞原形 go up。",
+          "sentence": "The prices ___ go up next year.",
+          "zh": "價格明年會上漲。"
+        }
+      ],
+      "similar": [
+        {
+          "id": "grammar-6-0b",
+          "group": "grammar-6-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "plays",
+            "played",
+            "is playing",
+            "will play"
+          ],
+          "answer": "is playing",
+          "explanation": "Listen! 表示現在正在發生，用 is playing。",
+          "sentence": "Listen! Someone ___ the piano.",
+          "zh": "聽！有人正在彈鋼琴。"
+        },
+        {
+          "id": "grammar-6-1b",
+          "group": "grammar-6-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "send",
+            "sent",
+            "will send",
+            "sending"
+          ],
+          "answer": "will send",
+          "explanation": "tomorrow 是未來，用 will send。",
+          "sentence": "I ___ you an email tomorrow.",
+          "zh": "我明天會寄電子郵件給你。"
+        },
+        {
+          "id": "grammar-6-2b",
+          "group": "grammar-6-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "wait",
+            "are waiting",
+            "waited",
+            "will wait"
+          ],
+          "answer": "are waiting",
+          "explanation": "at the moment 用現在進行式 are waiting。",
+          "sentence": "They ___ in the meeting room at the moment.",
+          "zh": "他們現在正在會議室裡等。"
+        },
+        {
+          "id": "grammar-6-3b",
+          "group": "grammar-6-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "leave",
+            "leaves",
+            "left",
+            "leaving"
+          ],
+          "answer": "leave",
+          "explanation": "going to 後面接動詞原形 leave。",
+          "sentence": "She is going to ___ the company.",
+          "zh": "她打算離開公司。"
+        },
+        {
+          "id": "grammar-6-4b",
+          "group": "grammar-6-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "end",
+            "ended",
+            "will end",
+            "ending"
+          ],
+          "answer": "will end",
+          "explanation": "this Friday 還沒到，用 will end。",
+          "sentence": "The sale ___ this Friday.",
+          "zh": "特價將在這週五結束。"
+        },
+        {
+          "id": "grammar-6-5b",
+          "group": "grammar-6-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "stand",
+            "stands",
+            "standing",
+            "stood"
+          ],
+          "answer": "standing",
+          "explanation": "are 後面接動詞-ing：standing。",
+          "sentence": "Some people are ___ in line.",
+          "zh": "有些人正在排隊。"
+        },
+        {
+          "id": "grammar-6-6b",
+          "group": "grammar-6-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "watch",
+            "were watching",
+            "will watch",
+            "are watching"
+          ],
+          "answer": "were watching",
+          "explanation": "過去某時正在做，主詞 we 用 were watching。",
+          "sentence": "We ___ TV when the power went out.",
+          "zh": "停電時我們正在看電視。"
+        },
+        {
+          "id": "grammar-6-7b",
+          "group": "grammar-6-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "will",
+            "are",
+            "were",
+            "did"
+          ],
+          "answer": "will",
+          "explanation": "in May（未來）用 will ＋ start。",
+          "sentence": "The new rules ___ start in May.",
+          "zh": "新規定將在五月開始實施。"
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多益 Part 5 的出題方式，挑戰看看。",
+      "questions": [
+        {
+          "id": "grammar-6-x0",
+          "group": "grammar-6-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "repairs",
+            "is repairing",
+            "repaired",
+            "will be repaired"
+          ],
+          "answer": "is repairing",
+          "explanation": "at the moment 表示現在正在進行，用現在進行式 is repairing。",
+          "sentence": "The technician ___ the copier at the moment, so please use the one on the third floor.",
+          "zh": "技術人員現在正在修影印機，請使用三樓那台。"
+        },
+        {
+          "id": "grammar-6-x1",
+          "group": "grammar-6-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "welcomed",
+            "welcomes",
+            "will welcome",
+            "is welcomed"
+          ],
+          "answer": "will welcome",
+          "explanation": "tomorrow's orientation 是未來的事，用 will welcome。",
+          "sentence": "Ms. Ito ___ the new employees at tomorrow's orientation.",
+          "zh": "伊藤小姐將在明天的新人訓練中歡迎新員工。"
+        }
+      ]
+    }
+  ]
+}

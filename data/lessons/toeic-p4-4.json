@@ -1,0 +1,231 @@
+{
+  "id": "toeic-p4-4",
+  "world": "part4",
+  "order": 4,
+  "type": "toeic-listen",
+  "title": "Part 4 天氣預報與導覽",
+  "titleEn": "Weather & Tours",
+  "summary": "天氣預報和參觀導覽：時間順序最重要。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "天氣預報會說「什麼時候、什麼天氣」，還常建議聽眾做什麼（帶傘、穿外套）。",
+        "導覽會先自我介紹（My name is…, I'll be your guide），再依順序說行程：First…, After that…, The tour will end…，最後說注意事項。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "類型",
+          "開頭常聽到",
+          "常考"
+        ],
+        "rows": [
+          [
+            "天氣預報",
+            "Here is the weather report.",
+            "哪天、哪個時段、建議"
+          ],
+          [
+            "導覽",
+            "I'll be your guide today.",
+            "說話者是誰、行程順序"
+          ],
+          [
+            "注意事項",
+            "…is not allowed. Please remember…",
+            "不能做什麼"
+          ]
+        ]
+      },
+      "tip": "順序題：聽 First → After that → Finally，用手指頭記下順序。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "Heavy rain is expected in the afternoon.",
+          "zh": "預計下午會有大雨。",
+          "highlight": "expected",
+          "audio": "assets/audio/lessons/toeic-p4-4/ex1.mp3"
+        },
+        {
+          "en": "Don't forget your umbrella.",
+          "zh": "別忘了帶傘。",
+          "highlight": "umbrella",
+          "audio": "assets/audio/lessons/toeic-p4-4/ex2.mp3"
+        },
+        {
+          "en": "I'll be your guide today.",
+          "zh": "我是今天的導覽員。",
+          "highlight": "guide",
+          "audio": "assets/audio/lessons/toeic-p4-4/ex3.mp3"
+        },
+        {
+          "en": "Taking photos is not allowed.",
+          "zh": "禁止拍照。",
+          "highlight": "allowed",
+          "audio": "assets/audio/lessons/toeic-p4-4/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "先看題目，再按 ▶ 聽。每段有 3 題。",
+      "questions": [
+        {
+          "id": "p4-4-t1-q1",
+          "group": "p4-4-t1-q1",
+          "type": "choice",
+          "prompt": "明天下午的天氣會如何？",
+          "options": [
+            "Rainy",
+            "Sunny",
+            "Snowy"
+          ],
+          "answer": "Rainy",
+          "explanation": "heavy rain is expected in the afternoon. 早上才是晴天。\n逐字稿：Good evening. Here is the weather report. Tomorrow will be sunny in the morning, but heavy rain is expected in the afternoon. So if you are going out, don't forget your umbrella. The rain will stop on Sunday, and it will be warm and sunny again next week.",
+          "sentence": "What will the weather be like tomorrow afternoon?",
+          "audio": "assets/audio/toeic/p44-talk1.mp3",
+          "audioLabel": "▶ 播放天氣預報"
+        },
+        {
+          "id": "p4-4-t1-q2",
+          "group": "p4-4-t1-q2",
+          "type": "choice",
+          "prompt": "說話者建議什麼？",
+          "options": [
+            "Taking an umbrella",
+            "Staying home",
+            "Wearing a coat"
+          ],
+          "answer": "Taking an umbrella",
+          "explanation": "don't forget your umbrella：記得帶傘。\n逐字稿：Good evening. Here is the weather report. Tomorrow will be sunny in the morning, but heavy rain is expected in the afternoon. So if you are going out, don't forget your umbrella. The rain will stop on Sunday, and it will be warm and sunny again next week.",
+          "sentence": "What does the speaker suggest?",
+          "audio": "assets/audio/toeic/p44-talk1.mp3",
+          "audioLabel": "▶ 播放天氣預報"
+        },
+        {
+          "id": "p4-4-t1-q3",
+          "group": "p4-4-t1-q3",
+          "type": "choice",
+          "prompt": "雨什麼時候會停？",
+          "options": [
+            "On Sunday",
+            "Tomorrow morning",
+            "Next week"
+          ],
+          "answer": "On Sunday",
+          "explanation": "The rain will stop on Sunday.\n逐字稿：Good evening. Here is the weather report. Tomorrow will be sunny in the morning, but heavy rain is expected in the afternoon. So if you are going out, don't forget your umbrella. The rain will stop on Sunday, and it will be warm and sunny again next week.",
+          "sentence": "When will the rain stop?",
+          "audio": "assets/audio/toeic/p44-talk1.mp3",
+          "audioLabel": "▶ 播放天氣預報"
+        },
+        {
+          "id": "p4-4-t2-q1",
+          "group": "p4-4-t2-q1",
+          "type": "choice",
+          "prompt": "Peter 是誰？",
+          "options": [
+            "A tour guide",
+            "A chef",
+            "A shop clerk"
+          ],
+          "answer": "A tour guide",
+          "explanation": "I'll be your guide today. 他是導覽員。\n逐字稿：Welcome to Greenfield Chocolate Factory. My name is Peter, and I'll be your guide today. First, we will see how our chocolate is made. After that, you can taste five kinds of chocolate in our tasting room. The tour will end at the gift shop, where you can buy chocolate for your friends. Please remember that taking photos is not allowed in the factory.",
+          "sentence": "Who is Peter?",
+          "audio": "assets/audio/toeic/p44-talk2.mp3",
+          "audioLabel": "▶ 播放導覽"
+        },
+        {
+          "id": "p4-4-t2-q2",
+          "group": "p4-4-t2-q2",
+          "type": "choice",
+          "prompt": "看完巧克力製作過程後，聽眾會做什麼？",
+          "options": [
+            "Taste chocolate",
+            "Buy tickets",
+            "Watch a movie"
+          ],
+          "answer": "Taste chocolate",
+          "explanation": "After that, you can taste five kinds of chocolate.\n逐字稿：Welcome to Greenfield Chocolate Factory. My name is Peter, and I'll be your guide today. First, we will see how our chocolate is made. After that, you can taste five kinds of chocolate in our tasting room. The tour will end at the gift shop, where you can buy chocolate for your friends. Please remember that taking photos is not allowed in the factory.",
+          "sentence": "What will listeners do after seeing how chocolate is made?",
+          "audio": "assets/audio/toeic/p44-talk2.mp3",
+          "audioLabel": "▶ 播放導覽"
+        },
+        {
+          "id": "p4-4-t2-q3",
+          "group": "p4-4-t2-q3",
+          "type": "choice",
+          "prompt": "聽眾不可以做什麼？",
+          "options": [
+            "Take photos",
+            "Eat chocolate",
+            "Visit the gift shop"
+          ],
+          "answer": "Take photos",
+          "explanation": "taking photos is not allowed in the factory.\n逐字稿：Welcome to Greenfield Chocolate Factory. My name is Peter, and I'll be your guide today. First, we will see how our chocolate is made. After that, you can taste five kinds of chocolate in our tasting room. The tour will end at the gift shop, where you can buy chocolate for your friends. Please remember that taking photos is not allowed in the factory.",
+          "sentence": "What are listeners not allowed to do?",
+          "audio": "assets/audio/toeic/p44-talk2.mp3",
+          "audioLabel": "▶ 播放導覽"
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p44-x1",
+          "group": "p44-x1",
+          "type": "choice",
+          "prompt": "be expected 在天氣預報裡是什麼意思？",
+          "options": [
+            "預計會",
+            "已經發生",
+            "被取消"
+          ],
+          "answer": "預計會",
+          "explanation": "Heavy rain is expected.：預計會下大雨。",
+          "promptSay": {
+            "text": "be expected",
+            "audio": "assets/audio/prompts/be-expected.mp3"
+          }
+        },
+        {
+          "id": "p44-x2",
+          "group": "p44-x2",
+          "type": "choice",
+          "prompt": "is not allowed 是什麼意思？",
+          "options": [
+            "不被允許",
+            "很推薦",
+            "免費"
+          ],
+          "answer": "不被允許",
+          "explanation": "Smoking is not allowed.：禁止吸菸。",
+          "promptSay": {
+            "text": "is not allowed",
+            "audio": "assets/audio/prompts/is-not-allowed.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

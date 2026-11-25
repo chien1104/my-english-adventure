@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="飯店大廳：一張沙發，沙發旁邊有一盞立燈，牆上掛著一幅畫，角落有一盆植物">
+<title>飯店大廳：一張沙發，沙發旁邊有一盞立燈，牆上掛著一幅畫，角落有一盆植物</title>
+<rect width="320" height="200" fill="#F4ECDF"/><rect y="150" width="320" height="50" fill="#E2D2BC"/>
+
+<rect x="130" y="30" width="70" height="46" fill="#FFFFFF" stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M138 66l16-18 12 12 10-8 16 14" fill="none" stroke="#8FB37A" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><rect x="100" y="110" width="130" height="34" rx="8" fill="#8DB3D9"/><rect x="100" y="92" width="130" height="24" rx="8" fill="#8DB3D9"/><path d="M110 144v10M220 144v10"/></g>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M256 154v-80" fill="none"/><path d="M240 74h32l-6-24h-20z" fill="#F7E3A3"/><path d="M246 154h20"/></g>
+<g stroke="#4E3424" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M40 154h28l-4-26h-20z" fill="#B9774F"/><g fill="#7FA36E" stroke="#4E3424" stroke-width="2"><ellipse cx="44" cy="106" rx="9" ry="18" transform="rotate(-25 44 106)"/><ellipse cx="64" cy="104" rx="9" ry="18" transform="rotate(25 64 104)"/><ellipse cx="54" cy="96" rx="9" ry="22"/></g></g>
+</svg>

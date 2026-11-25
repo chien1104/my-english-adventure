@@ -2,7 +2,7 @@
 // 原則：升級只新增或轉換資料，絕不刪除使用者的學習紀錄。
 
 export const DB_NAME = 'my-english-adventure';
-export const DB_VERSION = 2;
+export const DB_VERSION = 3;
 
 // 每個版本一個遷移函式，依序執行（舊版本 +1 → 目前版本）
 export const MIGRATIONS = {
@@ -31,10 +31,14 @@ export const MIGRATIONS = {
     const sessions = db.createObjectStore('sessions', { keyPath: 'id', autoIncrement: true });
     sessions.createIndex('day', 'day');
   },
+  // v3（2.1）：我的生字本。只新增，不動舊資料。
+  3(db) {
+    db.createObjectStore('favorites', { keyPath: 'wordId' });
+  },
 };
 
 // 使用者的學習資料（備份／還原的範圍）。教材可重新下載，不在備份內。
-export const USER_STORES = ['profile', 'progress', 'attempts', 'reviews', 'expLog', 'achievements', 'sessions'];
+export const USER_STORES = ['profile', 'progress', 'attempts', 'reviews', 'expLog', 'achievements', 'sessions', 'favorites'];
 
 export function openDB({
   name = DB_NAME,

@@ -1,0 +1,489 @@
+{
+  "id": "grammar-5",
+  "world": "grammar",
+  "order": 5,
+  "type": "grammar",
+  "title": "現在式與過去式",
+  "titleEn": "Simple Present & Past",
+  "summary": "分清楚「每天都會做」和「已經做過」。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "中文概念",
+      "body": [
+        "中文用「每天」、「昨天」表示時間，動詞本身不會變。英文的動詞會跟著時間改變樣子。",
+        "現在簡單式：習慣、事實，例如「我每天搭公車」。主詞是 he、she、it 或一個人時，動詞要加 -s。",
+        "過去簡單式：過去已經發生的事，例如「我昨天搭了公車」。動詞通常加 -ed，有些字是不規則變化。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "簡單說明",
+      "body": [
+        "看句子裡的時間字，就知道用哪一種："
+      ],
+      "table": {
+        "head": [
+          "時間",
+          "句型",
+          "例子"
+        ],
+        "rows": [
+          [
+            "every day、usually、always、often",
+            "現在式（he／she／it 動詞加 -s）",
+            "She usually takes the bus."
+          ],
+          [
+            "yesterday、last week、ago、in 2020",
+            "過去式（動詞加 -ed 或不規則）",
+            "She took the bus yesterday."
+          ],
+          [
+            "問句、否定（現在）",
+            "do／does ＋ 動詞原形",
+            "Does he work here?"
+          ],
+          [
+            "問句、否定（過去）",
+            "did ＋ 動詞原形",
+            "Did you call him?"
+          ]
+        ]
+      },
+      "tip": "常見不規則過去式：go → went、have → had、buy → bought、send → sent、meet → met、take → took。"
+    },
+    {
+      "kind": "examples",
+      "title": "英文例句",
+      "items": [
+        {
+          "en": "He works at a bank.",
+          "zh": "他在銀行工作。",
+          "highlight": "works",
+          "audio": "assets/audio/lessons/grammar-5/ex1.mp3"
+        },
+        {
+          "en": "We usually start at nine.",
+          "zh": "我們通常九點開始。",
+          "highlight": "start",
+          "audio": "assets/audio/lessons/grammar-5/ex2.mp3"
+        },
+        {
+          "en": "I sent the email yesterday.",
+          "zh": "我昨天寄了那封電子郵件。",
+          "highlight": "sent",
+          "audio": "assets/audio/lessons/grammar-5/ex3.mp3"
+        },
+        {
+          "en": "Did you finish the report?",
+          "zh": "你完成報告了嗎？",
+          "highlight": "Did",
+          "audio": "assets/audio/lessons/grammar-5/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "breakdown",
+      "title": "句子拆解",
+      "items": [
+        {
+          "parts": [
+            {
+              "text": "She",
+              "label": "主詞（第三人稱單數）"
+            },
+            {
+              "text": "usually",
+              "label": "時間：習慣"
+            },
+            {
+              "text": "takes",
+              "label": "動詞加 -s"
+            },
+            {
+              "text": "the bus.",
+              "label": "受詞"
+            }
+          ],
+          "zh": "習慣用現在式，主詞是 she，take 要加 s"
+        },
+        {
+          "parts": [
+            {
+              "text": "They",
+              "label": "主詞"
+            },
+            {
+              "text": "met",
+              "label": "過去式（meet 的不規則變化）"
+            },
+            {
+              "text": "the client",
+              "label": "受詞"
+            },
+            {
+              "text": "last week.",
+              "label": "時間：過去"
+            }
+          ],
+          "zh": "last week 表示過去，用過去式 met"
+        }
+      ]
+    },
+    {
+      "kind": "contrast",
+      "title": "正確與錯誤示範",
+      "items": [
+        {
+          "wrong": "He work in sales.",
+          "right": "He works in sales.",
+          "why": "主詞 he 是第三人稱單數，現在式動詞要加 -s。"
+        },
+        {
+          "wrong": "I go to Tokyo last month.",
+          "right": "I went to Tokyo last month.",
+          "why": "last month 是過去，go 要改成 went。"
+        },
+        {
+          "wrong": "Did she called you?",
+          "right": "Did she call you?",
+          "why": "did 後面接動詞原形 call。"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "互動練習",
+      "intro": "選出正確答案。答錯會再出一題類似的。",
+      "questions": [
+        {
+          "id": "grammar-5-0a",
+          "group": "grammar-5-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "go",
+            "goes",
+            "went",
+            "going"
+          ],
+          "answer": "goes",
+          "explanation": "every day 是習慣，主詞 Ms. Chen 是第三人稱單數，用 goes。",
+          "sentence": "Ms. Chen ___ to work by train every day.",
+          "zh": "陳小姐每天搭火車上班。"
+        },
+        {
+          "id": "grammar-5-1a",
+          "group": "grammar-5-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "having"
+          ],
+          "answer": "had",
+          "explanation": "yesterday afternoon 是過去，have 的過去式是 had。",
+          "sentence": "We ___ a meeting yesterday afternoon.",
+          "zh": "我們昨天下午開了一場會。"
+        },
+        {
+          "id": "grammar-5-2a",
+          "group": "grammar-5-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "open",
+            "opens",
+            "opened",
+            "opening"
+          ],
+          "answer": "opens",
+          "explanation": "固定的營業時間用現在式，主詞 the store 是單數，用 opens。",
+          "sentence": "The store ___ at 10 a.m. on weekdays.",
+          "zh": "這家店平日上午十點開門。",
+          "optionNotes": {
+            "open": "open（動詞／形容詞）是「打開；開著的」"
+          }
+        },
+        {
+          "id": "grammar-5-3a",
+          "group": "grammar-5-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "send",
+            "sends",
+            "sent",
+            "sending"
+          ],
+          "answer": "sent",
+          "explanation": "three days ago 是過去，send 的過去式是 sent。",
+          "sentence": "I ___ the package three days ago.",
+          "zh": "我三天前寄出了包裹。"
+        },
+        {
+          "id": "grammar-5-4a",
+          "group": "grammar-5-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "Do",
+            "Does",
+            "Did",
+            "Is"
+          ],
+          "answer": "Did",
+          "explanation": "問過去發生的事用 Did ＋ 動詞原形 approve。",
+          "sentence": "___ your manager approve the plan?",
+          "zh": "你的經理核准這個計畫了嗎？"
+        },
+        {
+          "id": "grammar-5-5a",
+          "group": "grammar-5-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "work",
+            "works",
+            "worked",
+            "working"
+          ],
+          "answer": "work",
+          "explanation": "don't 後面接動詞原形 work。",
+          "sentence": "They don't ___ on Sundays.",
+          "zh": "他們星期天不工作。"
+        },
+        {
+          "id": "grammar-5-6a",
+          "group": "grammar-5-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "join",
+            "joins",
+            "joined",
+            "joining"
+          ],
+          "answer": "joined",
+          "explanation": "in 2015 是過去，join 加 -ed：joined。",
+          "sentence": "Mr. Park ___ the company in 2015.",
+          "zh": "朴先生在 2015 年加入公司。",
+          "optionNotes": {
+            "join": "join（動詞）是「加入」"
+          }
+        },
+        {
+          "id": "grammar-5-7a",
+          "group": "grammar-5-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "arrive",
+            "arrives",
+            "arrived",
+            "arriving"
+          ],
+          "answer": "arrives",
+          "explanation": "usually 是習慣，主詞 the train 單數，用 arrives。",
+          "sentence": "The train usually ___ on time.",
+          "zh": "火車通常會準時抵達。",
+          "optionNotes": {
+            "arrive": "arrive（動詞）是「抵達」"
+          }
+        }
+      ],
+      "similar": [
+        {
+          "id": "grammar-5-0b",
+          "group": "grammar-5-0",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "work",
+            "works",
+            "worked",
+            "working"
+          ],
+          "answer": "works",
+          "explanation": "說明現在的事實，主詞 my sister 單數，用 works。",
+          "sentence": "My sister ___ in a hospital.",
+          "zh": "我姊姊在醫院工作。",
+          "optionNotes": {
+            "work": "work（動詞／名詞）是「工作」"
+          }
+        },
+        {
+          "id": "grammar-5-1b",
+          "group": "grammar-5-1",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "buy",
+            "buys",
+            "bought",
+            "buying"
+          ],
+          "answer": "bought",
+          "explanation": "last week 是過去，buy 的過去式是 bought。",
+          "sentence": "I ___ a new phone last week.",
+          "zh": "我上星期買了新手機。"
+        },
+        {
+          "id": "grammar-5-2b",
+          "group": "grammar-5-2",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "close",
+            "closes",
+            "closed",
+            "closing"
+          ],
+          "answer": "closes",
+          "explanation": "固定時間用現在式，主詞單數用 closes。",
+          "sentence": "The bank ___ at 3:30 p.m.",
+          "zh": "銀行下午三點半關門。",
+          "optionNotes": {
+            "close": "close（動詞／形容詞）是「關閉；接近的」"
+          }
+        },
+        {
+          "id": "grammar-5-3b",
+          "group": "grammar-5-3",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "meet",
+            "meets",
+            "met",
+            "meeting"
+          ],
+          "answer": "met",
+          "explanation": "two weeks ago 是過去，meet 的過去式是 met。",
+          "sentence": "We ___ the client two weeks ago.",
+          "zh": "我們兩週前見了客戶。"
+        },
+        {
+          "id": "grammar-5-4b",
+          "group": "grammar-5-4",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "Do",
+            "Does",
+            "Did",
+            "Are"
+          ],
+          "answer": "Did",
+          "explanation": "yesterday 是過去，問句用 Did。",
+          "sentence": "___ you call the hotel yesterday?",
+          "zh": "你昨天打電話給飯店了嗎？"
+        },
+        {
+          "id": "grammar-5-5b",
+          "group": "grammar-5-5",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "drink",
+            "drinks",
+            "drank",
+            "drinking"
+          ],
+          "answer": "drink",
+          "explanation": "doesn't 後面接動詞原形 drink。",
+          "sentence": "She doesn't ___ coffee.",
+          "zh": "她不喝咖啡。"
+        },
+        {
+          "id": "grammar-5-6b",
+          "group": "grammar-5-6",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "start",
+            "starts",
+            "started",
+            "starting"
+          ],
+          "answer": "started",
+          "explanation": "yesterday 是過去，用 started。",
+          "sentence": "The meeting ___ at two o'clock yesterday.",
+          "zh": "會議昨天兩點開始。",
+          "optionNotes": {
+            "start": "start（動詞）是「開始」"
+          }
+        },
+        {
+          "id": "grammar-5-7b",
+          "group": "grammar-5-7",
+          "type": "choice",
+          "prompt": "選出正確答案",
+          "options": [
+            "work",
+            "works",
+            "worked",
+            "working"
+          ],
+          "answer": "works",
+          "explanation": "often 是習慣，主詞 he，用 works。",
+          "sentence": "He often ___ late.",
+          "zh": "他常常工作到很晚。",
+          "optionNotes": {
+            "work": "work（動詞／名詞）是「工作」"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習：多益實戰",
+      "intro": "多益 Part 5 的出題方式，挑戰看看。",
+      "questions": [
+        {
+          "id": "grammar-5-x0",
+          "group": "grammar-5-x0",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "reach",
+            "reaches",
+            "reached",
+            "reaching"
+          ],
+          "answer": "reached",
+          "explanation": "last quarter（上一季）是過去，用過去式 reached。",
+          "sentence": "The marketing team ___ its sales goal last quarter.",
+          "zh": "行銷團隊上一季達成了銷售目標。",
+          "optionNotes": {
+            "reach": "reach（動詞）是「到達；聯絡上」"
+          }
+        },
+        {
+          "id": "grammar-5-x1",
+          "group": "grammar-5-x1",
+          "type": "choice",
+          "prompt": "多益實戰：選出最適合的答案",
+          "options": [
+            "lead",
+            "leads",
+            "led",
+            "leading"
+          ],
+          "answer": "leads",
+          "explanation": "every Monday 是固定習慣，主詞第三人稱單數，用 leads。",
+          "sentence": "Ms. Lopez ___ the weekly staff meeting every Monday.",
+          "zh": "羅培茲小姐每週一主持員工週會。"
+        }
+      ]
+    }
+  ]
+}

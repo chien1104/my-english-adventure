@@ -196,9 +196,14 @@ try:
         count = 0
         while body_kind(page) == 'practice' and count < 20:
             qid = page.get_attribute('.q', 'data-qid'); w = words[qid[3:]]
-            opts = page.locator('.opt').all_inner_texts()
-            target = w['en'] if w['en'] in opts else w['zh']
-            page.click(f'[data-opt="{opts.index(target)}"]'); page.wait_for_selector('.feedback')
+            if page.locator('.q__type input').count():  # 拼字題
+                page.fill('.q__type input', w['en']); page.click('.q__type button[type=submit]')
+            else:
+                opts = [o.strip() for o in page.locator('.opt').all_inner_texts()]
+                low = [o.lower() for o in opts]
+                idx = low.index(w['en'].lower()) if w['en'].lower() in low else opts.index(w['zh'])
+                page.click(f'[data-opt="{idx}"]')
+            page.wait_for_selector('.feedback')
             cont(page); count += 1
         check('複習 8 題全部可作答', count == 8, str(count))
         page.click('[data-act=next]'); page.wait_for_selector('[data-testid=review-complete]')
@@ -274,7 +279,7 @@ try:
             sw = page.evaluate('document.documentElement.scrollWidth')
             check(f'375px 無水平捲動 {path}', sw <= 375, f'scrollWidth={sw}')
             orphan = page.evaluate("""[...document.querySelectorAll('#app button')].filter(b =>
-                !(b.type === 'submit' || b.dataset.play || b.dataset.act || b.dataset.mode || b.dataset.opt !== undefined || b.dataset.tok !== undefined || b.dataset.filter || b.dataset.audio || b.dataset.match || b.dataset.tile || b.dataset.slot)).map(b => b.textContent.trim())""")
+                !(b.type === 'submit' || b.dataset.play || b.dataset.fav || b.dataset.rate || b.dataset.act || b.dataset.mode || b.dataset.opt !== undefined || b.dataset.tok !== undefined || b.dataset.filter || b.dataset.audio || b.dataset.match || b.dataset.tile || b.dataset.slot)).map(b => b.textContent.trim())""")
             check(f'{path} 沒有無作用按鈕', len(orphan) == 0, str(orphan))
         page.goto(BASE + '#/worlds'); page.wait_for_timeout(300)
         page.screenshot(path=f'{OUT}/p2-11-worlds.png', full_page=True)

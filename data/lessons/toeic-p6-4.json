@@ -1,0 +1,256 @@
+{
+  "id": "toeic-p6-4",
+  "world": "part6",
+  "order": 5,
+  "type": "toeic",
+  "title": "Part 6 說明與報導",
+  "titleEn": "Instructions & Articles",
+  "summary": "使用說明和地方新聞：注意順序和時態。",
+  "minutes": 15,
+  "steps": [
+    {
+      "kind": "concept",
+      "title": "重點觀念",
+      "body": [
+        "使用說明會用順序字：First（首先）、Next（接著）、Then（然後）、Finally（最後）。",
+        "新聞報導常用過去式說發生的事，被動語態說「被誰創立、被誰選上」。"
+      ]
+    },
+    {
+      "kind": "explain",
+      "title": "解題技巧",
+      "body": [
+        "先記住這張表："
+      ],
+      "table": {
+        "head": [
+          "題型",
+          "選項長相",
+          "怎麼解"
+        ],
+        "rows": [
+          [
+            "順序題",
+            "First／Next／Finally",
+            "看是第幾個步驟"
+          ],
+          [
+            "被動題",
+            "opened／was opened",
+            "店是「被開」的"
+          ],
+          [
+            "固定說法",
+            "be known for",
+            "以…聞名"
+          ]
+        ]
+      },
+      "tip": "be known for（以…聞名）是多益常考片語，known 一定要用過去分詞。"
+    },
+    {
+      "kind": "examples",
+      "title": "聽聽看",
+      "items": [
+        {
+          "en": "First, place a cup under the spout.",
+          "zh": "首先，把杯子放在出水口下面。",
+          "highlight": "First",
+          "audio": "assets/audio/lessons/toeic-p6-4/ex1.mp3"
+        },
+        {
+          "en": "Next, choose the type of coffee you want.",
+          "zh": "接著，選擇你要的咖啡種類。",
+          "highlight": "Next",
+          "audio": "assets/audio/lessons/toeic-p6-4/ex2.mp3"
+        },
+        {
+          "en": "The bakery is known for its fresh bread.",
+          "zh": "這家麵包店以新鮮麵包聞名。",
+          "highlight": "known",
+          "audio": "assets/audio/lessons/toeic-p6-4/ex3.mp3"
+        },
+        {
+          "en": "She will use the prize money to expand her shop.",
+          "zh": "她會用獎金擴大店面。",
+          "highlight": "expand",
+          "audio": "assets/audio/lessons/toeic-p6-4/ex4.mp3"
+        }
+      ]
+    },
+    {
+      "kind": "practice",
+      "title": "模擬練習",
+      "intro": "每題都會顯示整篇文章，看到第幾個空格就作答那一格。",
+      "questions": [
+        {
+          "id": "p64-1",
+          "group": "p64-1",
+          "type": "choice",
+          "prompt": "第 1 個空格要填什麼？",
+          "options": [
+            "Next",
+            "Before",
+            "Although",
+            "Finally"
+          ],
+          "answer": "Next",
+          "explanation": "第一步之後的下一步，用 Next。後面還有步驟，所以不是 Finally。",
+          "text": "How to Use the New Coffee Machine\n\nThe new coffee machine in the break room is easy to use. First, place a cup under the spout. (1)______, choose the type of coffee you want. The machine will make your coffee in about 30 seconds. Please clean the area after you (2)______ it. (3)______ If the machine stops working, do not try to fix it (4)______. Instead, call the maintenance office at extension 210."
+        },
+        {
+          "id": "p64-2",
+          "group": "p64-2",
+          "type": "choice",
+          "prompt": "第 2 個空格要填什麼？",
+          "options": [
+            "use",
+            "used",
+            "using",
+            "will use"
+          ],
+          "answer": "use",
+          "explanation": "after you ___ it：after 後面的句子用現在式表示未來，主詞 you 用 use。",
+          "text": "How to Use the New Coffee Machine\n\nThe new coffee machine in the break room is easy to use. First, place a cup under the spout. (1)______, choose the type of coffee you want. The machine will make your coffee in about 30 seconds. Please clean the area after you (2)______ it. (3)______ If the machine stops working, do not try to fix it (4)______. Instead, call the maintenance office at extension 210."
+        },
+        {
+          "id": "p64-3",
+          "group": "p64-3",
+          "type": "choice",
+          "prompt": "第 3 個空格要填什麼？",
+          "options": [
+            "Also, please do not leave dirty cups in the sink.",
+            "The old machine made better coffee.",
+            "Coffee is sold at the café across the street."
+          ],
+          "answer": "Also, please do not leave dirty cups in the sink.",
+          "explanation": "前一句請大家清理，接「另外別把髒杯子留在水槽」最合理。",
+          "text": "How to Use the New Coffee Machine\n\nThe new coffee machine in the break room is easy to use. First, place a cup under the spout. (1)______, choose the type of coffee you want. The machine will make your coffee in about 30 seconds. Please clean the area after you (2)______ it. (3)______ If the machine stops working, do not try to fix it (4)______. Instead, call the maintenance office at extension 210."
+        },
+        {
+          "id": "p64-4",
+          "group": "p64-4",
+          "type": "choice",
+          "prompt": "第 4 個空格要填什麼？",
+          "options": [
+            "you",
+            "your",
+            "yours",
+            "yourself"
+          ],
+          "answer": "yourself",
+          "explanation": "do not try to fix it yourself：不要自己修。",
+          "text": "How to Use the New Coffee Machine\n\nThe new coffee machine in the break room is easy to use. First, place a cup under the spout. (1)______, choose the type of coffee you want. The machine will make your coffee in about 30 seconds. Please clean the area after you (2)______ it. (3)______ If the machine stops working, do not try to fix it (4)______. Instead, call the maintenance office at extension 210."
+        },
+        {
+          "id": "p64-5",
+          "group": "p64-5",
+          "type": "choice",
+          "prompt": "第 5 個空格要填什麼？",
+          "options": [
+            "opened",
+            "was opened",
+            "is opening",
+            "opens"
+          ],
+          "answer": "was opened",
+          "explanation": "麵包店是「被開」的，而且是十年前，用 was opened。",
+          "text": "Local Bakery Wins Award\n\nSweet Corner Bakery won the \"Best Bakery in Town\" award last week. The bakery (5)______ by Maria Lopez ten years ago. It is (6)______ for its fresh bread and fruit pies. (7)______ Ms. Lopez says she will use the prize money to (8)______ her shop and hire two more bakers."
+        },
+        {
+          "id": "p64-6",
+          "group": "p64-6",
+          "type": "choice",
+          "prompt": "第 6 個空格要填什麼？",
+          "options": [
+            "know",
+            "knew",
+            "known",
+            "knowing"
+          ],
+          "answer": "known",
+          "explanation": "be known for：以…聞名。",
+          "text": "Local Bakery Wins Award\n\nSweet Corner Bakery won the \"Best Bakery in Town\" award last week. The bakery (5)______ by Maria Lopez ten years ago. It is (6)______ for its fresh bread and fruit pies. (7)______ Ms. Lopez says she will use the prize money to (8)______ her shop and hire two more bakers."
+        },
+        {
+          "id": "p64-7",
+          "group": "p64-7",
+          "type": "choice",
+          "prompt": "第 7 個空格要填什麼？",
+          "options": [
+            "Customers often wait in line to buy them.",
+            "The bakery will close next month.",
+            "Ms. Lopez does not like baking."
+          ],
+          "answer": "Customers often wait in line to buy them.",
+          "explanation": "前一句說麵包和派很有名，接「顧客常排隊購買」最合理。them 指 bread and pies。",
+          "text": "Local Bakery Wins Award\n\nSweet Corner Bakery won the \"Best Bakery in Town\" award last week. The bakery (5)______ by Maria Lopez ten years ago. It is (6)______ for its fresh bread and fruit pies. (7)______ Ms. Lopez says she will use the prize money to (8)______ her shop and hire two more bakers."
+        },
+        {
+          "id": "p64-8",
+          "group": "p64-8",
+          "type": "choice",
+          "prompt": "第 8 個空格要填什麼？",
+          "options": [
+            "expand",
+            "expansion",
+            "expanded",
+            "expansive"
+          ],
+          "answer": "expand",
+          "explanation": "to 後面接動詞原形 expand（擴大）。",
+          "text": "Local Bakery Wins Award\n\nSweet Corner Bakery won the \"Best Bakery in Town\" award last week. The bakery (5)______ by Maria Lopez ten years ago. It is (6)______ for its fresh bread and fruit pies. (7)______ Ms. Lopez says she will use the prize money to (8)______ her shop and hire two more bakers.",
+          "optionNotes": {
+            "expansion": "expansion（名詞）是「擴張」"
+          }
+        }
+      ],
+      "similar": []
+    },
+    {
+      "kind": "review",
+      "title": "答案解析"
+    },
+    {
+      "kind": "practice",
+      "title": "延伸練習",
+      "intro": "多練兩題，加深印象。",
+      "questions": [
+        {
+          "id": "p64-x1",
+          "group": "p64-x1",
+          "type": "choice",
+          "prompt": "be known for 是什麼意思？",
+          "options": [
+            "以…聞名",
+            "知道…",
+            "為…而工作"
+          ],
+          "answer": "以…聞名",
+          "explanation": "The city is known for its night markets.：這座城市以夜市聞名。",
+          "promptSay": {
+            "text": "be known for",
+            "audio": "assets/audio/prompts/be-known-for.mp3"
+          }
+        },
+        {
+          "id": "p64-x2",
+          "group": "p64-x2",
+          "type": "choice",
+          "prompt": "expand 是什麼意思？",
+          "options": [
+            "擴大、擴展",
+            "解釋",
+            "花費"
+          ],
+          "answer": "擴大、擴展",
+          "explanation": "expand a business：擴展事業。",
+          "promptSay": {
+            "text": "expand",
+            "audio": "assets/audio/prompts/expand.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

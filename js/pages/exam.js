@@ -10,6 +10,8 @@ import { answerText, isCorrect } from '../lesson/engine.js';
 import { recordAttempt, logSession, awardLessonComplete } from '../rewards.js';
 import { afterActivity } from '../ui/celebrate.js';
 import { formatTime } from '../storage-status.js';
+import { estimateScore } from '../score.js';
+import { optionNotesHTML } from '../ui/question-view.js';
 
 export const PART_NAMES = { 1: 'Part 1 照片描述', 2: 'Part 2 應答問題', 3: 'Part 3 簡短對話', 4: 'Part 4 簡短獨白', 5: 'Part 5 單句填空', 6: 'Part 6 段落填空', 7: 'Part 7 閱讀理解' };
 export const TARGET_RATE = 60;
@@ -56,6 +58,13 @@ export async function render({ outlet, db, query, settings }) {
   let onVis = null;
   const cleanup = () => { if (timer) clearInterval(timer); if (onVis) document.removeEventListener('visibilitychange', onVis); timer = null; };
 
+  function partSummary() {
+    const n = {};
+    for (const q of questions) n[q.part] = (n[q.part] || 0) + 1;
+    const L = [1, 2, 3, 4].reduce((a, k) => a + (n[k] || 0), 0);
+    return `聽力 ${L} 題（Part 1～4）、閱讀 ${questions.length - L} 題（Part 5～7）`;
+  }
+
   async function intro() {
     cleanup();
     const draft = await db.get('progress', draftKey);
@@ -65,7 +74,7 @@ export async function render({ outlet, db, query, settings }) {
         <a class="link" href="#/world?id=${exam.world}">← 回到世界</a>
         <h1 class="page-title">${escapeHTML(exam.title)}</h1>
         <ul class="plain-list">
-          <li>共 ${questions.length} 題，七大題型各 3 題。</li>
+          <li>共 ${questions.length} 題：${partSummary()}。</li>
           <li>限時 ${Math.round(exam.timeLimit / 60)} 分鐘。離開 App 時計時會暫停，進度會保存。</li>
           <li>作答時不會顯示對錯，交卷後才公布答案和解析。</li>
           <li>練習用：聽力可以重複播放（正式考試每段只播一次）。</li>
@@ -178,23 +187,26 @@ export async function render({ outlet, db, query, settings }) {
         await recordAttempt(db, { kind: 'lesson', lessonId: exam.id, itemId: q.id, group: q.group, correct: isCorrect(q, a), answer: a, createdAt: now });
       }
       const result = scoreExam(questions, s.answers);
+      const estimate = estimateScore(result);
       const old = (await db.get('progress', key)) || {};
       const times = (old.timesCompleted || 0) + 1;
       await db.put('progress', {
         id: key, lessonId: exam.id, status: 'completed', stepIndex: 0, practice: {}, completedAt: now, updatedAt: now,
         timesCompleted: times, lastAccuracy: result.rate, bestAccuracy: Math.max(old.bestAccuracy ?? 0, result.rate), title: exam.title, world: exam.world,
+        lastEstimate: estimate, lastParts: result.parts,
       });
       await db.delete('progress', draftKey);
       await logSession(db, { type: 'lesson', lessonId: exam.id, accuracy: result.rate });
       const earned = await awardLessonComplete(db, exam.id, times, exam.title);
-      showResult(result, s.answers, timeUp);
+      showResult(result, s.answers, timeUp, estimate);
       afterActivity({ db, settings, earned: [earned] });
     }
     paint();
   }
 
-  function showResult(r, answers, timeUp) {
+  function showResult(r, answers, timeUp, est) {
     const pass = r.rate >= TARGET_RATE;
+    const goal = 550;
     outlet.innerHTML = `
       <section class="card complete" data-testid="exam-result">
         <p class="complete__badge" aria-hidden="true">${pass ? '🏆' : '📝'}</p>
@@ -204,8 +216,23 @@ export async function render({ outlet, db, query, settings }) {
         <p class="${pass ? 'status-line status-line--good' : 'muted'}" data-testid="exam-target">${pass
           ? '已達到 550 分目標的參考線（約答對六成）！'
           : `距離 550 分目標的參考線（約答對六成）還差 ${Math.ceil((TARGET_RATE * r.total) / 100) - r.correct} 題。`}</p>
-        <p class="hint">參考線只是大概：多益正式分數依每次考試難度換算，這份迷你模擬考不能換算成正式分數。</p>
       </section>
+      ${est ? `
+      <section class="card score-card" data-testid="exam-estimate">
+        <h2 class="card__title">預估多益分數</h2>
+        <p class="score-card__total"><strong class="en" data-testid="est-total">${est.total}</strong><span class="muted"> 分左右（±${est.margin}）</span></p>
+        <div class="score-card__split">
+          <div><span class="muted small">聽力</span><strong class="en">${est.listening}</strong></div>
+          <div><span class="muted small">閱讀</span><strong class="en">${est.reading}</strong></div>
+        </div>
+        <div class="score-meter" role="img" aria-label="預估 ${est.total} 分，目標 ${goal} 分">
+          <span class="score-meter__fill" style="width:${Math.round((est.total / 990) * 100)}%"></span>
+          <span class="score-meter__goal" style="left:${Math.round((goal / 990) * 100)}%"></span>
+          <span class="score-meter__label" style="left:${Math.round((goal / 990) * 100)}%">目標 ${goal}</span>
+        </div>
+        <p class="${est.total >= goal ? 'status-line status-line--good' : 'muted'}">${est.total >= goal ? '🎯 預估已達 550 分目標，保持下去！' : `距離 550 分目標還差約 ${goal - est.total} 分，先加強下面答對率最低的 Part。`}</p>
+        <p class="hint">粗估：依答對率換算，共 ${est.questions} 題${est.questions < 100 ? '，題數少所以誤差較大' : ''}。正式多益會依每次考試難度換算，分數只當參考。</p>
+      </section>` : ''}
       <section class="card">
         <h2 class="card__title">各題型答對率</h2>
         <ul class="hbars">${Object.keys(PART_NAMES).filter((k) => r.parts[k]).map((k) => {
@@ -222,7 +249,7 @@ export async function render({ outlet, db, query, settings }) {
             <p class="review-list__q">${ok ? '✅' : '❌'} <span class="badge badge--lock">Part ${q.part}</span> ${escapeHTML(q.sentence || q.prompt)}</p>
             ${q.audio ? playButtonHTML(q.audio, '▶ 重聽', 'play-btn--mini') : ''}
             <p>你的答案：<span class="en">${escapeHTML(answerText(q, a))}</span></p>${ok ? '' : `<p>正確答案：<strong class="en">${escapeHTML(answerText(q))}</strong></p>`}
-            <p class="feedback__exp pre">${escapeHTML(q.explanation)}</p>
+            <p class="feedback__exp pre">${escapeHTML(q.explanation)}</p>${ok ? '' : optionNotesHTML(q)}
           </li>`;
         }).join('')}</ol>
         <div class="btn-row"><button type="button" class="btn btn--primary" data-act="again">再考一次</button><a class="btn btn--ghost" href="#/mistakes">去錯題百科</a></div>
