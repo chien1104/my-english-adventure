@@ -10,8 +10,11 @@ srv = subprocess.Popen([sys.executable, '-m', 'http.server', str(PORT), '-d', RO
 time.sleep(1)
 CAT = json.load(open(os.path.join(ROOT, 'data/catalog.json')))
 LESSONS = [json.load(open(os.path.join(ROOT, p))) for p in CAT['lessons']]
+if os.environ.get('ONLY_LESSONS'):  # 只檢查指定的課（逗號分隔），除錯用
+    LESSONS = [l for l in LESSONS if l['id'] in os.environ['ONLY_LESSONS'].split(',')]
 WIDTHS = [320, 375, 414, 768, 1024]
 problems, errors = [], []
+CUR = {}
 checked = {'pages': 0, 'steps': 0, 'buttons': 0}
 
 LAYOUT_JS = r"""
@@ -76,7 +79,8 @@ try:
 
         ONLY_BUTTONS = len(sys.argv) > 3 and sys.argv[3] == 'buttons'
         # 空白使用者先檢查一輪
-        for w in ([] if ONLY_BUTTONS else WIDTHS):
+        SKIP_PAGES = bool(os.environ.get('ONLY_LESSONS'))  # 只查指定課程時跳過頁面檢查
+        for w in ([] if ONLY_BUTTONS or SKIP_PAGES else WIDTHS):
             page.set_viewport_size({'width': w, 'height': 800})
             for r in ['#/home', '#/worlds', '#/words', '#/games', '#/mistakes', '#/settings', '#/achievements', '#/stats', '#/diagnosis', '#/listening']:
                 page.goto(BASE + r); page.wait_for_selector('#app section, #app .player', timeout=8000); audit(page, f'新使用者 {w}px {r}')
@@ -85,10 +89,10 @@ try:
         routes = ['#/home', '#/worlds', '#/words', '#/review', '#/review?mode=free', '#/games', '#/game?id=match', '#/game?id=speed', '#/game?id=spell',
                   '#/mistakes', '#/mistake-practice', '#/settings', '#/achievements', '#/stats', '#/diagnosis', '#/exam?id=mock-1',
                   '#/series?id=hot', '#/series?id=core3', '#/series?id=topic-travel', '#/unit?id=hot:0', '#/unit?id=toeic:3',
-                  '#/exam?id=mock-2', '#/exam?id=level', '#/listening', '#/listening?mode=dictation', '#/listening?mode=shadow', '#/review?mode=fav']
+                  '#/exam?id=mock-2', '#/exam?id=level', '#/word-test', '#/mistake-practice', '#/listening', '#/listening?mode=dictation', '#/listening?mode=shadow', '#/review?mode=fav']
         worlds = sorted({l['world'] for l in LESSONS})
         routes += [f'#/world?id={w}' for w in worlds]
-        for w in ([] if ONLY_BUTTONS else WIDTHS):
+        for w in ([] if ONLY_BUTTONS or SKIP_PAGES else WIDTHS):
             page.set_viewport_size({'width': w, 'height': 800})
             for r in routes:
                 page.goto(BASE + r); page.wait_for_timeout(350); audit(page, f'{w}px {r}')
@@ -109,6 +113,7 @@ try:
             guard = 0
             while page.locator('[data-testid=player]').count() and guard < 80:
                 guard += 1
+                CUR.update(lesson=l['id'], step=guard)
                 try: kind = page.get_attribute('[data-role=body]', 'data-kind', timeout=3000)
                 except Exception:  # 答對自動跳題、課程剛好結束
                     page.wait_for_timeout(1500); continue
@@ -181,13 +186,14 @@ try:
         browser.close()
 except Exception as ex:
     import traceback; traceback.print_exc(limit=2)
-    errors.append('ABORT: ' + str(ex).splitlines()[0])
+    errors.append('ABORT: ' + str(ex).splitlines()[0] + f'（課程 {CUR.get("lesson")} 第 {CUR.get("step")} 步）')
 finally:
     srv.terminate()
 
 print(f"檢查頁面狀態 {checked['pages']} 次、課程步驟 {checked['steps']} 步、按鈕 {checked['buttons']} 個")
 uniq = sorted(set(problems))
 print(f'發現問題 {len(uniq)} 個；JS 錯誤 {len(errors)} 個')
+for e in errors[:5]: print('  ', e)
 import collections, re as _re
 groups = collections.Counter(_re.sub(r'第\d+(步|題)', '第N\\1', _re.sub(r'\[\d+px ', '[', x)) for x in uniq)
 for g, n in groups.most_common(): print(f' - ({n}) {g}')

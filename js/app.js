@@ -1,6 +1,7 @@
 // 啟動流程：開資料庫 → 讀設定 → 啟動路由
 import { openDB } from './db.js';
 import { loadFavorites, installFavoriteHandler } from './favorites.js';
+import { applyTheme, resolveTheme } from './theme.js';
 import { createSettings } from './settings.js';
 import { createRouter } from './router.js';
 import { getStorageStatus, describeStatus } from './storage-status.js';
@@ -28,6 +29,7 @@ import * as achievementsPage from './pages/achievements.js';
 import * as statsPage from './pages/stats.js';
 import * as examPage from './pages/exam.js';
 import * as listeningPage from './pages/listening.js';
+import * as wordTestPage from './pages/word-test.js';
 
 const outlet = document.getElementById('app');
 const indicator = document.getElementById('save-indicator');
@@ -86,6 +88,14 @@ async function boot() {
 
   const settings = createSettings();
   setPlaybackRate(settings.get().playbackRate);
+  applyTheme(settings.get().theme);
+  // 上方的 🌙／☀️：在白天和深色之間切換（跟著手機的設定會改成手動）
+  document.querySelector('[data-act="theme-toggle"]')?.addEventListener('click', () => {
+    const next = resolveTheme(settings.get().theme) === 'dark' ? 'light' : 'dark';
+    settings.update({ theme: next });
+    applyTheme(next);
+    document.dispatchEvent(new CustomEvent('mea:theme', { detail: next }));
+  });
   if (!settings.available) toast('設定無法保存（localStorage 不可用）', { type: 'error', duration: 5000 });
 
   async function refreshIndicator() {
@@ -128,6 +138,7 @@ async function boot() {
       '/stats': { title: '學習分析', render: statsPage.render },
       '/exam': { title: '模擬考', render: examPage.render },
       '/listening': { title: '聽力訓練', render: listeningPage.render },
+      '/word-test': { title: '單字總測驗', render: wordTestPage.render },
       '*': notFound,
     },
     onRoute: (path) => { setActiveTab(path); window.scrollTo(0, 0); },

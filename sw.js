@@ -1,7 +1,7 @@
 // My English Adventure Service Worker
 // 讓 App 在沒有網路時也能開啟、上課、播放已下載的音檔。
 // 學習資料存在 IndexedDB，不在這裡；更新 App 不會影響學習紀錄。
-const VERSION = '2026.11.27-v2.2.0';
+const VERSION = '2026.11.27-v2.3.0';
 const SHELL_CACHE = `mea-shell-${VERSION}`;
 const AUDIO_CACHE = 'mea-audio-v1';
 
@@ -59,6 +59,7 @@ const PRECACHE = [
   "assets/img/words/yellow.svg",
   "css/base.css",
   "css/components.css",
+  "css/dark.css",
   "css/theme.css",
   "css/tokens.css",
   "data/catalog.json",
@@ -139,6 +140,7 @@ const PRECACHE = [
   "js/diagnosis.js",
   "js/favorites.js",
   "js/games/logic.js",
+  "js/games/word-test.js",
   "js/gamify.js",
   "js/learning.js",
   "js/lesson/engine.js",
@@ -161,6 +163,7 @@ const PRECACHE = [
   "js/pages/settings.js",
   "js/pages/stats.js",
   "js/pages/unit.js",
+  "js/pages/word-test.js",
   "js/pages/words.js",
   "js/pages/world.js",
   "js/pages/worlds.js",
@@ -171,6 +174,7 @@ const PRECACHE = [
   "js/score.js",
   "js/settings.js",
   "js/storage-status.js",
+  "js/theme.js",
   "js/ui/celebrate.js",
   "js/ui/complete.js",
   "js/ui/confirm.js",

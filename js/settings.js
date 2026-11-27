@@ -22,6 +22,7 @@ export function defaultSettings() {
     todayMode: null,        // { date: 'YYYY-MM-DD', mode }
     persistRequest: null,   // { at: timestamp, supported, granted }
     playbackRate: 1,        // 發音播放速度：1 或 0.8
+    theme: 'light',         // 外觀：light 白天／dark 深色／auto 跟著手機
   };
 }
 
@@ -55,6 +56,7 @@ export function sanitize(raw) {
   }
 
   if (PLAYBACK_RATES.includes(raw.playbackRate)) out.playbackRate = raw.playbackRate;
+  if (['light', 'dark', 'auto'].includes(raw.theme)) out.theme = raw.theme;
 
   const t = raw.todayMode;
   if (t && typeof t.date === 'string' && MODE_IDS.includes(t.mode)) {

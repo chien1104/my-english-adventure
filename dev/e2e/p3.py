@@ -74,7 +74,7 @@ try:
 
         page.goto(BASE); ready(page)
         check('底部導覽 5 個分頁：首頁、世界、單字、遊戲、錯題', page.locator('.tabbar__link').all_inner_texts() == ['首頁', '世界', '單字', '遊戲', '錯題'])
-        page.click('.icon-link'); page.wait_for_selector('[data-testid=nickname-form]')
+        page.click('a.icon-link[href="#/settings"]'); page.wait_for_selector('[data-testid=nickname-form]')
         check('頂部齒輪可進入設定', page.url.endswith('#/settings'))
 
         page.click('.tabbar__link[href="#/games"]'); page.wait_for_selector('[data-testid=games-locked]')
@@ -115,11 +115,12 @@ try:
         # 錯題百科
         page.click('.tabbar__link[href="#/mistakes"]'); page.wait_for_selector('[data-testid=mistake-list]')
         pend = int(page.inner_text('[data-testid=pending-count]')); fixed = int(page.inner_text('[data-testid=fixed-count]'))
-        check('錯題百科：bread 補練 2 次都錯→待訂正；milk 補練答對→已訂正', pend == 1 and fixed == 1, f'{pend}/{fixed}')
+        due = int(page.inner_text('[data-testid=due-count]'))
+        check('錯題百科：bread 都錯→今天要複習；milk 答對一次→3 天後再複習（還不算訂正）', pend == 2 and fixed == 0 and due == 1, f'{pend}/{fixed}/{due}')
         mtext = page.inner_text('[data-testid=mistake-list]')
         check('錯題顯示來源課程、你的答案、正確答案、中文解析', all(k in mtext for k in ['早餐桌上', '你的答案', '正確答案', '錯 3 次']), mtext)
         page.click('[data-filter=fixed]'); page.wait_for_timeout(80)
-        check('篩選已訂正', page.locator('.mistake').count() == 1)
+        check('篩選已訂正（答對一次還不算）', page.locator('.mistake').count() == 0)
         page.screenshot(path=f'{OUT}/p3-01-mistakes.png', full_page=True)
 
         page.goto(BASE + '#/home'); page.wait_for_selector('[data-testid=plan-list]')
@@ -132,11 +133,11 @@ try:
         check('錯題重練出題', rq.startswith('mx-lesson|vocab-1|bread'), rq)
         answer(page, True); cont(page)
         page.click('[data-act=next]'); page.wait_for_selector('[data-testid=retrain-complete]')
-        check('重練答對後全部訂正', '全部錯題都訂正了' in page.inner_text('[data-testid=retrain-complete]'))
+        check('重練答對後今天的錯題練完了', '今天的錯題練完了' in page.inner_text('[data-testid=retrain-complete]'))
 
         # ---- 遊戲 ----
         page.click('.tabbar__link[href="#/games"]'); page.wait_for_selector('[data-testid=game-list]')
-        check('遊戲樂園 3 款遊戲', page.locator('.game-card').count() == 3)
+        check('遊戲樂園 3 款遊戲＋單字總測驗', page.locator('.game-card').count() == 3 and page.locator('[data-testid=wordtest-cta]').count() == 1)
 
         # 圖字配對：先配錯一次，再全部配對
         page.click('[data-testid=play-match]'); page.wait_for_selector('[data-testid=game-match]')

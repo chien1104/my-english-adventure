@@ -23,11 +23,19 @@ export async function render({ outlet, db }) {
     return;
   }
   const pictured = ctx.learnedWords.filter((w) => w.image).length;
+  const wt = ctx.progressById.get('wordtest');
+  const wtRec = ctx.progressById.get('game:wordtest');
   outlet.innerHTML = `
     <section class="card">
       <h1 class="page-title">遊戲樂園</h1>
       <p class="muted">用你學過的 ${n} 個單字出題。答錯的單字會自動收進錯題百科。</p>
     </section>
+    <a class="level-cta wt-cta" href="#/word-test" data-testid="wordtest-cta">
+      <span class="level-cta__icon" aria-hidden="true">🏁</span>
+      <span class="level-cta__text"><strong>單字總測驗</strong>
+        <small>${wt && wt.pos < wt.order?.length ? `進行中：已測 ${wt.pos} / ${wt.order.length} 字，接著測` : `把學過的 ${n} 個單字全部測一遍${wtRec?.best ? `・最佳 ${wtRec.best.rate}%` : ''}`}</small></span>
+      <span class="level-cta__go" aria-hidden="true">›</span>
+    </a>
     <ul class="game-list" data-testid="game-list">
       ${Object.values(GAMES).map((g) => `
         <li class="card game-card">

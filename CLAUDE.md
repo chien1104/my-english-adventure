@@ -40,7 +40,7 @@ python3 dev/audio_report.py .        # 列出驗證沒通過、需要人工聽�
 python3 dev/build_single.py . out/my-english-adventure.html   # 產生單檔版（需要 npx esbuild）
 ```
 
-端對端測試在 `dev/e2e/`（Playwright＋Chrome）：`run.py`(P1)、`p2.py`、`p3.py`、`p45.py`、`audit.py`（版面＋按鈕稽核，320～1024px）、`single_test.py`。
+端對端測試在 `dev/e2e/`（Playwright＋Chrome）：`run.py`(P1)、`p2.py`、`p3.py`、`p45.py`、`v22_test.py`、`wordtest_test.py`、`audit.py`（版面＋按鈕稽核，320～1024px）、`single_test.py`。
 用法：`python3 dev/e2e/p2.py <專案路徑> <截圖資料夾>`。腳本裡 Chrome 路徑寫死為 `/usr/bin/google-chrome`，換環境要調整。
 
 ## 音檔
@@ -50,7 +50,11 @@ python3 dev/build_single.py . out/my-english-adventure.html   # 產生單檔版�
 - 題目文字裡的英文（例如「repairs 是什麼意思？」）旁邊有 🔊：`dev/add_prompt_audio.py` 幫每題加 `promptSay`，音檔放 `assets/audio/prompts/`（有單字音檔就沿用）；人名不加。`build_content.py` 最後會自動呼叫它。
 - 稱謂 Ms./Mr. 在 TTS 時會換成 Miz/Mister（畫面仍顯示縮寫）。
 
-## 目前狀態（v2.2）
+## 目前狀態（v2.3）
+
+- 2.3：單字總測驗 `#/word-test`（`js/games/word-test.js`）：所有學過的字分關（每關 20 字）、題型輪流，進度存 progress `wordtest`，紀錄存 `game:wordtest`（含 lastWrong 供重測）。
+- 2.3：深色模式 `css/dark.css`（`<html data-theme="dark">`）＋ `js/theme.js`；設定 `theme`：light／dark／auto，index.html 開頭的小段程式先套用避免閃白；上方 🌙／☀️ 快速切換。
+- 2.3：錯題要「答對一次 → 3 天後再答對」才算訂正（`js/mistakes.js` 的 streak／dueAt／due），錯題重練只出到期的，可用 `?cat=part5` 等分類練習。
 
 - 2.2：聽力題可跳過（`engine.skipQuestion`：不計分，同組有不用聽的相似題就補上；模擬考跳過的題 `scoreExam(..., skipped)` 不計分，也可選「只考閱讀」，此時只估閱讀分數）。
 - 2.2：多益程度測驗 `#/exam?id=level`（`js/level-test.js`）：從所有模擬考題庫依題組抽約 30 題、優先抽沒做過的，限時 25 分鐘；歷次成績存在 progress `leveltest`，首頁、學習分析、模擬考殿堂有入口和折線圖。

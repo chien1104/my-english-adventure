@@ -246,11 +246,11 @@ body.is-immersive #app { padding-top: calc(10px + env(safe-area-inset-top)); }
 .opt:active:not(:disabled) { transform: translateY(3px); box-shadow: 0 1px 0 #EADCCB; }
 .opt.is-correct { border-color: #8DBB86; background: linear-gradient(160deg, #F1F8EC, #E1F0DA); color: #2F5B2B; box-shadow: 0 4px 0 #BFD9B6; animation: correct-pop .5s var(--spring); }
 .opt.is-correct::before { content: "✓"; background: var(--g-good); color: #fff; }
-.opt.is-wrong { border-color: #DB9A8E; background: linear-gradient(160deg, #FCEFEC, #F7DFD9); color: #8E3324; box-shadow: 0 4px 0 #EDC3BA; animation: shake .45s var(--ease); }
+.opt.is-wrong { border-color: #DB9A8E; background: linear-gradient(160deg, #FCEFEC, #F7DFD9); color: #8E3324; box-shadow: 0 4px 0 #EDC3BA; animation: shake-in .45s var(--ease); }
 .opt.is-wrong::before { content: "✕"; background: var(--g-bad); color: #fff; }
 .opt:disabled:not(.is-correct):not(.is-wrong) { opacity: .5; }
 @keyframes correct-pop { 0% { transform: translateY(0); } 40% { transform: translateY(-4px); } 100% { transform: translateY(0); } } /* 只上下彈，不放大：避免窄螢幕被撐寬 */
-@keyframes shake { 0%, 100% { transform: none; } 20% { transform: translateX(-7px); } 40% { transform: translateX(6px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(3px); } }
+@keyframes shake-in { 0%, 100% { transform: none; } 20% { transform: translateX(-7px); } 40% { transform: translateX(-1px); } 60% { transform: translateX(-5px); } 80% { transform: translateX(-1px); } } /* 只往左晃：不會撐寬窄螢幕 */
 
 /* ---------- 作答回饋：底部面板＋背景變暗 ---------- */
 .feedback-sheet { background: #FFFDF9; border-radius: 28px 28px 0 0; padding: 14px 14px calc(14px + env(safe-area-inset-bottom)); box-shadow: 0 -20px 50px -10px rgba(47, 30, 20, .35); animation: sheet-up .42s var(--spring) both; }
@@ -493,3 +493,28 @@ body.is-immersive .feedback-sheet { left: 0; right: 0; bottom: 0; max-height: 58
 .level-chart__val { fill: var(--c-brown-deep); font-size: 12px; font-weight: 800; font-family: var(--font-en); }
 .level-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
 .level-list li { display: grid; grid-template-columns: 1fr auto auto; gap: 10px; align-items: baseline; padding: 8px 4px; border-bottom: 1px solid var(--c-line); font-size: var(--fs-sm); }
+
+/* ---------------------------------------------------------------- 2.3 單字總測驗 */
+.wt-cta { margin-bottom: var(--sp-3); }
+.wt-hero { background: var(--g-cream); }
+.wt-fb { margin: 10px 0 0; padding: 12px 14px; border-radius: 18px; animation: card-in .3s var(--spring); }
+.wt-fb p { margin: 0 0 6px; }
+.wt-fb--good { background: var(--c-good-bg); color: var(--c-good); font-weight: 800; text-align: center; }
+.wt-fb--bad { background: var(--c-bad-bg); color: var(--c-ink); }
+.wt-fb--bad strong { color: var(--c-bad); }
+.wt-wrong { text-align: left; margin: 8px 0; }
+.wt-wrong summary { cursor: pointer; font-weight: 700; color: var(--c-brown); min-height: 44px; display: flex; align-items: center; }
+.chip-cloud { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* ---------------------------------------------------------------- 2.3 外觀切換 */
+.theme-toggle { border: 0; background: transparent; font-size: 1.15rem; line-height: 1; cursor: pointer; min-width: 44px; min-height: 44px; display: inline-grid; place-items: center; border-radius: 999px; }
+.theme-toggle:hover { background: var(--c-cream-2); }
+.theme-pick { display: grid; gap: 8px; margin-top: 8px; }
+
+/* ---------------------------------------------------------------- 2.3 錯題分類 */
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 8px; }
+.cat-btn { display: grid; gap: 2px; justify-items: center; padding: 12px 8px; min-height: 64px; border-radius: 16px; background: var(--c-cream-2);
+  border: 1px solid var(--c-line); text-decoration: none; color: var(--c-ink); transition: transform var(--dur-1) var(--spring); }
+.cat-btn:hover { transform: translateY(-2px); }
+.cat-btn small { color: var(--c-ink-soft); }
+.stats--3 { grid-template-columns: repeat(3, 1fr); }

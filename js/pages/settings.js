@@ -4,6 +4,7 @@ import { getStorageStatus, describeStatus, requestPersist, formatTime } from '..
 import { DB_VERSION } from '../db.js';
 import { escapeHTML } from '../ui/dom.js';
 import { toast } from '../ui/toast.js';
+import { THEMES, applyTheme } from '../theme.js';
 import { confirmDialog } from '../ui/confirm.js';
 import { buildBackup, backupFileName, validateBackup, restoreBackup } from '../backup.js';
 import { offlineStatus, downloadAudio, swSupported, SINGLE_FILE } from '../pwa.js';
@@ -26,6 +27,18 @@ export async function render({ outlet, db, settings, query, refreshIndicator }) 
         </label>
         <button class="btn btn--primary" type="submit">儲存暱稱</button>
       </form>
+    </section>
+
+    <section class="card" id="appearance" aria-labelledby="appearance-title">
+      <h2 id="appearance-title" class="card__title">外觀</h2>
+      <p class="muted">晚上或光線暗的時候用深色模式，比較不刺眼。上方的 🌙／☀️ 也可以快速切換。</p>
+      <div class="theme-pick" role="radiogroup" aria-label="外觀" data-testid="theme-pick">
+        ${Object.entries(THEMES).map(([id, label]) => `
+          <label class="radio theme-pick__opt">
+            <input type="radio" name="theme" value="${id}" ${s.theme === id ? 'checked' : ''}>
+            <span>${label}</span>
+          </label>`).join('')}
+      </div>
     </section>
 
     <section class="card" id="modes" aria-labelledby="modes-title">
@@ -289,6 +302,20 @@ export async function render({ outlet, db, settings, query, refreshIndicator }) 
     }));
   }
   paintOffline();
+
+  outlet.querySelector('[data-testid="theme-pick"]').addEventListener('change', (e) => {
+    if (e.target.name !== 'theme') return;
+    settings.update({ theme: e.target.value });
+    applyTheme(e.target.value);
+    toast(`外觀：${THEMES[e.target.value]}`, { duration: 1400 });
+  });
+  const pick = outlet.querySelector('[data-testid="theme-pick"]');
+  const onTheme = (e) => {
+    if (!pick.isConnected) { document.removeEventListener('mea:theme', onTheme); return; } // 已離開設定頁
+    const r = pick.querySelector(`[value="${e.detail}"]`);
+    if (r) r.checked = true;
+  };
+  document.addEventListener('mea:theme', onTheme);
 
   if (query.section) {
     const target = outlet.querySelector(`#${CSS.escape(query.section)}`);

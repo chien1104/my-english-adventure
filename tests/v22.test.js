@@ -103,3 +103,49 @@ test('程度測驗：和上次、第一次比較（只考閱讀的不算）', ()
   assert.equal(s.count, 3);
   assert.equal(progressSummary([{ at: 1, estimate: { total: 500 } }]).sincePrev, null);
 });
+
+import { newRun, answer, stageResult, runSummary, finishRun, questionFor, stageCount, STAGE_SIZE } from '../js/games/word-test.js';
+
+test('單字總測驗：分關、連對、錯字、最佳紀錄', () => {
+  const ids = Array.from({ length: 45 }, (_, i) => `w${i}`);
+  let run = newRun(ids, () => 0.3, 1);
+  assert.equal(run.order.length, 45);
+  assert.equal(new Set(run.order).size, 45);
+  assert.equal(stageCount(run), 3);
+  for (let i = 0; i < STAGE_SIZE; i++) run = answer(run, run.order[i], i % 4 !== 0);
+  const st = stageResult(run, 0);
+  assert.equal(st.total, 20);
+  assert.equal(st.right, 15);
+  assert.equal(st.rate, 75);
+  assert.equal(st.stars, 2);
+  assert.equal(st.wrong.length, 5);
+  assert.equal(run.bestCombo, 3);
+  const sum = runSummary(run);
+  assert.equal(sum.done, false);
+  assert.equal(sum.tested, 20);
+  const rec = finishRun({ best: { rate: 90, total: 40, at: 0 } }, sum, 5);
+  assert.equal(rec.best.rate, 90, '沒超過舊紀錄就不換');
+  assert.equal(finishRun(rec, { rate: 95, total: 45, right: 43 }, 9).best.at, 9);
+});
+
+test('單字總測驗：題型輪流，沒音檔時不出聽力和拼字', () => {
+  const W = (id, en) => ({ id, en, zh: id + '中', pos: 'n.', posZh: '名詞', ipa: '/x/', example: { en: `I like the ${en}.`, zh: '例' } });
+  const pool = ['apple', 'table', 'river', 'pencil', 'garden'].map((e) => W(e, e));
+  const kinds = [0, 1, 2, 3, 4].map((i) => questionFor(pool[0], pool, Math.random, i));
+  assert.ok(kinds.every((q) => !q.audio && q.kind !== 'spell'));
+  assert.equal(kinds[3].kind, 'cloze');
+  assert.ok(kinds.every((q) => q.id === 'wt-apple'));
+});
+
+import { resolveTheme, THEMES } from '../js/theme.js';
+import { sanitize as sanitizeSettings } from '../js/settings.js';
+
+test('外觀：白天／深色／跟著手機', () => {
+  assert.equal(resolveTheme('dark', false), 'dark');
+  assert.equal(resolveTheme('light', true), 'light');
+  assert.equal(resolveTheme('auto', true), 'dark');
+  assert.equal(resolveTheme('auto', false), 'light');
+  assert.deepEqual(Object.keys(THEMES), ['light', 'dark', 'auto']);
+  assert.equal(sanitizeSettings({ theme: 'dark' }).theme, 'dark');
+  assert.equal(sanitizeSettings({ theme: 'purple' }).theme, 'light', '不認得的值用預設');
+});

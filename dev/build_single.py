@@ -51,7 +51,7 @@ cat['contentVersion'] = cat['contentVersion'] + '-single'
 # 3. 打包程式
 bundle = subprocess.run(['npx', 'esbuild', os.path.join(ROOT, 'js/app.js'), '--bundle', '--format=iife', '--target=es2020', '--minify', '--charset=utf8'],
                         cwd='/home/claude/build', capture_output=True, text=True, check=True).stdout
-css = '\n'.join(open(os.path.join(ROOT, f'css/{n}.css')).read() for n in ['tokens', 'base', 'components'])
+css = '\n'.join(open(os.path.join(ROOT, f'css/{n}.css')).read() for n in ['tokens', 'base', 'components', 'theme', 'dark'])
 
 # 4. 組合 HTML
 html = open(os.path.join(ROOT, 'index.html')).read()

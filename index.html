@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/dark.css">
+  <script>/* 深色模式：在畫面出現前就套用，避免閃一下白底 */try{var p=JSON.parse(localStorage.getItem('mea.settings.v1')||'{}').theme||'light';if(p==='auto')p=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=p==='dark'?'dark':'light';}catch(e){}</script>
 </head>
 <body>
   <a class="skip-link" href="#app">跳到主要內容</a>
@@ -28,6 +30,7 @@
     </a>
     <div class="topbar__right">
       <a id="save-indicator" class="save-indicator" href="#/settings?section=data" hidden>檢查中…</a>
+      <button type="button" class="icon-link theme-toggle" data-act="theme-toggle" aria-label="切換成深色模式">🌙</button>
       <a class="icon-link" href="#/settings" aria-label="設定">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v2.5M12 18.5V21M3 12h2.5M18.5 12H21M5.6 5.6l1.8 1.8M16.6 16.6l1.8 1.8M5.6 18.4l1.8-1.8M16.6 7.4l1.8-1.8"/></svg>
       </a>

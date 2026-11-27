@@ -45,7 +45,7 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
   const openCount = worlds.filter((w) => w.state === 'open').length;
   const worldTotal = worlds.filter((w) => w.state !== 'nocontent').length;
   const doneCount = ctx.lessons.filter((l) => ctx.access.get(l.id)?.completed).length;
-  const mistakeCount = ctx.mistakes ? ctx.mistakes.filter((m) => !m.fixed).length : 0;
+  const mistakeCount = ctx.mistakes ? ctx.mistakes.filter((m) => m.due).length : 0; // 今天到期要複習的錯題
 
   const name = s.nickname ? escapeHTML(s.nickname) : '冒險者';
   // 今天要背的單字：依序從多益高頻開始，背完一個系列再換下一個
@@ -79,7 +79,7 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
       <dl class="stats">
         <div class="stat"><dt>學過的單字</dt><dd data-testid="review-count">${ctx.learnedCount}</dd></div>
         <div class="stat"><dt>完成課程</dt><dd data-testid="done-count">${doneCount}</dd></div>
-        <div class="stat"><dt>待訂正錯題</dt><dd><a class="stat-link" href="#/mistakes" data-testid="mistake-count">${mistakeCount}</a></dd></div>
+        <div class="stat"><dt>今天的錯題</dt><dd><a class="stat-link" href="#/mistakes" data-testid="mistake-count">${mistakeCount}</a></dd></div>
       </dl>
     </section>
 
