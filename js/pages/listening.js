@@ -70,6 +70,21 @@ export async function render({ outlet, db, query, settings, navigate }) {
   const round = pickRound(pool);
   let index = 0;
   const scores = [];
+  let skipped = 0;
+  // 跳過這一句：不計分，從題庫補一句還沒出現過的；題庫用完就直接下一句
+  function skip() {
+    const used = new Set(round.map((x) => x.en));
+    const extra = pool.find((x) => !used.has(x.en));
+    skipped += 1;
+    if (extra) {
+      round[index] = extra;
+      toast('已跳過，換一句新的（不計分）', { duration: 1400 });
+      paint();
+    } else {
+      toast('已跳過，這句不計分', { duration: 1400 });
+      next();
+    }
+  }
 
   function head() {
     return `<div class="listen-head">
@@ -94,6 +109,7 @@ export async function render({ outlet, db, query, settings, navigate }) {
             <textarea class="input en" name="typed" rows="3" placeholder="把聽到的英文打出來" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="聽寫內容" data-testid="dictation-input"></textarea>
             <button class="btn btn--primary btn--block" type="submit">對答案</button>
           </form>
+          <button type="button" class="skip-btn" data-act="skip" data-testid="listen-skip">⏭ 這句聽不出來／不方便聽，換一句（不計分）</button>
           <div data-role="result"></div>
         </section>`;
       const form = outlet.querySelector('[data-role="form"]');
@@ -104,6 +120,7 @@ export async function render({ outlet, db, query, settings, navigate }) {
         const r = compareDictation(s.en, typed);
         scores.push(r.rate);
         form.querySelectorAll('textarea, button').forEach((x) => { x.disabled = true; });
+        outlet.querySelector('[data-act="skip"]')?.remove();
         const res = outlet.querySelector('[data-role="result"]');
         res.innerHTML = `
           <div class="dict-result ${r.rate === 100 ? 'is-perfect' : ''}" data-testid="dictation-result">
@@ -132,6 +149,7 @@ export async function render({ outlet, db, query, settings, navigate }) {
           </div>
           <p class="hint">錄音只存在這個畫面，不會上傳，也不會保存。</p>` : ''}
           <button type="button" class="btn btn--primary btn--block" data-act="next" data-testid="listen-next">${index + 1 < round.length ? '唸好了，下一句' : '完成'}</button>
+          <button type="button" class="skip-btn" data-act="skip" data-testid="listen-skip">⏭ 跳過這句，換一句（不計分）</button>
         </section>`;
       outlet.querySelector('[data-act="next"]').addEventListener('click', () => { scores.push(100); next(); });
       const recBtn = outlet.querySelector('[data-act="rec"]');
@@ -162,6 +180,7 @@ export async function render({ outlet, db, query, settings, navigate }) {
       mineBtn?.addEventListener('click', () => { if (myUrl) new Audio(myUrl).play(); });
     }
     bindSpeed(outlet);
+    outlet.querySelector('[data-act="skip"]')?.addEventListener('click', skip);
     outlet.querySelector('[data-act="play"]').addEventListener('click', (e) => {
       const b = e.currentTarget;
       b.classList.add('is-playing');
@@ -173,12 +192,13 @@ export async function render({ outlet, db, query, settings, navigate }) {
   async function next() {
     if (index + 1 < round.length) { index += 1; paint(); window.scrollTo?.(0, 0); return; }
     cleanup();
-    const acc = Math.round(scores.reduce((a, b) => a + b, 0) / scores.length);
+    const acc = scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : 0;
     const earned = await logSession(db, { type: 'listening', mode, count: round.length, accuracy: acc });
     outlet.innerHTML = completeHTML({
       testid: 'listen-complete', icon: '🎧', title: `完成一輪${MODES[mode].name}！`,
-      accuracy: acc, firstCorrect: scores.filter((x) => x === 100).length, total: round.length,
-      chips: [{ text: `✨ +${earned?.amount || 0} EXP`, gold: true }, { text: `🔊 ${getPlaybackRate() === 1 ? '正常速度' : '0.8 倍速'}` }],
+      accuracy: acc, firstCorrect: scores.filter((x) => x === 100).length, total: scores.length,
+      chips: [{ text: `✨ +${earned?.amount || 0} EXP`, gold: true }, { text: `🔊 ${getPlaybackRate() === 1 ? '正常速度' : '0.8 倍速'}` },
+        ...(skipped ? [{ text: `⏭ 跳過 ${skipped} 句（不計分）` }] : [])],
       lines: [mode === 'dictation' ? '聽寫是最扎實的聽力練習：聽不到的字，通常就是發音和想像的不一樣。' : '跟讀能同時練聽力和口說，每天幾句就很有效。'],
       actions: `<a class="btn btn--primary" href="#/listening?mode=${mode}" data-act="again">再練一輪</a><a class="btn btn--ghost" href="#/listening">換個模式</a>`,
     });

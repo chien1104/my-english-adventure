@@ -66,8 +66,10 @@ export async function render({ outlet, db, query, navigate, settings }) {
       },
       async onComplete(s, stats) {
         meta.timesCompleted += 1;
-        meta.lastAccuracy = stats.accuracy;
-        meta.bestAccuracy = Math.max(meta.bestAccuracy ?? 0, stats.accuracy);
+        if (stats.total) { // 全部跳過時不更新成績
+          meta.lastAccuracy = stats.accuracy;
+          meta.bestAccuracy = Math.max(meta.bestAccuracy ?? 0, stats.accuracy);
+        }
         await save(s);
         if (lesson.type === 'vocab') {
           const now = Date.now();
@@ -93,6 +95,7 @@ export async function render({ outlet, db, query, navigate, settings }) {
     if (earned?.amount) chips.push({ text: `✨ +${earned.amount} EXP`, gold: true });
     chips.push({ text: `🏁 第 ${meta.timesCompleted} 次完成` });
     if (lesson.type === 'vocab') chips.push({ text: '📚 單字已加入複習' });
+    if (stats.skipped) chips.push({ text: `⏭ 跳過 ${stats.skipped} 題聽力（不計分）` });
     outlet.innerHTML = completeHTML({
       title: `完成「${lesson.title}」！`, accuracy: stats.accuracy, firstCorrect: stats.firstCorrect, total: stats.total, chips,
       actions: `<a class="btn btn--ghost" href="${worldHref}">回到${escapeHTML(world?.name || '世界')}</a>`,

@@ -16,7 +16,7 @@
 ## 架構
 
 - `index.html` + `js/app.js`（ES Modules，hash 路由 `#/home`）。必須用 localhost 或 HTTPS 開啟。
-- 資料：IndexedDB（`js/db.js`，目前 v2，`MIGRATIONS` 只能新增不能刪資料）＋ localStorage（`js/settings.js` 個人設定）。
+- 資料：IndexedDB（`js/db.js`，目前 v3，`MIGRATIONS` 只能新增不能刪資料）＋ localStorage（`js/settings.js` 個人設定）。
 - 教材：`data/catalog.json` 列出所有教材，App 啟動時寫入 IndexedDB。`contentVersion` 由 `dev/build_bank.py` 依所有教材檔內容自動產生，**改教材後重跑 build_bank.py**。
 - 世界地圖依多益架構：`js/pages/worlds.js` 的 `WORLDS`／`SECTIONS`；課程分配在 `dev/assign_worlds.py`（改 world、order、requires 與 catalog 順序）。
 - 多益單字庫：`dev/bank_src/{tsl,ngsl}-NN.txt`（每檔 100 字，順序對應 `lists.json` 的頻率排名）→ `dev/build_bank.py` 產生 `data/vocab/bank-*.json`、`data/series.json`、音檔清單。邏輯在 `js/bank.js`，畫面 `js/pages/words.js`（單字首頁）、`series.js`（單元列表）、`unit.js`（單元學習，進度存 progress `unit:<系列>:<序號>`）。單字表授權 CC BY-SA 4.0（NGSL／TSL），README 有標註。
@@ -50,7 +50,10 @@ python3 dev/build_single.py . out/my-english-adventure.html   # 產生單檔版�
 - 題目文字裡的英文（例如「repairs 是什麼意思？」）旁邊有 🔊：`dev/add_prompt_audio.py` 幫每題加 `promptSay`，音檔放 `assets/audio/prompts/`（有單字音檔就沿用）；人名不加。`build_content.py` 最後會自動呼叫它。
 - 稱謂 Ms./Mr. 在 TTS 時會換成 Miz/Mister（畫面仍顯示縮寫）。
 
-## 目前狀態（v2.1）
+## 目前狀態（v2.2）
+
+- 2.2：聽力題可跳過（`engine.skipQuestion`：不計分，同組有不用聽的相似題就補上；模擬考跳過的題 `scoreExam(..., skipped)` 不計分，也可選「只考閱讀」，此時只估閱讀分數）。
+- 2.2：多益程度測驗 `#/exam?id=level`（`js/level-test.js`）：從所有模擬考題庫依題組抽約 30 題、優先抽沒做過的，限時 25 分鐘；歷次成績存在 progress `leveltest`，首頁、學習分析、模擬考殿堂有入口和折線圖。
 
 - P1～P5 全部完成；依多益架構的 11 個世界共 56 堂課（文法 11 堂、Part 1～7 各約 5 堂）＋迷你模擬考＋兩回半長模擬考（100 題、60 分鐘）。
 - 2.1 課程在 `dev/content_v21*.py`（由 build_content.py 執行）；英式口音聲音 B＝bf_emma、BM＝bm_george，gen_audio 對 b 開頭的聲音用 en-gb。

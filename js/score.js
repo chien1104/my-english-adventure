@@ -8,18 +8,19 @@ const toSection = (correct, total) => {
   return Math.min(SECTION_MAX, Math.max(SECTION_MIN, Math.round(raw / 5) * 5));
 };
 
+// 聽力全部跳過（只考閱讀）時只估閱讀，total 是 null
 export function estimateScore({ listening, listeningTotal, reading, readingTotal }) {
-  if (!listeningTotal || !readingTotal) return null;
-  const L = toSection(listening, listeningTotal);
-  const R = toSection(reading, readingTotal);
-  const n = listeningTotal + readingTotal;
+  if (!listeningTotal && !readingTotal) return null;
+  const L = listeningTotal ? toSection(listening, listeningTotal) : null;
+  const R = readingTotal ? toSection(reading, readingTotal) : null;
+  const n = (listeningTotal || 0) + (readingTotal || 0);
   const margin = n >= 100 ? 40 : n >= 50 ? 60 : 90; // 題數越少，估計範圍越寬
-  return { listening: L, reading: R, total: L + R, margin, questions: n };
+  return { listening: L, reading: R, total: L !== null && R !== null ? L + R : null, margin, questions: n };
 }
 
 // 最近一次有預估分數的模擬考
 export function latestEstimate(progressList) {
   return progressList
-    .filter((p) => p.lastEstimate && p.completedAt)
+    .filter((p) => p.lastEstimate?.total && p.completedAt)
     .sort((a, b) => b.completedAt - a.completedAt)[0] || null;
 }

@@ -1,4 +1,6 @@
 // 單一世界的課程列表：#/world?id=words
+import { levelCardHTML } from './home.js';
+import { LEVEL_KEY, progressSummary } from '../level-test.js';
 import { loadContext } from '../learning.js';
 import { lessonKey, TYPE_LABEL, lessonHref } from '../progress.js';
 import { createState, expandLesson } from '../lesson/engine.js';
@@ -30,6 +32,7 @@ export async function render({ outlet, db, query, navigate }) {
       <h1 class="page-title">${w.icon} ${w.name}</h1>
       <p class="muted">${w.topic}・完成 ${w.done} / ${w.lessonCount} 課</p>
     </section>
+    ${w.id === 'mock' ? levelCardHTML(progressSummary(ctx.progressById.get(LEVEL_KEY)?.history)) : ''}
     <ol class="lesson-list" data-testid="lesson-list">
       ${lessons.map((l, i) => {
         const a = ctx.access.get(l.id);

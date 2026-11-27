@@ -47,10 +47,11 @@ export async function render({ outlet, db, navigate, settings }) {
         await afterActivity({ db, settings, earned: [earned] });
         const after = await loadContext(db);
         const left = after.mistakes.filter((m) => !m.fixed).length;
-        const right = [...first.values()].filter(Boolean).length;
-        const acc = questions.length ? Math.round((right / questions.length) * 100) : 0;
+        const counted = questions.filter((q) => first.has(q.id)).length; // 跳過的聽力題不計分
+        const right = questions.filter((q) => first.get(q.id)).length;
+        const acc = counted ? Math.round((right / counted) * 100) : 0;
         outlet.innerHTML = completeHTML({
-          testid: 'retrain-complete', icon: '📕', title: '錯題重練完成！', accuracy: acc, firstCorrect: right, total: questions.length,
+          testid: 'retrain-complete', icon: '📕', title: '錯題重練完成！', accuracy: acc, firstCorrect: right, total: counted,
           chips: [{ text: left ? `📌 還有 ${left} 題待訂正` : '🏆 全部錯題都訂正了！', gold: !left }],
           lines: [left ? `還有 ${left} 題待訂正。` : '全部錯題都訂正了！'],
           actions: '<a class="btn btn--primary" href="#/mistakes">回錯題百科</a>',

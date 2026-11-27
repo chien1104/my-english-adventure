@@ -15,6 +15,18 @@ import { celebrate } from '../ui/celebrate.js';
 import { todayKey } from '../settings.js';
 import { favoriteCount } from '../favorites.js';
 import { latestEstimate } from '../score.js';
+import { LEVEL_KEY, progressSummary } from '../level-test.js';
+
+// 多益程度測驗入口：有紀錄就顯示上次分數和進步
+export function levelCardHTML(sum) {
+  const d = sum?.sincePrev;
+  return `<a class="level-cta" href="#/exam?id=level" data-testid="level-cta">
+    <span class="level-cta__icon" aria-hidden="true">📈</span>
+    <span class="level-cta__text"><strong>多益程度測驗</strong>
+      <small>${sum ? `上次預估 ${sum.last.estimate.total} 分${d ? `（${d > 0 ? '▲' : '▼'} ${Math.abs(d)}）` : ''}・再測一次看進步` : '25 分鐘測出目前程度，之後重測看有沒有進步'}</small></span>
+    <span class="level-cta__go" aria-hidden="true">›</span>
+  </a>`;
+}
 
 export async function render({ outlet, db, settings, refreshIndicator }) {
   const s = settings.get();
@@ -28,6 +40,7 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
   const status = await getStorageStatus({ db });
   const desc = describeStatus(status, s.persistRequest);
   const est = latestEstimate([...ctx.progressById.values()]);
+  const levelSum = progressSummary(ctx.progressById.get(LEVEL_KEY)?.history);
   const worlds = worldStatus(ctx);
   const openCount = worlds.filter((w) => w.state === 'open').length;
   const worldTotal = worlds.filter((w) => w.state !== 'nocontent').length;
@@ -98,6 +111,8 @@ export async function render({ outlet, db, settings, refreshIndicator }) {
         ${challenge.done ? '<p class="status-line status-line--good">今天的挑戰完成了！</p>' : `<a class="btn btn--primary btn--sm" href="#/game?id=${challenge.game}">去挑戰</a>`}
       </div>` : ''}
     </section>` : ''}
+
+    ${levelCardHTML(levelSum)}
 
     <nav class="tile-grid" aria-label="快速入口">
       <a class="tile-link" href="#/worlds"><span class="tile-link__icon ti-1" aria-hidden="true">🗺️</span><strong>學習世界</strong><small>已開放 <b data-testid="open-worlds">${openCount}</b> / ${worldTotal} 個世界</small></a>

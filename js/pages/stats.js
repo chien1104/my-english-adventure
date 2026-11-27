@@ -6,6 +6,9 @@ import { escapeHTML } from '../ui/dom.js';
 import { answerText } from '../lesson/engine.js';
 import { analyzeWeakness } from '../weakness.js';
 import { latestEstimate } from '../score.js';
+import { LEVEL_KEY, progressSummary } from '../level-test.js';
+import { levelCardHTML } from './home.js';
+import { historyChartHTML } from './exam.js';
 
 // 單字熟悉度：三色已用 dataviz 驗證工具檢查（色盲可分辨），並一律搭配文字標籤
 const STATUS_COLORS = { new: '#6F8BD0', learning: '#D9952A', familiar: '#1F8A5E' };
@@ -71,6 +74,8 @@ export async function render({ outlet, db }) {
   const totalWords = s.status.new + s.status.learning + s.status.familiar;
   const weak = analyzeWeakness(ctx.lessons, ctx.attempts);
   const est = latestEstimate([...ctx.progressById.values()]);
+  const levelHist = ctx.progressById.get(LEVEL_KEY)?.history || [];
+  const levelSum = progressSummary(levelHist);
   const bar = (x, short = false) => `<li class="hbar${x.total ? '' : ' is-empty'}"><span class="hbar__name">${escapeHTML(short ? x.name.replace(/^Part (\d) .*/, 'Part $1') : x.name)}</span>
     <span class="hbar__track"><span class="hbar__fill${x.rate !== null && x.rate < 60 ? ' is-low' : ''}" style="width:${x.rate ?? 0}%"></span></span>
     <span class="hbar__val en">${x.rate === null ? '—' : `${x.rate}%`}</span><span class="hbar__sub">${x.total ? `${x.correct}/${x.total} 題` : '還沒練習'}${short ? `・${escapeHTML(x.name.slice(7))}` : ''}</span></li>`;
@@ -103,6 +108,12 @@ export async function render({ outlet, db }) {
       <p class="muted">完成一次模擬考（在「模擬考殿堂」）後，這裡會依答對率估計你的多益分數。</p>
       <a class="btn btn--ghost btn--sm" href="#/world?id=mock">去模擬考殿堂</a>
     </section>`}
+
+    <section class="card" data-testid="st-level">
+      <h2 class="card__title">程度變化</h2>
+      ${levelCardHTML(levelSum)}
+      ${historyChartHTML(levelHist) || (levelHist.length ? '<p class="muted small">再測一次就能畫出分數變化。</p>' : '')}
+    </section>
 
     <section class="card" data-testid="st-weakness">
       <h2 class="card__title">弱點分析</h2>

@@ -287,9 +287,9 @@
             "for"
           ],
           "answer": "at",
-          "explanation": "一個明確的地點（機場）用 at。",
-          "sentence": "Let's meet ___ the airport.",
-          "zh": "我們在機場碰面吧。"
+          "explanation": "一個明確的地點（公車站）用 at。",
+          "sentence": "Let's meet ___ the bus stop.",
+          "zh": "我們在公車站碰面吧。"
         }
       ],
       "similar": [

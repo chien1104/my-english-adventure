@@ -5,6 +5,7 @@ import { renderQuestion, lockQuestion, feedbackHTML, optionNotesHTML } from '../
 import { wordCardHTML, attachAudioButtons } from '../ui/word-card.js';
 import { playButtonHTML } from '../audio.js';
 import { burst, glow, banner, haptic } from '../ui/fx.js';
+import { toast } from '../ui/toast.js';
 
 function highlight(en, word) {
   const safe = escapeHTML(en);
@@ -172,6 +173,10 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
       nextBtn.hidden = true;
       renderQuestion(qBox, q, { wordsMap, onAnswer: onAnswer.bind(null, q, qBox) });
       const pending = E.pendingResult(lesson, state);
+      if (!pending && E.canSkip(q)) {
+        qBox.insertAdjacentHTML('beforeend', `<button type="button" class="skip-btn" data-act="skip" data-testid="skip-listening">🎧 現在不方便聽？跳過這題（不計分）</button>`);
+        qBox.querySelector('[data-act="skip"]').addEventListener('click', onSkip);
+      }
       if (pending) {
         lockQuestion(qBox, q, pending.answer, pending.correct);
         showFeedback(pending);
@@ -233,6 +238,27 @@ export function mountPlayer({ outlet, lesson, state: initial, wordsMap, records,
     cont.focus({ preventScroll: true });
     clearTimeout(autoTimer);
     if (auto) autoTimer = setTimeout(() => { if (fb.isConnected && fb.classList.contains('feedback-sheet')) goNext(); }, AUTO_NEXT_MS);
+  }
+
+  // 跳過聽力題：不計分；有不用聽的同組題目就補上一題
+  async function onSkip() {
+    if (busy) return;
+    busy = true;
+    try {
+      stopPace();
+      const { state: next, replaced } = E.skipQuestion(lesson, state);
+      state = next;
+      await save();
+      toast(replaced ? '已跳過，補上一題不用聽的題目' : '已跳過，這題不計分', { duration: 1600 });
+      if (state.status === 'completed') {
+        await hooks.onComplete?.(state, E.lessonStats(lesson, state));
+        return;
+      }
+      paint();
+      window.scrollTo?.(0, 0);
+    } finally {
+      busy = false;
+    }
   }
 
   async function goNext() {

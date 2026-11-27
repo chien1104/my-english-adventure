@@ -155,6 +155,30 @@ export function submitAnswer(lesson, state, answer, now = Date.now()) {
   return { state: s, result: { correct, question: q, followUp, correctText: answerText(q), yourText: answerText(q, answer) } };
 }
 
+// 聽力題可以跳過：不計分。同組有「不用聽」的相似題時補上一題（例如單字的聽音題改成例句填空）
+export const canSkip = (q) => !!q?.audio;
+
+export function skipQuestion(lesson, state, now = Date.now()) {
+  const step = currentStep(lesson, state);
+  if (!step || step.kind !== 'practice') throw new Error('目前不是練習題');
+  const s = structuredClone(state);
+  const p = s.practice[s.stepIndex] || freshPractice(step);
+  s.practice[s.stepIndex] = p;
+  if (p.answered) throw new Error('這題已經作答');
+  const q = findQuestion(step, p.queue[p.pos]);
+  if (!canSkip(q)) throw new Error('這題不能跳過');
+  const replacement = (step.similar || []).find((x) => x.group === q.group && !x.audio && !p.usedSimilar.includes(x.id) && x.id !== q.id);
+  p.results.push({ qid: q.id, group: q.group, correct: null, skipped: true, at: now });
+  if (replacement) {
+    p.usedSimilar.push(replacement.id);
+    p.queue.splice(p.pos + 1, 0, replacement.id);
+    (p.replacedFor ||= {})[replacement.id] = q.id;
+  }
+  p.answered = true;
+  const next = advance(lesson, s, now);
+  return { state: next, replaced: replacement || null };
+}
+
 export function canAdvance(lesson, state) {
   const step = currentStep(lesson, state);
   if (!step) return false;
@@ -209,6 +233,7 @@ export function reviewItems(lesson, state, uptoIndex = state.stepIndex) {
     const step = lesson.steps[i];
     if (step.kind !== 'practice' || !state.practice[i]) continue;
     for (const r of state.practice[i].results) {
+      if (r.skipped) continue;
       const q = findQuestion(step, r.qid);
       items.push({ question: q, correct: r.correct, yourText: answerText(q, r.answer), correctText: answerText(q), retry: !step.questions.some((m) => m.id === r.qid) });
     }
@@ -220,16 +245,23 @@ export function reviewItems(lesson, state, uptoIndex = state.stepIndex) {
 export function lessonStats(lesson, state) {
   let total = 0;
   let firstCorrect = 0;
+  let skipped = 0;
   lesson.steps.forEach((step, i) => {
     if (step.kind !== 'practice') return;
     const p = state.practice[i];
     for (const q of step.questions) {
+      let first = p && p.results.find((r) => r.qid === q.id);
+      if (first?.skipped) {
+        // 跳過的聽力題：有補題就用補題的結果，沒有就不計分
+        const sub = Object.entries(p.replacedFor || {}).find(([, orig]) => orig === q.id)?.[0];
+        first = sub ? p.results.find((r) => r.qid === sub) : null;
+        if (!first) { skipped += 1; continue; }
+      }
       total += 1;
-      const first = p && p.results.find((r) => r.qid === q.id);
       if (first && first.correct) firstCorrect += 1;
     }
   });
-  return { total, firstCorrect, accuracy: total ? Math.round((firstCorrect / total) * 100) : 0 };
+  return { total, firstCorrect, skipped, accuracy: total ? Math.round((firstCorrect / total) * 100) : 0 };
 }
 
 export function stepLabel(lesson, state) {

@@ -1,7 +1,7 @@
 // My English Adventure Service Worker
 // 讓 App 在沒有網路時也能開啟、上課、播放已下載的音檔。
 // 學習資料存在 IndexedDB，不在這裡；更新 App 不會影響學習紀錄。
-const VERSION = '2026.11.25-v2.1.0';
+const VERSION = '2026.11.27-v2.2.0';
 const SHELL_CACHE = `mea-shell-${VERSION}`;
 const AUDIO_CACHE = 'mea-audio-v1';
 
@@ -143,6 +143,7 @@ const PRECACHE = [
   "js/learning.js",
   "js/lesson/engine.js",
   "js/lesson/player.js",
+  "js/level-test.js",
   "js/listening.js",
   "js/mistakes.js",
   "js/pages/achievements.js",

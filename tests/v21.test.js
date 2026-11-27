@@ -39,8 +39,12 @@ test('預估分數：線性換算、5 分一級、題數少誤差大', () => {
   assert.ok(mid.total > 500 && mid.total < 600, String(mid.total));
   assert.equal(mid.margin, 40);
   assert.equal(estimateScore({ listening: 6, listeningTotal: 12, reading: 4, readingTotal: 9 }).margin, 90);
-  assert.equal(estimateScore({ listening: 1, listeningTotal: 0, reading: 1, readingTotal: 3 }), null);
-  const latest = latestEstimate([{ completedAt: 1, lastEstimate: { total: 400 } }, { completedAt: 5, lastEstimate: { total: 600 } }, { completedAt: 9 }]);
+  const readOnly = estimateScore({ listening: 0, listeningTotal: 0, reading: 3, readingTotal: 3 });
+  assert.equal(readOnly.listening, null, '聽力全跳過：只估閱讀');
+  assert.equal(readOnly.reading, 495);
+  assert.equal(readOnly.total, null);
+  assert.equal(estimateScore({ listening: 0, listeningTotal: 0, reading: 0, readingTotal: 0 }), null);
+  const latest = latestEstimate([{ completedAt: 1, lastEstimate: { total: 400 } }, { completedAt: 5, lastEstimate: { total: 600 } }, { completedAt: 9 }, { completedAt: 12, lastEstimate: { total: null, reading: 300 } }]);
   assert.equal(latest.lastEstimate.total, 600);
 });
 

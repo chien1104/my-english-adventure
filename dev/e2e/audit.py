@@ -85,7 +85,7 @@ try:
         routes = ['#/home', '#/worlds', '#/words', '#/review', '#/review?mode=free', '#/games', '#/game?id=match', '#/game?id=speed', '#/game?id=spell',
                   '#/mistakes', '#/mistake-practice', '#/settings', '#/achievements', '#/stats', '#/diagnosis', '#/exam?id=mock-1',
                   '#/series?id=hot', '#/series?id=core3', '#/series?id=topic-travel', '#/unit?id=hot:0', '#/unit?id=toeic:3',
-                  '#/exam?id=mock-2', '#/listening', '#/listening?mode=dictation', '#/listening?mode=shadow', '#/review?mode=fav']
+                  '#/exam?id=mock-2', '#/exam?id=level', '#/listening', '#/listening?mode=dictation', '#/listening?mode=shadow', '#/review?mode=fav']
         worlds = sorted({l['world'] for l in LESSONS})
         routes += [f'#/world?id={w}' for w in worlds]
         for w in ([] if ONLY_BUTTONS else WIDTHS):

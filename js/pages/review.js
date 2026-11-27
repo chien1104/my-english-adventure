@@ -55,11 +55,13 @@ export async function render({ outlet, db, navigate, query = {}, settings }) {
         afterActivity({ db, settings, earned: [earned] });
         const right = [...results.values()].filter(Boolean).length;
         const familiar = questions.filter((q) => ctx.records.get(q.wordId)?.status === 'familiar').length;
-        const acc = questions.length ? Math.round((right / questions.length) * 100) : 0;
+        const counted = results.size; // 跳過的聽力題不計分
+        const skipped = questions.length - counted;
+        const acc = counted ? Math.round((right / counted) * 100) : 0;
         outlet.innerHTML = completeHTML({
-          testid: 'review-complete', icon: '📚', title: '複習完成！', accuracy: acc, firstCorrect: right, total: questions.length,
-          chips: [{ text: `💪 ${familiar} 個已達「熟悉」`, gold: familiar > 0 }],
-          lines: [`第一次就答對 ${right} / ${questions.length} 個單字。${free ? '自由練習答對不改變排程，答錯的已排到今天複習。' : '答對的單字下次複習間隔會拉長。'}`],
+          testid: 'review-complete', icon: '📚', title: '複習完成！', accuracy: acc, firstCorrect: right, total: counted,
+          chips: [{ text: `💪 ${familiar} 個已達「熟悉」`, gold: familiar > 0 }, ...(skipped ? [{ text: `⏭ 跳過 ${skipped} 題聽力（不計分）` }] : [])],
+          lines: [`第一次就答對 ${right} / ${counted} 個單字。${free ? '自由練習答對不改變排程，答錯的已排到今天複習。' : '答對的單字下次複習間隔會拉長。'}`],
           actions: `<a class="btn btn--primary" href="#/words">回單字</a>
             ${free ? '<button type="button" class="btn btn--ghost" data-act="again">再練一次</button>' : ''}`,
         });

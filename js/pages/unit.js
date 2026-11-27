@@ -88,6 +88,7 @@ export async function render({ outlet, db, query, navigate, settings }) {
         const earned = await awardExp(db, `unit:${unitId}:${timesCompleted}`, first ? EXP.unitFirst : EXP.unitRepeat,
           `${first ? '學完' : '重新學完'}「${lesson.title}」`, now);
         const chips = [{ text: `✨ +${earned?.amount || 0} EXP`, gold: true }, { text: `📚 ${ids.length} 個單字排進複習` }];
+        if (stats.skipped) chips.push({ text: `⏭ 跳過 ${stats.skipped} 題聽力（不計分）` });
         outlet.innerHTML = completeHTML({
           testid: 'unit-complete', icon: series.icon || '🎉', title: `學完${lesson.title}！`,
           accuracy: stats.accuracy, firstCorrect: stats.firstCorrect, total: stats.total, chips,
